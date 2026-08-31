@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://amppz.mimuw.edu.pl/rankingi-amppz/rankingSimple.htm">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+	<meta charset=utf-8 />	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		 					
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>	-->
+	<script type="text/javascript" src="js/jquery-1.7.min.js"></script>		
+	<script language="javascript" type="text/javascript" src="js/d3.min.js"></script>
+	<!--<script language="javascript" type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>-->
+    <!--<script language="javascript" type="text/javascript" src="js/d3.layout.js"></script>-->
+	<script language="javascript" type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="CAcmvis.js"></script>		
+	<script type="text/javascript" src="CAdapter.js"></script>		
+	<script type="text/javascript" src="CModel.js"></script>		
+	<script type="text/javascript" src="CRanking.js"></script>		
+	<script type="text/javascript" src="CClock.js"></script>		
+	<script type="text/javascript" src="CDonut.js"></script>		
+	<script type="text/javascript" src="CPanel.js"></script>		
+	<script>				
+		/*var adapter = new CAdapter();
+		CAcmvis.settings.downloadEventsAsync = false;
+		adapter.getEvents();		
+		var model = new CModel(adapter);				
+		model.init();	
+		model.setTime(360000);		
+		var ranking = new CRanking(model, "#ranking");						
+		ranking.settings.headerRowHeight = 55;
+		ranking.settings.visibleTeams = model.teams.getTeams().length;*/
+		var acmvis = new CAcmvis();
+		$(document).ready(function() {							
+			acmvis.simpleRanking('#ranking');
+		});		
+	</script>
+	<style>	
+	body {
+		color: black;
+	}
+	.row, .headerRow {
+		position: absolute;
+		height: 50px;
+	}
+	.row > * {
+		height: 50px;
+		line-height: 50px;
+	}
+	.teamToTask, .headerRow .task {
+		width: 58px !important;
+		
+	}
+	.teamToTask, .teamToTask, .name, .score, .time, .header, .rank{		
+		position: absolute;
+		display: block;		
+		top: 0px;
+		text-align: center;
+	}	
+	#ranking {		
+		position: relative;
+		width: 1000px;
+		margin: 0px auto;
+	}
+	</style>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://amppz.mimuw.edu.pl/rankingi-amppz/rankingSimple.htm">http://amppz.mimuw.edu.pl/rankingi-amppz/rankingSimple.htm</a> (fetched 2026-04-15) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/poland-2012.html">poland-2012</a>)  <a href="https://web.archive.org/web/20190913204704/http://amppz.mimuw.edu.pl:80/rankingi-amppz/rankingSimple.htm">wayback</a></div>
+
+	<!--<span onclick='hop();' style="z-index: 10000; background: blue;">HOP</span>-->	
+	<div id="header"></div>
+	<div id="ranking" style="z-index: 0; ">
+	</div>	
+	<div id="footer"></div>
+</body>
+</html>
