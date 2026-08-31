@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 oldie no-js"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9 no-js"> <![endif]-->
+<html lang="en-US">
+<head class="animated">
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://www.acmacpc.org/jordan">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jordan | ACM ACPC</title>
+
+
+<link rel='stylesheet' id='madza-style-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='css-animation-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/css/animate-custom.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-css-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/css/bootstrap-responsive.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='madzatheme-fonts-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/FortAwesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider_css-css'  href='http://acmacpc.org/wp-content/plugins/LayerSlider/css/layerslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cntctfrmStylesheet-css'  href='http://acmacpc.org/wp-content/plugins/contact-form-plugin/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://acmacpc.org/wp-content/plugins/nextgen-gallery/css/nggallery.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://acmacpc.org/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='mymail-form-css'  href='http://acmacpc.org/wp-admin/admin-ajax.php?action=mymail_form_css' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-jquery-ui-css'  href='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/jqueryUI/css/snvdshc/jquery-ui-1.9.2.custom.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-layout-css'  href='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/style/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='synved-shortcode-jquery-ui-custom-css'  href='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/style/jquery-ui.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/flex-slider/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/superfish/superfish.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/superfish/supersubs.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/superfish/hoverIntent.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/effects.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/elastislide/jquery.elastislide.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/jquery-hover-effect.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/retina.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/LayerSlider/js/jquerytransit.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/LayerSlider/js/layerslider.transitions.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery.ba-bbq.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery.scrolltab.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.core.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.widget.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.accordion.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.button.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/script/jquery-unselectable.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/ui/jquery.ui.slider.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/script/base.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/synved-shortcodes/synved-shortcode/script/custom.js'></script>
+<!-- <meta name="NextGEN" version="1.9.10" /> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=yes"/> 		
+		
+		
+		<link rel="icon" href="" type="image/x-icon" >
+		<link rel="shortcut icon" href="" type="image/x-icon" >
+
+		<link rel="pingback" href="http://acmacpc.org/xmlrpc.php" >
+		<link rel="profile" href="http://gmpg.org/xfn/11" >
+		<script type="text/javascript">
+			jQuery(document).ready(function() { 
+				jQuery(document).pngFix(); 
+			}); 
+			
+			jQuery(document).ready(function(){ 
+			jQuery("ul.sf-menu").supersubs({ 
+			    minWidth:    6,   
+			    maxWidth:    27,               
+			    extraWidth:  1     
+			                       
+			}).superfish({ 
+				speed:         'fast',
+			    delay:     100            // 1.2 second delay on mouseout 
+			});                           
+			                
+			});
+		</script>
+	
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript">
+	(function(a,b){function k(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function l(){var a=r.elements;return typeof a=="string"?a.split(" "):a}function m(a){var b=i[a[g]];return b||(b={},h++,a[g]=h,i[h]=b),b}function n(a,c,f){c||(c=b);if(j)return c.createElement(a);f=f||m(c);var g;return f.cache[a]?g=f.cache[a].cloneNode():e.test(a)?g=(f.cache[a]=f.createElem(a)).cloneNode():g=f.createElem(a),g.canHaveChildren&&!d.test(a)?f.frag.appendChild(g):g}function o(a,c){a||(a=b);if(j)return a.createDocumentFragment();c=c||m(a);var d=c.frag.cloneNode(),e=0,f=l(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function p(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(a){return r.shivMethods?n(a):b.createElem(a)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+l().join().replace(/\w+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(r,b.frag)}function q(a){a||(a=b);var c=m(a);return r.shivCSS&&!f&&!c.hasCSS&&(c.hasCSS=!!k(a,"article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}")),j||p(a,c),a}var c=a.html5||{},d=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,e=/^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,f,g="_html5shiv",h=0,i={},j;(function(){var a=b.createElement("a");a.innerHTML="<xyz></xyz>",f="hidden"in a,j=a.childNodes.length==1||function(){try{b.createElement("a")}catch(a){return!0}var c=b.createDocumentFragment();return typeof c.cloneNode=="undefined"||typeof c.createDocumentFragment=="undefined"||typeof c.createElement=="undefined"}()})();var r={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,supportsUnknownElements:j,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:q,createElement:n,createDocumentFragment:o};a.html5=r,q(b)})(this,document)
+	</script>
+	<![endif]--> 
+	
+	<style type="text/css">
+
+
+
+
+
+	
+			
+
+
+
+
+
+
+.mt_donation_button {  background-color: #000000; }
+
+	
+#mb_home_button_home, #mb_home_button:hover,
+ul.sf-menu li.current-cat > a, div.sf-menu ul li.current-cat > a,
+ul.sf-menu li.current-menu-item > a, div.sf-menu ul li.current-menu-item > a,
+ul.sf-menu li.current_page_item > a, div.sf-menu ul li.current_page_item > a,
+ul.sf-menu li.current-menu-ancestor > a, div.sf-menu ul  li.current-menu-ancestor > a,
+ul.sf-menu li a:hover, div.sf-menu ul li a:hover,
+.single-post #nav ul li.blogbutton a,
+.single-portfolio #nav ul li.portfoliobutton a{ 
+	border-top-color: #000000;
+	color: #000000;
+}
+
+.mt_style_header_2 .sf-menu li.current-cat > a, 
+.mt_style_header_2 .sf-menu li.current_page_item > a, 
+.mt_style_header_2 .sf-menu li.current-menu-item > a,
+.mt_style_header_2 .sf-menu li a:hover,
+.mt_style_header_2 .sf-menu li.current-menu-ancestor > a{ 
+	background-color: #000000;
+	color: white
+} 
+
+.mt_style_header_3 .sf-menu li.current-cat > a, 
+.mt_style_header_3 .sf-menu li.current_page_item > a, 
+.mt_style_header_3 .sf-menu li.current-menu-item > a,
+.mt_style_header_3 .sf-menu li a:hover,
+.mt_style_header_3 .sf-menu li.current-menu-ancestor > a{ 
+	background-color: #000000;
+	color: white
+} 
+
+ul.sf-menu li.current-cat > a, div.sf-menu ul li.current-cat > a,
+ul.sf-menu li.current-menu-item > a, div.sf-menu ul li.current-menu-item > a,
+ul.sf-menu li.current_page_item > a, div.sf-menu ul li.current_page_item > a,
+ul.sf-menu li.current-menu-ancestor > a, div.sf-menu ul  li.current-menu-ancestor > a,
+ul.sf-menu li a:hover, div.sf-menu ul li a:hover,
+
+a:hover,
+input:hover,
+#full-page-home div div ul li a:hover, 
+.menu_categories ul li ul li a:hover, 
+#full-page-home div div ul li ul li a:hover,
+.meta-date-blog a:hover, 
+.meta-category-blog a:hover, 
+.meta-author-blog a:hover, 
+.meta-tags-blog a:hover, 
+.meta-comment-blog a:hover,
+.line-breadcrumb-ultra p a:hover,
+.line-title-ultra p a:hover,
+.comment-author.vcard a:hover,
+#title-right-single a div:hover,
+.reply a:hover,
+.logged-in-as a:hover,
+#post-link-button a:hover,
+.homepage-blog-post-meta a:hover,
+.search-input:hover,
+ul#filter a:hover,
+.portfolio_link:hover,
+.more-link-2 a:hover, 
+.more-diva-2 a:hover,
+.entry-title a:hover,
+#sub-footer a:hover,
+ul#filterm li.current a,
+ul#filterm li a:hover,
+.menu_categories .current-cat a,
+.menu_categories ul li:hover a { color: #000000; }
+
+
+ul.sf-menu ul li.current-cat > a, div.sf-menu ul ul li.current-cat > a,
+ul.sf-menu ul li.current_page_item > a, div.sf-menu ul ul li.current_page_item > a,
+ul.sf-menu ul li.current-menu-item > a, div.sf-menu ul ul li.current-menu-item > a,
+ul.sf-menu ul li.current-menu-ancestor > a, div.sf-menu ul ul li.current-menu-ancestor > a,
+ul.sf-menu ul ul li.current-cat > a, div.sf-menu ul ul ul li.current-cat > a,
+ul.sf-menu ul ul li.current-menu-item > a, div.sf-menu ul ul ul li.current-menu-item > a,
+ul.sf-menu ul ul li.current_page_item > a, div.sf-menu ul ul ul li.current_page_item > a,
+ul.sf-menu ul ul li.current-menu-ancestor > a, div.sf-menu ul ul ul li.current-menu-ancestor > a,
+ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
+	border-bottom-color: #000000;
+	color: #000000!important;
+}
+
+
+.port-file-3 .more-link span:hover,
+.footer_widget_midle ul li a:hover,
+.post-format-image, .post-format-image-quote, .post-format-image-video, .post-format-image-image, .post-format-image-link, .post-format-image-gallery,
+.entry-meta .more-link span:hover,
+.more-link.mt-donate-link span,
+.ewd_form input[type="submit"]:hover,
+#tribe-bar-form .tribe-bar-submit input[type=submit],
+.tribe-events-read-more:hover,
+.tribe-events-nav-left a:hover,
+.tribe-events-list .tribe-events-event-cost span,
+.tribe-events-cost,
+.tribe-events-back a:hover,
+.tribe-events-nav-previous a:hover,
+.tribe-events-nav-next a:hover,
+.tribe-events-widget-link a:hover,
+table.tribe-events-calendar th  { 
+	background-color: #000000!important; color: white!important;
+}
+
+.dark-background,
+#header-title,
+.dark-background-2,
+.wpb_button:hover,
+#mb-content .form-submit #submit:hover,
+.progress-striped .bar {  background-color: #000000!important; }
+
+.port-file-3 .more-link span:hover,
+.wpb_button:hover,
+#mb-content .wpcf7-submit:hover,
+.entry-meta .more-link span:hover,
+.mt_donation_button,
+#mb-content .form-submit #submit:hover,
+.more-link.mt-donate-link span,
+.ewd_form input[type="submit"]:hover,
+#tribe-bar-form .tribe-bar-submit input[type=submit],
+.tribe-events-read-more:hover,
+.tribe-events-nav-left a:hover,
+.tribe-events-back a:hover,
+.tribe-events-nav-previous a:hover,
+.tribe-events-nav-next a:hover,
+.tribe-events-widget-link a:hover,
+#tribe-events-content table.tribe-events-calendar,
+#tribe-events-content .tribe-events-calendar td  {  border-color: #000000!important; }
+
+
+
+#mt_3d_slider #viewport, #mt_3d_slider #box, #mt_3d_slider .slide, #slider-nivo, #slider_image { height: 350px!important; }#mt_3d_slider #time-indicator { top: 350px!important; }
+
+#slider-midle {background:none!important;}.nav li a strongs, #title-button, .nivo-caption-bg h1, .tp-simpleresponsive .caption {font-family: 'Droid Serif', serif;}h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,#title-left h1, .entry-title p, .entry-title p {font-family: 'Droid Serif', serif;}
+
+</style>
+<style type="text/css"></style>
+
+<style type="text/css">
+    .site-logo { background:url('http://acmacpc.org/wp-content/themes/acmacpc/images/logo.png'); width:225px; height:92px; float:left;}
+    .site-flag { background:url('http://acmacpc.org/wp-content/themes/acmacpc/images/flag.png'); width:146px; height:92px; float:left;}
+</style>
+
+</head>
+<body class="" >
+<div id="icpc-archive-banner">Archived copy of <a href="http://www.acmacpc.org/jordan">http://www.acmacpc.org/jordan</a> (fetched 2026-04-15) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/jordan-2011.html">jordan-2011</a>)  <a href="https://web.archive.org/web/20141225163133/http://acmacpc.org:80/jordan">wayback</a></div>
+
+
+ 
+<img id="background" src="" alt=""  />
+	
+		
+		<header id="header">
+			<div class="container">
+				<div class="row">
+				
+			    	<div class="span4">	<a class="visible-desktop" style="margin-top:15px" id="logo" href="http://acmacpc.org">
+	   <div class="site-logo"></div>	
+	</a>
+	
+	<a class="hidden-desktop" style="margin-top:15px" id="logo" href="http://acmacpc.org">
+	
+		<img  width="225" height="92" src="http://acmacpc.org/wp-content/themes/acmacpc/images/logo.png" alt="ACM ACPC" />
+		
+	</a>
+	</div>	
+			    	
+			    	<div class="span8 header-right">
+			    		
+			    		<div id="header_html_area"></div>			    		 
+    
+        <div class="site-flag"></div>
+    
+        <ul id="header-socials" class="tt-wrapper"> <li class="tt-facebook header-social"><a class="facebook" href="https://www.facebook.com/acmacpc"><span>Facebook</span></a></li><li class=" header-social"><a class="twitter" href="https://twitter.com/acmacpc"><span>Twitter</span></a></li><li class=" header-social"><a class="youtube" href="https://www.youtube.com/acmacpc"><span>Youtube</span></a></li><li class=" header-social"><a class="gplus" href="https://plus.google.com/112013031628240257503"><span>GooglePlus</span></a></li> </ul> 
+    
+        <div class="clear"></div>
+        
+    	
+			    		
+				    </div>
+				     
+			    </div>
+		    </div>
+		    
+		 </header>
+		 
+		 <div id="nav"> 
+		 	
+			<div class="container">
+				<div class="row">
+					
+					<div class="span12"><div class="menu-main-menu-container"><ul id="menu" class="sf-menu"><li id="menu-item-6785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6785"><a href="http://acmacpc.org/">Home</a></li>
+<li id="menu-item-6784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6784"><a href="http://acmacpc.org/about">About</a></li>
+<li id="menu-item-6783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6783"><a href="http://acmacpc.org/register">Register</a></li>
+<li id="menu-item-6782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6782"><a href="http://acmacpc.org/rules">Rules</a></li>
+<li id="menu-item-6781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6781"><a href="http://acmacpc.org/schedule">Schedule</a></li>
+<li id="menu-item-6796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6796"><a href="http://acmacpc.org/gallery">Gallery</a></li>
+<li id="menu-item-7088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7088"><a href="#archive">Archive</a>
+<ul class="sub-menu">
+	<li id="menu-item-7130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7130"><a href="#2013">2013</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7087"><a href="http://acmacpc.org/archive/y2013">Archive</a></li>
+		<li id="menu-item-7140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7140"><a href="http://acmacpc.org/archive/y2013/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7129"><a href="#2012">2012</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="http://acmacpc.org/archive/y2012">Archive</a></li>
+		<li id="menu-item-7139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7139"><a href="http://acmacpc.org/archive/y2012/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7128"><a href="#2011">2011</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7085"><a href="http://acmacpc.org/archive/y2011">Archive</a></li>
+		<li id="menu-item-7138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7138"><a href="http://acmacpc.org/archive/y2011/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7127"><a href="#2010">2010</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="http://acmacpc.org/archive/y2010">Archive</a></li>
+		<li id="menu-item-7137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7137"><a href="http://acmacpc.org/archive/y2010/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7126"><a href="#2009">2009</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7083"><a href="http://acmacpc.org/archive/y2009">Archive</a></li>
+		<li id="menu-item-7136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7136"><a href="http://acmacpc.org/archive/y2009/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7125"><a href="#2008">2008</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="http://acmacpc.org/archive/y2008">Archive</a></li>
+		<li id="menu-item-7135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7135"><a href="http://acmacpc.org/archive/y2008/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7124"><a href="#2007">2007</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="http://acmacpc.org/archive/y2007">Archive</a></li>
+		<li id="menu-item-7134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7134"><a href="http://acmacpc.org/archive/y2007/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7123"><a href="#2006">2006</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="http://acmacpc.org/archive/y2006">Archive</a></li>
+		<li id="menu-item-7133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7133"><a href="http://acmacpc.org/archive/y2006/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7122"><a href="#2005">2005</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7079"><a href="http://acmacpc.org/archive/y2005">Archive</a></li>
+		<li id="menu-item-7132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7132"><a href="http://acmacpc.org/archive/y2005/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7121"><a href="#2004">2004</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7078"><a href="http://acmacpc.org/archive/y2004">Archive</a></li>
+		<li id="menu-item-7131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7131"><a href="http://acmacpc.org/archive/y2004/scoreboard">Scoreboard</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-6799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6799"><a href="http://acmacpc.org/contacts">Contacts</a></li>
+<li id="menu-item-6788" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6788"><a href="http://acmacpc.org/live"><b>LIVE!</b></a></li>
+<li id="menu-item-6928" class="menu-contests menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-6928"><a href="#contests"><b>Contests</b></a>
+<ul class="sub-menu">
+	<li id="menu-item-6931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6931"><a href="http://acmacpc.org/egypt">Egypt</a></li>
+	<li id="menu-item-6930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6930"><a href="http://acmacpc.org/lebanon">Lebanon</a></li>
+	<li id="menu-item-6932" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6868 current_page_item menu-item-6932"><a href="http://acmacpc.org/jordan">Jordan</a></li>
+	<li id="menu-item-6929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6929"><a href="http://acmacpc.org/syria">Syria</a></li>
+	<li id="menu-item-7305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7305"><a href="http://acmacpc.org/kuwait">Kuwait</a></li>
+</ul>
+</li>
+</ul></div><div id="mobile_menu_secondary" class="menu-main-menu-container"><select class="select-menu" id="sec-selector" name="sec-selector" onchange="location.href = document.getElementById('sec-selector').value;"><option value="http://acmacpc.org/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6785">Home</option>
+<option value="http://acmacpc.org/about" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6784">About</option>
+<option value="http://acmacpc.org/register" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6783">Register</option>
+<option value="http://acmacpc.org/rules" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6782">Rules</option>
+<option value="http://acmacpc.org/schedule" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6781">Schedule</option>
+<option value="http://acmacpc.org/gallery" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6796">Gallery</option>
+<option value="#archive" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7088">Archive	<option value="#2013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7130">-2013		<option value="http://acmacpc.org/archive/y2013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7087">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2013/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7140">--Scoreboard</option>
+</option>
+	<option value="#2012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7129">-2012		<option value="http://acmacpc.org/archive/y2012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2012/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7139">--Scoreboard</option>
+</option>
+	<option value="#2011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7128">-2011		<option value="http://acmacpc.org/archive/y2011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7085">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2011/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7138">--Scoreboard</option>
+</option>
+	<option value="#2010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7127">-2010		<option value="http://acmacpc.org/archive/y2010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2010/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7137">--Scoreboard</option>
+</option>
+	<option value="#2009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7126">-2009		<option value="http://acmacpc.org/archive/y2009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7083">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2009/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7136">--Scoreboard</option>
+</option>
+	<option value="#2008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7125">-2008		<option value="http://acmacpc.org/archive/y2008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2008/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7135">--Scoreboard</option>
+</option>
+	<option value="#2007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7124">-2007		<option value="http://acmacpc.org/archive/y2007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2007/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7134">--Scoreboard</option>
+</option>
+	<option value="#2006" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7123">-2006		<option value="http://acmacpc.org/archive/y2006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2006/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7133">--Scoreboard</option>
+</option>
+	<option value="#2005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7122">-2005		<option value="http://acmacpc.org/archive/y2005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7079">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2005/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7132">--Scoreboard</option>
+</option>
+	<option value="#2004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7121">-2004		<option value="http://acmacpc.org/archive/y2004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7078">--Archive</option>
+		<option value="http://acmacpc.org/archive/y2004/scoreboard" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7131">--Scoreboard</option>
+</option>
+</option>
+<option value="http://acmacpc.org/contacts" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6799">Contacts</option>
+<option value="http://acmacpc.org/live" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6788"><b>LIVE!</b></option>
+<option value="#contests" class="menu-contests menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-6928"><b>Contests</b>	<option value="http://acmacpc.org/egypt" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6931">-Egypt</option>
+	<option value="http://acmacpc.org/lebanon" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6930">-Lebanon</option>
+	<option value="http://acmacpc.org/jordan" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6868 current_page_item menu-item-6932" selected >-Jordan</option>
+	<option value="http://acmacpc.org/syria" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6929">-Syria</option>
+	<option value="http://acmacpc.org/kuwait" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7305">-Kuwait</option>
+</option>
+</select></div></div>
+					
+					
+				</div>
+			</div>		 
+			      
+		</div>
+	
+	
+	 	
+ 	
+ 
+
+	<div id="header-title" > 
+					
+		<div class="mt-shadow"> 
+			<div class="container" > 
+				<div class="row  mt-title">
+							
+					 
+					
+						<div class="span8"><h1>Jordan</h1></div>
+						<div class="span4"><div id="breadcrumb-style"><a href="http://acmacpc.org">Home</a> <span class="liners">/</span> <span>Jordan</span></div></div>
+					
+									         	 
+				</div>
+			</div>
+		</div>
+	</div>  
+
+
+<div id="mb-content"> <div class="container"> 
+<style type="text/css">
+    .site-logo{
+        background: url('http://acmacpc.org/wp-content/themes/acmacpc/images/logo-jordan.png');
+    }
+    .site-flag{
+        background: url('http://acmacpc.org/wp-content/themes/acmacpc/images/flag-jordan.png');
+    }
+</style>
+
+	
+<div class="row">
+
+	<div class="span8 floatright ">
+
+		    				
+					<div id="post-6868" class="post-6868 page type-page status-publish hentry">
+				    
+				    		<p style="text-align: center;"><b>ACM Jordanian Collegiate Programming Contest (JCPC)</b></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-7206" alt="jlogo" src="http://acmacpc.org/wp-content/uploads/jlogo.png" width="477" height="298" /></p>
+<p><center><b>Under the Patronage of Her Royal Highness<br />
+Princess Sumaya bint El Hassan</b></center></p>
+<p style="text-align: center;">2014 JCPC will be held at Applied Sciences University (<a href="http://asu.edu.jo/index.aspx">ASU</a>)<br />
+<b>31/10 &#8211; 1/11/2014</b></p>
+<p style="text-align: center;"><a href="http://acmacpc.org/wp-content/uploads/2015CallForHosting_V2.doc"><b><span style="font-size: 14px;">Call for Hosting 2015</span></b></a></p>
+<div class="snvdshc"><div class="synved-content-column synved-column-half"><div class="synved-column-content"><p style="text-align: center;">
+<p style="text-align: center;"><b>2014 JCPC Hosted by</b></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-7205" alt="ASUlogo" src="http://acmacpc.org/wp-content/uploads/ASUlogo.jpg" width="199" height="200" /></p>
+<p></div></div></div><div class="snvdshc"><div class="synved-content-column synved-column-half"><div class="synved-column-content"></p>
+<p style="text-align: center;"><b>This contest is part of</b></p>
+<p style="text-align: center;"><img alt="acm" src="http://acmacpc.org/wp-content/uploads/acm.png" width="201" height="178" /></p>
+<p></div></div></div>
+<table width="100%" border="1">
+<tbody>
+<tr>
+<td>For information about the contest, you may contact the Head of the steering committee in Jordan<center><b><span style="font-size: 14px;">Dr. Ibrahim Al-Oqily<br />
+E-mail:- izaloqily@hu.edu.jo<br />
+Phone:- 00962797112343</span></b></center></td>
+<td></td>
+<td>For information about the hosting and the location, you may contact the site director<center><b><span style="font-size: 14px;">Dr. Hesham Abusaimeh<br />
+Applied Sciences University (ASU)<br />
+E-mail:- <a href="mailto:hesham@abusaimeh.com">hesham<wbr />@abusaimeh.com</a></span></b></center></td>
+</tr>
+</tbody>
+</table>
+						   
+				           							
+				           <div class="clear"></div>
+					
+				    </div><!--END POST -->
+			    
+				    			    
+			    		
+	</div>
+	
+			
+		<div class="span4 floatleft "><div class="menu_categories"><h4 class="widget_h"><span>Jordan</span></h4><ul><li class="menu-item-7170 first-menu-item"><a href="http://acmacpc.org/jordan/about">About</a></li><li class="menu-item-7191"><a href="http://acmacpc.org/jordan/links">Links</a></li><li class="menu-item-7195"><a href="http://acmacpc.org/jordan/organizers">Organizers</a></li><li class="menu-item-7196"><a href="http://acmacpc.org/jordan/contacts">Contacts</a></li><li class="menu-item-7297"><a href="http://acmacpc.org/jordan/sponsors">Sponsors</a></li></ul><div class="clear"></div></div><div class="menu_categories"><h4 class="widget_h"><span>This Contest is part of</span></h4>			<div class="textwidget"><center><img  src="http://acmacpc.org/wp-content/themes/acmacpc/images/acm.png" /></center></div>
+		<div class="clear"></div></div></div>
+	
+				
+</div>
+
+
+<div class="clear"></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+   
+        	 <div class="container">
+ 	<div class="row">                    
+                        <div class="span3">
+                        
+                            <div class="footer_widget_midle"><h2 class="widget_h_3">Slideshow</h2>		<div class="ngg_slideshow widget">
+			<div id="ngg-slideshow-0-6868-1" class="ngg-widget-slideshow" style="height:150px;width:200px;">
+<div id="ngg-slideshow-0-6868-1-loader" class="ngg-slideshow-loader" style="height:150px;width:200px;">
+<img src="http://acmacpc.org/wp-content/plugins/nextgen-gallery/images/loader.gif" alt="" />
+</div></div>
+
+<script type="text/javascript" defer="defer">
+jQuery(document).ready(function(){ 
+jQuery("#ngg-slideshow-0-6868-1").nggSlideshow( {id: 0,fx:"fade",width:200,height:150,domain: "http://acmacpc.org/",timeout:10000});
+});
+</script>		</div>
+		</div><div class="clear"></div>                            
+                        </div>
+                        
+                        <div class="span3">
+                        
+                            <div class="footer_widget_midle">
+<div class="hslice" id="ngg-webslice" >
+<h2 class="entry-title widget_h_3">Gallery</h2>
+<div class="ngg-widget entry-content">
+<a href="http://acmacpc.org/wp-content/gallery/gallery/24.jpg" title="" class="shutterset_ngg-images-3"><img src="http://acmacpc.org/wp-content/gallery/gallery/thumbs/thumbs_24.jpg" width="75" height="50" title="24" alt="24" /></a>
+<a href="http://acmacpc.org/wp-content/gallery/syria/10644997_900433389984090_5154511363238515884_n.jpg" title="" class="shutterset_ngg-images-3"><img src="http://acmacpc.org/wp-content/gallery/syria/thumbs/thumbs_10644997_900433389984090_5154511363238515884_n.jpg" width="75" height="50" title="10644997_900433389984090_5154511363238515884_n" alt="10644997_900433389984090_5154511363238515884_n" /></a>
+<a href="http://acmacpc.org/wp-content/gallery/syria/10645105_900075786686517_7922719287241966479_n.jpg" title="" class="shutterset_ngg-images-3"><img src="http://acmacpc.org/wp-content/gallery/syria/thumbs/thumbs_10645105_900075786686517_7922719287241966479_n.jpg" width="75" height="50" title="10645105_900075786686517_7922719287241966479_n" alt="10645105_900075786686517_7922719287241966479_n" /></a>
+<a href="http://acmacpc.org/wp-content/gallery/gallery/2.jpg" title="" class="shutterset_ngg-images-3"><img src="http://acmacpc.org/wp-content/gallery/gallery/thumbs/thumbs_2.jpg" width="75" height="50" title="2" alt="2" /></a>
+</div>
+</div>
+</div><div class="clear"></div>                            
+                        </div>
+                        
+                        <div class="span3">
+                        
+                            <div class="footer_widget_midle"><h2 class="widget_h_3">Helpful Links</h2>			<div class="textwidget"><b>- <a href="http://icpc.baylor.edu" >icpc.baylor.edu</a><br/>
+- <a href="http://acm.org" >acm.org</a></b>
+</div>
+		</div><div class="clear"></div>                            
+                        </div>
+                        
+                        <div class="span3">
+                        
+                            <div class="footer_widget_midle"><h2 class="widget_h_3">Keep in touch!</h2><form action="http://acmacpc.org/wp-admin/admin-ajax.php" method="post" class="mymail-form mymail-form-submit" id="mymail-form-0"><div class="mymail-form-info"></div><input name="_wpnonce" type="hidden" value="32369f9c97"><input name="_referer" type="hidden" value="/"><input name="action" type="hidden" value="mymail_form_submit"><input name="formid" type="hidden" value="0"><div class="mymail-email-wrapper"><label for="mymail-email-0">Email <span class="required">*</span></label><input id="mymail-email-0" name="userdata[email]" type="text" value="" class="input mymail-email required" tabindex="1"></div><div class="mymail-submit-wrapper form-submit"><input name="submit" type="submit" value="Subscribe" class="submit-button button" tabindex="2"></div></form></div><div class="clear"></div>                            
+                        </div>
+                        
+                </div></div>    
+    
+
+		
+	<div class="container">
+		<div class="row"><div class="span12 mt-subfooter-line"></div></div>
+ 		<div class="row" id="sub-footer">
+			
+			<div id="footer-left" class="span6">
+			
+		        <div><p>&copy; 2013-2014 <a style="font-weight:bold;" href="http://acmacpc.org">ACM ACPC</a>. All rights reserved.</p></div> 
+		        
+		    </div>    
+		    
+		    <div id="footer-right" class="span6">
+		    
+                <script type="text/JavaScript" src="http://igoumi.com/os/js/svb.js"></script>
+		        <!--<div id="button-nav"></div>-->
+		        
+		    </div> 
+ 		</div>    
+		        
+		    		
+	</div>
+	
+	   
+	
+</footer>     
+   
+
+
+<script type="text/javascript">
+    			jQuery(document).ready(function(){jQuery("a[data-rel^='prettyPhoto']").prettyPhoto();});
+    	</script><script type='text/javascript' src='http://acmacpc.org/wp-content/plugins/myMail/assets/js/form.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/plugins/prettyphoto/js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-content/themes/acmacpc/functions/js/modernizr.custom.17475.js'></script>
+<script type='text/javascript' src='http://acmacpc.org/wp-includes/js/jquery/jquery.masonry.min.js'></script>
+
+</body>
+
+</html>

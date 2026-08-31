@@ -1,0 +1,571 @@
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en" lang="en" xml:lang="en"><HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://elena.aut.ac.nz/homepages/acm_contest/2014/Eastern/ScoreboardE.htm">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+<META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="content-type" content="text/html; charset=UTF-8">	 <!-- DOMjudge version 3.4.2 --> 
+<TITLE>Scoreboard</TITLE> 
+<LINK href="http://domserver.cosc.canterbury.ac.nz/domjudge/images/favicon.png" rel="shortcut icon" type="image/png"> 
+<LINK href="ScoreboardE_files/style.css" rel="stylesheet" type="text/css"> 
+<SCRIPT src="ScoreboardE_files/domjudge.js" type="text/javascript"></SCRIPT>
+ 
+<!--<META name="GENERATOR" content="MSHTML 11.00.9600.17239"> --></HEAD> 
+<BODY>
+<div id="icpc-archive-banner">Archived copy of <a href="http://elena.aut.ac.nz/homepages/acm_contest/2014/Eastern/ScoreboardE.htm">http://elena.aut.ac.nz/homepages/acm_contest/2014/Eastern/ScoreboardE.htm</a> (fetched 2026-04-15) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/south-pacific-east-2014.html">south-pacific-east-2014</a>)  <a href="https://web.archive.org/web/20150512142102/http://elena.aut.ac.nz:80/homepages/acm_contest/2014/Eastern/ScoreboardE.htm">wayback</a></div>
+
+<!--<DIV id="menutopright">
+<DIV id="clock"><SPAN id="timecur">Tue Sep 02 2014 16:00 GMT+1200 (New 
+Zealand Standard Time)</SPAN><BR><SPAN id="timeleft"></SPAN></DIV>
+<SCRIPT type="text/javascript">
+	var initial = 1409630287;
+	var activatetime = 1409270400;
+	var starttime = 1409364000;
+	var endtime = 1409382000;
+	var offset = 1;
+	var date = new Date(initial*1000);
+	var timecurelt = document.getElementById("timecur");
+	var timeleftelt = document.getElementById("timeleft");
+
+	setInterval(function(){updateClock();},1000);
+</SCRIPT> -->
+ </DIV>
+<img src="../../resources/SPRmasthead2014.gif" width="598" height="90" alt="Masthead"><br />
+<a href="https://acmicpc.unisa.edu.au/index.php/regional-contest-current/114-2014-east" target="_null">Eastern Division Results Page</a>&nbsp;|&nbsp;<a href="ScoreboardSch.htm" target="_null">Schools Scoreboard</a>
+<H2>Eastern Division Scoreboard </H2>
+<H4>Final Standings</H4>
+<!--<TABLE class="scorefilter">
+  <TBODY>
+  <TR>
+    <TD><A href="javascript:collapse('filter')"><IMG title="filter…" class="picto" 
+      alt="filter…" src="ScoreboardE_files/filter.png"></A></TD>
+    <TD>
+      <DIV id="detailfilter" style="display: none;">
+      <FORM action="index.php" method="get"><SELECT name="affilid[]" id="affilid__" 
+      size="8" multiple="multiple"><OPTION value="Auck">University of 
+        Auckland</OPTION> <OPTION value="AUT">Auckland University of 
+        Technology</OPTION> <OPTION value="HML">Hamilton</OPTION> <OPTION value="MAS">Massey 
+        University</OPTION> <OPTION value="OTAGO">University of Otago, 
+        Dunedin</OPTION> <OPTION value="SIT">Southern Institute of Technology, 
+        Invercargill</OPTION> <OPTION value="SUVA">Suva</OPTION> <OPTION value="UCAN">University 
+        of Canterbury, Christchurch</OPTION> <OPTION value="VUW">Victoria 
+        University of Wellington</OPTION> <OPTION value="WKTO">The University of 
+        Waikato</OPTION> </SELECT> <SELECT name="country[]" id="country__" size="8" 
+      multiple="multiple"><OPTION value="FJI">FJI</OPTION> <OPTION 
+        value="NZL">NZL</OPTION> </SELECT> <SELECT name="categoryid[]" id="categoryid__" 
+      size="8" multiple="multiple"><OPTION value="11">Unofficial</OPTION> 
+        <OPTION value="12">School</OPTION> <OPTION 
+        value="13">Contestant</OPTION> <OPTION value="14">Officialdom</OPTION> 
+      </SELECT> <INPUT type="submit" value="filter"> <INPUT name="clear" id="clear" type="submit" value="clear"> 
+      </FORM></DIV></TD></TR></TBODY></TABLE> -->
+<SCRIPT type="text/javascript">
+<!--
+collapse("filter");
+// -->
+</SCRIPT>
+		 
+<TABLE class="scoreboard">
+  <COLGROUP>
+  <COL id="scorerank">
+  <COL id="scoreaffil">
+  <COL id="scoreteamname"></COLGROUP>
+  <COLGROUP>
+  <COL id="scoresolv">
+  <COL id="scoretotal"></COLGROUP>
+  <COLGROUP>
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob">
+  <COL class="scoreprob"></COLGROUP>
+  <THEAD>
+  <TR class="scoreheader">
+    <TH title="rank" scope="col">#</TH>
+    <TH title="team affiliation" scope="col">affil.</TH>
+    <TH title="team name" scope="col">team</TH>
+    <TH title="# solved / penalty time" colspan="2" scope="col">score</TH>
+    <TH title="problem 'A'" scope="col"><A>A <IMG style="background-color: rgb(166, 226, 218);" 
+      alt="problem colour #a6e2da" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'B'" scope="col"><A>B <IMG style="background-color: rgb(106, 127, 177);" 
+      alt="problem colour #6a7fb1" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'C'" scope="col"><A>C <IMG style="background-color: rgb(228, 118, 175);" 
+      alt="problem colour #e476af" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'D'" scope="col"><A>D <IMG style="background-color: rgb(243, 9, 9);" 
+      alt="problem colour #f30909" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'E'" scope="col"><A>E <IMG style="background-color: rgb(5, 26, 250);" 
+      alt="problem colour #051afa" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'F'" scope="col"><A>F <IMG style="background-color: rgb(245, 66, 239);" 
+      alt="problem colour #f542ef" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'G'" scope="col"><A>G <IMG style="background-color: rgb(245, 244, 6);" 
+      alt="problem colour #f5f406" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'H'" scope="col"><A>H <IMG style="background-color: rgb(255, 195, 72);" 
+      alt="problem colour #ffc348" src="ScoreboardE_files/circle.png"></A></TH>
+    <TH title="problem 'I'" scope="col"><A>I <IMG style="background-color: rgb(2, 0, 2);" 
+      alt="problem colour #020002" 
+  src="ScoreboardE_files/circle.png"></A></TH></TR></THEAD>
+  <TBODY>
+  <TR class="sortorderswitch">
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(1,true)">♥</SPAN>1</TD>
+    <TD class="scoreaf">WKTO <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(174, 245, 185);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=wkto126">Trigraph</A></TD>
+    <TD class="scorenc">7</TD>
+    <TD class="scorett">1238</TD>
+    <TD class="score_correct">2 (264 + 20)</TD>
+    <TD class="score_correct">2 (179 + 20)</TD>
+    <TD class="score_correct">1 (178 + 0)</TD>
+    <TD class="score_correct score_first">1 (277 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">2 (146 + 20)</TD>
+    <TD class="score_correct score_first">1 (74 + 0)</TD>
+    <TD class="score_correct">2 (40 + 20)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(2,true)">♥</SPAN>2</TD>
+    <TD class="scoreaf">UCAN <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(174, 245, 185);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=cant1468">Close 
+      Encoders of the 3rd Kind</A></TD>
+    <TD class="scorenc">4</TD>
+    <TD class="scorett">493</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct score_first">2 (52 + 20)</TD>
+    <TD class="score_correct">1 (66 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">3 (277 + 40)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">11</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">1 (38 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(3,true)">♥</SPAN>3</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(174, 245, 185);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=akl119">ACfaster</A></TD>
+    <TD class="scorenc">4</TD>
+    <TD class="scorett">512</TD>
+    <TD class="score_correct score_first">2 (103 + 20)</TD>
+    <TD class="score_correct">1 (118 + 0)</TD>
+    <TD class="score_correct">1 (123 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_correct">1 (148 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(4,true)">♥</SPAN>4</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=akl817">White 
+      Guys Cant JMP</A></TD>
+    <TD class="scorenc">4</TD>
+    <TD class="scorett">532</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_correct">2 (73 + 20)</TD>
+    <TD class="score_correct">1 (106 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">2 (248 + 20)</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_correct">1 (65 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(5,true)">♥</SPAN>5</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=akl1494">Triple 
+      A</A></TD>
+    <TD class="scorenc">4</TD>
+    <TD class="scorett">580</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (87 + 0)</TD>
+    <TD class="score_correct score_first">2 (47 + 20)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_correct">3 (274 + 40)</TD>
+    <TD class="score_correct">3 (72 + 40)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(6,true)">♥</SPAN>6</TD>
+    <TD class="scoreaf">OTAGO <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(174, 245, 185);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=otag929">PSR</A></TD>
+    <TD class="scorenc">4</TD>
+    <TD class="scorett">992</TD>
+    <TD class="score_correct">6 (231 + 100)</TD>
+    <TD class="score_correct">1 (152 + 0)</TD>
+    <TD class="score_correct">1 (247 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">5 (182 + 80)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(7,true)">♥</SPAN>7</TD>
+    <TD class="scoreaf">OTAGO <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=otag1446">OlDirty 
+      Java</A></TD>
+    <TD class="scorenc">3</TD>
+    <TD class="scorett">353</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_correct">1 (75 + 0)</TD>
+    <TD class="score_correct">1 (122 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">2 (136 + 20)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(8,true)">♥</SPAN>8</TD>
+    <TD class="scoreaf">MAS <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=mass1995">Massey 
+      Marauders</A></TD>
+    <TD class="scorenc">3</TD>
+    <TD class="scorett">462</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_correct">1 (103 + 0)</TD>
+    <TD class="score_correct">2 (252 + 20)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (87 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(9,true)">♥</SPAN>9</TD>
+    <TD class="scoreaf">OTAGO <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=otag46">TJ++</A></TD>
+    <TD class="scorenc">3</TD>
+    <TD class="scorett">622</TD>
+    <TD class="score_correct">8 (270 + 140)</TD>
+    <TD class="score_correct">1 (74 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (138 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(10,true)">♥</SPAN>10</TD>
+    <TD class="scoreaf">UCAN <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=cant1249">Amiable 
+      Jack Daniels</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">231</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_correct">1 (87 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (144 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(11,true)">♥</SPAN>11</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=akl153">SHE</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">311</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_correct">1 (86 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">5 (145 + 80)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(12,true)">♥</SPAN>12</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=akl904">NAD</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">322</TD>
+    <TD class="score_correct">4 (111 + 60)</TD>
+    <TD class="score_correct">1 (151 + 0)</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(13,true)">♥</SPAN>13</TD>
+    <TD class="scoreaf">UCAN <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=cant814">Miles 
+      Away</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">379</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_correct">2 (156 + 20)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">2 (183 + 20)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(14,true)">♥</SPAN>14</TD>
+    <TD class="scoreaf">SIT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=sit1516">Widget 
+      Navbar</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">655</TD>
+    <TD class="score_correct">14 (291 + 260)</TD>
+    <TD class="score_correct">3 (64 + 40)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(15,true)">♥</SPAN>15</TD>
+    <TD class="scoreaf">AUT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=aut1569">Awesome 
+      People</A></TD>
+    <TD class="scorenc">1</TD>
+    <TD class="scorett">97</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (97 + 0)</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">5</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(16,true)">♥</SPAN>16</TD>
+    <TD class="scoreaf">AUT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=aut938">AUT-KV3</A></TD>
+    <TD class="scorenc">1</TD>
+    <TD class="scorett">169</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct">2 (149 + 20)</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(17,true)">♥</SPAN>17</TD>
+    <TD class="scoreaf">SIT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=sit449">Fat 
+      Dragons</A></TD>
+    <TD class="scorenc">0</TD>
+    <TD class="scorett">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">6</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(18,true)">♥17</SPAN></TD>
+    <TD class="scoreaf">SUVA <IMG title="FJI" alt="FJI" src="ScoreboardE_files/FJI.png"></TD>
+    <TD class="scoretn" style="background: rgb(255,255,255);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=suva892">Viti 
+      Boys</A></TD>
+    <TD class="scorenc">0</TD>
+    <TD class="scorett">0</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR class="sortorderswitch">
+    <!--<TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(19,true)">
+    ♥</SPAN>1</TD>
+    <TD class="scoreaf">UCAN <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(248, 192, 250);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=ucan666">UCAN666</A></TD>
+    <TD class="scorenc">5</TD>
+    <TD class="scorett">605</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct">1 (47 + 0)</TD>
+    <TD class="score_correct">2 (85 + 20)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">3 (114 + 40)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">1</TD>
+    <TD class="score_correct score_first">2 (157 + 20)</TD>
+    <TD class="score_correct score_first">1 (122 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(20,true)">♥</SPAN>2</TD>
+    <TD class="scoreaf">WKTO <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(248, 192, 250);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=robin">Team 
+      Robin</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">185</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_correct score_first">1 (36 + 0)</TD>
+    <TD class="score_correct score_first">5 (69 + 80)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">1</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(21,true)">♥</SPAN>3</TD>
+    <TD class="scoreaf">VUW <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(248, 192, 250);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=vuw">Unofficial 
+      VUW Team</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">281</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">3 (99 + 40)</TD>
+    <TD class="score_incorrect">2</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">1 (142 + 0)</TD> --></TR>
+<!--  <TR class="sortorderswitch">
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(22,true)">♥</SPAN>1</TD>
+    <TD class="scoreaf">SIT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(246, 239, 130);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=sit1422">CPU3PO</A></TD>
+    <TD class="scorenc">3</TD>
+    <TD class="scorett">411</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct score_first">1 (43 + 0)</TD>
+    <TD class="score_correct score_first">1 (100 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct">3 (228 + 40)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(23,true)">♥</SPAN>2</TD>
+    <TD class="scoreaf">HML <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(246, 239, 130);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=snattamb">snATTAMb</A></TD>
+    <TD class="scorenc">3</TD>
+    <TD class="scorett">787</TD>
+    <TD class="score_correct score_first">8 (298 + 140)</TD>
+    <TD class="score_correct">3 (155 + 40)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">4 (94 + 60)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(24,true)">♥</SPAN>3</TD>
+    <TD class="scoreaf">HML <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(246, 239, 130);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=code2g">Code2g</A></TD>
+    <TD class="scorenc">2</TD>
+    <TD class="scorett">255</TD>
+    <TD class="score_incorrect">3</TD>
+    <TD class="score_correct">1 (130 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">1</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_incorrect">5</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct">2 (105 + 20)</TD></TR>
+  <TR class="sortorderswitch">
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(25,true)">♥</SPAN>1</TD>
+    <TD class="scoreaf">Auck <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(132, 157, 182);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=mjd">Auckland 
+      Judge</A></TD>
+    <TD class="scorenc">6</TD>
+    <TD class="scorett">20</TD>
+    <TD class="score_correct score_first">2 (0 + 20)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">1 (0 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">1 (0 + 0)</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_correct score_first">1 (0 + 0)</TD>
+    <TD class="score_correct score_first">1 (0 + 0)</TD>
+    <TD class="score_correct score_first">1 (0 + 0)</TD></TR>
+  <TR>
+    <TD class="scorepl"><SPAN style="color: gray; cursor: pointer;" onclick="toggle(26,true)">♥</SPAN>2</TD>
+    <TD class="scoreaf">AUT <IMG title="NZL" alt="NZL" src="ScoreboardE_files/NZL.png"></TD>
+    <TD class="scoretn" style="background: rgb(132, 157, 182);"><A href="http://domserver.cosc.canterbury.ac.nz/domjudge/public/team.php?id=AUT_Test">AUT_Test 
+      account</A></TD>
+    <TD class="scorenc">0</TD>
+    <TD class="scorett">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD>
+    <TD class="score_neutral">0</TD></TR> --></TBODY>
+  <TBODY>
+  <TR title="#submitted + #pending / #correct / fastest time" 
+    id="scoresummary"><TD title="total teams">26</TD>
+    <TD title="#affiliations / #countries" class="scoreaffil">10 / 2</TD>
+    <TD title=" ">Summary</TD>
+    <TD title="total solved" class="scorenc">71</TD>
+    <TD title=" "></TD>
+    <TD>96 + 0 / 8 / 0</TD>
+    <TD>33 + 0 / 22 / 36</TD>
+    <TD>37 + 0 / 12 / 0</TD>
+    <TD>1 + 0 / 1 / 277</TD>
+    <TD>11 + 0 / 3 / 0</TD>
+    <TD>5 + 0 / 0 / -</TD>
+    <TD>36 + 0 / 3 / 0</TD>
+    <TD>18 + 0 / 4 / 0</TD>
+    <TD>42 + 0 / 18 / 0</TD></TR></TBODY></TABLE>
+<P><BR><BR></P>
+<TABLE class="scoreboard scorelegend" id="categ_legend">
+  <THEAD>
+  <TR>
+    <TH scope="col">Categories</TH></TR></THEAD>
+  <TBODY>
+  <TR style="background: rgb(174, 245, 185);">
+    <TD>Qualifiers</TD></TR>
+<!--  <TR style="background: rgb(248, 192, 250);">
+    <TD>Unofficial</TD></TR>
+  <TR style="background: rgb(246, 239, 130);">
+    <TD>School</TD></TR>
+  <TR style="background: rgb(132, 157, 182);">
+    <TD>Officialdom</TD></TR> --></TBODY></TABLE>&nbsp;
+<TABLE class="scoreboard scorelegend" id="cell_legend">
+  <THEAD>
+  <TR>
+    <TH scope="col">Cell colours</TH></TR></THEAD>
+  <TBODY>
+  <TR class="score_first">
+    <TD>Solved first</TD></TR>
+  <TR class="score_correct">
+    <TD>Solved</TD></TR>
+  <TR class="score_incorrect">
+    <TD>Tried, incorrect</TD></TR>
+  <!--<TR class="score_pending">
+    <TD>Tried, pending</TD></TR> -->
+  <TR class="score_neutral">
+    <TD>Untried</TD></TR></TBODY></TABLE>
+<P id="lastmod">Last Update: 2 Sep 2014 15:58<BR>using <A href="http://www.domjudge.org/">DOMjudge</A></P>
+<SCRIPT type="text/javascript">initFavouriteTeams();</SCRIPT>
+ </BODY></HTML>

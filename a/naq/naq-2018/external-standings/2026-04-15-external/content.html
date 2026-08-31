@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://naq18.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+            <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "f3d3db0730a5be5480d35a11872e82f439e7c487",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/naq18\.kattis\.com/                 ],
+                ignoreErrors: [
+                    "Non-Error exception captured",                     "Non-Error promise rejection captured",                    'ResizeObserver loop limit exceeded',                    'Can\'t find variable: zaloJSV2'                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'],                 autoSessionTracking: false,
+                integrations: [                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 1.0,
+                replaysSessionSampleRate: 0,                 replaysOnErrorSampleRate: 0,                 tracePropagationTargets: ["localhost", /https?:\/\/naq18\.kattis\.com/],             });
+                        Sentry.configureScope((scope) => scope.setTransactionName("contests_standings"));         })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC North America Qualifier 2018</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="/assets/f486fab94cc79f07f2bfe2b42efb4066/jquery/dist/jquery.min.js"></script>
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="/assets/f486fab94cc79f07f2bfe2b42efb4066/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+                <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+            <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+    
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/f486fab94cc79f07f2bfe2b42efb4066/select2/dist/css/select2.css" rel="stylesheet">
+
+            <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, ICPC North America Qualifier 2018">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+    
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/33a4ec6e1c77356308d511072c299063/style.css">
+    <style type="text/css">           :root {
+                      --branding-border: linear-gradient(#5578AA, #5578AA);
+              }
+
+         </style>
+
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://naq18.kattis.com/standings">https://naq18.kattis.com/standings</a> (fetched 2026-04-15) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/naq-2018.html">naq-2018</a>)  <a href="https://web.archive.org/web/*/https://naq18.kattis.com/standings">wayback</a></div>
+<a href="https://naq18.kattis.com/cdn-cgi/content?id=9HY51AArbNtTc1cS0v2XfwMOkBU5oqSzjdxuRGUmagQ-1776238675.1767828-1.0.1.1-SerR6SiT56xK1I7o96trm8DQb2doEst6wRqGK.6hkX8" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="ICPC North America Qualifier 2018">
+                <img class="logo" src="/images/site-logo?v=19f2a52435758d28775afd093543644c" alt="ICPC North America Qualifier 2018 logo" />
+            </a>
+            <h4 class="logo-container-text">ICPC North America Qualifier 2018</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav>
+                <ul class="main_menu">
+                                                                    <li>
+                            <a  href="/contests/naq18/standings" class="main_menu-item main_menu-item_link  is-main_menu-item-active" title="Standings">
+                                                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Standings</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/contests/naq18/problems" class="main_menu-item main_menu-item_link  " title="Problems">
+                                                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Problems</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link  " title="Info">
+                                                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Info</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link  " title="Help">
+                                                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Help</span>
+                                                            </a>
+                        </li>
+                                    </ul>
+            </nav>
+                    </div>
+    </div>
+</header>
+
+<div class="l-main_area">
+    
+
+    
+    <main class="flex flex-col grow content_padding">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="top_bar ">
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+            <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <div class="breadcrumb top_bar-item">
+                                                                        <a href="/contests" class="breadcrumb-link">Contests</a><span class="breadcrumb-divider">/</span>
+                                                    <a href="/contests/naq18" class="breadcrumb-link">ICPC North America Qualifier 2018</a><span class="breadcrumb-divider">/</span>
+                                                                                    <span class="breadcrumb-current">
+                                                    Standings
+                                            </span>
+                </div>
+
+                            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+                
+                
+        
+
+
+
+    <div id="contest_time" data-props="{&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:237397076,&quot;total_seconds&quot;:18000,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                                            <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-2747 days 15:37:56</span>
+                        </div>
+                                        <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">ICPC North America Qualifier 2018</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">5:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                                                    <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-2747 days 15:37:56</span>
+                            </div>
+                                                                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-2747 days 10:37:56</span>
+                            </div>
+                                                <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                                                                                <h4>Start</h4>
+                                    2018-10-06 18:00 CEST
+                                                                                    </div>
+                        <div class="contest-end flex justify-between">
+                                                            <h4>End</h4>
+                                2018-10-06 23:00 CEST
+                                                    </div>
+                                            </div>
+                    <hr>
+                    <a href="/contests/naq18/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+                                    <a href="/login" class="button button-primary button-small">Log in</a>
+                            </div>
+        </div>
+    
+    
+        
+
+
+
+            
+    
+            
+
+    </div>
+
+        
+            <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/banner.js"></script>
+    
+    
+
+    
+            <div class="mb-4">
+                    
+    
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="application/json" id="alert-team-data">{"csrf_token": "8095047240032300007884799255297362394560","invitation_url": "\/ajax\/session\/invitation-response","in_session_url": "\/ajax\/session\/is-in-session"}</script><script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/team_invitation_alert.js"></script>
+
+                        
+
+
+                    
+
+
+
+
+
+
+            
+        </div>
+    
+            
+
+
+            <section id="session_banner">
+            <a href="/contests/naq18" title="ICPC North America Qualifier 2018">
+                <img src="/contests/naq18/banner?v=fdb1fc9d8d7569a4143906b01dc5fd6c" alt="ICPC North America Qualifier 2018" />
+            </a>
+        </section>
+    
+        
+    <div class="flex justify-between items-center mb-8 ">
+        <h1>ICPC North America Qualifier 2018</h1>
+        <div>
+                            
+    
+                    </div>
+    </div>
+
+
+    
+    
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+        <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/mobile_tabs.js"></script><nav class="tab-nav" data-mobile-select-classes="is-hidden@md"><a class="tab-nav-item " href="/contests/naq18" title="Contest">Contest</a><a class="tab-nav-item active" href="/contests/naq18/standings" title="Standings">Standings</a><a class="tab-nav-item " href="/contests/naq18/problems" title="Problems">Problems</a><a class="tab-nav-item " href="/contests/naq18/teams" title="Teams">Teams</a><a class="tab-nav-item " href="/contests/naq18/rules" title="Rules">Rules</a><div class="ml-auto flex"></div></nav>
+    </div>
+
+    <div id="standings_wrapper"
+            >
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+                    </div>
+
+                    <div class="strip-item-secondary">
+                                    <table class="scoreboard_filters" data-csrf-token="8095047240032300007884799255297362394560" data-short-name="naq18"><tbody><tr class="filter_row compact"><td class="group_header_cell"><h4>Affiliation</h4></td><td class="group_filters"><div class="filter_select active"><select name="filter" class="href_select selectify-style"><option value="/contests/naq18/standings/1430" selected title="1430">Augsburg University</option><option value="/contests/naq18/standings/1431" title="1431">Autonomous University of Zacatecas</option><option value="/contests/naq18/standings/1432" title="1432">Bandung Institute of Technology</option><option value="/contests/naq18/standings/1433" title="1433">Baylor University</option><option value="/contests/naq18/standings/1434" title="1434">Berea College</option><option value="/contests/naq18/standings/1435" title="1435">Bethel College (Kansas)</option><option value="/contests/naq18/standings/1436" title="1436">Bethel University (Minnesota)</option><option value="/contests/naq18/standings/1437" title="1437">Bob Jones University</option><option value="/contests/naq18/standings/1438" title="1438">Brandon University</option><option value="/contests/naq18/standings/1439" title="1439">Brock University</option><option value="/contests/naq18/standings/1440" title="1440">Bucknell University</option><option value="/contests/naq18/standings/1441" title="1441">Buena Vista University</option><option value="/contests/naq18/standings/1442" title="1442">California State University, Chico</option><option value="/contests/naq18/standings/1443" title="1443">California State University, Fullerton</option><option value="/contests/naq18/standings/1444" title="1444">Charleston Southern University</option><option value="/contests/naq18/standings/1445" title="1445">Clemson University</option><option value="/contests/naq18/standings/1446" title="1446">Colorado School of Mines</option><option value="/contests/naq18/standings/1447" title="1447">Colorado State University</option><option value="/contests/naq18/standings/1448" title="1448">Columbia University</option><option value="/contests/naq18/standings/1449" title="1449">Cornell University</option><option value="/contests/naq18/standings/1450" title="1450">Czech Technical University in Prague</option><option value="/contests/naq18/standings/1451" title="1451">Dalian University of Technology</option><option value="/contests/naq18/standings/1452" title="1452">Denison University</option><option value="/contests/naq18/standings/1453" title="1453">Duke University</option><option value="/contests/naq18/standings/1454" title="1454">Eastern Mennonite University</option><option value="/contests/naq18/standings/1455" title="1455">Fayetteville State University</option><option value="/contests/naq18/standings/1456" title="1456">Florida Institute of Technology</option><option value="/contests/naq18/standings/1457" title="1457">Georgia Institute of Technology</option><option value="/contests/naq18/standings/1458" title="1458">Goucher College</option><option value="/contests/naq18/standings/1459" title="1459">High Point University</option><option value="/contests/naq18/standings/1460" title="1460">Hofstra University</option><option value="/contests/naq18/standings/1461" title="1461">Illinois Institute of Technology</option><option value="/contests/naq18/standings/1462" title="1462">Indiana State University</option><option value="/contests/naq18/standings/1463" title="1463">Indiana University Southeast</option><option value="/contests/naq18/standings/1464" title="1464">James Madison University</option><option value="/contests/naq18/standings/1465" title="1465">Johns Hopkins University</option><option value="/contests/naq18/standings/1466" title="1466">Kalamazoo College</option><option value="/contests/naq18/standings/1467" title="1467">Kansas State University</option><option value="/contests/naq18/standings/1469" title="1469">La Salle University</option><option value="/contests/naq18/standings/1468" title="1468">Lamar University</option><option value="/contests/naq18/standings/1470" title="1470">Lehigh University</option><option value="/contests/naq18/standings/1471" title="1471">Linfield College</option><option value="/contests/naq18/standings/1472" title="1472">Louisiana State University</option><option value="/contests/naq18/standings/1473" title="1473">Loyola University Chicago</option><option value="/contests/naq18/standings/1474" title="1474">Makerere University</option><option value="/contests/naq18/standings/1475" title="1475">Maryville College</option><option value="/contests/naq18/standings/1476" title="1476">McKendree University</option><option value="/contests/naq18/standings/1477" title="1477">Messiah College</option><option value="/contests/naq18/standings/1478" title="1478">Michigan Technological University</option><option value="/contests/naq18/standings/1479" title="1479">Middlebury College</option><option value="/contests/naq18/standings/1480" title="1480">Moravian College</option><option value="/contests/naq18/standings/1481" title="1481">Morehouse College</option><option value="/contests/naq18/standings/1482" title="1482">Mount Allison University</option><option value="/contests/naq18/standings/1483" title="1483">Mount Vernon Nazarene University</option><option value="/contests/naq18/standings/1484" title="1484">National Autonomous University of Mexico</option><option value="/contests/naq18/standings/1485" title="1485">National Polytechnic Institute</option><option value="/contests/naq18/standings/1486" title="1486">New York University</option><option value="/contests/naq18/standings/1487" title="1487">Northeastern University</option><option value="/contests/naq18/standings/1488" title="1488">Northern Kentucky University</option><option value="/contests/naq18/standings/1489" title="1489">Northwestern College (Iowa)</option><option value="/contests/naq18/standings/1490" title="1490">Ohio State University</option><option value="/contests/naq18/standings/1491" title="1491">Ohio University</option><option value="/contests/naq18/standings/1492" title="1492">Orange Coast College</option><option value="/contests/naq18/standings/1493" title="1493">Pacific University</option><option value="/contests/naq18/standings/1494" title="1494">Park University</option><option value="/contests/naq18/standings/1495" title="1495">Penn State Harrisburg</option><option value="/contests/naq18/standings/1496" title="1496">Regis University</option><option value="/contests/naq18/standings/1497" title="1497">Rice University</option><option value="/contests/naq18/standings/1498" title="1498">Rochester Institute of Technology</option><option value="/contests/naq18/standings/1499" title="1499">Rutgers University</option><option value="/contests/naq18/standings/1500" title="1500">Ryerson University</option><option value="/contests/naq18/standings/1501" title="1501">Simon Fraser University</option><option value="/contests/naq18/standings/1502" title="1502">South Dakota School of Mines and Technology</option><option value="/contests/naq18/standings/1503" title="1503">Southern Connecticut State University</option><option value="/contests/naq18/standings/1504" title="1504">Stanford University</option><option value="/contests/naq18/standings/1505" title="1505">Stony Brook University</option><option value="/contests/naq18/standings/1506" title="1506">Swarthmore College</option><option value="/contests/naq18/standings/1507" title="1507">Tennessee Technological University</option><option value="/contests/naq18/standings/1508" title="1508">Texas A&amp;M University</option><option value="/contests/naq18/standings/1509" title="1509">The University of Tennessee at Martin</option><option value="/contests/naq18/standings/1510" title="1510">The University of Texas at Dallas</option><option value="/contests/naq18/standings/1511" title="1511">Trinity University (Texas)</option><option value="/contests/naq18/standings/1512" title="1512">Union College</option><option value="/contests/naq18/standings/1513" title="1513">United States Naval Academy</option><option value="/contests/naq18/standings/1514" title="1514">University of Alabama</option><option value="/contests/naq18/standings/1515" title="1515">University of Alberta</option><option value="/contests/naq18/standings/1516" title="1516">University of Arizona</option><option value="/contests/naq18/standings/1517" title="1517">University of Arkansas</option><option value="/contests/naq18/standings/1518" title="1518">University of British Columbia</option><option value="/contests/naq18/standings/1519" title="1519">University of California, Berkeley</option><option value="/contests/naq18/standings/1520" title="1520">University of California, Los Angeles</option><option value="/contests/naq18/standings/1521" title="1521">University of Central Florida</option><option value="/contests/naq18/standings/1522" title="1522">University of Central Missouri</option><option value="/contests/naq18/standings/1523" title="1523">University of Chicago</option><option value="/contests/naq18/standings/1524" title="1524">University of Connecticut</option><option value="/contests/naq18/standings/1525" title="1525">University of Dallas</option><option value="/contests/naq18/standings/1526" title="1526">University of Hawaii at Hilo</option><option value="/contests/naq18/standings/1527" title="1527">University of Houston–Clear Lake</option><option value="/contests/naq18/standings/1528" title="1528">University of Illinois at Chicago</option><option value="/contests/naq18/standings/1529" title="1529">University of Illinois at Urbana–Champaign</option><option value="/contests/naq18/standings/1530" title="1530">University of Lethbridge</option><option value="/contests/naq18/standings/1531" title="1531">University of Louisville</option><option value="/contests/naq18/standings/1532" title="1532">University of Manitoba</option><option value="/contests/naq18/standings/1533" title="1533">University of Michigan</option><option value="/contests/naq18/standings/1534" title="1534">University of Minnesota</option><option value="/contests/naq18/standings/1535" title="1535">University of Nebraska–Lincoln</option><option value="/contests/naq18/standings/1536" title="1536">University of Nevada, Reno</option><option value="/contests/naq18/standings/1537" title="1537">University of New Brunswick</option><option value="/contests/naq18/standings/1538" title="1538">University of New Haven</option><option value="/contests/naq18/standings/1539" title="1539">University of North Carolina at Chapel Hill</option><option value="/contests/naq18/standings/1540" title="1540">University of North Carolina at Charlotte</option><option value="/contests/naq18/standings/1541" title="1541">University of North Carolina at Greensboro</option><option value="/contests/naq18/standings/1542" title="1542">University of North Dakota</option><option value="/contests/naq18/standings/1543" title="1543">University of Notre Dame</option><option value="/contests/naq18/standings/1544" title="1544">University of Oklahoma</option><option value="/contests/naq18/standings/1545" title="1545">University of Rochester</option><option value="/contests/naq18/standings/1546" title="1546">University of San Simón</option><option value="/contests/naq18/standings/1547" title="1547">University of Scranton</option><option value="/contests/naq18/standings/1548" title="1548">University of South Alabama</option><option value="/contests/naq18/standings/1549" title="1549">University of Texas at Arlington</option><option value="/contests/naq18/standings/1550" title="1550">University of Texas at Austin</option><option value="/contests/naq18/standings/1551" title="1551">University of Texas at San Antonio</option><option value="/contests/naq18/standings/1552" title="1552">University of Toronto</option><option value="/contests/naq18/standings/1553" title="1553">University of Tulsa</option><option value="/contests/naq18/standings/1554" title="1554">University of Washington</option><option value="/contests/naq18/standings/1555" title="1555">University of Waterloo</option><option value="/contests/naq18/standings/1556" title="1556">University of Windsor</option><option value="/contests/naq18/standings/1557" title="1557">Vanderbilt University</option><option value="/contests/naq18/standings/1558" title="1558">Villanova University</option><option value="/contests/naq18/standings/1559" title="1559">Virginia Tech</option><option value="/contests/naq18/standings/1560" title="1560">Washington University in St. Louis</option><option value="/contests/naq18/standings/1561" title="1561">Webster University</option><option value="/contests/naq18/standings/1562" title="1562">West Chester University</option><option value="/contests/naq18/standings/1564" title="1564">West Virginia University Institute of Technology</option><option value="/contests/naq18/standings/1563" title="1563">Western Michigan University</option><option value="/contests/naq18/standings/1565" title="1565">Whitworth University</option><option value="/contests/naq18/standings/1566" title="1566">Wilfrid Laurier University</option></select><script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/autosubmit_select.js"></script><script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="text/javascript">jQuery(function($) { $('.filter_select select').select2({ 'width': 'element' }); });</script></div></td></tr></tbody></table>
+                
+                                    <h2 class="filter_heading mt-4">Affiliation: Augsburg University</h2>
+                            </div>
+            </section>
+
+    <section class="l-strip_list" data-cy="problems-table">
+        <div class="strip-plain -mb-2"><div class="table-legend mb-0"><div class="table-legend-statuses"></div><div class="table-legend-statuses"><span class="table-legend-status"><i class="fas fa-check status-icon legend-first legend-base"></i>First to solve</span><span class="table-legend-status"><i class="fas fa-check status-icon legend-solved legend-base"></i>Solved</span><span class="table-legend-status"><i class="fas fa-times status-icon legend-attempted legend-base"></i>Attempted</span><span class="table-legend-status"><i class="fas fa-question status-icon legend-pending legend-base"></i>Pending judgement</span></div></div></div><div class="strip strip-item-plain"><div class="table-wrapper">         <table class="table2 sticky-header standings-table"><thead><tr><th class="table-item-autofit font-bold " data-name=rank></th><th class=" standings-cell--expand " data-name=team>Team</th><th class="table-item-autofit  " data-name=flags></th><th class="table-item-autofit  " data-name=logos></th><th class="table-item-autofit standings-cell-score " data-name=solved>Slv.</th><th class="table-item-autofit standings-cell-time " data-name=penalty>Time</th><th class=" standings-cell-problem " data-name=problemA><a href="/contests/naq18/problems/bingoties" title="Bingo Ties" class="col-url" style="">A</a></th><th class=" standings-cell-problem " data-name=problemB><a href="/contests/naq18/problems/dasblinkenlights" title="Das Blinkenlights" class="col-url" style="">B</a></th><th class=" standings-cell-problem " data-name=problemC><a href="/contests/naq18/problems/ebonyandivory" title="Ebony and Ivory" class="col-url" style="">C</a></th><th class=" standings-cell-problem " data-name=problemD><a href="/contests/naq18/problems/froggie" title="Froggie" class="col-url" style="">D</a></th><th class=" standings-cell-problem " data-name=problemE><a href="/contests/naq18/problems/fruitslicer" title="Fruit Slicer" class="col-url" style="">E</a></th><th class=" standings-cell-problem " data-name=problemF><a href="/contests/naq18/problems/lcmtree" title="LCM Tree" class="col-url" style="">F</a></th><th class=" standings-cell-problem " data-name=problemG><a href="/contests/naq18/problems/leftandright" title="Left and Right" class="col-url" style="">G</a></th><th class=" standings-cell-problem " data-name=problemH><a href="/contests/naq18/problems/longestlife" title="Longest Life" class="col-url" style="">H</a></th><th class=" standings-cell-problem " data-name=problemI><a href="/contests/naq18/problems/monitoringskipaths" title="Monitoring Ski Paths" class="col-url" style="">I</a></th><th class=" standings-cell-problem " data-name=problemJ><a href="/contests/naq18/problems/peggamefortwo" title="Peg Game for Two" class="col-url" style="">J</a></th><th class=" standings-cell-problem " data-name=problemK><a href="/contests/naq18/problems/runlengthencodingrun" title="Run-Length Encoding, Run!" class="col-url" style="">K</a></th><th class=" standings-cell-problem " data-name=problemL><a href="/contests/naq18/problems/superdoku" title="Superdoku" class="col-url" style="">L</a></th><th class=" standings-cell-problem " data-name=problemM><a href="/contests/naq18/problems/triangularclouds" title="Triangular Clouds" class="col-url" style="">M</a></th></tr></thead><tbody><tr class="" ><td class="table-item-autofit  font-bold">1</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108370">Aug0001</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">2</td><td class="table-item-autofit table-align-right standings-cell-time">511</td><td class="  standings-cell-problem"><span class="attempted"><span class="standings-table-result-cell"><i class="fas fa-times status-icon cell-attempted"></i><span class="standings-table-result-cell-text"><span class="standings-table-result-cell-primary">5</span><br><span class="standings-table-result-cell-time">-</span></span></span></span></td><td class="  standings-cell-problem"><span class="first" title="First team to solve this problem"><span class="standings-table-result-cell"><i class="fas fa-check status-icon cell-first"></i><span class="standings-table-result-cell-text"><span class="standings-table-result-cell-primary">1</span><br><span class="standings-table-result-cell-time">236 min</span></span></span></span></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"><span class="first" title="First team to solve this problem"><span class="standings-table-result-cell"><i class="fas fa-check status-icon cell-first"></i><span class="standings-table-result-cell-text"><span class="standings-table-result-cell-primary">1</span><br><span class="standings-table-result-cell-time">275 min</span></span></span></span></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">2</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108460">Aug0100</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">1</td><td class="table-item-autofit table-align-right standings-cell-time">296</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"><span class="solved"><span class="standings-table-result-cell"><i class="fas fa-check status-icon cell-solved"></i><span class="standings-table-result-cell-text"><span class="standings-table-result-cell-primary">1</span><br><span class="standings-table-result-cell-time">296 min</span></span></span></span></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">3</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108253">Aug0011</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">1</td><td class="table-item-autofit table-align-right standings-cell-time">384</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"><span class="solved"><span class="standings-table-result-cell"><i class="fas fa-check status-icon cell-solved"></i><span class="standings-table-result-cell-text"><span class="standings-table-result-cell-primary">6</span><br><span class="standings-table-result-cell-time">284 min</span></span></span></span></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108254">Aug0010</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108459">Aug0101</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/107146">Aug0110</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/107147">Aug0111</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108166">Aug1000</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108165">Aug1001</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr><tr class="" ><td class="table-item-autofit  font-bold">4</td><td class="  standings-cell--expand"><div class="flex gap-2" ><a href="/contests/naq18/teams/108255">Aug1010</a></div></td><td class="table-item-autofit  "><img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit  "><img src="/images/affiliations/augsburg.edu/56px?v=a34d8120214a8e19db5e7addcb81baa8" height="28" alt="Augsburg University" title="Augsburg University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom" ></td><td class="table-item-autofit table-align-right standings-cell-score">0</td><td class="table-item-autofit table-align-right standings-cell-time">0</td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td><td class="  standings-cell-problem"></td></tr></tbody></table></div></div><script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/modules/table.js"></script>
+    </section>
+</div>
+    </div>
+
+
+    </main>
+
+    
+
+
+
+    <footer class="l-footer ">
+        <span class="text-center text-sm divider-separated-list">
+            <a href="/contact">Contact</a>
+            <a href="https://status.kattis.com">System Status</a>
+            <a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a>
+            <a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a>
+        </span>
+    </footer>
+
+</div>
+
+
+
+    <script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" type="module" src="/js/7a65156e1e2f3dd853895b397757a6af/pages/contest/header.js"></script>
+<script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="/assets/f486fab94cc79f07f2bfe2b42efb4066/moment/min/moment.min.js"></script>
+<script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="/assets/f486fab94cc79f07f2bfe2b42efb4066/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="/assets/f486fab94cc79f07f2bfe2b42efb4066/select2/dist/js/select2.full.min.js"></script>
+
+
+
+        <script defer nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" src="https://status.kattis.com/embed/script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" nonce="996d8eb88ea807a991b5329d2c8dec933f8937767176a522bb1a5e8cf7e79fed" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

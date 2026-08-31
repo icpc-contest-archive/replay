@@ -1,0 +1,1109 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://vjudge.net/contest/465385#rank">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function () {
+    try {
+      const storedTheme = localStorage.getItem('theme') || 'auto';
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const effectiveTheme = storedTheme === 'auto'
+          ? (prefersDark ? 'dark' : 'light')
+          : storedTheme;
+      document.documentElement.setAttribute('data-bs-theme', effectiveTheme);
+      document.documentElement.style.setProperty('color-scheme', effectiveTheme);
+    } catch (e) {
+    }
+  })();
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-374JLX1715"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-374JLX1715', {
+    
+  });
+</script>
+
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9098591903020457" crossorigin="anonymous"></script>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="keywords" content="Online Judge, vjudge, OJ, Virtual Judge, ICPC, OnlineJudge"/>
+<meta name="robots" content="index, follow"/>
+
+    <title>Romanian Competitive Programming Contest (RCPC) 2021 - Virtual Judge</title>
+
+    <meta property="og:url" content="https://vjudge.net/contest/465385"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Romanian Competitive Programming Contest (RCPC) 2021 - Virtual Judge"/>
+    <meta property="og:description"
+          content="Contest [Romanian Competitive Programming Contest (RCPC) 2021] in Virtual Judge"/>
+<script defer src="/static/bundle/5ca5384fb31fb64bf472.js"></script><script defer src="/static/bundle/d0c94275e6a0180c963d.js"></script><script defer src="/static/bundle/294b2ebebb4be4b920cc.js"></script><script defer src="/static/bundle/90310905274c4a3a7315.js"></script><script defer src="/static/bundle/0396b8e9b750575143d9.js"></script><script defer src="/static/bundle/1275100a509f5ec5fcce.js"></script><script defer src="/static/bundle/52d5e69457963eb3cb2e.js"></script><script defer src="/static/bundle/a6868da9d04345cab918.js"></script><script defer src="/static/bundle/27261f7a2dd122abf728.js"></script><script defer src="/static/bundle/481afee07c9e2f303c8f.js"></script><script defer src="/static/bundle/239a02882808fbeca603.js"></script><link href="/static/bundle/b378288a29261e25294f.css" rel="stylesheet"><link href="/static/bundle/558cf47dd4aa8a2db0b6.css" rel="stylesheet"><link href="/static/bundle/5e2c696923ff729abf9c.css" rel="stylesheet"><link href="/static/bundle/dac7c795e0cef2db76e6.css" rel="stylesheet"></head>
+
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://vjudge.net/contest/465385#rank">https://vjudge.net/contest/465385#rank</a> (fetched 2026-04-15) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/romania-2021.html">romania-2021</a>)  <a href="https://web.archive.org/web/*/https://vjudge.net/contest/465385#rank">wayback</a></div>
+
+<head><script defer src="/static/bundle/31d6cfe0d16ae931b73c.js"></script></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark prod" id="top-nav">
+    <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand" href="/">
+            <img src="/static/bundle/11b24ab2156955d8f3fa.ico" height="30"/>
+            <span data-i18n="top.nav.home"></span>
+        </a>
+        <ul class="navbar-nav top-nav-primary">
+            <li class="nav-item" id="nav-problem">
+                <a class="nav-link" href="/problem" data-i18n="top.nav.problem"></a>
+            </li>
+            <li class="nav-item" id="nav-status">
+                <a class="nav-link" href="/status" data-i18n="top.nav.status"></a>
+            </li>
+            <li class="nav-item" id="nav-contest">
+                <a class="nav-link" href="/contest" data-i18n="top.nav.contest"></a>
+            </li>
+            <li class="nav-item" id="nav-workbook">
+                <a class="nav-link" href="/workbook" data-i18n="top.nav.workbook"></a>
+            </li>
+            <li class="nav-item" id="nav-user">
+                <a class="nav-link" href="/user" data-i18n="top.nav.user"></a>
+            </li>
+            <li class="nav-item" id="nav-group">
+                <a class="nav-link" href="/group" data-i18n="top.nav.group"></a>
+            </li>
+            <li class="nav-item" id="nav-comment">
+                <a class="nav-link" href="/comment" data-i18n="top.nav.forum"></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="helpDropdown" data-bs-toggle="dropdown" data-i18n="top.nav.help"></a>
+                <div class="dropdown-menu dropdown-menu-start">
+                    <a class="dropdown-item" href="/article/2771">
+                        <i class="fa fa-question-circle-o"></i>
+                        <span data-i18n="top.nav.faq"></span>
+                    </a>
+                    <a class="dropdown-item" href="/article/97">
+                        <i class="fa fa-bug"></i>
+                        <span data-i18n="top.nav.bf"></span>
+                    </a>
+                    <a class="dropdown-item" href="/article/96">
+                        <i class="fa fa-lightbulb-o"></i>
+                        <span data-i18n="top.nav.suggestions"></span>
+                    </a>
+                    <a class="dropdown-item" href="javascript:void(0)" id="contact-us">
+                        <i class="fa fa-headphones"></i>
+                        <span data-i18n="top.nav.contact"></span>
+                    </a>
+                </div>
+            </li>
+            
+        </ul>
+        <ul class="navbar-nav top-nav-secondary ms-sm-auto">
+            <li class="nav-item top-nav-theme-item">
+                <a class="nav-link" href="javascript:void(0)" id="switchTheme"></a>
+            </li>
+            <li class="nav-item dropdown top-nav-locale-item">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="switchLocale" data-bs-toggle="dropdown" data-i18n="top.nav.locale"></a>
+                <div class="dropdown-menu dropdown-menu-end switch-locale-dropdown"></div>
+            </li>
+            
+                
+                
+                    <li class="nav-item top-nav-login-item">
+                        <a class="nav-link login" href="javascript:void(0)" data-i18n="top.nav.login"></a>
+                    </li>
+                    <li class="nav-item top-nav-register-item">
+                        <a class="nav-link register" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#registerModal" data-i18n="top.nav.register"></a>
+                    </li>
+                
+            
+        </ul>
+    </div>
+</nav>
+<div id="page-panel-toggle-slot"></div>
+
+
+<div class="container-md" style="margin-top: 30px;">
+    
+        <div class="row alert alert-info" id="contest-announcement" style="display: none;"></div>
+    
+
+    <div class="row card" id="time-info">
+        <div class="row">
+            <div class="col-3 text-start">
+                <b>
+                    <i18n>contest.view.begin</i18n>
+                    :
+                </b>
+                <span class="timestamp">1635667200000</span>
+            </div>
+            <div class="col-6 text-center">
+                <h3>
+                    <i id="btn-favorite"></i>
+                    
+                    
+                    Romanian Competitive Programming Contest (RCPC) 2021
+                </h3>
+            </div>
+            <div class="col-3 text-end">
+                <b>
+                    <i18n>contest.view.end</i18n>
+                    :
+                </b>
+                <span class="timestamp">1635685200000</span>
+            </div>
+        </div>
+        <div class="row" id="contest-time-slider-container">
+            <div id="contest-time"></div>
+        </div>
+        <div class="row">
+            <div class="col-3 text-start" id="info-elapsed">
+                <b>
+                    <i18n>contest.view.elapsed</i18n>
+                    :</b>
+                <span class="elapsed" id="span-elapsed"></span>
+            </div>
+            <div class="col-6 text-center">
+                <span id="info-running"></span>
+                <span id="info-freeze" style="color: grey">
+                    (<i18n>contest.frozen</i18n>)
+                </span>
+            </div>
+            <div class="col-3 text-end" id="info-remaining">
+                <b>
+                    <i18n>contest.view.remaining</i18n>
+                    :</b>
+                <span class="remaining" id="span-remaining"></span>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist" id="contest-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#overview" section="overview" role="tab"
+                       data-i18n="contest.view.overview"></a>
+                </li>
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#problem" section="problem" role="tab"
+                           data-i18n="contest.view.problem"></a>
+                    </li>
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#status" section="status" role="tab"
+                           data-i18n="contest.view.status"></a>
+                    </li>
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#rank" section="rank" role="tab" data-i18n="contest.view.rank">
+                            <i class='fa fa-refresh fa-spin'></i>
+                        </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#discuss" section="discuss" role="tab"
+                       data-i18n="contest.view.discuss" rel="#discuss" data-disqus-identifier="contest/465385"></a>
+                </li>
+
+                <li class="ms-auto text-end">
+                    <div class="btn-group" role="group">
+                        
+                            <button type="button" class="btn btn-secondary" id="btn-setting" data-i18n="contest.view.setting"></button>
+                        
+                        
+                            <button type="button" class="btn btn-secondary" id="btn-clone" data-i18n="contest.view.clone"></button>
+                        
+                        
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane in active" id="overview" role="tabpanel">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_overview" class="container">
+
+    
+        <div class="row">
+            <div class="table-responsive px-0">
+                <table id="contest-problems" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th class="my-stat"></th>
+                        <th class="all-stat" data-i18n="contest.view.stat"></th>
+                        <th class="prob-num">#</th>
+                        
+                        
+                            <th class="prob-origin" data-i18n="contest.view.origin">Origin</th>
+                        
+                        <th class="prob-title text-start" data-i18n="contest.view.title">Title</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">A</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-customscontrols"
+                                       target="_blank"
+                                       title="Kattis customscontrols"
+                                       data-bs-toggle="tooltip">
+                                            Kattis customscontrols
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/A">
+                                    Checkpoints
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">B</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-dna"
+                                       target="_blank"
+                                       title="Kattis dna"
+                                       data-bs-toggle="tooltip">
+                                            Kattis dna
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/B">
+                                    Pandemic mutation
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">C</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-incaseofinvasion"
+                                       target="_blank"
+                                       title="Kattis incaseofinvasion"
+                                       data-bs-toggle="tooltip">
+                                            Kattis incaseofinvasion
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/C">
+                                    Timon
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">D</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-ascendingphoto"
+                                       target="_blank"
+                                       title="Kattis ascendingphoto"
+                                       data-bs-toggle="tooltip">
+                                            Kattis ascendingphoto
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/D">
+                                    Sorted Heights
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">E</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-justiceforants"
+                                       target="_blank"
+                                       title="Kattis justiceforants"
+                                       data-bs-toggle="tooltip">
+                                            Kattis justiceforants
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/E">
+                                    Fair Distribution
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">F</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/AtCoder-codefestival_2016_final_d"
+                                       target="_blank"
+                                       title="AtCoder codefestival_2016_final_d"
+                                       data-bs-toggle="tooltip">
+                                            AtCoder codefestival_2016_final_d
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/F">
+                                    Equal or Multiple
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">G</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-nekameleoni"
+                                       target="_blank"
+                                       title="Kattis nekameleoni"
+                                       data-bs-toggle="tooltip">
+                                            Kattis nekameleoni
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/G">
+                                    Pumba
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">H</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-batmanacci"
+                                       target="_blank"
+                                       title="Kattis batmanacci"
+                                       data-bs-toggle="tooltip">
+                                            Kattis batmanacci
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/H">
+                                    Sequence S
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">I</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-makingpalindromes"
+                                       target="_blank"
+                                       title="Kattis makingpalindromes"
+                                       data-bs-toggle="tooltip">
+                                            Kattis makingpalindromes
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/I">
+                                    Mr X
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">J</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-consecutivesums"
+                                       target="_blank"
+                                       title="Kattis consecutivesums"
+                                       data-bs-toggle="tooltip">
+                                            Kattis consecutivesums
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/J">
+                                    Natural sums
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">K</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-ants"
+                                       target="_blank"
+                                       title="Kattis ants"
+                                       data-bs-toggle="tooltip">
+                                            Kattis ants
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/K">
+                                    Drinking games
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">L</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-ranklistsorting"
+                                       target="_blank"
+                                       title="Kattis ranklistsorting"
+                                       data-bs-toggle="tooltip">
+                                            Kattis ranklistsorting
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/L">
+                                    Sorting Chips
+                                </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="my-stat"></td>
+                            <td class="all-stat"></td>
+                            <td class="prob-num text-center">M</td>
+                            
+                            
+                                <td class="prob-origin text-center">
+                                    <a href="/problem/Kattis-inquiryi"
+                                       target="_blank"
+                                       title="Kattis inquiryi"
+                                       data-bs-toggle="tooltip">
+                                            Kattis inquiryi
+                                    </a>
+                                </td>
+                            
+                            <td class="prob-title">
+                                <a href="#problem/M">
+                                    Simple Query
+                                </a>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+
+    <div class="row text-end" id="contest-meta"></div>
+
+    <div class="row card" id="contest-description" style="display: none"></div>
+
+</div>
+
+                </div>
+                
+                    <div class="tab-pane" id="problem" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_problem" class="container-md">
+    <div class="page-panel-toggle-host d-none">
+        <button type="button"
+                class="btn btn-outline-light page-panel-toggle contest-problem-panels-toggle d-none"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#prob-left-panel"
+                aria-controls="prob-left-panel">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div class="row fixed-left-panel-layout">
+        <div class="offcanvas-md offcanvas-start problem-side-panel-column fixed-left-panel"
+             id="prob-left-panel"
+             tabindex="-1"
+             aria-labelledby="contest-problem-panels-title">
+            <div class="offcanvas-header d-md-none">
+                <h5 class="offcanvas-title" id="contest-problem-panels-title" data-i18n="button.panels"></h5>
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        data-bs-target="#prob-left-panel"
+                        aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body problem-side-panel-body">
+            <ul class="nav nav-pills problem-side-panel-section" id="problem-nav">
+                
+                    <li class="nav-item">
+                        <a num="A"
+                           class="nav-link"
+                           href="#problem/A">A</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="B"
+                           class="nav-link"
+                           href="#problem/B">B</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="C"
+                           class="nav-link"
+                           href="#problem/C">C</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="D"
+                           class="nav-link"
+                           href="#problem/D">D</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="E"
+                           class="nav-link"
+                           href="#problem/E">E</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="F"
+                           class="nav-link"
+                           href="#problem/F">F</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="G"
+                           class="nav-link"
+                           href="#problem/G">G</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="H"
+                           class="nav-link"
+                           href="#problem/H">H</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="I"
+                           class="nav-link"
+                           href="#problem/I">I</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="J"
+                           class="nav-link"
+                           href="#problem/J">J</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="K"
+                           class="nav-link"
+                           href="#problem/K">K</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="L"
+                           class="nav-link"
+                           href="#problem/L">L</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a num="M"
+                           class="nav-link"
+                           href="#problem/M">M</a>
+                    </li>
+                
+            </ul>
+
+            <div class="alert alert-danger row" role="alert" id="prob-alert" style="display: none"></div>
+
+            <div id="prob-operation" class="problem-side-panel-section">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-outline-primary" id="problem-submit"></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" class="btn btn-secondary" id="btn-contest-status" data-i18n="contest.view.status">Status</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="btn btn-secondary" id="btn-contest-my-status" data-i18n="contest.view.my_status">My Status</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="btn btn-secondary" id="btn-contest-problem-pdf" target="_blank">
+                            <i class="fa fa-file-pdf-o"></i> PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary" id="btn-problem-rejudge" style="display: none" data-i18n="contest.view.rejudge"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="prob-properties" class="problem-side-panel-section">
+                <dl class="card row"></dl>
+            </div>
+
+            <div id="update-statements-tips"
+                 class="alert alert-info problem-side-panel-section"
+                 style="display: none; font-size: 15px; margin-bottom: 0">
+                <i18n>msg.26</i18n>:
+            </div>
+
+            <div id="prob-descriptions" class="problem-side-panel-section">
+                <div class="list-group" id="prob-descs"></div>
+            </div>
+
+            <div class="row d-none d-md-block" style="margin-top: 20px">
+                <!-- Contest sidebar -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9098591903020457"
+                     data-ad-slot="9577100134"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                  var ad_setter = setInterval(function () {
+                    if (document.getElementById('contest_problem').offsetParent !== null) {
+                      (adsbygoogle = window.adsbygoogle || []).push({});
+                      clearInterval(ad_setter);
+                    }
+                  }, 1000);
+                </script>
+            </div>
+            </div>
+        </div>
+        <div class="fixed-main-panel" id="prob-right-panel">
+            <div class="row">
+                <div id="prob-title-contest">
+                    <h2 id="problem-title"></h2>
+                    <span class="origin">
+                        <a id="problem-origin" href="#" target="_blank"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row" id="frame-description-container"></div>
+        </div>
+    </div>
+
+</div>
+
+                    </div>
+                
+                
+                    <div class="tab-pane" id="status" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_status" class="container">
+    <div class="row" id="right-panel">
+        <input type="button" class="btn btn-secondary btn-md" id="refresh-all" value="Refresh" data-i18n="button.refresh" />
+        <input type="button" class="btn btn-secondary btn-md" id="reset" data-i18n="button.reset" />
+        <input type="button" class="btn btn-secondary btn-md" id="filter" data-i18n="button.filter" />
+        <div class="table-responsive px-0">
+            <table id="listStatus" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th class="run-id d-none d-xl-table-cell">ID</th>
+                    <th class="username">
+                        <i18n>status.list.username</i18n><br/>
+                        <input type="text" id="un" name="un" class="search_text" style="width:100%"/>
+                    </th>
+                    <th class="num">
+                        <i18n>status.list.prob</i18n><br/>
+                        <select id="contest-status-num" name="num" class="form-select">
+                            <option value="-" data-i18n="all"></option>
+                        </select>
+                    </th>
+                    <th class="status">
+                        <i18n>status.list.result</i18n><br/>
+                        <select id="res" name="res" class="form-select">
+                            <option value="0" data-i18n="all"></option>
+                            <option value="1" data-i18n="status.result.accepted"></option>
+                            <option value="2" data-i18n="status.result.presentation_error"></option>
+                            <option value="3" data-i18n="status.result.wrong_answer"></option>
+                            <option value="4" data-i18n="status.result.time_limit_exceeded"></option>
+                            <option value="5" data-i18n="status.result.memory_limit_exceeded"></option>
+                            <option value="6" data-i18n="status.result.output_limit_exceeded"></option>
+                            <option value="7" data-i18n="status.result.runtime_error"></option>
+                            <option value="8" data-i18n="status.result.compile_error"></option>
+                            <option value="9" data-i18n="status.result.remote_oj_unavailable"></option>
+                            <option value="10" data-i18n="status.result.judge_failed"></option>
+                            <option value="11" data-i18n="status.result.unknown_error"></option>
+                            <option value="12" data-i18n="status.result.submit_failed"></option>
+                            <option value="13" data-i18n="status.result.queuing_and_judging"></option>
+                        </select>
+                    </th>
+                    <th class="runtime">
+                        <i18n>status.list.time</i18n><br>(ms)
+                    </th>
+                    <th class="memory">
+                        <i18n>status.list.mem</i18n><br>(MB)
+                    </th>
+                    <th class="length d-none d-xl-table-cell">
+                        <i18n>status.list.length</i18n>
+                    </th>
+                    <th class="language">
+                        <i18n>status.list.lang</i18n><br/>
+                        <select name="language" id="language" class="form-select">
+                            <option value="" data-i18n="all"></option>
+                            
+                                <option value="C">C</option>
+                            
+                                <option value="CPP">C++</option>
+                            
+                                <option value="CSHARP">C#</option>
+                            
+                                <option value="D">D</option>
+                            
+                                <option value="GO">Go</option>
+                            
+                                <option value="HASKELL">Haskell</option>
+                            
+                                <option value="JAVA">Java</option>
+                            
+                                <option value="JAVASCRIPT">JavaScript</option>
+                            
+                                <option value="KOTLIN">Kotlin</option>
+                            
+                                <option value="LUA">Lua</option>
+                            
+                                <option value="OBJECTIVE_C">Objective-C</option>
+                            
+                                <option value="PASCAL">Pascal</option>
+                            
+                                <option value="PERL">Perl</option>
+                            
+                                <option value="PHP">PHP</option>
+                            
+                                <option value="PYTHON">Python</option>
+                            
+                                <option value="RUBY">Ruby</option>
+                            
+                                <option value="RUST">Rust</option>
+                            
+                                <option value="SCALA">Scala</option>
+                            
+                                <option value="SWIFT">Swift</option>
+                            
+                                <option value="OTHER">Other</option>
+                            
+                        </select>
+                    </th>
+                    <th class="date">
+                        <i18n>status.list.submit_time</i18n>
+                    </th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                    </div>
+                
+                
+                    <div class="tab-pane" id="rank" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_rank">
+    <table id="contest-rank-table" cellspacing="1"></table>
+    <table id="contest-rank-table-export"></table>
+
+    <div class="rank_tool">
+        <i class="fa fa-line-chart fa-3x" id="img_time_chart" title="Time chart"></i>
+    </div>
+
+    <!-- Team info modal -->
+    <div class="modal fade" id="teamInfoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-bordered contest-info"></table>
+                    <div id="rank-time-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+                    </div>
+                
+                <div class="tab-pane" id="discuss" role="tabpanel">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_discuss"></div>
+
+                </div>
+            </div>
+
+        </div>
+    
+
+    
+
+</div>
+
+<textarea style="display: none" name="dataJson">{"id":465385,"title":"Romanian Competitive Programming Contest (RCPC) 2021","type":0,"openness":0,"authStatus":1,"begin":1635667200000,"end":1635685200000,"freezeTime":1635685200000,"unfreezeTime":1635685200000,"enableFreeze":false,"createTime":1635426044000,"version":"44e","started":true,"ended":true,"managerId":578663,"managerName":"rcpcadmin","fav":false,"description":{"format":"MD","content":"Please follow the online SEERC 2020 rules : http://acm.ro/ , then press \"rules\".\nEach team member can use its own computer and members can code simultaneously.\n\nPlease put the nickname of vjudge account as: Institution initials. (e.g. UB, UTI, UCV, UAIC, UPB, UBB, UVT, UPT).\nSo we can easily import the ranking on icpc.global.\n\nFor unofficial participation of for high-school you can use: CNTV, LIIS, CNER, etc).\n\nMore info on how to configure your vjudge account here:\nhttps://profs.info.uaic.ro/~paul.diac/icpc/2020/iscpc/vjudge_profil.pdf\n"},"announcement":"Please follow the online SEERC 2020 rules : http://acm.ro/ , then press \"rules\".\nEach team member can use its own computer and members can code simultaneously.\n\nPlease put the nickname of vjudge account as: Institution initials. (e.g. UB, UTI, UCV, UAIC, UPB, UBB, UVT, UPT).\nSo we can easily import the ranking on icpc.global.\n\nFor unofficial participation of for high-school you can use: CNTV, LIIS, CNER, etc).\n\nMore info on how to configure your vjudge account here:\nhttps://profs.info.uaic.ro/~paul.diac/icpc/2020/iscpc/vjudge_profil.pdf\n","problems":[{"pid":4023680,"title":"Checkpoints","oj":"Kattis","probNum":"customscontrols","num":"A","enabledDescKeys":[3082056733956463],"descBriefs":[{"key":3082056733956463,"updateDate":"2021-10-30","version":1635549140000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-23"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Nordic%20Collegiate%20Programming%20Contest%20%28NCPC%29%202021\"\u003eNordic Collegiate Programming Contest (NCPC) 2021\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Nils%20Gustafsson\"\u003eNils Gustafsson\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":2808253,"title":"Pandemic mutation","oj":"Kattis","probNum":"dna","num":"B","enabledDescKeys":[3082062182474528],"descBriefs":[{"key":3082062182474528,"updateDate":"2021-10-30","version":1635544300000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from cmihaescu\u0027s version at 2021-10-29"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Croatian%20Open%20Competition%20in%20Informatics%202011/2012%2C%20contest%20%235\"\u003eCroatian Open Competition in Informatics 2011/2012, contest #5\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Adrian%20Satja%20Kurdija\"\u003eAdrian Satja Kurdija\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":2760288,"title":"Timon","oj":"Kattis","probNum":"incaseofinvasion","num":"C","enabledDescKeys":[3081990764880604],"descBriefs":[{"key":3081990764880604,"updateDate":"2021-10-30","version":1635589595000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-23"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Benelux%20Algorithm%20Programming%20Contest%20%28BAPC%29%202018\"\u003eBenelux Algorithm Programming Contest (BAPC) 2018\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Timon%20Knigge\"\u003eTimon Knigge\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":1250387,"title":"Sorted Heights","oj":"Kattis","probNum":"ascendingphoto","num":"D","enabledDescKeys":[3082126116934605],"descBriefs":[{"key":3082126116934605,"updateDate":"2021-10-30","version":1635587275000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-29"}],"properties":[{"title":"time_limit","content":"4000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Northwestern%20Europe%20Regional%20Contest%20%28NWERC%29%202017\"\u003eNorthwestern Europe Regional Contest (NWERC) 2017\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Jim%20Grimmett\"\u003eJim Grimmett\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":2982964,"title":"Fair Distribution","oj":"Kattis","probNum":"justiceforants","num":"E","enabledDescKeys":[3082181566648398],"descBriefs":[{"key":3082181566648398,"updateDate":"2021-10-30","version":1635598390000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-25"}],"properties":[{"title":"time_limit","content":"7000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/The%202019%20ICPC%20Asia%20Danang%20Regional%20Contest\"\u003eThe 2019 ICPC Asia Danang Regional Contest\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":584925,"title":"Equal or Multiple","oj":"AtCoder","probNum":"codefestival_2016_final_d","num":"F","enabledDescKeys":[3082064556305478],"descBriefs":[{"key":3082064556305478,"updateDate":"2021-10-30","version":1635541162000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from Juve45\u0027s version at 2021-10-30"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"source","content":"\u003ca class\u003d\"contest-title\" href\u003d\"https://atcoder.jp/contests/cf16-final\"\u003eCODE FESTIVAL 2016 Final\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"6076":"Perl (perl 5.38.2)","6075":"Pascal (fpc 3.2.2)","6078":"Piet (your-diary/piet_programming_language 3.0.0) (PPM image)","6111":"Zig (Zig 0.15.1)","6077":"PHP (PHP 8.4.12)","6110":"Whitespace (whitespacers 1.3.0)","6113":"プロデル (mono版プロデル 2.0.1353)","6079":"Pony (ponyc 0.59.0)","6112":"なでしこ (cnako3 3.7.8 (Node.js 22.19.0))","6115":"Python (Codon 0.19.3)","6114":"Julia (Julia 1.11.6)","6072":"Nim (Nim 2.2.4)","6071":"Nim (Nim 1.6.20)","6074":"Octave (GNU Octave 10.2.0)","6073":"OCaml (ocamlopt 5.3.0)","6106":"Vala (valac 0.56.18)","6105":"V (0.4.10)","6108":"Veryl (veryl 0.16.4)","6107":"Verilog 2012 (Icarus Verilog 12.0)","6109":"WebAssembly (wabt 1.0.34 + iwasm 2.4.1)","6087":"Ruby 3.4 (ruby 3.4.5)","6086":"Ruby 3.3 (truffleruby 25.0.0)","6001":"\u003e\u003c\u003e (fishr 0.1.0)","6089":"SageMath (SageMath 10.7)","6088":"Rust (rustc 1.89.0)","6003":"APL (GNU APL 1.9)","6002":"Ada 2022 (GNAT 15.2.0)","6005":"Assembly x64 (NASM 2.16.03)","6004":"Assembly MIPS O32 ABI (GNU assembler 2.42)","6081":"Prolog (SWI-Prolog 9.2.9)","6080":"PowerShell (PowerShell 7.5.2)","6083":"Python (PyPy 3.11-v7.3.20)","6082":"Python (CPython 3.13.7)","6085":"ReasonML (reson 3.16.0)","6084":"R (GNU R 4.5.0)","6117":"Fix (1.1.0-alpha.12)","6116":"C++23 (Clang 21.1.0)","6118":"SQL (DuckDB 1.3.2)","6010":"bc (GNU bc 1.08.2)","6098":"TeX (tex 3.141592653)","6097":"Terra (Terra 1.2.0)","6012":"Brainfuck (Tritium 1.2.73)","6011":"Befunge93 (TBC 1.0)","6099":"Text (cat 9.4)","6014":"C23 (GCC 14.2.0)","6013":"C23 (Clang 21.1.0)","6016":"C# 13.0 (.NET Native AOT 9.0.8)","6015":"C# 13.0 (.NET 9.0.8)","6090":"Scala (Dotty 3.7.2)","6092":"Scheme (ChezScheme 10.2.0)","6091":"Scala 3.7.2 (Scala Native 0.5.8)","6094":"Seed7 (Seed7 3.5.0)","6093":"Scheme (Gauche 0.9.15)","6096":"Tcl (tclsh 9.0.1)","6095":"Swift 6.2","6007":"A言語 (interpreter af48a2a)","6006":"AWK (GNU awk 5.2.1)","6009":"BASIC (FreeBASIC 1.10.1)","6008":"Bash (bash 5.3)","6021":"Clojure (babashka 1.12.208)","6020":"cLay (cLay 20250308-1 (GCC 15.2.0))","6023":"Clojure (Clojure AOT 1.12.2)","6022":"Clojure (clojure 1.12.2)","6025":"Clojure (ClojureScript 1.12.42 (Clojure 1.12.2 Node.js 22.19.0))","6027":"Common Lisp (SBCL 2.5.8)","6026":"COBOL (Free) (GnuCOBOL 3.2)","6018":"C3 (c3c 0.7.5)","6017":"C++23 (GCC 15.2.0)","6019":"Carp(Carp 0.5.5)","6032":"D (LDC 1.41.0)","6031":"D (GDC 15.2)","6034":"dc 1.5.2 (GNU bc 1.08.2)","6033":"Dart (Dart 3.9.2)","6036":"Eiffel (Gobo Eiffel 22.01)","6035":"ECLiPSe (ECLiPSe 7.1_13)","6038":"Elixir (Elixir 1.18.4 (OTP 28.0.2))","6037":"Eiffel (Liberty Eiffel 07829e3)","6030":"D (DMD 2.111.0)","6029":"Cyber (Cyber v0.3)","6028":"Crystal (Crystal 1.17.0)","6043":"Factor (Factor 0.100)","6042":"F# 9.0 (.NET 9.0.8)","6045":"Forth (gforth 0.7.3)","6044":"Fish (fish 4.0.2)","6047":"Fortran2023 (GCC 14.2.0)","6046":"Fortran2018 (Flang 20.1.7)","6049":"Gleam (Gleam 1.12.0 (OTP 28.0.2))","6048":"FORTRAN77 (GCC 14.2.0)","6041":"Erlang (Erlang 28.0.2)","6040":"Emojicode 1.0 beta 2 (emojicodec 1.0 beta 2)","6039":"Emacs Lisp(Native Compile)(GNU Emacs 29.4)","6054":"C++ IOI-Style(GNU++20) (GCC 14.2.0)","6053":"Haxe/JVM 4.3.7 (hxjava 4.2.0)","6056":"Java24 (OpenJDK 24.0.2)","6055":"ISLisp (Easy-ISLisp 5.43)","6058":"JavaScript (Deno 2.4.5)","6057":"JavaScript (Bun 1.2.21)","6059":"JavaScript (Node.js 22.19.0)","6050":"Go 1.18 (gccgo 15.2.0)","6052":"Haskell (GHC 9.8.4)","6051":"Go (go 1.25.1)","6065":"Lean (lean v4.22.0)","6064":"Lazy K (irori v1.0.0)","6067":"Lua (Lua 5.4.7)","6100":"TypeScript 5.8 (Deno 2.4.5)","6066":"LLVM IR (Clang 21.1.0)","6069":"Mercury (Mercury 22.01.8)","6102":"TypeScript 5.9 (tsc 5.9.2 (Node.js 22.19.0))","6068":"Lua (LuaJIT 2.1.1703358377)","6101":"TypeScript 5.9 (tsc 5.9.2 (Bun 1.2.21))","6104":"Unison (Unison 0.5.47)","6103":"Uiua (uiua 0.16.2)","6061":"Koka (koka v3.2.2)","6060":"Jule (jule 0.1.6)","6063":"Kuin (kuincl v.2021.8.17)","6062":"Kotlin (Kotlin/JVM 2.2.10)"},"submitMethods":[true,true,true]},{"pid":4023890,"title":"Pumba","oj":"Kattis","probNum":"nekameleoni","num":"G","enabledDescKeys":[3082067966216853],"descBriefs":[{"key":3082067966216853,"updateDate":"2021-10-30","version":1635542515000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-30"}],"properties":[{"title":"time_limit","content":"5000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Croatian%20Open%20Competition%20in%20Informatics%202015/2016%2C%20contest%20%233\"\u003eCroatian Open Competition in Informatics 2015/2016, contest #3\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Mislav%20Balunovi%C4%87\"\u003eMislav Balunović\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":613780,"title":"Sequence S","oj":"Kattis","probNum":"batmanacci","num":"H","enabledDescKeys":[3082099382274967],"descBriefs":[{"key":3082099382274967,"updateDate":"2021-10-30","version":1635576173000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-30"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Reykjav%C3%ADk%20University%20%C3%81FLV%202016\"\u003eReykjavík University ÁFLV 2016\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/T%C3%B3mas%20Ken%20Magn%C3%BAsson\"\u003eTómas Ken Magnússon\u003c/a\u003e\n\u003ca href\u003d\"https://open.kattis.com/problem-authors/Bjarki%20%C3%81g%C3%BAst%20Gu%C3%B0mundsson\"\u003eBjarki Ágúst Guðmundsson\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by)\" src\u003d\"CDN_BASE_URL/5017df448a889b38237189a0a5b75f91\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":1877154,"title":"Mr X","oj":"Kattis","probNum":"makingpalindromes","num":"I","enabledDescKeys":[3082819551133946],"descBriefs":[{"key":3082819551133946,"updateDate":"2021-10-31","version":1635628329000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-28"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/ICPC%20SG%20Preliminary%20Contest%202018\"\u003eICPC SG Preliminary Contest 2018\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Syx%20Pek\"\u003eSyx Pek\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":1215049,"title":"Natural sums","oj":"Kattis","probNum":"consecutivesums","num":"J","enabledDescKeys":[3082779616707576],"descBriefs":[{"key":3082779616707576,"updateDate":"2021-10-30","version":1635607965000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-30"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Central%20Europe%20Regional%20Contest%20%28CERC%29%202014\"\u003eCentral Europe Regional Contest (CERC) 2014\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Damian%20Straszak\"\u003eDamian Straszak\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":526172,"title":"Drinking games","oj":"Kattis","probNum":"ants","num":"K","enabledDescKeys":[3082798194178438],"descBriefs":[{"key":3082798194178438,"updateDate":"2021-10-31","version":1635619596000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-30"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Waterloo%20Programming%20Contest%202004-09-19\"\u003eWaterloo Programming Contest 2004-09-19\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Piotr%20Rudnicki\"\u003ePiotr Rudnicki\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by)\" src\u003d\"CDN_BASE_URL/5017df448a889b38237189a0a5b75f91\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":4023916,"title":"Sorting Chips","oj":"Kattis","probNum":"ranklistsorting","num":"L","enabledDescKeys":[3082821589617760],"descBriefs":[{"key":3082821589617760,"updateDate":"2021-10-31","version":1635621011000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-31"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Baltic%20Olympiad%20in%20Informatics%202007%2C%20Day%201\"\u003eBaltic Olympiad in Informatics 2007, Day 1\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":4023918,"title":"Simple Query","oj":"Kattis","probNum":"inquiryi","num":"M","enabledDescKeys":[3082808453158740],"descBriefs":[{"key":3082808453158740,"updateDate":"2021-10-31","version":1635629566000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","official":false,"mainOfficial":false,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version at 2021-10-31"}],"properties":[{"title":"time_limit","content":"9000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Benelux%20Algorithm%20Programming%20Contest%20%28BAPC%29%20preliminaries%202019\"\u003eBenelux Algorithm Programming Contest (BAPC) preliminaries 2019\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Onno%20Berrevoets\"\u003eOnno Berrevoets\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"msg.33","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]}],"problemsHash":"44e3e1670a59572750d4b63dfde6ff1e","privatePeerContestIds":[],"enableTimeMachine":false,"sumTime":true,"penalty":1200,"partialScore":false,"oneShot":false,"customizedWeight":false,"showPeers":false,"clonedFromId":0}</textarea>
+<head><script defer src="/static/bundle/31d6cfe0d16ae931b73c.js"></script></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="body-footer">
+    <div style="margin-bottom: 8px">
+        <a href="/cdn-cgi/l/email-protection#167f653863785667673875797b" target="_blank">
+            <img src="/static/bundle/a7b7e5c7e94c918596f2.svg"/>
+        </a>
+        <img src="/static/bundle/fdbb90aaddd32a5ab4ad.png" class="qq" data-bs-toggle="popover" data-bs-placement="top"/>
+        <a href="https://weibo.com/u/5340553087" target="_blank">
+            <img src="/static/bundle/aae271671b3d18e15b40.svg"/>
+        </a>
+        <a href="https://space.bilibili.com/3056509/lists/3909505" target="_blank">
+            <img src="/static/bundle/ad1d62977bf56d0e0010.png"/>
+        </a>
+        <a href="https://t.me/joinchat/Erw7nRGwXN3iSCoKguVW3w" target="_blank">
+            <img src="/static/bundle/7182da66feaf3e99632a.svg"/>
+        </a>
+        <a href="https://www.facebook.com/virtualjudge/" target="_blank">
+            <img src="/static/bundle/c2687d1cf1f3e06984eb.svg"/>
+        </a>
+    </div>
+    <div id="footer-info">
+        All Copyright Reserved © 2010-2026<br/>
+        <span data-i18n="bottom.server_time"></span>: <span class="currentTimeTZ"></span>
+    </div>
+</div>
+
+
+<input name="systemVersion" type="hidden" value="1775875914077"/>
+<input name="gaId" type="hidden" value="G-374JLX1715"/>
+
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script type="text/javascript">basePath = "";</script>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ec949e68896f05f',t:'MTc3NjIzODY4NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"cbda702c6a634090aafa4717574879a5","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
