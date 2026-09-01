@@ -1,0 +1,3523 @@
+<html>
+ <head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://acpcsb.acpc.global/LCPC2025/Lebanon.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+ 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title>Lebanon</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/funcs.js"></script> 
+  <meta HTTP-EQUIV="EXPIRES" CONTENT="0"> 
+  <meta HTTP-EQUIV="REFRESH" CONTENT="30"> 
+  <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> 
+  <meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
+  <link rel="stylesheet" id="madza-style-css" href="css/style.css" type="text/css" media="all"> 
+  <link rel="stylesheet" id="bootstrap-css-css" href="css/bootstrap.css" type="text/css" media="all"> 
+  <link rel="stylesheet" id="bootstrap-responsive-css-css" href="css/bootstrap-responsive.min.css" type="text/css" media="all"> 
+  <style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    .site-logo { 
+        background: url('images/logo.png') no-repeat center; 
+        background-size: contain;
+        width: 225px; 
+        height: 92px; 
+        margin: 0 auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    .site-logo:hover {
+        transform: scale(1.05);
+    }
+    
+	.site-flag { 
+        background: url('images/flag.png') no-repeat center; 
+        background-size: contain;
+        width: 146px; 
+        height: 92px; 
+        margin: 0 auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    .site-flag:hover {
+        transform: scale(1.05);
+    }
+    
+    /* Center header content */
+    #header .span4 {
+        text-align: center;
+    }
+	
+	.rounded_cell { 
+        border-radius: 0; 
+        padding: 12px 8px;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        backdrop-filter: none;
+        transition: none;
+    }
+    
+    .rounded_cell:hover {
+        transform: none;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    /* Balloon-shaped Status Indicators */
+    .balloon-container {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+    
+    .balloon {
+        border-radius: 50%;
+        padding: 12px 8px;
+        font-weight: 500;
+        color: #333;
+        display: inline-block;
+        min-width: 35px;
+        min-height: 60px;
+        text-align: center;
+        transition: all 0.3s ease;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), inset 0 -2px 4px rgba(0,0,0,0.1);
+        border: 2px solid rgba(255,255,255,0.3);
+        line-height: 1.2;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Balloon rope */
+    .balloon::after {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 15px;
+        background: #8b7355;
+        border-radius: 1px;
+    }
+    
+    .balloon:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3), inset 0 -2px 4px rgba(0,0,0,0.1);
+    }
+    
+    /* Balloon colors - will be overridden by problem-specific colors */
+	.No .balloon {
+        background: radial-gradient(circle at 30% 30%, #ffcccc, #ff9999);
+    }
+    
+	.Yes .balloon {
+        background: radial-gradient(circle at 30% 30%, #ccffcc, #99ff99);
+    }
+    
+	.Pending .balloon {
+        background: radial-gradient(circle at 30% 30%, #ccccff, #9999ff);
+        animation: float 2s ease-in-out infinite;
+    }
+    
+	.FirstYes .balloon {
+        background: radial-gradient(circle at 30% 30%, #44aa44, #008800);
+        color: white;
+        font-weight: 600;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), inset 0 -2px 4px rgba(0,0,0,0.1), 0 0 15px rgba(0, 136, 0, 0.4);
+    }
+    
+    .FirstYes .balloon::before {
+        content: '🏆';
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        font-size: 16px;
+        z-index: 1;
+    }
+    
+    /* Problem-specific balloon colors */
+    
+    .problem-1 .balloon {
+        background: radial-gradient(circle at 30% 30%, #ffa500cc, #ffa500);
+        border-color: #ffa500;
+    }
+    
+    .problem-2 .balloon {
+        background: radial-gradient(circle at 30% 30%, #000080cc, #000080);
+        border-color: #000080;
+    }
+    
+    .problem-3 .balloon {
+        background: radial-gradient(circle at 30% 30%, #00ffffcc, #00ffff);
+        border-color: #00ffff;
+    }
+    
+    .problem-4 .balloon {
+        background: radial-gradient(circle at 30% 30%, #808080cc, #808080);
+        border-color: #808080;
+    }
+    
+    .problem-5 .balloon {
+        background: radial-gradient(circle at 30% 30%, #800080cc, #800080);
+        border-color: #800080;
+    }
+    
+    .problem-6 .balloon {
+        background: radial-gradient(circle at 30% 30%, #008000cc, #008000);
+        border-color: #008000;
+    }
+    
+    .problem-7 .balloon {
+        background: radial-gradient(circle at 30% 30%, #ffc0cbcc, #ffc0cb);
+        border-color: #ffc0cb;
+    }
+    
+    .problem-8 .balloon {
+        background: radial-gradient(circle at 30% 30%, #000000cc, #000000);
+        border-color: #000000;
+    }
+    
+    .problem-9 .balloon {
+        background: radial-gradient(circle at 30% 30%, #ffff00cc, #ffff00);
+        border-color: #ffff00;
+    }
+    
+    .problem-10 .balloon {
+        background: radial-gradient(circle at 30% 30%, #996515cc, #996515);
+        border-color: #996515;
+    }
+    
+    .problem-11 .balloon {
+        background: radial-gradient(circle at 30% 30%, #ff00ffcc, #ff00ff);
+        border-color: #ff00ff;
+    }
+    
+    .problem-12 .balloon {
+        background: radial-gradient(circle at 30% 30%, #ffffffcc, #ffffff);
+        border-color: #ffffff;
+    }
+    
+    
+    /* Simple Team Status Indicators */
+    .team-status {
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-weight: 500;
+        color: #333;
+        display: inline-block;
+        min-width: 60px;
+        text-align: center;
+        transition: all 0.2s ease;
+        border: 1px solid rgba(0,0,0,0.1);
+        font-size: 13px;
+    }
+    
+    .team-status.No {
+        background-color: #ff9999;
+    }
+    
+    .team-status.Yes {
+        background-color: #99ff99;
+    }
+    
+    .team-status.Pending {
+        background: linear-gradient(45deg, #9999ff, #7777ee, #9999ff);
+        background-size: 200% 200%;
+        animation: pendingPulse 1.5s ease-in-out infinite, pendingShimmer 2s linear infinite;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .team-status.Pending::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+        animation: pendingSlide 2s linear infinite;
+    }
+    
+    .team-status.FirstYes {
+        background-color: #008800;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .team-status.Frozen {
+        background: linear-gradient(135deg, #e3f2fd, #bbdefb, #90caf9);
+        background-size: 200% 200%;
+        animation: frozenShimmer 3s ease-in-out infinite;
+        color: #1565c0;
+        border: 2px solid #42a5f5;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .team-status.Frozen::before {
+        content: '';
+    }
+    
+    .team-status.Frozen::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, transparent, rgba(255,255,255,0.3), transparent);
+        animation: frozenGlimmer 4s linear infinite;
+    }
+    
+    .team-status:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    
+    /* Modern Table Styles */
+    table.scoreboard {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        border: 1px solid #e9ecef;
+        overflow: hidden;
+        margin: 20px auto;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    
+    table th {
+        background: #f8f9fa;
+        color: #495057;
+        padding: 12px 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+        border-bottom: 2px solid #dee2e6;
+        position: relative;
+        text-align: center;
+    }
+    
+    /* Remove any background from balloon header cells */
+    table th.rounded_cell {
+        background: #f8f9fa;
+    }
+    
+    table td {
+        padding: 10px 6px;
+        border-bottom: 1px solid #f8f9fa;
+        transition: all 0.2s ease;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    table tr:hover {
+        background: #f8f9fa;
+    }
+    
+    /* Team row cursor */
+    table tr[onclick] {
+        cursor: pointer;
+    }
+    
+    /* Modern Floating Element */
+    #floating-element {
+    	position: fixed;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+    	width: 900px;
+    	max-width: 90vw;
+    	height: 600px;
+    	max-height: 90vh;
+    	background: white;
+    	border: 1px solid #e9ecef;
+    	border-radius: 15px;
+    	padding: 30px;
+    	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    	z-index: 1000;
+    	display: none;
+    	animation: fadeInScale 0.3s ease;
+    	overflow: auto;
+	}
+	
+	#floating-element .close-btn {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #6c757d;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: all 0.2s ease;
+    }
+    
+    #floating-element .close-btn:hover {
+        background: #f8f9fa;
+        color: #495057;
+    }
+    
+    #modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+        display: none;
+    }
+    
+   .teamNameTXT {
+        transition: all 0.3s ease;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+   .teamNameTXT:hover {
+        color: #495057;
+        background: #f8f9fa;
+        transform: translateX(5px);
+	}
+	
+	/* Modern Animations */
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+    }
+    
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+    }
+    
+    @keyframes fadeInScale {
+        0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+        100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    }
+    
+    /* Pending animations */
+    @keyframes pendingPulse {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+    }
+    
+    @keyframes pendingShimmer {
+        0% { opacity: 0.8; }
+        50% { opacity: 1; }
+        100% { opacity: 0.8; }
+    }
+    
+    @keyframes pendingSlide {
+        0% { left: -100%; }
+        100% { left: 100%; }
+    }
+    
+    @keyframes frozenShimmer {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+    }
+    
+    @keyframes frozenGlimmer {
+        0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+        100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+    }
+    
+    /* Enhanced Header */
+    #header {
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        border: 1px solid #e9ecef;
+    }
+    
+    /* Enhanced Navigation */
+    .navbar {
+        background: white !important;
+        border-radius: 10px !important;
+        border: 1px solid #e9ecef !important;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+    }
+    
+    .navbar-nav > li > a {
+        color: #495057 !important;
+        font-weight: 500 !important;
+        transition: all 0.3s ease !important;
+        border-radius: 5px !important;
+        margin: 0 3px !important;
+    }
+    
+    .navbar-nav > li > a:hover, .navbar-nav > li > a.active {
+        background: #f8f9fa !important;
+        color: #495057 !important;
+        transform: translateY(-1px);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        body { padding: 10px; }
+        #floating-element { width: 95vw; height: 80vh; padding: 20px; }
+        table.scoreboard { font-size: 12px; }
+        .site-logo, .site-flag { width: 150px; height: 60px; }
+        .rounded_cell { padding: 8px 12px; }
+    }
+    
+    /* Modern Photo Styling */
+    img {
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+	}
+</style> 
+ </head> 
+ <body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://acpcsb.acpc.global/LCPC2025/Lebanon.html">https://acpcsb.acpc.global/LCPC2025/Lebanon.html</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/lebanon-2025.html">lebanon-2025</a>)  <a href="https://web.archive.org/web/*/https://acpcsb.acpc.global/LCPC2025/Lebanon.html">wayback</a></div>
+ 
+  <div id="floating-element"> 
+   <button class="close-btn" onclick="closeFloatingElement()">×</button> 
+   <div style="text-align: center;"> 
+    <div id="teamPhoto"></div> 
+    <div id="teamName"></div> 
+    <div id="orgName"></div> 
+    <div id="teamRank"></div> 
+    <div id="teamStatus"></div> 
+   </div> 
+  </div> 
+  <header id="header"> 
+   <div style="display: flex; align-items: center; justify-content: space-between; padding: 20px;"> 
+    <div style="flex: 0 0 auto;"> 
+     <a href="http://acpc.global"> 
+      <div class="site-logo"></div> </a> 
+    </div> 
+    <div style="flex: 1; text-align: center; margin: 0 20px;"> 
+     <h1 style="margin: 0; color: #495057; font-size: 28px; font-weight: 600;"> 
+      <center>
+       Lebanon
+      </center> </h1> 
+    </div> 
+    <div style="flex: 0 0 auto;"> 
+     <a href="http://acpc.global"> 
+      <div class="site-flag"></div> </a> 
+    </div> 
+   </div> 
+  </header> 
+  <nav class="navbar navbar-default"> 
+   <div class="container-fluid"> 
+    <div class="navbar-header"> 
+     <a class="navbar-brand" href="#">Groups </a> 
+    </div> 
+    <ul class="nav navbar-nav"> 
+     <li> <a href="all.html">All Groups</a> </li> 
+     <li> <a href="LCPCTeens.html" class="active">LCPCTeens</a> </li> 
+     <li> <a href="LCPC unofficial.html" class="active">LCPC unofficial</a> </li> 
+     <li> <a href="Lebanon.html" class="active">Lebanon</a> </li> 
+     <li> <a href="official.html">Official Summary</a> </li> 
+    </ul> 
+   </div> 
+  </nav>
+  <table border="0" class="scoreboard" cellspacing="0" style="margin-bottom:10px"> 
+   <tbody>
+    <tr>  
+    </tr> 
+   </tbody>
+  </table> 
+  <div style="display: flex; align-items: center; gap: 30px; margin: 15px 0; padding-left: 20px;"> 
+   <div style="display: flex; align-items: center;"> 
+    <span style="width: 12px; height: 12px; background: #008800; border-radius: 50%; margin-right: 8px;"></span> 
+    <div class="team-status FirstYes">
+     First to solve
+    </div> 
+   </div> 
+   <div style="display: flex; align-items: center;"> 
+    <span style="width: 12px; height: 12px; background: #99ff99; border-radius: 50%; margin-right: 8px;"></span> 
+    <div class="team-status Yes">
+     Solved
+    </div> 
+   </div> 
+   <div style="display: flex; align-items: center;"> 
+    <span style="width: 12px; height: 12px; background: #ff9999; border-radius: 50%; margin-right: 8px;"></span> 
+    <div class="team-status No">
+     Attempted
+    </div> 
+   </div> 
+   <div style="display: flex; align-items: center;"> 
+    <span style="width: 12px; height: 12px; background: #9999ff; border-radius: 50%; margin-right: 8px;"></span> 
+    <div class="team-status Pending">
+     Pending
+    </div> 
+   </div> 
+   <div style="display: flex; align-items: center;"> 
+    <span style="width: 12px; height: 12px; background: linear-gradient(135deg, #e3f2fd, #90caf9); border: 1px solid #42a5f5; border-radius: 50%; margin-right: 8px;"></span> 
+    <div class="team-status Frozen">
+     Frozen (Blind Hour)
+    </div> 
+   </div> 
+  </div> 
+  <table border="0" class="scoreboard"> 
+   <tbody>
+    <tr> 
+     <th><strong><u>Photo</u></strong></th>
+     <th><strong><u>Rank</u></strong></th>
+     <th><strong><u>Name</u></strong></th>
+     <th><strong><u>Solved</u></strong></th>
+     <th><strong><u>Time</u></strong></th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-1"> 
+       <div class="balloon"> 
+        <strong>A</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-2"> 
+       <div class="balloon"> 
+        <strong>B</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-3"> 
+       <div class="balloon"> 
+        <strong>C</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-4"> 
+       <div class="balloon"> 
+        <strong>D</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-5"> 
+       <div class="balloon"> 
+        <strong>E</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-6"> 
+       <div class="balloon"> 
+        <strong>F</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-7"> 
+       <div class="balloon"> 
+        <strong>G</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-8"> 
+       <div class="balloon"> 
+        <strong>H</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-9"> 
+       <div class="balloon"> 
+        <strong>I</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-10"> 
+       <div class="balloon"> 
+        <strong>J</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-11"> 
+       <div class="balloon"> 
+        <strong>K</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-12"> 
+       <div class="balloon"> 
+        <strong>L</strong> 
+       </div> 
+      </div> </th>
+     <th>Total att/solv</th> 
+    </tr> 
+    <tr> 
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;sa7sou7 (CMPS-AUB)&quot;,&quot;27&quot;,&quot;1&quot;,&quot;9&quot;,&quot;588&quot;)"> 
+     <td width="5%" id="teamphoto27"><img width="100%" height="100%" src="images/photos/27/photo.jpg" title="Visit the sa7sou7 (CMPS-AUB) team" onerror="DisplayAvatar('teamphoto27');"></td>
+     <td width="5%">1</td>
+     <td width="40%"> <p class="teamNameTXT">sa7sou7 (CMPS-AUB)</p> </td>
+     <td>9</td>
+     <td>588</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/13
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/82
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/35
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       2/3
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/89
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       2/53
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       2/14
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/18
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       4/121
+      </div> </td>
+     <td>21/9</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Classic Knapsack Problem (AU Beirut)&quot;,&quot;28&quot;,&quot;2&quot;,&quot;8&quot;,&quot;760&quot;)"> 
+     <td width="5%" id="teamphoto28"><img width="100%" height="100%" src="images/photos/28/photo.jpg" title="Visit the Classic Knapsack Problem (AU Beirut) team" onerror="DisplayAvatar('teamphoto28');"></td>
+     <td width="5%">2</td>
+     <td width="40%"> <p class="teamNameTXT">Classic Knapsack Problem (AU Beirut)</p> </td>
+     <td>8</td>
+     <td>760</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/31
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/165
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/34
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/5
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/126
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/14
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       4/90
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       2/75
+      </div> </td>
+     <td>20/8</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Testcase 0 (MU)&quot;,&quot;18&quot;,&quot;3&quot;,&quot;7&quot;,&quot;520&quot;)"> 
+     <td width="5%" id="teamphoto18"><img width="100%" height="100%" src="images/photos/18/photo.jpg" title="Visit the Testcase 0 (MU) team" onerror="DisplayAvatar('teamphoto18');"></td>
+     <td width="5%">3</td>
+     <td width="40%"> <p class="teamNameTXT">Testcase 0 (MU)</p> </td>
+     <td>7</td>
+     <td>520</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/7
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/68
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/12
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/146
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/25
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/86
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/116
+      </div> </td>
+     <td>16/7</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;ComplexFlash (ULFG3)&quot;,&quot;23&quot;,&quot;5&quot;,&quot;7&quot;,&quot;682&quot;)"> 
+     <td width="5%" id="teamphoto23"><img width="100%" height="100%" src="images/photos/23/photo.jpg" title="Visit the ComplexFlash (ULFG3) team" onerror="DisplayAvatar('teamphoto23');"></td>
+     <td width="5%">4</td>
+     <td width="40%"> <p class="teamNameTXT">ComplexFlash (ULFG3)</p> </td>
+     <td>7</td>
+     <td>682</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/25
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/133
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/73
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/15
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/53
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/103
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td>17/7</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;MO's (LAU)&quot;,&quot;6&quot;,&quot;6&quot;,&quot;6&quot;,&quot;593&quot;)"> 
+     <td width="5%" id="teamphoto6"><img width="100%" height="100%" src="images/photos/6/photo.jpg" title="Visit the MO's (LAU) team" onerror="DisplayAvatar('teamphoto6');"></td>
+     <td width="5%">5</td>
+     <td width="40%"> <p class="teamNameTXT">MO's (LAU)</p> </td>
+     <td>6</td>
+     <td>593</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/19
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       5/98
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/11
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       9/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/30
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/121
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td>24/6</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Init to WinNT (BAU)&quot;,&quot;41&quot;,&quot;7&quot;,&quot;5&quot;,&quot;259&quot;)"> 
+     <td width="5%" id="teamphoto41"><img width="100%" height="100%" src="images/photos/41/photo.jpg" title="Visit the Init to WinNT (BAU) team" onerror="DisplayAvatar('teamphoto41');"></td>
+     <td width="5%">6</td>
+     <td width="40%"> <p class="teamNameTXT">Init to WinNT (BAU)</p> </td>
+     <td>5</td>
+     <td>259</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/19
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/68
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/8
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/25
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       9/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/119
+      </div> </td>
+     <td>16/5</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;StuckOverflow (CMPS-AUB)&quot;,&quot;25&quot;,&quot;8&quot;,&quot;5&quot;,&quot;397&quot;)"> 
+     <td width="5%" id="teamphoto25"><img width="100%" height="100%" src="images/photos/25/photo.jpg" title="Visit the StuckOverflow (CMPS-AUB) team" onerror="DisplayAvatar('teamphoto25');"></td>
+     <td width="5%">7</td>
+     <td width="40%"> <p class="teamNameTXT">StuckOverflow (CMPS-AUB)</p> </td>
+     <td>5</td>
+     <td>397</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/36
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/98
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/12
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/68
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/143
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td>10/5</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Binary Geeks (MU)&quot;,&quot;35&quot;,&quot;9&quot;,&quot;5&quot;,&quot;447&quot;)"> 
+     <td width="5%" id="teamphoto35"><img width="100%" height="100%" src="images/photos/35/photo.jpg" title="Visit the Binary Geeks (MU) team" onerror="DisplayAvatar('teamphoto35');"></td>
+     <td width="5%">8</td>
+     <td width="40%"> <p class="teamNameTXT">Binary Geeks (MU)</p> </td>
+     <td>5</td>
+     <td>447</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/41
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/30
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/8
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       5/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/56
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td>17/5</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;ASAZ (AU Beirut)&quot;,&quot;38&quot;,&quot;10&quot;,&quot;5&quot;,&quot;459&quot;)"> 
+     <td width="5%" id="teamphoto38"><img width="100%" height="100%" src="images/photos/38/photo.jpg" title="Visit the ASAZ (AU Beirut) team" onerror="DisplayAvatar('teamphoto38');"></td>
+     <td width="5%">9</td>
+     <td width="40%"> <p class="teamNameTXT">ASAZ (AU Beirut)</p> </td>
+     <td>5</td>
+     <td>459</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/34
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/134
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/6
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/42
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td>15/5</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Berserker (AU Beirut)&quot;,&quot;22&quot;,&quot;11&quot;,&quot;5&quot;,&quot;492&quot;)"> 
+     <td width="5%" id="teamphoto22"><img width="100%" height="100%" src="images/photos/22/photo.jpg" title="Visit the Berserker (AU Beirut) team" onerror="DisplayAvatar('teamphoto22');"></td>
+     <td width="5%">10</td>
+     <td width="40%"> <p class="teamNameTXT">Berserker (AU Beirut)</p> </td>
+     <td>5</td>
+     <td>492</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/15
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       5/134
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/9
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       2/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/23
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       14/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td>32/5</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;hry (BAU)&quot;,&quot;1&quot;,&quot;12&quot;,&quot;4&quot;,&quot;208&quot;)"> 
+     <td width="5%" id="teamphoto1"><img width="100%" height="100%" src="images/photos/1/photo.jpg" title="Visit the hry (BAU) team" onerror="DisplayAvatar('teamphoto1');"></td>
+     <td width="5%">11</td>
+     <td width="40%"> <p class="teamNameTXT">hry (BAU)</p> </td>
+     <td>4</td>
+     <td>208</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/50
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/96
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/28
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 FirstYes Yes">
+       1/14
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       5/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td>14/4</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;JAC (AU Beirut)&quot;,&quot;13&quot;,&quot;14&quot;,&quot;4&quot;,&quot;392&quot;)"> 
+     <td width="5%" id="teamphoto13"><img width="100%" height="100%" src="images/photos/13/photo.jpg" title="Visit the JAC (AU Beirut) team" onerror="DisplayAvatar('teamphoto13');"></td>
+     <td width="5%">12</td>
+     <td width="40%"> <p class="teamNameTXT">JAC (AU Beirut)</p> </td>
+     <td>4</td>
+     <td>392</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/40
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       1/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       2/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/13
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       4/103
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/136
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>12/4</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Bug Busters (RHU)&quot;,&quot;29&quot;,&quot;15&quot;,&quot;4&quot;,&quot;484&quot;)"> 
+     <td width="5%" id="teamphoto29"><img width="100%" height="100%" src="images/photos/29/photo.jpg" title="Visit the Bug Busters (RHU) team" onerror="DisplayAvatar('teamphoto29');"></td>
+     <td width="5%">13</td>
+     <td width="40%"> <p class="teamNameTXT">Bug Busters (RHU)</p> </td>
+     <td>4</td>
+     <td>484</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/34
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/19
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       5/97
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       10/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>20/4</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Maaref++ (MU)&quot;,&quot;36&quot;,&quot;17&quot;,&quot;3&quot;,&quot;244&quot;)"> 
+     <td width="5%" id="teamphoto36"><img width="100%" height="100%" src="images/photos/36/photo.jpg" title="Visit the Maaref++ (MU) team" onerror="DisplayAvatar('teamphoto36');"></td>
+     <td width="5%">14</td>
+     <td width="40%"> <p class="teamNameTXT">Maaref++ (MU)</p> </td>
+     <td>3</td>
+     <td>244</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/53
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/7
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/164
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       11/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>15/3</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Code JAMmers (BAU)&quot;,&quot;40&quot;,&quot;18&quot;,&quot;3&quot;,&quot;686&quot;)"> 
+     <td width="5%" id="teamphoto40"><img width="100%" height="100%" src="images/photos/40/photo.jpg" title="Visit the Code JAMmers (BAU) team" onerror="DisplayAvatar('teamphoto40');"></td>
+     <td width="5%">15</td>
+     <td width="40%"> <p class="teamNameTXT">Code JAMmers (BAU)</p> </td>
+     <td>3</td>
+     <td>686</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       3/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/39
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       9/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>23/3</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;AUST-Team2 (AUST)&quot;,&quot;4&quot;,&quot;19&quot;,&quot;2&quot;,&quot;25&quot;)"> 
+     <td width="5%" id="teamphoto4"><img width="100%" height="100%" src="images/photos/4/photo.jpg" title="Visit the AUST-Team2 (AUST) team" onerror="DisplayAvatar('teamphoto4');"></td>
+     <td width="5%">16</td>
+     <td width="40%"> <p class="teamNameTXT">AUST-Team2 (AUST)</p> </td>
+     <td>2</td>
+     <td>25</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/18
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/7
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       3/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>9/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;UOB-Main (Balamand)&quot;,&quot;16&quot;,&quot;20&quot;,&quot;2&quot;,&quot;47&quot;)"> 
+     <td width="5%" id="teamphoto16"><img width="100%" height="100%" src="images/photos/16/photo.jpg" title="Visit the UOB-Main (Balamand) team" onerror="DisplayAvatar('teamphoto16');"></td>
+     <td width="5%">17</td>
+     <td width="40%"> <p class="teamNameTXT">UOB-Main (Balamand)</p> </td>
+     <td>2</td>
+     <td>47</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/29
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       2/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/18
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>9/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Lurkers (BAU)&quot;,&quot;15&quot;,&quot;21&quot;,&quot;2&quot;,&quot;81&quot;)"> 
+     <td width="5%" id="teamphoto15"><img width="100%" height="100%" src="images/photos/15/photo.jpg" title="Visit the Lurkers (BAU) team" onerror="DisplayAvatar('teamphoto15');"></td>
+     <td width="5%">18</td>
+     <td width="40%"> <p class="teamNameTXT">Lurkers (BAU)</p> </td>
+     <td>2</td>
+     <td>81</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       2/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       2/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/12
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/49
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>7/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Overflows (BAU)&quot;,&quot;12&quot;,&quot;22&quot;,&quot;2&quot;,&quot;109&quot;)"> 
+     <td width="5%" id="teamphoto12"><img width="100%" height="100%" src="images/photos/12/photo.jpg" title="Visit the Overflows (BAU) team" onerror="DisplayAvatar('teamphoto12');"></td>
+     <td width="5%">19</td>
+     <td width="40%"> <p class="teamNameTXT">Overflows (BAU)</p> </td>
+     <td>2</td>
+     <td>109</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/57
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/32
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       11/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       5/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>23/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Gemini (LAU)&quot;,&quot;37&quot;,&quot;25&quot;,&quot;2&quot;,&quot;350&quot;)"> 
+     <td width="5%" id="teamphoto37"><img width="100%" height="100%" src="images/photos/37/photo.jpg" title="Visit the Gemini (LAU) team" onerror="DisplayAvatar('teamphoto37');"></td>
+     <td width="5%">20</td>
+     <td width="40%"> <p class="teamNameTXT">Gemini (LAU)</p> </td>
+     <td>2</td>
+     <td>350</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/35
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       5/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>12/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;IK squared (BAU)&quot;,&quot;34&quot;,&quot;26&quot;,&quot;2&quot;,&quot;361&quot;)"> 
+     <td width="5%" id="teamphoto34"><img width="100%" height="100%" src="images/photos/34/photo.jpg" title="Visit the IK squared (BAU) team" onerror="DisplayAvatar('teamphoto34');"></td>
+     <td width="5%">21</td>
+     <td width="40%"> <p class="teamNameTXT">IK squared (BAU)</p> </td>
+     <td>2</td>
+     <td>361</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/30
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>14/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;AUST-Team1 (AUST)&quot;,&quot;21&quot;,&quot;27&quot;,&quot;2&quot;,&quot;418&quot;)"> 
+     <td width="5%" id="teamphoto21"><img width="100%" height="100%" src="images/photos/21/photo.jpg" title="Visit the AUST-Team1 (AUST) team" onerror="DisplayAvatar('teamphoto21');"></td>
+     <td width="5%">22</td>
+     <td width="40%"> <p class="teamNameTXT">AUST-Team1 (AUST)</p> </td>
+     <td>2</td>
+     <td>418</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       3/104
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       4/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>11/2</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Threebit Dominators (BAU)&quot;,&quot;31&quot;,&quot;28&quot;,&quot;1&quot;,&quot;54&quot;)"> 
+     <td width="5%" id="teamphoto31"><img width="100%" height="100%" src="images/photos/31/photo.jpg" title="Visit the Threebit Dominators (BAU) team" onerror="DisplayAvatar('teamphoto31');"></td>
+     <td width="5%">23</td>
+     <td width="40%"> <p class="teamNameTXT">Threebit Dominators (BAU)</p> </td>
+     <td>1</td>
+     <td>54</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/34
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>15/1</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;K - Infinity Loop (BAU)&quot;,&quot;7&quot;,&quot;29&quot;,&quot;1&quot;,&quot;112&quot;)"> 
+     <td width="5%" id="teamphoto7"><img width="100%" height="100%" src="images/photos/7/photo.jpg" title="Visit the K - Infinity Loop (BAU) team" onerror="DisplayAvatar('teamphoto7');"></td>
+     <td width="5%">24</td>
+     <td width="40%"> <p class="teamNameTXT">K - Infinity Loop (BAU)</p> </td>
+     <td>1</td>
+     <td>112</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       8/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       2/92
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       3/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>15/1</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;E Team (BAU)&quot;,&quot;32&quot;,&quot;30&quot;,&quot;1&quot;,&quot;151&quot;)"> 
+     <td width="5%" id="teamphoto32"><img width="100%" height="100%" src="images/photos/32/photo.jpg" title="Visit the E Team (BAU) team" onerror="DisplayAvatar('teamphoto32');"></td>
+     <td width="5%">25</td>
+     <td width="40%"> <p class="teamNameTXT">E Team (BAU)</p> </td>
+     <td>1</td>
+     <td>151</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       4/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Frozen">
+       6/? 
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 Yes">
+       1/151
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       3/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	 No">
+       1/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>15/1</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;CCC (AU Beirut)&quot;,&quot;11&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto11"><img width="100%" height="100%" src="images/photos/11/photo.jpg" title="Visit the CCC (AU Beirut) team" onerror="DisplayAvatar('teamphoto11');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">CCC (AU Beirut)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Clean_Coders (CMPS-AUB)&quot;,&quot;9&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto9"><img width="100%" height="100%" src="images/photos/9/photo.jpg" title="Visit the Clean_Coders (CMPS-AUB) team" onerror="DisplayAvatar('teamphoto9');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">Clean_Coders (CMPS-AUB)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;HAT (LAU)&quot;,&quot;39&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto39"><img width="100%" height="100%" src="images/photos/39/photo.jpg" title="Visit the HAT (LAU) team" onerror="DisplayAvatar('teamphoto39');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">HAT (LAU)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;JMR (AU Beirut)&quot;,&quot;2&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto2"><img width="100%" height="100%" src="images/photos/2/photo.jpg" title="Visit the JMR (AU Beirut) team" onerror="DisplayAvatar('teamphoto2');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">JMR (AU Beirut)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Love at first compile (AU Beirut)&quot;,&quot;19&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto19"><img width="100%" height="100%" src="images/photos/19/photo.jpg" title="Visit the Love at first compile (AU Beirut) team" onerror="DisplayAvatar('teamphoto19');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">Love at first compile (AU Beirut)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Mister Benjamins (AU Beirut)&quot;,&quot;10&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto10"><img width="100%" height="100%" src="images/photos/10/photo.jpg" title="Visit the Mister Benjamins (AU Beirut) team" onerror="DisplayAvatar('teamphoto10');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">Mister Benjamins (AU Beirut)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Si Boo (LAU)&quot;,&quot;33&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto33"><img width="100%" height="100%" src="images/photos/33/photo.jpg" title="Visit the Si Boo (LAU) team" onerror="DisplayAvatar('teamphoto33');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">Si Boo (LAU)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;Time limit exceeded (LAU)&quot;,&quot;8&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto8"><img width="100%" height="100%" src="images/photos/8/photo.jpg" title="Visit the Time limit exceeded (LAU) team" onerror="DisplayAvatar('teamphoto8');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">Time limit exceeded (LAU)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr style="cursor: pointer;" onclick="openWindow(&quot;VirtualSpike (ULFG3)&quot;,&quot;26&quot;,&quot;33&quot;,&quot;0&quot;,&quot;0&quot;)"> 
+     <td width="5%" id="teamphoto26"><img width="100%" height="100%" src="images/photos/26/photo.jpg" title="Visit the VirtualSpike (ULFG3) team" onerror="DisplayAvatar('teamphoto26');"></td>
+     <td width="5%">26</td>
+     <td width="40%"> <p class="teamNameTXT">VirtualSpike (ULFG3)</p> </td>
+     <td>0</td>
+     <td>0</td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td style="text-align: center; padding: 8px;"> 
+      <div class="team-status
+	
+	">
+       0/--
+      </div> </td>
+     <td>0/0</td> 
+    </tr> 
+    <tr> 
+     <th><strong><u>Photo</u></strong></th>
+     <th><strong><u>Rank</u></strong></th>
+     <th><strong><u>Name</u></strong></th>
+     <th><strong><u>Solved</u></strong></th>
+     <th><strong><u>Time</u></strong></th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-1"> 
+       <div class="balloon"> 
+        <strong>A</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-2"> 
+       <div class="balloon"> 
+        <strong>B</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-3"> 
+       <div class="balloon"> 
+        <strong>C</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-4"> 
+       <div class="balloon"> 
+        <strong>D</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-5"> 
+       <div class="balloon"> 
+        <strong>E</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-6"> 
+       <div class="balloon"> 
+        <strong>F</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-7"> 
+       <div class="balloon"> 
+        <strong>G</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-8"> 
+       <div class="balloon"> 
+        <strong>H</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-9"> 
+       <div class="balloon"> 
+        <strong>I</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-10"> 
+       <div class="balloon"> 
+        <strong>J</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-11"> 
+       <div class="balloon"> 
+        <strong>K</strong> 
+       </div> 
+      </div> </th>
+     <th class="rounded_cell"> 
+      <div class="balloon-container problem-12"> 
+       <div class="balloon"> 
+        <strong>L</strong> 
+       </div> 
+      </div> </th>
+     <th>Total att/solv</th> 
+    </tr> 
+    <tr> 
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td></td>
+     <td>Submitted/1st Yes/Total Yes</td>
+     <td></td>
+     <td></td>
+     <td>10/--/0</td>
+     <td>9/--/0</td>
+     <td>54/7/26</td>
+     <td>13/82/6</td>
+     <td>77/30/14</td>
+     <td>55/3/32</td>
+     <td>30/89/4</td>
+     <td>24/53/3</td>
+     <td>90/14/19</td>
+     <td>111/18/8</td>
+     <td>3/--/0</td>
+     <td>42/75/5</td>
+     <td>518/117</td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <p> <b>Installed and configured by ACPC</b> <br> Scoreboard is developed by <a href="http://www.ecs.csus.edu/pc2"> CSUS PC^2 9.11build 20250918 build 7339~develop</a> <br> <a href="http://www.ecs.csus.edu/pc2/">http://www.ecs.csus.edu/pc2/</a> <br> Last updated Fri Oct 24 16:58:47 GMT 2025 <br> CSS Designed and Developed by the ACPC Systems and Scientific Team </p>   
+ </body>
+</html>

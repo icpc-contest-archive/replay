@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://zibada.guru/finals/2017/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="utf-8" />
+<title>world finals 2017</title>
+<base target="_blank" />
+<link id="style" rel="stylesheet" type="text/css" href="topcoder.css" />
+<script type="text/javascript" src="client.js"></script>
+<script type="text/javascript" src="standings.js"></script>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://zibada.guru/finals/2017/">https://zibada.guru/finals/2017/</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/wf-2017.html">wf-2017</a>)  <a href="https://web.archive.org/web/*/https://zibada.guru/finals/2017/">wayback</a></div>
+
+<div id="main">
+
+<noscript>
+	<table style="width: 100%;" cellspacing="0" class="tmain">
+	<tr><td class="error">you must enable JavaScript to use this page</td></tr>
+	</table>
+</noscript>
+
+<h2>world finals 2017</h2>
+<div id="motd">
+</div>
+
+
+<table style="width: 100%" cellspacing="0" class="tmain">
+	<tr class="tinfo">
+		<td style="position: relative" colspan="2">
+			<input id="chat_enter" style="position: absolute; bottom: 10px; left: 10px" type="button" class="button" value="enter chat" />
+			<div id="contest_status" style="text-align: center">
+				<span id="contest_status_string" class="emp"></span> <span id="contest_timenow" style="cursor: pointer">0:00</span><span class="emp" id="contest_timetotal"> of 0:00</span>
+			</div>
+			<div id="controls" style="position: absolute; right: 20px; top: 10px">
+				updated at <span class="ac" id="contest_lastupdate"></span>
+				<input id="refresh" type="button" class="button" value="refresh" />
+					<label>auto: 
+					<select id="update">
+						<option value="0">never</option>
+						<option value="5">5 sec</option>
+						<option value="15">15 sec</option>
+						<option value="30">30 sec</option>
+						<option value="60">1 min</option>
+						<option value="120">2 min</option>
+						<option value="300">5 min</option>
+					</select>
+					</label>
+					<label>times:
+						<input type="checkbox" id="show_times" value="1" />
+					</label>
+					<label><span style="border-bottom: 1px dotted #fff;" onclick="">what if?</span>
+						<input type="checkbox" id="what_if" value="1" />
+						<div class="hint">click on any unsolved problem cell to view results as if it was solved just now<br>
+						(or last unjudged attempt was accepted)
+						</div>
+					</label>
+			</div>
+		</td>
+	</tr>
+	<tr class="tinfo">
+		<td style="width: 50px; padding-left: 5px; position: relative"><span style="border-bottom: 1px dotted #fff;" onclick="">timeline</span>
+		<div class="hint">click on timeline to view any past state<br>
+			click on contest timer to return to real time
+		</div>
+		</td>
+		<td><div id="timeline" style="cursor: pointer; position: relative; width:100%; height: 10px; background: #333">
+			<div style="position: absolute; width: 20%; height: 10px; right: 0%; background: #336"></div>
+			<div id="timeline_elapsed" style="position: absolute; width: 0%; height: 10px; left: 0%; background: #666"></div>
+			<div id="timeline_shown"  style="position: absolute; width: 0%; height: 10px; left: 0%; background: #393"></div>
+			<div style="position: absolute; width: 1px; height: 10px; left: 20%; background: #000"></div>
+			<div style="position: absolute; width: 1px; height: 10px; left: 40%; background: #000"></div>
+			<div style="position: absolute; width: 1px; height: 10px; left: 60%; background: #000"></div>
+			<div style="position: absolute; width: 1px; height: 10px; left: 80%; background: #000"></div>
+		</div></td>
+	</tr>
+	<tr class="tinfo">
+		<td id="chat_controls" colspan="2">
+			<span id="chat_enter_status"></span>
+			<div id="chat_options">
+				<input id="chat_leave" type="button" class="button" value="leave chat" />
+				<div class="settings" onclick="">chat settings
+					<div class="hint">
+						<label>show anonymous users	 
+							<input type="checkbox" id="show_guests" value="1" />
+						</label>
+						<br />
+						<label>show system messages
+							<input type="checkbox" id="show_system" value="1" />
+						</label>
+						<hr />
+						languages: 
+						<label>
+							<input type="checkbox" id="show_en" value="1" /> EN
+						</label>
+						<label>
+							<input type="checkbox" id="show_ru" value="1" /> RU
+						</label>
+						<label>
+							<input type="checkbox" id="show_cn" value="1" /> CN
+						</label>
+						<label>
+							<input type="checkbox" id="show_other" value="1" /> other
+						</label>
+					</div>
+				</div>
+				<div class="settings userlist" onclick=""><span id="users_count"></span> users
+					<div class="hint">
+						<ul id="userlist">
+						</ul>
+					</div>
+				</div>
+			</div>
+	</td></tr>
+	<tbody>
+	<tr><td colspan="2">
+		<div id="chat">
+			<ul id="chat_messages">
+			</ul>
+			<div id="login">
+				<input id="chat_username" size="15" spellcheck="false" type="text" value=""/>
+				<div id="login_label" onclick="">or log in<div class="hint">
+					<h2>log in with topcoder account</h2>
+					<ul>
+						<li><a href="http://www.topcoder.com/tc?module=MemberContact&th=zibada">Click here</a> (opens new window)</li>
+						<li>Insert the following code as message text: <div id="sid"></div></li>
+						<li>Click "Send"</li>
+						<li>You will be logged in automatically in a few seconds</li>
+						<li>If nothing happens, please report<br />(do NOT post the above code publicly!)</li>
+					</ul>
+				</div></div>
+			</div>
+			<div id="login_username"></div>
+			<form id="chat_form">
+				| <input id="chat_message" autocomplete="off" spellcheck="false" size="100" type="text" />
+				<input id="chat_send" type="submit" class="button" value="send" />
+				<span id="chat_error"></span>
+			</form>
+		</div>
+	</td></tr>
+	</tbody>
+	<tr><td colspan="2">
+		<div id="standings">
+		</div>
+	</td></tr>
+</table>
+
+<br />
+
+<div class="copy">
+NOTE: this script is experimental and is completely UNOFFICIAL; use at your own risk :)<br />
+&copy; 2007-2017 <a class="zibada" href="http://www.topcoder.com/tc?module=MemberProfile&cr=21170029">zibada</a><br />
+please report any bugs/suggestions to mail or jabber: zibada gmail com
+</div>
+</div>
+<script type="text/javascript">
+team_names = [["Al-Baath University",["sqr_hussain 40003084 1235"]],["Arab Academy for Science and Technology (Alexandria)",["mrtempo 22692048 1863"]],["Bangladesh University of Engineering and Technology",["Honour_00 23179616 1313","triploblastic 23138918 1366"]],["Beihang University",["constroy 23194926 1582","Tangjz 23141126 1614"]],["Beijing Institute of Technology",[]],["Beijing Normal University",["quailty 40071473 2202","zhuaiballl 40421038 1364","hwq1352249 23309458 1219"]],["Beijing University of Posts and Telecommunications",[]],["Belarusian State University of Informatics and Radioelectronics",["AlexVistyazh 23136526 2101","teleport 23176438 1640","avolchek 23177398 1950"]],["Bina Nusantara University",["whyzker 23036434 1414"]],["Cairo University - Faculty of Computers and Information",["mohammad_yasser 23265219 1354","m_5airy7 23010351 1415"]],["Cedarville University",[]],["Chennai Mathematical Institute",["rajat1603 40065078 1924","AnonymousBunny 40116196 1613"]],["Chulalongkorn University",[]],["Cornell University",["MKLOL 22932098 1821","timics 23147346 1544"]],["Damascus University",["Mhammad1 40094424 1369"]],["Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar",["kuldeeppatel 40142861 1492","yashkumar18 40084271 1428","Sumeet.Varma 40099699 1914"]],["ETH Zürich",["m.raszyk 23320569 1973","Demjan 22742309 1506"]],["Facultad de Ciencias-Universidad Nacional Autónoma de México",[]],["Faculty of Computer and Information Sciences, Ain Shams University",["Ahmed_Ossama 23091955 1979","NourElRashidy 23285549 1467","khaledkee 40090239 1799"]],["Faculty of Engineering (at Shoubra), Benha University",["Noureldin2022 23194274 1408","Mahmoud_M 23290886 1045"]],["Fudan University",[]],["Fuzhou University",[]],["German University in Cairo",["MedoN11_ 40197613 1388"]],["Hangzhou Dianzi University",[]],["Indian Institute of Technology - Bombay",["harrypotter192 40071503 1601"]],["Indian Institute of Technology - Indore",["usaxena95 23184596 1470","aditya1495 23195827 1732"]],["Indian Institute of Technology - Kanpur",["shinigami_ryuk 23330187 2024"]],["Instituto Tecnológico Autónomo de México",["frcepeda 22915046 1823"]],["International Institute of Information Technology - Bangalore",["VastoLorde95 40086572 1351"]],["International Institute of Information Technology - Hyderabad",["tanuj_khattar 40051804 1747","vmrajas 40037077 1435"]],["Iowa State University",[]],["Jagiellonian University in Krakow",["nobik 23062219 1482","krismaz 40136338 2178"]],["Jahangirnagar University",["raihatneloy 23086215 1514","sahedsohel 23305191 1627","khatribiru 23095663 1660"]],["KAIST",["jaydoubleuel 40261710 2252","HYEA 40193948 2146","jihoon.ko 40400180 1794"]],["KTH - Royal Institute of Technology",["jsannemo 23034081 1949","Gullesnuffs 22929988 2506"]],["Keio University",["snuke 22908185 2648","peryaudo 22874824 1295"]],["Lviv National University",["Trumen 23185634 1967","felix13 23082763 1690","Andrew_Makar 22856375 2035"]],["Massachusetts Institute of Technology",["sillycross 23056829 1786","Sevenkplus 22857402 2962","xyz111 23075806 2613"]],["Monash University",["Whalanator 40081327 1765","xwchow 40043567 1631","danielanderson 40328073 1591"]],["Moscow Institute of Physics &amp; Technology",["ifsmirnov 22903001 2722","Arterm 23043978 2631","zemen 23093236 2501"]],["Moscow State University",["Dener 22741560 1722","Vaness 23066137 1714","bagnikita 22860858 1170"]],["Mount Allison University",["micah.stairs 23200779 1332","will.fiset 23303507 794"]],["National Institute of Technology, Karnataka",["ajinkya1p3 40086971 1229"]],["National Research University Higher School of Economics",["Me-and-Myself 40173580 1558","ZeTILoVNIK 22892239 1702"]],["National Taiwan University",["bobogei81123 22933981 1727","kevin00050 23125399 1749","hanhan0912 22935818 1815"]],["National University of Singapore",["aguss787 23131256 1494","rais.fathin38 23031909 1626","howsiwei 23073394 1440"]],["Northeastern University (China)",[]],["Northwestern University",["abhra 22690668 846"]],["Novosibirsk State University",[]],["POLITEHNICA University of Bucharest",["stefanzzz 23027615 1449","visanr 23050287 1708"]],["Peking University",["jiry_2 23309233 2869","wwt15 23152524 1855"]],["Perm State University",["LeBron 22830668 2511","2rf 22777715 2754","KuchumovIlya 23090574 2089"]],["Petrozavodsk State University",["Kepnu4 22841413 2250","Valentin_E 23285209 1454","Svyat 23103259 1606"]],["Pontificia Universidad Católica del Perú - FCI",["itu_ 40030417 1725","Lucas97 40042234 1447","jael860 23195331 1401"]],["Princeton University",["Kalina 22768214 1085"]],["Samara National Research University",["Slamur 22915209 1512"]],["Saratov State University",[]],["Seoul National University",["sukh1222 40032894 2265","ainta 23008568 2379"]],["Shahid Beheshti University",["yoones.rezaei 22934220 1763","Colonelm0 23263442 1419","Erfaniaa 23045965 906"]],["Shanghai Jiao Tong University",["iceiceice 23311178 2071","Akigeor 40319118 1275","tEJtM 23178685 2372"]],["Shanghai University",["Curs0r 23322866 1666","gauss 13358405 860"]],["Sharif University of Technology",["snbk 23089950 1936","JeBeK 40012054 2038","HFN 23199070 2422"]],["South China University of Technology",[]],["South Dakota School of Mines and Technology",[]],["St. Petersburg Academic University",["tehnar 23141252 1501","ZhNV 40044445 1511"]],["St. Petersburg ITMO University",["Belonogov 23020794 2131","Enot 22905803 2939","izban 23021261 2451"]],["St. Petersburg State University",["_aid 23295145 2548","-XraY- 22762715 2999","ErshovStanislav 40026615 2507"]],["TOBB University of Economics and Technology",["muratakburak 23320314 942","onuryildiz 23050388 1083"]],["Taras Shevchenko National University of Kyiv",["mgch 23081452 1872","Antoniuk 23089461 1754","ballon 23004552 2123"]],["The American University in Cairo",["DanMaklen 23109671 1451","TheRealYoussef 40187507 869"]],["The Chinese University of Hong Kong",["scente 23164312 1899","abcsampson 23059667 1742"]],["The University of South Dakota",[]],["The University of Texas at Austin",["ameed 40571369 1478","mIXs 40162859 1199"]],["The University of Tokyo",["Hujiwara 22868841 2603","hogloid 22926972 2618","DEGwer 23051763 2577"]],["Tishreen University",[]],["Tokyo Institute of Technology",["happyboy99x 23107799 2232","piroz 23157417 1739","yosupo 23167065 2817"]],["Tomsk Polytechnic University",["Taube 40046248 1700","Carups 40051836 1611","noxwell 23177894 1281"]],["Tsinghua University",["xudyh 23048982 3346","jcvb 22902156 2925","WJMZBMR 22840511 2855"]],["Universidad Autónoma de Nuevo Leon",[]],["Universidad Mayor de San Simon - Sistemas",[]],["Universidad Nacional de Colombia - Bogotá",["ivancastel 22855367 1081","silvavelosa 22770961 1062","ZuluagaCM 23000099 1301"]],["Universidad Nacional de Córdoba - FaMAF",["mjhun 23177873 1667"]],["Universidad Nacional de Rosario",[]],["Universidad Simón Bolívar",["pulgares 40254181 1534","JoseAcv2 40327933 1385"]],["Universidad de Buenos Aires - FCEN",["SebP 23074130 1935","Fredy10 23083932 1018","miguelmaurizio 23043536 1439"]],["Universidad de Chile",[]],["Universidad de La Habana",["blacktools 40552060 1453"]],["Universidad de Pinar del Río",["kino 15589687 1205"]],["Universidade Estadual de Campinas",["matheusataidee 40095418 1222"]],["Universidade Federal da Bahia",["rsalesc 40083883 1608","johnjq 23107076 1537"]],["Universidade Federal de Campina Grande",["deMatos 23114190 1324"]],["Universidade Federal de Itajubá - Campus Itajubá",["fulvioabrahao 23282806 1237","junior.andrade 40344583 1061","thiagocarvp 23167854 1624"]],["Universidade Federal de Pernambuco",["mhss 23139161 1876","dcms2 23070879 1347","lucaslima 23089721 1522"]],["Universidade Federal do Rio Grande do Norte",["victoragnez 40340660 1480","deleted 40002788 1554","RailtonT 23309126 1167"]],["Universitas Indonesia",["makanbeling 22909826 1636","azure_lim 22697713 842"]],["University of Aizu",["sate3saku3 23020366 1426","dohatsutsu 23293877 1492","kzyKT 23178732 1340"]],["University of Alberta",[]],["University of British Columbia",["luccasiau 23039784 1214"]],["University of Bucharest",["eudanip 22844407 1414","Mikester95 23171321 1863","alex.velea 23109113 1855"]],["University of California Irvine",["wyte_sk133 23004077 1424"]],["University of California Los Angeles",["andyshih12 40171544 1457","bogeyman 40166529 1537","jerrylinew 23035942 1045"]],["University of California at Berkeley",["desperado123 23173297 1384"]],["University of Cape Town",[]],["University of Central Florida",["alexrcoleman 40423426 1465"]],["University of Dhaka",["yomnot 23291366 1428"]],["University of Electronic Science and Technology of China",["Herzu 40027499 2254","Lweb 23118299 2006"]],["University of Engineering and Technology - VNU",["skyvn97 23159925 1896","duyboy13579 23282665 1816","nhatminh98 23287768 1940"]],["University of Helsinki",["Laakeri 23279106 2499"]],["University of Illinois at Urbana-Champaign",[]],["University of Latvia",["Alex_2oo8 23052468 2318"]],["University of Management and Technology",[]],["University of Maryland",[]],["University of Michigan at Ann Arbor",["twangal 40002746 1386"]],["University of New South Wales",["izrak 23041788 2811","AntiForest 23046034 1697"]],["University of Oxford",["mustrum_r 22825275 1667"]],["University of Pennsylvania",[]],["University of Rochester",["cephian 23265236 1582","atomicenergy 23191249 1366"]],["University of Tehran",[]],["University of Warsaw",["Swistakk 23113968 2746","mnbvmar 23059200 2773","Marcin_smu 22895775 2801"]],["University of Waterloo",["FatalEagle 23138492 2606","zxqfl 23072570 2464","y0105w49 40440099 2235"]],["University of Wisconsin - Madison",[]],["University of Wroclaw",["koratel 22858597 1921","pmichalak 22888777 1654","Tomasz.Syposz 40184176 1580"]],["University of Zagreb",["mtomic 23177196 1071","dbradac 40178661 2221"]],["University of the Philippines - Diliman",[]],["Ural Federal University",["KungA 23180975 1928","k1r1ch 22844440 1674"]],["Uzhgorod National University",["Sereja 22928704 2282","EG0R 23179695 1385"]],["Vilnius University",[]],["Virginia Tech",["PeterASteele 40277784 1371"]],["Washington University in St. Louis",[]],["Wuhan University",["cyl0012345 23302135 1731"]],["Yerevan State University",["Harhro94 23019195 2077","albert96 23099298 1818"]],["Zhejiang University",["Sfiction 23083668 2131"]],["École Normale Supérieure de Paris",["RafbillFr 23169412 1770","Akulen 23279668 1235"]]];
+init();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"a5b9550ec2e64607aa447c31f7fef769","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>

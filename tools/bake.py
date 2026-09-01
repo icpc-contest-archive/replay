@@ -59,6 +59,8 @@ def main() -> int:
 
     pages, total = [], 0
     for cap in index["captures"]:
+        if cap.get("content_caveat"):
+            continue  # junk-flagged captures stay in the archive but are not published
         src = arch / cap["path"]
         if not src.exists():
             print(f"missing in archive: {cap['path']}", file=sys.stderr)

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://zibada.guru/finals/2010/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>world finals 2010</title>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta charset="utf-8" />
+<base target="_blank" />
+<link id="style" rel="stylesheet" type="text/css" href="topcoder.css" />
+<script type="text/javascript" src="client.js"></script>
+<script type="text/javascript" src="standings.js"></script>
+<script type="text/javascript" src="chat.js"></script>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://zibada.guru/finals/2010/">https://zibada.guru/finals/2010/</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/wf-2010.html">wf-2010</a>)  <a href="https://web.archive.org/web/*/https://zibada.guru/finals/2010/">wayback</a></div>
+
+<div id="main">
+
+<!--[if IE 6]>
+<table style="width: 100%;" cellspacing="0" class="tmain">
+<tr><td class="error">IE6 is not supported</td></tr>
+<tr class="tinfo"><td class="error">some features might not work correctly, please update your browser</td></tr>
+</table>
+<style>#chat form {display:none}</style>
+<![endif]-->
+
+<noscript>
+	<table style="width: 100%;" cellspacing="0" class="tmain">
+	<tr><td class="error">you must enable JavaScript to use this page</td></tr>
+	</table>
+</noscript>
+
+<div id="announce">
+<table style="width: 100%;" cellspacing="0" class="tmain">
+<tr><td class="error" id="announce1"></td></tr>
+<tr class="tinfo"><td class="error" id="announce2"></td></tr>
+</table>
+</div>
+
+
+<table style="width: 100%" cellspacing="0" class="tmain">
+	<col style="width: 95px" /><col /><col  style="width: 420px" />
+	<tr><td class="titlebar" colspan="3">
+		<a style="float: right" href="http://cm.baylor.edu/ICPCWiki/Wiki.jsp?page=Results%20World%20Finals%202010">&raquo; official results</a>
+		acm icpc world finals 2010</td></tr>
+	<tr class="tinfo">
+		<td>contest:</td>
+		<td id="contest_title"><span class="load"></span></td>
+		<td>
+			<div id="contest_frozen" style="float:right" class="status1"></div>
+			<div id="contest_status" style="float:right" class="status1"></div>
+			status: <span class="emp" id="contest_timenow">0:00</span>&nbsp;/&nbsp;<span class="emp" id="contest_timetotal">0:00</span>
+		</td>
+	</tr>
+	<tr class="tinfo">
+		<td>last success:</td>
+		<td id="contest_lastsuccess">&nbsp;</td>
+		<td>
+			<span class="load" id="refresh_status" style="float: right"></span>
+			last sync: <span class="ac" id="contest_lastupdate"></span>
+		</td>
+	</tr>
+	<tr class="tinfo">
+		<td colspan="2">
+		<label>history: 
+		<select id="historyselect" onchange="set_preference('history', this.value)">
+			<option value="0">off</option>
+			<option value="5">last 5</option>
+			<option value="10">last 10</option>
+			<option value="1000">all</option>
+		</select>
+		</label>
+		<label>chat: 
+		<select id="chatselect" onchange="set_preference('chat', this.value)">
+			<option value="0">off</option>
+			<option value="1">hidden</option>
+			<option value="2">on</option>
+		</select>
+		</label>
+		</td>
+		<td>
+		<label>auto: 
+		<select id="refresh" onchange="set_preference('refresh_period', this.value)">
+			<option value="0">never</option>
+			<option value="-1">real-time</option>
+			<option value="5">5 sec</option>
+			<option value="15">15 sec</option>
+			<option value="30">30 sec</option>
+			<option value="60">1 min</option>
+			<option value="120">2 min</option>
+			<option value="300">5 min</option>
+		</select>
+		</label>
+		<label>show times
+			<input type="checkbox" id="show_times" onclick="set_preference('show_times', this.checked ? 1 : 0)">
+		</label>
+		<label>style
+			<select id="styleselect" onchange="set_preference('style', this.value)">
+				<option value="pcms2">pcms2</option>
+				<option value="topcoder">topcoder</option>
+			</select>
+		</label>
+		<input style="" type="button" class="button" value="refresh" onclick="refresh_standings(); refresh_chat()" />
+	</td></tr>
+	<tbody id="chat_tbody">
+	<tr><td colspan="3">
+		<div id="chat">
+		<div id="chat_messages">
+		</div>
+		<form onsubmit="send_chat(); return false" action=".">
+		<span>(chat works best with realtime auto update selected)</span>
+		<input id="chat_username" size="15" type="text" value=""/>
+		<input id="chat_message" size="100" type="text" />
+		<input style="" type="submit" class="button" value="send / refresh" />
+		</form>
+		</div>
+	</td></tr>
+	</tbody>
+	<tbody id="history_tbody">
+	<tr><td colspan="3">
+		<div id="history">
+		</div>
+	</td></tr>
+	</tbody>
+	<tr><td colspan="3">
+		<div id="standings">
+		</div>
+	</td></tr>
+</table>
+
+<br />
+
+<div class="copy">
+NOTE: this script is experimental and is completely UNOFFICIAL; use at your own risk :)<br />
+&copy; 2007-2010 <a class="zibada" href="http://www.topcoder.com/tc?module=MemberProfile&cr=21170029">zibada</a><br />
+please report any bugs/suggestions to mail or jabber: zibada gmail com
+</div>
+</div>
+<script type="text/javascript">
+preferences.refresh_period = 0;
+timestamp_diff = (new Date().getTime()) - 1788251937000;
+realtime_standings_url = 'http://zibada.ru/2010/fairy/standings.js';
+realtime_chat_url = 'http://zibada.ru/2010/fairy/chat.js';
+initialize();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"a5b9550ec2e64607aa447c31f7fef769","r":1}' crossorigin="anonymous"></script>
+</body></html>
