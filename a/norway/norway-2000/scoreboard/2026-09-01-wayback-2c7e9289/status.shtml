@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://web.archive.org/web/20011122180630/http://www.ifi.uio.no/~db/nm-i-programmering/nm2000/status.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+  <title>Resultater fra NM i programmering</title>
+  <link rev=made href="mailto:dag@ifi.uio.no">
+</head>
+
+
+
+<body bgcolor="white">
+<div id="icpc-archive-banner">Archived copy of <a href="https://web.archive.org/web/20011122180630/http://www.ifi.uio.no/~db/nm-i-programmering/nm2000/status.shtml">https://web.archive.org/web/20011122180630/http://www.ifi.uio.no/~db/nm-i-progra</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/norway-2000.html">norway-2000</a>)  <a href="https://web.archive.org/web/20011122180630/http://www.ifi.uio.no/~db/nm-i-programmering/nm2000/status.shtml">wayback</a></div>
+
+
+<center>
+  <img src="/~db/nm-i-programmering/bakgrunn.jpg" height=225 width=668>
+</center>
+
+<h2>Sluttstillingen</h2>
+<table border="4">
+  <tr> <th align="right">Nr</th> 
+    <th>Lag</th> <th>Institusjon</th>
+    <th align="center">A</th> 
+    <th align="center">B</th> 
+    <th align="center">C</th> 
+    <th align="center">D</th> 
+    <th align="center">E</th> 
+    <th align="center">F</th> 
+    <th align="center">G</th> 
+    <th align="center">Løst</th> 
+    <th align="center">Tid</th>  
+  </tr>
+  <tr> <th align="center">1</th> <td>Programmeringsgruppa</td>
+    <td>HiSør-Trøndelag</td>
+    <td align="center">0.41</td> <td align="center"></td> <td align="center">2.36</td> <td align="center">5.27</td> <td align="center"></td> <td align="center"></td> <td align="center">5.04</td>
+    <td align="center">4</td> <td align="center">13.48</td>
+  </tr>
+  <tr> <th align="center">2</th> <td>(HB)</td> <td>UiOslo</td>
+    <td align="center">0.48</td> <td align="center"></td> <td align="center">1.40</td> <td align="center">2.07</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">3</td> <td align="center">4.35</td>
+  </tr>
+  <tr> <th align="center">3</th> <td>NoSuchTeamNameException</td> <td>NTNU</td>
+    <td align="center">2.45</td> <td align="center"></td> <td align="center">5.25</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">4.17</td>
+    <td align="center">3</td> <td align="center">12.27</td>
+  </tr>
+  <tr> <th align="center">4</th> <td>Agurk</td> <td>UiBergen</td>
+    <td align="center">3.16</td> <td align="center">4.14</td> <td align="center">5.35</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">3</td> <td align="center">13.05</td>
+  </tr>
+  <tr> <th align="center">5</th> <td>for(;ever;c++)</td> <td>UiBergen</td>
+    <td align="center">0.48</td> <td align="center"></td> <td align="center"></td> <td align="center">1.42</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">2.30</td>
+  </tr>
+  <tr> <th align="center">6</th> <td>(AAH)</td> <td>UiOslo</td>
+    <td align="center">1.35</td> <td align="center"></td> <td align="center"></td> <td align="center">1.08</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">2.43</td>
+  </tr>
+  <tr> <th align="center">7</th> <td>Y</td> <td>UiBergen</td>
+    <td align="center">0.40</td> <td align="center"></td> <td align="center"></td> <td align="center">2.38</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">3.18</td>
+  </tr>
+  <tr> <th align="center">8</th> <td>ANT</td> <td>UiBergen</td>
+    <td align="center">1.58</td> <td align="center"></td> <td align="center"></td> <td align="center">3.57</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">5.55</td>
+  </tr>
+  <tr> <th align="center">9</th> <td>(EK)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center">4.59</td> <td align="center">1.11</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">6.10</td>
+  </tr>
+  <tr> <th align="center">10</th> <td>(IR+MTS)</td> <td>UiOslo</td>
+    <td align="center">1.57</td> <td align="center"></td> <td align="center"></td> <td align="center">4.31</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">6.28</td>
+  </tr>
+  <tr> <th align="center">11</th> <td>Hack&Go</td> <td>UiBergen</td>
+    <td align="center">1.51</td> <td align="center"></td> <td align="center"></td> <td align="center">4.56</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">6.47</td>
+  </tr>
+  <tr> <th align="center">12</th> <td>Et fint lag</td> <td>NTNU</td>
+    <td align="center">2.45</td> <td align="center"></td> <td align="center">4.27</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">7.12</td>
+  </tr>
+  <tr> <th align="center">13</th> <td>The AX One-man-team</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center">1.26</td> <td align="center">5.56</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">7.22</td>
+  </tr>
+  <tr> <th align="center">14</th> <td>More than words</td> <td>NTNU</td>
+    <td align="center">2.07</td> <td align="center"></td> <td align="center"></td> <td align="center">5.27</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">7.34</td>
+  </tr>
+  <tr> <th align="center">15</th> <td>(AMG+JFB)</td> <td>UiOslo</td>
+    <td align="center">3.43</td> <td align="center"></td> <td align="center"></td> <td align="center">4.19</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">8.02</td>
+  </tr>
+  <tr> <th align="center">16</th> <td>(SS+KG+HGB)</td> <td>UiOslo</td>
+    <td align="center">3.59</td> <td align="center"></td> <td align="center"></td> <td align="center">4.11</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">2</td> <td align="center">8.10</td>
+  </tr>
+  <tr> <th align="center">17</th> <td>MOV ax,13h INT 10h</td> <td>NTNU</td>
+    <td align="center">5.32</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">4.21</td>
+    <td align="center">2</td> <td align="center">9.53</td>
+  </tr>
+  <tr> <th align="center">18</th> <td>(HSB+SET)</td> <td>UiOslo</td>
+    <td align="center">0.44</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">0.44</td>
+  </tr>
+  <tr> <th align="center">19</th> <td>(KCS+FOS+LEJ)</td> <td>HiBuskerud</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">1.31</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">1.31</td>
+  </tr>
+  <tr> <th align="center">20</th> <td>Yellow Submarine</td> <td>NTNU</td>
+    <td align="center">1.39</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">1.39</td>
+  </tr>
+  <tr> <th align="center">21</th> <td>Roxy</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">2.48</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">2.48</td>
+  </tr>
+  <tr> <th align="center">22</th> <td>Mc680x0-gutta</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">3.12</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">3.12</td>
+  </tr>
+  <tr> <th align="center">23</th> <td>Novisene</td> <td>HiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">3.42</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">3.42</td>
+  </tr>
+  <tr> <th align="center">24</th> <td>Sambalaget</td> <td>NTNU</td>
+    <td align="center">3.45</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">3.45</td>
+  </tr>
+  <tr> <th align="center">25</th> <td>S*P*O*H</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">3.47</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">3.47</td>
+  </tr>
+  <tr> <th align="center">26</th> <td>Onkel reisende objekt</td> <td>H/UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">3.51</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">3.51</td>
+  </tr>
+  <tr> <th align="center">27</th> <td>(MLJ+MS+DH)</td> <td>UiOslo</td>
+    <td align="center">4.15</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">4.15</td>
+  </tr>
+  <tr> <th align="center">28</th> <td>Hero</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">4.18</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">4.18</td>
+  </tr>
+  <tr> <th align="center">29</th> <td>(OM+HS)</td> <td>UiOslo</td>
+    <td align="center">4.28</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">4.28</td>
+  </tr>
+  <tr> <th align="center">30</th> <td>Stavanger</td> <td>HiS</td>
+    <td align="center">4.30</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">4.30</td>
+  </tr>
+  <tr> <th align="center">31</th> <td>Und.ass-IT-grunnkurs-nerdene</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">4.56</td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">4.56</td>
+  </tr>
+  <tr> <th align="center">32</th> <td>(JK)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center">5.15</td>
+    <td align="center">1</td> <td align="center">5.15</td>
+  </tr>
+  <tr> <th align="center">33</th> <td>(OAK+TER+BHFA)</td> <td>UiOslo</td>
+    <td align="center">5.48</td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">1</td> <td align="center">5.48</td>
+  </tr>
+  <tr> <th align="center">34</th> <td>(BAS+AW+KH)</td> <td>HiAgder</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>(BØ+SK)</td> <td>Polytekniske</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>(JAH+EE+JCS)</td> <td>HiØstfold</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>(JAS+KF)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>(KS+TKN+WJ)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>(RKV+SIS+EAB)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>De navnløse</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>En Dag Vil Lemen Fly</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>Java 4 Fun</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>NIPS</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>Ninja turtles (KB+KM)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>Pål og Christian</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>The Brute Force</td> <td>UiBergen</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>The good, the bad and the ugly</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>fprintf(stderr,"Ugh\n"); (JPS)</td> <td>UiOslo</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>new Object (with parameters)</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>punchme</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+  <tr> <th align="center"></th> <td>trenger flere medlemer</td> <td>NTNU</td>
+    <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
+    <td align="center">0</td> <td align="center">0.00</td>
+  </tr>
+</table>
+<b>NB!</b> På grunn av lokale tekniske problemer har flere lag og spesielt
+«NoSuchTeamNameException» fått en dårligere plassering enn de
+fortjener utifra innsatsen under konkurransen.
+
+<center>
+  <a href="http://www.nextra.com">
+  <img src="/~db/nm-i-programmering/nextra.gif"></a>
+</center>
+<hr>
+<address>
+  Oppdatert av <a href="/~dag/">Dag Langmyhr</a>.
+</address>
+</body>
+</html>

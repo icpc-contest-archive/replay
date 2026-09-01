@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://naq17.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "cdea1fe3b7ec4d612676d1ff8e3d4f74d2047bcd",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/naq17\.kattis\.com/ 
+                ],
+                ignoreErrors: [
+                    "Non-Error exception captured", 
+                    "Non-Error promise rejection captured",
+                    'ResizeObserver loop limit exceeded',
+                    'Can\'t find variable: zaloJSV2'
+                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'], 
+                autoSessionTracking: false,
+                integrations: [
+                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 0.001,
+                replaysSessionSampleRate: 0, 
+                replaysOnErrorSampleRate: 0, 
+                tracePropagationTargets: ["localhost", /https?:\/\/naq17\.kattis\.com/], 
+            });
+            Sentry.configureScope((scope) => scope.setTransactionName("contests_standings")); 
+        })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC North America Qualifier 2017</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery/dist/jquery.min.js"></script>
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/css/select2.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, ICPC North America Qualifier 2017">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/71e84a49ae3366fd7647cf2f1cb2f7c9/style.css">
+    <style type="text/css"> 
+     :root {
+             --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+     }
+
+    </style>
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://naq17.kattis.com/standings">https://naq17.kattis.com/standings</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/naq-2017.html">naq-2017</a>)  <a href="https://web.archive.org/web/*/https://naq17.kattis.com/standings">wayback</a></div>
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="ICPC North America Qualifier 2017">
+                <img class="logo" src="/images/site-logo?v=200f9ac2e8f894fa7119399bfd31094d" alt="ICPC North America Qualifier 2017 logo" />
+            </a>
+            <h4 class="logo-container-text">ICPC North America Qualifier 2017</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav aria-label="Main" class="main_menu">
+                <ul>
+                        <li>
+                            <a  href="/contests/naq17/standings" class="main_menu-item main_menu-item_link " aria-current="true" title="Standings">
+                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Standings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/contests/naq17/problems" class="main_menu-item main_menu-item_link "  title="Problems">
+                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Problems</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link "  title="Info">
+                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link "  title="Help">
+                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Help</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="top_bar ">
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+        <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <nav aria-label="Breadcrumbs" class="breadcrumbs top_bar-item">
+                    <ol>
+                            <li class="breadcrumb"><a href="/contests">Contests</a></li>
+                            <li class="breadcrumb"><a href="/contests/naq17">ICPC North America Qualifier 2017</a></li>
+                        <li class="breadcrumb">Standings</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+
+    <div id="contest_time" data-props="&#123;&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:280858263,&quot;total_seconds&quot;:18000,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                        <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-3250 days 16:11:03</span>
+                        </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">ICPC North America Qualifier 2017</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">5:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                            <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-3250 days 16:11:03</span>
+                            </div>
+                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-3250 days 11:11:03</span>
+                            </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                    <h4>Start</h4>
+            2017-10-07 18:00 CEST
+                        </div>
+                        <div class="contest-end flex justify-between">
+                                <h4>End</h4>
+            2017-10-07 23:00 CEST
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="/contests/naq17/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <a href="/login" class="button button-primary button-small">Log in</a>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+    <main class="flex flex-col grow content_padding">
+        <div class="alerts-container">
+
+
+
+
+                <div class="mb-4">
+                    
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="application/json" id="alert-team-data">
+        {
+            "csrf_token": "5314234982078021530657483578791031032286",
+            "invitation_url": "\/ajax\/session\/invitation-response",
+            "in_session_url": "\/ajax\/session\/is-in-session"
+        }
+    </script>
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/team_invitation_alert.js"></script>
+
+
+
+                </div>
+        </div>
+
+<script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/banner.js"></script>
+
+
+
+        <section id="session_banner">
+            <a href="/contests/naq17" title="ICPC North America Qualifier 2017">
+                <img src="/contests/naq17/banner?v=48b57716185dc7628f77bd010000b6dd" alt="ICPC North America Qualifier 2017" />
+            </a>
+        </section>
+
+
+    <div class="flex justify-between items-center mb-8 ">
+        <h1>ICPC North America Qualifier 2017</h1>
+        <div>
+        </div>
+    </div>
+
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+
+
+
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/mobile_tabs.js"></script>
+
+    <nav class="tab-nav" data-mobile-select-classes="is-hidden@md">
+        <a class="tab-nav-item"  href="/contests/naq17" title="Contest">Contest</a>
+
+            <a class="tab-nav-item" aria-current="page" href="/contests/naq17/standings" title="Standings">Standings</a>
+
+        <a class="tab-nav-item"  href="/contests/naq17/problems" title="Problems">Problems</a>
+
+            <a class="tab-nav-item"  href="/contests/naq17/teams" title="Teams">Teams</a>
+
+
+
+            <a class="tab-nav-item"  href="/contests/naq17/rules" title="Rules">Rules</a>
+
+        <div class="ml-auto flex">
+        </div>
+    </nav>
+    </div>
+
+    <div id="standings_wrapper"
+        
+    >
+
+<div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+        </div>
+
+            <div class="strip-item-secondary">
+
+    <table class="scoreboard_filters" data-csrf-token="5314234982078021530657483578791031032286" data-short-name="naq17">
+        <tbody>
+                <tr class="filter_row compact">
+                    <td class="group_header_cell">
+                        <h4>
+                                Affiliation
+                        </h4>
+                    </td>
+                    <td>
+
+        <div class="filter_select active">
+            <select name="filter" class="href_select selectify-style">
+
+
+                    <option value="/contests/naq17/standings/854" title="854">Acadia University</option>
+                    <option value="/contests/naq17/standings/803" title="803">Appalachian State University</option>
+                    <option value="/contests/naq17/standings/928" title="928">Augsburg University</option>
+                    <option value="/contests/naq17/standings/849" title="849">Autonomous University of Zacatecas</option>
+                    <option value="/contests/naq17/standings/935" title="935">Azusa Pacific University</option>
+                    <option value="/contests/naq17/standings/825" title="825">Baylor University</option>
+                    <option value="/contests/naq17/standings/921" title="921">Berea College</option>
+                    <option value="/contests/naq17/standings/943" title="943">Bethel College (Kansas)</option>
+                    <option value="/contests/naq17/standings/886" title="886">Bethel University (Minnesota)</option>
+                    <option value="/contests/naq17/standings/832" title="832">Bob Jones University</option>
+                    <option value="/contests/naq17/standings/811" title="811">Bradley University</option>
+                    <option value="/contests/naq17/standings/809" title="809">Bridgewater College</option>
+                    <option value="/contests/naq17/standings/819" title="819">Buena Vista University</option>
+                    <option value="/contests/naq17/standings/865" title="865">California State University, Chico</option>
+                    <option value="/contests/naq17/standings/891" title="891">Carleton University</option>
+                    <option value="/contests/naq17/standings/903" title="903">Carnegie Mellon University</option>
+                    <option value="/contests/naq17/standings/847" title="847">Central Michigan University</option>
+                    <option value="/contests/naq17/standings/910" title="910">Charleston Southern University</option>
+                    <option value="/contests/naq17/standings/902" title="902">Clemson University</option>
+                    <option value="/contests/naq17/standings/851" title="851">Coe College</option>
+                    <option value="/contests/naq17/standings/853" title="853">College of Saint Benedict and Saint John's University</option>
+                    <option value="/contests/naq17/standings/883" title="883">Columbia University</option>
+                    <option value="/contests/naq17/standings/909" title="909">Cornell College</option>
+                    <option value="/contests/naq17/standings/927" title="927">Cornell University</option>
+                    <option value="/contests/naq17/standings/792" title="792">Czech Technical University in Prague</option>
+                    <option value="/contests/naq17/standings/855" title="855">Dakota State University</option>
+                    <option value="/contests/naq17/standings/828" title="828">Dalhousie University</option>
+                    <option value="/contests/naq17/standings/942" title="942">Denison University</option>
+                    <option value="/contests/naq17/standings/871" title="871">DePaul University</option>
+                    <option value="/contests/naq17/standings/948" title="948">Dexter High School</option>
+                    <option value="/contests/naq17/standings/807" title="807">Dickinson College</option>
+                    <option value="/contests/naq17/standings/929" title="929">Duke University</option>
+                    <option value="/contests/naq17/standings/834" title="834">Emory University</option>
+                    <option value="/contests/naq17/standings/936" title="936">Fayetteville State University</option>
+                    <option value="/contests/naq17/standings/826" title="826">Florida Institute of Technology</option>
+                    <option value="/contests/naq17/standings/897" title="897">Florida International University</option>
+                    <option value="/contests/naq17/standings/844" title="844">Georgia Institute of Technology</option>
+                    <option value="/contests/naq17/standings/858" title="858">Goucher College</option>
+                    <option value="/contests/naq17/standings/924" title="924">Graceland University</option>
+                    <option value="/contests/naq17/standings/872" title="872">Grove City College</option>
+                    <option value="/contests/naq17/standings/838" title="838">Harding University</option>
+                    <option value="/contests/naq17/standings/797" title="797">Hawaii Pacific University</option>
+                    <option value="/contests/naq17/standings/874" title="874">High Point University</option>
+                    <option value="/contests/naq17/standings/901" title="901">Higher University of San Andrés</option>
+                    <option value="/contests/naq17/standings/939" title="939">Illinois Institute of Technology</option>
+                    <option value="/contests/naq17/standings/868" title="868">Indiana State University</option>
+                    <option value="/contests/naq17/standings/806" title="806">James Madison University</option>
+                    <option value="/contests/naq17/standings/941" title="941">Kalamazoo College</option>
+                    <option value="/contests/naq17/standings/913" title="913">Kansas State University</option>
+                    <option value="/contests/naq17/standings/888" title="888">La Salle University</option>
+                    <option value="/contests/naq17/standings/879" title="879">Lamar University</option>
+                    <option value="/contests/naq17/standings/873" title="873">Lehigh University</option>
+                    <option value="/contests/naq17/standings/905" title="905">LeTourneau University</option>
+                    <option value="/contests/naq17/standings/794" title="794">Linfield College</option>
+                    <option value="/contests/naq17/standings/889" title="889">Louisiana State University</option>
+                    <option value="/contests/naq17/standings/804" title="804">Louisiana Tech University</option>
+                    <option value="/contests/naq17/standings/831" title="831">Loyola University Chicago</option>
+                    <option value="/contests/naq17/standings/917" title="917">Makerere University</option>
+                    <option value="/contests/naq17/standings/933" title="933">Marquette University</option>
+                    <option value="/contests/naq17/standings/875" title="875">Maryville College</option>
+                    <option value="/contests/naq17/standings/877" title="877">Massachusetts Institute of Technology</option>
+                    <option value="/contests/naq17/standings/885" title="885">McGill University</option>
+                    <option value="/contests/naq17/standings/852" title="852">Messiah College</option>
+                    <option value="/contests/naq17/standings/786" title="786">Michigan Technological University</option>
+                    <option value="/contests/naq17/standings/919" title="919">Middlebury College</option>
+                    <option value="/contests/naq17/standings/789" title="789">Middlesex County College</option>
+                    <option value="/contests/naq17/standings/791" title="791">Morehouse College</option>
+                    <option value="/contests/naq17/standings/916" title="916">Mount Allison University</option>
+                    <option value="/contests/naq17/standings/850" title="850">National Autonomous University of Mexico</option>
+                    <option value="/contests/naq17/standings/805" title="805">National Polytechnic Institute</option>
+                    <option value="/contests/naq17/standings/881" title="881">National University of Benin</option>
+                    <option value="/contests/naq17/standings/829" title="829">New York University</option>
+                    <option value="/contests/naq17/standings/802" title="802">North Carolina State University</option>
+                    <option value="/contests/naq17/standings/904" title="904">Northeastern University</option>
+                    <option value="/contests/naq17/standings/812" title="812">Northwestern College (Iowa)</option>
+                    <option value="/contests/naq17/standings/922" title="922">Northwestern University</option>
+                    <option value="/contests/naq17/standings/835" title="835">Ohio State University</option>
+                    <option value="/contests/naq17/standings/859" title="859">Ohio University</option>
+                    <option value="/contests/naq17/standings/785" selected title="785">Oklahoma Christian University</option>
+                    <option value="/contests/naq17/standings/887" title="887">Oklahoma State University</option>
+                    <option value="/contests/naq17/standings/836" title="836">Orange Coast College</option>
+                    <option value="/contests/naq17/standings/914" title="914">Ouachita Baptist University</option>
+                    <option value="/contests/naq17/standings/862" title="862">Park University</option>
+                    <option value="/contests/naq17/standings/934" title="934">Penn State Harrisburg</option>
+                    <option value="/contests/naq17/standings/898" title="898">Princeton University</option>
+                    <option value="/contests/naq17/standings/911" title="911">Purdue University</option>
+                    <option value="/contests/naq17/standings/824" title="824">Radford University</option>
+                    <option value="/contests/naq17/standings/787" title="787">Rice University</option>
+                    <option value="/contests/naq17/standings/860" title="860">Rose-Hulman Institute of Technology</option>
+                    <option value="/contests/naq17/standings/880" title="880">Rowan University</option>
+                    <option value="/contests/naq17/standings/861" title="861">Rutgers University</option>
+                    <option value="/contests/naq17/standings/820" title="820">Ryerson University</option>
+                    <option value="/contests/naq17/standings/876" title="876">Saint Louis University</option>
+                    <option value="/contests/naq17/standings/938" title="938">Simon Fraser University</option>
+                    <option value="/contests/naq17/standings/816" title="816">Simpson College</option>
+                    <option value="/contests/naq17/standings/817" title="817">South Dakota School of Mines and Technology</option>
+                    <option value="/contests/naq17/standings/882" title="882">South Dakota State University</option>
+                    <option value="/contests/naq17/standings/896" title="896">Southeastern Oklahoma State University</option>
+                    <option value="/contests/naq17/standings/827" title="827">Southern Connecticut State University</option>
+                    <option value="/contests/naq17/standings/840" title="840">Southwest Baptist University</option>
+                    <option value="/contests/naq17/standings/869" title="869">Spring Arbor University</option>
+                    <option value="/contests/naq17/standings/808" title="808">Stanford University</option>
+                    <option value="/contests/naq17/standings/908" title="908">Stony Brook University</option>
+                    <option value="/contests/naq17/standings/900" title="900">Swarthmore College</option>
+                    <option value="/contests/naq17/standings/866" title="866">Technological University of Pereira</option>
+                    <option value="/contests/naq17/standings/912" title="912">Tennessee State University</option>
+                    <option value="/contests/naq17/standings/895" title="895">Texas A&amp;M University</option>
+                    <option value="/contests/naq17/standings/843" title="843">The University of Tennessee at Martin</option>
+                    <option value="/contests/naq17/standings/907" title="907">The University of Texas at Dallas</option>
+                    <option value="/contests/naq17/standings/830" title="830">Trinity University (Texas)</option>
+                    <option value="/contests/naq17/standings/944" title="944">United States Air Force Academy</option>
+                    <option value="/contests/naq17/standings/940" title="940">University of Alberta</option>
+                    <option value="/contests/naq17/standings/945" title="945">University of Arkansas</option>
+                    <option value="/contests/naq17/standings/814" title="814">University of British Columbia</option>
+                    <option value="/contests/naq17/standings/925" title="925">University of Calgary</option>
+                    <option value="/contests/naq17/standings/799" title="799">University of California, Irvine</option>
+                    <option value="/contests/naq17/standings/796" title="796">University of California, Los Angeles</option>
+                    <option value="/contests/naq17/standings/822" title="822">University of Central Florida</option>
+                    <option value="/contests/naq17/standings/856" title="856">University of Central Missouri</option>
+                    <option value="/contests/naq17/standings/926" title="926">University of Chicago</option>
+                    <option value="/contests/naq17/standings/932" title="932">University of Dallas</option>
+                    <option value="/contests/naq17/standings/790" title="790">University of Florida</option>
+                    <option value="/contests/naq17/standings/821" title="821">University of Hawaii at Hilo</option>
+                    <option value="/contests/naq17/standings/845" title="845">University of Illinois at Chicago</option>
+                    <option value="/contests/naq17/standings/918" title="918">University of Illinois at Urbana–Champaign</option>
+                    <option value="/contests/naq17/standings/893" title="893">University of Lethbridge</option>
+                    <option value="/contests/naq17/standings/800" title="800">University of Maryland</option>
+                    <option value="/contests/naq17/standings/798" title="798">University of Memphis</option>
+                    <option value="/contests/naq17/standings/810" title="810">University of Michigan</option>
+                    <option value="/contests/naq17/standings/801" title="801">University of Michigan–Dearborn</option>
+                    <option value="/contests/naq17/standings/846" title="846">University of Minnesota</option>
+                    <option value="/contests/naq17/standings/878" title="878">University of Nevada, Reno</option>
+                    <option value="/contests/naq17/standings/857" title="857">University of New Orleans</option>
+                    <option value="/contests/naq17/standings/867" title="867">University of North Carolina at Greensboro</option>
+                    <option value="/contests/naq17/standings/915" title="915">University of Oklahoma</option>
+                    <option value="/contests/naq17/standings/930" title="930">University of Portland</option>
+                    <option value="/contests/naq17/standings/906" title="906">University of Rhode Island</option>
+                    <option value="/contests/naq17/standings/813" title="813">University of Rochester</option>
+                    <option value="/contests/naq17/standings/837" title="837">University of San Simón</option>
+                    <option value="/contests/naq17/standings/788" title="788">University of Scranton</option>
+                    <option value="/contests/naq17/standings/870" title="870">University of South Alabama</option>
+                    <option value="/contests/naq17/standings/864" title="864">University of South Carolina</option>
+                    <option value="/contests/naq17/standings/793" title="793">University of South Dakota</option>
+                    <option value="/contests/naq17/standings/920" title="920">University of Texas at Austin</option>
+                    <option value="/contests/naq17/standings/937" title="937">University of Texas at San Antonio</option>
+                    <option value="/contests/naq17/standings/923" title="923">University of Toronto</option>
+                    <option value="/contests/naq17/standings/818" title="818">University of Tulsa</option>
+                    <option value="/contests/naq17/standings/841" title="841">University of Utah</option>
+                    <option value="/contests/naq17/standings/890" title="890">University of Victoria</option>
+                    <option value="/contests/naq17/standings/892" title="892">University of Virginia</option>
+                    <option value="/contests/naq17/standings/795" title="795">University of Waterloo</option>
+                    <option value="/contests/naq17/standings/833" title="833">University of West Florida</option>
+                    <option value="/contests/naq17/standings/848" title="848">University of Wisconsin–Madison</option>
+                    <option value="/contests/naq17/standings/842" title="842">Vanderbilt University</option>
+                    <option value="/contests/naq17/standings/863" title="863">Virginia Tech</option>
+                    <option value="/contests/naq17/standings/931" title="931">Washington &amp; Jefferson College</option>
+                    <option value="/contests/naq17/standings/884" title="884">Washington University in St. Louis</option>
+                    <option value="/contests/naq17/standings/839" title="839">Webster University</option>
+                    <option value="/contests/naq17/standings/815" title="815">West Virginia University Institute of Technology</option>
+                    <option value="/contests/naq17/standings/899" title="899">Western Michigan University</option>
+                    <option value="/contests/naq17/standings/894" title="894">Whitworth University</option>
+                    <option value="/contests/naq17/standings/823" title="823">Youngstown State University</option>
+            </select>
+
+            <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/autosubmit_select.js"></script>
+            <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="text/javascript">jQuery(function($) { $('.filter_select select').select2({ 'width': 'element' }); });</script>
+        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+
+                    <h2 class="filter_heading mt-4">Affiliation: Oklahoma Christian University</h2>
+            </div>
+    </section>
+
+    <section class="l-strip_list" data-cy="problems-table">
+        <div class="strip-plain -mb-2">
+    <div class="table-legend mb-0">
+            <div class="table-legend-statuses">
+            </div>
+            <div class="table-legend-statuses">
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-first legend-base"></i>
+                            First to solve
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-solved legend-base"></i>
+                            Solved
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-times status-icon legend-attempted legend-base"></i>
+                            Attempted
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-question status-icon legend-pending legend-base"></i>
+                            Pending judgement
+                    </span>
+            </div>
+    </div>
+        </div>
+
+        <div class="strip strip-item-plain">
+
+    <div class="table-wrapper">
+         
+
+
+
+            <table class="table2 sticky-header standings-table">
+                <thead>
+    <tr>
+                <th class="table-item-autofit font-bold " data-name="rank">
+                            
+                </th>
+                <th class=" standings-cell--expand " data-name="team">
+                            Team
+                </th>
+                <th class="table-item-autofit  " data-name="flags">
+                            
+                </th>
+                <th class="table-item-autofit  " data-name="logos">
+                            
+                </th>
+                <th class="table-item-autofit standings-cell-score " data-name="solved">
+                            Slv.
+                </th>
+                <th class="table-item-autofit standings-cell-time " data-name="penalty">
+                            Time
+                </th>
+                <th class=" standings-cell-problem " data-name="problem1">
+                            <a href="/contests/naq17/problems/birthdaycake" title="Birthday Cake" class="col-url" style="">
+                                    A
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem2">
+                            <a href="/contests/naq17/problems/bumped" title="Bumped!" class="col-url" style="">
+                                    B
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem3">
+                            <a href="/contests/naq17/problems/canonical" title="Canonical Coin Systems" class="col-url" style="">
+                                    C
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem4">
+                            <a href="/contests/naq17/problems/catandmice" title="Cat and Mice" class="col-url" style="">
+                                    D
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem5">
+                            <a href="/contests/naq17/problems/companypicnic" title="Company Picnic" class="col-url" style="">
+                                    E
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem6">
+                            <a href="/contests/naq17/problems/glitchbot" title="GlitchBot" class="col-url" style="">
+                                    F
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem7">
+                            <a href="/contests/naq17/problems/greetingcard" title="Greeting Card" class="col-url" style="">
+                                    G
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem8">
+                            <a href="/contests/naq17/problems/imperfectgps" title="Imperfect GPS" class="col-url" style="">
+                                    H
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem9">
+                            <a href="/contests/naq17/problems/oddgnome" title="Odd Gnome" class="col-url" style="">
+                                    I
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem10">
+                            <a href="/contests/naq17/problems/progressivescramble" title="Progressive Scramble" class="col-url" style="">
+                                    J
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem11">
+                            <a href="/contests/naq17/problems/spaceprobe" title="Space Probe" class="col-url" style="">
+                                    K
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem12">
+                            <a href="/contests/naq17/problems/suspensionbridges" title="Suspension Bridges" class="col-url" style="">
+                                    L
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem13">
+                            <a href="/contests/naq17/problems/umbraldecoding" title="Umbral Decoding" class="col-url" style="">
+                                    M
+                            </a>
+                </th>
+    </tr>
+                </thead>
+                <tbody>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">1</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/naq17/teams/80134">
+                OCEagles1
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/56px?v=88b6e9016ce8f0096424a4cf53952544" height="28" alt="United States" title="United States" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/oc.edu/56px?v=bb50bbe60218da317efb52deb934f798" height="28" alt="Oklahoma Christian University" title="Oklahoma Christian University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">618</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">7</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">232 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">242 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">104 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+                </tbody>
+            </table>
+    </div>
+
+        </div>
+
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/table.js"></script>
+    </section>
+</div>
+    </div>
+    </main>
+
+
+
+
+    <footer class="l-footer">
+        <nav aria-label="Footer links" class="text-center text-sm">
+            <ul class="divider-separated-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://status.kattis.com">System Status</a></li>
+                <li><a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a></li>
+                <li><a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/header.js"></script>
+<script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="/assets/0610482e5f49ee84b5a1f74f809933a7/moment/min/moment.min.js"></script>
+<script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/js/select2.full.min.js"></script>
+
+
+    <script defer nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" src="https://status.kattis.com/embed/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" nonce="d1e4ba3320f9a988a81738d1453a02d7eb8b85771fc15fde42762949d10e4943" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb"}' crossorigin="anonymous"></script>
+</body>
+</html>

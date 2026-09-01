@@ -1,0 +1,630 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2003/details-2003.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2003/details-2003.shtml">http://socalcontest.org/history/2003/details-2003.shtml</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2003.html">socal-2003</a>)  <a href="https://web.archive.org/web/*/http://socalcontest.org/history/2003/details-2003.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2003.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 16-Nov-2003</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: details-2003.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2003-04 Southern California Regional Programming Contest Detailed Results</h2>
+</center>
+
+<font face="Courier">
+
+<pre>
+
+Rank   Team ID    Team Name                        Solved   Penalties    Score
+
+   1   acm005     Caltech A                           6          2    12:35:43
+                  #   Solved   Runs      Time
+                  1      *        2   2:21:40
+                  2      *        2   1:32:56
+                  3      *        1   3:50:36
+                  4      *        1   0:19:22
+                  5      *        1   1:18:56
+                  6      *        1   2:32:13
+
+   2   acm027     HMC: Team Pipeline                  6          6    17:53:03
+                  #   Solved   Runs      Time
+                  1      *        1   3:08:34
+                  2      *        4   3:02:37
+                  3      *        3   3:14:34
+                  4      *        1   0:20:58
+                  5      *        1   4:24:22
+                  6      *        2   1:41:58
+
+
+   3   acm006     Caltech B                           5          4    12:24:23
+                  #   Solved   Runs      Time
+                  1      *        2   2:30:32
+                  2      *        1   1:15:35
+                  3      -        4   4:45:49
+                  4      *        1   0:19:51
+                  5      *        4   2:59:23
+                  6      *        1   3:59:02
+
+   4   acm053     UCSD Scissors                       5          2    15:21:46
+                  #   Solved   Runs      Time
+                  1      *        3   4:38:41
+                  2      *        1   2:45:13
+                  3      -        0   0:00:00
+                  4      *        1   0:12:20
+                  5      *        1   2:07:28
+                  6      *        1   4:58:04
+
+
+   5   acm054     UCSD RPS                            3          0     4:20:11
+                  #   Solved   Runs      Time
+                  1      -        7   4:58:30
+                  2      *        1   1:41:35
+                  3      -        0   0:00:00
+                  4      *        1   0:19:33
+                  5      *        1   2:19:03
+                  6      -        2   4:53:38
+
+   6   acm052     UCSD Paper                          3          0     4:32:22
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   1:02:27
+                  3      -        0   0:00:00
+                  4      *        1   0:33:55
+                  5      *        1   2:56:00
+                  6      -        4   4:47:56
+
+   7   acm028     HMC: Chainsaw Wuzzles               3          0     5:59:42
+                  #   Solved   Runs      Time
+                  1      *        1   2:13:19
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   0:21:49
+                  5      *        1   3:24:34
+                  6      -        2   4:50:39
+
+   8   acm044     UCI Smoke                           3          1     6:09:16
+                  #   Solved   Runs      Time
+                  1      -        2   4:57:33
+                  2      *        1   1:44:55
+                  3      -        0   0:00:00
+                  4      *        2   0:26:21
+                  5      *        1   3:38:00
+                  6      -        4   4:56:35
+
+   9   acm045     UCLA Bruins                         3          0     6:28:32
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   1:46:23
+                  3      -        0   0:00:00
+                  4      *        1   0:29:22
+                  5      *        1   4:12:47
+                  6      -        3   4:32:33
+
+  10   acm029     HMCEscher                           3          1     7:11:09
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   1:26:50
+                  3      -        0   0:00:00
+                  4      *        2   1:25:00
+                  5      *        1   3:59:19
+                  6      -        0   0:00:00
+
+  11   acm004     Caltech D                           3          0    10:59:10
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   3:38:49
+                  3      -        0   0:00:00
+                  4      *        1   4:14:46
+                  5      *        1   3:05:35
+                  6      -        0   0:00:00
+
+
+  12   acm010     Cal Poly Phonics                    2          1     2:39:59
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        2   1:51:13
+                  3      -        2   2:59:23
+                  4      *        1   0:28:46
+                  5      -        0   0:00:00
+                  6      -        3   4:59:04
+
+  13   acm009     Cal Poly Morphs                     2          0     2:48:30
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   2:28:19
+                  3      -        0   0:00:00
+                  4      *        1   0:20:11
+                  5      -        0   0:00:00
+                  6      -        9   4:59:33
+
+  14   acm007     Caltech C                           2          0     3:01:32
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        2   4:59:07
+                  3      -        0   0:00:00
+                  4      *        1   0:21:25
+                  5      *        1   2:40:07
+                  6      -        2   4:58:49
+
+  15   acm048     UCR Pop                             2          0     3:18:15
+                  #   Solved   Runs      Time
+                  1      -        1   4:56:42
+                  2      *        1   2:06:10
+                  3      -        0   0:00:00
+                  4      *        1   1:12:05
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  16   acm056     UNLV: Infinite Rebels               2          0     3:21:51
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   2:19:10
+                  3      -        0   0:00:00
+                  4      *        1   1:02:41
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  17   acm058     UNLV: Code Red Rebels               2          0     4:01:00
+                  #   Solved   Runs      Time
+                  1      -        3   3:38:44
+                  2      *        1   3:34:34
+                  3      -        0   0:00:00
+                  4      *        1   0:26:26
+                  5      -        0   0:00:00
+                  6      -        2   4:59:37
+
+  18   acm047     UCLA Gold                           2          1     4:59:24
+                  #   Solved   Runs      Time
+                  1      -        1   4:57:55
+                  2      *        1   3:45:36
+                  3      -        0   0:00:00
+                  4      *        2   0:53:48
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  19   acm025     CSULB: Brute Force                  2          0     5:15:31
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      *        1   4:32:53
+                  3      -        0   0:00:00
+                  4      *        1   0:42:38
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  20   acm026     HMC: Team Geebus                    2          2     7:41:44
+                  #   Solved   Runs      Time
+                  1      -        3   4:45:11
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        3   2:31:44
+                  5      -        0   0:00:00
+                  6      *        1   4:30:00
+
+  21   acm049     UCR Crackle                         2          4     8:57:55
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        4   3:00:47
+                  5      -        0   0:00:00
+                  6      *        2   4:37:08
+
+
+  22   acm051     UCSD Rock                           1          0     0:27:05
+                  #   Solved   Runs      Time
+                  1      -        1   4:02:18
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   0:27:05
+                  5      -        0   0:00:00
+                  6      -        4   3:11:41
+
+  23   acm011     CPP: Broncos                        1          0     0:49:44
+                  #   Solved   Runs      Time
+                  1      -        1   3:16:25
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   0:49:44
+                  5      -        1   4:59:50
+                  6      -        0   0:00:00
+
+  24   acm030     Mtsac Gold                          1          0     1:04:34
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        4   4:55:02
+                  4      *        1   1:04:34
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  25   acm046     UCLA Blue                           1          0     1:24:31
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   1:24:31
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  26   acm036     RCC::IOException                    1          0     1:33:07
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   1:33:07
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  27   acm023     CSULB: Wildcard                     1          0     1:34:57
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   1:34:57
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  28   acm024     CSULB: Long Bool                    1          0     1:40:16
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   1:40:16
+                  5      -        0   0:00:00
+                  6      -        2   4:57:37
+
+  29   acm035     RCC::solve(3*N+1)                   1          0     1:53:41
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   1:53:41
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  30   acm038     SDSU 1                              1          1     1:57:10
+                  #   Solved   Runs      Time
+                  1      -        3   4:55:35
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        2   1:37:10
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  31   acm057     UNLV: Rebel Without a Cause         1          0     2:13:52
+                  #   Solved   Runs      Time
+                  1      -        3   4:53:58
+                  2      -        4   4:41:20
+                  3      -        0   0:00:00
+                  4      *        1   2:13:52
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  32   acm043     UCI Gold                            1          1     2:13:56
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        2   1:53:56
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  33   acm014     Fullerton 3                         1          0     2:16:32
+                  #   Solved   Runs      Time
+                  1      -        3   4:59:31
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   2:16:32
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  34   acm012     Fullerton 1                         1          0     2:41:17
+                  #   Solved   Runs      Time
+                  1      -        1   3:58:05
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   2:41:17
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  35   acm055     UNLV: Techno Rebels                 1          0     2:50:05
+                  #   Solved   Runs      Time
+                  1      -        2   4:32:54
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   2:50:05
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  36   acm013     Fullerton 2                         1          0     2:57:19
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   2:57:19
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  37   acm022     CSULB: Invalid Outputs              1          1     3:10:21
+                  #   Solved   Runs      Time
+                  1      -        4   4:45:58
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        2   2:50:21
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  38   acm019     CSUCI A                             1          3     3:19:19
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        4   2:19:19
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  39   acm034     PLNU Gold                           1          2     3:25:14
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        3   2:45:14
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  40   acm059     Westmont Warriors                   1          0     3:52:58
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   3:52:58
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  41   acm042     UCI Blue                            1          0     3:58:35
+                  #   Solved   Runs      Time
+                  1      -        1   3:26:53
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   3:58:35
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  42   acm039     SDSU 2                              1          0     3:59:37
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   3:59:37
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  43   acm037     RCC::quickAndDirty                  1          0     4:13:52
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   4:13:52
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  44   acm003     APU: Partially Omniscient           1          0     4:46:24
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        1   4:46:24
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  45   acm002     APU: Trinary Branches               1          2     4:57:42
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        3   4:17:42
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  46   acm001     APU: 4Alpha2Omega                   1          3     5:48:12
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        4   4:48:12
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  47   acm015     CSUN: Adenine                       1          4     6:10:46
+                  #   Solved   Runs      Time
+                  1      -        1   2:57:50
+                  2      -        1   4:58:16
+                  3      -        0   0:00:00
+                  4      *        5   4:50:46
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+  48   acm031     Mtsac Blue                          1          6     6:13:53
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      *        7   4:13:53
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+Honorable Mention
+
+       acm008     CLU: boo-cake                       0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        4   2:05:47
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm016     CSUN: Cytosine                      0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm017     CSUN: Guanine                       0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm018     CSUN: Thymine                       0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm020     CSUCI B                             0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm021     CSUCI C                             0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm032     Mtsac Red                           0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm033     PLNU Green                          0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm040     SDSU 3                              0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm041     SDSU 4                              0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        0   0:00:00
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+       acm050     UCR Snap                            0          0     0:00:00
+                  #   Solved   Runs      Time
+                  1      -        0   0:00:00
+                  2      -        3   2:08:19
+                  3      -        0   0:00:00
+                  4      -        0   0:00:00
+                  5      -        0   0:00:00
+                  6      -        0   0:00:00
+
+
+Summary of Solutions by Problem:
+
+#   Solutions   Attempts   Percentage
+1        5         46         10.9
+2       17         32         53.1
+3        2         14         14.3
+4       48         83         57.8
+5       12         16         75.0
+6        6         45         13.3
+
+90 solutions out of 236 attempts, overall success rate of  38.1%
+</pre>
+</font>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: details-2003.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Thu, 23-Apr-2015 18:31:46 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2003 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

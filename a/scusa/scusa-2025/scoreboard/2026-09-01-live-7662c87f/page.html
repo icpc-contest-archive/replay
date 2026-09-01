@@ -1,0 +1,4231 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://nasouth25.kattis.com/contests/nasouth25d2/standings/scusa/all">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "cdea1fe3b7ec4d612676d1ff8e3d4f74d2047bcd",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/nasouth25\.kattis\.com/ 
+                ],
+                ignoreErrors: [
+                    "Non-Error exception captured", 
+                    "Non-Error promise rejection captured",
+                    'ResizeObserver loop limit exceeded',
+                    'Can\'t find variable: zaloJSV2'
+                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'], 
+                autoSessionTracking: false,
+                integrations: [
+                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 0.001,
+                replaysSessionSampleRate: 0, 
+                replaysOnErrorSampleRate: 0, 
+                tracePropagationTargets: ["localhost", /https?:\/\/nasouth25\.kattis\.com/], 
+            });
+            Sentry.configureScope((scope) => scope.setTransactionName("contests_standings_filter")); 
+        })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC NA South Division 2025</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery/dist/jquery.min.js"></script>
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/css/select2.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, ICPC NA South Division 2025">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/71e84a49ae3366fd7647cf2f1cb2f7c9/style.css">
+    <style type="text/css"> 
+     :root {
+             --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+     }
+
+    </style>
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://nasouth25.kattis.com/contests/nasouth25d2/standings/scusa/all">https://nasouth25.kattis.com/contests/nasouth25d2/standings/scusa/all</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/scusa-2025.html">scusa-2025</a>)  <a href="https://web.archive.org/web/*/https://nasouth25.kattis.com/contests/nasouth25d2/standings/scusa/all">wayback</a></div>
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="ICPC NA South Division 2025">
+                <img class="logo" src="/images/site-logo?v=200f9ac2e8f894fa7119399bfd31094d" alt="ICPC NA South Division 2025 logo" />
+            </a>
+            <h4 class="logo-container-text">ICPC NA South Division 2025</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav aria-label="Main" class="main_menu">
+                <ul>
+                        <li>
+                            <a  href="/contests" class="main_menu-item main_menu-item_link "  title="Contests">
+                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Contests</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link "  title="Info">
+                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link "  title="Help">
+                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Help</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="top_bar ">
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+        <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <nav aria-label="Breadcrumbs" class="breadcrumbs top_bar-item">
+                    <ol>
+                            <li class="breadcrumb"><a href="/contests">Contests</a></li>
+                            <li class="breadcrumb"><a href="/contests/nasouth25d2">ICPC NA South Division 2025 - Division 2</a></li>
+                        <li class="breadcrumb">Standings</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+
+    <div id="contest_time" data-props="&#123;&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:25624341,&quot;total_seconds&quot;:18000,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                        <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-296 days 13:52:21</span>
+                        </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">ICPC NA South Division 2025 - Division 2</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">5:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                            <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-296 days 13:52:21</span>
+                            </div>
+                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-296 days 8:52:21</span>
+                            </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                    <h4>Start</h4>
+            2025-11-08 19:30 CET
+                        </div>
+                        <div class="contest-end flex justify-between">
+                                <h4>End</h4>
+            2025-11-09 00:30 CET
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="/contests/nasouth25d2/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <a href="/login" class="button button-primary button-small">Log in</a>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+    <main class="flex flex-col grow content_padding">
+        <div class="alerts-container">
+
+
+
+
+                <div class="mb-4">
+                    
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="application/json" id="alert-team-data">
+        {
+            "csrf_token": "6797474880061918071006572834497450089332",
+            "invitation_url": "\/ajax\/session\/invitation-response",
+            "in_session_url": "\/ajax\/session\/is-in-session"
+        }
+    </script>
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/team_invitation_alert.js"></script>
+
+
+
+                </div>
+        </div>
+
+<script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/banner.js"></script>
+
+
+
+
+
+    <div class="flex justify-between items-center mb-8 mt-4">
+        <h1>ICPC NA South Division 2025 - Division 2</h1>
+        <div>
+        </div>
+    </div>
+
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+
+
+
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/mobile_tabs.js"></script>
+
+    <nav class="tab-nav" data-mobile-select-classes="is-hidden@md">
+        <a class="tab-nav-item"  href="/contests/nasouth25d2" title="Contest">Contest</a>
+
+            <a class="tab-nav-item" aria-current="page" href="/contests/nasouth25d2/standings" title="Standings">Standings</a>
+
+        <a class="tab-nav-item"  href="/contests/nasouth25d2/problems" title="Problems">Problems</a>
+
+            <a class="tab-nav-item"  href="/contests/nasouth25d2/teams" title="Teams">Teams</a>
+
+
+
+            <a class="tab-nav-item"  href="/contests/nasouth25d2/rules" title="Rules">Rules</a>
+
+        <div class="ml-auto flex">
+        </div>
+    </nav>
+    </div>
+
+    <div id="standings_wrapper"
+        
+    >
+
+<div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+        </div>
+
+            <div class="strip-item-secondary">
+
+    <table class="scoreboard_filters" data-csrf-token="6797474880061918071006572834497450089332" data-short-name="nasouth25d2">
+        <tbody>
+                <tr class="filter_row ">
+                    <td class="group_header_cell">
+                        <h4>
+                                Conference
+                        </h4>
+                    </td>
+                    <td>
+        <span class="group_filters">
+                    <span class="filter_item  " data-filter-short-name="site" title="site">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site">All</a>
+                    </span>
+        </span>
+                    </td>
+                </tr>
+                <tr class="filter_row ">
+                    <td class="group_header_cell">
+                        <h4>
+                                Mid-Atlantic USA Region
+                        </h4>
+                    </td>
+                    <td>
+        <span class="group_filters">
+                    <span class="filter_item  " data-filter-short-name="mausa/all" title="mausa/all">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/mausa/all">All</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Christopher Newport D2" title="site/Christopher Newport D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Christopher%20Newport%20D2">Christopher Newport D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Johns Hopkins D2" title="site/Johns Hopkins D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Johns%20Hopkins%20D2">Johns Hopkins D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/NCSU D2" title="site/NCSU D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/NCSU%20D2">NCSU D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Virginia Tech D2" title="site/Virginia Tech D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Virginia%20Tech%20D2">Virginia Tech D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Wilkes University D2" title="site/Wilkes University D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Wilkes%20University%20D2">Wilkes University D2</a>
+                    </span>
+        </span>
+                    </td>
+                </tr>
+                <tr class="filter_row ">
+                    <td class="group_header_cell">
+                        <h4>
+                                South Central USA Region
+                        </h4>
+                    </td>
+                    <td>
+        <span class="group_filters">
+                    <span class="filter_item active  " data-filter-short-name="scusa/all" title="scusa/all">
+                        <span class="filter_name active">All</span>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Rice University Division 2" title="site/Rice University Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Rice%20University%20Division%202">Rice University Division 2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/LeTourneau University Division 2" title="site/LeTourneau University Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/LeTourneau%20University%20Division%202">LeTourneau University Division 2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/Louisiana State University Division 2" title="site/Louisiana State University Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/Louisiana%20State%20University%20Division%202">Louisiana State University Division 2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/University of Texas at Dallas Division 2" title="site/University of Texas at Dallas Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/University%20of%20Texas%20at%20Dallas%20Division%202">University of Texas at Dallas Division 2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/University of Texas at Austin Division 2" title="site/University of Texas at Austin Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/University%20of%20Texas%20at%20Austin%20Division%202">University of Texas at Austin Division 2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/University of Tulsa Division 2" title="site/University of Tulsa Division 2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/University%20of%20Tulsa%20Division%202">University of Tulsa Division 2</a>
+                    </span>
+        </span>
+                    </td>
+                </tr>
+                <tr class="filter_row ">
+                    <td class="group_header_cell">
+                        <h4>
+                                Southeast USA Region
+                        </h4>
+                    </td>
+                    <td>
+        <span class="group_filters">
+                    <span class="filter_item  " data-filter-short-name="seusa/all" title="seusa/all">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/seusa/all">All</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/CofC D2" title="site/CofC D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/CofC%20D2">CofC D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/FIU D2" title="site/FIU D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/FIU%20D2">FIU D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/FSU D2" title="site/FSU D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/FSU%20D2">FSU D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/GaTech D2" title="site/GaTech D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/GaTech%20D2">GaTech D2</a>
+                    </span>
+                    <span class="filter_item  " data-filter-short-name="site/UWF D2" title="site/UWF D2">
+                        <a class="filter_name" href="/contests/nasouth25d2/standings/site/UWF%20D2">UWF D2</a>
+                    </span>
+        </span>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+
+                    <h2 class="filter_heading mt-4">South Central USA teams</h2>
+            </div>
+    </section>
+
+    <section class="l-strip_list" data-cy="problems-table">
+        <div class="strip-plain -mb-2">
+    <div class="table-legend mb-0">
+            <div class="table-legend-statuses">
+            </div>
+            <div class="table-legend-statuses">
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-first legend-base"></i>
+                            First to solve
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-solved legend-base"></i>
+                            Solved
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-times status-icon legend-attempted legend-base"></i>
+                            Attempted
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-question status-icon legend-pending legend-base"></i>
+                            Pending judgement
+                    </span>
+            </div>
+    </div>
+        </div>
+
+        <div class="strip strip-item-plain">
+
+    <div class="table-wrapper">
+         
+
+
+
+            <table class="table2 sticky-header standings-table">
+                <thead>
+    <tr>
+                <th class="table-item-autofit font-bold " data-name="rank">
+                            
+                </th>
+                <th class=" standings-cell--expand " data-name="team">
+                            Team
+                </th>
+                <th class="table-item-autofit  " data-name="subdivision_flags">
+                            
+                </th>
+                <th class="table-item-autofit  " data-name="logos">
+                            
+                </th>
+                <th class="table-item-autofit standings-cell-score " data-name="solved">
+                            Slv.
+                </th>
+                <th class="table-item-autofit standings-cell-time " data-name="penalty">
+                            Time
+                </th>
+                <th class=" standings-cell-problem " data-name="problem1">
+                            <a href="/contests/nasouth25d2/problems/snakeystring" title="Snakey String" class="col-url" style="">
+                                    A
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem2">
+                            <a href="/contests/nasouth25d2/problems/blindbottles" title="Blind Bottles" class="col-url" style="">
+                                    B
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem3">
+                            <a href="/contests/nasouth25d2/problems/onewayonly" title="One Way Only" class="col-url" style="">
+                                    C
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem4">
+                            <a href="/contests/nasouth25d2/problems/guidgenerator" title="GUID Generator" class="col-url" style="">
+                                    D
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem5">
+                            <a href="/contests/nasouth25d2/problems/photoencoding" title="Photo Encoding" class="col-url" style="">
+                                    E
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem6">
+                            <a href="/contests/nasouth25d2/problems/breakout2" title="Breakout" class="col-url" style="">
+                                    F
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem7">
+                            <a href="/contests/nasouth25d2/problems/shinjukustation" title="Shinjuku Station" class="col-url" style="">
+                                    G
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem8">
+                            <a href="/contests/nasouth25d2/problems/memoriesofpassportcontrol" title="Memories of Passport Control" class="col-url" style="">
+                                    H
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem9">
+                            <a href="/contests/nasouth25d2/problems/inazumacubedevice" title="Inazuma Cube Device" class="col-url" style="">
+                                    I
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem10">
+                            <a href="/contests/nasouth25d2/problems/gameofnines" title="Game of Nines" class="col-url" style="">
+                                    J
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem11">
+                            <a href="/contests/nasouth25d2/problems/swapforpalindrome" title="Swap for Palindrome" class="col-url" style="">
+                                    K
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem12">
+                            <a href="/contests/nasouth25d2/problems/moonlittimemachine" title="Moonlit Time Machine" class="col-url" style="">
+                                    L
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem13">
+                            <a href="/contests/nasouth25d2/problems/muchroomformushrooms" title="Much Room for Mushrooms" class="col-url" style="">
+                                    M
+                            </a>
+                </th>
+    </tr>
+                </thead>
+                <tbody>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">1</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855017">
+                67
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/rice.edu/56px?v=00daac53a5bcbc2317e535cf76663527" height="28" alt="Rice University" title="Rice University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">9</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1356</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">6 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">296 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">216 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">58 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">91 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">17 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">159 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">171 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">182 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">2</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855028">
+                Push-Down Queue-Up
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/OK/56px?v=feea6c26e044e74475c2a6df40c37937" height="28" alt="Oklahoma" title="Oklahoma" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/utulsa.edu/56px?v=e498269d517f8aab15dc9550bb2c0324" height="28" alt="University of Tulsa" title="University of Tulsa" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">8</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1120</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">105 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">175 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">39 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">5</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">92 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">16 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">234 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">110 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">169 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">3</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855026">
+                Studwards
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/stedwards.edu/56px?v=7311f16754cdfc049fdb7f894ded3dcb" height="28" alt="St. Edward&apos;s University" title="St. Edward&apos;s University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">696</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">8 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">114 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">53 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">168 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">12 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">39 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">262 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">4</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855025">
+                pi-rates
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/southwestern.edu/56px?v=17d61ac90f80b1915e0d8db0298fa5d6" height="28" alt="Southwestern University" title="Southwestern University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">802</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">29 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">100 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">58 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">83 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">37 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">181 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">234 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">5</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855027">
+                Twigorithmic Time
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/OK/56px?v=feea6c26e044e74475c2a6df40c37937" height="28" alt="Oklahoma" title="Oklahoma" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/utulsa.edu/56px?v=e498269d517f8aab15dc9550bb2c0324" height="28" alt="University of Tulsa" title="University of Tulsa" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">887</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">24 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">166 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">51 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">125 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">30 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">238 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">193 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">6</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855016">
+                SHSU
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/shsu.edu/56px?v=788dbb752c79e67f1cc1244d78906cad" height="28" alt="Sam Houston State University" title="Sam Houston State University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">6</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1050</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">225 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">112 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">68 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">256 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">27 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">6</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">262 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">7</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855015">
+                Rice Gray
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/rice.edu/56px?v=00daac53a5bcbc2317e535cf76663527" height="28" alt="Rice University" title="Rice University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">6</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1157</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">64 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">225 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">261 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">180 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">172 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">215 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">8</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855020">
+                Husky coders
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/hc.edu/56px?v=03c18d840355e928760980c9d55f59e7" height="28" alt="Houston Christian University" title="Houston Christian University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">218</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">10 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">39 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">80 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">49 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">9</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855011">
+                UNO ACM
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/LA/56px?v=d25d03702ab218e6d94244b39d7896cf" height="28" alt="Louisiana" title="Louisiana" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/uno.edu/56px?v=c299d16e5fde30eff1433b15f4e461e1" height="28" alt="University of New Orleans" title="University of New Orleans" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">360</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">44 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">105 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">189 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">22 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">10</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855013">
+                Carryall
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/letu.edu/56px?v=fe612905a6c193eb98e2fd120fd1ccde" height="28" alt="LeTourneau University" title="LeTourneau University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">409</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">57 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">136 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">157 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">19 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">11</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855023">
+                ngmi bros
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/hsutx.edu/56px?v=a996a4a63ce13b7ae9288ca0d1293d93" height="28" alt="Hardin-Simmons University" title="Hardin-Simmons University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">561</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">40 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">189 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">272 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">60 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">12</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855021">
+                Alt+Ctrl+Elite
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/hc.edu/56px?v=03c18d840355e928760980c9d55f59e7" height="28" alt="Houston Christian University" title="Houston Christian University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">73</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">15 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">26 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">32 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">13</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855010">
+                NSU Daemons
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/LA/56px?v=d25d03702ab218e6d94244b39d7896cf" height="28" alt="Louisiana" title="Louisiana" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/nsula.edu/56px?v=5f17f77417a14c513a3dd8dd6368b1cc" height="28" alt="Northwestern State University of Louisiana" title="Northwestern State University of Louisiana" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">478</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">90 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">7</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">155 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">18</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">33 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">14</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855009">
+                Xavier1
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/LA/56px?v=d25d03702ab218e6d94244b39d7896cf" height="28" alt="Louisiana" title="Louisiana" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/xula.edu/56px?v=80142006e31eb9d4de38bc322c155c46" height="28" alt="Xavier University of Louisiana" title="Xavier University of Louisiana" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">575</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">287 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">36 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">232 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">15</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855012">
+                NSU std;
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/LA/56px?v=d25d03702ab218e6d94244b39d7896cf" height="28" alt="Louisiana" title="Louisiana" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/nsula.edu/56px?v=5f17f77417a14c513a3dd8dd6368b1cc" height="28" alt="Northwestern State University of Louisiana" title="Northwestern State University of Louisiana" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">639</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">222 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">6</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">245 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">72 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">16</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855008">
+                Cyber Demons
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/LA/56px?v=d25d03702ab218e6d94244b39d7896cf" height="28" alt="Louisiana" title="Louisiana" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/nsula.edu/56px?v=5f17f77417a14c513a3dd8dd6368b1cc" height="28" alt="Northwestern State University of Louisiana" title="Northwestern State University of Louisiana" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">2</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">168</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">62 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">7</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">106 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">17</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855014">
+                Sno-Buggy
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/letu.edu/56px?v=fe612905a6c193eb98e2fd120fd1ccde" height="28" alt="LeTourneau University" title="LeTourneau University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">2</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">252</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">174 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">78 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">5</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">18</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855024">
+                BTECCoders
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/hsutx.edu/56px?v=a996a4a63ce13b7ae9288ca0d1293d93" height="28" alt="Hardin-Simmons University" title="Hardin-Simmons University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">2</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">422</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">225 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">177 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">19</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855022">
+                nail byters
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/hc.edu/56px?v=03c18d840355e928760980c9d55f59e7" height="28" alt="Houston Christian University" title="Houston Christian University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">1</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">308</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">26</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">5</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">228 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+
+                        <span class="standings-table-result-cell-primary">15</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">20</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855018">
+                Da Boyz
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/rice.edu/56px?v=00daac53a5bcbc2317e535cf76663527" height="28" alt="Rice University" title="Rice University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">0</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">20</td>
+
+                        <td class="  standings-cell--expand">    <div class="flex gap-2">
+        
+
+            <a href="/contests/nasouth25d2/teams/855019">
+                Thiago Silva
+            </a>
+    </div>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/countries/USA/TX/56px?v=7b9ab093065dfbb662e17c67f6bc3b02" height="28" alt="Texas" title="Texas" class="image_info-image-table image_info-image-rounded image_info-soft-shadow" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="/images/affiliations/rice.edu/56px?v=00daac53a5bcbc2317e535cf76663527" height="28" alt="Rice University" title="Rice University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">0</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+                </tbody>
+            </table>
+    </div>
+
+        </div>
+
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/table.js"></script>
+    </section>
+</div>
+    </div>
+    </main>
+
+
+
+
+    <footer class="l-footer">
+        <nav aria-label="Footer links" class="text-center text-sm">
+            <ul class="divider-separated-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://status.kattis.com">System Status</a></li>
+                <li><a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a></li>
+                <li><a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/header.js"></script>
+<script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="/assets/0610482e5f49ee84b5a1f74f809933a7/moment/min/moment.min.js"></script>
+<script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/js/select2.full.min.js"></script>
+
+
+    <script defer nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" src="https://status.kattis.com/embed/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" nonce="a5dbc9a0c6c2fdc118be25b9b908a6e6ffc74473618119aeab3b822131e7b9f9" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb"}' crossorigin="anonymous"></script>
+</body>
+</html>

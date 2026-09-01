@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://naq16.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "cdea1fe3b7ec4d612676d1ff8e3d4f74d2047bcd",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/naq16\.kattis\.com/ 
+                ],
+                ignoreErrors: [
+                    "Non-Error exception captured", 
+                    "Non-Error promise rejection captured",
+                    'ResizeObserver loop limit exceeded',
+                    'Can\'t find variable: zaloJSV2'
+                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'], 
+                autoSessionTracking: false,
+                integrations: [
+                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 0.001,
+                replaysSessionSampleRate: 0, 
+                replaysOnErrorSampleRate: 0, 
+                tracePropagationTargets: ["localhost", /https?:\/\/naq16\.kattis\.com/], 
+            });
+            Sentry.configureScope((scope) => scope.setTransactionName("contests_standings")); 
+        })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC North America Qualifier 2016</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery/dist/jquery.min.js"></script>
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="/assets/0610482e5f49ee84b5a1f74f809933a7/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/css/select2.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, ICPC North America Qualifier 2016">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/71e84a49ae3366fd7647cf2f1cb2f7c9/style.css">
+    <style type="text/css"> 
+     :root {
+             --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+     }
+
+    </style>
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://naq16.kattis.com/standings">https://naq16.kattis.com/standings</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/naq-2016.html">naq-2016</a>)  <a href="https://web.archive.org/web/*/https://naq16.kattis.com/standings">wayback</a></div>
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="ICPC North America Qualifier 2016">
+                <img class="logo" src="/images/site-logo?v=200f9ac2e8f894fa7119399bfd31094d" alt="ICPC North America Qualifier 2016 logo" />
+            </a>
+            <h4 class="logo-container-text">ICPC North America Qualifier 2016</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav aria-label="Main" class="main_menu">
+                <ul>
+                        <li>
+                            <a  href="/contests/naq16/standings" class="main_menu-item main_menu-item_link " aria-current="true" title="Standings">
+                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Standings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/contests/naq16/problems" class="main_menu-item main_menu-item_link "  title="Problems">
+                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Problems</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link "  title="Info">
+                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link "  title="Help">
+                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Help</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="top_bar ">
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+        <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <nav aria-label="Breadcrumbs" class="breadcrumbs top_bar-item">
+                    <ol>
+                            <li class="breadcrumb"><a href="/contests">Contests</a></li>
+                            <li class="breadcrumb"><a href="/contests/naq16">ICPC North America Qualifier 2016</a></li>
+                        <li class="breadcrumb">Standings</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+
+    <div id="contest_time" data-props="&#123;&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:313517463,&quot;total_seconds&quot;:18000,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                        <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-3628 days 16:11:03</span>
+                        </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">ICPC North America Qualifier 2016</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">5:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                            <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-3628 days 16:11:03</span>
+                            </div>
+                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-3628 days 11:11:03</span>
+                            </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                    <h4>Start</h4>
+            2016-09-24 18:00 CEST
+                        </div>
+                        <div class="contest-end flex justify-between">
+                                <h4>End</h4>
+            2016-09-24 23:00 CEST
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="/contests/naq16/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <a href="/login" class="button button-primary button-small">Log in</a>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+    <main class="flex flex-col grow content_padding">
+        <div class="alerts-container">
+
+
+
+
+                <div class="mb-4">
+                    
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="application/json" id="alert-team-data">
+        {
+            "csrf_token": "5520329400848042704642290534125897455297",
+            "invitation_url": "\/ajax\/session\/invitation-response",
+            "in_session_url": "\/ajax\/session\/is-in-session"
+        }
+    </script>
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/team_invitation_alert.js"></script>
+
+
+
+                </div>
+        </div>
+
+<script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/banner.js"></script>
+
+
+
+        <section id="session_banner">
+            <a href="/contests/naq16" title="ICPC North America Qualifier 2016">
+                <img src="/contests/naq16/banner?v=08e1f5d48318a7f747144314108c4e48" alt="ICPC North America Qualifier 2016" />
+            </a>
+        </section>
+
+
+    <div class="flex justify-between items-center mb-8 ">
+        <h1>ICPC North America Qualifier 2016</h1>
+        <div>
+        </div>
+    </div>
+
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+
+
+
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/mobile_tabs.js"></script>
+
+    <nav class="tab-nav" data-mobile-select-classes="is-hidden@md">
+        <a class="tab-nav-item"  href="/contests/naq16" title="Contest">Contest</a>
+
+            <a class="tab-nav-item" aria-current="page" href="/contests/naq16/standings" title="Standings">Standings</a>
+
+        <a class="tab-nav-item"  href="/contests/naq16/problems" title="Problems">Problems</a>
+
+            <a class="tab-nav-item"  href="/contests/naq16/teams" title="Teams">Teams</a>
+
+
+
+            <a class="tab-nav-item"  href="/contests/naq16/rules" title="Rules">Rules</a>
+
+        <div class="ml-auto flex">
+        </div>
+    </nav>
+    </div>
+
+    <div id="standings_wrapper"
+        
+    >
+
+<div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+        </div>
+
+            <div class="strip-item-secondary">
+
+    <table class="scoreboard_filters" data-csrf-token="5520329400848042704642290534125897455297" data-short-name="naq16">
+        <tbody>
+                <tr class="filter_row compact">
+                    <td class="group_header_cell">
+                        <h4>
+                                Affiliation
+                        </h4>
+                    </td>
+                    <td>
+
+        <div class="filter_select active">
+            <select name="filter" class="href_select selectify-style">
+
+
+                    <option value="/contests/naq16/standings/539" title="539">Abilene Christian University</option>
+                    <option value="/contests/naq16/standings/554" title="554">Acadia University</option>
+                    <option value="/contests/naq16/standings/480" title="480">Austin Peay State University</option>
+                    <option value="/contests/naq16/standings/566" title="566">Baylor University</option>
+                    <option value="/contests/naq16/standings/596" title="596">Berea College</option>
+                    <option value="/contests/naq16/standings/617" title="617">Bethel College (Kansas)</option>
+                    <option value="/contests/naq16/standings/567" title="567">Bethel University (Minnesota)</option>
+                    <option value="/contests/naq16/standings/511" title="511">Bob Jones University</option>
+                    <option value="/contests/naq16/standings/514" title="514">Boston College</option>
+                    <option value="/contests/naq16/standings/489" title="489">Bradley University</option>
+                    <option value="/contests/naq16/standings/512" title="512">Buena Vista University</option>
+                    <option value="/contests/naq16/standings/544" title="544">California State University, Chico</option>
+                    <option value="/contests/naq16/standings/611" title="611">Carleton College</option>
+                    <option value="/contests/naq16/standings/583" title="583">Carnegie Mellon University</option>
+                    <option value="/contests/naq16/standings/526" title="526">Central Michigan University</option>
+                    <option value="/contests/naq16/standings/588" title="588">Charleston Southern University</option>
+                    <option value="/contests/naq16/standings/618" title="618">Clark University</option>
+                    <option value="/contests/naq16/standings/555" title="555">Clarkson University</option>
+                    <option value="/contests/naq16/standings/582" title="582">Clemson University</option>
+                    <option value="/contests/naq16/standings/529" title="529">Coe College</option>
+                    <option value="/contests/naq16/standings/587" title="587">Cornell College</option>
+                    <option value="/contests/naq16/standings/471" title="471">Czech Technical University in Prague</option>
+                    <option value="/contests/naq16/standings/475" title="475">Dalhousie University</option>
+                    <option value="/contests/naq16/standings/485" title="485">Dickinson College</option>
+                    <option value="/contests/naq16/standings/603" title="603">Duke University</option>
+                    <option value="/contests/naq16/standings/466" selected title="466">Eastern Michigan University</option>
+                    <option value="/contests/naq16/standings/498" title="498">Emory University</option>
+                    <option value="/contests/naq16/standings/609" title="609">Fayetteville State University</option>
+                    <option value="/contests/naq16/standings/564" title="564">Fitchburg State University</option>
+                    <option value="/contests/naq16/standings/505" title="505">Florida Institute of Technology</option>
+                    <option value="/contests/naq16/standings/574" title="574">Florida International University</option>
+                    <option value="/contests/naq16/standings/522" title="522">Georgia Institute of Technology</option>
+                    <option value="/contests/naq16/standings/536" title="536">Goucher College</option>
+                    <option value="/contests/naq16/standings/577" title="577">Graceland University</option>
+                    <option value="/contests/naq16/standings/482" title="482">Grinnell College</option>
+                    <option value="/contests/naq16/standings/510" title="510">Grove City College</option>
+                    <option value="/contests/naq16/standings/579" title="579">Hawaii Pacific University</option>
+                    <option value="/contests/naq16/standings/481" title="481">High Point University</option>
+                    <option value="/contests/naq16/standings/504" title="504">Hope College</option>
+                    <option value="/contests/naq16/standings/601" title="601">Howard University</option>
+                    <option value="/contests/naq16/standings/613" title="613">Illinois Institute of Technology</option>
+                    <option value="/contests/naq16/standings/547" title="547">Indiana State University</option>
+                    <option value="/contests/naq16/standings/488" title="488">James Madison University</option>
+                    <option value="/contests/naq16/standings/615" title="615">Kalamazoo College</option>
+                    <option value="/contests/naq16/standings/474" title="474">Kenyon College</option>
+                    <option value="/contests/naq16/standings/483" title="483">La Salle University</option>
+                    <option value="/contests/naq16/standings/597" title="597">Lafayette College</option>
+                    <option value="/contests/naq16/standings/561" title="561">Lamar University</option>
+                    <option value="/contests/naq16/standings/553" title="553">Lehigh University</option>
+                    <option value="/contests/naq16/standings/585" title="585">LeTourneau University</option>
+                    <option value="/contests/naq16/standings/473" title="473">Linfield College</option>
+                    <option value="/contests/naq16/standings/568" title="568">Louisiana State University</option>
+                    <option value="/contests/naq16/standings/552" title="552">Loyola University Chicago</option>
+                    <option value="/contests/naq16/standings/540" title="540">Macalester College</option>
+                    <option value="/contests/naq16/standings/500" title="500">Marist College</option>
+                    <option value="/contests/naq16/standings/494" title="494">Maryville College</option>
+                    <option value="/contests/naq16/standings/530" title="530">Messiah College</option>
+                    <option value="/contests/naq16/standings/476" title="476">Michigan Technological University</option>
+                    <option value="/contests/naq16/standings/595" title="595">Middlebury College</option>
+                    <option value="/contests/naq16/standings/565" title="565">Millersville University of Pennsylvania</option>
+                    <option value="/contests/naq16/standings/492" title="492">Missouri University of Science and Technology</option>
+                    <option value="/contests/naq16/standings/470" title="470">Morehouse College</option>
+                    <option value="/contests/naq16/standings/593" title="593">Mount Allison University</option>
+                    <option value="/contests/naq16/standings/524" title="524">Mount Vernon Nazarene University</option>
+                    <option value="/contests/naq16/standings/517" title="517">Muhlenberg College</option>
+                    <option value="/contests/naq16/standings/562" title="562">National University of Benin</option>
+                    <option value="/contests/naq16/standings/507" title="507">New York University</option>
+                    <option value="/contests/naq16/standings/589" title="589">North American University</option>
+                    <option value="/contests/naq16/standings/551" title="551">North Carolina State University</option>
+                    <option value="/contests/naq16/standings/571" title="571">Nova Southeastern University</option>
+                    <option value="/contests/naq16/standings/513" title="513">Ohio State University</option>
+                    <option value="/contests/naq16/standings/537" title="537">Ohio University</option>
+                    <option value="/contests/naq16/standings/528" title="528">Okanagan College</option>
+                    <option value="/contests/naq16/standings/592" title="592">Ouachita Baptist University</option>
+                    <option value="/contests/naq16/standings/607" title="607">Penn State Harrisburg</option>
+                    <option value="/contests/naq16/standings/616" title="616">Princeton University</option>
+                    <option value="/contests/naq16/standings/557" title="557">Purdue University</option>
+                    <option value="/contests/naq16/standings/503" title="503">Radford University</option>
+                    <option value="/contests/naq16/standings/535" title="535">Reykjavík University</option>
+                    <option value="/contests/naq16/standings/467" title="467">Rice University</option>
+                    <option value="/contests/naq16/standings/580" title="580">Riverside City College</option>
+                    <option value="/contests/naq16/standings/532" title="532">Rochester Institute of Technology</option>
+                    <option value="/contests/naq16/standings/575" title="575">Rowan University</option>
+                    <option value="/contests/naq16/standings/499" title="499">Ryerson University</option>
+                    <option value="/contests/naq16/standings/496" title="496">Saginaw Valley State University</option>
+                    <option value="/contests/naq16/standings/556" title="556">Saint Louis University</option>
+                    <option value="/contests/naq16/standings/545" title="545">Salisbury University</option>
+                    <option value="/contests/naq16/standings/612" title="612">Simon Fraser University</option>
+                    <option value="/contests/naq16/standings/495" title="495">South Dakota School of Mines and Technology</option>
+                    <option value="/contests/naq16/standings/563" title="563">South Dakota State University</option>
+                    <option value="/contests/naq16/standings/576" title="576">Southeastern Oklahoma State University</option>
+                    <option value="/contests/naq16/standings/586" title="586">Southwestern University</option>
+                    <option value="/contests/naq16/standings/549" title="549">Spring Arbor University</option>
+                    <option value="/contests/naq16/standings/581" title="581">St. Joseph's College New York</option>
+                    <option value="/contests/naq16/standings/518" title="518">Stellenbosch University</option>
+                    <option value="/contests/naq16/standings/509" title="509">Stonehill College</option>
+                    <option value="/contests/naq16/standings/590" title="590">Tennessee State University</option>
+                    <option value="/contests/naq16/standings/521" title="521">The Citadel, The Military College of South Carolina</option>
+                    <option value="/contests/naq16/standings/520" title="520">The University of Tennessee at Martin</option>
+                    <option value="/contests/naq16/standings/516" title="516">The University of Texas at Dallas</option>
+                    <option value="/contests/naq16/standings/591" title="591">Touro College</option>
+                    <option value="/contests/naq16/standings/508" title="508">Trinity University (Texas)</option>
+                    <option value="/contests/naq16/standings/541" title="541">United States Naval Academy</option>
+                    <option value="/contests/naq16/standings/614" title="614">University of Alberta</option>
+                    <option value="/contests/naq16/standings/598" title="598">University of Arkansas at Little Rock</option>
+                    <option value="/contests/naq16/standings/491" title="491">University of British Columbia</option>
+                    <option value="/contests/naq16/standings/600" title="600">University of Calgary</option>
+                    <option value="/contests/naq16/standings/477" title="477">University of California, Los Angeles</option>
+                    <option value="/contests/naq16/standings/534" title="534">University of Central Missouri</option>
+                    <option value="/contests/naq16/standings/515" title="515">University of Chicago</option>
+                    <option value="/contests/naq16/standings/478" title="478">University of Connecticut</option>
+                    <option value="/contests/naq16/standings/606" title="606">University of Dallas</option>
+                    <option value="/contests/naq16/standings/599" title="599">University of Delaware</option>
+                    <option value="/contests/naq16/standings/469" title="469">University of Florida</option>
+                    <option value="/contests/naq16/standings/608" title="608">University of Georgia</option>
+                    <option value="/contests/naq16/standings/501" title="501">University of Hawaii at Hilo</option>
+                    <option value="/contests/naq16/standings/531" title="531">University of Iceland</option>
+                    <option value="/contests/naq16/standings/523" title="523">University of Illinois at Chicago</option>
+                    <option value="/contests/naq16/standings/594" title="594">University of Illinois at Urbana–Champaign</option>
+                    <option value="/contests/naq16/standings/573" title="573">University of Lethbridge</option>
+                    <option value="/contests/naq16/standings/487" title="487">University of Michigan</option>
+                    <option value="/contests/naq16/standings/479" title="479">University of Michigan–Dearborn</option>
+                    <option value="/contests/naq16/standings/525" title="525">University of Minnesota</option>
+                    <option value="/contests/naq16/standings/560" title="560">University of Nevada, Reno</option>
+                    <option value="/contests/naq16/standings/493" title="493">University of New Brunswick</option>
+                    <option value="/contests/naq16/standings/578" title="578">University of North Carolina at Asheville</option>
+                    <option value="/contests/naq16/standings/569" title="569">University of North Carolina at Charlotte</option>
+                    <option value="/contests/naq16/standings/546" title="546">University of North Carolina at Greensboro</option>
+                    <option value="/contests/naq16/standings/502" title="502">University of North Dakota</option>
+                    <option value="/contests/naq16/standings/604" title="604">University of Portland</option>
+                    <option value="/contests/naq16/standings/490" title="490">University of Rochester</option>
+                    <option value="/contests/naq16/standings/486" title="486">University of Saskatchewan</option>
+                    <option value="/contests/naq16/standings/468" title="468">University of Scranton</option>
+                    <option value="/contests/naq16/standings/550" title="550">University of South Alabama</option>
+                    <option value="/contests/naq16/standings/472" title="472">University of South Dakota</option>
+                    <option value="/contests/naq16/standings/610" title="610">University of Texas at San Antonio</option>
+                    <option value="/contests/naq16/standings/602" title="602">University of Toronto</option>
+                    <option value="/contests/naq16/standings/497" title="497">University of Tulsa</option>
+                    <option value="/contests/naq16/standings/570" title="570">University of Victoria</option>
+                    <option value="/contests/naq16/standings/572" title="572">University of Virginia</option>
+                    <option value="/contests/naq16/standings/506" title="506">University of Waterloo</option>
+                    <option value="/contests/naq16/standings/527" title="527">University of Wisconsin–Madison</option>
+                    <option value="/contests/naq16/standings/519" title="519">Vanderbilt University</option>
+                    <option value="/contests/naq16/standings/542" title="542">Virginia Tech</option>
+                    <option value="/contests/naq16/standings/559" title="559">Virginia Wesleyan College</option>
+                    <option value="/contests/naq16/standings/605" title="605">Washington &amp; Jefferson College</option>
+                    <option value="/contests/naq16/standings/533" title="533">Washington University in St. Louis</option>
+                    <option value="/contests/naq16/standings/538" title="538">Webster University</option>
+                    <option value="/contests/naq16/standings/484" title="484">Western Michigan University</option>
+                    <option value="/contests/naq16/standings/543" title="543">Western Washington University</option>
+                    <option value="/contests/naq16/standings/584" title="584">Whitworth University</option>
+                    <option value="/contests/naq16/standings/548" title="548">Winston-Salem State University</option>
+                    <option value="/contests/naq16/standings/558" title="558">York University</option>
+            </select>
+
+            <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/autosubmit_select.js"></script>
+            <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="text/javascript">jQuery(function($) { $('.filter_select select').select2({ 'width': 'element' }); });</script>
+        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+
+                    <h2 class="filter_heading mt-4">Affiliation: Eastern Michigan University</h2>
+            </div>
+    </section>
+
+    <section class="l-strip_list" data-cy="problems-table">
+
+        <div class="strip strip-item-plain">
+
+    <div class="table-wrapper">
+         
+
+
+
+            <div class="p-6">No teams have registered yet</div>
+    </div>
+
+        </div>
+
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/modules/table.js"></script>
+    </section>
+</div>
+    </div>
+    </main>
+
+
+
+
+    <footer class="l-footer">
+        <nav aria-label="Footer links" class="text-center text-sm">
+            <ul class="divider-separated-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://status.kattis.com">System Status</a></li>
+                <li><a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a></li>
+                <li><a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" type="module" src="/js/28e223d7d4497f9dc1f5140fce1dfc7d/pages/contest/header.js"></script>
+<script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="/assets/0610482e5f49ee84b5a1f74f809933a7/moment/min/moment.min.js"></script>
+<script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="/assets/0610482e5f49ee84b5a1f74f809933a7/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="/assets/0610482e5f49ee84b5a1f74f809933a7/select2/dist/js/select2.full.min.js"></script>
+
+
+    <script defer nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" src="https://status.kattis.com/embed/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" nonce="444815ceca8cc6254ed458c109ba55d36b961b080a4b1918f673a0155fcde24d" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb"}' crossorigin="anonymous"></script>
+</body>
+</html>

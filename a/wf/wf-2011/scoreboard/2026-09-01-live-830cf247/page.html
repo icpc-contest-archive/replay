@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://zibada.guru/finals/2011/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="utf-8" />
+<title>world finals 2011</title>
+<base target="_blank" />
+<link id="style" rel="stylesheet" type="text/css" href="topcoder.css" />
+<script type="text/javascript" src="client.js"></script>
+<script type="text/javascript" src="standings.js"></script>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://zibada.guru/finals/2011/">https://zibada.guru/finals/2011/</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/wf-2011.html">wf-2011</a>)  <a href="https://web.archive.org/web/*/https://zibada.guru/finals/2011/">wayback</a></div>
+
+<div id="main">
+
+<!--[if IE 6]>
+<table style="width: 100%;" cellspacing="0" class="tmain">
+<tr><td class="error">IE6 is not supported</td></tr>
+<tr class="tinfo"><td class="error">some features might not work correctly, please update your browser</td></tr>
+</table>
+<![endif]-->
+
+<noscript>
+	<table style="width: 100%;" cellspacing="0" class="tmain">
+	<tr><td class="error">you must enable JavaScript to use this page</td></tr>
+	</table>
+</noscript>
+
+<div id="motd">
+</div>
+
+
+<table style="width: 100%" cellspacing="0" class="tmain">
+	<col style="width: 95px" /><col /><col style="width: 420px" />
+	<tr class="tinfo">
+		<td>contest:</td>
+		<td id="contest_title"><span class="load"></span></td>
+		<td>
+			<div id="contest_frozen">[frozen]</div>
+			<div id="contest_status"></div>
+			status: <span class="emp" id="contest_timenow">0:00</span>&nbsp;/&nbsp;<span class="emp" id="contest_timetotal">0:00</span>
+		</td>
+	</tr>
+	<tr class="tinfo">
+		<td>last success:</td>
+		<td id="contest_lastsuccess">&nbsp;</td>
+		<td>
+			<span class="load" id="refresh_status" style="float: right"></span>
+			updated: <span class="ac" id="contest_lastupdate"></span>
+		</td>
+	</tr>
+	<tr class="tinfo">
+		<td>chat:</td>
+		<td id="chat_controls">
+			<input id="chat_enter" type="button" class="button" value="enter chat" />
+			<span id="chat_enter_status"></span>
+			<div id="chat_options">
+				<input id="chat_leave" type="button" class="button" value="leave chat" />
+				<label>hide guests
+					<input type="checkbox" id="hide_guests" value="1" />
+				</label>
+				<label>hide non-english
+					<input type="checkbox" id="hide_nonascii" value="1" />
+				</label>
+				<label>hide chinese
+					<input type="checkbox" id="hide_chinese" value="1" />
+				</label>
+				<div class="userlist"><span id="users_count"></span> users
+					<div class="hint">
+						<ul id="userlist">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</td>
+		<td>
+		<label>auto: 
+		<select id="update">
+			<option value="0">never</option>
+			<option value="-1">real-time</option>
+			<option value="5">5 sec</option>
+			<option value="15">15 sec</option>
+			<option value="30">30 sec</option>
+			<option value="60">1 min</option>
+			<option value="120">2 min</option>
+			<option value="300">5 min</option>
+		</select>
+		</label>
+		<label>show times
+			<input type="checkbox" id="show_times" value="1" />
+		</label>
+		<label>style
+			<select id="styleselect">
+				<!--<option value="pcms2">pcms2</option>-->
+				<option value="topcoder">topcoder</option>
+			</select>
+		</label>
+		<input id="refresh" type="button" class="button" value="refresh" />
+	</td></tr>
+	<tbody>
+	<tr><td colspan="3">
+		<div id="chat">
+			<ul id="chat_messages">
+			</ul>
+			<div id="login">
+				<input id="chat_username" size="15" spellcheck="false" type="text" value=""/>
+				<div id="login_label">or log in<div class="hint">
+					<h2>log in with topcoder account</h2>
+					<ul>
+						<li><a href="http://www.topcoder.com/tc?module=MemberContact&th=zibada">Click here</a> (opens new window)</li>
+						<li>Insert the following code as message text: <div id="sid"></div></li>
+						<li>Click "Send"</li>
+						<li>You will be logged in automatically in a few seconds</li>
+						<li>If nothing happens, please report<br />(do NOT post the above code publicly!)</li>
+					</ul>
+				</div></div>
+			</div>
+			<div id="login_username"></div>
+			<form id="chat_form">
+				| <input id="chat_message" autocomplete="off" spellcheck="false" size="100" type="text" />
+				<input id="chat_send" type="submit" class="button" value="send" />
+				<span id="chat_error"></span>
+			</form>
+		</div>
+	</td></tr>
+	</tbody>
+	<tr><td colspan="3">
+		<div id="standings">
+		</div>
+	</td></tr>
+</table>
+
+<br />
+
+<div class="copy">
+NOTE: this script is experimental and is completely UNOFFICIAL; use at your own risk :)<br />
+&copy; 2007-2011 <a class="zibada" href="http://www.topcoder.com/tc?module=MemberProfile&cr=21170029">zibada</a><br />
+please report any bugs/suggestions to mail or jabber: zibada gmail com
+</div>
+</div>
+<script type="text/javascript">init();</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"a5b9550ec2e64607aa447c31f7fef769","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>
