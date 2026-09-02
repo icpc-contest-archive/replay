@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://zibada.guru/finals/2022/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="utf-8">
+<meta name="referrer" content="same-origin">
+<meta name="viewport" content="width=device-width">
+<title>ICPC World Finals 2022</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="teams.js"></script>
+<script>var team_names = data;</script>
+<script src="standings.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://zibada.guru/finals/2022/">https://zibada.guru/finals/2022/</a> (content as captured 2024-07-02 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/wf-2022.html">wf-2022</a>)  <a href="https://web.archive.org/web/20240702191249/https://zibada.guru/finals/2022/">wayback</a></div>
+
+<div class="standings">
+	<div title="Toggle help" class="help-toggle" onclick="$('#help').classList.toggle('active')"></div>
+	<div id="help">
+		<h3>Favorites</h3>
+		Hover or tap on a team name then click a little star to the right to pin selected teams to the top.<br><br>
+		<h3>Timeline</h3>
+		Click or drag the timeline to view the past scoreboard states. Click on the timer to return to real time.<br><br>
+		<h3>What-if aka optimistic standings</h3>
+		Click on any unsolved problem cell to preview results as if it was solved just now, or the latest pending attempt was a success.<br><br>
+		<h3>Bug reports</h3>
+		Please report any bugs or incorrect / missing nicknames <a href="https://codeforces.com/usertalk?other=zibada">here</a>.
+	</div>
+	<h1>ICPC World Finals 2022</h1>
+	<div class="status">
+		<div id="contest_status" style="text-align: center">
+			<span id="contest_status_string" class="emp"></span> <span id="contest_timenow" style="cursor: pointer">0:00</span><span class="emp" id="contest_timetotal"> of 0:00</span>
+			<span class="updated">, updated at <span class="ac" id="contest_lastupdate"></span><span>
+		</div>
+		<div id="timeline">
+			<div class="timeline_bg_frozen"></div>
+			<div id="timeline_elapsed"></div>
+			<div id="timeline_shown"></div>
+			<div class="timeline_bg" style="left: 20%"></div>
+			<div class="timeline_bg" style="left: 40%"></div>
+			<div class="timeline_bg" style="left: 60%"></div>
+			<div class="timeline_bg" style="left: 80%"></div>
+		</div>
+	</div>
+	<table>
+	<thead id="problems">
+	</thead>
+	<tbody id="favorites">
+	</tbody>
+	<tbody id="standings">
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

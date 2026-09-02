@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://naq15.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC North America Qualifier 2015</title>
+
+    <link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic,800italic%7CMerriweather:400,400italic,700" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap datetimepicker CSS-->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon" />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/system.css?faf0cb">
+    <style type="text/css">
+          .header {
+         background-color: #9a9a9a;
+     }
+     .header .main-nav > ul > li.current:before {
+         border-bottom-color: #9a9a9a;
+     }
+
+         </style>
+
+    <script type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    <script type="text/javascript">
+    jQuery.ns = function (namespace) {
+        var parts = namespace.split('.');
+        var last = window;
+        for (var i = 0; i < parts.length; i++) {
+            last = last[parts[i]] || (last[parts[i]] = {});
+        }
+        return last;
+    };
+</script>
+    <script>
+jQuery.extend(jQuery.ns('Kattis.error'), (function () {
+    var messages = {"INTERNAL_SERVER_ERROR":"Internal server error.","ACCESS_DENIED":"Access denied.","NOT_AUTHENTICATED":"Not authenticated.","METHOD_NOT_ALLOWED":"Method not allowed.","INVALID_JSON":"JSON cannot be decoded or encoded data is deeper than the recursion limit.","BAD_CSRF_TOKEN":"Token does not match session's csrf_token","SESSION_NAME_EMPTY":"Session's name must be non empty.","SESSION_START_TIME_EMPTY":"Session's start time must be non empty.","SESSION_START_TIME_PASSED":"Session's start time has already passed.","SESSION_DURATION_EMPTY":"Session's duration must be non empty.","SESSION_DURATION_NEGATIVE":"Session's duration must be a positive number.","SESSION_DURATION_EXCEEDED":"Maximum duration for the session was exceeded.","SESSION_ALREADY_STARTED":"The session has already started.","SESSION_ALREADY_FINISHED":"The session is already finished.","USER_CREATED_SESSION_DURATION_EXCEEDED":"Contest cannot be longer than 168 hours.","INVALID_PROBLEM_SCORE":"Invalid problem score.","INVALID_SESSION_SHORTNAME":"Invalid shortname for the session.","INVALID_SESSION_CUTOFF":"Invalid cutoff for the session.","INVALID_USER_NAME":"Invalid username or email.","SESSION_NOT_FOUND":"No such session.","COURSE_NOT_FOUND":"No such course.","OFFERING_NOT_FOUND":"No such offering.","TEACHER_NOT_FOUND":"No such teacher.","TEACHER_CANNOT_REMOVE_SELF":"You may not remove yourself as a teacher unless you are an administrator.","AUTHOR_NOT_FOUND":"No such author.","JUDGE_NOT_FOUND":"No such judge.","JUDGE_ALREADY_EXIST":"The user is already a judge.","TEACHER_ALREADY_EXIST":"The user is already a teacher.","PROBLEM_NOT_FOUND":"No such problem.","TEAM_NOT_FOUND":"No such team.","SESSION_PROBLEM_ALREADY_EXIST":"The problem has been already added to the session.","SESSION_PROBLEM_DOES_NOT_EXIST":"The problem does not relate to the session.","PROBLEM_INDEX_NEGATIVE":"Problem index must be non negative.","AUTHOR_IS_CURRENT_TEAM_MEMBER":"The user you tried to add is already a member of the current team.","AUTHOR_IS_ANOTHER_TEAM_MEMBER":"The user you tried to add is already a member of another team in the current session.","AUTHOR_IS_JUDGE":"The user you tried to add is a judge.","AUTHOR_IS_NOT_TEAM_MEMBER":"The user you tried to remove is not a team member.","JUDGE_IS_TEAM_MEMBER":"The user you tried to add is a session team member or invitee.","SESSION_PUBLISHING_DENIED":"You do not have permission to publish this session.","CANNOT_PUBLISH_HISTORICAL_SESSION":"You cannot publish a session with a historical start time.","INVALID_TEAM_NAME_TOO_LONG":"The team name you are trying to add is too long","TEAM_NAME_IS_NOT_VISIBLE":"The team name you are trying to add is not visible"};
+
+    return {
+        get_msg: function (error_code) {
+            return messages[error_code];
+        },
+
+        show_msg: function (base_message, error_code) {
+            if (error_code) {
+                alert(base_message + ": " + this.get_msg(error_code));
+            } else {
+                alert(base_message);
+            }
+        },
+
+        show_xhr_msg: function (elem, jqXHR) {
+            var base_message = elem.data('fail-msg');
+            var code = jqXHR.responseJSON && jqXHR.responseJSON.error &&
+                       jqXHR.responseJSON.error.code;
+            this.show_msg(base_message, code);
+        }
+    }
+})());
+</script>
+
+    
+
+    <script type="text/javascript">
+var rumMOKey="a854f3a6dd7ee5e3b7d1641570b79c34";
+(function(){
+if(window.performance && window.performance.timing && window.performance.navigation) {
+	var site24x7_rum_beacon=document.createElement('script');
+	site24x7_rum_beacon.async=true;
+	site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey='+rumMOKey);
+	document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+}
+})(window)
+</script>
+
+    
+</head>
+
+<body class="page-master-layout  page-contest">
+<div id="icpc-archive-banner">Archived copy of <a href="https://naq15.kattis.com/standings">https://naq15.kattis.com/standings</a> (content as captured 2019-11-18 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/naq-2015.html">naq-2015</a>)  <a href="https://web.archive.org/web/20191118043231/https://naq15.kattis.com/standings">wayback</a></div>
+
+
+
+<div id="wrapper">
+    <header class="header">
+    <div class="background">
+        
+        <div class="wrap">
+            <div class="fl">
+                                    <a href="/"><img class="logo" src="/images/site-logo" alt="" /></a>
+                                <div class="title-wrapper">
+                    <div class="header-title">ICPC North America Qualifier 2015</div>
+                    <nav class="main-nav">
+                        <ul>
+                                                                                            
+                                <li class="current"><a href="/standings">Standings</a></li>
+                                                                                            
+                                <li class=""><a href="/problems">Problems</a></li>
+                                                                                            
+                                <li class=""><a href="/help">Documentation</a></li>
+                            
+                                                    </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="user-side fr">
+
+                <nav class="user-nav">
+                    <ul class="user-nav-ul">
+                        
+                                                                                    <li><a class="btn dark-bg" href="/login">Log in</a></li>
+                                                                        </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!--[if IE]>    <div class="alert alert-warning" role="alert">
+        <strong>You are using an outdated browser!</strong> Some features might not look or work like expected. Kattis supports the last two versions of major browsers. Please consider upgrading to a recent version!    </div>
+    <![endif]-->
+
+    
+    
+    
+            <div class="wrap">
+                
+
+
+
+
+                </div>
+    
+    
+
+    <div class="wrap-fullwidth">
+        <div id="standings_wrapper">
+            
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page-content boxed clearfix">
+    <section class="box clearfix main-content">
+
+                        <div id="contest_time" data-props="{&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:130163551,&quot;total_seconds&quot;:&quot;18000&quot;,&quot;refresh_at_start&quot;:true}">
+    <div class="contest-progress session-finished">
+            <div class="info upper">
+                <div class="col-md-3 text-left no-pad">
+                    <h4>Start</h4>
+                    2015-10-03 16:00 UTC
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2 class="title">ICPC North America Qualifier 2015</h2>
+                </div>
+                <div class="col-md-3 text-right no-pad">
+                    <h4>End</h4>
+                    2015-10-03 21:00 UTC
+                </div>
+            </div>
+            <div class="progress">
+                                                                    <div class="progress-bar" style="width: 100.00%">
+                <div class="nearend">
+                    The end is near!                </div>
+
+                <div class="finished">
+                    Contest is over.                </div>
+
+                <div class="nostart">
+                    Not yet started.                </div>
+
+                <div class="notstarted">
+                    Contest                    is starting in                    <span class="countdown">-1506 days 12:32:31</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info only_in_contest">
+            <div class="fl">
+                <h4>Time elapsed</h4>
+                <span class="count_elapsed">5:00:00</span>
+            </div>
+
+            <div class="fr">
+                <h4>Time remaining</h4>
+                <span class="count_remaining">0:00:00</span>
+            </div>
+        </div>
+    </div>
+
+    </div>
+        
+        
+        
+        <div class="control-strip">
+            
+                                                </div>
+
+        
+                    <table class="scoreboard_filters"><tr class="filter_row compact"><td class="filter_header_cell"><h4 class="filter_header filter_header_offset">Qualifiers</h4></td><td><div class="filter_select active"><form action="/standings" method="GET"><select name="filter" onchange="window.location.href=this.options[this.selectedIndex].value" class="selectify-style"><option value="?filter=318">Acadia University</option><option value="?filter=324">Austin Peay State University</option><option value="?filter=277">Baylor University</option><option value="?filter=244">Benedictine University</option><option value="?filter=251">Berea College</option><option value="?filter=247">Bethel College (Kansas)</option><option value="?filter=270">Bethel University (Minnesota)</option><option value="?filter=307">Bob Jones University</option><option value="?filter=295">Brock University</option><option value="?filter=285">Buena Vista University</option><option value="?filter=258">Clark University</option><option value="?filter=201" selected>Cornell College</option><option value="?filter=294">Czech Technical University in Prague</option><option value="?filter=319">Davidson College</option><option value="?filter=255">Denison University</option><option value="?filter=298">Dixie State University</option><option value="?filter=320">Emory University</option><option value="?filter=242">Fayetteville State University</option><option value="?filter=236">Florida Institute of Technology</option><option value="?filter=243">Florida International University</option><option value="?filter=257">Georgetown University</option><option value="?filter=210">Georgia Institute of Technology</option><option value="?filter=264">Goucher College</option><option value="?filter=316">Graceland University</option><option value="?filter=284">Grove City College</option><option value="?filter=209">Hawaii Pacific University</option><option value="?filter=227">High Point University</option><option value="?filter=297">Illinois Institute of Technology</option><option value="?filter=207">Indiana State University</option><option value="?filter=216">Indiana University Bloomington</option><option value="?filter=250">Iowa State University</option><option value="?filter=321">Jaipur Engineering College</option><option value="?filter=268">James Madison University</option><option value="?filter=312">KTH Royal Institute of Technology</option><option value="?filter=246">Lafayette College</option><option value="?filter=308">Lehigh University</option><option value="?filter=306">Lethbridge College</option><option value="?filter=220">LeTourneau University</option><option value="?filter=291">Linfield College</option><option value="?filter=262">Loyola University Chicago</option><option value="?filter=279">Macalester College</option><option value="?filter=238">Massachusetts Institute of Technology</option><option value="?filter=317">Mexico Autonomous Institute of Technology</option><option value="?filter=260">Michigan Technological University</option><option value="?filter=266">Middlebury College</option><option value="?filter=304">Missouri University of Science and Technology</option><option value="?filter=213">Morehouse College</option><option value="?filter=289">Mount Allison University</option><option value="?filter=212">Mount Vernon Nazarene University</option><option value="?filter=281">New Jersey Institute of Technology</option><option value="?filter=219">New York University</option><option value="?filter=310">North American University</option><option value="?filter=215">North Carolina State University</option><option value="?filter=275">Northern Kentucky University</option><option value="?filter=288">Northwestern University</option><option value="?filter=302">Oakton Community College</option><option value="?filter=245">Oberlin College</option><option value="?filter=214">Ohio State University</option><option value="?filter=233">Ohio University</option><option value="?filter=248">Ouachita Baptist University</option><option value="?filter=252">Penn State Harrisburg</option><option value="?filter=221">Princeton University</option><option value="?filter=249">Providence College</option><option value="?filter=315">Reykjavík University</option><option value="?filter=305">Rose-Hulman Institute of Technology</option><option value="?filter=303">Ryerson University</option><option value="?filter=301">Saint Louis University</option><option value="?filter=256">Salisbury University</option><option value="?filter=202">Simon Fraser University</option><option value="?filter=292">South Dakota School of Mines and Technology</option><option value="?filter=299">South Dakota State University</option><option value="?filter=272">Southwestern University</option><option value="?filter=225">Stanford University</option><option value="?filter=280">St. Joseph&#039;s College New York</option><option value="?filter=278">St. Olaf College</option><option value="?filter=206">Stony Brook University</option><option value="?filter=254">Swarthmore College</option><option value="?filter=309">Tennessee State University</option><option value="?filter=239">Tennessee Technological University</option><option value="?filter=234">The University of Tennessee at Martin</option><option value="?filter=273">The University of Texas at Dallas</option><option value="?filter=203">Trinity University (Texas)</option><option value="?filter=323">University of Arkansas at Little Rock</option><option value="?filter=211">University of British Columbia</option><option value="?filter=290">University of Calgary</option><option value="?filter=235">University of California, Los Angeles</option><option value="?filter=204">University of Chicago</option><option value="?filter=223">University of Connecticut</option><option value="?filter=313">University of Dallas</option><option value="?filter=296">University of Delaware</option><option value="?filter=325">University of Florida</option><option value="?filter=263">University of Illinois at Chicago</option><option value="?filter=218">University of Illinois at Urbana–Champaign</option><option value="?filter=293">University of Kentucky</option><option value="?filter=314">University of Lethbridge</option><option value="?filter=271">University of Mary Hardin–Baylor</option><option value="?filter=205">University of Michigan</option><option value="?filter=274">University of Michigan–Dearborn</option><option value="?filter=300">University of Minnesota</option><option value="?filter=322">University of Nebraska–Lincoln</option><option value="?filter=283">University of Nevada, Reno</option><option value="?filter=229">University of North Carolina at Charlotte</option><option value="?filter=241">University of North Dakota</option><option value="?filter=240">University of São Paulo</option><option value="?filter=265">University of Scranton</option><option value="?filter=311">University of Skikda</option><option value="?filter=286">University of South Alabama</option><option value="?filter=287">University of South Dakota</option><option value="?filter=208">University of Toronto</option><option value="?filter=261">University of Tulsa</option><option value="?filter=269">University of Victoria</option><option value="?filter=237">University of Virginia</option><option value="?filter=276">University of Waterloo</option><option value="?filter=231">Utah State University</option><option value="?filter=253">Vanderbilt University</option><option value="?filter=267">Virginia Tech</option><option value="?filter=224">Virginia Wesleyan College</option><option value="?filter=230">Washington College</option><option value="?filter=232">Washington &amp; Jefferson College</option><option value="?filter=228">Washington University in St. Louis</option><option value="?filter=259">Webster University</option><option value="?filter=226">Western Michigan University</option><option value="?filter=217">Winston-Salem State University</option><option value="?filter=282">Wofford College</option><option value="?filter=222">Youngstown State University</option></select><script type="text/javascript">jQuery(function ($) { $('.filter_select select').select2({ 'width':'element' }); });</script></form></div></td></tr></table>
+        
+                    <h2 class="filter_heading"></h2>
+        
+        
+    
+    <div class="legend-strip">
+                
+        <div class="fr table-legend">
+                                        <div>
+                    <span class="legend-solved legend-status"></span>
+                    <p class="legend-label"> Solved problem                </div>
+                        <div>
+                <span class="legend-attempted legend-status"></span>
+                <p class="legend-label"> Attempted problem</p>
+            </div>
+            <div>
+                <span class="legend-pending legend-status"></span>
+                <p class="legend-label"> Pending judgement</p>
+            </div>
+        </div>
+    </div>
+
+
+        <table id="standings" class="table table-kattis kattis-table-contest-standings">
+            
+    <thead>    <tr>
+                                    <th class="table-min-wrap">Rk</th>
+            
+                            <th colspan="3" class="table-min-wrap">Team</th>
+            
+                            <th class="table-min-wrap">Slv.</th>
+
+                                    <th class="table-min-wrap">Time</th>
+                                    
+                                            
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="All about that base" href="/problems/allaboutthatbase">A</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Bobby&#039;s Bet" href="/problems/bobby">B</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Cantina of Babel" href="/problems/cantinaofbabel">C</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Circuit Counting" href="/problems/countcircuits">D</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Cutting Brownies" href="/problems/cuttingbrownies">E</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Quick Brown Fox" href="/problems/quickbrownfox">F</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Safe Passage" href="/problems/safepassage">G</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Secret Message" href="/problems/secretmessage">H</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Simon Says" href="/problems/simonsays">I</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Torn To Pieces" href="/problems/torn2pieces">J</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="UnDetected" href="/problems/undetected">K</a></th>
+        
+                                            </tr>
+    </thead>
+
+                                                                        
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>1</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Empire
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>256</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>58</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>18</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>156</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>24</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>2</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Clones
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>362</td>
+            
+                        
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            7<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>51</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>216</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>75</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>3</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Hope
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>372</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>163</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>60</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>89</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            8<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>4</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Coe College
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>447</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>228</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>134</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>85</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>5</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Menace
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>577</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>82</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>275</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>160</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>6</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Jedi
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>567</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>281</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>246</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>7</td>
+    
+            
+        
+        <td class="overflow-hidden" title="North Central NA Site">
+    
+            <div>
+                    Cornell Sith
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell College" data-placement="top" title="Cornell College" src="/images/universities/cornellcollege.edu/56px?6770f1989c195e46cedd6775f72440c7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                
+            
+            
+        <tr>
+                                <td colspan="6"></td>
+        
+                                            
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="All about that base" href="/problems/allaboutthatbase">A</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Bobby&#039;s Bet" href="/problems/bobby">B</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Cantina of Babel" href="/problems/cantinaofbabel">C</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Circuit Counting" href="/problems/countcircuits">D</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Cutting Brownies" href="/problems/cuttingbrownies">E</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Quick Brown Fox" href="/problems/quickbrownfox">F</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Safe Passage" href="/problems/safepassage">G</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Secret Message" href="/problems/secretmessage">H</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Simon Says" href="/problems/simonsays">I</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="Torn To Pieces" href="/problems/torn2pieces">J</a></th>
+        <th class="problemcolheader-standings" style="width: 62.090909090909px"><a data-toggle="tooltip" title="UnDetected" href="/problems/undetected">K</a></th>
+        
+                                            </tr>
+    
+
+                            
+            <tr title="number of teams that solved problem / number of attempts (successful and failed)">
+            <td colspan="6">Solved / Tries</td>
+
+                                                <td class='stats'><span><sup>2</sup>/<sub>9</sub><br>(22%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>4</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>0</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>2</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>0</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>6</sup>/<sub>9</sub><br>(67%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>4</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>5</sup>/<sub>9</sub><br>(56%)</span></td>
+                                    <td class='stats'><span><sup>5</sup>/<sub>15</sub><br>(33%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>1</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>0</sub><br>(0%)</span></td>
+                            
+                    </tr>
+            <tr title="number of attempts / teams attempting problem">
+            <td colspan="6">Average tries</td>
+
+                                                <td class='stats'>3.00</td>
+                                    <td class='stats'>4.00</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>1.00</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>1.50</td>
+                                    <td class='stats'>4.00</td>
+                                    <td class='stats'>1.80</td>
+                                    <td class='stats'>2.50</td>
+                                    <td class='stats'>1.00</td>
+                                    <td class='stats'>--</td>
+                            
+                    </tr>
+            <tr title="number of attempts needed to solve problem / number of teams solving problem">
+            <td colspan="6">Average tries to solve</td>
+
+                                                <td class='stats'><span class="no-pad">1.00</span></td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'><span class="no-pad">1.50</span></td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'><span class="no-pad">1.80</span></td>
+                                    <td class='stats'><span class="no-pad">1.40</span></td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>--</td>
+                            
+                    </tr>
+    
+            
+        </table>
+
+        
+    </section>
+</div>
+        </div>
+    </div>
+
+                  <script type="text/javascript">
+        jQuery(function ($) {
+            var nowMs = new Date().getTime();
+            var starttimeMs = 1000 * 1443888000;
+            if (starttimeMs < nowMs + 10 * 60 * 60 * 1000) {  // Only poll if start is less than 10 hours away
+                // end polling 10 hours after end time (grace period for unfreezing and finalizing)
+                                var pollEndTime = 1000 * (1443906000 + 60 * 60 * 10);
+                                var intervalMs = 60 * 1000;
+                var update_standings = function() {
+                    var url = '/standings?ajax=1';
+                    $.get(url, {
+                        'cache': false
+                    }, function(data) {
+                        $('#standings_wrapper').html(data);
+                        $('[data-toggle="tooltip"]').tooltip();
+                        Kattis.views.contest.header.update();
+                    }).always(function() {
+                        if (new Date().getTime() < pollEndTime) {
+                            setTimeout(update_standings, intervalMs);
+                        }
+                    });
+                };
+                setTimeout(update_standings, intervalMs);
+            }
+        });
+    </script>
+    
+
+</div>
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-info col-md-2 ">
+                
+                            </div>
+            <div class="footer-powered col-md-8">
+                <h4>
+                                    Powered by&nbsp;Kattis                                  </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.2.8/raphael.min.js"></script>
+<script src="/js/system.js?7c833e" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>

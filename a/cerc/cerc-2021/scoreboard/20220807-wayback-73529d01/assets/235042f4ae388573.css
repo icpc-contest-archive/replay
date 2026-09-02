@@ -1,0 +1,123 @@
+/* scoreboard */
+.scoreboard {
+	border: none;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+.scoreboard tr {
+	background-color: #fff;
+	height: 30px;
+}
+.scoreboard tr th, .scoreboard tr td {
+	text-align: left;
+	border: none;
+	padding: 0px 5px;
+	overflow: hidden;
+}
+.scoreboard tr th {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.scoreboard tr .tc {
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.scoreboard a {
+	color: inherit;
+	text-decoration: none;
+}
+.scoreboard tr td .tc i {
+	font-size: 13pt;
+	width: 16px;
+	text-align: center;
+}
+.scoreboard tr .tc.two-line { line-height: 12px; }
+.scoreboard tr .single-line { white-space: nowrap; text-overflow: ellipsis; }
+.scoreboard tr.hidden .tc { height: 0px; }
+.scoreboard tr th.name, th.team { width: 130px; }
+.scoreboard tr th.location { width: 70px; }
+.scoreboard tr th.num { width: 25px; }
+.scoreboard tr th.points { width: 40px; }
+.scoreboard tr th.time { width: 55px; }
+
+.scoreboard.cerc tr { border-bottom: 1px solid #ddd; }
+.scoreboard.cerc tr td { padding: 0; }
+.scoreboard.cerc thead tr {
+	background-color: #fafafa;
+	border-top: 1px solid #ddd;
+	vertical-align: bottom;
+}
+.scoreboard.cerc thead tr th { padding-bottom: 4px; }
+.scoreboard.cerc tbody tr:nth-child(even) { background-color: #f0f0f0; }
+.scoreboard.cerc tbody tr:nth-child(odd) { background-color: #fff; }
+.scoreboard.cerc tbody tr td .tc { height: 36px; }
+.scoreboard.cerc thead { font-size: 13pt; font-weight: bold; }
+.scoreboard.cerc thead tr th.num { text-align: center; width: 30px; }
+.scoreboard.cerc tbody tr td.rank .tc {
+	font-size: 16pt;
+	line-height: 36px;
+	text-align: center;
+}
+.scoreboard.cerc tbody tr td.results { padding-right: 4px; }
+.scoreboard.cerc tbody tr td .tc .team-result-summary,
+.scoreboard.cerc thead tr th .team-result-summary {
+	display: flex;
+	justify-content: end;
+	font-size: 11pt;
+	line-height: 20px;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-summary .team-name,
+.scoreboard.cerc thead tr th .team-result-summary .team-name {
+	margin-right: auto;  /* push to left */
+}
+.scoreboard.cerc tbody tr td .tc .team-result-summary .score,
+.scoreboard.cerc thead tr th .team-result-summary .score {
+	flex: 0 0 25px;  /* fixed width */
+	text-align: right;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-summary .time-sum,
+.scoreboard.cerc thead tr th .team-result-summary .time-sum {
+	flex: 0 0 60px;  /* fixed width */
+	margin-left: 8px;
+	text-align: right;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details {
+	line-height: 12px;
+	display: flex;
+	gap: 8px;
+	margin-bottom: 2px;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task {
+	flex: 1;
+	border: 1px solid;
+	border-radius: 3px;
+	text-align: center;
+	color: #555;
+    font-size: 10pt;
+    overflow: hidden;
+    padding: 0px 4px;
+    text-overflow: ellipsis;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task.not-tried {
+	border-color: #ccc;
+	background-color: #ddd;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task.first-solved {
+	border-color: #00390c;
+	background-color: #239b23;
+	color: #eee;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task.solved {
+	border-color: #74c074;
+	background-color: #82da82;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task.hidden {
+	border-color: #93b6ff;
+	background-color: #bad2ff;
+}
+.scoreboard.cerc tbody tr td .tc .team-result-details .task.tried {
+	border-color: #ffb1b1;
+	background-color: #ffc4c4;
+}

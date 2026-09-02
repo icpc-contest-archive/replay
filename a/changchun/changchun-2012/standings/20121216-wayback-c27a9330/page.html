@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://acm.nenu.edu.cn:8080/BoardWeb/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="UTF-8">
+<meta name="author" content="Winguse" />
+<title>2012 ACM-ICPC Asia Regional Contest (Changchun Site) On Site Realtime Ranking</title>
+<link rel="stylesheet" type="text/css" href="style/board.css" title="default" />
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://acm.nenu.edu.cn:8080/BoardWeb/">http://acm.nenu.edu.cn:8080/BoardWeb/</a> (content as captured 2012-12-16 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/changchun-2012.html">changchun-2012</a>)  <a href="https://web.archive.org/web/20121216183906/http://acm.nenu.edu.cn:8080/BoardWeb/">wayback</a></div>
+
+<div id="message">
+	<br/><h3>o(∩_∩)o</h3><p>One moment, Loading...</p><br/>
+</div>
+<div id="board">
+</div>
+<div id="movingTeamInfo">
+	<div class="teamName">
+		<h3>
+			<b class="teamEnglishName">Team English Name</b><br/>
+			<small class="teamChineseName">Team Chinese Name</small>
+		</h3>
+		<p>
+		Rank: <!--<span class="fromRank">123</span> ➫ --><span class="toRank">56</span>
+		</p>
+	</div>
+	<div class="teamDetial">
+		<dl>
+			<dt>School:</dt><dd class="school">School English Name<br/><small>School Chinese Name</small></dd>
+			<dt>Coach:</dt><dd class="coach">Coach English Name <small>Coach Chinese Name</small></dd>
+			<dt>Team Members:</dt><dd class="teamMembers">
+			<ol>
+				<li>TeamMember Name <small>TeamMember Name</small></li>
+				<li>TeamMember Name <small>TeamMember Name</small></li>
+				<li>TeamMember Name <small>TeamMember Name</small></li>
+			</ol>
+			</dd>
+		</dl>
+	</div>
+	<p align="center">
+		<input class="button" type="button" value="Close" onclick="board.closeTeamInfo();"/>
+	</p>
+</div>
+<div id="setttingButton"><small>&copy;2012 by <a href="http://winguse.com">wingus<i title="For舒啸(兔子)">e</i></a>, <a href="http://acm.nenu.edu.cn">nenu acm</a>. good luck to all contestants!</small><span title="Board Settings" onclick="$('#settings').fadeIn(500)">✌</span></div>
+<div id="settings">
+	<h3>Board Display Settings</h3>
+	<p>	
+		<label for="animateOn">Board Animate On:</label>
+		<input id="animateOn" type="checkbox" onchange="board.animateOn=this.checked"/>
+	</p>
+	<p>	
+		<label for="autoScroll">Auto Scroll On:</label>
+		<input id="autoScroll" type="checkbox" onchange="board.autoScroll=this.checked"/>
+	</p>
+	<p>	
+		<label for="scrollFollowing">Scroll Follow Moving Team:</label>
+		<input id="scrollFollowing" type="checkbox" onchange="board.scrollFollow=this.checked"/>
+	</p>
+	<p>	
+		<label for="autoToggleDisplayName">Auto Toggle DisplayName:</label>
+		<input id="autoToggleDisplayName" type="checkbox" onchange="board.autoToggleDisplayName=this.checked"/>
+	</p>
+	<p>
+		<label for="toggleDisplayName">Toggle Display Name Now:</label>
+		<input id="toggleDisplayName" type="button" value="Toggle" onclick="board.toggleDisplayName()"/>
+	</p>
+	<p>
+		<label for="setLongConnection">Enable Long Connection:</label>
+		<input id="setLongConnection" type="checkbox" onchange="board.setLongConnection(this.checked)"/>
+	</p>
+	<small>&copy;2012 By <a href="http://winguse.com">Wingus<span title="iloveshuxiao">e</span></a>, <a href="http://acm.nenu.edu.cn">NENU ACM</a>. Good Luck to All Contestants! Enjoy it.</small>
+	<p align="center">
+		<input id="settingClose" class="button" type="button" value="Close Settings Dialog" onclick="$('#settings').fadeOut(1000)"/>
+	</p>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/boardinfo.js"></script>
+<script type="text/javascript">
+var pc2_teams={"message":"Teams' information cached.","teams":{"_1239":"NITGCD","_1238":"BuddySystem","_1237":"FZU_storm spirit","_1236":"xmu_bobo","_1235":"Peach","_1234":"J.Ki","_1233":"ZUFE~xiaoshua","_1242":"Beginning","_1243":"TJU_Sprite","_1240":"Revelation","_1241":"forever","_1227":"zstu_FarAwayFrom","_1226":"purple dream","_1229":"growth","_1228":"ALPC_Tour_de_Force","_1223":"Raiden","_1222":"SUT2012","_1225":"BUPT-Actinium","_1122":"Speed Up","_1224":"BUPT-Kyouko","_1121":"ZCMU_A+B_Forever","_1189":"Luminous","_1197":"ColorlessWind","_1196":"Attiix","_1199":"+18 Yuan Gu Yi Yuan","_1198":"FightingWay","_1193":"TJUT_2(random)","_1192":"Auto_AC","_1195":"DayBreak","_1194":"JDFZ OI","_1230":"SYSU_BlackBlade","_1231":"logo","_1191":"Celestial","_1232":"learn","_1190":"Godot","_1258":"maoxian de gushi","_1133":"Meditation","_1257":"silence","_1132":"Fireworks","_1256":"AcPS","_1131":"dracula","_1255":"Naruto@ HRBEU","_1130":"Neverwa","_1259":"mobaizyb","_1260":"Maze&Code","_1129":"HDU-Finalchance","_1261":"H$H","_1127":"Advancer","_1128":"NUM 70","_1264":"BHU_Sail","_1125":"Word_Final","_1265":"Seal","_1126":"why always us?","_1262":"DGS","_1123":"Amber","_1263":"Noisy_Atom","_1124":"BUPT-700cc","_1245":"USTC_Marine","_1142":"Cappuccino","_1244":"XDU_ Zero","_1141":"SZU_NARUTO","_1247":"zstu_TryOurBestToFly","_1144":"LtRoyce\"Phantom\"","_1246":"SYSU_AngelOfExtermination","_1143":"SYSU_LankyWolf","_1249":"Random","_1248":"incense_pot","_1140":"adele","_1138":"Exploiters","_1139":"ituzkiu","_1250":"CrossFire","_1251":"Anonymous","_1134":"Mr.know-all@ HRBEU","_1252":"Codeformer","_1135":"Again And Again","_1253":"Heat","_1136":"NKU->QiaoKe lai Bisai","_1254":"TJU_Auto_AC","_1137":"Awaken","_1150":"TJU_On","_1151":"CodeFish","_1279":"`Bella`_buaa","_1154":"Simpler","_1155":"Beat_it","_1277":"triple_zhang","_1152":"HIT07","_1278":"Lucky_Dog.F","_1153":"Return","_1287":"Sigma(ZFZ)","_1148":"UESTC-Orzo","_1286":"TRY","_1147":"uniac","_1285":"josphus","_1146":"Mod1000007","_1284":"NKU->CHH","_1145":"Simrobot","_1283":"BIT_Ants","_1282":"NUAA_STARS","_1281":"HIT_Hiworld","_1280":"OpenImage","_1149":"BIT_BlackStar","_1160":"Dream of Miracle@HRBEU","_1161":"XDU_ UDX","_1162":"USTC_StudyFathers","_1266":"XDU_ Infinite","_1163":"HDU-.o0","_1267":"SCAU_Angry_Teletubbies","_1164":"Snow_storm","_1268":"Big Boss","_1165":"HIT_return 0","_1269":"Unscientific","_1166":"Frank","_1274":"Elysion","_1157":"Affirmation","_1273":"Mr_Surprise","_1156":"Ragnarok","_1276":"HFUT_ACer","_1159":"SCUT_iwantowin","_1275":"NYIST_Fighting","_1158":"SystemError","_1270":"secret","_1272":"MSANNU","_1271":"Ripple","_1221":"OpenBase","_1220":"HDU-Alaligehua","_1176":"WonderfloW","_1177":"experience","_1299":"Team_17","_1174":"ccutchi","_1175":"Inspiration","_1172":"Beat it","_1173":"newHope-10","_1170":"Mithril","_1171":"_CD","_1219":"sunflower","_1169":"NJU_Green Light","_1168":"Gospel","_1167":"H,but...v5","_1211":"zero_break","_1212":"Time Out","_1213":"CSU_LWX","_1214":"CUMTCS","_1215":"SCAU_Deluvial_Mare","_1216":"UESTC-Udon","_1217":"SDNU_Ultimate1","_1218":"KingBase_CJ","_1180":"SCUT_Yamiedie","_1210":"KingBase_Crawmerax","_1288":"acm_ac","_1185":"zstu_AngryCows","_1289":"Goddessc","_1186":"NJU_Amadeus","_1187":"CoreCoder","_1188":"bulala","_1181":"UESTC-Macaroni","_1182":"FZU_HappyLatte","_1183":"htc_buaa","_1184":"HIT_Encore","_1292":"ForeverAC","_1291":"Flying_Stones","_1294":"Imnu1","_1208":"SIT 10","_1293":"NEU-TMD","_1209":"DetPolynomial","_1296":"BHU_sec","_1179":"Acheron","_1295":"ALPC_ACOnFingers","_1178":"NEU-Fantasy","_1298":"Endeavor","_1300":"Firework","_1297":"ZJUT_SmallMountain","_1202":"PHI","_1203":"Tree066","_1200":"Tomorrow","_1201":"BIT_Keshik","_1206":"OpenShield","_1207":"CounterAttack","_1290":"plum*_buaa","_1204":"Wan Qiang Pin Bo","_1205":"HIT_cherry"},"code":0},pc2_problems={"message":"Problems' information cached.","problems":{"_57":"H","_56":"G","_59":"J","_58":"I","_50":"A","_51":"B","_54":"E","_60":"K","_55":"F","_52":"C","_53":"D"},"code":0};
+var due_ugly={};
+var ugly_pc2_teams={};
+</script>
+<script type="text/javascript" src="js/board.js"></script>
+<script type="text/javascript">
+var LOAD_TIME=1355683132200;
+var board=new Board();
+
+$(".cell-big").click(function(){
+	var tid=this.id.replace(/name(_\d+)/,"$1");
+	board.showTeamInfo(tid);
+});
+
+board.update();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7801267-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
+<!-- winguse love shuxiao. -->

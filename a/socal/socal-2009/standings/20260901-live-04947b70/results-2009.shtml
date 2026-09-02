@@ -1,0 +1,148 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2009/results-2009.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2009/results-2009.shtml">http://socalcontest.org/history/2009/results-2009.shtml</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2009.html">socal-2009</a>)  <a href="https://web.archive.org/web/*/http://socalcontest.org/history/2009/results-2009.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2009.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 08-Nov-2009</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-2009.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2009-10 Southern California Regional Programming Contest Final Standings</h2>
+</center>
+
+<font face="Courier">
+<pre>
+Rank   Team ID    Team Name                        Solved   Penalties    Score
+
+   1   acm126     HMC 42                              4          2     7:54:15
+   2   acm105     Caltech B                           4          2     9:11:21
+   3   acm113     SLO - Semicolons of Fury            4          5    11:07:19
+   4   acm104     Caltech A                           4          3    13:08:38
+
+   5   acm162     USC Trojans                         3          7     8:45:34
+   6   acm140     UC San Diego Jiandao (Scissors)     3          2     8:46:25
+
+   7   acm112     SLO - Blinkenlights                 2          0     2:02:45
+   8   acm141     UC San Diego Yanshi (Rock)          2          3     3:54:36
+   9   acm129     HMC Hammer                          2          2     3:56:17
+  10   acm161     USC Tirebiters                      2          0     3:56:32
+  11   acm147     UCLA True Bruins                    2          2     4:03:58
+  12   acm128     HMC Escher                          2          4     4:50:26
+  13   acm127     HMC Alien                           2          3     5:24:14
+  14   acm158     UNLV Ballmer Peak                   2          7     6:26:44
+  15   acm145     UCLA IDK                            2          2     7:16:13
+  16   acm159     USC Cardinal                        2          5     7:29:32
+
+  17   acm106     Caltech C                           1          0     0:23:42
+  18   acm114     SLO - Team Ruby Slippers            1          0     0:23:43
+  19   acm151     UCSB GoedelEscherBach               1          0     0:34:28
+  20   acm116     CPP H1N1++                          1          0     0:37:17
+  21   acm157     UNLV - Nerd Sniping                 1          0     0:40:21
+  22   acm154     UCSB Stroustrup's Henchmen          1          0     0:50:23
+  23   acm146     UCLA True Blue                      1          0     0:59:24
+  24   acm142     UC San Diego Wenjian (Paper)        1          2     1:24:30
+  25   acm110     CLU NINJAS                          1          0     1:47:47
+  26   acm152     UCSB Number Crushers                1          0     2:13:44
+  27   acm144     UCLA Fight! Fight! Fight!           1          1     2:33:57
+  28   acm111     SLO - Bad Horse's Mares             1          0     2:43:08
+  29   acm155     UCI CoderAnteaters                  1          1     2:47:35
+  30   acm117     CPP #define L lambda; Lf*(Lf(x x    1          0     2:49:55
+  31   acm107     Caltech D                           1          0     2:51:32
+  32   acm143     UC San Diego Chui (Hammer)          1          2     3:17:32
+  33   acm149     UC Riverside Alpha                  1          0     4:51:42
+  34   acm150     UC Riverside Omega                  1          1     5:01:40
+  35   acm130     MC Raiders                          1          1     5:02:52
+
+Honorable Mention
+
+       acm101     APU Army Ants                       0          0     0:00:00
+       acm102     APU Perpetual Motion Squad          0          0     0:00:00
+       acm103     APUters                             0          0     0:00:00
+       acm108     CLU Killer Penguins                 0          0     0:00:00
+       acm109     CLU Leaky Capacitors                0          0     0:00:00
+       acm115     CPP Furloughs!                      0          0     0:00:00
+       acm118     CPP Eyes                            0          0     0:00:00
+       acm119     CSUF                                0          0     0:00:00
+       acm120     CSUDH Toro1                         0          0     0:00:00
+       acm121     CSUDH Toro2                         0          0     0:00:00
+       acm122     CSULA1                              0          0     0:00:00
+       acm123     CSUCI_1                             0          0     0:00:00
+       acm124     CSUCI_2                             0          0     0:00:00
+       acm125     CSUCI_3                             0          0     0:00:00
+       acm131     MtsacBlue                           0          0     0:00:00
+       acm132     MtSACgold                           0          0     0:00:00
+       acm133     MtsacRed                            0          0     0:00:00
+       acm134     PLNU Sea Lions                      0          0     0:00:00
+       acm135     RCC::Chinchilla                     0          0     0:00:00
+       acm136     RCC::Commando                       0          0     0:00:00
+       acm137     SDSU import awesome;                0          0     0:00:00
+       acm138     SDSU Team T10                       0          0     0:00:00
+       acm139     SDSU Team T100                      0          0     0:00:00
+       acm148     UndisclosedClosetLemursAssoc        0          0     0:00:00
+       acm153     UCSB Soapfoot                       0          0     0:00:00
+       acm156     UNLV - e to the pi Minus pi         0          0     0:00:00
+       acm160     USC Gold                            0          0     0:00:00
+</pre>
+</font>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2009.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Thu, 23-Apr-2015 18:31:42 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2009 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

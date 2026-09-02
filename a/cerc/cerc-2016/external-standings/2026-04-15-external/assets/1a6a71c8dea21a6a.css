@@ -1,0 +1,286 @@
+
+html
+{
+  height: 101%;
+}
+
+body
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 30px;
+  background-color: #666666;
+}
+
+td
+{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #34495E;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: #CCCC33;
+  background-color: inherit;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #FFFF33;
+  background-color: inherit;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: #FFFF33;
+  background-color: inherit;
+}
+
+a:active
+{
+  text-decoration: none;
+  color: #CCCC33;
+  background-color: inherit;
+}
+
+.padded
+{
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.menu_over
+{
+  font-weight: bold;
+  text-decoration: none;
+  height: 25px;
+  color: #6666FF;
+  background-color: inherit;
+}
+
+.menu_out
+{
+  font-weight: bold;
+  text-decoration: none;
+  height: 25px;
+  color: #8888FF;
+  background-color: inherit;
+}
+
+.submenu_over
+{
+  font-weight: bold;
+  text-decoration: none;
+  height: 20px;
+  color: #8888FF;
+  background-color: inherit;
+}
+
+.submenu_out
+{
+  font-weight: bold;
+  text-decoration: none;
+  height: 20px;
+  color: #CCCCFF;
+  background-color: inherit;
+}
+
+.submenu_selected
+{
+  font-weight: bold;
+  text-decoration: none;
+  height: 20px;
+  color: #FF4444;
+  background-color: inherit;
+}
+
+.ul1
+{
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 0px;
+  padding-left: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.li1
+{
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  padding-top: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+}
+
+.ul2
+{
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 0px;
+  padding-left: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.li2
+{
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  padding-top: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+}
+
+ol
+{
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.monospace
+{
+  font-family: "Courier New", Courier, monospace;
+}
+
+.error_off
+{
+  display: none;
+}
+
+.error_on
+{
+  font-weight: bold;
+  color: #CC0000;
+  background-color: inherit;
+}
+
+#schedule table
+{
+  border-collapse: collapse;
+
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #666699;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #666699;
+
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #666699;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #666699;
+}
+
+#schedule tr
+{
+  height: 20px;
+}
+
+#schedule td
+{
+  text-align: center;
+  padding: 2px;
+  color: #000000;
+  background-color: #AAAAAA;
+
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: #666699;
+
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-bottom-color: #666699;
+
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #666699;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #666699;
+}
+
+#schedule .td_activity
+{
+  font-weight: bold;
+  background-color: #88AAFF;
+}
+
+#schedule .td_first_row
+{
+  font-weight: bold;
+  color: #000000;
+  background-color: #828282;
+  border-bottom-style: solid;
+  height: 30px;
+}
+
+#schedule .td_first_col
+{
+  color: #000000;
+  background-color: #828282;
+  border-bottom-style: solid;
+}
+
+table
+{
+  border-collapse: collapse;
+  border-style: none;
+  border-width: 1px;
+  border-color: #000066;
+}
+
+#tablica td
+{
+  border-style: solid;
+  border-width: 1px;
+  background-color: #EEEEEE;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.title1
+{
+  font-size: large;
+  font-weight: bold;
+}
+
+.title2
+{
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.title3
+{
+  font-weight: bold;
+}

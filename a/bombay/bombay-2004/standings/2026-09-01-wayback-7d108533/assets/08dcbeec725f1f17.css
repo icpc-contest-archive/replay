@@ -1,0 +1,26 @@
+BODY { BACKGROUND-COLOR: #FFFFFF; 
+}
+.section {  font-family: Helvetica,Arial,  lucida,sans-serif; font-size: small; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}                                                                                               .section:hover {  font-family: Helvetica,Arial,  lucida,sans-serif; font-size: small; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: underline}                                                                                    
+.section-link {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: 90%; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}                                                                                         
+.section-link:hover {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: 90%; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: underline ;}                                                                            
+.heading {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; font-weight: bold; color: #550004; text-decoration: none;background-color: #D8AC81;}                                                                     
+.search-heading {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; font-weight: bold;color: #550004; text-decoration: none;background-color: #D8AC81;}                                                               
+.email {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; font-weight: normal; color: #550004; text-decoration: none;}                                                                                               .email:hover {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; font-weight: normal; color: #550004; text-decoration: underline;}
+
+.search1 {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; color: #550004; text-decoration: none;background-color: #D8AC81; }
+
+.search1:hover {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; color: #550004; text-decoration: underline;background-color: #D8AC81; }
+
+.search2 {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; text-decoration: none;background-color: #FFFFFF; color: #000000;}
+
+.search2:hover {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; text-decoration: underline;background-color: #FFFFFF; color: #000000;}
+
+.calender {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: small; font-style: normal; text-decoration: none;background-color: #eeeee6; color: #000000;}
+
+.footer { font-family:verdana,arial,sans-serif; font-size:10px; text-decoration: none}
+
+.page-title {font-family: Helvetica,Arial, lucida,sans-serif; font-size: large; font-style: bolder;  border-color: black black #550004; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width:3px; border-left-width: 0px}
+
+.blin {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: 100%; font-style: normal; text-decoration: none }
+
+.blin:hover {  font-family: Helvetica,Arial, lucida,sans-serif; font-size: 100%; font-style: normal; text-decoration: underline }

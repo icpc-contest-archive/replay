@@ -1,0 +1,362 @@
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/current/index.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+	<title>SoCal Region ACM ICPC</title>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/current/index.shtml">http://socalcontest.org/current/index.shtml</a> (content as captured 2016-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2016.html">socal-2016</a>)  <a href="https://web.archive.org/web/20161209102945/http://socalcontest.org/current/index.shtml">wayback</a></div>
+
+
+
+<!--<link rel="stylesheet" type="text/css" href="socaltheme.css">-->
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<title>ACM Southern California Regional Programming Contest</title>
+<!--
+
+  The style sheet reference is absolute.  For testing in a new subdirectory,
+  alter header.shtml and refer to a different absolute or relative .css path.
+  Remember to change it back after testing!
+
+  -->
+<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
+<script>
+function notyet()
+{
+alert('Electronic Payment Service does not start until 28-Sep at 12:01 AM ET.\n\nPlease try again later.');
+}
+</script>
+<script>
+function expired()
+{
+alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only accept donations at this time through 9/30 next year.');
+}
+</script>
+</head>
+<body>
+
+<div id="header">
+<table border="0" width="100%" >
+<tr>
+  <td align=left>&nbsp;</td>
+  <td align=center nowrap width="10%"><font size="-1" color=#ffd421>
+    Updated
+    <script>
+    var token="$Id: index.shtml 183 2015-11-17 00:42:27Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+</div>
+<div id="banner">
+<img src="/images/mast2016.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
+<map name="Map">
+  <area shape="rect" coords="33,5,507,93" href="http://socalcontest.org">
+  <area shape="rect" coords="536,7,721,46" href="http://ibm.com/start" target="_blank">
+  <area shape="rect" coords="589,52,668,75" href="http://www.tgsmc.com/" target="_blank">
+  <area shape="rect" coords="579,79,665,96" href="http://www.ic2net.net/" target="_blank">
+</map>
+</div>
+
+<div id="headline">
+<h2 align="center">&nbsp;</h2>
+<h2 align="center">Thank you and Congratulations!</h2>
+<table width="70%"  border="0" align="center" cellpadding="2" cellspacing="0">
+  <tr>
+    <td><p>Thank you to all the participants of the 2016 Southern California Regional ACM ICPC contest. The contest officials would like to thank the contestants, the coaches, the volunteers, IBM, RCC and our sponsors for their continued support and participation. </p>
+      <p>The preliminary standings are posted below in the Hall of Champions.</p></td>
+  </tr>
+</table>
+<p></p>
+<h2 align="center">&nbsp;</h2>
+<h2 align="center">&nbsp;</h2>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+</div>
+
+<div id="majorlinks"></div>
+
+<div id="hintlink">
+<center><br />
+</center>
+</div>
+
+<div id="information">
+<h3>2016
+  General Contest Information</h3>
+
+<ul>
+	<li><a href="expect.shtml">What to Expect at the Contest</a></li>
+	<li><a href="sample.shtml">Resources (includes sample problems)</a> <!--<li><a href="judges/">Contest Judges</a>--></li>
+	<li><a href="helpus.shtml">How You Can Help</a> <!--<li><a href="volunteer.shtml">Volunteering as a Contest Site</a>--></li>
+	<li><a href="faq.shtml">Contest FAQ</a></li>
+  </ul>
+<a name="HallOfChampions"></a>
+
+<h3><a name="HallOfChampions">Hall of Champions</a></h3>
+
+<table align="center" border="0" cellpadding="5" cellspacing="0">
+	<tbody>
+		<tr>
+			<th align="left" valign="top">Year</th>
+			<th align="center" colspan="5" valign="top">Available Information</th>
+		</tr>
+		<tr>
+		  <td valign="top">2016-17</td>
+		  <td valign="top"></td>
+		  <td valign="top"></td>
+		  <td valign="top"><a href="/history/2016/details-2016.shtml">Details</a></td>
+		  <td valign="top"><a href="/history/2016/SC2016ICPCProblems.pdf">Problem Set</a></td>
+		  <td valign="top"></td>
+	  </tr>
+		<tr>
+			<td valign="top">2015-16</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2015/details-2015.shtml">Details</a></td>
+			<td valign="top"><a href="http://socalcontest.org/history/2015/problemset2015.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/photos_stream?tab=photos_albums">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2014-15</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2014/details-2014.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2014/socal2014.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2013-14</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2013/details-2013.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2013/socal2013.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2012-13</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2012/results-2012.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2012/details-2012.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2012/socal2012.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://picasaweb.google.com/lh/sredir?uname=104053136916994800021&amp;target=ALBUM&amp;id=5809735060920937985&amp;authkey=Gv1sRgCJeJtPKPlvqQhAE&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2011-12</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2011/results-2011.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2011/details-2011.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2011/socal2011.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://picasaweb.google.com/lh/sredir?uname=bobLogan68&amp;target=ALBUM&amp;id=5674656400524950321&amp;authkey=Gv1sRgCJHVo-np3rm2zAE&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2010-11</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2010/results-2010.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2010/details-2010.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2010/socal2010.pdf">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/lh/sredir?uname=bobLogan68&amp;target=ALBUM&amp;id=5541441492362997729&amp;authkey=Gv1sRgCPO9uba8hdShTg&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2009-10</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2009/results-2009.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2009/details-2009.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2009/socal2009.pdf">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMSoCalContest1172009?authkey=Gv1sRgCJOZ7Y2Dl-L6tQE&amp;feat=email#">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2008-09</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2008/results-2008.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2008/details-2008.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2008/2008.zip">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMContest20081115?authkey=znNHG63WhtA">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2007-08</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2007/results-2007.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2007/details-2007.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2007/2007.zip">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2006-07</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2006/details-2006.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2006/2006.zip">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2005-06</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2005/results-2005.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2005/details-2005.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2005/2005.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2005/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2004-05</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2004/results-2004.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2004/details-2004.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2004/2004.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2004/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2003-04</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2003/results-2003.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2003/details-2003.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2003/2003.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2003/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2002-03</td>
+			<td valign="top"><a href="/history/2002/summary-2002.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2002/results-2002.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2002/details-2002.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2002/">Problem Set</a></td>
+			<td valign="top"><a href="/history/2002/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2001-02</td>
+			<td valign="top"><a href="/history/2001/summary-2001.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2001/results-2001.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2001/details-2001.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2001/">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2000-01</td>
+			<td valign="top"><a href="/history/2000/summary-2000.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2000/results-2000.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2000/details-2000.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1999-2000</td>
+			<td valign="top"><a href="/history/1999/summary-1999.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1999/results-1999.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1998-99</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/1998/results-1998.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/1998/details-1998.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1997-98</td>
+			<td valign="top"><a href="/history/1997/summary-1997.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1997/results-1997.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1996-97</td>
+			<td valign="top"><a href="/history/1996/summary-1996.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1996/results-1996.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1995-96</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/1995/results-1995.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/1995/details-1995.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<!-- TODO
+-->
+	</tbody>
+</table>
+<!-- TODO
+<p><a href="local_acm.shtml"><strong>Local ACM Student Chapters</strong></a></p>
+-->
+
+<p>&nbsp;</p>
+<p><b>CALL FOR VOLUNTEERS:</b> Will there be a regional contest in
+    2017
+  ? Our region needs qualified individuals in Southern California to help develop the
+  2017
+  contest. For more information, please send a message to
+  <font face='Courier'>&#60;&#118;&#111;&#108;&#117;&#110;&#116;&#101;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+
+  .</p>
+<h2 align="center"></h2>
+<p></p>
+
+<hr />
+<center><br />
+<a href="interactive.shtml"><font size="+2"><strong>Posing Interactive Contest Problems in the ICPC Scoring Model</strong></font></a><br />
+Ed Skochinski, Jefery Roberts, and Marc Furon<br />
+ACM ICPC Competitive Learning Symposium, April 2008<br />
+Banff, Alberta, Canada</center>
+</div>
+<div id="footer">
+<table style="border:0;width:100%;">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: index.shtml 183 2015-11-17 00:42:27Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Wed, 16-Nov-2016 00:10:04 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><font size="-2"><!--
+Do not attempt to post this file as is to a web server.  This file, svnversion.shtml,
+is a placeholder for the following sequency of commands:
+
+  $ cp svnversion.shtml /tmp
+  $ svnversion >> /tmp/svnversion.shtml
+  # edit svnversion to retain only the appropriate HEAD value (global revision).
+  $ ftp $webhost
+  ftp> cd current
+  ftp> put /tmp/svnversion.shtml svnversion.shtml
+-->
+00000
+</font></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 1995-2016 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+</body>
+</html>

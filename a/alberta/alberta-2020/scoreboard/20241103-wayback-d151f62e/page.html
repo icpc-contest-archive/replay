@@ -1,0 +1,5258 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://acpc20d1.kattis.com/contests/acpc20d1/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+            <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="assets/efed676333b06dd3.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "0dc0ecb197687b57c7f70c30bfc6c9b19d284e7a",
+                environment: "edu",
+                whitelistUrls: [
+                    /https?:\/\/acpc20d1\.kattis\.com/                 ],
+                ignoreErrors: [
+                    "Non-Error exception captured",                     "Non-Error promise rejection captured",                    'ResizeObserver loop limit exceeded'                ],
+                ignoreUrls: ['/static\.cloudflareinsights\.com/'],                 autoSessionTracking: false,
+                integrations: [                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 1.0,
+                replaysSessionSampleRate: 0,                 replaysOnErrorSampleRate: 0,                 tracePropagationTargets: ["localhost", /https?:\/\/acpc20d1\.kattis\.com/],             });
+                        Sentry.configureScope((scope) => scope.setTransactionName("contests_standings"));         })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, Alberta Collegiate Programming Contest 2020 - Division 1</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+                <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+    
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/css/select2.css" rel="stylesheet">
+
+            <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, Alberta Collegiate Programming Contest 2020 - Division 1">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+    
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/80df8489d35842c1e00f64f9d7b668b9/style.css">
+    <style type="text/css">           :root {
+                      --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+              }
+
+         </style>
+
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://acpc20d1.kattis.com/contests/acpc20d1/standings">https://acpc20d1.kattis.com/contests/acpc20d1/standings</a> (content as captured 2024-11-03 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/alberta-2020.html">alberta-2020</a>)  <a href="https://web.archive.org/web/20241103034712/https://acpc20d1.kattis.com/contests/acpc20d1/standings">wayback</a></div>
+
+
+
+
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="Alberta Collegiate Programming Contest 2020 - Division 1">
+                <img class="logo" src="/images/site-logo?v=200f9ac2e8f894fa7119399bfd31094d" alt="Alberta Collegiate Programming Contest 2020 - Division 1 logo" />
+            </a>
+            <h4 class="logo-container-text">Alberta Collegiate Programming Contest 2020 - Division 1</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav>
+                <ul class="main_menu">
+                                                                    <li>
+                            <a  href="/contests/acpc20d1/standings" class="main_menu-item main_menu-item_link  is-main_menu-item-active" title="Standings">
+                                                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Standings</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/contests/acpc20d1/problems" class="main_menu-item main_menu-item_link  " title="Problems">
+                                                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Problems</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link  " title="Info">
+                                                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Info</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link  " title="Help">
+                                                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Help</span>
+                                                            </a>
+                        </li>
+                                    </ul>
+            </nav>
+            
+        </div>
+    </div>
+</header>
+
+<script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="text/javascript">
+    jQuery(function($) {
+        $('.page_header-arrow_expand_collapse').click(function() {
+            $('body').toggleClass('header-collapsed');
+        });
+    });
+</script>
+
+<div class="l-main_area">
+    
+
+    
+    <main class="flex flex-col grow content_padding">
+        
+
+
+
+<div class="top_bar ">
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+            <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <div class="breadcrumb top_bar-item">
+                                                                        <a href="/contests" class="breadcrumb-link">Contests</a><span class="breadcrumb-divider">/</span>
+                                                    <a href="/contests/acpc20d1" class="breadcrumb-link">ACPC 2020 - Division 1</a><span class="breadcrumb-divider">/</span>
+                                                                                    <span class="breadcrumb-current">
+                                                    Standings
+                                            </span>
+                </div>
+
+                            </div>
+
+            <div class="top_bar-section tooltip-right-container top_bar-section-small">
+
+                
+                
+        
+
+
+
+    
+
+                                    <a href="/login" class="button button-primary button-small">Log in</a>
+                            </div>
+        </div>
+    
+    
+        
+
+
+
+            
+    
+            
+
+    </div>
+
+        
+            <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/modules/banner.js"></script>
+    
+    
+
+    
+            <div class="mb-4">
+                    
+    
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="application/json" id="alert-team-data">{"csrf_token": "6669968321635815406843898862946238973653","invitation_url": "\/ajax\/session\/invitation-response","in_session_url": "\/ajax\/session\/is-in-session"}</script><script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/modules/team_invitation_alert.js"></script>
+
+                        
+
+
+                    
+
+
+
+
+
+
+            
+        </div>
+    
+            
+
+
+    
+        
+    <div class="flex justify-between items-center mb-8 mt-4">
+        <h1>ACPC 2020 - Division 1</h1>
+        <div>
+                            
+    
+                    </div>
+    </div>
+
+
+    
+    
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+        <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/modules/mobile_tabs.js"></script><nav class="tab-nav" data-mobile-select-classes="is-hidden@md"><a class="tab-nav-item " href="/contests/acpc20d1" title="Contest">Contest</a><a class="tab-nav-item active" href="/contests/acpc20d1/standings" title="Standings">Standings</a><a class="tab-nav-item " href="/contests/acpc20d1/problems" title="Problems">Problems</a><a class="tab-nav-item " href="/contests/acpc20d1/teams" title="Teams">Teams</a><a class="tab-nav-item " href="/contests/acpc20d1/rules" title="Rules">Rules</a><div class="ml-auto flex"></div></nav>
+    </div>
+
+    <div id="standings_wrapper"
+            >
+        <div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+                    </div>
+
+                    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+          
+
+          
+    
+
+
+
+
+
+
+
+
+
+
+
+    <div class="table-legend -mb-2">
+        
+    <div class="table-legend-statuses">
+                    </div>
+
+        
+    <div class="table-legend-statuses">
+                    <span class="table-legend-status">
+                <i class="fas fa-check status-icon legend-first"></i>
+                First to solve            </span>
+                            <span class="table-legend-status">
+                <i class="fas fa-check status-icon legend-solved"></i>
+                Solved            </span>
+                <span>
+            <span class="table-legend-status">
+                <i class="fas fa-times status-icon legend-attempted"></i>
+                Attempted            </span>
+        </span>
+        <span>
+            <span class="table-legend-status">
+                <i class="fas fa-question status-icon legend-pending"></i>
+                Pending judgement            </span>
+        </span>
+    </div>
+
+    </div>
+    <section class="strip strip-item-plain">
+        <div class="table-wrapper">
+            <table class="table2 sticky-header standings-table">
+                
+    <thead>    <tr>
+                    <th class="table2-header" colspan="3">Team</th>
+
+                            <th class="table2-header table-align-right standings-cell-score">Slv.</th>
+                                        <th class="table2-header table-align-right standings-cell-time">Time</th>
+                    
+                                            
+<th class="table2-header" style="width: min_widthpx"><a title="Monochromatic Minesweeper" href="/contests/acpc20d1/problems/monochromaticminesweeper">A</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Wrapping Trees" href="/contests/acpc20d1/problems/wrappingtrees">B</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Wormhole Extreme!!!" href="/contests/acpc20d1/problems/wormholeextreme">C</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Hired Help" href="/contests/acpc20d1/problems/hiredhelp">D</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Best Investing" href="/contests/acpc20d1/problems/bestinvesting">E</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Straights" href="/contests/acpc20d1/problems/straights">F</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Password Rotation" href="/contests/acpc20d1/problems/passwordrotation">G</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Path Crossings" href="/contests/acpc20d1/problems/pathcrossings">H</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Listen To Your Boss" href="/contests/acpc20d1/problems/listentoyourboss">I</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Laptop Stickers" href="/contests/acpc20d1/problems/laptopstickers">J</a></th>
+        
+                                                        </tr>
+    </thead>
+
+                                                                                            
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>1</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288119">                    Praxis Makes Perfect
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ualberta.ca/56px?v=3cb39c3d07817932ff7e20eb36d95c79"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >9</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">1027</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            286 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            143 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            34 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            171 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            40 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            94 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            53 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            83 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            3 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>2</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288138">                    Benyamin Bashari
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >8</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">1257</td>
+                            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            277 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            12<br>
+                        <span class="standings-table-result-cell-time">
+                            281 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            36 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            21 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            53 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            108 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            89 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            12 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>3</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288107">                    :person_running: :person_running: :person_running:
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Lethbridge"
+                        data-placement="top"
+                        title="University of Lethbridge"
+                        src="/images/universities/uleth.ca/56px?v=dbccbbd6b93f14b8630cc1d87d47b40e"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >7</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">1147</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            216 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            7<br>
+                        <span class="standings-table-result-cell-time">
+                            287 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            35 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            121 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            136 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            106 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            26 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>4</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288114">                    https://asone.ai
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >6</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">512</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            148 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            55 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            14 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            11<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            78 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            175 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            22 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>5</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288132">                    Aaron He
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >6</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">647</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            75 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            20 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            183 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            97 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            137 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            15 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>6</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288126">                    youxiu
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >6</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">1147</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            270 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            47 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            100 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            237 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            178 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            5<br>
+                        <span class="standings-table-result-cell-time">
+                            135 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>7</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288111">                    Bullfrogs
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >5</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">781</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            291 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            37 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            144 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            257 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            12 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>8</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288134">                    Braydon Willms
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >4</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">422</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            91 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            34 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            199 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            18 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>9</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288123">                    U.A. High School
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >4</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">558</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            192 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            74 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            132 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            40 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>10</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288128">                    Marcus Der
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Alberta"
+                        data-placement="top"
+                        title="University of Alberta"
+                        src="/images/universities/ualberta.ca/56px?v=3cb39c3d07817932ff7e20eb36d95c79"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >4</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">671</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            254 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            70 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            220 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            47 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>11</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288144">                    Runtime Terror
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >3</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">298</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            54 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            180 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            8<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            24 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>12</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288116">                    LeetCode Hard
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >3</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">403</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            103 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            210 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            4<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            50 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>13</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288137">                    Michelle Nguyen
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >3</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">475</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            91 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            269 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            55 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>14</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288108">                    Alberta Bronze
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ualberta.ca/56px?v=3cb39c3d07817932ff7e20eb36d95c79"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >3</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">685</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            248 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            280 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            17 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>15</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288120">                    RAT
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">225</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            118 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            87 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>16</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288136">                    Henrique Pereira
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">289</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            197 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            12<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            20<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            52 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>17</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288133">                    Brett Wells
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Lethbridge"
+                        data-placement="top"
+                        title="University of Lethbridge"
+                        src="/images/universities/uleth.ca/56px?v=dbccbbd6b93f14b8630cc1d87d47b40e"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">329</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            179 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            5<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            50 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>18</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288113">                    fill it mig nun
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ualberta.ca/56px?v=3cb39c3d07817932ff7e20eb36d95c79"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">365</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            189 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            36 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>19</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288122">                    Software_Sirs
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">384</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            5<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            246 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            118 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>20</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288135">                    Yifeng Pan
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">398</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            222 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            136 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>21</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288110">                    BASEMENT DWELLERS
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">433</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            7<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            9<br>
+                        <span class="standings-table-result-cell-time">
+                            194 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            5<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            39 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>22</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288112">                    Daryl Dang is employed and good looking af
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >2</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">493</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            6<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            274 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            199 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>23</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288121">                    Runtime Terrors
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >1</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">137</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            3<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            2<br>
+                        <span class="standings-table-result-cell-time">
+                            117 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>24</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288115">                    hurricaneCrew
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >1</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">149</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            149 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            5<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            12<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>25</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288127">                    Sanjeev Rao
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >1</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">540</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            14<br>
+                        <span class="standings-table-result-cell-time">
+                            280 min
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288142">                    Akshat Pandey
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288109">                    badidiots
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288131">                    Blake McLachlin
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Lethbridge"
+                        data-placement="top"
+                        title="University of Lethbridge"
+                        src="/images/universities/uleth.ca/56px?v=dbccbbd6b93f14b8630cc1d87d47b40e"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288139">                    Connor McLaughlan
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Alberta"
+                        data-placement="top"
+                        title="University of Alberta"
+                        src="/images/universities/ualberta.ca/56px?v=3cb39c3d07817932ff7e20eb36d95c79"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288140">                    Henry Vu
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288130">                    Jason Nguyen
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                                <span class="standings-table-result-cell-text">
+                                            1<br>
+                        <span class="standings-table-result-cell-time">
+                            -
+                        </span>
+                                    </span>
+            </span>
+        </td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288141">                    Julien Lam
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288117">                    Martintransimprovedfanclub
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288143">                    Mohammad Mohaiminul Islam Maheer
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288118">                    Penguins
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288129">                    Tin Le
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288124">                    voxel
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                                                                        
+                                                                        
+    <tr class="">
+                    <td class="table-item-autofit"><strong>26</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Division 1">
+            <div>
+                <a href="/contests/acpc20d1/teams/288125">                    We don&#039;t byte
+                </a>
+                            </div>
+        </td>
+
+        
+        
+                    <td class="table-item-autofit">
+                                    <img
+                        data-toggle="tooltip"
+                        alt="University of Calgary"
+                        data-placement="top"
+                        title="University of Calgary"
+                        src="/images/universities/ucalgary.ca/56px?v=19b314599483213c9def4d27affa77b2"
+                        class="image_info-image-table"
+                    />
+                            </td>
+        
+                    <td class="table-item-autofit table-align-right standings-cell-score" >0</td>
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+            				
+    
+            <td></td>
+    
+                    
+                
+            </tr>
+
+
+                                                            
+                
+                                    
+        <tr>
+                    <th class="table2-header" colspan="5"></th>
+        
+                                            
+<th class="table2-header" style="width: min_widthpx"><a title="Monochromatic Minesweeper" href="/contests/acpc20d1/problems/monochromaticminesweeper">A</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Wrapping Trees" href="/contests/acpc20d1/problems/wrappingtrees">B</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Wormhole Extreme!!!" href="/contests/acpc20d1/problems/wormholeextreme">C</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Hired Help" href="/contests/acpc20d1/problems/hiredhelp">D</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Best Investing" href="/contests/acpc20d1/problems/bestinvesting">E</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Straights" href="/contests/acpc20d1/problems/straights">F</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Password Rotation" href="/contests/acpc20d1/problems/passwordrotation">G</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Path Crossings" href="/contests/acpc20d1/problems/pathcrossings">H</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Listen To Your Boss" href="/contests/acpc20d1/problems/listentoyourboss">I</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Laptop Stickers" href="/contests/acpc20d1/problems/laptopstickers">J</a></th>
+        
+                                </tr>
+    
+                            </table>
+        </div>
+    </section>
+</div>
+    </div>
+
+
+    </main>
+
+    
+
+
+
+    <footer class="l-footer ">
+        <span class="text-center text-sm">
+        <a href="/info/contact">Contact</a> |
+        <a href="https://status.kattis.com">System Status</a> |
+        <a rel="terms-of-service" href="/info/tos">Terms of Service</a> |
+        <a rel="privacy-policy" href="https://www.kattis.com/policies/privacy_policy.pdf">Privacy Policy</a>
+        </span>
+    </footer>
+
+</div>
+
+
+
+    <script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/contest/header.js"></script>
+<script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
+<script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
+
+
+
+        <script defer nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" src="https://status.kattis.com/embed/script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" nonce="4dedf4a25cfd90050e156919eca1f71c2b28243676c25aec1b95718ac2bd9e81" data-cf-beacon='{"rayId":"8dc961b10a783892","version":"2024.10.4","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"6651308a007d4d459b12876077322bfb","b":1}' crossorigin="anonymous"></script>
+</body>
+</html>

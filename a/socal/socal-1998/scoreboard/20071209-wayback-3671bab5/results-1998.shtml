@@ -1,0 +1,616 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/1998/results-1998.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/1998/results-1998.shtml">http://socalcontest.org/history/1998/results-1998.shtml</a> (content as captured 2007-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-1998.html">socal-1998</a>)  <a href="https://web.archive.org/web/20071209095835/http://socalcontest.org/history/1998/results-1998.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast1998.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 1998</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-1998.shtml 42 2007-10-05 05:02:06Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<CENTER>
+<h2>Final Scores for the 1998/1999 Southern California Regional</h2>
+</center>
+
+<center>
+<TABLE BORDER CELLSPACING=1 WIDTH=767>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P ALIGN="RIGHT"><B>Rank</B></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<B><P>Team Name</B></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<B><P>Institution</B></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<B><P ALIGN="RIGHT">Solved</B></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<B><P ALIGN="RIGHT">Penalties</B></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<B><P ALIGN="RIGHT">Score<BR>
+(seconds)</B></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College Team 42</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">46284</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal Poly Gold</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal. Polytechnic State Univ., San Luis Obispo</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">47204</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Natasha<br>
+Team members: <br>
+&nbsp&nbsp&nbsp;Tudor Bosman<br>
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California Institute of Technology</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">58028</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCLA Gold<br>
+Team Members: <br>
+&nbsp&nbsp&nbsp;Diego Nahab<br>
+&nbsp&nbsp&nbsp;Pedro Miller Rabinovitch<br>
+&nbsp&nbsp&nbsp;Evan Tsang
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Los Angeles</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">8</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">64610</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCI Blue</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Irvine</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">38192</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCSD I<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Mark Baysinger<br>
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, San Diego</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">43181</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">7</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCI Green</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Irvine</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">44397</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">8</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Boris</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California Institute of Technology</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">46660</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">9</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCLA Bruins
+Team Members:<br>
+&nbsp&nbsp&nbsp;Campbell Chiang
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Los Angeles</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">33060</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">10</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College Team GRR<br>
+Team Members: <br>
+ &nbsp&nbsp&nbsp;Max Robinson<br>
+ &nbsp&nbsp&nbsp;Ranjith Rajagopalan<br>
+&nbsp&nbsp&nbsp;Elizabeth Gordon
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">34056</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">11</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal Poly Broncos<br>
+Team Members: <br>
+&nbsp&nbsp&nbsp;Jake Hamby<br>
+&nbsp&nbsp&nbsp;Edgar Valenzuela
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal. State Polytechnic Univ., Pomona</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">45107</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">12</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal Poly Green<br>
+Team Members: <br>
+&nbsp&nbsp&nbsp;Jeffrey Mintz
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Cal. Polytechnic State Univ., San Luis Obispo</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">21321</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">13</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCLA Blue</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Los Angeles</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">26839</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">14</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UNLV Team 1<br>
+&nbsp&nbsp&nbsp;Dung Mach<br></FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of Nevada, Las Vegas</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">4</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">28747</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">15</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>UCI Red</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Irvine</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">33188</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">16</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Gauchos Blue<br>
+Team members: <br>
+&nbsp&nbsp&nbsp;Mihai Christodorescu</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Santa Barbara</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2679</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">17</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Gauchos Yellow</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Santa Barbara</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5674</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">18</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>SBCC #2<br>
+Team Members: <br>
+&nbsp&nbsp&nbsp;Randy Evered<br>
+&nbsp&nbsp&nbsp;Stefan Guenechki
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Santa Barbara City College</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">5681</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">19</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Honest Abe's Programmers<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Kapish Patel<br>
+&nbsp&nbsp&nbsp;Abraham Grief
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>University of California, Riverside</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">6966</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">20</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>CSUN Black<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Ariffin Yahaya
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California State University, Northridge</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">7715</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">21</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Beach One<br>
+Team members: <br>
+&nbsp&nbsp&nbsp;Brian Reed</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California State University, Long Beach</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">8221</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">22</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>RCC Tigers<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Bryan Whitehead<br>
+&nbsp&nbsp&nbsp;David McGuire
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Riverside Community College</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">10392</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">23</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>C-Siders<BR>
+Team members:<br>
+&nbsp&nbsp&nbsp;Battugs Chadraa<br>
+&nbsp&nbsp&nbsp;Andrew Thompson<br>
+&nbsp&nbsp&nbsp;Roger Winget 
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Brigham Young University, Hawaii</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">11399</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">24</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>PLNU Green</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Point Loma Nazarene University</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">12014</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">25</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>CSUN Matadors</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California State University, Northridge</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">0</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">12288</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">26</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College Team 2038<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Kevin Eustice<br>
+&nbsp&nbsp&nbsp;Nathan Field
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Harvey Mudd College</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">13212</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">27</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Az = MT^2<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Tom Grigg<br>
+&nbsp&nbsp&nbsp;Tom Handal<br>
+&nbsp&nbsp&nbsp;Matt Messerman 
+
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>San Diego State University</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">13363</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">28</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>The Wizards of Az<br>
+Team members: <br>
+&nbsp&nbsp&nbsp;Hetal Harikh<br>
+&nbsp&nbsp&nbsp;Sang Kang<br>
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>San Diego State University</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">2</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">15382</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">29</FONT></TD>
+<TD WIDTH="29%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>CSUSB Coyotes<br>
+Team members:<br>
+&nbsp&nbsp&nbsp;Mark Vander Meiden<br>
+&nbsp&nbsp&nbsp;Jason Lin<br>
+&nbsp&nbsp&nbsp;M. Scot McKaskle 
+</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>California State University, San Bernardino</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">1</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">3</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P ALIGN="RIGHT">17054</FONT></TD>
+</TR>
+</TABLE>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-1998.shtml 42 2007-10-05 05:02:06Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Fri, 05-Oct-2007 21:50:18 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 1998 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

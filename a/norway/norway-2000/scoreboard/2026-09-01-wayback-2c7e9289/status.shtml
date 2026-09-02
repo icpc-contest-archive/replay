@@ -3,6 +3,7 @@
 <html>
 <head>
 <!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://web.archive.org/web/20011122180630/http://www.ifi.uio.no/~db/nm-i-programmering/nm2000/status.shtml">
 <style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
@@ -36,11 +37,11 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     <th align="center">E</th> 
     <th align="center">F</th> 
     <th align="center">G</th> 
-    <th align="center">Løst</th> 
+    <th align="center">LÃ¸st</th> 
     <th align="center">Tid</th>  
   </tr>
   <tr> <th align="center">1</th> <td>Programmeringsgruppa</td>
-    <td>HiSør-Trøndelag</td>
+    <td>HiSÃ¸r-TrÃ¸ndelag</td>
     <td align="center">0.41</td> <td align="center"></td> <td align="center">2.36</td> <td align="center">5.27</td> <td align="center"></td> <td align="center"></td> <td align="center">5.04</td>
     <td align="center">4</td> <td align="center">13.48</td>
   </tr>
@@ -176,11 +177,11 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
-  <tr> <th align="center"></th> <td>(BØ+SK)</td> <td>Polytekniske</td>
+  <tr> <th align="center"></th> <td>(BÃ˜+SK)</td> <td>Polytekniske</td>
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
-  <tr> <th align="center"></th> <td>(JAH+EE+JCS)</td> <td>HiØstfold</td>
+  <tr> <th align="center"></th> <td>(JAH+EE+JCS)</td> <td>HiÃ˜stfold</td>
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
@@ -196,7 +197,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
-  <tr> <th align="center"></th> <td>De navnløse</td> <td>UiBergen</td>
+  <tr> <th align="center"></th> <td>De navnlÃ¸se</td> <td>UiBergen</td>
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
@@ -216,7 +217,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
-  <tr> <th align="center"></th> <td>Pål og Christian</td> <td>NTNU</td>
+  <tr> <th align="center"></th> <td>PÃ¥l og Christian</td> <td>NTNU</td>
     <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td> <td align="center"></td>
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
@@ -245,8 +246,8 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     <td align="center">0</td> <td align="center">0.00</td>
   </tr>
 </table>
-<b>NB!</b> På grunn av lokale tekniske problemer har flere lag og spesielt
-«NoSuchTeamNameException» fått en dårligere plassering enn de
+<b>NB!</b> PÃ¥ grunn av lokale tekniske problemer har flere lag og spesielt
+Â«NoSuchTeamNameExceptionÂ» fÃ¥tt en dÃ¥rligere plassering enn de
 fortjener utifra innsatsen under konkurransen.
 
 <center>

@@ -3,6 +3,7 @@
 <html>
 	<head>
 <!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="http://acm.cs.up.ac.za/cgi-bin/standings.pl">
 <style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;

@@ -1,0 +1,351 @@
+
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/current/index.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/classes/toc.css">
+<script>
+function notyet()
+{
+alert('Electronic Payment Service does not start until 15-Sep at 12:01 AM ET.\n\nPlease try again later.');
+}
+</script>
+<script>
+function expired()
+{
+alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only accept donations at this time through 9/30 next year.');
+}
+</script>
+</head>
+<body background="images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/current/index.shtml">http://socalcontest.org/current/index.shtml</a> (content as captured 2009-11-28 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2009.html">socal-2009</a>)  <a href="https://web.archive.org/web/20091128204113/http://socalcontest.org/current/index.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="images/mast2009.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1"><strong>
+    Updated
+    <script>
+    var token="$Id: index.shtml 92 2009-11-17 04:49:12Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </strong></font></td>
+  <td align=right><hr></td>
+</tr>
+</table>
+
+
+<center>
+<h2>2009 Contest: 07-Nov-2009 at Riverside Community College</h2>
+</center>
+
+<!--
+<hr>
+<center>
+<h3>Acknowledgements</h3>
+</center>
+
+<p>
+The Southern California Regional contest staff would like to thank
+<strong>Riverside Community College</strong> for their excellent
+support of this year's contest.  In particular, we thank
+<strong>Mark Lehr, Kevin Elwood, Jun Galendez, Dave Dant, Mark Oliver,
+Gina Vargas, Carla Miano,</strong> and <strong>Gary Patton</strong>
+for their many hours of hard work before, during, and after the
+contest; we also thank the many volunteers who assisted with the
+day's activities.  The contest staff would also like to thank
+<strong>IBM</strong> for providing financial support and prizes.
+</p>
+<hr>
+-->
+<p>
+<b>IMPORTANT NOTICES: Registration opens 15-Sep-2009.</b>
+<p>
+<a target=_new href="http://cm.baylor.edu/public/worldMap/worldMap.icpc?contestId=563&cid=4620">
+<!--  2008: <a target=_new href="http://cm2prod.baylor.edu/public/static/report/reportContest.jsf"> -->
+<!--  2007: <a target=_new href="http://icpc.baylor.edu/icpc/Regionals/SCal07/Default.asp"> -->
+<strong>Regional Contest Registration Information</strong></a> 
+(at the ACM ICPC Site; opens a new window).
+&nbsp;&nbsp;See this page for more information about fees, payment,
+and the current list of registered teams.
+</p>
+
+<p>
+<a target=_new href="http://icpc.baylor.edu">
+<strong>ICPC Registration System</strong></a>
+(at the ACM ICPC Site; opens a new window).
+&nbsp;&nbsp;This is where a coach registers a team(s) for the competition.<br>
+Near the bottom left of the page is a link for participation.
+<br>
+<a target=_new href="http://icpc.baylor.edu"><img src="images/small.bmp"></a>
+</p>
+
+<p>
+<!--<a href="javascript:expired()">-->
+<!--<a href="javascript:notyet()">-->
+<!--<a target=_new href="https://www.merchantamerica.com/acm/echopay/">-->
+<a target=_new href="payment.shtml">
+<strong>Send an electronic payment for the 2009 Registration Fees, $63.00 per team.</strong></a>
+(opens a new window).
+&nbsp;&nbsp; Available 15-Sep through 31-Oct.
+</p>
+
+<p>
+<a target=_new href="http://icpc.baylor.edu/icpc/">
+<strong>ACM International Collegiate Programming Contest Web Page</strong></a> 
+(opens a new window).
+&nbsp;&nbsp;Contains rules and other information
+pertaining to Regional Contests and the World Finals,
+plus a link to the online registration page.
+</p>
+
+<p>
+<a target=_new href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest#2010_World_Finals">
+<strong>Wikipedia entry about the ACM International Collegiate Programming Contest</strong></a> 
+(opens a new window).
+&nbsp;&nbsp;History and interesting links
+</p>
+
+<h3>2009 Detailed Site Information</h3>
+<p>Saturday, 07-Nov at Riverside Community College.</p>
+<ul>
+    <li><a href="site.shtml">Location</a>&nbsp;<font size=-1><!-- #flastmod file='site.shtml' --></font>
+    <li><a href="rules.shtml">Local Contest Rules</a>&nbsp;<font size=-1><!-- #flastmod file='rules.shtml' --></font>
+    <li><a href="environment.shtml">Environment</a>&nbsp;<font size=-1><!-- #flastmod file='environment.shtml' --></font>
+    <li><a href="schedule.shtml">Schedule for the Day</a>&nbsp;<font size=-1><!-- #flastmod file='schedule.shtml' --></font>
+    <li><a href="guestpolicy.shtml">Guest Policy</a>
+    <li><a href="prize.shtml">Prizes</a>
+<!--<li><a href="tshirts.shtml">Additional Tshirts/Jackets</a>-->
+</ul>
+
+<h3>General Contest Information</h3>
+<ul>
+    <li><a href="expect.shtml">What to Expect at the Contest</a>
+    <li><a href="sample.shtml">Resources (includes sample problems)</a>
+    <li><a href="judges/">Contest Judges</a> 
+    <li><a href="helpus.shtml">How You Can Help</a>
+<!--<li><a href="volunteer.shtml">Volunteering as a Contest Site</a>-->
+    <li><a href="faq.shtml">Contest FAQ</a></ul>
+</ul>
+
+<a name="HallOfChampions"><h3>Hall of Champions</h3></a>
+<table cellspacing="0" border="0" align="center" cellpadding="5">
+<tr>
+<th align="left" valign="top">Year</th>
+<th align="center" valign="top" colspan="5">Available Information</th>
+</tr>
+<tr>
+<td valign="top">2009-10</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2009/results-2009.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2009/details-2009.shtml">Details</a></td>
+<td valign="top"><a href="/history/2009/socal2009.pdf">Problem Set</a></td>
+<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMSoCalContest1172009?authkey=Gv1sRgCJOZ7Y2Dl-L6tQE&feat=email#">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2008-09</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2008/results-2008.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2008/details-2008.shtml">Details</a></td>
+<td valign="top"><a href="/history/2008/2008.zip">Problem Set</a></td>
+<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMContest20081115?authkey=znNHG63WhtA">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2007-08</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2007/results-2007.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2007/details-2007.shtml">Details</a></td>
+<td valign="top"><a href="/history/2007/2007.zip">Problem Set</a></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">2006-07</td>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2006/details-2006.shtml">Details</a></td>
+<td valign="top"><a href="/history/2006/2006.zip">Problem Set</a></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">2005-06</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2005/results-2005.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2005/details-2005.shtml">Details</a></td>
+<td valign="top"><a href="/history/2005/2005.zip">Problem Set</a></td>
+<td valign="top"><a href="/history/2005/pics/">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2004-05</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2004/results-2004.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2004/details-2004.shtml">Details</a></td>
+<td valign="top"><a href="/history/2004/2004.zip">Problem Set</a></td>
+<td valign="top"><a href="/history/2004/pics/">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2003-04</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/2003/results-2003.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2003/details-2003.shtml">Details</a></td>
+<td valign="top"><a href="/history/2003/2003.zip">Problem Set</a></td>
+<td valign="top"><a href="/history/2003/pics/">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2002-03</td>
+<td valign="top"><a href="/history/2002/summary-2002.shtml">Summary</a></td>
+<td valign="top"><a href="/history/2002/results-2002.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2002/details-2002.shtml">Details</a></td>
+<td valign="top"><a href="/history/2002/">Problem Set</a></td>
+<td valign="top"><a href="/history/2002/pics/">Photos</a></td>
+</tr>
+<tr>
+<td valign="top">2001-02</td>
+<td valign="top"><a href="/history/2001/summary-2001.shtml">Summary</a></td>
+<td valign="top"><a href="/history/2001/results-2001.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2001/details-2001.shtml">Details</a></td>
+<td valign="top"><a href="/history/2001/">Problem Set</a></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">2000-01</td>
+<td valign="top"><a href="/history/2000/summary-2000.shtml">Summary</a></td>
+<td valign="top"><a href="/history/2000/results-2000.shtml">Standings</a></td>
+<td valign="top"><a href="/history/2000/details-2000.shtml">Details</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1999-2000</td>
+<td valign="top"><a href="/history/1999/summary-1999.shtml">Summary</a></td>
+<td valign="top"><a href="/history/1999/results-1999.shtml">Standings</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1998-99</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/1998/results-1998.shtml">Standings</a></td>
+<td valign="top"><a href="/history/1998/details-1998.shtml">Details</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1997-98</td>
+<td valign="top"><a href="/history/1997/summary-1997.shtml">Summary</a></td>
+<td valign="top"><a href="/history/1997/results-1997.shtml">Standings</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1996-97</td>
+<td valign="top"><a href="/history/1996/summary-1996.shtml">Summary</a></td>
+<td valign="top"><a href="/history/1996/results-1996.shtml">Standings</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1995-96</td>
+<td valign="top"></td>
+<td valign="top"><a href="/history/1995/results-1995.shtml">Standings</a></td>
+<td valign="top"><a href="/history/1995/details-1995.shtml">Details</a></td>
+<td valign="top"></td>
+<td valign="top"></td>
+</tr>
+<!-- TODO
+-->
+</table>
+
+<!-- TODO
+<p><a href="local_acm.shtml"><strong>Local ACM Student Chapters</strong></a></p>
+-->
+
+<p>
+<b>CALL FOR VOLUNTEERS:</b>  Will there be a regional contest in 2010?
+Our region needs qualified individuals in Southern California
+to help develop the 2010 contest.
+For more information, please send a message to <font face='Courier'>&#60;&#118;&#111;&#108;&#117;&#110;&#116;&#101;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+.
+</p>
+<!--
+<p>
+<b>CALL FOR PARTICIPATION:</b> <i>Conference for Undergraduate Research 2005</i><br>To sign up or get more information, visit the conference's <a href="http://www.mics.ptloma.edu/UCISC05/">home page</a>.
+</p>
+-->
+
+</font>
+
+<hr>
+<center>
+<br>
+<a href="interactive.shtml">
+<font size="+2">
+<strong>Posing Interactive Contest Problems in the ICPC Scoring Model</strong><br>
+</a>
+</font>
+Ed Skochinski, Jefery Roberts, and Marc Furon<br>
+ACM ICPC Competitive Learning Symposium, April 2008<br>
+Banff, Alberta, Canada<br>
+</center>
+<br>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: index.shtml 92 2009-11-17 04:49:12Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Mon, 16-Nov-2009 21:50:24 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><font size="-2"><!--
+Do not attempt to post this file as is to a web server.  This file, svnversion.shtml,
+is a placeholder for the following sequency of commands:
+
+  $ cp svnversion.shtml /tmp
+  $ svnversion >> /tmp/svnversion.shtml
+  # edit svnversion to retain only the appropriate HEAD value (global revision).
+  $ ftp $webhost
+  ftp> cd current
+  ftp> put /tmp/svnversion.shtml svnversion.shtml
+-->
+00000
+</font></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 1995-2009 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

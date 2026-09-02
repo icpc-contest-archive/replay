@@ -1,0 +1,130 @@
+body {
+        font-family: Arial, Helvetica, Verdana;
+        background: #ffffff;
+        margin-top: 5px;
+        font-size: 12px;
+}
+
+.time_changed{
+  background: #6699FF;
+}
+
+.user_changed{
+  background: #FFFFAA;
+}
+
+a:link { color: #336699 }
+a:visited { color: #003366 }
+
+div,td,th,p,ul,h1,h2,h3,h4,h5 {font-family: Arial, Helvetica, Verdana;font-size: 12px}
+
+h1 {margin-left: 5px; margin-right: 16px; font-size: 20px; font-weight: bold; color: #000000;}
+h2 {margin-left: 5px; margin-right: 16px; font-size: 18px; font-weight: bold; color: #000000;}
+h3,h4 {margin-left: 5px; margin-right: 16px; font-size: 16px; font-weight: bold; color: #000000;}
+
+.menuhdr {
+        font-size: 12px;
+        color: #0000ff;
+        text-decoration: none;
+}
+
+.menu { font-size: 12px; color: #0000ff; }
+
+.err { font-size: 12px; color: white; background: red;
+     font-weight: bold; padding: 4px}
+
+.folderh { font-size: 16px; font-weight: bold; }
+
+.newsh1 { font-size: 16px; font-weight: bold; }
+.newsh2 { font-size: 12px; font-weight: bold; color: #707070; }
+.newsbody { font-size: 12px; }
+.newssel  { font-weight: bold; }
+table.newsht {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: #c0c0c0;
+        margin-bottom: 3px;
+}
+
+.hint { font-size: 10px; color: #a0a0a0; }
+
+.navbar    { }
+
+.navbarsel { text-decoration: none; font-weight: bold; }
+
+tr.rpth,tr.trh,#rpth,#trh {
+        font-weight: bold;
+        background: #c0c0c0;
+        text-align: center;
+        padding: 2pt 2pt 2pt 2pt;
+}
+
+tr.tr0,#rptr,#tr0 { background: #f0f0f0; }
+tr.tr1,#tr1       { background: #e5e5e5; }
+
+.lno { color: #336699; }
+
+td.lmenu {
+        background: #e7e8dd;
+        padding: 0.8em 0.8em;
+}
+
+.lmenu h1 {
+        font-size: 12px;
+        color: #0000ff;
+        margin: 1em 0em 0.3em 0em;
+ }
+
+.lmenu a {
+        text-decoration: none;
+        color: #0000ff;
+}
+
+.lmenu ul {
+        list-style-type: none;
+        padding: 0em 0em 0em 1.3em;
+        margin: 0.3em 0em 0.3em 0em;
+}
+
+#topTitleBar {
+        background: #0e0e46;
+        color: white;
+        padding: 0.4em 1em;
+        font-weight: bold;
+}
+
+#topSubTitleBar {
+        background: #0e0e46;
+        color: #cccccc;
+        padding: 0.4em 1em;
+        font-weight: bold;
+        text-align: right;
+}
+
+.authinfo {
+        font-size: 7pt;
+}
+
+#contentRBar { padding: 15px 15px 10px 20px }
+#content { padding: 15px 15px 10px 20px; background: white }
+
+.slogind {
+        font-weight: bold;
+        padding: 0.5em 0em 0em 0em;
+}
+.sloginf {
+        padding: 0.3em 0em 0.3em 1.5em;
+}
+.sloginh {
+        padding: 0.5em 0em 0.3em 0em;
+        font-weight: bold
+}
+div.lmenusep {
+        line-height: 50%;
+}
+td.rnkg_h { font-weight: bold; font-size: 12px; text-align: center; background: white }
+td.rnkg_hp { font-weight: bold; font-size: 12px; text-align: center; background: white; color: #808080 }
+td.rnkg_ft { font-weight: normal; font-size: 12px; text-align: left; background: white }
+td.rnkg_fn { font-weight: normal; font-size: 12px; text-align: right; background: white }
+td.rnkg_fnp { font-weight: normal; font-size: 12px; text-align: right; background: white; color: #808080 }
+td.rnkg_fsum { font-weight: bold; font-size: 12px; text-align: right; background: white }

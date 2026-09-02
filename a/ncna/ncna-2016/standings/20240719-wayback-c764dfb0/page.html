@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://cse.unl.edu/~upe/contest/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="./main.css" rel="stylesheet" />
+<script src="./sha512.js" type="text/javascript"></script>
+<script type="text/javascript">
+function hex_sha512_noblank(value) {
+	if(value == "") {
+		return "";
+	} else {
+		return hex_sha512(value);
+	}
+}
+function verify(){
+	var msg = "Are you really sure you want to do this?";
+	return confirm(msg);
+}
+</script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<!-- Code to view the history of the contest -->
+<script type="text/javascript">
+$(document).ready(function() {
+	function getResultsFromTime(sliderTime){
+		console.log(sliderTime);
+		$.ajax({
+			url: "get_results_table.php?slideTime=" + sliderTime,
+			beforeSend: function(){ $("#scoretable_loading").show(); },
+			success: function(data) { 
+				$("#scoretable_loading").hide();
+				$("#scoretable > tbody").html(data);
+			}
+		});
+	}
+	function test(sliderTime) {
+		console.log(sliderTime);
+	}
+
+	$( "#slider" ).slider({
+		value: 5*60+1,
+		min:0,
+		max: 5*60+1,
+		slide: function(event, ui) {
+			$("#scoretable_loading").show();
+			$("#slideTime").val(ui.value);
+				clearTimeout(window.timer);
+				window.timer=setTimeout(function(){ // setting the delay
+				getResultsFromTime(ui.value);
+        		}, 1500);
+		}
+	});
+	$("#slideTime").val(5*60+1);
+
+	var lastUpdatedTime = new Date();
+	lastUpdatedTime = Math.floor(lastUpdatedTime/1000);
+	
+	$selectSite = $("#selectSite");
+	$selectContest = $("#selectContest");
+	$scoreTableTR = $("#scoretable tr");
+
+	var hasValue = $selectSite.has('[selected]');
+	if(hasValue.length>0){
+		dropDownSelected();
+	}
+	
+	setInterval(checkUpdateStatus, 60000);
+	function checkUpdateStatus(){
+		$.ajax({
+			url: "check_db_update.php?lastUpdated=" + lastUpdatedTime,
+			success: function(data) { 
+				if(data=='yes')
+					getResultsFromTime($("#slideTime").val())
+			}
+		});
+	}
+
+	$selectSite.change(function(){
+		dropDownSelected('selectSite', $("#selectSite option:selected").val());
+		showTime();
+		var tmp = setInterval(showTime,60000);
+	});
+	$selectContest.change(function(){
+		dropDownSelected('selectContest', $("#selectContest option:selected").val());
+	});
+	
+	function dropDownSelected(selectedVar, selectedValue){
+		// console.log('initial cookie', document.cookie, selectedValue);
+		document.cookie = ''+selectedVar+'='+selectedValue;
+		// console.log('reset cookie', document.cookie);
+		getResultsFromTime($("#slideTime").val());
+	}
+	
+	function showTime(){
+
+		var strStartTime = $selectSite.val();
+		var currentTime = new Date();
+		var startTime = new Date(parseInt(strStartTime));
+		// The contest is 5 hours
+		var endTime = new Date(parseInt(strStartTime)+1000*60*60*5);
+
+	 	//console.log(strStartTime.valueOf(), "  " , currentTime.getTime(), " ", startTime, currentTime, endTime);
+		
+		var diff = endTime - currentTime;
+
+		var daysDifference = Math.floor(diff/1000/60/60/24);
+		diff -= daysDifference*1000*60*60*24
+		var hoursDifference = Math.floor(diff/1000/60/60);
+		diff -= hoursDifference*1000*60*60
+		var minutesDifference = Math.floor(diff/1000/60);
+
+		if(isNaN(minutesDifference))
+			minutesDifference = '(different sites started at slightly different times)';
+		if(isNaN(hoursDifference))
+			hoursDifference = '';
+
+		// If minutes is a single number, append the 0 before it
+		if(minutesDifference < 10) {
+			minutesDifference = "0" + minutesDifference;
+		}
+
+		var diffString = hoursDifference +":" + minutesDifference;
+		
+		var showTimeDiv = document.getElementById("showTimeDiv");
+		showTimeDiv.innerHTML = '<p style="font-size:16px;">Time Left (h:mm) : ' + diffString + '</p>';	
+		
+	}
+	// Load the initial values
+	getResultsFromTime($("#slideTime").val())
+});
+</script>
+<title>Contest Site</title>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://cse.unl.edu/~upe/contest/">http://cse.unl.edu/~upe/contest/</a> (content as captured 2024-07-19 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/ncna-2016.html">ncna-2016</a>)  <a href="https://web.archive.org/web/20240719210602/http://cse.unl.edu/~upe/contest/">wayback</a></div>
+
+
+<!-- Adding code for end uers to pick their site -->
+<div>
+	<form action="#">
+	<select id="selectSite">
+		<option value="blank">Select All Sites</option>
+		<option value="5">Epic System Corp</option><option value="4">Garmin</option><option value="6">Iowa State U</option><option value="7">Lake Superior State U</option><option value="8">Macalester Coll</option><option value="12">Michigan Tech U</option><option value="9">North Dak. State U</option><option value="14">Northwestern College</option><option value="10">South Dakota School of Mines & Technology</option><option value="11">U of Manitoba</option><option value="1">U of Neb - Lincoln</option><option value="13">U of Northern Iowa</option><option value="16">U of Wis - La Crosse</option><option value="15">U of Wis - Platteville</option>		
+	</select>
+	<select id="selectContest">
+		<option value="blank">Current contest</option>
+		<option value="1" >November 2012</option>
+<option value="2" >November 2013</option>
+<option value="3" >November 2014</option>
+<option value="4" >October 2015</option>
+<option value="5" >October 2016</option>
+<option value="6" >Practice</option>
+<option value="7" >October 2017</option>
+	</select>
+	</form>
+	<!-- Not currently functional <div id="showTimeDiv"></div> -->
+	
+</div>
+
+
+<div>
+<span>Select contest history:</span>
+<div id="slider" style="width: 60%;"></div>
+<span><input type="textbox" id="slideTime" readonly size=3 /> / 300 minutes</span>
+</div>
+
+<!-- Div that shows the entire region -->
+<div>
+<p>Results:</p>
+<p><i>These are not official rankings!</i>  This page will automatically refresh.</p>
+<table id="scoretable">
+<thead>
+<tr class="header" >
+<th>Rank</th><th>Site<img id="scoretable_loading" src="./spinner.gif" alt="Loading..." /></th><th>Team</th>
+<th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th><th>#Solv/Score</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+<!--end of div that shows the entire region -->
+
+<span>Created by the University of Nebraska-Lincoln's chapter of <a href="http://upe.unl.edu">Upsilon Pi Epsilon</a></span>
+</body>
+</html>

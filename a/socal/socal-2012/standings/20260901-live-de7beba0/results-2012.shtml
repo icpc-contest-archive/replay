@@ -1,0 +1,202 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2012/results-2012.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<!--
+
+  The style sheet reference is absolute.  For testing in a new subdirectory,
+  alter header.shtml and refer to a different absolute or relative .css path.
+  Remember to change it back after testing!
+
+  -->
+<link rel="stylesheet" type="text/css" href="/history/classes/socaltheme.css">
+<script>
+function notyet()
+{
+alert('Electronic Payment Service does not start until 28-Sep at 12:01 AM ET.\n\nPlease try again later.');
+}
+</script>
+<script>
+function expired()
+{
+alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only accept donations at this time through 9/30 next year.');
+}
+</script>
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2012/results-2012.shtml">http://socalcontest.org/history/2012/results-2012.shtml</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2012.html">socal-2012</a>)  <a href="https://web.archive.org/web/*/http://socalcontest.org/history/2012/results-2012.shtml">wayback</a></div>
+
+
+<div id="header">
+<table border="0" width="100%" >
+<tr>
+  <td align=left>&nbsp;</td>
+  <td align=center nowrap width="10%"><font size="-1" color="gray">
+    Content Dated 19-Nov-2012
+<!--
+    <script>
+    var token="$Id: results-2012.shtml 173 2014-03-24 05:12:03Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+-->
+    </font></td>
+</tr>
+</table>
+</div>
+<div id="banner">
+<img src="/history/images/mast2012.gif" alt="ACM ICPC Banner">
+</div>
+
+
+<div id="pagetitle">
+<h2><br>2012-13 Final Standings</h2>
+</div>
+
+<div id="information">
+<hr class="informationmarginfiller">
+<font face="Courier">
+<pre>
+Rank    Team ID   Team Name                       Solved    Penalties    Score
+   1    acm170    USC Trojans                        9          11      24:59:34
+
+   2    acm107    Caltech A                          8          3      17:25:48
+
+   3    acm151    UCLA Flyaway                       6          2       7:23:47
+   4    acm122    UCSD Load, Spin, Pull              6          0      10:31:29
+   5    acm124    UCSD kamehb                        6          5      11:49:16
+
+   6    acm121    HMC Squared                        5          0       9:04:08
+   7    acm168    USC Cardinal                       5          2      10:23:57
+   8    acm152    UCLA HeroesIII                     5          2      11:38:56
+   9    acm157    UCI constructors                   5          3      11:54:00
+
+  10    acm123    UCSD bumaga                        4          1       5:20:39
+  11    acm109    Caltech D                          4          3       7:43:22
+  12    acm119    HMC J                              4          4       8:02:39
+  13    acm154    UCSB alpha                         4          2       8:47:20
+  14    acm106    Caltech 1                          4          3       9:05:09
+  15    acm158    UCI instances                      4          2       9:27:40
+  16    acm111    CSUF-B                             4          1       9:40:47
+  17    acm117    CSULB Undeclared Identifiers       4          2      10:22:22
+  18    acm108    Caltech C                          4          3      10:39:47
+  19    acm118    HMC Escher                         4          1      10:46:15
+  20    acm129    UCR Raphael                        4          0      11:37:09
+
+  21    acm125    UCSD nozhnis                       3          0       3:50:36
+  22    acm126    UCR Donatello                      3          1       4:03:19
+  23    acm103    CSCI-3                             3          0       4:56:40
+  24    acm139    MtSAC blue                         3          0       5:06:30
+  25    acm172    ECC Multibit Error                 3          0       5:20:10
+  26    acm166    USD 2                              3          0       5:26:12
+  27    acm147    RCC::QApplication                  3          0       5:47:58
+  28    acm144    PLNU Walruses                      3          0       6:00:25
+  29    acm165    USD 1                              3          0       6:03:45
+  30    acm120    HMC Jordan                         3          0       6:14:26
+  31    acm102    CSCI-2                             3          0       6:30:41
+  32    acm169    USC Gold                           3          1       6:41:01
+  33    acm162    UNLV C                             3          0       6:51:14
+  34    acm149    SBCC||BUST                         3          3       7:09:04
+  35    acm140    MtSAC gold                         3          0       9:44:15
+  36    acm143    PLNU Sealions                      3          4      11:23:35
+
+  37    acm155    UCSB gamma                         2          0       0:49:32
+  38    acm114    CSULB 2 Davids and a Shane         2          0       2:42:57
+  39    acm153    UCLA The Cereal Killers            2          0       2:52:08
+  40    acm110    CSUF-A                             2          0       3:24:29
+  41    acm127    UCR Leonardo                       2          0       3:29:15
+  42    acm160    UNLV A                             2          1       3:35:25
+  43    acm134    CSULA Golden Eagles 2              2          0       4:09:06
+  44    acm112    CSUF Super Ultra Funtime           2          1       4:23:04
+  45    acm173    CPP Team Gentoo                    2          0       4:39:36
+  46    acm164    Redlands maroon                    2          0       4:49:44
+  47    acm105    CSCI-5                             2          0       4:52:09
+  48    acm115    CSULB Nightstabbers                2          1       5:10:41
+  49    acm145    RCC::3nPlus1                       2          1       5:46:50
+  50    acm113    CSUF-netcats                       2          1       5:52:09
+  51    acm146    RCC::iostream                      2          1       5:52:15
+  52    acm137    LMU Segfault                       2          0       6:04:00
+  53    acm128    UCR Michelangelo                   2          2       6:21:46
+  54    acm136    LMU O(n!)                          2          1       6:55:05
+  55    acm101    CSCI-1                             2          1       7:03:03
+  56    acm138    LMU Stack Overflow                 2          1       7:04:18
+  57    acm141    MtSAC red                          2          1       7:23:07
+  58    acm159    UCI methods                        2          1       7:27:00
+  59    acm171    APU BIOS Brothers                  2          3       7:32:51
+  60    acm156    UCSB omega                         2          2       9:35:46
+
+  61    acm163    Redlands grey                      1          0       0:55:23
+  62    acm161    UNLV B                             1          1       1:29:35
+  63    acm167    USD 3                              1          0       1:49:47
+  64    acm150    SBCCyotta                          1          0       1:57:07
+  65    acm116    CSULB Team Jose                    1          0       2:08:08
+  66    acm142    PLNU Gold                          1          1       2:16:25
+  67    acm131    CLU iJava                          1          0       2:18:39
+  68    acm133    CSULA Golden Eagles 1              1          1       2:38:13
+  69    acm104    CSCI-4                             1          0       2:51:13
+  70    acm148    SBCC_ERS                           1          1       3:50:58
+  71    acm132    CLU noCLUe                         1          0       4:26:26
+
+        acm130    CLU Default Name                   0          0       0:00:00
+        acm135    CSULA Golden Eagles 3              0          0       0:00:00
+        acm174    SCC Code Monkeys                   0          0       0:00:00
+        acm175    APU Big Boys                       0          0       0:00:00
+
+
+#   Solutions
+1       66
+2        1
+3       10
+4       65
+5        4
+6        4
+7        0
+8       24
+9       26
+10       6
+</pre>
+</font>
+<hr class="informationmarginfiller">
+</div>
+<div id="footer">
+<table style="border:0;width:100%;">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2012.shtml 173 2014-03-24 05:12:03Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Thu, 23-Apr-2015 18:31:46 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2012 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,356 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/1998/details-1998.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/1998/details-1998.shtml">http://socalcontest.org/history/1998/details-1998.shtml</a> (content as captured 2007-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-1998.html">socal-1998</a>)  <a href="https://web.archive.org/web/20071209094203/http://socalcontest.org/history/1998/details-1998.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast1998.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 1998</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: details-1998.shtml 40 2007-10-03 06:01:36Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>1998-99 Southern California Regional Programming Contest Detailed Results</h2>
+</center>
+<PRE>
+ Rank    Team Name                        Solved   Penalties    Score
+      
+    1    Harvey Mudd College Team 42         6          1       46284
+         #   Solved   Runs      Time
+         1      *        1   2:05:09
+         2      *        1   1:15:27
+         3      *        1   2:09:08
+         4      *        1   2:54:01
+         5      *        2   0:55:43
+         6      *        1   3:11:56
+      
+    2    Cal Poly Gold                       6          0       47204
+         #   Solved   Runs      Time
+         1      *        1   0:57:22
+         2      *        1   2:23:32
+         3      *        1   1:29:01
+         4      *        1   2:57:46
+         5      *        1   1:16:47
+         6      *        1   4:02:16
+      
+    3    Natasha                             6          6       58028
+         #   Solved   Runs      Time
+         1      *        3   3:12:42
+         2      *        2   2:33:47
+         3      *        2   1:03:47
+         4      *        1   1:39:10
+         5      *        2   1:07:11
+         6      *        2   4:30:31
+      
+      
+    4    UCLA Gold                           5          8       64610
+         #   Solved   Runs      Time
+         1      *        4   4:51:10
+         2      *        1   3:56:21
+         3      *        1   1:18:09
+         4      *        6   3:36:29
+         5      *        1   1:34:41
+         6      -        0   0:00:00
+      
+      
+    5    UCI Blue                            4          1       38192
+         #   Solved   Runs      Time
+         1      -        4   4:46:07
+         2      *        1   4:27:53
+         3      *        1   1:46:24
+         4      *        2   2:55:47
+         5      *        1   1:06:28
+         6      -        0   0:00:00
+      
+    6    UCSD I                              4          2       43181
+         #   Solved   Runs      Time
+         1      *        3   4:38:36
+         2      -        0   0:00:00
+         3      *        1   1:24:43
+         4      *        1   3:55:58
+         5      *        1   1:20:24
+         6      -        0   0:00:00
+      
+    7    UCI Green                           4          3       44397
+         #   Solved   Runs      Time
+         1      *        1   2:18:46
+         2      -        3   4:56:39
+         3      *        1   3:40:42
+         4      *        3   4:42:27
+         5      *        2   0:38:02
+         6      -        0   0:00:00
+      
+    8    Boris                               4          3       46660
+         #   Solved   Runs      Time
+         1      *        2   3:19:40
+         2      -        0   0:00:00
+         3      *        2   4:13:36
+         4      *        2   3:26:40
+         5      *        1   0:57:44
+         6      -        0   0:00:00
+      
+      
+    9    UCLA Bruins                         3          4       33060
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      *        1   1:59:55
+         4      -        0   0:00:00
+         5      *        3   1:12:15
+         6      *        3   4:38:50
+      
+   10    Harvey Mudd College Team GRR        3          0       34056
+         #   Solved   Runs      Time
+         1      -        1   4:55:09
+         2      *        1   4:09:36
+         3      *        1   2:04:34
+         4      -        0   0:00:00
+         5      *        1   3:13:26
+         6      -        0   0:00:00
+      
+   11    Cal Poly Broncos                    3          5       45107
+         #   Solved   Runs      Time
+         1      *        1   3:49:29
+         2      *        1   2:50:07
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        6   4:12:11
+         6      -        0   0:00:00
+      
+      
+   12    Cal Poly Green                      2          1       21321
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      *        1   4:19:36
+         4      -        3   4:38:14
+         5      *        2   1:15:45
+         6      -        4   4:55:26
+      
+   13    UCLA Blue                           2          5       26839
+         #   Solved   Runs      Time
+         1      *        6   4:56:41
+         2      -        1   4:58:50
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        1   0:50:38
+         6      -        0   0:00:00
+      
+   14    UNLV Team 1                         2          4       28747
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      *        2   4:51:40
+         4      -        0   0:00:00
+         5      *        4   1:47:27
+         6      -        0   0:00:00
+      
+   15    UCI Red                             2          5       33188
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      *        4   4:29:21
+         5      *        3   3:03:47
+         6      -        0   0:00:00
+      
+      
+   16    Gauchos Blue                        1          0        2679
+         #   Solved   Runs      Time
+         1      -        1   3:58:27
+         2      -        6   4:52:05
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        1   0:44:39
+         6      -        0   0:00:00
+      
+   17    Gauchos Yellow                      1          0        5674
+         #   Solved   Runs      Time
+         1      -        4   4:55:45
+         2      -        0   0:00:00
+         3      *        1   1:34:34
+         4      -        0   0:00:00
+         5      -        2   4:54:33
+         6      -        0   0:00:00
+      
+   18    SBCC #2                             1          1        5681
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        2   4:58:04
+         4      -        0   0:00:00
+         5      *        2   1:14:41
+         6      -        0   0:00:00
+      
+   19    Honest Abe's Programmers            1          0        6966
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        2   4:10:07
+         4      *        1   1:56:06
+         5      -        5   4:26:09
+         6      -        0   0:00:00
+      
+   20    CSUN Black                          1          1        7715
+         #   Solved   Runs      Time
+         1      -        2   4:45:33
+         2      -        1   4:58:21
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        2   1:48:35
+         6      -        0   0:00:00
+      
+   21    Beach One                           1          1        8221
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      *        2   1:57:01
+         4      -        0   0:00:00
+         5      -        5   4:14:37
+         6      -        0   0:00:00
+      
+   22    RCC Tigers                          1          0       10392
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      *        1   2:53:12
+         4      -        0   0:00:00
+         5      -        1   4:39:13
+         6      -        0   0:00:00
+      
+   23    C-Siders                            1          1       11399
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        2   2:49:59
+         6      -        0   0:00:00
+      
+   24    PLNU Green                          1          0       12014
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      -        6   4:38:29
+         5      *        1   3:20:14
+         6      -        0   0:00:00
+      
+   25    CSUN Matadors                       1          0       12288
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        1   3:24:48
+         6      -        0   0:00:00
+      
+   26    Harvey Mudd College Team 2038       1          3       13212
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        2   3:41:43
+         4      -        3   4:44:38
+         5      *        4   2:40:12
+         6      -        0   0:00:00
+      
+   27    Az = MT^2                           1          1       13363
+         #   Solved   Runs      Time
+         1      -        2   4:29:44
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        2   3:22:43
+         6      -        0   0:00:00
+      
+   28    The Wizards of Az                   1          2       15382
+         #   Solved   Runs      Time
+         1      -        5   4:56:52
+         2      -        0   0:00:00
+         3      *        3   3:36:22
+         4      -        0   0:00:00
+         5      -        0   0:00:00
+         6      -        0   0:00:00
+      
+   29    CSUSB Coyotes                       1          3       17054
+         #   Solved   Runs      Time
+         1      -        0   0:00:00
+         2      -        0   0:00:00
+         3      -        0   0:00:00
+         4      -        0   0:00:00
+         5      *        4   3:44:14
+         6      -        0   0:00:00
+      
+      
+
+ Summary of Solutions by Problem:
+ 
+ #   Solutions   Attempts   Percentage
+ 1        9         45         20.0
+ 2        7         25         28.0
+ 3       16         30         53.3
+ 4       10         34         29.4
+ 5       24         92         26.1
+ 6        4         11         36.4
+ 
+ 70 solutions out of 237 attempts, overall success rate of  29.5%
+</PRE>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: details-1998.shtml 40 2007-10-03 06:01:36Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Fri, 05-Oct-2007 21:50:17 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 1998 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

@@ -1,0 +1,113 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/1997/results-1997.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/1997/results-1997.shtml">http://socalcontest.org/history/1997/results-1997.shtml</a> (content as captured 2007-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-1997.html">socal-1997</a>)  <a href="https://web.archive.org/web/20071209101913/http://socalcontest.org/history/1997/results-1997.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast1997.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 16-Nov-1997</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-1997.shtml 40 2007-10-03 06:01:36Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<H2>1997 Southern California Winners</H2>
+</center>
+
+<center>
+<TABLE BORDER>
+<TR><TD ALIGN=RIGHT>Place</TD><TD ALIGN=RIGHT>Team</TD><TD ALIGN=RIGHT>Institution</TD><TD ALIGN=RIGHT>Solved</TD><TD ALIGN=RIGHT>Penalties</TD><TD ALIGN=RIGHT>Score<br>(seconds)</TD></TR>
+
+<TR><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>HMC #1</TD><TD ALIGN=RIGHT>Harvey Mudd</TD><TD ALIGN=RIGHT>5</TD><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>50613</TD></TR>
+
+<TR><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>Caltech2</TD><TD ALIGN=RIGHT>Caltech</TD><TD ALIGN=RIGHT>4</TD><TD ALIGN=RIGHT>3</TD><TD ALIGN=RIGHT>45130</TD></TR>
+
+<TR><TD ALIGN=RIGHT>3</TD><TD ALIGN=RIGHT>UCLA Blue</TD><TD ALIGN=RIGHT>UCLA</TD><TD ALIGN=RIGHT>4</TD><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>45452</TD></TR>
+
+<TR><TD ALIGN=RIGHT>4</TD><TD ALIGN=RIGHT>Caltech 1</TD><TD ALIGN=RIGHT>Caltech</TD><TD ALIGN=RIGHT>4</TD><TD ALIGN=RIGHT>4</TD><TD ALIGN=RIGHT>53500</TD></TR>
+
+<TR><TD ALIGN=RIGHT>5</TD><TD ALIGN=RIGHT>UCI Blue</TD><TD ALIGN=RIGHT>UC, Irvine</TD><TD ALIGN=RIGHT>3</TD><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>41811</TD></TR>
+
+<TR><TD ALIGN=RIGHT>6</TD><TD ALIGN=RIGHT>HMC #2</TD><TD ALIGN=RIGHT>Harvey Mudd</TD><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>0</TD><TD ALIGN=RIGHT>26540</TD></TR>
+
+<TR><TD ALIGN=RIGHT>7</TD><TD ALIGN=RIGHT>UNLV</TD><TD ALIGN=RIGHT>Univ. of Nevada, Las Vegas</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>0</TD><TD ALIGN=RIGHT>3624</TD></TR>
+
+<TR><TD ALIGN=RIGHT>8</TD><TD ALIGN=RIGHT>UCLA Bruins</TD><TD ALIGN=RIGHT>UCLA</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>0</TD><TD ALIGN=RIGHT>5510</TD></TR>
+
+<TR><TD ALIGN=RIGHT>9</TD><TD ALIGN=RIGHT>beach2</TD><TD ALIGN=RIGHT>CSU, Long Beach</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>11179</TD></TR>
+
+<TR><TD ALIGN=RIGHT>10</TD><TD ALIGN=RIGHT>Pomona White</TD><TD ALIGN=RIGHT>Pomona College</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>12168</TD></TR>
+
+<TR><TD ALIGN=RIGHT>11</TD><TD ALIGN=RIGHT>HMC #3</TD><TD ALIGN=RIGHT>Harvey Mudd</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>12628</TD></TR>
+
+<TR><TD ALIGN=RIGHT>12</TD><TD ALIGN=RIGHT>DX3</TD><TD ALIGN=RIGHT>Univ. of So. Ca.</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>12734</TD></TR>
+
+<TR><TD ALIGN=RIGHT>13</TD><TD ALIGN=RIGHT>Wai Abey why?</TD><TD ALIGN=RIGHT>UC, Riverside</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>0</TD><TD ALIGN=RIGHT>13509</TD></TR>
+
+<TR><TD ALIGN=RIGHT>14</TD><TD ALIGN=RIGHT>UCSD Team II</TD><TD ALIGN=RIGHT>UC, San Diego</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>2</TD><TD ALIGN=RIGHT>13572</TD></TR>
+
+<TR><TD ALIGN=RIGHT>15</TD><TD ALIGN=RIGHT>CSAR</TD><TD ALIGN=RIGHT>Cal Poly Pomona</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>14386</TD></TR>
+
+<TR><TD ALIGN=RIGHT>16</TD><TD ALIGN=RIGHT>Beefcake</TD><TD ALIGN=RIGHT>Cal Poly SLO</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>0</TD><TD ALIGN=RIGHT>14581</TD></TR>
+
+<TR><TD ALIGN=RIGHT>17</TD><TD ALIGN=RIGHT>C-Siders</TD><TD ALIGN=RIGHT>BYU, Hawaii</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>1</TD><TD ALIGN=RIGHT>16911</TD></TR>
+</TABLE>
+<center>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-1997.shtml 40 2007-10-03 06:01:36Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Fri, 05-Oct-2007 21:50:15 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 1997 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

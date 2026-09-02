@@ -1,0 +1,55 @@
+/* $Id: printerfriendly.css 12548 2012-10-13 10:35:30Z pwerken $ */
+
+pre {
+  font-family: monospace;
+}
+
+body {
+	color: black;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.noprint {
+	display: none;
+}
+
+/* override de default styles: zet alle fluff niet in de print,
+ * en laat de rest vanaf linksboven beginnen. */
+.loginpart, .login, .knoppen, .leftmenu, .topbar, .corner, .rightbar, .languageflags {
+	display: none;
+}
+div.pagetitle, div.topbar, div.pagecontent {
+	left: 0; right: 0;
+	float: none;
+}
+div.pagetitle, div.topbar, body>div.topbar {
+	height: 2em;
+}
+div.pagecontent {
+	top: 3em;
+}
+
+.keyword {
+	color: white;
+	background-color: black;
+}
+
+.bw_voorraad {
+	font-family: monospace;
+}
+.bw_lev {
+	text-decoration: underline;
+}
+.bw_discr {
+	font-weight: bold;
+}
+.bw_ok {
+	font-weight: bold;
+}
+.bw_virt {
+	color: gray;
+}
+

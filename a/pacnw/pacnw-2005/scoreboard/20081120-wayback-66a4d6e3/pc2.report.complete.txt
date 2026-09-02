@@ -1,0 +1,995 @@
+CSUS Programming Contest Control System
+Version 8.7 20051021 04 (October 21st, 2005 4:50pm)
+Date: Mon Nov 21 20:01:06 PST 2005
+Report from site 1 (UOP)
+Contest started Sat Nov 05 10:56:51 PST 2005
+Contest running false
+Contest stopped Sat Nov 05 15:56:53 PST 2005
+Contest elapsed 05:00:02
+Contest length  05:00:00
+
+Next Team ID      : 28
+Next Judge ID     : 11
+Next CJ ID        : 1
+Next Board ID     : 2
+Next Admin ID     : 2
+Next Run ID       : 212
+Next Clar ID      : 15
+Reset Contest ID  : ReSetId20051105040732
+
+
+Contest Data (options) 
+ Stop Team View Run Time: 300
+            Show Judges : Team Numbers only
+
+
+-- Teams --
+
+1:1 :team1 :Static cast (CSU Chico) INACTIVE
+1:2 :team2 :DVC Inquirers (DVC)
+1:3 :team3 :Berkeley Gold (Berkeley)
+1:4 :team4 :The 14-Packet Hackers (Pacific)
+1:5 :team5 :UNR Blue (UNR)
+1:6 :team6 :Davis Gold (UC Davis)
+1:7 :team7 :CyberSlugs 1 (UCSC)
+1:8 :team8 :Uninitialized Arrays (Sacramento State)
+1:9 :team9 :Chunky Monkey Wrenches (Pacific)
+1:10 :team10 :Red (Stanford)
+1:11 :team11 :George Fox White (George Fox)
+1:12 :team12 :Berkeley Radicals (Berkeley)
+1:13 :team13 : Spartans (SJSU)
+1:14 :team14 :Gold (HSU)
+1:15 :team15 :Zero Wing (CSU Chico)
+1:16 :team16 :George Fox Blue (George Fox)
+1:17 :team17 :Hornet 1 (Sacramento State)
+1:18 :team18 :HSU Jacks 2 (HSU)
+1:19 :team19 :Berkeley Blue (Berkeley)
+1:20 :team20 :Davis Blue (UC Davis)
+1:21 :team21 :C-Wolves (SSU) INACTIVE
+1:22 :team22 :UNR Silver (UNR)
+1:23 :team23 :DVC Vikings (DVC)
+1:24 :team24 :White (Stanford)
+1:25 :team25 :George Fox Gold (George Fox)
+1:26 :team26 :Hornet 2 (Sacramento State)
+1:27 :team27 :Pillsbury Doughertys (Pacific)
+2:1 :team1 :Cal State Fresno Bulldogs (CSUFresno)
+2:2 :team2 :staticcast (CSU Chico) INACTIVE
+2:3 :team3 :DigiPen Blue (DigiPen)
+2:4 :team4 :DigiPen Grey (DigiPen)
+2:5 :team5 :DigiPen Red (DigiPen)
+2:6 :team6 :Eagle Black (EWU)
+2:7 :team7 :Eagle Red (EWU)
+2:8 :team8 :Eagle White (EWU)
+2:9 :team9 :Zag1 (Gonzaga)
+2:10 :team10 :Zag2 (Gonzaga)
+2:11 :team11 :busy beavers (OSU)
+2:12 :team12 :Lute Black (PLU)
+2:13 :team13 :Lute Gold (PLU)
+2:14 :team14 :PSU Vikings (Portland State)
+2:15 :team15 :Deschutes (U of Oregon)
+2:16 :team16 :McKenzie (U of Oregon)
+2:17 :team17 :Willamette (U of Oregon)
+2:18 :team18 :UP Havok (UP)
+2:19 :team19 :UP Purple Programmers (UP)
+2:20 :team20 :UP yours (UP)
+2:21 :team21 :UPS Maroon (UPS)
+2:22 :team22 :UPS White (UPS)
+2:23 :team23 :UW: Little Man Davis (Washington)
+2:24 :team24 :UW: Nanobytes (Washington)
+2:25 :team25 :UW: Team Minion (Washington)
+2:26 :team26 :Team JIT (WOU)
+2:27 :team27 :the turing-incompetent (WWU)
+2:28 :team28 :VINDIESEL.ASM (WWU)
+2:29 :team29 :Whitworth O(cot n) (Whitworth)
+2:30 :team30 :Whitworth O(n!) (Whitworth)
+2:31 :team31 :Whitworth O(n^n) (Whitworth)
+2:32 :team32 :easy beavers (OSU)
+2:33 :team33 :team33 INACTIVE
+2:34 :team34 :team34 INACTIVE
+3:1 :team1 :TWU BLUE (Trinity Western)
+3:2 :team2 :SFU Red (Simon Fraser U)
+3:3 :team3 :UBC ^ (UBC)
+3:4 :team4 :TWU GOLD (Trinity Western)
+3:5 :team5 :SFU Blue (Simon Fraser U)
+3:6 :team6 :UBC * (UBC)
+3:7 :team7 :SFU White (Simon Fraser U)
+3:8 :team8 :UBC + (UBC)
+3:9 :team9 :unused Canada 9 INACTIVE
+3:10 :team10 :unused Canada 10 INACTIVE
+4:1 :team1 :Aloha1 (BYU Hawaii)
+4:2 :team2 :Aloha2 (BYU Hawaii)
+4:3 :team3 :Aloha3 (BYU Hawaii)
+4:4 :team4 :Depth First Search (HPU)
+4:5 :team5 :Divide and Conquer (HPU)
+4:6 :team6 :Branch and Bound (HPU)
+4:7 :team7 :Bierman (UHH)
+4:8 :team8 :puckett (UHH)
+4:9 :team9 :CSDL (UH Manoa)
+4:10 :team10 :team10 INACTIVE
+4:11 :team11 :team11 INACTIVE
+4:12 :team12 :team12 INACTIVE
+4:13 :team13 :team13 INACTIVE
+4:14 :team14 :team14 INACTIVE
+4:15 :team15 :team15 INACTIVE
+-- Languages --
+Language 1
+   version      : 2
+   (Site Info)  : null:1
+   display name : Java
+   compiler cmd : javac {:mainfile}
+   executble ext: {:basename}.class
+   source exts  : 
+   EXE cmdline  : java {:basename}
+Language 2
+   version      : 2
+   (Site Info)  : null:2
+   display name : GNU C
+   compiler cmd : gcc -lm -o {:basename} {:mainfile}
+   executble ext: {:basename}
+   source exts  : 
+   EXE cmdline  : ./{:basename}
+Language 3
+   version      : 3
+   (Site Info)  : null:3
+   display name : GNU C++
+   compiler cmd : g++ -lm -o {:basename} {:mainfile}
+   executble ext: {:basename}
+   source exts  : 
+   EXE cmdline  : ./{:basename}
+
+-- Problems --
+
+A A - Single Digit Adder
+   revision       : 2
+   (Site Info)    : null:1
+   Balloon Color  : RED
+   goToChiefJudge : No
+   datafile       : a.in
+   ans filename   : a.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : a.in
+   Path      1    : /root/files/a.in
+   MD5       1    : 32-7585-116-11853-60-52675577-8620112-8-126-51-867548
+    Ans data 1    : a.out
+   Path      1    : /root/files/a.out
+   MD5       1    : 3874-191-9490-111-24-889825122-51-90-44-8564115-7543
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+B B - Connect
+   revision       : 2
+   (Site Info)    : null:2
+   Balloon Color  : WHITE
+   goToChiefJudge : No
+   datafile       : b.in
+   ans filename   : b.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : b.in
+   Path      1    : /root/files/b.in
+   MD5       1    : -54-44-618-118-31-46-102-39-129620-8378076861139399
+    Ans data 1    : b.out
+   Path      1    : /root/files/b.out
+   MD5       1    : -123212-12077-77-33-7-1916-113-123-87-1539-56103-85-93
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+C C - Consecutive Digits in Rational Number
+   revision       : 2
+   (Site Info)    : null:3
+   Balloon Color  : LIGHT BLUE
+   goToChiefJudge : No
+   datafile       : c.in
+   ans filename   : c.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : c.in
+   Path      1    : /root/files/c.in
+   MD5       1    : -123-101-5426-89-105-4776125644643-2101-11697-2789-127105
+    Ans data 1    : c.out
+   Path      1    : /root/files/c.out
+   MD5       1    : 12541-7892-21793-773339-15-40-70-1100-1192729-73-68
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+D D - Constant Irritation
+   revision       : 3
+   (Site Info)    : null:4
+   Balloon Color  : GREEN
+   goToChiefJudge : No
+   datafile       : d.in
+   ans filename   : d.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : d.in
+   Path      1    : /root/files/d.in
+   MD5       1    : 382671144183280126-512159812119-6-115-115-106122
+    Ans data 1    : d.out
+   Path      1    : /root/files/d.out
+   MD5       1    : -105177223-25-4912483-126-66-65-25-817-82120-66-45-75-54
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+E E - If only I could think Linearly...
+   revision       : 2
+   (Site Info)    : null:5
+   Balloon Color  : ORANGE
+   goToChiefJudge : No
+   datafile       : e.in
+   ans filename   : e.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : e.in
+   Path      1    : /root/files/e.in
+   MD5       1    : -48-99-33-10630-54-803091-49-6561-99-39105113201340-8
+    Ans data 1    : e.out
+   Path      1    : /root/files/e.out
+   MD5       1    : 8-7053-40-4352110-75-93-81-8-18619-311230-79-58-11
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+F F - Leaping Lizards
+   revision       : 2
+   (Site Info)    : null:6
+   Balloon Color  : YELLOW
+   goToChiefJudge : No
+   datafile       : f.in
+   ans filename   : f.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : f.in
+   Path      1    : /root/files/f.in
+   MD5       1    : -5-9040-3310274-599512137-1058118-6115-34-7-10416-27
+    Ans data 1    : f.out
+   Path      1    : /root/files/f.out
+   MD5       1    : -79-103-7994-742824939-5190-1046039-58217-11-10116
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+G G - Pascal's Travels
+   revision       : 2
+   (Site Info)    : null:7
+   Balloon Color  : PURPLE
+   goToChiefJudge : No
+   datafile       : g.in
+   ans filename   : g.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : g.in
+   Path      1    : /root/files/g.in
+   MD5       1    : 4792-73-35-1173694-8132-2314-9440-122-98881979175
+    Ans data 1    : g.out
+   Path      1    : /root/files/g.out
+   MD5       1    : 8041117-37-129693-105-351103897-16-124121-631311881-29
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+H H - Job Scheduling by Open Bidding
+   revision       : 2
+   (Site Info)    : null:8
+   Balloon Color  : PINK
+   goToChiefJudge : No
+   datafile       : h.in
+   ans filename   : h.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : h.in
+   Path      1    : /root/files/h.in
+   MD5       1    : -9-101-59-6595102-87-2868-97-406114-6122110-36-127-91-35
+    Ans data 1    : h.out
+   Path      1    : /root/files/h.out
+   MD5       1    : -83-6-117-5156-41-37-94-125-46121-33-3860-14733-53109-100
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+I I - Who needs 8 Queens when you have N?
+   revision       : 3
+   (Site Info)    : null:9
+   Balloon Color  : GREY
+   goToChiefJudge : No
+   datafile       : i.in
+   ans filename   : i.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : Vqueen
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : true
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : i.in
+   Path      1    : /root/files/i.in
+   MD5       1    : -1380-115-90106122-991178465-65-21-21-96-108-721112155-69
+    Ans data 1    : i.out
+   Path      1    : /root/files/i.out
+   MD5       1    : 93-108116-6448-101124-96-1022445-120-113115-77122-113-315444
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+J J - Time to Graduate
+   revision       : 2
+   (Site Info)    : null:10
+   Balloon Color  : DARK BLUE
+   goToChiefJudge : No
+   datafile       : j.in
+   ans filename   : j.out
+   time out limit : 120 secs.
+   Scoring type   : Standard
+
+   Do validation  : true
+   Validator Prog : gvim.sh
+   Validator Cmd  : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+   Data from stdin: false
+   svtj           : false
+   Using Int      : false
+   Using PC^2     : false
+   Using Ignore   : false 0
+
+   Test data 1    : j.in
+   Path      1    : /root/files/j.in
+   MD5       1    : -10-76-1032414-267097493-115-112-78-8549105-62-11820109
+    Ans data 1    : j.out
+   Path      1    : /root/files/j.out
+   MD5       1    : 10-822043-48-128-3311699-96127-3346-86211032-11115-71
+
+   Aux  data      : none defined
+
+      Id : 1 Cat Name: MMFR Weight : 0
+       Judgement type: Boolean Range [ 0 - 1]
+
+
+-- Balloon Colors --
+color information for board1 from site 1
+color information for site 1
+board.prob1Color=RED
+board.prob2Color=WHITE
+board.prob3Color=LIGHT BLUE
+board.prob4Color=GREEN
+board.prob5Color=ORANGE
+board.prob6Color=YELLOW
+board.prob7Color=PURPLE
+board.prob8Color=PINK
+board.prob9Color=GREY
+board.prob10Color=DARK BLUE
+color information for site 2
+board.prob1Color=RED
+board.prob2Color=WHITE
+board.prob3Color=LIGHT BLUE
+board.prob4Color=GREEN
+board.prob5Color=ORANGE
+board.prob6Color=YELLOW
+board.prob7Color=PURPLE
+board.prob8Color=PINK
+board.prob9Color=GREY
+board.prob10Color=DARK BLUE
+color information for site 3
+board.prob1Color=RED
+board.prob2Color=WHITE
+board.prob3Color=LIGHT BLUE
+board.prob4Color=GREEN
+board.prob5Color=ORANGE
+board.prob6Color=YELLOW
+board.prob7Color=PURPLE
+board.prob8Color=PINK
+board.prob9Color=GREY
+board.prob10Color=DARK BLUE
+color information for site 4
+board.prob1Color=RED
+board.prob2Color=WHITE
+board.prob3Color=LIGHT BLUE
+board.prob4Color=GREEN
+board.prob5Color=ORANGE
+board.prob6Color=YELLOW
+board.prob7Color=PURPLE
+board.prob8Color=PINK
+board.prob9Color=GREY
+board.prob10Color=DARK BLUE
+color information for site 5
+no colors defined
+color information for board1 from site 4
+color information for site 1
+no colors defined
+color information for site 2
+no colors defined
+color information for site 3
+no colors defined
+color information for site 4
+no colors defined
+color information for site 5
+no colors defined
+
+-- Judgements --
+There are 10 judgements names
+Judgement:0:Yes
+Judgement:1:No - Syntax Error
+Judgement:2:No - Run-time Error
+Judgement:3:No - Time-limit Exceeded
+Judgement:4:No - Incorrect Output
+Judgement:5:No - Incomplete Output
+Judgement:6:No - Excessive Output
+Judgement:7:No - Output Format Error
+Judgement:8:No - Other - Contact Staff
+Judgement:9:No - Compilation Error
+
+-- Runs --
+run 1|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|18|rid ReSetId20051105040732|mmfr true|del? false|jt 20|jby Site 1 judge1|jci 0:Yes|
+run 2|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|20|rid ReSetId20051105040732|mmfr false|del? false|jt 21|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 3|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|22|rid ReSetId20051105040732|mmfr true|del? false|jt 54|jby Site 1 judge3|jci 0:Yes|
+run 4|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|23|rid ReSetId20051105040732|mmfr true|del? false|jt 24|jby Site 1 judge4|jci 0:Yes|
+run 5|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|27|rid ReSetId20051105040732|mmfr true|del? false|jt 28|jby Site 1 judge3|jci 0:Yes|
+run 6|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|29|rid ReSetId20051105040732|mmfr true|del? false|jt 35|jby Site 1 judge9|jci 0:Yes|
+run 7|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|33|rid ReSetId20051105040732|mmfr true|del? false|jt 33|jby Site 1 judge5|jci 0:Yes|
+run 8|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|36|rid ReSetId20051105040732|mmfr true|del? false|jt 36|jby Site 1 judge5|jci 0:Yes|
+run 9|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|37|rid ReSetId20051105040732|mmfr false|del? false|jt 38|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 10|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|45|rid ReSetId20051105040732|mmfr true|del? false|jt 49|jby Site 1 judge9|jci 0:Yes|
+run 11|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|53|rid ReSetId20051105040732|mmfr true|del? false|jt 55|jby Site 1 judge1|jci 0:Yes|
+run 12|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|54|rid ReSetId20051105040732|mmfr true|del? false|jt 55|jby Site 1 judge3|jci 0:Yes|
+run 13|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|56|rid ReSetId20051105040732|mmfr true|del? false|jt 57|jby Site 1 judge3|jci 0:Yes|
+run 14|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|58|rid ReSetId20051105040732|mmfr false|del? false|jt 61|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 15|site 1|proxy 0|team 9|Team9:Chunky Monkey Wrenches (Pacific)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|60|rid ReSetId20051105040732|mmfr false|del? false|jt 62|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 16|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|64|rid ReSetId20051105040732|mmfr false|del? false|jt 65|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 17|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|71|rid ReSetId20051105040732|mmfr true|del? false|jt 72|jby Site 1 judge4|jci 0:Yes|
+run 18|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|73|rid ReSetId20051105040732|mmfr false|del? false|jt 74|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 19|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|76|rid ReSetId20051105040732|mmfr false|del? false|jt 80|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 20|site 1|proxy 0|team 8|Team8:Uninitialized Arrays (Sacramento State)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|77|rid ReSetId20051105040732|mmfr true|del? false|jt 78|jby Site 1 judge10|jci 0:Yes|
+run 21|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|79|rid ReSetId20051105040732|mmfr false|del? false|jt 80|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 22|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|79|rid ReSetId20051105040732|mmfr false|del? false|jt 80|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 23|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|81|rid ReSetId20051105040732|mmfr false|del? false|jt 82|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 24|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|82|rid ReSetId20051105040732|mmfr false|del? false|jt 83|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 25|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|84|rid ReSetId20051105040732|mmfr false|del? false|jt 86|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 26|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|85|rid ReSetId20051105040732|mmfr false|del? false|jt 85|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 27|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|86|rid ReSetId20051105040732|mmfr true|del? false|jt 87|jby Site 1 judge9|jci 0:Yes|
+run 28|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|87|rid ReSetId20051105040732|mmfr false|del? false|jt 87|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 29|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|87|rid ReSetId20051105040732|mmfr false|del? false|jt 90|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 30|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|88|rid ReSetId20051105040732|mmfr true|del? false|jt 89|jby Site 1 judge1|jci 0:Yes|
+run 31|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|89|rid ReSetId20051105040732|mmfr true|del? false|jt 90|jby Site 1 judge3|jci 0:Yes|
+run 32|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|91|rid ReSetId20051105040732|mmfr true|del? false|jt 92|jby Site 1 judge1|jci 0:Yes|
+run 33|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|91|rid ReSetId20051105040732|mmfr true|del? false|jt 92|jby Site 1 judge3|jci 0:Yes|
+run 34|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|92|rid ReSetId20051105040732|mmfr true|del? false|jt 93|jby Site 1 judge2|jci 0:Yes|
+run 35|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|92|rid ReSetId20051105040732|mmfr false|del? false|jt 94|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 36|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|95|rid ReSetId20051105040732|mmfr true|del? false|jt 95|jby Site 1 judge5|jci 0:Yes|
+run 37|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|96|rid ReSetId20051105040732|mmfr false|del? false|jt 97|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 38|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|97|rid ReSetId20051105040732|mmfr true|del? false|jt 97|jby Site 1 judge2|jci 0:Yes|
+run 39|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|99|rid ReSetId20051105040732|mmfr false|del? false|jt 101|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 40|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|100|rid ReSetId20051105040732|mmfr true|del? false|jt 101|jby Site 1 judge1|jci 0:Yes|
+run 41|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|102|rid ReSetId20051105040732|mmfr false|del? false|jt 102|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 42|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|102|rid ReSetId20051105040732|mmfr true|del? false|jt 103|jby Site 1 judge9|jci 0:Yes|
+run 43|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|102|rid ReSetId20051105040732|mmfr false|del? false|jt 103|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 44|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|104|rid ReSetId20051105040732|mmfr false|del? false|jt 104|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 45|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|107|rid ReSetId20051105040732|mmfr false|del? false|jt 108|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 46|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|109|rid ReSetId20051105040732|mmfr true|del? false|jt 110|jby Site 1 judge2|jci 0:Yes|
+run 47|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|112|rid ReSetId20051105040732|mmfr false|del? false|jt 113|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 48|site 1|proxy 0|team 5|Team5:UNR Blue (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|116|rid ReSetId20051105040732|mmfr false|del? false|jt 116|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 49|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|116|rid ReSetId20051105040732|mmfr false|del? false|jt 118|jby Site 1 judge9|jci 5:No - Incomplete Output|
+run 50|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|117|rid ReSetId20051105040732|mmfr false|del? false|jt 118|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 51|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|119|rid ReSetId20051105040732|mmfr false|del? false|jt 119|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 52|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|120|rid ReSetId20051105040732|mmfr false|del? false|jt 122|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 53|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|121|rid ReSetId20051105040732|mmfr true|del? false|jt 121|jby Site 1 judge5|jci 0:Yes|
+run 54|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|121|rid ReSetId20051105040732|mmfr true|del? false|jt 121|jby Site 1 judge5|jci 0:Yes|
+run 55|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|123|rid ReSetId20051105040732|mmfr false|del? false|jt 124|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 56|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|124|rid ReSetId20051105040732|mmfr true|del? false|jt 125|jby Site 1 judge6|jci 0:Yes|
+run 57|site 1|proxy 0|team 5|Team5:UNR Blue (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|124|rid ReSetId20051105040732|mmfr false|del? false|jt 127|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 58|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|125|rid ReSetId20051105040732|mmfr false|del? false|jt 128|jby Site 1 judge5|jci 7:No - Output Format Error|
+run 59|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|127|rid ReSetId20051105040732|mmfr false|del? false|jt 128|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 60|site 1|proxy 0|team 27|Team27:Pillsbury Doughertys (Pacific)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|130|rid ReSetId20051105040732|mmfr true|del? false|jt 131|jby Site 1 judge2|jci 0:Yes|
+run 61|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|133|rid ReSetId20051105040732|mmfr false|del? false|jt 134|jby Site 1 judge5|jci 7:No - Output Format Error|
+run 62|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|135|rid ReSetId20051105040732|mmfr true|del? false|jt 136|jby Site 1 judge9|jci 0:Yes|
+run 63|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|136|rid ReSetId20051105040732|mmfr true|del? false|jt 137|jby Site 1 judge3|jci 0:Yes|
+run 64|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|140|rid ReSetId20051105040732|mmfr false|del? false|jt 142|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 65|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|140|rid ReSetId20051105040732|mmfr false|del? false|jt 143|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 66|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|143|rid ReSetId20051105040732|mmfr false|del? false|jt 143|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 67|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|143|rid ReSetId20051105040732|mmfr false|del? false|jt 144|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 68|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|145|rid ReSetId20051105040732|mmfr false|del? false|jt 146|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 69|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|145|rid ReSetId20051105040732|mmfr false|del? false|jt 146|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 70|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|150|rid ReSetId20051105040732|mmfr true|del? false|jt 150|jby Site 1 judge5|jci 0:Yes|
+run 71|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|152|rid ReSetId20051105040732|mmfr false|del? false|jt 152|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 72|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 9:I - Who needs 8 Queens when you have N?|lang 1:Java|os Linux|tocj false|jc true|sel false|153|rid ReSetId20051105040732|mmfr false|del? false|jt 154|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 73|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|156|rid ReSetId20051105040732|mmfr true|del? false|jt 156|jby Site 1 judge5|jci 0:Yes|
+run 74|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|160|rid ReSetId20051105040732|mmfr true|del? false|jt 160|jby Site 1 judge9|jci 0:Yes|
+run 75|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|160|rid ReSetId20051105040732|mmfr true|del? false|jt 160|jby Site 1 judge4|jci 0:Yes|
+run 76|site 1|proxy 0|team 27|Team27:Pillsbury Doughertys (Pacific)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|160|rid ReSetId20051105040732|mmfr false|del? false|jt 162|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 77|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|161|rid ReSetId20051105040732|mmfr false|del? false|jt 163|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 78|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|163|rid ReSetId20051105040732|mmfr false|del? false|jt 163|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 79|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|167|rid ReSetId20051105040732|mmfr false|del? false|jt 168|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 80|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|167|rid ReSetId20051105040732|mmfr false|del? false|jt 167|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 81|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|168|rid ReSetId20051105040732|mmfr false|del? false|jt 169|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 82|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|169|rid ReSetId20051105040732|mmfr false|del? false|jt 170|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 83|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|169|rid ReSetId20051105040732|mmfr false|del? false|jt 172|jby Site 1 judge1|jci 7:No - Output Format Error|
+run 84|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|170|rid ReSetId20051105040732|mmfr false|del? false|jt 171|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 85|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|174|rid ReSetId20051105040732|mmfr true|del? false|jt 174|jby Site 1 judge9|jci 0:Yes|
+run 86|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|174|rid ReSetId20051105040732|mmfr false|del? false|jt 177|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 87|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|174|rid ReSetId20051105040732|mmfr true|del? false|jt 175|jby Site 1 judge5|jci 0:Yes|
+run 88|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|175|rid ReSetId20051105040732|mmfr true|del? false|jt 176|jby Site 1 judge5|jci 0:Yes|
+run 89|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|176|rid ReSetId20051105040732|mmfr false|del? false|jt 177|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 90|site 1|proxy 0|team 27|Team27:Pillsbury Doughertys (Pacific)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|176|rid ReSetId20051105040732|mmfr false|del? false|jt 179|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 91|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|177|rid ReSetId20051105040732|mmfr false|del? false|jt 178|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 92|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|179|rid ReSetId20051105040732|mmfr true|del? false|jt 179|jby Site 1 judge9|jci 0:Yes|
+run 93|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|180|rid ReSetId20051105040732|mmfr true|del? false|jt 181|jby Site 1 judge2|jci 0:Yes|
+run 94|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|180|rid ReSetId20051105040732|mmfr false|del? false|jt 181|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 95|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|181|rid ReSetId20051105040732|mmfr true|del? false|jt 181|jby Site 1 judge4|jci 0:Yes|
+run 96|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|181|rid ReSetId20051105040732|mmfr false|del? false|jt 183|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 97|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|182|rid ReSetId20051105040732|mmfr true|del? false|jt 182|jby Site 1 judge9|jci 0:Yes|
+run 98|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|185|rid ReSetId20051105040732|mmfr false|del? false|jt 187|jby Site 1 judge6|jci 5:No - Incomplete Output|
+run 99|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|186|rid ReSetId20051105040732|mmfr false|del? false|jt 192|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 100|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|190|rid ReSetId20051105040732|mmfr false|del? false|jt 192|jby Site 1 judge2|jci 5:No - Incomplete Output|
+run 101|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|193|rid ReSetId20051105040732|mmfr true|del? false|jt 193|jby Site 1 judge8|jci 0:Yes|
+run 102|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|193|rid ReSetId20051105040732|mmfr false|del? false|jt 194|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 103|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|194|rid ReSetId20051105040732|mmfr false|del? false|jt 195|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 104|site 1|proxy 0|team 7|Team7:CyberSlugs 1 (UCSC)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|195|rid ReSetId20051105040732|mmfr false|del? false|jt 196|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 105|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|198|rid ReSetId20051105040732|mmfr false|del? false|jt 199|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 106|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|202|rid ReSetId20051105040732|mmfr false|del? false|jt 203|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 107|site 1|proxy 0|team 7|Team7:CyberSlugs 1 (UCSC)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|203|rid ReSetId20051105040732|mmfr false|del? false|jt 204|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 108|site 1|proxy 0|team 8|Team8:Uninitialized Arrays (Sacramento State)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|203|rid ReSetId20051105040732|mmfr false|del? false|jt 204|jby Site 1 judge1|jci 6:No - Excessive Output|
+run 109|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|204|rid ReSetId20051105040732|mmfr false|del? false|jt 205|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 110|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|209|rid ReSetId20051105040732|mmfr false|del? false|jt 210|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 111|site 1|proxy 0|team 13|Team13: Spartans (SJSU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|210|rid ReSetId20051105040732|mmfr true|del? false|jt 212|jby Site 1 judge4|jci 0:Yes|
+run 112|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|211|rid ReSetId20051105040732|mmfr false|del? false|jt 212|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 113|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|212|rid ReSetId20051105040732|mmfr false|del? false|jt 213|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 114|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|214|rid ReSetId20051105040732|mmfr true|del? false|jt 216|jby Site 1 judge6|jci 0:Yes|
+run 115|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|215|rid ReSetId20051105040732|mmfr false|del? false|jt 216|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 116|site 1|proxy 0|team 7|Team7:CyberSlugs 1 (UCSC)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|215|rid ReSetId20051105040732|mmfr false|del? false|jt 218|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 117|site 1|proxy 0|team 8|Team8:Uninitialized Arrays (Sacramento State)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|215|rid ReSetId20051105040732|mmfr true|del? false|jt 216|jby Site 1 judge8|jci 0:Yes|
+run 118|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|216|rid ReSetId20051105040732|mmfr true|del? false|jt 216|jby Site 1 judge5|jci 0:Yes|
+run 119|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|217|rid ReSetId20051105040732|mmfr false|del? false|jt 217|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 120|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|218|rid ReSetId20051105040732|mmfr true|del? false|jt 219|jby Site 1 judge10|jci 0:Yes|
+run 121|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|219|rid ReSetId20051105040732|mmfr false|del? false|jt 223|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 122|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|221|rid ReSetId20051105040732|mmfr false|del? false|jt 224|jby Site 1 judge6|jci 3:No - Time-limit Exceeded|
+run 123|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|222|rid ReSetId20051105040732|mmfr false|del? false|jt 226|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 124|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|222|rid ReSetId20051105040732|mmfr false|del? false|jt 225|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 125|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|223|rid ReSetId20051105040732|mmfr false|del? false|jt 225|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 126|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|225|rid ReSetId20051105040732|mmfr false|del? false|jt 227|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 127|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|229|rid ReSetId20051105040732|mmfr true|del? false|jt 230|jby Site 1 judge1|jci 0:Yes|
+run 128|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|229|rid ReSetId20051105040732|mmfr false|del? false|jt 229|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 129|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|229|rid ReSetId20051105040732|mmfr false|del? false|jt 231|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 130|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|233|rid ReSetId20051105040732|mmfr false|del? false|jt 233|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 131|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|234|rid ReSetId20051105040732|mmfr false|del? false|jt 236|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 132|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|236|rid ReSetId20051105040732|mmfr false|del? false|jt 237|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 133|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|237|rid ReSetId20051105040732|mmfr true|del? false|jt 238|jby Site 1 judge1|jci 0:Yes|
+run 134|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|238|rid ReSetId20051105040732|mmfr false|del? false|jt 240|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 135|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 5:E - If only I could think Linearly...|lang 1:Java|os Linux|tocj false|jc true|sel false|242|rid ReSetId20051105040732|mmfr true|del? false|jt 246|jby Site 1 judge2|jci 0:Yes|
+run 136|site 1|proxy 0|team 14|Team14:Gold (HSU)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|245|rid ReSetId20051105040732|mmfr false|del? false|jt 248|jby Site 1 judge2|jci 3:No - Time-limit Exceeded|
+run 137|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|246|rid ReSetId20051105040732|mmfr true|del? false|jt 247|jby Site 1 judge1|jci 0:Yes|
+run 138|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|250|rid ReSetId20051105040732|mmfr false|del? false|jt 251|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 139|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|251|rid ReSetId20051105040732|mmfr false|del? false|jt 252|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 140|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|251|rid ReSetId20051105040732|mmfr false|del? false|jt 252|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 141|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|253|rid ReSetId20051105040732|mmfr false|del? false|jt 253|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 142|site 1|proxy 0|team 25|Team25:George Fox Gold (George Fox)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|253|rid ReSetId20051105040732|mmfr false|del? false|jt 254|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 143|site 1|proxy 0|team 12|Team12:Berkeley Radicals (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|254|rid ReSetId20051105040732|mmfr true|del? false|jt 254|jby Site 1 judge1|jci 0:Yes|
+run 144|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 6:F - Leaping Lizards|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|254|rid ReSetId20051105040732|mmfr false|del? false|jt 256|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 145|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|254|rid ReSetId20051105040732|mmfr true|del? false|jt 255|jby Site 1 judge8|jci 0:Yes|
+run 146|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|255|rid ReSetId20051105040732|mmfr false|del? false|jt 259|jby Site 1 judge4|jci 3:No - Time-limit Exceeded|
+run 147|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|256|rid ReSetId20051105040732|mmfr false|del? false|jt 257|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 148|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|256|rid ReSetId20051105040732|mmfr false|del? false|jt 257|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 149|site 1|proxy 0|team 5|Team5:UNR Blue (UNR)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|256|rid ReSetId20051105040732|mmfr false|del? false|jt 257|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 150|site 1|proxy 0|team 6|Team6:Davis Gold (UC Davis)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051105040732|mmfr false|del? false|jt 257|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 151|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051105040732|mmfr false|del? false|jt 257|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 152|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051105040732|mmfr false|del? false|jt 260|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 153|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|258|rid ReSetId20051105040732|mmfr false|del? false|jt 261|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 154|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|262|rid ReSetId20051105040732|mmfr false|del? false|jt 265|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 155|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|264|rid ReSetId20051105040732|mmfr false|del? false|jt 265|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 156|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 5:E - If only I could think Linearly...|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|264|rid ReSetId20051105040732|mmfr true|del? false|jt 267|jby Site 1 judge3|jci 0:Yes|
+run 157|site 1|proxy 0|team 7|Team7:CyberSlugs 1 (UCSC)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|266|rid ReSetId20051105040732|mmfr false|del? false|jt 268|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 158|site 1|proxy 0|team 6|Team6:Davis Gold (UC Davis)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|270|rid ReSetId20051105040732|mmfr false|del? false|jt 271|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 159|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|270|rid ReSetId20051105040732|mmfr true|del? false|jt 271|jby Site 1 judge2|jci 0:Yes|
+run 160|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|270|rid ReSetId20051105040732|mmfr true|del? false|jt 271|jby Site 1 judge1|jci 0:Yes|
+run 161|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|275|rid ReSetId20051105040732|mmfr false|del? false|jt 275|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 162|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|275|rid ReSetId20051105040732|mmfr false|del? false|jt 276|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 163|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|276|rid ReSetId20051105040732|mmfr false|del? false|jt 276|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 164|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|276|rid ReSetId20051105040732|mmfr false|del? false|jt 276|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 165|site 1|proxy 0|team 10|Team10:Red (Stanford)|prob 6:F - Leaping Lizards|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|277|rid ReSetId20051105040732|mmfr false|del? false|jt 278|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 166|site 1|proxy 0|team 27|Team27:Pillsbury Doughertys (Pacific)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|279|rid ReSetId20051105040732|mmfr false|del? false|jt 280|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 167|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|280|rid ReSetId20051105040732|mmfr false|del? false|jt 281|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 168|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 9:I - Who needs 8 Queens when you have N?|lang 1:Java|os Linux|tocj false|jc true|sel false|280|rid ReSetId20051105040732|mmfr true|del? false|jt 282|jby Site 1 judge9|jci 0:Yes|
+run 169|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|282|rid ReSetId20051105040732|mmfr false|del? false|jt 287|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 170|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|283|rid ReSetId20051105040732|mmfr false|del? false|jt 284|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 171|site 1|proxy 0|team 8|Team8:Uninitialized Arrays (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|284|rid ReSetId20051105040732|mmfr false|del? false|jt 285|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 172|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|284|rid ReSetId20051105040732|mmfr false|del? false|jt 285|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 173|site 1|proxy 0|team 11|Team11:George Fox White (George Fox)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|286|rid ReSetId20051105040732|mmfr false|del? false|jt 287|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 174|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|286|rid ReSetId20051105040732|mmfr false|del? false|jt 287|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 175|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|287|rid ReSetId20051105040732|mmfr false|del? false|jt 287|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 176|site 1|proxy 0|team 9|Team9:Chunky Monkey Wrenches (Pacific)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|287|rid ReSetId20051105040732|mmfr false|del? false|jt 288|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 177|site 1|proxy 0|team 6|Team6:Davis Gold (UC Davis)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|289|rid ReSetId20051105040732|mmfr false|del? false|jt 289|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 178|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|289|rid ReSetId20051105040732|mmfr false|del? false|jt 290|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 179|site 1|proxy 0|team 8|Team8:Uninitialized Arrays (Sacramento State)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|290|rid ReSetId20051105040732|mmfr true|del? false|jt 290|jby Site 1 judge5|jci 0:Yes|
+run 180|site 1|proxy 0|team 27|Team27:Pillsbury Doughertys (Pacific)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|291|rid ReSetId20051105040732|mmfr false|del? false|jt 291|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 181|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|291|rid ReSetId20051105040732|mmfr true|del? false|jt 291|jby Site 1 judge5|jci 0:Yes|
+run 182|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 2:B - Connect|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|291|rid ReSetId20051105040732|mmfr false|del? false|jt 292|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 183|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|292|rid ReSetId20051105040732|mmfr false|del? false|jt 293|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 184|site 1|proxy 0|team 6|Team6:Davis Gold (UC Davis)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|292|rid ReSetId20051105040732|mmfr false|del? false|jt 293|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 185|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051105040732|mmfr true|del? false|jt 294|jby Site 1 judge4|jci 0:Yes|
+run 186|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051105040732|mmfr false|del? false|jt 296|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 187|site 1|proxy 0|team 20|Team20:Davis Blue (UC Davis)|prob 2:B - Connect|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051105040732|mmfr false|del? false|jt 294|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 188|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051105040732|mmfr false|del? false|jt 297|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 189|site 1|proxy 0|team 9|Team9:Chunky Monkey Wrenches (Pacific)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051105040732|mmfr false|del? false|jt 297|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 190|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 191|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 192|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|295|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge4|jci 3:No - Time-limit Exceeded|
+run 193|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|295|rid ReSetId20051105040732|mmfr false|del? false|jt 296|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 194|site 1|proxy 0|team 6|Team6:Davis Gold (UC Davis)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|295|rid ReSetId20051105040732|mmfr false|del? false|jt 297|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 195|site 1|proxy 0|team 22|Team22:UNR Silver (UNR)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|296|rid ReSetId20051105040732|mmfr false|del? false|jt 298|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 196|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|296|rid ReSetId20051105040732|mmfr false|del? false|jt 298|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 197|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051105040732|mmfr false|del? false|jt 297|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 198|site 1|proxy 0|team 26|Team26:Hornet 2 (Sacramento State)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051105040732|mmfr false|del? false|jt 297|jby Site 1 judge5|jci 1:No - Syntax Error|
+run 199|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051105040732|mmfr false|del? false|jt 298|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 200|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 201|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 202|site 1|proxy 0|team 2|Team2:DVC Inquirers (DVC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 203|site 1|proxy 0|team 4|Team4:The 14-Packet Hackers (Pacific)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge8|jci 3:No - Time-limit Exceeded|
+run 204|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 205|site 1|proxy 0|team 23|Team23:DVC Vikings (DVC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 206|site 1|proxy 0|team 17|Team17:Hornet 1 (Sacramento State)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 207|site 1|proxy 0|team 16|Team16:George Fox Blue (George Fox)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 208|site 1|proxy 0|team 24|Team24:White (Stanford)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 1:No - Syntax Error|
+run 209|site 1|proxy 0|team 19|Team19:Berkeley Blue (Berkeley)|prob 10:J - Time to Graduate|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|300|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 210|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|300|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 211|site 1|proxy 0|team 3|Team3:Berkeley Gold (Berkeley)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|300|rid ReSetId20051105040732|mmfr false|del? false|jt 300|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 1|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|23|rid ReSetId20051106061945|mmfr false|del? false|jt 25|jby Site 1 judge8|jci 5:No - Incomplete Output|
+run 2|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|29|rid ReSetId20051106061945|mmfr true|del? false|jt 29|jby Site 1 judge2|jci 0:Yes|
+run 3|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|29|rid ReSetId20051106061945|mmfr true|del? false|jt 30|jby Site 1 judge3|jci 0:Yes|
+run 4|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|30|rid ReSetId20051106061945|mmfr true|del? false|jt 31|jby Site 1 judge6|jci 0:Yes|
+run 5|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|31|rid ReSetId20051106061945|mmfr false|del? false|jt 31|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 6|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|39|rid ReSetId20051106061945|mmfr false|del? false|jt 40|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 7|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|40|rid ReSetId20051106061945|mmfr true|del? false|jt 41|jby Site 1 judge3|jci 0:Yes|
+run 8|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|41|rid ReSetId20051106061945|mmfr false|del? false|jt 50|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 9|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|44|rid ReSetId20051106061945|mmfr false|del? false|jt 48|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 10|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|47|rid ReSetId20051106061945|mmfr true|del? false|jt 49|jby Site 1 judge1|jci 0:Yes|
+run 11|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|54|rid ReSetId20051106061945|mmfr false|del? false|jt 57|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 12|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|58|rid ReSetId20051106061945|mmfr false|del? false|jt 58|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 13|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|58|rid ReSetId20051106061945|mmfr true|del? false|jt 59|jby Site 1 judge5|jci 0:Yes|
+run 14|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|58|rid ReSetId20051106061945|mmfr false|del? false|jt 65|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 15|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|59|rid ReSetId20051106061945|mmfr true|del? false|jt 60|jby Site 1 judge9|jci 0:Yes|
+run 16|site 2|proxy 0|team 19|Team19:UP Purple Programmers (UP)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|60|rid ReSetId20051106061945|mmfr false|del? false|jt 61|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 17|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|62|rid ReSetId20051106061945|mmfr true|del? false|jt 63|jby Site 1 judge4|jci 0:Yes|
+run 18|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|63|rid ReSetId20051106061945|mmfr false|del? false|jt 65|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 19|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|65|rid ReSetId20051106061945|mmfr false|del? false|jt 66|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 20|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|65|rid ReSetId20051106061945|mmfr false|del? false|jt 66|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 21|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|66|rid ReSetId20051106061945|mmfr false|del? false|jt 68|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 22|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|67|rid ReSetId20051106061945|mmfr false|del? false|jt 67|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 23|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|67|rid ReSetId20051106061945|mmfr false|del? false|jt 69|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 24|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|68|rid ReSetId20051106061945|mmfr false|del? false|jt 72|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 25|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|69|rid ReSetId20051106061945|mmfr false|del? false|jt 71|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 26|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|69|rid ReSetId20051106061945|mmfr false|del? false|jt 70|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 27|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|69|rid ReSetId20051106061945|mmfr false|del? false|jt 72|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 28|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|70|rid ReSetId20051106061945|mmfr false|del? false|jt 71|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 29|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|71|rid ReSetId20051106061945|mmfr false|del? false|jt 72|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 30|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|73|rid ReSetId20051106061945|mmfr true|del? false|jt 74|jby Site 1 judge1|jci 0:Yes|
+run 31|site 2|proxy 0|team 10|Team10:Zag2 (Gonzaga)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|75|rid ReSetId20051106061945|mmfr false|del? false|jt 77|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 32|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|77|rid ReSetId20051106061945|mmfr false|del? false|jt 85|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 33|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|79|rid ReSetId20051106061945|mmfr false|del? false|jt 81|jby Site 1 judge2|jci 6:No - Excessive Output|
+run 34|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|79|rid ReSetId20051106061945|mmfr true|del? false|jt 81|jby Site 1 judge10|jci 0:Yes|
+run 35|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|79|rid ReSetId20051106061945|mmfr false|del? false|jt 80|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 36|site 2|proxy 0|team 10|Team10:Zag2 (Gonzaga)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|81|rid ReSetId20051106061945|mmfr false|del? false|jt 82|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 37|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|84|rid ReSetId20051106061945|mmfr true|del? false|jt 86|jby Site 1 judge9|jci 0:Yes|
+run 38|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|85|rid ReSetId20051106061945|mmfr true|del? false|jt 86|jby Site 1 judge10|jci 0:Yes|
+run 39|site 2|proxy 0|team 5|Team5:DigiPen Red (DigiPen)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|86|rid ReSetId20051106061945|mmfr true|del? false|jt 86|jby Site 1 judge1|jci 0:Yes|
+run 40|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|87|rid ReSetId20051106061945|mmfr false|del? false|jt 89|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 41|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|92|rid ReSetId20051106061945|mmfr false|del? false|jt 95|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 42|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|92|rid ReSetId20051106061945|mmfr false|del? false|jt 93|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 43|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|94|rid ReSetId20051106061945|mmfr true|del? false|jt 95|jby Site 1 judge2|jci 0:Yes|
+run 44|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|95|rid ReSetId20051106061945|mmfr true|del? false|jt 96|jby Site 1 judge9|jci 0:Yes|
+run 45|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|96|rid ReSetId20051106061945|mmfr false|del? false|jt 97|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 46|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|98|rid ReSetId20051106061945|mmfr false|del? false|jt 102|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 47|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|99|rid ReSetId20051106061945|mmfr false|del? false|jt 102|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 48|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|100|rid ReSetId20051106061945|mmfr false|del? false|jt 101|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 49|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|101|rid ReSetId20051106061945|mmfr false|del? false|jt 102|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 50|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|103|rid ReSetId20051106061945|mmfr false|del? false|jt 104|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 51|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|105|rid ReSetId20051106061945|mmfr true|del? false|jt 106|jby Site 1 judge2|jci 0:Yes|
+run 52|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|108|rid ReSetId20051106061945|mmfr false|del? false|jt 110|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 53|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|108|rid ReSetId20051106061945|mmfr false|del? false|jt 111|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 54|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|110|rid ReSetId20051106061945|mmfr false|del? false|jt 110|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 55|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|110|rid ReSetId20051106061945|mmfr false|del? false|jt 113|jby Site 1 judge9|jci 5:No - Incomplete Output|
+run 56|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|111|rid ReSetId20051106061945|mmfr false|del? false|jt 113|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 57|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|111|rid ReSetId20051106061945|mmfr true|del? false|jt 112|jby Site 1 judge2|jci 0:Yes|
+run 58|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|111|rid ReSetId20051106061945|mmfr true|del? false|jt 112|jby Site 1 judge5|jci 0:Yes|
+run 59|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|115|rid ReSetId20051106061945|mmfr false|del? false|jt 117|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 60|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|116|rid ReSetId20051106061945|mmfr false|del? false|jt 117|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 61|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|122|rid ReSetId20051106061945|mmfr false|del? false|jt 123|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 62|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 5:E - If only I could think Linearly...|lang 1:Java|os Linux|tocj false|jc true|sel false|123|rid ReSetId20051106061945|mmfr false|del? false|jt 125|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 63|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|123|rid ReSetId20051106061945|mmfr true|del? false|jt 124|jby Site 1 judge9|jci 0:Yes|
+run 64|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|125|rid ReSetId20051106061945|mmfr false|del? false|jt 125|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 65|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|125|rid ReSetId20051106061945|mmfr false|del? false|jt 126|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 66|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|125|rid ReSetId20051106061945|mmfr false|del? false|jt 126|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 67|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|127|rid ReSetId20051106061945|mmfr false|del? false|jt 128|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 68|site 2|proxy 0|team 16|Team16:McKenzie (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|131|rid ReSetId20051106061945|mmfr false|del? false|jt 131|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 69|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|131|rid ReSetId20051106061945|mmfr false|del? false|jt 133|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 70|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|134|rid ReSetId20051106061945|mmfr false|del? false|jt 137|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 71|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|137|rid ReSetId20051106061945|mmfr false|del? false|jt 138|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 72|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|137|rid ReSetId20051106061945|mmfr false|del? false|jt 138|jby Site 1 judge5|jci 5:No - Incomplete Output|
+run 73|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|139|rid ReSetId20051106061945|mmfr false|del? false|jt 140|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 74|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|139|rid ReSetId20051106061945|mmfr true|del? false|jt 140|jby Site 1 judge10|jci 0:Yes|
+run 75|site 2|proxy 0|team 5|Team5:DigiPen Red (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|139|rid ReSetId20051106061945|mmfr false|del? false|jt 143|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 76|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|140|rid ReSetId20051106061945|mmfr false|del? false|jt 142|jby Site 1 judge2|jci 7:No - Output Format Error|
+run 77|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|141|rid ReSetId20051106061945|mmfr false|del? false|jt 142|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 78|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|142|rid ReSetId20051106061945|mmfr false|del? false|jt 144|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 79|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|144|rid ReSetId20051106061945|mmfr false|del? false|jt 145|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 80|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|144|rid ReSetId20051106061945|mmfr false|del? false|jt 144|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 81|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|144|rid ReSetId20051106061945|mmfr false|del? false|jt 145|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 82|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|145|rid ReSetId20051106061945|mmfr false|del? false|jt 147|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 83|site 2|proxy 0|team 7|Team7:Eagle Red (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|146|rid ReSetId20051106061945|mmfr false|del? false|jt 148|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 84|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|147|rid ReSetId20051106061945|mmfr false|del? false|jt 147|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 85|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|147|rid ReSetId20051106061945|mmfr true|del? false|jt 149|jby Site 1 judge10|jci 0:Yes|
+run 86|site 2|proxy 0|team 7|Team7:Eagle Red (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|149|rid ReSetId20051106061945|mmfr false|del? false|jt 150|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 87|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|151|rid ReSetId20051106061945|mmfr true|del? false|jt 153|jby Site 1 judge3|jci 0:Yes|
+run 88|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|151|rid ReSetId20051106061945|mmfr false|del? false|jt 152|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 89|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|151|rid ReSetId20051106061945|mmfr false|del? false|jt 154|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 90|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|158|rid ReSetId20051106061945|mmfr true|del? false|jt 159|jby Site 1 judge1|jci 0:Yes|
+run 91|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|159|rid ReSetId20051106061945|mmfr false|del? false|jt 160|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 92|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|159|rid ReSetId20051106061945|mmfr false|del? false|jt 165|jby Site 1 judge1|jci 7:No - Output Format Error|
+run 93|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|159|rid ReSetId20051106061945|mmfr true|del? false|jt 160|jby Site 1 judge8|jci 0:Yes|
+run 94|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|160|rid ReSetId20051106061945|mmfr false|del? false|jt 162|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 95|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|162|rid ReSetId20051106061945|mmfr true|del? false|jt 165|jby Site 1 judge9|jci 0:Yes|
+run 96|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|163|rid ReSetId20051106061945|mmfr true|del? false|jt 164|jby Site 1 judge6|jci 0:Yes|
+run 97|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|164|rid ReSetId20051106061945|mmfr false|del? false|jt 164|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 98|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|165|rid ReSetId20051106061945|mmfr true|del? false|jt 167|jby Site 1 judge5|jci 0:Yes|
+run 99|site 2|proxy 0|team 16|Team16:McKenzie (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|165|rid ReSetId20051106061945|mmfr false|del? false|jt 167|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 100|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|167|rid ReSetId20051106061945|mmfr true|del? false|jt 168|jby Site 1 judge3|jci 0:Yes|
+run 101|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|170|rid ReSetId20051106061945|mmfr false|del? false|jt 171|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 102|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|171|rid ReSetId20051106061945|mmfr false|del? false|jt 172|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 103|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|172|rid ReSetId20051106061945|mmfr false|del? false|jt 173|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 104|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|173|rid ReSetId20051106061945|mmfr false|del? false|jt 173|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 105|site 2|proxy 0|team 14|Team14:PSU Vikings (Portland State)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|174|rid ReSetId20051106061945|mmfr false|del? false|jt 179|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 106|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|177|rid ReSetId20051106061945|mmfr false|del? false|jt 177|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 107|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|179|rid ReSetId20051106061945|mmfr false|del? false|jt 187|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 108|site 2|proxy 0|team 5|Team5:DigiPen Red (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|183|rid ReSetId20051106061945|mmfr true|del? false|jt 183|jby Site 1 judge5|jci 0:Yes|
+run 109|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|183|rid ReSetId20051106061945|mmfr false|del? false|jt 184|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 110|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|184|rid ReSetId20051106061945|mmfr false|del? false|jt 185|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 111|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|187|rid ReSetId20051106061945|mmfr false|del? false|jt 188|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 112|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|189|rid ReSetId20051106061945|mmfr false|del? false|jt 191|jby Site 1 judge1|jci 7:No - Output Format Error|
+run 113|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|189|rid ReSetId20051106061945|mmfr false|del? false|jt 191|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 114|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|189|rid ReSetId20051106061945|mmfr true|del? false|jt 190|jby Site 1 judge10|jci 0:Yes|
+run 115|site 2|proxy 0|team 1|Team1:Cal State Fresno Bulldogs (CSUFresno)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|191|rid ReSetId20051106061945|mmfr false|del? false|jt 192|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 116|site 2|proxy 0|team 7|Team7:Eagle Red (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|191|rid ReSetId20051106061945|mmfr false|del? false|jt 192|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 117|site 2|proxy 0|team 19|Team19:UP Purple Programmers (UP)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|192|rid ReSetId20051106061945|mmfr false|del? false|jt 193|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 118|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|193|rid ReSetId20051106061945|mmfr false|del? false|jt 198|jby Site 1 judge2|jci 7:No - Output Format Error|
+run 119|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 10:J - Time to Graduate|lang 1:Java|os Linux|tocj false|jc true|sel false|196|rid ReSetId20051106061945|mmfr false|del? false|jt 199|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 120|site 2|proxy 0|team 14|Team14:PSU Vikings (Portland State)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|196|rid ReSetId20051106061945|mmfr false|del? false|jt 198|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 121|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|198|rid ReSetId20051106061945|mmfr true|del? false|jt 198|jby Site 1 judge5|jci 0:Yes|
+run 122|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|199|rid ReSetId20051106061945|mmfr true|del? false|jt 200|jby Site 1 judge9|jci 0:Yes|
+run 123|site 2|proxy 0|team 1|Team1:Cal State Fresno Bulldogs (CSUFresno)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|200|rid ReSetId20051106061945|mmfr false|del? false|jt 201|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 124|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|202|rid ReSetId20051106061945|mmfr false|del? false|jt 203|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 125|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|203|rid ReSetId20051106061945|mmfr false|del? false|jt 204|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 126|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|205|rid ReSetId20051106061945|mmfr true|del? false|jt 206|jby Site 1 judge5|jci 0:Yes|
+run 127|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|207|rid ReSetId20051106061945|mmfr false|del? false|jt 211|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 128|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|211|rid ReSetId20051106061945|mmfr false|del? false|jt 213|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 129|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|211|rid ReSetId20051106061945|mmfr true|del? false|jt 212|jby Site 1 judge10|jci 0:Yes|
+run 130|site 2|proxy 0|team 31|Team31:Whitworth O(n^n) (Whitworth)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|213|rid ReSetId20051106061945|mmfr true|del? false|jt 214|jby Site 1 judge5|jci 0:Yes|
+run 131|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|214|rid ReSetId20051106061945|mmfr true|del? false|jt 215|jby Site 1 judge10|jci 0:Yes|
+run 132|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 9:I - Who needs 8 Queens when you have N?|lang 1:Java|os Linux|tocj false|jc true|sel false|215|rid ReSetId20051106061945|mmfr false|del? false|jt 217|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 133|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|219|rid ReSetId20051106061945|mmfr false|del? false|jt 220|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 134|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|219|rid ReSetId20051106061945|mmfr false|del? false|jt 220|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 135|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|220|rid ReSetId20051106061945|mmfr false|del? false|jt 221|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 136|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|222|rid ReSetId20051106061945|mmfr false|del? false|jt 223|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 137|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|223|rid ReSetId20051106061945|mmfr false|del? false|jt 225|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 138|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|224|rid ReSetId20051106061945|mmfr false|del? false|jt 225|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 139|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|226|rid ReSetId20051106061945|mmfr false|del? false|jt 228|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 140|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|226|rid ReSetId20051106061945|mmfr false|del? false|jt 227|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 141|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|226|rid ReSetId20051106061945|mmfr false|del? false|jt 227|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 142|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|227|rid ReSetId20051106061945|mmfr false|del? false|jt 228|jby Site 1 judge2|jci 7:No - Output Format Error|
+run 143|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|229|rid ReSetId20051106061945|mmfr true|del? false|jt 230|jby Site 1 judge2|jci 0:Yes|
+run 144|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|230|rid ReSetId20051106061945|mmfr false|del? false|jt 231|jby Site 1 judge9|jci 6:No - Excessive Output|
+run 145|site 2|proxy 0|team 5|Team5:DigiPen Red (DigiPen)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|230|rid ReSetId20051106061945|mmfr false|del? false|jt 232|jby Site 1 judge2|jci 6:No - Excessive Output|
+run 146|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|233|rid ReSetId20051106061945|mmfr true|del? false|jt 233|jby Site 1 judge1|jci 0:Yes|
+run 147|site 2|proxy 0|team 1|Team1:Cal State Fresno Bulldogs (CSUFresno)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|235|rid ReSetId20051106061945|mmfr false|del? false|jt 235|jby Site 1 judge5|jci 2:No - Run-time Error|
+run 148|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|236|rid ReSetId20051106061945|mmfr false|del? false|jt 237|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 149|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|238|rid ReSetId20051106061945|mmfr false|del? false|jt 239|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 150|site 2|proxy 0|team 10|Team10:Zag2 (Gonzaga)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|239|rid ReSetId20051106061945|mmfr true|del? false|jt 240|jby Site 1 judge9|jci 0:Yes|
+run 151|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|241|rid ReSetId20051106061945|mmfr false|del? false|jt 242|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 152|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 2:B - Connect|lang 1:Java|os Linux|tocj false|jc true|sel false|241|rid ReSetId20051106061945|mmfr false|del? false|jt 242|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 153|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|244|rid ReSetId20051106061945|mmfr false|del? false|jt 246|jby Site 1 judge6|jci 6:No - Excessive Output|
+run 154|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|247|rid ReSetId20051106061945|mmfr false|del? false|jt 248|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 155|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|247|rid ReSetId20051106061945|mmfr false|del? false|jt 247|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 156|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|247|rid ReSetId20051106061945|mmfr false|del? false|jt 250|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 157|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|248|rid ReSetId20051106061945|mmfr false|del? false|jt 249|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 158|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|250|rid ReSetId20051106061945|mmfr false|del? false|jt 251|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 159|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|251|rid ReSetId20051106061945|mmfr false|del? false|jt 252|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 160|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|252|rid ReSetId20051106061945|mmfr false|del? false|jt 256|jby Site 1 judge2|jci 2:No - Run-time Error|
+run 161|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|254|rid ReSetId20051106061945|mmfr false|del? false|jt 254|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 162|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|254|rid ReSetId20051106061945|mmfr false|del? false|jt 255|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 163|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|256|rid ReSetId20051106061945|mmfr false|del? false|jt 257|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 164|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051106061945|mmfr false|del? false|jt 257|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 165|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051106061945|mmfr false|del? false|jt 258|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 166|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|257|rid ReSetId20051106061945|mmfr false|del? false|jt 258|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 167|site 2|proxy 0|team 1|Team1:Cal State Fresno Bulldogs (CSUFresno)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|259|rid ReSetId20051106061945|mmfr false|del? false|jt 261|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 168|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|262|rid ReSetId20051106061945|mmfr false|del? false|jt 262|jby Site 1 judge3|jci 2:No - Run-time Error|
+run 169|site 2|proxy 0|team 1|Team1:Cal State Fresno Bulldogs (CSUFresno)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|262|rid ReSetId20051106061945|mmfr false|del? false|jt 263|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 170|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|263|rid ReSetId20051106061945|mmfr false|del? false|jt 264|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 171|site 2|proxy 0|team 5|Team5:DigiPen Red (DigiPen)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|263|rid ReSetId20051106061945|mmfr true|del? false|jt 264|jby Site 1 judge1|jci 0:Yes|
+run 172|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|263|rid ReSetId20051106061945|mmfr false|del? false|jt 265|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 173|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|265|rid ReSetId20051106061945|mmfr true|del? false|jt 266|jby Site 1 judge9|jci 0:Yes|
+run 174|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|265|rid ReSetId20051106061945|mmfr true|del? false|jt 266|jby Site 1 judge3|jci 0:Yes|
+run 175|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|265|rid ReSetId20051106061945|mmfr false|del? false|jt 268|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 176|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|266|rid ReSetId20051106061945|mmfr false|del? false|jt 267|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 177|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|266|rid ReSetId20051106061945|mmfr false|del? false|jt 267|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 178|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|268|rid ReSetId20051106061945|mmfr true|del? false|jt 269|jby Site 1 judge1|jci 0:Yes|
+run 179|site 2|proxy 0|team 15|Team15:Deschutes (U of Oregon)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|269|rid ReSetId20051106061945|mmfr false|del? false|jt 269|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 180|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|271|rid ReSetId20051106061945|mmfr false|del? false|jt 272|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 181|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|272|rid ReSetId20051106061945|mmfr false|del? false|jt 275|jby Site 1 judge5|jci 3:No - Time-limit Exceeded|
+run 182|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|273|rid ReSetId20051106061945|mmfr true|del? false|jt 274|jby Site 1 judge2|jci 0:Yes|
+run 183|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|273|rid ReSetId20051106061945|mmfr false|del? false|jt 276|jby Site 1 judge3|jci 3:No - Time-limit Exceeded|
+run 184|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|274|rid ReSetId20051106061945|mmfr false|del? false|jt 275|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 185|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|274|rid ReSetId20051106061945|mmfr false|del? false|jt 275|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 186|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|275|rid ReSetId20051106061945|mmfr false|del? false|jt 276|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 187|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|277|rid ReSetId20051106061945|mmfr false|del? false|jt 277|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 188|site 2|proxy 0|team 7|Team7:Eagle Red (EWU)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|277|rid ReSetId20051106061945|mmfr true|del? false|jt 278|jby Site 1 judge1|jci 0:Yes|
+run 189|site 2|proxy 0|team 25|Team25:UW: Team Minion (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|278|rid ReSetId20051106061945|mmfr false|del? false|jt 281|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 190|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|278|rid ReSetId20051106061945|mmfr false|del? false|jt 279|jby Site 1 judge1|jci 2:No - Run-time Error|
+run 191|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|279|rid ReSetId20051106061945|mmfr false|del? false|jt 280|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 192|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|280|rid ReSetId20051106061945|mmfr false|del? false|jt 280|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 193|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|282|rid ReSetId20051106061945|mmfr false|del? false|jt 283|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 194|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 5:E - If only I could think Linearly...|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|282|rid ReSetId20051106061945|mmfr false|del? false|jt 284|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 195|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 5:E - If only I could think Linearly...|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|283|rid ReSetId20051106061945|mmfr false|del? false|jt 284|jby Site 1 judge2|jci 4:No - Incorrect Output|
+run 196|site 2|proxy 0|team 3|Team3:DigiPen Blue (DigiPen)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|283|rid ReSetId20051106061945|mmfr false|del? false|jt 284|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 197|site 2|proxy 0|team 8|Team8:Eagle White (EWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|284|rid ReSetId20051106061945|mmfr true|del? false|jt 284|jby Site 1 judge9|jci 0:Yes|
+run 198|site 2|proxy 0|team 4|Team4:DigiPen Grey (DigiPen)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|285|rid ReSetId20051106061945|mmfr false|del? false|jt 286|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 199|site 2|proxy 0|team 9|Team9:Zag1 (Gonzaga)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|286|rid ReSetId20051106061945|mmfr true|del? false|jt 286|jby Site 1 judge5|jci 0:Yes|
+run 200|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|287|rid ReSetId20051106061945|mmfr false|del? false|jt 288|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 201|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|287|rid ReSetId20051106061945|mmfr false|del? false|jt 288|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 202|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|290|rid ReSetId20051106061945|mmfr false|del? false|jt 290|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 203|site 2|proxy 0|team 17|Team17:Willamette (U of Oregon)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|291|rid ReSetId20051106061945|mmfr false|del? false|jt 291|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 204|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|291|rid ReSetId20051106061945|mmfr false|del? false|jt 291|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 205|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|292|rid ReSetId20051106061945|mmfr true|del? false|jt 292|jby Site 1 judge4|jci 0:Yes|
+run 206|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051106061945|mmfr false|del? false|jt 294|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 207|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|293|rid ReSetId20051106061945|mmfr false|del? false|jt 296|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 208|site 2|proxy 0|team 24|Team24:UW: Nanobytes (Washington)|prob 8:H - Job Scheduling by Open Bidding|lang 1:Java|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051106061945|mmfr false|del? false|jt 296|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 209|site 2|proxy 0|team 19|Team19:UP Purple Programmers (UP)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051106061945|mmfr false|del? false|jt 296|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 210|site 2|proxy 0|team 26|Team26:Team JIT (WOU)|prob 9:I - Who needs 8 Queens when you have N?|lang 1:Java|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051106061945|mmfr false|del? false|jt 297|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 211|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051106061945|mmfr false|del? false|jt 299|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 212|site 2|proxy 0|team 22|Team22:UPS White (UPS)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|294|rid ReSetId20051106061945|mmfr false|del? false|jt 295|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 213|site 2|proxy 0|team 23|Team23:UW: Little Man Davis (Washington)|prob 5:E - If only I could think Linearly...|lang 1:Java|os Linux|tocj false|jc true|sel false|295|rid ReSetId20051106061945|mmfr true|del? false|jt 296|jby Site 1 judge2|jci 0:Yes|
+run 214|site 2|proxy 0|team 10|Team10:Zag2 (Gonzaga)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|296|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 215|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 216|site 2|proxy 0|team 32|Team32:easy beavers (OSU)|prob 5:E - If only I could think Linearly...|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051106061945|mmfr true|del? false|jt 300|jby Site 1 judge3|jci 0:Yes|
+run 217|site 2|proxy 0|team 28|Team28:VINDIESEL.ASM (WWU)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051106061945|mmfr false|del? false|jt 298|jby Site 1 judge10|jci 2:No - Run-time Error|
+run 218|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051106061945|mmfr false|del? false|jt 298|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 219|site 2|proxy 0|team 29|Team29:Whitworth O(cot n) (Whitworth)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|297|rid ReSetId20051106061945|mmfr false|del? false|jt 298|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 220|site 2|proxy 0|team 10|Team10:Zag2 (Gonzaga)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge9|jci 3:No - Time-limit Exceeded|
+run 221|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 222|site 2|proxy 0|team 21|Team21:UPS Maroon (UPS)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge8|jci 5:No - Incomplete Output|
+run 223|site 2|proxy 0|team 7|Team7:Eagle Red (EWU)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051106061945|mmfr false|del? false|jt 299|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 224|site 2|proxy 0|team 18|Team18:UP Havok (UP)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|298|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 225|site 2|proxy 0|team 6|Team6:Eagle Black (EWU)|prob 7:G - Pascal's Travels|lang 2:GNU C|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge10|jci 4:No - Incorrect Output|
+run 226|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 9:I - Who needs 8 Queens when you have N?|lang 1:Java|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge10|jci 3:No - Time-limit Exceeded|
+run 227|site 2|proxy 0|team 13|Team13:Lute Gold (PLU)|prob 1:A - Single Digit Adder|lang 1:Java|os Linux|tocj false|jc true|sel false|299|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge8|jci 4:No - Incorrect Output|
+run 228|site 2|proxy 0|team 30|Team30:Whitworth O(n!) (Whitworth)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|300|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge4|jci 2:No - Run-time Error|
+run 229|site 2|proxy 0|team 27|Team27:the turing-incompetent (WWU)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|300|rid ReSetId20051106061945|mmfr false|del? false|jt 300|jby Site 1 judge1|jci 3:No - Time-limit Exceeded|
+run 1|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|14|rid ReSetId20051105175723|mmfr true|del? false|jt 15|jby Site 1 judge5|jci 0:Yes|
+run 2|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|17|rid ReSetId20051105175723|mmfr false|del? false|jt 21|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 3|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|18|rid ReSetId20051105175723|mmfr true|del? false|jt 19|jby Site 1 judge8|jci 0:Yes|
+run 4|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|21|rid ReSetId20051105175723|mmfr true|del? false|jt 23|jby Site 1 judge10|jci 0:Yes|
+run 5|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 9:I - Who needs 8 Queens when you have N?|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|29|rid ReSetId20051105175723|mmfr true|del? false|jt 34|jby Site 1 judge3|jci 0:Yes|
+run 6|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 3:C - Consecutive Digits in Rational Number|lang 1:Java|os Linux|tocj false|jc true|sel false|32|rid ReSetId20051105175723|mmfr true|del? false|jt 33|jby Site 1 judge5|jci 0:Yes|
+run 7|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|32|rid ReSetId20051105175723|mmfr true|del? false|jt 33|jby Site 1 judge1|jci 0:Yes|
+run 8|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|38|rid ReSetId20051105175723|mmfr false|del? false|jt 39|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 9|site 3|proxy 0|team 5|Team5:SFU Blue (Simon Fraser U)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|38|rid ReSetId20051105175723|mmfr false|del? false|jt 39|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 10|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|40|rid ReSetId20051105175723|mmfr true|del? false|jt 42|jby Site 1 judge6|jci 0:Yes|
+run 11|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|43|rid ReSetId20051105175723|mmfr false|del? false|jt 43|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 12|site 3|proxy 0|team 8|Team8:UBC + (UBC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|44|rid ReSetId20051105175723|mmfr false|del? false|jt 44|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 13|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|44|rid ReSetId20051105175723|mmfr true|del? false|jt 45|jby Site 1 judge2|jci 0:Yes|
+run 14|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|49|rid ReSetId20051105175723|mmfr false|del? false|jt 51|jby Site 1 judge5|jci 4:No - Incorrect Output|
+run 15|site 3|proxy 0|team 5|Team5:SFU Blue (Simon Fraser U)|prob 3:C - Consecutive Digits in Rational Number|lang 2:GNU C|os Linux|tocj false|jc true|sel false|50|rid ReSetId20051105175723|mmfr false|del? false|jt 51|jby Site 1 judge9|jci 4:No - Incorrect Output|
+run 16|site 3|proxy 0|team 8|Team8:UBC + (UBC)|prob 7:G - Pascal's Travels|lang 1:Java|os Linux|tocj false|jc true|sel false|51|rid ReSetId20051105175723|mmfr false|del? false|jt 55|jby Site 1 judge4|jci 3:No - Time-limit Exceeded|
+run 17|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 3:C - Consecutive Digits in Rational Number|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|55|rid ReSetId20051105175723|mmfr true|del? false|jt 56|jby Site 1 judge6|jci 0:Yes|
+run 18|site 3|proxy 0|team 7|Team7:SFU White (Simon Fraser U)|prob 4:D - Constant Irritation|lang 2:GNU C|os Linux|tocj false|jc true|sel false|55|rid ReSetId20051105175723|mmfr false|del? false|jt 57|jby Site 1 judge9|jci 2:No - Run-time Error|
+run 19|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|57|rid ReSetId20051105175723|mmfr false|del? false|jt 58|jby Site 1 judge4|jci 4:No - Incorrect Output|
+run 20|site 3|proxy 0|team 8|Team8:UBC + (UBC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|57|rid ReSetId20051105175723|mmfr false|del? false|jt 58|jby Site 1 judge1|jci 4:No - Incorrect Output|
+run 21|site 3|proxy 0|team 5|Team5:SFU Blue (Simon Fraser U)|prob 3:C - Consecutive Digits in Rational Number|lang 2:GNU C|os Linux|tocj false|jc true|sel false|62|rid ReSetId20051105175723|mmfr true|del? false|jt 63|jby Site 1 judge5|jci 0:Yes|
+run 22|site 3|proxy 0|team 8|Team8:UBC + (UBC)|prob 4:D - Constant Irritation|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|64|rid ReSetId20051105175723|mmfr false|del? false|jt 66|jby Site 1 judge6|jci 4:No - Incorrect Output|
+run 23|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|71|rid ReSetId20051105175723|mmfr true|del? false|jt 73|jby Site 1 judge1|jci 0:Yes|
+run 24|site 3|proxy 0|team 5|Team5:SFU Blue (Simon Fraser U)|prob 7:G - Pascal's Travels|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|75|rid ReSetId20051105175723|mmfr true|del? false|jt 76|jby Site 1 judge10|jci 0:Yes|
+run 25|site 3|proxy 0|team 3|Team3:UBC ^ (UBC)|prob 4:D - Constant Irritation|lang 1:Java|os Linux|tocj false|jc true|sel false|77|rid ReSetId20051105175723|mmfr true|del? false|jt 78|jby Site 1 judge2|jci 0:Yes|
+run 26|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|78|rid ReSetId20051105175723|mmfr false|del? false|jt 79|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 27|site 3|proxy 0|team 2|Team2:SFU Red (Simon Fraser U)|prob 1:A - Single Digit Adder|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|80|rid ReSetId20051105175723|mmfr false|del? false|jt 82|jby Site 1 judge3|jci 4:No - Incorrect Output|
+run 28|site 3|proxy 0|team 7|Team7:SFU White (Simon Fraser U)|prob 4:D - Constant Irritation|lang 2:GNU C|os Linux|tocj false|jc true|sel false|88|rid ReSetId20051105175723|mmfr false|del? false|jt 89|jby Site 1 judge6|jci 2:No - Run-time Error|
+run 29|site 3|proxy 0|team 6|Team6:UBC * (UBC)|prob 8:H - Job Scheduling by Open Bidding|lang 3:GNU C++|os Linux|tocj false|jc true|sel false|95|rid ReSetId20051105175723|mmfr false|del? false|jt 96|jby Site 1 judge1|jci 4:No - Incorre

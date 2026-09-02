@@ -1,0 +1,55 @@
+/* footerlinks for phpBB 3.1 by Joyce&Luna http://phpBB-Style-Design.de
+------------------------------------------------------------------- */
+
+.footer-links {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	border-bottom: 1px solid;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+.footer-links ul li:first-child {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.footer-links div.panel {
+	width: 300px;
+	margin: 0 25px;
+	align-self: flex-start;
+	box-shadow: 0 -1px 4px -2px rgba(2, 2, 2, 0.7);
+}
+
+div.footer-links ul {
+	list-style: none;
+}
+
+div.footer-links li:first-child {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+.footer-links {
+	flex-direction: column;
+	align-items: center;
+	}
+  
+div.footer-links div.panel {
+	width: 300px;
+	margin: 5px 25px;
+}
+
+div.footer-links div.panel {
+	width: 300px;
+	margin: 5px 25px;
+	align-self: center;
+}
+}

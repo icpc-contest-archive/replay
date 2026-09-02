@@ -1,0 +1,3623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://nena19.kattis.com/contests/nena19/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+        <script src="/assets/d50023b2e49040d1d32e9756d3400d87/@sentry/browser/build/bundle.es6.min.js"></script>
+    <script>
+        Sentry.init({
+            dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+            release: "2d4b76bf1542b5132016f1f7808e767f54ef54a0",
+            environment: "edu",
+            whitelistUrls: [
+                /https?:\/\/nena19\.kattis\.com/             ],
+            ignoreErrors: [
+                "Non-Error exception captured", // Ignoring per https://forum.sentry.io/t/unhandledrejection-non-error-promise-rejection-captured-with-value/14062/16
+                "Non-Error promise rejection captured", // Ignoring per https://forum.sentry.io/t/unhandledrejection-non-error-promise-rejection-captured-with-value/14062/16
+                'ResizeObserver loop limit exceeded' // Ignoring per https://github.com/WICG/resize-observer/issues/38#issuecomment-493014026
+            ],
+            autoSessionTracking: false        });
+            </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, ICPC Northeast North America Regional Contest 2019</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/d50023b2e49040d1d32e9756d3400d87/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script src="/assets/d50023b2e49040d1d32e9756d3400d87/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/d50023b2e49040d1d32e9756d3400d87/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+                <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+            <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/d50023b2e49040d1d32e9756d3400d87/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+    
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/d50023b2e49040d1d32e9756d3400d87/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/d50023b2e49040d1d32e9756d3400d87/select2/dist/css/select2.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon" />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/style.css?746f5a=">
+    <style type="text/css">           :root {
+                      --branding-border: linear-gradient(#CF494C, #CF494C);
+              }
+
+         </style>
+
+    <script type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    <script type="text/javascript">
+    jQuery.ns = function (namespace) {
+        var parts = namespace.split('.');
+        var last = window;
+        for (var i = 0; i < parts.length; i++) {
+            last = last[parts[i]] || (last[parts[i]] = {});
+        }
+        return last;
+    };
+</script>
+     <script>
+const KattisErrorMessages = {"INTERNAL_SERVER_ERROR":"Internal server error.","ACCESS_DENIED":"Access denied.","NOT_AUTHENTICATED":"Not authenticated.","METHOD_NOT_ALLOWED":"Method not allowed.","INVALID_JSON":"JSON cannot be decoded or encoded data is deeper than the recursion limit.","BAD_CSRF_TOKEN":"Token does not match session's csrf_token","SESSION_NAME_EMPTY":"Session's name must be non empty.","SESSION_START_TIME_EMPTY":"Session's start time must be non empty.","SESSION_START_TIME_PASSED":"Session's start time has already passed.","SESSION_DURATION_EMPTY":"Session's duration must be non empty.","SESSION_DURATION_NEGATIVE":"Session's duration must be a positive number.","SESSION_DURATION_EXCEEDED":"Maximum duration for the session was exceeded.","SESSION_ALREADY_STARTED":"The session has already started.","SESSION_ALREADY_FINISHED":"The session is already finished.","USER_CREATED_SESSION_DURATION_EXCEEDED":"Contest cannot be longer than 168 hours.","INVALID_PROBLEM_SCORE":"Invalid problem score.","INVALID_SESSION_SHORTNAME":"Invalid shortname for the session.","INVALID_SESSION_CUTOFF":"Invalid cutoff for the session.","INVALID_USER_NAME":"Invalid username or email.","SESSION_NOT_FOUND":"No such session.","COURSE_NOT_FOUND":"No such course.","OFFERING_NOT_FOUND":"No such offering.","TEACHER_NOT_FOUND":"No such teacher.","TEACHER_CANNOT_REMOVE_SELF":"You may not remove yourself as a teacher unless you are an administrator.","AUTHOR_NOT_FOUND":"No such author.","JUDGE_NOT_FOUND":"No such judge.","JUDGE_ALREADY_EXIST":"The user is already a judge.","TEACHER_ALREADY_EXIST":"The user is already a teacher.","PROBLEM_NOT_FOUND":"No such problem.","TEAM_NOT_FOUND":"No such team.","SESSION_PROBLEM_ALREADY_EXIST":"The problem has been already added to the session.","SESSION_PROBLEM_DOES_NOT_EXIST":"The problem does not relate to the session.","PROBLEM_INDEX_NEGATIVE":"Problem index must be non negative.","AUTHOR_IS_CURRENT_TEAM_MEMBER":"The user you tried to add is already a member of the current team.","AUTHOR_IS_ANOTHER_TEAM_MEMBER":"The user you tried to add is already a member of another team in the current session.","AUTHOR_IS_JUDGE":"The user you tried to add is a judge.","AUTHOR_IS_NOT_TEAM_MEMBER":"The user you tried to remove is not a team member.","JUDGE_IS_TEAM_MEMBER":"The user you tried to add is a session team member or invitee.","SESSION_PUBLISHING_DENIED":"You do not have permission to publish this session.","CANNOT_PUBLISH_HISTORICAL_SESSION":"You cannot publish a session with a historical start time.","INVALID_TEAM_NAME_TOO_LONG":"The team name you are trying to add is too long","TEAM_NAME_IS_NOT_VISIBLE":"The team name you are trying to add is not visible"};
+jQuery.extend(jQuery.ns('Kattis.error'), (function () {
+    return {
+        get_msg: function (error_code) {
+            return KattisErrorMessages[error_code];
+        },
+
+        show_msg: function (base_message, error_code) {
+            if (error_code) {
+                alert(base_message + ": " + this.get_msg(error_code));
+            } else {
+                alert(base_message);
+            }
+        },
+
+        show_xhr_msg: function (elem, jqXHR) {
+            var base_message = elem.data('fail-msg');
+            var code = jqXHR.responseJSON && jqXHR.responseJSON.error &&
+                       jqXHR.responseJSON.error.code;
+            this.show_msg(base_message, code);
+        }
+    }
+})());
+</script>
+ 
+    
+
+    <script type="text/javascript">
+var rumMOKey="a854f3a6dd7ee5e3b7d1641570b79c34";
+(function(){
+if(window.performance && window.performance.timing && window.performance.navigation) {
+	var site24x7_rum_beacon=document.createElement('script');
+	site24x7_rum_beacon.async=true;
+	site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey='+rumMOKey);
+	document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+}
+})(window)
+</script>
+</head>
+
+<body class="header-collapsed"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://nena19.kattis.com/contests/nena19/standings">https://nena19.kattis.com/contests/nena19/standings</a> (content as captured 2022-09-26 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/nena-2019.html">nena-2019</a>)  <a href="https://web.archive.org/web/20220926031242/https://nena19.kattis.com/contests/nena19/standings">wayback</a></div>
+
+
+
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="ICPC Northeast North America Regional Contest 2019">
+                <img class="logo" src="/images/site-logo?v=19f2a52435758d28775afd093543644c" alt="ICPC Northeast North America Regional Contest 2019 logo" />
+            </a>
+            <h4 class="logo-container-text">ICPC Northeast North America Regional Contest 2019</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav>
+                <ul class="main_menu">
+                                                                    <li>
+                            <a href="/contests/nena19/standings" class="main_menu-item main_menu-item_link  is-main_menu-item-active" title="Standings">
+                                                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name">Standings</span>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="/contests/nena19/problems" class="main_menu-item main_menu-item_link  " title="Problems">
+                                                                    <i class="fas fa-brain main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name">Problems</span>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="/help" class="main_menu-item main_menu-item_link  " title="Documentation">
+                                                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name">Documentation</span>
+                            </a>
+                        </li>
+                                    </ul>
+            </nav>
+            
+        </div>
+    </div>
+</header>
+
+<script type="text/javascript">
+    jQuery(function($) {
+        $('.page_header-arrow_expand_collapse').click(function() {
+            $('body').toggleClass('header-collapsed');
+        });
+    });
+</script>
+
+
+
+<main class="l-offset_main">
+    
+
+<div class="top_bar">
+    <script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+            <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <div class="breadcrumb top_bar-item">
+                                                                        <a href="/contests" class="breadcrumb-link">Contests</a><span class="breadcrumb-divider">/</span>
+                                                    <a href="/contests/nena19" class="breadcrumb-link">ICPC Northeast North America Regional Contest 2019</a><span class="breadcrumb-divider">/</span>
+                                                                                    <span class="breadcrumb-current">
+                                                    Standings
+                                            </span>
+                </div>
+
+                
+            </div>
+
+            <div class="top_bar-section tooltip-right-container top_bar-section-small">
+
+                
+                                    <a href="/login" class="button button-primary button-small">Log in</a>
+                            </div>
+        </div>
+    </div>
+
+                
+
+
+
+<script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/modules/banner.js"></script>
+
+            
+    
+
+    <div id="standings_wrapper">
+        
+
+
+
+
+
+
+
+
+    
+    
+            
+                                
+
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="l-strip_list">
+            <div class="strip strip-item">
+            <div class="w-full">
+                <div id="session_banner"><img src="/contests/nena19/banner" alt="" /></div><div id="contest_time" data-props="{&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:90849462,&quot;total_seconds&quot;:&quot;18000.000000&quot;,&quot;refresh_at_start&quot;:true}">
+    <div class="contest-progress session-finished">
+        <div class="info upper">
+            <div class="contest-start">
+                <h4>Start</h4>
+                2019-11-09 16:15 CET
+            </div>
+            <div class="contest-title">
+                <h2 class="title text-center mb-2">ICPC Northeast North America Regional Contest 2019</h2>
+            </div>
+            <div class="contest-end">
+                <h4>End</h4>
+                2019-11-09 21:15 CET
+            </div>
+        </div>
+        <div class="progress">
+                                                                <div class="progress-bar" style="width: 100.00%"></div>
+            <div class="progress-status nearend">
+                The end is near!            </div>
+
+            <div class="progress-status finished">
+                Contest is over.            </div>
+
+            <div class="progress-status nostart">
+                Not yet started.            </div>
+
+            <div class="progress-status notstarted">
+                Contest                is starting in                <span class="countdown">-1051 days 11:57:42</span>
+            </div>
+        </div>
+
+        <div class="info only_in_contest">
+            <div class="time-elapsed">
+                <h4>Time elapsed</h4>
+                <span class="count_elapsed">5:00:00</span>
+            </div>
+            <div class="time-remaining">
+                <h4>Time remaining</h4>
+                <span class="count_remaining">0:00:00</span>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    
+            <div class="strip-plain">
+            <script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/modules/mobile_tabs.js"></script><nav class="tab-nav" data-mobile-select-classes="hide@md"><a class="tab-nav-item " href="/contests/nena19" title="Contest">Contest</a><a class="tab-nav-item active" href="/contests/nena19/standings" title="Standings">Standings</a><a class="tab-nav-item " href="/contests/nena19/problems" title="Problems">Problems</a><a class="tab-nav-item " href="/contests/nena19/teams" title="Teams">Teams</a><div class="ml-auto flex"></div></nav>
+        </div>
+        
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+                    </div>
+
+                    </section>
+
+
+    <div class="table-legend -mb-2">
+        
+    <div class="table-legend-statuses">
+                    </div>
+
+        
+    <div class="table-legend-statuses">
+                    <span class="table-legend-status">
+                <i class="fas fa-check status-icon legend-first"></i>
+                First to solve            </span>
+                            <span class="table-legend-status">
+                <i class="fas fa-check status-icon legend-solved"></i>
+                Solved            </span>
+                <span>
+            <span class="table-legend-status">
+                <i class="fas fa-times status-icon legend-attempted"></i>
+                Attempted            </span>
+        </span>
+        <span>
+            <span class="table-legend-status">
+                <i class="fas fa-question status-icon legend-pending"></i>
+                Pending judgement            </span>
+        </span>
+    </div>
+
+    </div>
+    <section class="strip strip-item-plain">
+        <div class="table-wrapper">
+            <table class="table2 standings-table">
+                
+    <thead>    <tr>
+                    <th class="table2-header" colspan="4">Team</th>
+
+                            <th class="table2-header table-align-right standings-cell-score">Slv.</th>
+                                    <th class="table2-header table-align-right standings-cell-time">Time</th>
+                                    
+                                            
+<th class="table2-header" style="width: min_widthpx"><a title="Add &#039;Em Up!" href="/contests/nena19/problems/addemup">A</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Colonization of El-gă-rizm" href="/contests/nena19/problems/thecolonizationofelgarizm">B</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Cutting the Necklace" href="/contests/nena19/problems/cuttingthenecklace">C</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Fair Divisions" href="/contests/nena19/problems/fairdivisions">D</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Guess the Digits" href="/contests/nena19/problems/guessthedigits">E</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Monument Maker" href="/contests/nena19/problems/monumentmaker">F</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Protecting the Collection" href="/contests/nena19/problems/protectingthecollection">G</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Sock Pile" href="/contests/nena19/problems/thesockpile">H</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Stickers" href="/contests/nena19/problems/stickers">I</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Wire Ghost" href="/contests/nena19/problems/thewireghost">J</a></th>
+        
+                                            </tr>
+    </thead>
+
+                                                                                            
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>1</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160216">
+                                            MIT NULL
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Massachusetts Institute of Technology" data-placement="top" title="Massachusetts Institute of Technology" src="/images/universities/mit.edu/56px?d79bfeca44b342f2b2334a144db09551=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">9</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">916</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        36 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        6 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        18 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        79 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        223 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        12 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        66 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        102 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        254 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    6<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>2</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160218">
+                                            Harvard
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Harvard University" data-placement="top" title="Harvard University" src="/images/universities/harvard.edu/56px?18202e663b3187c4f7eee4f83f56b241=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">8</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">773</td>
+                    
+                                    
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        7 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        20 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        27 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        173 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        48 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        59 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="first"
+                         title="First team to solve this problem"        >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-first"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        60 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        299 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>3</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160209">
+                                            Blueno Bear
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Brown University" data-placement="top" title="Brown University" src="/images/universities/brown.edu/56px?8bed9863944e41c52d33f6106182f129=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">1214</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        20 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        37 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        165 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        285 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        76 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        138 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        293 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>4</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160219">
+                                            Bees
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="McGill University" data-placement="top" title="McGill University" src="/images/universities/mcgill.ca/56px?26ce5c53ebf89e7782a4292b99344005=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">6</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">545</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        38 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        56 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        70 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        99 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        142 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        120 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>5</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160213">
+                                            Husky Alpha
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Northeastern University" data-placement="top" title="Northeastern University" src="/images/universities/northeastern.edu/56px?f232e42c755ac7b866a0c87b6a5ea010=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">6</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">903</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        21 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        67 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        57 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        77 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    7<br>
+                    <span class="standings-table-result-cell-time">
+                        250 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        231 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>6</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160210">
+                                            Rochester Yellow
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of Rochester" data-placement="top" title="University of Rochester" src="/images/universities/rochester.edu/56px?7e14ad5b941776f7463fb905cad90b05=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">6</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">1126</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        155 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        107 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        143 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        220 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        228 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        173 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>7</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160215">
+                                            RIT Team 4
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Rochester Institute of Technology" data-placement="top" title="Rochester Institute of Technology" src="/images/universities/rit.edu/56px?63d6574411d5e6ef17d3be8518bb6c11=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">5</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">990</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        31 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    7<br>
+                    <span class="standings-table-result-cell-time">
+                        264 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        80 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        122 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        293 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>8</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160206">
+                                            MTA int(&#039;10&#039;*3, 2)
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Mount Allison University" data-placement="top" title="Mount Allison University" src="/images/universities/mta.ca/56px?485ee5883a76acc7b36176250b4d3beb=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">701</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        55 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        237 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        271 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        118 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>9</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160221">
+                                            Brandeis1
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Brandeis University" data-placement="top" title="Brandeis University" src="/images/universities/brandeis.edu/56px?a4fccd93bd1abe055ed486697be29700=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">839</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        36 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        207 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        238 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        298 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>10</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160220">
+                                            ICPConcordia
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Concordia University" data-placement="top" title="Concordia University" src="/images/universities/concordia.ca/56px?af06d80da7b88bd23b2eae803b9e4152=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">365</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        69 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    9<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        115 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        81 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>11</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160212">
+                                            SUNY Oswego
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="SUNY Oswego" data-placement="top" title="SUNY Oswego" src="/images/universities/oswego.edu/56px?9c87d88c6ba9603217dad58d4cab5488=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">453</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        68 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        6 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    25<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    9<br>
+                    <span class="standings-table-result-cell-time">
+                        199 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>12</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160224">
+                                            URI3
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of Rhode Island" data-placement="top" title="University of Rhode Island" src="/images/universities/uri.edu/56px?d64cc2683fbad156fc26947cc53f343b=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">545</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        41 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        196 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        248 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>13</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160207">
+                                            Haxemen
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Acadia University" data-placement="top" title="Acadia University" src="/images/universities/acadiau.ca/56px?722bed24e88360c9260dcdbe48400b84=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">651</td>
+                    
+                                    
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        223 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        139 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        229 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>14</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160223">
+                                            Chris and Ben
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="Hamilton College" data-placement="top" title="Hamilton College" src="/images/universities/hamilton.edu/56px?432155b99355c6cfbd48f9457dfa6e6b=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">3</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">800</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    9<br>
+                    <span class="standings-table-result-cell-time">
+                        81 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        244 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    6<br>
+                    <span class="standings-table-result-cell-time">
+                        195 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>15</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160211">
+                                            UPEI Excitebike
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of Prince Edward Island" data-placement="top" title="University of Prince Edward Island" src="/images/universities/upei.ca/56px?5c6a4e717033d189a62205a1bbebfdae=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">2</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">153</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        33 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    7<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        120 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>16</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160222">
+                                            UMass Beacon
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of Massachusetts Boston" data-placement="top" title="University of Massachusetts Boston" src="/images/universities/umb.edu/56px?a508ffb9de052e4deb0e7ccd81c6ef8c=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">2</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">405</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        194 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    9<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        171 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>17</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160205">
+                                            Ninjas
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of New Brunswick" data-placement="top" title="University of New Brunswick" src="/images/universities/unb.ca/56px?ae95779fa1f3c74673ed7cc39bd16238=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">1</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">100</td>
+                    
+                                    
+    
+            <td class="solved"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-check status-icon cell-solved"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        100 min
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    7<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    3<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>18</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160208">
+                                            Fredonia 1
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="SUNY Fredonia" data-placement="top" title="SUNY Fredonia" src="/images/universities/fredonia.edu/56px?7cc1d58e9193fa1a5b18889760355c24=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                    
+                                    
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    12<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    24<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>18</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160217">
+                                            UBTeam1
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?9696762f2c3ddede222e156851049c9f=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University at Buffalo" data-placement="top" title="University at Buffalo" src="/images/universities/buffalo.edu/56px?d5730a8e964d8fd34e05797443066d0d=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                    
+                                    
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    5<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                                                                        
+                                                
+                                                
+                        
+    <tr class="">
+
+                    <td class="table-item-autofit"><strong>18</strong></td>
+        
+                            
+                    
+        <td class="standings-cell--expand" title="Northeast NA Final Round">
+            <div>
+                <a href="/contests/nena19/teams/160214">
+                                            UdeM-1
+                                    </a>
+
+                            </div>
+        </td>
+
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?0f147673cefbeeed2ae9490aef26ec04=" class="image_info-image-table image_info-image-rounded image_info-soft-shadow"/>
+                            </td>
+        
+        
+                    <td class="table-item-autofit">
+                                    <img data-toggle="tooltip" alt="University of Moncton" data-placement="top" title="University of Moncton" src="/images/universities/umoncton.ca/56px?67394dea22e6463fdac14b90e6240096=" class="image_info-image-table" />
+                            </td>
+        
+                                    <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+            
+                            <td class="table-item-autofit table-align-right standings-cell-time">  0</td>
+                    
+                                    
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    1<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    4<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td class="attempted"
+                                >
+
+            
+            <span class="standings-table-result-cell">
+                <i class="fas fa-times status-icon cell-attempted"
+                ></i>
+                <span class="standings-table-result-cell-text">
+                    2<br>
+                    <span class="standings-table-result-cell-time">
+                        -
+                    </span>
+                </span>
+            </span>
+            
+                    </td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                            
+    
+            <td></td>
+    
+                    
+        
+            </tr>
+
+
+                                                            
+                
+                                    
+        <tr>
+                    <th class="table2-header" colspan="6"></th>
+        
+                                            
+<th class="table2-header" style="width: min_widthpx"><a title="Add &#039;Em Up!" href="/contests/nena19/problems/addemup">A</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Colonization of El-gă-rizm" href="/contests/nena19/problems/thecolonizationofelgarizm">B</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Cutting the Necklace" href="/contests/nena19/problems/cuttingthenecklace">C</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Fair Divisions" href="/contests/nena19/problems/fairdivisions">D</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Guess the Digits" href="/contests/nena19/problems/guessthedigits">E</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Monument Maker" href="/contests/nena19/problems/monumentmaker">F</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Protecting the Collection" href="/contests/nena19/problems/protectingthecollection">G</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Sock Pile" href="/contests/nena19/problems/thesockpile">H</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="Stickers" href="/contests/nena19/problems/stickers">I</a></th>
+<th class="table2-header" style="width: min_widthpx"><a title="The Wire Ghost" href="/contests/nena19/problems/thewireghost">J</a></th>
+        
+                                            </tr>
+    
+                            </table>
+        </div>
+    </section>
+</div>
+    </div>
+
+                      <script type="text/javascript">
+            jQuery(function ($) {
+                var options = {
+                    position: { 
+                        at: 'center bottom',
+                        my: 'center top+15',
+                        using: function(position, feedback) {
+                            $( this ).css( position );
+                            $( "<div>" )
+                                .addClass("arrow")
+                                .addClass(feedback.horizontal)
+                                .addClass(feedback.vertical)
+                                .appendTo(this);
+                        } 
+                    }
+                };
+                $('[data-toggle="tooltip"]').tooltip(options);
+                var nowMs = new Date().getTime();
+                var starttimeMs = 1000 * 1573312500.000000;
+                if (starttimeMs < nowMs + 10 * 60 * 60 * 1000) {  // Only poll if start is less than 10 hours away
+                    // end polling 10 hours after end time (grace period for unfreezing and finalizing)
+                                            var pollEndTime = 1000 * (1573330500 + 60 * 60 * 10);
+                                        var intervalMs = 60 * 1000;
+                    var update_standings = function() {
+                        var url = '/contests/nena19/standings?ajax=1';
+                        $.get(url, {
+                            'cache': false
+                        }, function(data) {
+                            $('#standings_wrapper').html(data);
+                            $('[data-toggle="tooltip"]').tooltip(options);
+                        }).always(function() {
+                            if (new Date().getTime() < pollEndTime) {
+                                setTimeout(update_standings, intervalMs);
+                            }
+                        });
+                    };
+                    setTimeout(update_standings, intervalMs);
+                }
+            });
+        </script>
+    
+
+
+    
+
+
+
+
+</main>
+
+
+
+    <script type="module" src="/js/ce8dfdad948d7e96b8c3a4fe9eff041c/pages/contest/header.js"></script>
+<script src="/assets/d50023b2e49040d1d32e9756d3400d87/moment/min/moment.min.js"></script>
+<script src="/assets/d50023b2e49040d1d32e9756d3400d87/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="/assets/d50023b2e49040d1d32e9756d3400d87/select2/dist/js/select2.full.min.js"></script>
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7508d1c5cd675980","token":"6651308a007d4d459b12876077322bfb","version":"2022.8.1","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

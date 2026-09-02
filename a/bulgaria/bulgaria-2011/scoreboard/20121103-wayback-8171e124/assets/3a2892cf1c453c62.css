@@ -1,0 +1,138 @@
+* { 
+	margin:0;
+	padding:0;
+}
+html, body { 
+	height:100%;
+}
+body { 
+	background: #f5fbfb url(../images/top.jpg) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	line-height:1.85em;
+	color:#333;
+}
+.clear{ width: 100%; height: 2px; clear: both; }
+a{ text-decoration: none; }
+a:hover {text-decoration: underline; }
+h3.title { letter-spacing: 8px; text-transform: uppercase; text-align: center; }
+/*==== GLOBAL =====*/
+#page{
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+}
+#top{
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+}
+#top .line{
+	position: relative;
+	width: 1000px;
+	height: 47px;
+	background: #e75c25;
+}
+#top .logo{
+	position: relative;
+	width: 200px;
+	height: 130px;
+	float: left;
+	background: url(../images/logo_bck.jpg) repeat-x;
+	margin: 0 0 0 20px;
+	z-index: 10;
+}
+#top .line .content{
+	position: relative;
+	width: 700px;
+	height: 30px;
+	margin: 10px 10px 0 0;
+	color: #fff;
+	text-align: right;
+	float: right;
+}
+#button_area{
+	width: 575px;
+	height: 40px;
+	float: right;
+}
+#button_area .button{
+	height: 37px;
+	display: block;
+	background: url(../images/but_sep.jpg) right top no-repeat;
+	padding: 5px 15px 0 10px;
+	float: left;
+}
+#button_area .button a{
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+#button_area .button a:hover{
+	color: #ff6633;
+	font-weight: bold;
+	text-decoration: none;
+}
+#main{
+	width: 980px;
+	min-height: 500px;
+	padding: 20px 10px 20px 10px;
+	margin: 80px 0 0 0;
+	background: #fff;
+	display: block;
+}
+#main .lNav{
+	width: 232px;
+	float: left;
+}
+#main .lNav .button{
+	width: 200px;
+	margin: 5px 10px 0 10px;
+	padding: 0 5px 0 5px;
+	border-bottom: #d4d4d4 1px groove;
+	cursor: pointer;
+}
+#main .lNav .blank{
+	width: 200px;
+	height: 20px;
+	margin: 5px 10px 0 10px;
+	padding: 0 5px 0 5px;
+}
+#main .lNav .button:hover{
+	background: #d6f0fa;
+}
+#main .lNav .button a{
+	text-decoration: underline;
+	color: #333;
+}
+#main .lNav .button a:hover{
+	text-decoration: none;
+}
+#main .content{
+	width: 720px;
+	display: block;
+	float: right;
+}
+#footer{
+	width: 100%;
+	height: 104px;
+	background: url(../images/bottom.jpg) repeat-x;
+}
+#footer .content{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 45px 0 0 0;
+	font-size: 12px;
+	text-align: center;
+	line-height:1.35em;
+}
+#footer .content a{
+	text-decoration: underline;
+	color: #fff;
+}
+#footer .content a:hover{
+	text-decoration: none;
+}

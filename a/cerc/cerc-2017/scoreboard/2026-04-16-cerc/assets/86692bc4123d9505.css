@@ -1,0 +1,58 @@
+
+h2 {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* results.php */
+
+table.r {
+  margin: auto;
+  border: 1px solid #999999;
+  border-collapse: collapse;
+}
+
+table td.v {
+  padding: 2px 5px;
+  text-align: left;
+  border: 1px solid #cccccc;
+}
+
+table th.r, table td.r {
+  padding: 2px 5px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+/* za acm */
+
+table th.acmres, table td.acmres {
+  min-width: 40px;
+}
+
+td .acmacc,
+td .acmwa,
+td .acmacc,
+td .acmpend {
+    display: block;
+}
+
+td .acmacc {
+    background-color: #30B209;
+    margin-bottom: 3px;
+}
+
+td .acmwa {
+    background-color: #DB001A;
+    margin-bottom: 18px;
+}
+
+td .acmpend {
+    background-color: #35A9FF;
+    margin-bottom: 18px;
+}
+
+td .acmtime {
+    font-style: italic;
+}

@@ -1,0 +1,82 @@
+/* 
+
+Roebox.0.9 
+http://www.septemberthree.com/blog/stuff/roebox/roebox.html
+by John Saddington
+
+*/
+#lbOverlay {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #000000;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	left: 50%;
+	overflow: hidden;
+	background-color: #fff;
+	z-index: 1000;
+}
+
+.lbLoading {
+	background: #fff url(loading.gif) no-repeat center;
+}
+
+#lbImage {
+	border: 5px solid #fff;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(prev.gif) no-repeat 0% 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(next.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	line-height: 1.4em;
+	text-align: left;
+	border: 5px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 89px;
+	height: 15px;
+	background: transparent url(close.gif) no-repeat center;
+	margin: 5px 0;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}

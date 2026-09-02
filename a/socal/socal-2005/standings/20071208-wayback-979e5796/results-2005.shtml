@@ -1,0 +1,150 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2005/results-2005.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2005/results-2005.shtml">http://socalcontest.org/history/2005/results-2005.shtml</a> (content as captured 2007-12-08 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2005.html">socal-2005</a>)  <a href="https://web.archive.org/web/20071208190438/http://socalcontest.org/history/2005/results-2005.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2005.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 14-Nov-2005</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-2005.shtml 27 2007-09-24 05:48:15Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2005-06 Southern California Regional Programming Contest Final Standings</h2>
+</center>
+
+<pre>
+Rank   Team ID    Team Name                        Solved   Penalties    Score
+
+   1   acm107     Caltech A                           6          5    15:19:59
+
+   2   acm132     HMC Virginia                        5          0     8:53:24
+   3   acm115     Cal Poly SLO: Cal Probably          5          0     9:53:59
+   4   acm110     Caltech D                           5          0    10:29:08
+   5   acm163     USC Cardinal                        5          6    13:33:20
+   6   acm153     UCSD Paper                          5          4    16:03:36
+
+   7   acm108     Caltech B                           4          2     6:37:00
+   8   acm161     UNLV: Black                         4          2     7:10:50
+   9   acm129     HMC A*                              4          3     8:52:14
+  10   acm148     UCI Smoke                           4          0     9:52:58
+  11   acm154     UCSD Rock                           4          4    10:58:18
+  12   acm116     Cal Poly SLO: Orb Master DJ & th    4          0    13:39:40
+
+  13   acm156     UCSD Scissors                       3          1     5:02:06
+  14   acm151     UCLA Gold                           3          1     6:08:16
+  15   acm160     UCSB: Santa Barbarians              3          0     6:49:59
+  16   acm130     HMC Hammer                          3          1     8:32:45
+  17   acm159     UCR - Go Team!                      3          0     8:54:23
+  18   acm118     Cal Poly Pom: Cal Poly Broncos 2    3          2     8:56:23
+  19   acm105     CSU LB: Lunkwill, Fook, and Juan    3          3     9:40:52
+  20   acm127     CSU Fullerton: Fullerton Titans     3          0    10:37:33
+  21   acm149     UCLA Blue                           3          3    11:10:54
+
+  22   acm150     UCLA Bruins                         2          0     1:04:04
+  23   acm164     USC Gold                            2          0     2:32:52
+  24   acm152     UCLA Tiffany                        2          0     3:08:36
+  25   acm147     UCI Gold                            2          0     4:04:58
+  26   acm165     Whittier College: Solo              2          0     4:25:46
+  27   acm131     HMC Ooh! Food!                      2          0     4:34:56
+  28   acm136     MtSAC Red                           2          0     4:45:17
+  29   acm135     MtSAC Gold                          2          2     5:01:40
+  30   acm155     UCSD RPS                            2          2     5:11:20
+  31   acm133     Moorpark College: Moorpark Raide    2          2     6:01:45
+  32   acm126     CSU Northridge: CSUN1               2          0     6:07:02
+
+  33   acm145     UCI Anteaters                       1          0     0:24:53
+  34   acm158     UCR - Code It Like It's Hot         1          0     0:34:55
+  35   acm146     UCI Blue                            1          0     0:36:54
+  36   acm122     CSU Channel Islands: NPC            1          0     1:21:21
+  37   acm114     Cal Poly SLO: Cal Poly SLO C        1          0     1:27:01
+  38   acm142     SDSU Protoss                        1          0     1:43:34
+  39   acm112     Cal Lutheran: kTeam                 1          0     1:52:06
+  40   acm143     SDSU Terran                         1          0     2:27:12
+  41   acm109     Caltech C                           1          0     2:48:50
+  42   acm119     Cal Poly Pom: Cal Poly Broncos 3    1          0     3:11:05
+  43   acm111     Cal Lutheran: 4 Credits & a T-Sh    1          1     3:44:58
+  44   acm128     CSU Fullerton: Fullerton Titans     1          0     3:46:05
+  45   acm120     CSU Channel Islands: ' OR 1=1       1          0     4:00:05
+
+       acm100     Azusa Pacific Univ: (abyss)daemo    0          0     0:00:00
+       acm101     Azusa Pacific Univ: (awesome*)ap    0          0     0:00:00
+       acm102     Azusa Pacific Univ: chmod 777 us    0          0     0:00:00
+       acm103     CSU LB: Bit Shifters                0          0     0:00:00
+       acm104     CSU LB: Greater Than >              0          0     0:00:00
+       acm106     CSU LB: Net Busters                 0          0     0:00:00
+       acm113     Cal Lutheran: MDS                   0          0     0:00:00
+       acm117     Cal Poly Pom: Cal Poly Broncos 1    0          0     0:00:00
+       acm121     CSU Channel Islands: All In         0          0     0:00:00
+       acm123     CSU Dominguez Hills: CSUDH Toro     0          0     0:00:00
+       acm124     CSU Dominguez Hills: CSUDH Toro2    0          0     0:00:00
+       acm125     CSU Dominguez Hills: CSUDH Toro3    0          0     0:00:00
+       acm134     MtSAC Blue                          0          0     0:00:00
+       acm137     PLNU Sealions                       0          0     0:00:00
+       acm138     Pomona College: Code Hunters        0          0     0:00:00
+       acm139     RCC::CMariachi                      0          0     0:00:00
+       acm140     RCC::fsck                           0          0     0:00:00
+       acm141     RCC::PulpScribes                    0          0     0:00:00
+       acm144     SDSU Zerg                           0          0     0:00:00
+       acm157     UCR - Binary Operators              0          0     0:00:00
+       acm162     UNLV: Red                           0          0     0:00:00
+</pre>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2005.shtml 27 2007-09-24 05:48:15Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Sat, 29-Sep-2007 03:12:25 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2005 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

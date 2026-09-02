@@ -1,0 +1,27 @@
+.list {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+.title {
+	FONT-SIZE: 14px; LINE-HEIGHT: 200%
+}
+.listdown {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: normal
+}
+.content {
+	FONT-SIZE: 13px; COLOR: #000000; LINE-HEIGHT: 150%
+}
+A:visited {
+	COLOR: #2d3192; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+.contentbig {
+	FONT-SIZE: 14px; LINE-HEIGHT: 150%
+}
+.contentbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 150%
+}
+A:link {
+	COLOR: #2d3192; TEXT-DECORATION: none
+}

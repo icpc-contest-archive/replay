@@ -1,0 +1,97 @@
+
++------+-------------------------+---------------------------------+------+
+|userid|        Team Name        |  A   B   C   D   E   F   G   H  | Total|
++------+-------------------------+---------------------------------+------+
+|acm058|Waterloo A               | 179 266 155 273          32  47 |6  952|
+|acm036|CMU Tartans A            | 168 337 119     274      10  84 |6  992|
+|acm013|Toronto 1                |     230 165         285  28  89 |5  797|
+|acm044|Case Western A           |     272 219     207      62 126 |5  886|
+|acm017|Waterloo B               |          58     249      22  41 |4  370|
+|acm025|McGill Poutines          |         148 168          53  52 |4  421|
+|acm029|CMU Tartans B            |     334 107              22 265 |4  728|
+|acm071|Toronto A                |          71              18  96 |3  185|
+|acm059|Case Western B           |         165              27  79 |3  271|
+|acm018|Prussian Programmers     |         186              20  87 |3  293|
+|acm077|Wolverines-A             |         117              86  92 |3  295|
+|acm015|Wolverines-B             |         271              47  70 |3  388|
+|acm081|DePauw University        |         290              39 110 |3  439|
+|acm074|UD FLYERS                |         340              20  89 |3  449|
+|acm068|McGill Trilogians        |         155              25 278 |3  458|
+|acm001|Rose-Hulman #2           |         134              58 297 |3  489|
+|acm065|The Analog Doctors       |         101              67 350 |3  518|
+|acm084|The Phish                |         358              31 166 |3  555|
+|acm072|LTU-SP                   |         185             110 278 |3  573|
+|acm076|Best We Can Do           |         258              90 322 |3  670|
+|acm041|UPJ A                    |         239             145 351 |3  735|
+|acm053|Miami Redhawks (A)       |         382              47 313 |3  742|
+|acm087|MSU Spartans             |         352             299 134 |3  785|
+|acm047|Irish Blue               |         142              37     |2  179|
+|acm056|bearcats                 |                         110  99 |2  209|
+|acm028|Irish Gold               |                          85 158 |2  243|
+|acm089|Baldwin-Wallace          |         183              85     |2  268|
+|acm092|Segmentation Fault       |         295              50     |2  345|
+|acm075|Ohio State Buckeyes      |                          36 310 |2  346|
+|acm055|Miami Redhawks (B)       |                          75 283 |2  358|
+|acm054|OWU                      |         287              73     |2  360|
+|acm037|Denison1                 |         280              83     |2  363|
+|acm086|The Touring Machine      |         309              59     |2  368|
+|acm050|Ada Compilers            |         316              65     |2  381|
+|acm040|SHIFT U                  |         285             104     |2  389|
+|acm007|Computing Falcons        |                          52 356 |2  408|
+|acm051|BGSU Falcons             |         236             213     |2  449|
+|acm078|Akron Zips               |         338             151     |2  489|
+|acm082|Order of n               |                         119 444 |2  563|
+|acm069|Indiana Tech Red Dogs    |                         296 290 |2  586|
+|acm043|forked children          |                          30     |1   30|
+|acm063|York Gold                |                          42     |1   42|
+|acm026|Blue Streaks2            |                          45     |1   45|
+|acm042|Taylor University        |                          57     |1   57|
+|acm048|The Alden Caffiends      |                          70     |1   70|
+|acm016|The Other Guys           |                          72     |1   72|
+|acm067|AU Eagles 2              |                          81     |1   81|
+|acm091|University of Ottawa     |          83                     |1   83|
+|acm005|York Red                 |                          87     |1   87|
+|acm019|Kent State Browns        |                          88     |1   88|
+|acm031|Big Monkeys              |                          92     |1   92|
+|acm011|OWU Bishops              |                          97     |1   97|
+|acm023|LTU-NSP                  |                         100     |1  100|
+|acm061|"On Sabbatical"          |                         103     |1  103|
+|acm009|Clarion Blue             |                         106     |1  106|
+|acm080|raptor                   |                         113     |1  113|
+|acm046|Rockets                  |                         117     |1  117|
+|acm057|raptor too               |                         122     |1  122|
+|acm030|Core Dump                |                         124     |1  124|
+|acm090|Little Monkeys           |                         130     |1  130|
+|acm073|MVNC++                   |                         147     |1  147|
+|acm085|Blue Streaks 1           |                         151     |1  151|
+|acm045|The Screaming Bus        |                         207     |1  207|
+|acm060|rabid cows               |                         224     |1  224|
+|acm064|Thiel A                  |                         228     |1  228|
+|acm006|UPJ B                    |                         232     |1  232|
+|acm004|Deez Bitz 1              |                         240     |1  240|
+|acm027|Denison2                 |                         248     |1  248|
+|acm049|Hyper Cubes              |                         278     |1  278|
+|acm070|Sheridan Polar Bears     |                         281     |1  281|
+|acm024|Heidelberg Bergs         |                         288     |1  288|
+|acm035|Westminster A            |                         292     |1  292|
+|acm003|Westminster B            |                         333     |1  333|
+|acm033|Strong Typers            |                         420     |1  420|
+|acm002|CTRL ZEE                 |                                 |0    0|
+|acm008|starving hackers         |                                 |0    0|
+|acm010|/dev/null                |                                 |0    0|
+|acm012|Thiel B                  |                                 |0    0|
+|acm014|Bill GATORS              |                                 |0    0|
+|acm020|Dogbert's New Ruling Clas|                                 |0    0|
+|acm021|Indiana Tech Code Warrior|                                 |0    0|
+|acm022|SVSU Team B              |                                 |0    0|
+|acm032|Kent State Indians       |                                 |0    0|
+|acm034|Illogical Fuzz           |                                 |0    0|
+|acm038|AU Eagles 1              |                                 |0    0|
+|acm039|Ivy Tech State Northwest |                                 |0    0|
+|acm052|Rose-Hulman #1           |                                 |0    0|
+|acm062|SVSU Team A              |                                 |0    0|
+|acm066|UMDearborn               |                                 |0    0|
+|acm079|Deez Bitz 0              |                                 |0    0|
+|acm083|Clarion Gold             |                                 |0    0|
+|acm088|Heidelberg Hair Bears    |                                 |0    0|
++------+-------------------------+---------------------------------+------+

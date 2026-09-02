@@ -1,0 +1,151 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2007/results-2007.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2007/results-2007.shtml">http://socalcontest.org/history/2007/results-2007.shtml</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2007.html">socal-2007</a>)  <a href="https://web.archive.org/web/*/http://socalcontest.org/history/2007/results-2007.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2007.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 11-Nov-2007</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-2007.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2007-08 Southern California Regional Programming Contest Final Standings</h2>
+</center>
+
+<font face="Courier">
+<pre>
+Rank   Team ID    Team Name                        Solved   Penalties    Score
+
+   1   acm107     Caltech A                           6          1    12:52:48
+
+   2   acm150     UCSD Canada                         5          2    11:09:58
+   3   acm105     The Sirius Cybernetics Corporati    5          1    12:34:39
+
+   4   acm126     HMC 42                              4          0     6:26:28
+   5   acm151     UCSD Paper                          4          3     8:00:40
+   6   acm161     USC Trojans                         4          1     8:29:27
+   7   acm128     HMC Virginia                        4          1     9:21:26
+   8   acm127     HMC Squared                         4          4    10:55:22
+   9   acm129     HMC'); DROP TABLE Teams;            4          6    12:25:56
+
+  10   acm159     USC Cardinal                        3          4     6:37:02
+  11   acm125     CSUN1                               3          2     7:48:00
+  12   acm154     UCSB 3 Musketeers                   3          3     8:53:56
+  13   acm147     UCLA Bruins                         3          6     9:17:05
+  14   acm148     UCLA Gold                           3          2     9:51:16
+  15   acm124     CSULA Golden Eagles                 3          1    10:03:23
+  16   acm152     UCSD Rock                           3          4    11:39:39
+  17   acm158     UNLV Rebels                         3          6    13:35:29
+
+  18   acm132     PLNU Gold                           2          1     4:05:09
+  19   acm135     Code Hunters                        2          2     4:30:33
+  20   acm140     Ctrl X                              2          2     6:06:39
+  21   acm115     CPP SegFault                        2          1     6:12:36
+  22   acm153     UCSD Scissors                       2          3     6:35:13
+  23   acm145     UCI Smoke                           2          1     7:12:00
+  24   acm143     UCI Silver                          2          7     7:31:30
+  25   acm111     CP Regex                            2          2     8:08:08
+  26   acm160     USC Gold                            2          4     9:19:20
+
+  27   acm156     UCSB Sugar Daddy                    1          0     0:40:31
+  28   acm146     UCLA Blue                           1          0     0:50:46
+  29   acm142     UCI Sea                             1          0     0:50:54
+  30   acm103     ACuMa                               1          0     1:10:14
+  31   acm119     this.name                           1          0     1:23:44
+  32   acm113     CPP A*                              1          1     1:59:42
+  33   acm117     NicNicNic                           1          1     2:03:04
+  34   acm104     Macho Men                           1          0     2:08:49
+  35   acm121     1080                                1          3     2:17:40
+  36   acm123     Juggernaut                          1          0     2:50:49
+  37   acm133     PLNU Green                          1          1     2:51:20
+  38   acm118     give us arrays                      1          0     3:03:11
+  39   acm136     RCC::404                            1          0     3:26:58
+  40   acm114     CPP Drop Table Entrant'').          1          2     3:36:52
+  41   acm122     Dreadnaut                           1          2     4:13:37
+  42   acm101     APU Muad'Dib                        1          0     4:19:58
+  43   acm110     Blue Squishy Penguins               1          3     4:38:46
+  44   acm162     Whittier Solo                       1          0     4:50:24
+  45   acm149     UCLA Westwood                       1          4     5:33:38
+  46   acm137     RCC::IOException                    1          4     5:52:42
+
+Honorable Mention
+
+       acm100     APU FISHSTICKS!!
+       acm102     APU Tirian
+       acm106     unsigned long beach;
+       acm108     BliSsfully_CLUeless
+       acm109     CLUe
+       acm112     CPP :(){ :|:& };:
+       acm116     /* no comment */
+       acm120     Master Biter
+       acm130     MtSAC blue
+       acm131     MtSAC gold
+       acm134     PLNU Sealions
+       acm138     RCC::MastersOfDisasters
+       acm139     Bravo Team
+       acm141     Team America
+       acm144     UCI Sky
+       acm155     UCSB Nutrageous
+       acm157     UNLV Nonconformists
+</pre>
+</font>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2007.shtml 149 2013-07-27 02:18:43Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Thu, 23-Apr-2015 18:31:42 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2007 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+
