@@ -1,0 +1,273 @@
+ol.trial {
+list-style-type: upper-alpha;
+}
+ol.contest {
+list-style-type: upper-alpha;
+}
+table.ranking {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+table.ranking td.right {
+   text-align: right;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+   background-color: #ffffc0;
+}
+table.ranking td.left {
+   text-align: left;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+   background-color: #ffffc0;
+}
+table.ranking td.rightx {
+   text-align: right;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+   background-color: #ffa67a;
+}
+table.ranking td.leftx {
+   text-align: left;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+   background-color: #ffa67a;
+}
+table.ranking td.head {
+   text-align: center;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+   font-weight: bold;
+   background-color: #d0d0d0;
+}
+table.accepted {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+}
+table.accepted td.num {
+   text-align: right;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+}
+table.accepted td.uni {
+   text-align: left;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+}
+table.accepted td.team {
+   text-align: left;
+   vertical-align: middle;
+   border: thin solid black;
+   padding: .3em;
+}
+table.sponsors {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+}
+table.sponsors td.sponsors {
+   text-align: center;
+   vertical-align: middle;
+   border: none;
+   padding: 1em;
+}
+table.exttable {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+}
+table.exttable td.exthead {
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid black;
+   padding: 0.5em 1em 0.5em 1em;
+   font-weight: bold;
+}
+table.exttable td.exttt {
+   font-family: monospace;
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid black;
+   padding: 0.5em 1em 0.5em 1em;
+}
+table.exttable td.ext {
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid black;
+   padding: 0.5em 1em 0.5em 1em;
+}
+table.schedule {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -1em;
+   margin-bottom: 1.5em;
+}
+table.schedule td.time {
+   text-align: right;
+   vertical-align: middle;
+   border: 1px solid black;
+   padding: 0.5em 1em 0.5em 1em;
+}
+table.schedule td.activity {
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid black;
+   padding: 0.5em 1em 0.5em 1em;
+}
+table.schedule td.day {
+   text-align: center;
+   font-weight: bold;
+   font-size: larger;
+   vertical-align: bottom;
+   border: 0px;
+   padding: 1.5em 1em 0.5em 1em;
+}
+
+table.distances {
+   border-collapse: collapse;
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+}
+table.distances td.head {
+   text-align: center;
+   vertical-align: middle;
+   font-weight: bold;
+   padding: 0.2em;
+   margin: 0em;
+   border: 1px solid black;
+}
+table.distances td.head-left {
+   text-align: center;
+   vertical-align: middle;
+   font-weight: bold;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px dashed black;
+   border-bottom: 1px solid black;
+}
+table.distances td.head-right {
+   text-align: center;
+   vertical-align: middle;
+   font-weight: bold;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px dashed black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+}
+table.distances td.city {
+   text-align: left;
+   vertical-align: middle;
+   padding: 0.2em;
+   margin: 0em;
+   border: 1px solid black;
+}
+table.distances td.distance {
+   text-align: right;
+   vertical-align: middle;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px dashed black;
+   border-bottom: 1px solid black;
+}
+table.distances td.car {
+   text-align: right;
+   vertical-align: middle;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px dashed black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+}
+table.distances td.train {
+   text-align: right;
+   vertical-align: middle;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px dashed black;
+   border-bottom: 1px solid black;
+}
+table.distances td.arrival {
+   text-align: right;
+   vertical-align: middle;
+   padding: 0.2em;
+   margin: 0em;
+   border-top: 1px solid black;
+   border-left: 1px dashed black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+}
+p.dist-comment {
+   text-align: left;
+   font-size: smaller;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   text-indent: -3em;
+}
+table.gmap {
+   border-collapse: collapse;
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+}
+table.gmap td.map {
+   padding: 0px;
+   margin: 0px;
+   border: 1px solid black;
+   background: #c7c7c7;
+}
+table.gmap td.link {
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+   font-size: smaller;
+   text-align: left;
+   vertical-align: top;
+}
+img.iiimage {
+   border: 1px solid black;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+@media print {
+   p.dont-print {
+      display : none;
+   }
+}
+div.booking {
+   margin: 1em auto 1em auto;
+   width: 80%;
+   padding: 1em;
+   border: thin dashed black;
+   background: #ffffc0;
+}

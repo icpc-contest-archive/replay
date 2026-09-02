@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 BANNER = """<!-- baked by icpc-contest-archive/replay -->
-<meta name="robots" content="noindex">
+{charset}<meta name="robots" content="noindex">
 {canonical}
 <style>#icpc-archive-banner{{position:sticky;top:0;z-index:99999;background:#1a2634;
 color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}}
@@ -33,6 +33,65 @@ BANNER_BODY = """<div id="icpc-archive-banner">Archived copy of {url_link}{fetch
 part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
 ({contest_link}){wayback}</div>
 """
+
+
+META_CS_RE = re.compile(rb"charset\s*=\s*[\"']?\s*([A-Za-z0-9_.:-]+)", re.I)
+META_CS_SUB = re.compile(rb"(charset\s*=\s*)([\"']?)\s*[A-Za-z0-9_.:-]+", re.I)
+TLD_HINTS = {  # preferred legacy encodings when nothing decodes as declared/utf-8
+    "pl": "windows-1250", "hr": "windows-1250", "cz": "windows-1250", "sk": "windows-1250",
+    "si": "windows-1250", "hu": "windows-1250", "ro": "windows-1250",
+    "ru": "windows-1251", "ua": "windows-1251", "by": "windows-1251", "bg": "windows-1251",
+    "kz": "windows-1251", "eg": "windows-1256", "sa": "windows-1256", "jo": "windows-1256",
+    "sy": "windows-1256", "lb": "windows-1256", "ma": "windows-1256", "tn": "windows-1256",
+    "gr": "windows-1253", "tr": "windows-1254", "jp": "shift_jis", "kr": "euc-kr",
+    "tw": "big5", "cn": "gb18030", "hk": "big5",
+}
+
+
+def to_utf8(raw: bytes, content_type: str, url: str):
+    """Best-effort transcode to UTF-8 (GitHub Pages force-serves charset=utf-8, so
+    anything else garbles no matter what the page declares). Returns (bytes, encoding)
+    — encoding None when undecodable (bytes returned untouched)."""
+    if raw[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        return raw, None  # UTF-16 with BOM: browsers handle via BOM
+    cands = []
+    m = re.search(r"charset=([A-Za-z0-9_.:-]+)", content_type or "", re.I)
+    if m:
+        cands.append(m.group(1))
+    m = META_CS_RE.search(raw[:4096])
+    if m:
+        cands.append(m.group(1).decode("ascii", "ignore"))
+    cands.append("utf-8")
+    host = re.sub(r"^https?://(web\.archive\.org/web/[^/]+/https?://)?", "", url or "")
+    tld = host.split("/")[0].rsplit(".", 1)[-1].lower() if host else ""
+    cands.append(TLD_HINTS.get(tld, "windows-1252"))
+    cands.append("windows-1252")
+    for enc in cands:
+        try:
+            text = raw.decode(enc)
+        except Exception:
+            continue
+        if enc.lower().replace("-", "").replace("_", "") in ("utf8", "usascii", "ascii"):
+            return raw, "utf-8"
+        out = text.encode("utf-8")
+        head = META_CS_SUB.sub(rb"\g<1>\g<2>utf-8", out[:4096])
+        return head + out[4096:], enc
+    return raw, None
+
+
+def apply_assets(raw: bytes, manifest: dict, src_dir, dest_dir) -> bytes:
+    """Copy backfilled assets next to the baked page and point its refs at them."""
+    for a in manifest.get("assets") or []:
+        f = src_dir / a["file"]
+        if not f.exists():
+            continue
+        d = dest_dir / a["file"]
+        d.parent.mkdir(parents=True, exist_ok=True)
+        d.write_bytes(f.read_bytes())
+        ref, rel = a["ref"].encode(), a["file"].encode()
+        for q in (b'"%s"', b"'%s'"):
+            raw = raw.replace(q % ref, q % rel)
+    return raw
 
 
 def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
@@ -68,21 +127,33 @@ def main() -> int:
         dest = ROOT / "a" / cap["path"]
         dest.parent.mkdir(parents=True, exist_ok=True)
         raw = src.read_bytes()
+        try:
+            manifest = json.loads((src.parent / "manifest.json").read_text())
+        except Exception:
+            manifest = {}
         is_html = (cap.get("content_type") or "").startswith("text/html") or \
             src.suffix.lower() in (".html", ".htm")
         if is_html:
             url = cap.get("url") or ""
+            raw, _enc = to_utf8(raw, cap.get("content_type") or "", url)
+            raw = apply_assets(raw, manifest, src.parent, dest.parent)
             canonical = f'<link rel="canonical" href="{html.escape(url, True)}">' if url else ""
             url_link = f'<a href="{html.escape(url, True)}">{html.escape(url[:80])}</a>' if url \
                 else "an ICPC result page"
-            fetched = f" (fetched {cap['fetched'][:10]})" if cap.get("fetched") else ""
+            ts = cap.get("wayback_timestamp")
+            if ts:
+                fetched = (f" (content as captured {ts[:4]}-{ts[4:6]}-{ts[6:8]} "
+                           f"via the Wayback Machine)")
+            else:
+                fetched = f" (fetched {cap['fetched'][:10]})" if cap.get("fetched") else ""
             wayback = ""
             wb = cap.get("wayback_url") or (f"https://web.archive.org/web/*/{url}" if url else "")
             if wb:
                 wayback = f' · <a href="{html.escape(wb, True)}">wayback</a>'
             contest_link = (f'<a href="https://icpc-contest-archive.github.io/contests/contest/'
                             f'{cap["contest"]}.html">{cap["contest"]}</a>')
-            raw = inject(raw, BANNER.format(canonical=canonical),
+            raw = inject(raw, BANNER.format(
+                charset='<meta charset="utf-8">\n' if _enc else "", canonical=canonical),
                          BANNER_BODY.format(url_link=url_link, fetched=fetched,
                                             contest_link=contest_link, wayback=wayback))
         dest.write_bytes(raw)

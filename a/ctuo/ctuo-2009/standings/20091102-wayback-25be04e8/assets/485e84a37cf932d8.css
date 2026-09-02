@@ -1,0 +1,55 @@
+
+body {
+	margin: 0pt;
+	padding: 4pt 0pt;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+img {
+	border: 0
+}
+
+#header { width: 100%; }
+#menu {  
+        padding: 2px;
+        color: white;
+        background-color: #7088c0;        
+        font: bold 10pt Verdana,sans-serif,Helvetica;
+        }
+#body { padding: 0.5cm }
+
+#menu a {text-decoration: none; color:white}
+#menu a:hover { color:red }
+#menu a.sel { color: yellow}
+
+
+div.error {
+		padding: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px; 
+		border: 2px solid red;
+		background-color:#FF9D9D;
+}
+
+div.warning {
+		padding: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px; 		
+		border: 2px solid #bdc728;
+		background-color: #ecf833;
+}
+
+div.info {
+		padding: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px; 		
+		border: 2px solid green;
+#		background-color: #ecf833;
+}
+
+
+div.submitform {
+	border: 1px solid gray;
+	padding: 5px;
+}

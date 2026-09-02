@@ -1,0 +1,122 @@
+div.ranking table.docutils
+{
+    cell-spacing : 0;
+    border : none;
+    border-collapse : collapse;
+}
+
+div.ranking colgroup
+{
+  display : none;
+}
+
+div.ranking table td
+{
+    padding : 5px;
+    margin : 0;
+    vertical-align : middle;
+   border : 0;
+   border-color : black;
+   border-style : solid;
+}
+
+
+div.ranking th 
+{
+    background-color : #2C2C0E;
+    color : #DAA520;
+    font-weight : bold;
+    border : none;
+
+}
+
+
+div.ranking tr:nth-child(even) {
+    background-color : #2C2C0E;
+} 
+    
+div.ranking tr:nth-child(odd) {
+    background-color : #1C1C0B;
+} 
+        
+
+div.ranking tr td:nth-child(n+3)
+{
+    vertical-align : middle;
+    text-align : center;
+}
+
+
+div.ranking tr td:nth-child(1)
+{
+    width : 5%;
+    text-align : center;
+}
+
+
+div.ranking tr td:nth-child(2)
+{
+    width : 35%;
+}
+
+div.ranking tr td:nth-child(3)
+{
+    width : 5%;
+    font-weight : bold;
+}
+
+div.ranking tr td:nth-child(4)
+{
+    width : 7%;
+}
+
+div.ranking tr td:nth-child(n+5)
+{
+    width : 4%;
+    vertical-align : top;
+}
+
+
+
+
+div.ranking tr:last-child td:first-child:after
+{
+  content : none;
+}
+
+div.ranking tr
+{
+    counter-increment : lp 1;
+}
+    
+div.ranking tr td:first-child:after
+{
+  content : counter(lp);
+}
+
+.tdpos
+{
+  display : block;
+  background-color: #4B7721;
+}
+
+
+.tdneg
+{
+  display : block;
+  background-color : #B53D2B;
+}
+
+.tdpnd
+{
+  display : block;
+  background-color : #5BA1BD;
+}
+
+
+span.signature
+{
+  font-size : 0.9em;
+  font-style : italic;
+}
+

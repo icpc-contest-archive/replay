@@ -1,0 +1,839 @@
+/* Standard domjudge css with a guard of the #scoreboard (created with SCSS)
+ * to not mess up other styles */
+#scoreboard {
+  /* general table layout (not in scoreboard or lists) */
+  /* more spacing in lists of teams, submissions, etc. */
+  /* between different sortorder-categories, print a thick line */
+  /* between different contests, print a thin line */
+  /* tabbed layout for multiple source files */ }
+  #scoreboard .prevsubmit {
+    color: #696969; }
+  #scoreboard tr.sub_ignore td {
+    text-decoration: line-through; }
+  #scoreboard tr.unseen td {
+    font-weight: bold; }
+  #scoreboard a:link, #scoreboard a:visited {
+    color: blue; }
+  #scoreboard a:hover {
+    color: purple; }
+  #scoreboard a:active {
+    color: red; }
+  #scoreboard .disabled {
+    color: silver; }
+  #scoreboard .disabled a {
+    color: gray; }
+  #scoreboard .disabled .circle {
+    opacity: 0.2; }
+  #scoreboard .nodata {
+    color: gray;
+    font-style: italic; }
+  #scoreboard table {
+    border-collapse: separate;
+    border-spacing: 2px; }
+  #scoreboard th {
+    vertical-align: bottom; }
+  #scoreboard caption {
+    font-weight: bold;
+    margin-bottom: 1ex; }
+  #scoreboard hr {
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    margin-top: 2em; }
+  #scoreboard address {
+    font-size: smaller; }
+  #scoreboard .framed {
+    border: 1px solid silver;
+    padding: 2px;
+    display: inline-block; }
+  #scoreboard tr.unread td {
+    font-weight: bold; }
+  #scoreboard .list {
+    border-collapse: collapse;
+    border-spacing: 0px; }
+  #scoreboard .list th {
+    vertical-align: bottom;
+    padding-left: 3px;
+    padding-right: 3px; }
+  #scoreboard td {
+    vertical-align: top; }
+  #scoreboard .list tr {
+    border-bottom: 1px solid silver; }
+  #scoreboard .list tr.roweven {
+    background: #ededed; }
+  #scoreboard .list tr:hover {
+    background: #ffffcc; }
+  #scoreboard .list thead tr {
+    border-bottom-color: black; }
+  #scoreboard .list thead tr:hover {
+    background: white; }
+  #scoreboard .list tfoot tr:hover {
+    background: white; }
+  #scoreboard .list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px; }
+  #scoreboard .list .disabled a {
+    color: silver; }
+  #scoreboard .list .editdel a {
+    display: inline;
+    white-space: nowrap; }
+  #scoreboard .output_text, #scoreboard .editor {
+    border-top: 1px dotted #C0C0C0;
+    border-bottom: 1px dotted #C0C0C0;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 5px;
+    font-family: monospace;
+    white-space: pre; }
+  #scoreboard span.differ {
+    color: Red; }
+  #scoreboard span.endline {
+    color: Orange; }
+  #scoreboard span.extra {
+    color: Red; }
+  #scoreboard .teamid {
+    font-family: monospace; }
+  #scoreboard .probid, #scoreboard .langid {
+    font-variant: small-caps; }
+  #scoreboard #menutop a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FFFFF0;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    z-index: 1; }
+  #scoreboard #menutop a.new {
+    color: #FF0000; }
+  #scoreboard #menutopright {
+    position: absolute;
+    right: 1ex;
+    top: 1ex;
+    text-align: right; }
+  #scoreboard #clock {
+    /*	font-size: small; */
+    font-family: monospace;
+    border: 1px dashed #ccc;
+    padding: 4px;
+    color: gray; }
+  #scoreboard #timeleft {
+    color: #800080; }
+  #scoreboard #toggles {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  #scoreboard fieldset {
+    margin: 2em;
+    padding: 1em; }
+  #scoreboard .error {
+    color: red;
+    font-family: monospace;
+    border: 1px dotted red; }
+  #scoreboard legend {
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: .1ex .5ex; }
+  #scoreboard .error legend {
+    font-size: x-large;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray; }
+  #scoreboard .center {
+    margin: 0px auto; }
+  #scoreboard .scoreboard {
+    border-collapse: collapse;
+    clear: both; }
+  #scoreboard .scoreboard td {
+    font-size: small;
+    vertical-align: middle;
+    text-align: center; }
+  #scoreboard .scoreboard tr {
+    border-bottom: 1px solid black;
+    height: 42px; }
+  #scoreboard .scoreboard td, #scoreboard .scoreboard th {
+    border-right: 1px solid silver; }
+  #scoreboard .scoreboard a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: black; }
+  #scoreboard .scoreboard .scoretn {
+    padding: 0px;
+    max-width: 15em;
+    text-align: right;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  #scoreboard .scoreboard .scoreaf {
+    white-space: nowrap;
+    border: 0; }
+  #scoreboard .scoreboard .scoreaf img {
+    vertical-align: middle; }
+  #scoreboard .univ {
+    font-size: 80%;
+    font-weight: normal;
+    color: dimgrey; }
+  #scoreboard .scoreheader {
+    font-variant: small-caps;
+    border-bottom: 2px solid black;
+    white-space: nowrap; }
+  #scoreboard .problempoints {
+    font-size: smaller;
+    font-weight: normal;
+    color: #303030;
+    padding-left: 3pt;
+    padding-right: 3pt; }
+  #scoreboard .score_correct {
+    background: #60e760; }
+  #scoreboard .score_first {
+    background: #1daa1d !important; }
+  #scoreboard .score_pending {
+    background: #6666FF; }
+  #scoreboard .score_incorrect {
+    background: #e87272; }
+  #scoreboard .tc_box {
+    text-align: center;
+    font-size: 85%;
+    width: 1.2em;
+    display: inline-block;
+    padding: 2px;
+    margin: 1px;
+    color: black; }
+  #scoreboard .tc_correct {
+    background: #60e760; }
+  #scoreboard .tc_pending {
+    background: #6666FF; }
+  #scoreboard .tc_unused {
+    background: #BBBBBB; }
+  #scoreboard .tc_incorrect {
+    background: #e87272; }
+  #scoreboard #scoresolv, #scoreboard #scoretotal {
+    width: 2.5em; }
+  #scoreboard .scorenc, #scoreboard .scorett, #scoreboard .scorepl {
+    text-align: center;
+    width: 2ex; }
+  #scoreboard .scorenc {
+    font-weight: bold; }
+  #scoreboard td.scorenc {
+    border-color: silver;
+    border-right: 0; }
+  #scoreboard .scoreprob {
+    width: 3.0em;
+    vertical-align: middle; }
+  #scoreboard .scoreaffil {
+    text-align: center; }
+  #scoreboard #scoresummary {
+    border-top: 2px solid black;
+    border-bottom: none;
+    font-variant: small-caps; }
+  #scoreboard .scorethisisme .scoretn {
+    background: #ff6600;
+    font-weight: bold; }
+  #scoreboard .scorelegend {
+    display: inline-block;
+    vertical-align: top; }
+  #scoreboard .scorelegend td {
+    text-align: center;
+    width: 25ex; }
+  #scoreboard #lastmod {
+    position: absolute;
+    right: 1ex;
+    margin-top: 1em; }
+  #scoreboard #lastmod, #scoreboard #lastmod a {
+    font-size: x-small;
+    color: gray;
+    text-align: right; }
+  #scoreboard #teamscoresummary {
+    margin-top: 2.5em; }
+  #scoreboard #teampicture {
+    position: absolute;
+    right: 4ex;
+    top: 7ex; }
+  #scoreboard .sortorderswitch {
+    border-top: 2px solid black; }
+  #scoreboard .contestswitch {
+    border-top: 1px solid black; }
+  #scoreboard .submissionsuccessful {
+    font-weight: bold;
+    background-color: #FFFFF0;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 2px;
+    color: #006400;
+    padding-left: 5px;
+    padding-right: 5px; }
+  #scoreboard input, #scoreboard select, #scoreboard textarea {
+    border: solid 1px darkgray;
+    background-color: #F0F0F0; }
+  #scoreboard input, #scoreboard select {
+    cursor: pointer; }
+  #scoreboard h3.teamoverview {
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
+    background-color: #c4d8ff;
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: 2ex;
+    padding-left: 1ex; }
+  #scoreboard #submitlist, #scoreboard #clarlist {
+    width: 48%; }
+  #scoreboard #submitlist {
+    position: absolute;
+    left: 1ex; }
+  #scoreboard #clarlist {
+    position: absolute;
+    right: 1ex; }
+  #scoreboard .compilation-success {
+    color: green;
+    font-style: italic; }
+  #scoreboard .compilation-error {
+    color: red;
+    font-style: italic; }
+  #scoreboard #submitform, #scoreboard .submissiondone {
+    text-align: center; }
+  #scoreboard .submissiondone a {
+    color: red; }
+  #scoreboard #submitlist .list, #scoreboard #clarlist .list {
+    width: 100%; }
+  #scoreboard #submitlist .list th, #scoreboard #clarlist .list th {
+    text-align: left; }
+  #scoreboard #submitlist td.result, #scoreboard #clarlist td.clartext {
+    width: 1000ex; }
+  #scoreboard #submitlist tr.highlight {
+    background-color: #c4d8ff;
+    border-color: blue; }
+  #scoreboard .errorfield {
+    border-color: red;
+    color: red; }
+  #scoreboard .button {
+    border: solid 1px darkgray;
+    background-color: #F0F0F0;
+    font-size: 90%; }
+  #scoreboard h2#teamwelcome {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 3em;
+    font-weight: normal; }
+  #scoreboard #teamwelcometeam {
+    font-weight: bold; }
+  #scoreboard h3#contestnotstarted {
+    color: silver;
+    margin-top: .2ex;
+    margin-left: 8em; }
+  #scoreboard span.fileinputs {
+    position: relative; }
+  #scoreboard input#addfile {
+    margin-top: 1ex; }
+  #scoreboard .tabberlive .tabbertabhide {
+    display: none; }
+  #scoreboard .tabberlive {
+    margin-top: 1em; }
+  #scoreboard ul.tabbernav {
+    margin: 0;
+    padding: 3px 0;
+    border-bottom: 1px solid #778;
+    font: bold 12px Verdana, sans-serif; }
+  #scoreboard ul.tabbernav li {
+    list-style: none;
+    margin: 0;
+    display: inline; }
+  #scoreboard ul.tabbernav li a {
+    padding: 3px 0.5em;
+    margin-left: 3px;
+    border: 1px solid #778;
+    border-bottom: none;
+    background: #DDE;
+    text-decoration: none; }
+  #scoreboard ul.tabbernav li a:link {
+    color: #448; }
+  #scoreboard ul.tabbernav li a:visited {
+    color: #667; }
+  #scoreboard ul.tabbernav li a:hover {
+    color: #000;
+    background: #AAE;
+    border-color: #227; }
+  #scoreboard ul.tabbernav li.tabberactive a {
+    background-color: #fff;
+    border-bottom: 1px solid #fff; }
+  #scoreboard ul.tabbernav li.tabberactive a:hover {
+    color: #000;
+    background: white;
+    border-bottom: 1px solid white; }
+  #scoreboard .tabberlive .tabbertab {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-top: 0; }
+  #scoreboard .tabberlive .tabbertab h2 {
+    display: none; }
+  #scoreboard .circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: inline-block; }
+  #scoreboard .heart {
+    padding: .3em;
+    cursor: pointer; }
+  #scoreboard table.lcsdiff {
+    border-spacing: 0;
+    border-collapse: collapse; }
+  #scoreboard table.lcsdiff td.linenr {
+    background-color: darkgray;
+    text-align: right;
+    border-right: solid 1px black;
+    padding-right: 7px; }
+  #scoreboard ins {
+    background: #dfd;
+    text-decoration: none; }
+  #scoreboard del {
+    background: #fdd;
+    text-decoration: none; }
+  #scoreboard table.rejudgetable td {
+    text-align: center; }
+  #scoreboard table.rejudgetable td.changed {
+    background-color: #fdd;
+    font-weight: bold; }
+  #scoreboard table.rejudgetable td.identical {
+    background-color: #dfd; }
+  #scoreboard table.rejudgetable td.zero {
+    background-color: #F0F8FF; }
+
+.domjudge-scoreboard {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  /* general table layout (not in scoreboard or lists) */
+  /* more spacing in lists of teams, submissions, etc. */
+  /* between different sortorder-categories, print a thick line */
+  /* between different contests, print a thin line */
+  /* tabbed layout for multiple source files */ }
+  .domjudge-scoreboard body {
+    color: black;
+    background-color: white;
+    font-family: sans-serif; }
+  .domjudge-scoreboard img {
+    border: 0; }
+  .domjudge-scoreboard .sol {
+    font-weight: bold;
+    font-variant: small-caps; }
+  .domjudge-scoreboard .sol_correct {
+    color: green; }
+  .domjudge-scoreboard .sol_incorrect {
+    color: red; }
+  .domjudge-scoreboard .sol_queued {
+    color: gray; }
+  .domjudge-scoreboard .prevsubmit {
+    color: #696969; }
+  .domjudge-scoreboard tr.sub_ignore td {
+    text-decoration: line-through; }
+  .domjudge-scoreboard tr.unseen td {
+    font-weight: bold; }
+  .domjudge-scoreboard a:link, .domjudge-scoreboard a:visited {
+    color: blue; }
+  .domjudge-scoreboard a:hover {
+    color: purple; }
+  .domjudge-scoreboard a:active {
+    color: red; }
+  .domjudge-scoreboard .disabled {
+    color: silver; }
+  .domjudge-scoreboard .disabled a {
+    color: gray; }
+  .domjudge-scoreboard .disabled .circle {
+    opacity: 0.2; }
+  .domjudge-scoreboard .nodata {
+    color: gray;
+    font-style: italic; }
+  .domjudge-scoreboard table {
+    border-collapse: separate;
+    border-spacing: 2px; }
+  .domjudge-scoreboard th {
+    vertical-align: bottom; }
+  .domjudge-scoreboard caption {
+    font-weight: bold;
+    margin-bottom: 1ex; }
+  .domjudge-scoreboard hr {
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    margin-top: 2em; }
+  .domjudge-scoreboard address {
+    font-size: smaller; }
+  .domjudge-scoreboard .framed {
+    border: 1px solid silver;
+    padding: 2px;
+    display: inline-block; }
+  .domjudge-scoreboard tr.unread td {
+    font-weight: bold; }
+  .domjudge-scoreboard .list {
+    border-collapse: collapse;
+    border-spacing: 0px; }
+  .domjudge-scoreboard .list th {
+    vertical-align: bottom;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .domjudge-scoreboard td {
+    vertical-align: top; }
+  .domjudge-scoreboard .list tr {
+    border-bottom: 1px solid silver; }
+  .domjudge-scoreboard .list tr.roweven {
+    background: #ededed; }
+  .domjudge-scoreboard .list tr:hover {
+    background: #ffffcc; }
+  .domjudge-scoreboard .list thead tr {
+    border-bottom-color: black; }
+  .domjudge-scoreboard .list thead tr:hover {
+    background: white; }
+  .domjudge-scoreboard .list tfoot tr:hover {
+    background: white; }
+  .domjudge-scoreboard .list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .domjudge-scoreboard .list .disabled a {
+    color: silver; }
+  .domjudge-scoreboard .list .editdel a {
+    display: inline;
+    white-space: nowrap; }
+  .domjudge-scoreboard .output_text, .domjudge-scoreboard .editor {
+    border-top: 1px dotted #C0C0C0;
+    border-bottom: 1px dotted #C0C0C0;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 5px;
+    font-family: monospace;
+    white-space: pre; }
+  .domjudge-scoreboard span.differ {
+    color: Red; }
+  .domjudge-scoreboard span.endline {
+    color: Orange; }
+  .domjudge-scoreboard span.extra {
+    color: Red; }
+  .domjudge-scoreboard .teamid {
+    font-family: monospace; }
+  .domjudge-scoreboard .probid, .domjudge-scoreboard .langid {
+    font-variant: small-caps; }
+  .domjudge-scoreboard #menutop a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FFFFF0;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    z-index: 1; }
+  .domjudge-scoreboard #menutop a.new {
+    color: #FF0000; }
+  .domjudge-scoreboard #menutopright {
+    position: absolute;
+    right: 1ex;
+    top: 1ex;
+    text-align: right; }
+  .domjudge-scoreboard #clock {
+    /*	font-size: small; */
+    font-family: monospace;
+    border: 1px dashed #ccc;
+    padding: 4px;
+    color: gray; }
+  .domjudge-scoreboard #timeleft {
+    color: #800080; }
+  .domjudge-scoreboard #toggles {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .domjudge-scoreboard fieldset {
+    margin: 2em;
+    padding: 1em; }
+  .domjudge-scoreboard .error {
+    color: red;
+    font-family: monospace;
+    border: 1px dotted red; }
+  .domjudge-scoreboard legend {
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: .1ex .5ex; }
+  .domjudge-scoreboard .error legend {
+    font-size: x-large;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray; }
+  .domjudge-scoreboard .center {
+    margin: 0px auto; }
+  .domjudge-scoreboard .scoreboard {
+    border-collapse: collapse;
+    clear: both; }
+  .domjudge-scoreboard .scoreboard td {
+    font-size: small;
+    vertical-align: middle;
+    text-align: center; }
+  .domjudge-scoreboard .scoreboard tr {
+    border-bottom: 1px solid black;
+    height: 42px; }
+  .domjudge-scoreboard .scoreboard td, .domjudge-scoreboard .scoreboard th {
+    border-right: 1px solid silver; }
+  .domjudge-scoreboard .scoreboard a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: black; }
+  .domjudge-scoreboard .scoreboard .scoretn {
+    padding: 0px;
+    max-width: 15em;
+    text-align: right;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .domjudge-scoreboard .scoreboard .scoreaf {
+    white-space: nowrap;
+    border: 0; }
+  .domjudge-scoreboard .scoreboard .scoreaf img {
+    vertical-align: middle; }
+  .domjudge-scoreboard .univ {
+    font-size: 80%;
+    font-weight: normal;
+    color: dimgrey; }
+  .domjudge-scoreboard .scoreheader {
+    font-variant: small-caps;
+    border-bottom: 2px solid black;
+    white-space: nowrap; }
+  .domjudge-scoreboard .problempoints {
+    font-size: smaller;
+    font-weight: normal;
+    color: #303030;
+    padding-left: 3pt;
+    padding-right: 3pt; }
+  .domjudge-scoreboard .score_correct {
+    background: #60e760; }
+  .domjudge-scoreboard .score_first {
+    background: #1daa1d !important; }
+  .domjudge-scoreboard .score_pending {
+    background: #6666FF; }
+  .domjudge-scoreboard .score_incorrect {
+    background: #e87272; }
+  .domjudge-scoreboard .tc_box {
+    text-align: center;
+    font-size: 85%;
+    width: 1.2em;
+    display: inline-block;
+    padding: 2px;
+    margin: 1px;
+    color: black; }
+  .domjudge-scoreboard .tc_correct {
+    background: #60e760; }
+  .domjudge-scoreboard .tc_pending {
+    background: #6666FF; }
+  .domjudge-scoreboard .tc_unused {
+    background: #BBBBBB; }
+  .domjudge-scoreboard .tc_incorrect {
+    background: #e87272; }
+  .domjudge-scoreboard #scoresolv, .domjudge-scoreboard #scoretotal {
+    width: 2.5em; }
+  .domjudge-scoreboard .scorenc, .domjudge-scoreboard .scorett, .domjudge-scoreboard .scorepl {
+    text-align: center;
+    width: 2ex; }
+  .domjudge-scoreboard .scorenc {
+    font-weight: bold; }
+  .domjudge-scoreboard td.scorenc {
+    border-color: silver;
+    border-right: 0; }
+  .domjudge-scoreboard .scoreprob {
+    width: 3.0em;
+    vertical-align: middle; }
+  .domjudge-scoreboard .scoreaffil {
+    text-align: center; }
+  .domjudge-scoreboard #scoresummary {
+    border-top: 2px solid black;
+    border-bottom: none;
+    font-variant: small-caps; }
+  .domjudge-scoreboard .scorethisisme .scoretn {
+    background: #ff6600;
+    font-weight: bold; }
+  .domjudge-scoreboard .scorelegend {
+    display: inline-block;
+    vertical-align: top; }
+  .domjudge-scoreboard .scorelegend td {
+    text-align: center;
+    width: 25ex; }
+  .domjudge-scoreboard #lastmod {
+    position: absolute;
+    right: 1ex;
+    margin-top: 1em; }
+  .domjudge-scoreboard #lastmod, .domjudge-scoreboard #lastmod a {
+    font-size: x-small;
+    color: gray;
+    text-align: right; }
+  .domjudge-scoreboard #teamscoresummary {
+    margin-top: 2.5em; }
+  .domjudge-scoreboard #teampicture {
+    position: absolute;
+    right: 4ex;
+    top: 7ex; }
+  .domjudge-scoreboard .sortorderswitch {
+    border-top: 2px solid black; }
+  .domjudge-scoreboard .contestswitch {
+    border-top: 1px solid black; }
+  .domjudge-scoreboard .submissionsuccessful {
+    font-weight: bold;
+    background-color: #FFFFF0;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 2px;
+    color: #006400;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .domjudge-scoreboard input, .domjudge-scoreboard select, .domjudge-scoreboard textarea {
+    border: solid 1px darkgray;
+    background-color: #F0F0F0; }
+  .domjudge-scoreboard input, .domjudge-scoreboard select {
+    cursor: pointer; }
+  .domjudge-scoreboard h3.teamoverview {
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
+    background-color: #c4d8ff;
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: 2ex;
+    padding-left: 1ex; }
+  .domjudge-scoreboard #submitlist, .domjudge-scoreboard #clarlist {
+    width: 48%; }
+  .domjudge-scoreboard #submitlist {
+    position: absolute;
+    left: 1ex; }
+  .domjudge-scoreboard #clarlist {
+    position: absolute;
+    right: 1ex; }
+  .domjudge-scoreboard .compilation-success {
+    color: green;
+    font-style: italic; }
+  .domjudge-scoreboard .compilation-error {
+    color: red;
+    font-style: italic; }
+  .domjudge-scoreboard #submitform, .domjudge-scoreboard .submissiondone {
+    text-align: center; }
+  .domjudge-scoreboard .submissiondone a {
+    color: red; }
+  .domjudge-scoreboard #submitlist .list, .domjudge-scoreboard #clarlist .list {
+    width: 100%; }
+  .domjudge-scoreboard #submitlist .list th, .domjudge-scoreboard #clarlist .list th {
+    text-align: left; }
+  .domjudge-scoreboard #submitlist td.result, .domjudge-scoreboard #clarlist td.clartext {
+    width: 1000ex; }
+  .domjudge-scoreboard #submitlist tr.highlight {
+    background-color: #c4d8ff;
+    border-color: blue; }
+  .domjudge-scoreboard .errorfield {
+    border-color: red;
+    color: red; }
+  .domjudge-scoreboard .button {
+    border: solid 1px darkgray;
+    background-color: #F0F0F0;
+    font-size: 90%; }
+  .domjudge-scoreboard h2#teamwelcome {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 3em;
+    font-weight: normal; }
+  .domjudge-scoreboard #teamwelcometeam {
+    font-weight: bold; }
+  .domjudge-scoreboard h3#contestnotstarted {
+    color: silver;
+    margin-top: .2ex;
+    margin-left: 8em; }
+  .domjudge-scoreboard span.fileinputs {
+    position: relative; }
+  .domjudge-scoreboard input#addfile {
+    margin-top: 1ex; }
+  .domjudge-scoreboard .tabberlive .tabbertabhide {
+    display: none; }
+  .domjudge-scoreboard .tabberlive {
+    margin-top: 1em; }
+  .domjudge-scoreboard ul.tabbernav {
+    margin: 0;
+    padding: 3px 0;
+    border-bottom: 1px solid #778;
+    font: bold 12px Verdana, sans-serif; }
+  .domjudge-scoreboard ul.tabbernav li {
+    list-style: none;
+    margin: 0;
+    display: inline; }
+  .domjudge-scoreboard ul.tabbernav li a {
+    padding: 3px 0.5em;
+    margin-left: 3px;
+    border: 1px solid #778;
+    border-bottom: none;
+    background: #DDE;
+    text-decoration: none; }
+  .domjudge-scoreboard ul.tabbernav li a:link {
+    color: #448; }
+  .domjudge-scoreboard ul.tabbernav li a:visited {
+    color: #667; }
+  .domjudge-scoreboard ul.tabbernav li a:hover {
+    color: #000;
+    background: #AAE;
+    border-color: #227; }
+  .domjudge-scoreboard ul.tabbernav li.tabberactive a {
+    background-color: #fff;
+    border-bottom: 1px solid #fff; }
+  .domjudge-scoreboard ul.tabbernav li.tabberactive a:hover {
+    color: #000;
+    background: white;
+    border-bottom: 1px solid white; }
+  .domjudge-scoreboard .tabberlive .tabbertab {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-top: 0; }
+  .domjudge-scoreboard .tabberlive .tabbertab h2 {
+    display: none; }
+  .domjudge-scoreboard .circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: inline-block; }
+  .domjudge-scoreboard .heart {
+    padding: .3em;
+    cursor: pointer; }
+  .domjudge-scoreboard table.lcsdiff {
+    border-spacing: 0;
+    border-collapse: collapse; }
+  .domjudge-scoreboard table.lcsdiff td.linenr {
+    background-color: darkgray;
+    text-align: right;
+    border-right: solid 1px black;
+    padding-right: 7px; }
+  .domjudge-scoreboard ins {
+    background: #dfd;
+    text-decoration: none; }
+  .domjudge-scoreboard del {
+    background: #fdd;
+    text-decoration: none; }
+  .domjudge-scoreboard table.rejudgetable td {
+    text-align: center; }
+  .domjudge-scoreboard table.rejudgetable td.changed {
+    background-color: #fdd;
+    font-weight: bold; }
+  .domjudge-scoreboard table.rejudgetable td.identical {
+    background-color: #dfd; }
+  .domjudge-scoreboard table.rejudgetable td.zero {
+    background-color: #F0F8FF; }
+    .domjudge-scoreboard img {
+        max-width: initial;
+    }
+
+    .domjudge-scoreboard-img {
+        margin-bottom: 50px;
+    }
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

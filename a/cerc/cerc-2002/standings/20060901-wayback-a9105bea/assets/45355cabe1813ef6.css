@@ -1,0 +1,54 @@
+body {
+	font-family: Helvetica, Arial, sans-serif; font-size: 10pt;	background: #ECF5FF
+}
+
+p, ul, ol, td, table, tr, th {
+	font-family: Arial, Helvetica, sans-serif; font-size: 10pt
+}
+
+h1 {font-family: Arial, Helvetica, sans-serif; font-size: 18pt}
+h2 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt}
+h3 {font-family: Arial, Helvetica, sans-serif; font-size: 12pt}
+h4 {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12pt}
+
+.new {color: red;}
+
+.cla {color: #339966;}
+
+INPUT {
+	BACKGROUND-COLOR: rgb(225,225,225); BORDER-BOTTOM: thin groove; BORDER-LEFT: thin groove; BORDER-RIGHT: thin groove; BORDER-TOP: thin groove; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; FONT-SIZE: 11px
+}
+
+TEXTAREA {
+	BACKGROUND-COLOR: rgb(225,225,225); BORDER-BOTTOM: thin groove; BORDER-LEFT: thin groove; BORDER-RIGHT: thin groove; BORDER-TOP: thin groove; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; FONT-SIZE: 11px
+}
+
+#th {
+	font-family: helvetica, arial;
+	font-size: 10pt;
+	color: black;
+	background: #E0EFE0;
+	font-weight: bold;
+}
+
+#td {
+	font-family: helvetica, arial;
+	font-size: 10pt;
+	color: black;
+	background: #ffffff;
+}
+
+#td1 {
+	font-family: helvetica, arial;
+	font-size: 10pt;
+	color: black;
+	background: #f0f0f0;
+}
+
+#tab {
+	border: 1;
+}
+
+
+.hint { font-size: 10px; color: #a0a0a0; }
+

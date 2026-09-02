@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+<!--
+      ,-._.-._.-._.-._.-.       ,- - - - - - - - - - - - - - - - - - - - .
+      `-.             ,-'      |   Wil je in de WebCie?!                 |
+        |             |        |    We zoeken nog mensen voor o.a.:      |
+        |             |        |     * digitale kaartverkoop bij feesten |
+        |             |        |     * mobiele website of app            |
+        |    .. ,.    |        |     * bugs oplossen en security testen  |
+      ,-|___|  |  |___|-.      |     * coole nieuwe features             |
+      | |   L__;__J   | |      |    Stuur een mailtje naar www@a-es2.nl  |
+      `|      / \      |'     ,'    of kom even langs in de werkkamer!   |
+       |     (   )     |     / _.. Wil je de Dilbert-achievement?        |
+       |      `''      |    ;-'  | Ga dan naar je eigen achievement-     |
+       |               |         | pagina en type de magische code       |
+       |               |         | "U8DuvlB9HB" in en druk op enter!     |
+       ;-...._____....-;         . - - - - - - - - - - - - - - - - - - - .
+      ,'-..._/   \_...-`.
+     /       `. ,'       \
+    /    /`.  | |    _l_  \
+   /_/   \  \_J |  |"   |\_\
+   //     `-.__.'  |    | \\
+  ||           |   `- -'   ||
+  ||           |           ||
+ ||            |            ||
+ ||            |            ||
+ ||            |            ||
+;' |           |           | `;
+ `' \          |          / `'
+     `-...____/ \____...-'
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |       |       |
+       |_______|_______|
+ _.. -'      |   |      `- .._
+;________.___|   |___.________;
+
+-->
+<head>
+	<title>A–Eskwadraat - ESCapade</title>
+	<link rel="shortcut icon" href="/Layout/Images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="A–Eskwadraat activiteiten newsfeed" href="/agenda.rss">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="ICBM" content="52.0873, 5.1662">
+	<meta name="DC.title" content="A–Eskwadraat">
+	<meta name="geo.position" content="52.0873;5.1662">
+	<meta name="description" content="A–Eskwadraat is de studievereniging voor studenten natuurkunde, wiskunde, informatica en informatiekunde aan de Universiteit Utrecht.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="red" />
+	<link rel="stylesheet" href="/Minified/css/a-eskwadraat.1541192340.min.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/Minified/css/bootstrap-select.1549816468.min.css" type="text/css" media="screen">
+	<script type="text/javascript">(function(a){_q=function(){return a;};$=function(f){typeof f==="function"&&a.push(arguments);return $;};jQuery=$.ready=$;}([]));</script>
+
+<!--[if lt IE 9]>
+	<script src="/Minified/js/html5shiv.1537460405.min.js"></script>
+<![endif]-->
+	<link rel="stylesheet" href="/Minified/css/aes-geel.1537460346.min.css" type="text/css" media="screen">
+</head>
+<body class="body-geel" >
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<!-- hamburger -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-to-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- vlaggetjes -->
+			<a href="?setlanguage=en" class="navbar-toggle collapsed vlag-small"><strong style="color: white;">EN</strong></a>			<!-- A-Es logo -->
+			<a class="navbar-brand aeslogo" id="aeslogo" href='/'>
+				<img src="/Layout/Images/logo.png" alt="logo" />
+			</a>
+		</div>
+		<div class="navbar-collapse-small">
+			<div class="navbar-to-collapse navbar-collapse sidebar-navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="persoonlijk-menu dropdown">
+ <a href="#" data-toggle="dropdown" class="dropdown-toggle">Login
+  <span class="caret"></span></a>
+ <ul class="dropdown-menu megamenu no-padding">
+  <li>
+   <form method="post" action="/space/auth/login.php" name="loginform" class="form-signin inlog-form form-horizontal">
+    <div>
+     <div class="login-div">
+      <input name="loginnaam" id="loginnaam" type="text" value="" size="14" placeholder="Login" required="1" class="login-field form-control">
+     </div>
+     <div class="login-div">
+      <input name="password" id="password" type="password" size="14" placeholder="Wachtwoord" required="1" class="login-field form-control">
+     </div>
+     <div class="checkbox login-div">
+      <label>
+       <input name="systeem" type="hidden" value="0" class="form-control"><input name="systeem" type="checkbox" class="systeemCheckbox">
+       Systeemaccount
+      </label>
+     </div>
+     <input name="next" type="hidden" value="TUD.png" class="form-control">
+     <button value="Login" type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+     <div class="login-div help-label">
+      <a href="/Service/Intern/Logindata">Hulp nodig?</a>
+     </div>
+    </div>
+    <noscript>
+     <input name="submit" type="submit" value="Versturen" class="button btn btn-primary">
+    </noscript>
+   </form>
+  </li>
+ </ul>
+</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Vereniging&nbsp;<b class="caret"></b>
+					<div class="navknop-links navgeel-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-geel"><a href="/Vereniging/">Vereniging</a></li><li class=""><a href="/Vereniging/Contact/">Contact</a></li><li class=""><a href="/Vereniging/Commissies/bestuur1920/">Bestuur</a></li><li class=""><a href="/Vereniging/Kamer/">Kamer</a></li><li class=""><a href="/Vereniging/Contacten">Zusjes en contacten</a></li><li class=""><a href="/Vereniging/Scholieren/">Scholieren</a></li><li class=""><a href="/Vereniging/Bedrijven/">Bedrijven</a></li><li class=""><a href="/Vereniging/Docenten/">Docenten</a></li><li class=""><a href="/Vereniging/Commissies/vakid/">Vakidioot</a></li><li class="divider divider-geel"></li><li class="dropdown-header dropdown-header-geel">Nieuws</li><li class=""><a href="/Vereniging/Nieuws/index.html">Overzicht</a></li><li class=""><a href="/Vereniging/Nieuws/Allemaal">Allemaal</a></li><li class="divider divider-geel"></li><li class="dropdown-header dropdown-header-geel">Commissies</li><li class=""><a href="/Vereniging/Commissies/index.html">Commissies</a></li><li class=""><a href="/Vereniging/Commissies/Vacatures">Vacatures</a></li><li class="divider divider-geel"></li><li class="dropdown-header dropdown-header-geel">Achtergrond</li><li class=""><a href="/Vereniging/Achtergrond/Historie">Historie</a></li><li class=""><a href="/Vereniging/Achtergrond/Statuten">Statuten</a></li><li class=""><a href="/Vereniging/Achtergrond/Disputen">Disputen</a></li><li class=""><a href="https://archief.a-eskwadraat.nl/website">Archief</a></li>			</ul>
+		</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Activiteiten&nbsp;<b class="caret"></b>
+					<div class="navknop-links navroze-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-roze"><a href="/Activiteiten/">Activiteiten</a></li><li class=""><a href="/Activiteiten/Afgelopen">Oude activiteiten</a></li>			</ul>
+		</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Leden&nbsp;<b class="caret"></b>
+					<div class="navknop-links navgroen-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-groen"><a href="/Leden/">Leden</a></li><li class=""><a href="/Leden/Ereleden/">Ereleden en Leden van Verdienste</a></li><li class=""><a href="/Leden/Lidworden">Lid Worden</a></li><li class="divider divider-groen"></li><li class="dropdown-header dropdown-header-groen">Alumni</li><li class=""><a href="/Leden/Alumni/index.html">Alumniportaal</a></li><li class=""><a href="/Leden/Alumni/donateurs.html">Donateurs</a></li><li class=""><a href="/Leden/Alumni/a-eskwadraatroots.html">A-Eskwadraat roots</a></li>			</ul>
+		</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Onderwijs&nbsp;<b class="caret"></b>
+					<div class="navknop-links navblauw-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-blauw"><a href="/Onderwijs/">Onderwijs</a></li><li class=""><a href="/Onderwijs/Tentamens">Tentamens</a></li><li class=""><a href="/Onderwijs/Roosters">Roosters</a></li><li class=""><a href="/Onderwijs/dictaat.html">Dictaatverkoop</a></li><li class=""><a href="/Onderwijs/Dictaten">Dictaten</a></li><li class="divider divider-blauw"></li><li class="dropdown-header dropdown-header-blauw">Boeken</li><li class=""><a href="/Onderwijs/Boeken">Boeken</a></li><li class=""><a href="/Onderwijs/Boeken/Bestelling">Boeken bestellen</a></li><li class=""><a href=""></a></li><li class="divider divider-blauw"></li><li class="dropdown-header dropdown-header-blauw">Medezeggenschap</li><li class=""><a href="/Onderwijs/Medezeggenschap/index.html">Medezeggenschap</a></li><li class=""><a href="/Onderwijs/Medezeggenschap/Organenlijst">Overzicht</a></li>			</ul>
+		</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Carrière&nbsp;<b class="caret"></b>
+					<div class="navknop-links navoranje-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-oranje"><a href="/Carriere/">Carrière</a></li><li class=""><a href="/Carriere/Vacaturebank/">Vacaturebank</a></li><li class=""><a href="/Carriere/carrieremaand">Carrièremaand</a></li><li class="divider divider-oranje"></li><li class="dropdown-header dropdown-header-oranje">Bedrijven</li><li class=""><a href="/Carriere/Bedrijven/Bedrijfsprofielen">Bedrijfsprofielen</a></li><li class=""><a href="/Vereniging/Commissies/spocie/bedrijven.html">Voor Bedrijven</a></li>			</ul>
+		</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle dropdown-small-anchor" data-toggle="dropdown">Service&nbsp;<b class="caret"></b>
+					<div class="navknop-links navpaars-links"></div>
+					</a>
+					<ul class="dropdown-menu">
+			<li class="dropdown-header-large dropdown-header-large-paars"><a href="/Service/">Service</a></li><li class=""><a href="/Service/Privacyverklaring.pdf">Privacyverklaring</a></li><li class="divider divider-paars"></li><li class="dropdown-header dropdown-header-paars">Spookweb</li><li class=""><a href="/Service/Spookweb/Bedrijfsprofiel/">Bedrijfsprofielen</a></li><li class=""><a href="/Service/Spookweb/Vacature/">Vacaturebank</a></li><li class="divider divider-paars"></li><li class="dropdown-header dropdown-header-paars">Intern</li><li class=""><a href="/Service/Intern/Handleidingen/">Handleidingen</a></li><li class=""><a href="/Service/Intern/Logindata">Wachtwoord wijzigen</a></li><li class="divider divider-paars"></li><li class="dropdown-header dropdown-header-paars">Bugweb</li><li class=""><a href="/Service/Bugweb/index.html">BugWeb</a></li><li class=""><a href="/Service/Bugweb/Zoeken">Zoeken</a></li><li class=""><a href="/Service/Bugweb/Categorie/">Categorieën</a></li><li class=""><a href="/Service/Bugweb/Statistieken">Statistieken</a></li><li class=""><a href="/Service/Bugweb/Grafieken">Grafieken</a></li><li class=""><a href="/Service/Bugweb/Rss">Rss</a></li>			</ul>
+		</li>
+				</ul>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="dropdown menu-large active">
+					<a href="#" class="dropdown-toggle">Vereniging					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-3 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-geel"><a href="/Vereniging/">Vereniging</a></li><li class=""><a href="/Vereniging/Contact/">Contact</a></li><li class=""><a href="/Vereniging/Commissies/bestuur1920/">Bestuur</a></li><li class=""><a href="/Vereniging/Kamer/">Kamer</a></li><li class=""><a href="/Vereniging/Contacten">Zusjes en contacten</a></li><li class=""><a href="/Vereniging/Scholieren/">Scholieren</a></li><li class=""><a href="/Vereniging/Bedrijven/">Bedrijven</a></li><li class=""><a href="/Vereniging/Docenten/">Docenten</a></li><li class=""><a href="/Vereniging/Commissies/vakid/">Vakidioot</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-geel">Nieuws</li><li class="non-main-ul"><a href="/Vereniging/Nieuws/index.html">Overzicht</a></li><li class="non-main-ul"><a href="/Vereniging/Nieuws/Allemaal">Allemaal</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-geel">Commissies</li><li class="non-main-ul"><a href="/Vereniging/Commissies/index.html">Commissies</a></li><li class="non-main-ul"><a href="/Vereniging/Commissies/Vacatures">Vacatures</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-geel">Achtergrond</li><li class="non-main-ul"><a href="/Vereniging/Achtergrond/Historie">Historie</a></li><li class="non-main-ul"><a href="/Vereniging/Achtergrond/Statuten">Statuten</a></li><li class="non-main-ul"><a href="/Vereniging/Achtergrond/Disputen">Disputen</a></li><li class="non-main-ul"><a href="https://archief.a-eskwadraat.nl/website">Archief</a></li></ul>			</ul>
+		</li>
+				<li class="dropdown menu-large">
+					<a href="#" class="dropdown-toggle">Activiteiten					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-12 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-roze"><a href="/Activiteiten/">Activiteiten</a></li><li class=""><a href="/Activiteiten/Afgelopen">Oude activiteiten</a></li></ul>			</ul>
+		</li>
+				<li class="dropdown menu-large">
+					<a href="#" class="dropdown-toggle">Leden					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-6 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-groen"><a href="/Leden/">Leden</a></li><li class=""><a href="/Leden/Ereleden/">Ereleden en Leden van Verdienste</a></li><li class=""><a href="/Leden/Lidworden">Lid Worden</a></li></ul><li class="col-md-6 col-md-aes"><ul><li class="dropdown-header dropdown-header-groen">Alumni</li><li class="non-main-ul"><a href="/Leden/Alumni/index.html">Alumniportaal</a></li><li class="non-main-ul"><a href="/Leden/Alumni/donateurs.html">Donateurs</a></li><li class="non-main-ul"><a href="/Leden/Alumni/a-eskwadraatroots.html">A-Eskwadraat roots</a></li></ul>			</ul>
+		</li>
+				<li class="dropdown menu-large">
+					<a href="#" class="dropdown-toggle">Onderwijs					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-4 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-blauw"><a href="/Onderwijs/">Onderwijs</a></li><li class=""><a href="/Onderwijs/Tentamens">Tentamens</a></li><li class=""><a href="/Onderwijs/Roosters">Roosters</a></li><li class=""><a href="/Onderwijs/dictaat.html">Dictaatverkoop</a></li><li class=""><a href="/Onderwijs/Dictaten">Dictaten</a></li></ul><li class="col-md-4 col-md-aes"><ul><li class="dropdown-header dropdown-header-blauw">Boeken</li><li class="non-main-ul"><a href="/Onderwijs/Boeken">Boeken</a></li><li class="non-main-ul"><a href="/Onderwijs/Boeken/Bestelling">Boeken bestellen</a></li><li class="non-main-ul"><a href=""></a></li></ul><li class="col-md-4 col-md-aes"><ul><li class="dropdown-header dropdown-header-blauw">Medezeggenschap</li><li class="non-main-ul"><a href="/Onderwijs/Medezeggenschap/index.html">Medezeggenschap</a></li><li class="non-main-ul"><a href="/Onderwijs/Medezeggenschap/Organenlijst">Overzicht</a></li></ul>			</ul>
+		</li>
+				<li class="dropdown menu-large">
+					<a href="#" class="dropdown-toggle">Carrière					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-6 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-oranje"><a href="/Carriere/">Carrière</a></li><li class=""><a href="/Carriere/Vacaturebank/">Vacaturebank</a></li><li class=""><a href="/Carriere/carrieremaand">Carrièremaand</a></li></ul><li class="col-md-6 col-md-aes"><ul><li class="dropdown-header dropdown-header-oranje">Bedrijven</li><li class="non-main-ul"><a href="/Carriere/Bedrijven/Bedrijfsprofielen">Bedrijfsprofielen</a></li><li class="non-main-ul"><a href="/Vereniging/Commissies/spocie/bedrijven.html">Voor Bedrijven</a></li></ul>			</ul>
+		</li>
+				<li class="dropdown menu-large">
+					<a href="#" class="dropdown-toggle">Service					</a>
+					<ul class="dropdown-menu megamenu row">
+			<li class="col-md-3 col-md-aes"><ul><li class="dropdown-header-large dropdown-header-large-paars"><a href="/Service/">Service</a></li><li class=""><a href="/Service/Privacyverklaring.pdf">Privacyverklaring</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-paars">Spookweb</li><li class="non-main-ul"><a href="/Service/Spookweb/Bedrijfsprofiel/">Bedrijfsprofielen</a></li><li class="non-main-ul"><a href="/Service/Spookweb/Vacature/">Vacaturebank</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-paars">Intern</li><li class="non-main-ul"><a href="/Service/Intern/Handleidingen/">Handleidingen</a></li><li class="non-main-ul"><a href="/Service/Intern/Logindata">Wachtwoord wijzigen</a></li></ul><li class="col-md-3 col-md-aes"><ul><li class="dropdown-header dropdown-header-paars">Bugweb</li><li class="non-main-ul"><a href="/Service/Bugweb/index.html">BugWeb</a></li><li class="non-main-ul"><a href="/Service/Bugweb/Zoeken">Zoeken</a></li><li class="non-main-ul"><a href="/Service/Bugweb/Categorie/">Categorieën</a></li><li class="non-main-ul"><a href="/Service/Bugweb/Statistieken">Statistieken</a></li><li class="non-main-ul"><a href="/Service/Bugweb/Grafieken">Grafieken</a></li><li class="non-main-ul"><a href="/Service/Bugweb/Rss">Rss</a></li></ul>			</ul>
+		</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="vlaggetje">
+ <a href="?setlanguage=en"><img src="/Layout/Images/Icons/english.png" alt="EN" title="English" style="height: 16px; width: auto;"></a>
+</li>
+				<li class="persoonlijk-menu dropdown menu-large">
+ <a href="#" data-toggle="dropdown" class="dropdown-toggle">Login</a>
+ <ul class="dropdown-menu megamenu no-padding">
+  <li>
+   <form method="post" action="/space/auth/login.php" name="loginform" class="form-signin inlog-form form-horizontal">
+    <div>
+     <div class="login-div">
+      <input name="loginnaam" id="loginnaam" type="text" value="" size="14" placeholder="Login" required="1" class="login-field form-control">
+     </div>
+     <div class="login-div">
+      <input name="password" id="password" type="password" size="14" placeholder="Wachtwoord" required="1" class="login-field form-control">
+     </div>
+     <div class="checkbox login-div">
+      <label>
+       <input name="systeem" type="hidden" value="0" class="form-control"><input name="systeem" type="checkbox" class="systeemCheckbox">
+       Systeemaccount
+      </label>
+     </div>
+     <input name="next" type="hidden" value="TUD.png" class="form-control">
+     <button value="Login" type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+     <div class="login-div help-label">
+      <a href="/Service/Intern/Logindata">Hulp nodig?</a>
+     </div>
+    </div>
+    <noscript>
+     <input name="submit" type="submit" value="Versturen" class="button btn btn-primary">
+    </noscript>
+   </form>
+  </li>
+ </ul>
+</li>
+			</ul>
+		</div>
+	</div><!-- navbar -->
+
+	
+	<div style="position: fixed; min-height: 100%; width: 100%;"></div>
+	<div class="balk-boven"></div>
+
+<div class="container-fluid title-photo" style="background: url('/Background/4/'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<div class="container">
+		<div class="col-md-12">
+			<div>
+				<div>
+<div class="page-header-tekst">ESCapade<div class="page-header-knopjes" style="padding-right:15px"><div class="wijzigen">
+ <a href="https://gitlab.com/iba-aes/webcie/website/issues/new"><span title="Feedback ☺" class="fa fa-thumbs-up"></span></a>
+ <a href="https://gitlab.com/iba-aes/webcie/website/issues/new"><span title="Feedback ☹" class="fa fa-thumbs-down"></span></a>
+</div>
+</div></div>				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid title-photo-small">
+	<div class="col-xs-12">
+	<div class="page-header-tekst">ESCapade<div class="page-header-knopjes" style="padding-right:15px"><div class="wijzigen">
+ <a href="https://gitlab.com/iba-aes/webcie/website/issues/new"><span title="Feedback ☺" class="fa fa-thumbs-up"></span></a>
+ <a href="https://gitlab.com/iba-aes/webcie/website/issues/new"><span title="Feedback ☹" class="fa fa-thumbs-down"></span></a>
+</div>
+</div></div>	</div>
+</div>
+	<div class="container theme-showcase aes-container">
+
+	
+
+		<div class="col-md-12" style="">
+
+  <!-- pagina titel -->
+
+	<!-- content -->
+<div class="pagecontent">
+<h2>Error 404: Kwijt</h2>
+<p>Het bestand /Vereniging/Commissies/escapade/TUD.png 
+is nergens (meer) te vinden op onze server. Sorry.</p>
+
+
+<p>Neem contact op met de webmeesters voor meer informatie: <a
+	href="mailto:www@a-eskwadraat.nl">www@a-eskwadraat.nl</a>.</p>
+
+<hr />
+
+<p>The file /Vereniging/Commissies/escapade/TUD.png could not be located
+(anymore). Please accept our apologies for this drama.</p>
+
+
+<p>Contact the webmasters for more information: <a
+href="mailto:www@a-eskwadraat.nl">www@a-eskwadraat.nl</a></p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="footer-scheiding">
+ <div class="container">
+  <div class="col-md-12"><div id="thick-bar"></div></div>
+ </div>
+</div>
+<div class="footer-distributed container-fluid">
+ <div class="footer-left col-sm-4">
+  <h3>A&ndash;Eskwadraat</h3>
+  <p class="footer-links">
+   <a href="/">Home</a>
+   ·
+   <a href="/Vereniging/Bestuur">Bestuur</a>
+   ·
+   <a href="/Vereniging/Contact">Contact</a>
+  </p>
+  <p class="footer-company-name">A–Eskwadraat © 2019</p>
+ </div>
+ <div class="footer-center col-sm-4">
+  <div>
+   <i class="fa fa-map-marker"></i>
+   <p><span>Princetonplein 5</span>3584CC Utrecht</p>
+  </div>
+  <div>
+   <i class="fa fa-phone"></i>
+   <p>+3130 253 4499</p>
+  </div>
+  <div>
+   <i class="fa fa-envelope"></i>
+   <p>
+    <a href="mailto:bestuur@a-eskwadraat.nl">bestuur@a-eskwadraat.nl</a>
+   </p>
+  </div>
+ </div>
+ <div class="footer-right col-sm-4">
+  <p class="footer-company-about">
+   <span>Over A–Eskwadraat</span>
+   A–Eskwadraat is de studievereniging voor de studies Gametechnologie, Informatica, Informatiekunde, Natuurkunde en Wiskunde
+  </p>
+  <div class="footer-icons">
+   <a href="https://www.facebook.com/groups/103329707536/"><i class="fa fa-facebook" style="line-height: 35px;"></i></a>
+   <a href="https://twitter.com/aeskwadraat"><i class="fa fa-twitter" style="line-height: 35px;"></i></a>
+   <a href="https://www.linkedin.com/groups/55143/profile"><i class="fa fa-linkedin" style="line-height: 35px;"></i></a>
+  </div>
+ </div>
+</div>
+	<div class="modal fade" id="logoModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+					<h4 class="modal-title" id="logoModalLabel">Op zoek naar ons logo?</h4>
+				</div>
+				<div class="modal-body">
+Je kunt al onze varianten van het logo in hoge kwaliteit vinden op de <a href="/logos">logopagina</a>! Zorg dat we met tenminste 300 DPI in je drukwerk terecht komen.				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+window.lang = 'nl';
+	</script>
+	<script src="/Minified/js/a-eskwadraat.1556822106.min.js" type="text/javascript"></script>
+	<script src="/Minified/js/home-carousel.1537460397.min.js" type="text/javascript"></script>
+	<script src="/Minified/js/home2.1537460396.min.js" type="text/javascript"></script>
+	<script src="/Minified/js/bootstrap-select.1549816478.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+(function(i,s,q,l){for(q=window._q(),l=q.length;i<l;){$.apply(this,s.call(q[i++]));}window._q=undefined;}(0,Array.prototype.slice));
+	</script>
+	</body>
+</html>

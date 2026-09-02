@@ -1,0 +1,23 @@
+.icon-link + .list-inner > .forumtitle { 
+	color: #FF0000; 
+} 
+
+.icon-link + .list-inner > .topictitle { 
+	color: #FF0000; 
+} 
+
+.icon-link + .list-inner > .subforum.unread { 
+	color: #FF0000; 
+}
+
+.icon-link + .list-inner > .forumtitle:hover {
+	color: #FF9900;
+}
+
+.icon-link + .list-inner > .topictitle:hover {
+	color: #FF9900;
+}
+
+.icon-link + .list-inner > .subforum.unread:hover {
+	color: #FF9900;
+}

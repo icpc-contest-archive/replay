@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://www.acm-icpc.eng.chula.ac.th/finalscoreboard_asia2014/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+  <link type="text/css" rel="stylesheet" href="main.css" />
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+  <link type="text/css" rel="stylesheet" href="css/sb-admin.css" />
+  <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+  <!--additional css-->
+  <style>
+  body
+  {
+  	margin: 0px;
+  }
+  body
+  {
+  	  background: url('pic/BG.jpg') no-repeat center center fixed;   
+  	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+  }
+  /*.balloonReload
+  {
+  	background: url('pic/BalloonReload.png') no-repeat center;
+  	width:150px; 
+  	height: 230px; 
+	position: fixed; 
+	top: 20px; 
+	right: 20px;
+	margin: 0;
+  }*/
+  
+  th
+  {
+	font-size: 28px;
+	text-align: center;
+  }
+  td
+  {
+	font-size: 12px;
+	text-align: center;
+  }
+	.bubble 
+	{
+		text-align: center;
+		width: 300px;
+		height: 95px;
+		padding: 10px 20px; <table id="standings" class="table table-hover table-striped"  style="background: #eee">
+ </table>
+		background: #FFFFFF;
+		-webkit-border-radius: 31px;
+		-moz-border-radius: 31px;
+		border-radius: 31px;
+		position: fixed;
+		top: 50px;
+		right: 30px;
+		box-shadow: 4px 4px 10px #333;
+		opacity: 0.85;
+	}
+	
+	.bubble:after 
+	{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 0 15px 15px;
+		border-color: #FFFFFF transparent;
+		display: block;
+		width: 0;
+		z-index: 1;
+		top: -15px;
+		left: 220px;
+	}
+  </style>
+  <title>[FINAL]CU-Scoreboard : ACM-ICPC 2014 Asia Bangkok Regional Contest</title>
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="getScore.js"></script>
+<script>
+		function generateStanding(){
+			var text = "<tbody>";
+			text+="<tr><th class='sharpheader'>#</th><th class='teamheader'>team</th><th class='scoreheader' colspan=2>score</th>";
+			text+=problemHeader();
+			text+="</tr>";
+			text+=standing();
+
+			text+="<tr>";
+			text+="<td colspan='4'></td>";
+			text+=problemHeader();
+			text+="</tr>";
+			
+			text+="<tr>";
+			text+="<td colspan='4'>Solved</td>";
+			text+=totalSolved();
+			text+="</tr>";
+
+			text+="<tr>";
+			text+="<td colspan='4'>Total Attempts</td>";
+			text+=totalAttempts();
+			text+="</tr>";
+
+			text+="<tr>";
+			text+="<td colspan='4'>Slv./Att.</td>";
+			text+=totalRatio();
+			text+="</tr>";
+
+			text+="</tbody>";
+			return text;
+		}	
+	  </script>
+  <script>
+		
+		$(document).ready(function () {
+			$("#loadmsg").html("Now Loading ...");
+			reLoad();
+			setInterval('reLoad()',15000);
+		});
+		function reLoad()
+		{
+			loadXML();
+			text=generateStanding();
+			$("#loadmsg").html("");
+			$("#standings").html(text);
+			getResult();
+/*
+			//$('.loading').css({'display':'block'});
+			$('.balloonReload').css({'display':'none'});
+			$('html,body').css('cursor','wait');
+			$.ajax({ type: "GET",   
+					 url: "summary.html",   
+					 async: true,
+					 cache: false,
+					 context: document.body,
+					 success: function(responseText) {
+						var scroll = $("html").scrollTop();
+						//alert(responseText);
+						$("#result_acm").html(responseText);
+						$("#result_acm").find("script").each(function(i) {
+							eval($(this).text());
+						});
+						// $("html").scrollTop(scroll);
+						//$('.loading').css({'display':'none'});
+						$('.balloonReload').css({'display':'block'});
+						$('html,body').css('cursor','default');
+					 }
+			});*/
+
+		}
+	</script>	
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://www.acm-icpc.eng.chula.ac.th/finalscoreboard_asia2014/">http://www.acm-icpc.eng.chula.ac.th/finalscoreboard_asia2014/</a> (content as captured 2015-03-18 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/thailand-2014.html">thailand-2014</a>)  <a href="https://web.archive.org/web/20150318053901/http://www.acm-icpc.eng.chula.ac.th/finalscoreboard_asia2014/">wayback</a></div>
+
+
+<div class='container'>
+  <img src="pic/ACMLOGO_CONTEST.png" style="margin: auto auto;display:block;">
+  <div id='result_acm'>
+<div id='loadmsg'>Now Loading ...</div>
+<table id="standings" class="table table-hover table-striped"  style="background: #eee">
+
+ </table>
+<br>  
+<div align='center'><b style="color: white">By Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University</b></div>
+<div align='center'><i style="color: white">based on <a href="http://icpc.baylor.edu/scoreboard/">
+            http://icpc.baylor.edu/scoreboard/</a> and <a href="http://domjudge.sourceforge.net">domJudge scoreboard</a></i></div>
+<div align='center' id='created'></div>
+
+</div>
+  <script>reLoad();</script>
+</div>
+<!--<div class="balloonReload" id="balloonReload" onclick="JavaScript:reLoad();">
+	<div id="balloonPoint" style="width: 130px; height: 140px; cursor: pointer" onclick="reLoad();"> </div>
+</div>-->
+<div class="loading" style="display:none;">
+    <img src="pic/loading.png" style="width:200px; height:25px; margin-left: -100px; margin-top: -12px; position: fixed; top: 50%; left: 50%;">
+</div>
+</body>
+
+</html>
+

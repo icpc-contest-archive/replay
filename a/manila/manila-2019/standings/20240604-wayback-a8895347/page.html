@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- by Kevin Atienza -->
+<!-- based on the ICPC Manila 2017 scoreboard and the new CSS for 2019 -->
+<html lang="en">
+
+    <head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://curry.ateneo.net/icpcmanila2019">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
+        <META HTTP-EQUIV="EXPIRES" CONTENT="0"/>
+        <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"/>
+        <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"/>
+
+        <title class="scoreboard-contest-name">Nice ICPC-style Scoreboard by kevinsogo</title>
+
+        <!-- scripts and styles needed for Nice scoreboard -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+        <script src="./scoreboard/lib/js/jquery-3.3.1.js"></script>
+        <script src="./scoreboard/lib/js/vue.js"></script>
+        <script src="./scoreboard/lib/js/axios.min.js"></script>   
+        <link rel="stylesheet" href="./scoreboard/lib/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./scoreboard/lib/fontawesome-free-5.11.2-web/css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="./scoreboard/lib/fontawesome-free-5.11.2-web/css/solid.min.css"/>
+
+        <!-- scoreboard js and css -->
+        <script src="./scoreboard/scoreboard.js"></script>
+        <link rel="stylesheet" href="./scoreboard/scoreboard.css" />
+
+        <!-- custom styles for this page only -->
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/scoreboard.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+
+    <body>
+<div id="icpc-archive-banner">Archived copy of <a href="https://curry.ateneo.net/icpcmanila2019">https://curry.ateneo.net/icpcmanila2019</a> (content as captured 2024-06-04 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/manila-2019.html">manila-2019</a>)  <a href="https://web.archive.org/web/20240604001008/https://curry.ateneo.net/icpcmanila2019">wayback</a></div>
+
+
+
+        <header class="scoreboard-header site-header">
+            <div class="logo-corner icpc-ph-logo">
+                <div class="l-logo">
+                    <img src="./images/AsiaMNL_Short.png" alt="ICPC Manila Logo"/>
+                </div>
+            </div>
+            <div class="header-details">
+                <h1 class="event scoreboard-contest-name">...</h1>
+                <p class="event-venue">Ateneo de Manila University</p>
+                <p class="event-date">December 14–15, 2019</p>
+                <h4 class="event-scoreboard-name">OFFICIAL SCOREBOARD</h4>
+                <!-- <h4 class="event-scoreboard-name">OFFICIAL SCOREBOARD</h4> -->
+            </div>
+            <div class="logo-corner icpc-logo">
+                <div class="l-logo">
+                    <img src="./images/icpcf-logo-header_8x.png" alt="ICPC Manila Logo">
+                    <!-- <img src="./images/sponsor-logo-jb-rgb6x.png" alt="ICPC Manila Logo"> -->
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main" role="main">
+            <div class="scoreboard-main container overall-container">
+                <div class="row scoreboard-head">
+                    <div class="col-lg-12">
+                        <div class="controls-container">
+                            <br />
+                            <div id="scoreboard-controls"></div>
+                        </div>
+                        <div class="details-container">
+                            <div class="last-updated-container">
+                                <span class="scoreboard-last-updated-str">...</span>
+                                <span class="scoreboard-last-updated">...</span>
+                            </div>
+                            <br />
+                            <div class="legends-container"><div class="legend-title">Legend:</div><div class="legend scoreboard-score-yes scoreboard-score-firstyes">Solved First</div><div class="legend scoreboard-score-yes">Solved</div><div class="legend scoreboard-score-no">Tried, Incorrect</div><div class="legend scoreboard-score-pending">Pending Judgement</div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="scoreboard"></div>
+            </div>
+
+            <div class="scoreboard-sponsors sponsors">
+                <div class="sponsors-main">
+                    <img src="./images/2017/ICPC_Jet_Brains.png" alt=""/>
+                    <img src="./images/icpcf-logo-header_8x.png" alt="ICPC Manila Logo"/>
+                    <img src="./images/2017/ICPC_ICPC Foundation.png"/>
+                </div>
+                <h2 class="text-center">Sponsors</h2>
+                <div class="partners">
+                    <ul class="sponsors-list">
+                        <li id="dost">
+                            <img src="./images/02_PCIEERD_Logo 3.png" alt="DOST PCIEERD logo">
+                        </li>
+                        <li id="smart">
+                            <img src="./images/01_Smart.png" alt="Smart Telecommunications logo">
+                        </li>
+                        <li id="acer">
+                            <img src="./images/03_Acer Master Brand.png" alt="Acer logo">
+                        </li>
+                        <li id="google">
+                            <img src="./images/Google_Logo.png" alt="Google logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="scoreboard-footer">
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg-3">
+                    <a href="http://fb.com/ICPCAsiaManila" target="_blank">fb.com/ICPCAsiaManila</a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="http://twitter.com/ICPCAsiaManila" target="_blank">@ICPCAsiaManila</a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="http://penoy.admu.edu.ph/icpcmanila/" target="_blank">penoy.admu.edu.ph/icpcmanila</a>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+        </footer>
+
+        <!-- <footer>
+            <div class="footer-content">
+                <section class="footer-media-links">
+                    <ul>
+                        <li><a href="http://fb.com/ICPCAsiaManila" target="_blank">fb.com/ICPCAsiaManila</a></li>
+                        <li><a href="http://twitter.com/ICPCAsiaManila" target="_blank">@ICPCAsiaManila</a></li>
+                    </ul>
+                </section>
+                <section class="footer_logos">
+                    <img src="./images/ICPC_Foundation.png" alt="ICPC Foundation Logo">
+                    <img src="./images/Logo_ADMU_Seal.png" alt="ADmU Seal Logo">
+                </section>
+            </div>
+        </footer> -->
+
+        <!--  <footer>
+            <section class="footer-media-links">
+                <ul>
+                    <li><a href="http://fb.com/ICPCAsiaManila" target="_blank">fb.com/ICPCAsiaManila</a></li>
+                    <li><a href="http://twitter.com/ICPCAsiaManila" target="_blank">@ICPCAsiaManila</a></li>
+                    <li><a href="http://penoy.admu.edu.ph/icpcmanila/" target="_blank">penoy.admu.edu.ph/icpcmanila</a></li>
+                </ul>
+            </section>
+            <section class="footer_logos">
+                <img src="./images/ICPC_Foundation.png" alt="ICPC Foundation Logo">
+                <img src="./images/Logo_ADMU_Seal.png" alt="ADmU Seal Logo">
+            </section>
+        </footer> -->
+
+
+        <!-- load the scoreboard JS -->
+        <script type="text/javascript">
+
+            // hide stuff if requested
+            const search = new URLSearchParams(window && window.location && window.location.search || {});
+            const display = search.get("display") && search.get("display") != '0';
+            const minimal = display || search.get("minimal") && search.get("minimal") != '0';
+            if (minimal || search.get("noheader") && search.get("noheader") != '0') $(".scoreboard-header").remove();
+            if (minimal || search.get("nosponsors") && search.get("nosponsors") != '0') $(".scoreboard-sponsors").remove();
+            if (minimal || search.get("nofooter") && search.get("nofooter") != '0') $(".scoreboard-footer").remove();
+
+            // initialize scoreboard
+            let options = {
+                labels: {
+                    attempts: "Tries",
+                    solved: "Solved",
+                    rank: "#",
+                    name: "Team",
+                    blankPenalty: "&nbsp;",
+                    blankAttempt: "&nbsp;",
+                    subCount: "Total submissions",
+                },
+                nohilit: display,
+                fetchCount: 3,
+            };
+            initScoreboard(options);
+        </script>
+    </body>
+</html>

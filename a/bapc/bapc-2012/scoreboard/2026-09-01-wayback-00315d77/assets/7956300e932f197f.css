@@ -1,0 +1,127 @@
+/****** geel ******/
+
+.bg-li {    background-color:   #fffed3; }
+.bc-li {    border-color:       #fffed3; }
+.fg-li {    color:              #fffed3; }
+
+.bg-do {    background-color:   #f2e93a; }
+.bc-do {    border-color:       #f2e93a; }
+.fg-do {    color:              #f2e93a; }
+
+.tip,
+.tip legend {
+            background-color:   #fffed3;
+            border-color:       #f2e93a; }
+hr		{   background-color:   #f2e93a;
+            color:              #f2e93a; }
+
+.keyword {  background-color:   #f2e93a; }
+
+.advertentie {
+            border-color:       #f2e93a; }
+
+.contenttable table {
+            background-color:   #fffed3;
+            border: 1px solid #f2e93a;
+}
+
+
+/********************************** LAYOUT ************************************/
+
+div.corner {
+    background-image:	url('/Layout/Images/Theme/hoek-geel.png');
+    background-repeat:	no-repeat;
+}
+
+div.topbar,
+div.rightbar,
+div.leftmenu,
+div.leftmenu0,
+div.leftmenu1,
+table.loginpart input.loginpartsubmit {
+    background-color:           #fffed3;
+    border-color:               #f2e93a; }
+
+table.loginpart input {
+    border-color:               #f2e93a; }
+
+/********************************* BOOKWEB ************************************/
+
+table.bw_datatable_medium th,
+table.bw_datatable_medium_100 th,
+.bw_clientbar td#selectedlid,
+.bw_clientbar td#actiondatetime {
+    border-bottom-color:        #f2e93a;
+}
+
+.bw_clientbar td#selectedlid,
+.bw_clientbar td#lidinfo {
+    border-right-color:         #f2e93a;
+}
+
+.bw_clientbar td#lidinfo {
+    border-left-color:          #f2e93a;
+}
+
+.bw_clientbar {
+    border-color:               #f2e93a;
+}
+
+/********************************* FOTOWEB ************************************/
+
+.fotoweb table th,
+table.fotoweb  th,
+table.tagtree  th,
+table.tagtree  td table.tagtree,
+table.fotoinfo th,
+div.frameddiv,
+table.fotostrip th,
+table.fotomatrix th,
+table.fotomatrix td.selected img.thumbnail,
+table.fotomatrix table.thumbnails {
+    border-color:               #f2e93a;
+}
+
+.fotoweb table.selectiepanel,
+.fotoweb table.kartpanel,
+table.tagtree,
+table.fotostrip,
+table.fotomatrix,
+table.fotopanel {
+    background-color:           #fffed3;
+    border-color:               #f2e93a;
+}
+
+div.frameddiv span.frametitle {
+    background-color:           #fffed3;
+}
+
+/********************************* PLANNER ************************************/
+
+td.planner_tablesideheader,
+.calendar_week.
+.light {
+    background-color:           #fffed3;
+}
+
+.calendar_weekend,
+.dark {
+    background-color:           #f2e93a;
+}
+
+/*********************************** WSW **************************************/
+
+table.wswlid {
+    background-color:           #fffed3;
+    border-color:               #f2e93a;
+}
+
+table.wswlid td.lidfoto img,
+table.wswlid td.extrainfo,
+table.wswlid td.onbelangrijk,
+table.wswlid td.lidspreuken {
+    border-color:               #f2e93a;
+}
+
+/******************************************************************************/
+/* vim:et

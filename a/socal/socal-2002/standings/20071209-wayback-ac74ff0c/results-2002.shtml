@@ -1,0 +1,157 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2002/results-2002.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2002/results-2002.shtml">http://socalcontest.org/history/2002/results-2002.shtml</a> (content as captured 2007-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2002.html">socal-2002</a>)  <a href="https://web.archive.org/web/20071209092830/http://socalcontest.org/history/2002/results-2002.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2002.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 17-Nov-2002</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-2002.shtml 32 2007-09-27 07:10:59Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2002-03 Southern California Regional Programming Contest Final Standings</h2>
+</center>
+
+<P>
+<CENTER>
+<TABLE BORDER CELLSPACING=4>
+<TR>
+<TH ALIGN=CENTER WIDTH="5%">Rank</TH>
+<TH ALIGN=CENTER WIDTH="10%">Team Name</TH>
+<TH ALIGN=CENTER>School</TH>
+<TH ALIGN=CENTER WIDTH="5%">Solved</TH>
+<TH ALIGN=CENTER WIDTH="5%">Penalties</TH>
+<TH ALIGN=CENTER WIDTH="5%">Time (HH:MM:SS)</TH>
+</TR>
+<TR><TD ALIGN=CENTER>1</TD><TD ALIGN=LEFT>Caltech A</TD><TD ALIGN=LEFT>California Institute of Technology</TD><TD ALIGN=CENTER>6</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>14:11:20</TD></TR>
+<TR><TD ALIGN=CENTER>2</TD><TD ALIGN=LEFT>Caltech B</TD><TD ALIGN=LEFT>California Institute of Technology</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>06:31:15</TD></TR>
+<TR><TD ALIGN=CENTER>3</TD><TD ALIGN=LEFT>UCSD Scissors</TD><TD ALIGN=LEFT>University of California, San Diego</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>08:16:27</TD></TR>
+<TR><TD ALIGN=CENTER>4</TD><TD ALIGN=LEFT>UCLA Bruins</TD><TD ALIGN=LEFT>University of California, Los Angeles</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>10:14:33</TD></TR>
+<TR><TD ALIGN=CENTER>5</TD><TD ALIGN=LEFT>UCLA Blue</TD><TD ALIGN=LEFT>University of California, Los Angeles</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>11:19:41</TD></TR>
+<TR><TD ALIGN=CENTER>6</TD><TD ALIGN=LEFT>HMC 42</TD><TD ALIGN=LEFT>Harvey Mudd College</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>11:30:56</TD></TR>
+<TR><TD ALIGN=CENTER>7</TD><TD ALIGN=LEFT>Chainsaw Wuzzle<TD ALIGN=LEFT>Harvey Mudd College</TD><TD ALIGN=CENTER>4</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>11:55:26</TD></TR>
+<TR><TD ALIGN=CENTER>8</TD><TD ALIGN=LEFT>The J Team</TD><TD ALIGN=LEFT>Harvey Mudd College</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>06:13:05</TD></TR>
+<TR><TD ALIGN=CENTER>9</TD><TD ALIGN=LEFT>Cal Poly Morphs</TD><TD ALIGN=LEFT>California State Polytechnic University, San Luis Obispo</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>06:46:59</TD></TR>
+<TR><TD ALIGN=CENTER>10</TD><TD ALIGN=LEFT>UCSD Paper</TD><TD ALIGN=LEFT>University of California, San Diego</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>08:32:59</TD></TR>
+<TR><TD ALIGN=CENTER>11</TD><TD ALIGN=LEFT>UCR Java</TD><TD ALIGN=LEFT>University of California, Riverside</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>11:08:28</TD></TR>
+<TR><TD ALIGN=CENTER>12</TD><TD ALIGN=LEFT>UCSD Rock</TD><TD ALIGN=LEFT>University of California, San Diego</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:08:24</TD></TR>
+<TR><TD ALIGN=CENTER>13</TD><TD ALIGN=LEFT>Caltech C</TD><TD ALIGN=LEFT>California Institute of Technology</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:13:28</TD></TR>
+<TR><TD ALIGN=CENTER>14</TD><TD ALIGN=LEFT>UCR Colonel Panic</TD><TD ALIGN=LEFT>University of California, Riverside</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:31:40</TD></TR>
+<TR><TD ALIGN=CENTER>15</TD><TD ALIGN=LEFT>MtSAC Gold</TD><TD ALIGN=LEFT>Mt. San Antonio College</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>04:50:02</TD></TR>
+<TR><TD ALIGN=CENTER>16</TD><TD ALIGN=LEFT>UCLA Gold</TD><TD ALIGN=LEFT>University of California, Los Angeles</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>04:57:50</TD></TR>
+<TR><TD ALIGN=CENTER>17</TD><TD ALIGN=LEFT>CPP Coders</TD><TD ALIGN=LEFT>California State Polytechnic University, Pomona</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>05:10:31</TD></TR>
+<TR><TD ALIGN=CENTER>18</TD><TD ALIGN=LEFT>UCR 1</TD><TD ALIGN=LEFT>University of California, Riverside</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>05:37:37</TD></TR>
+<TR><TD ALIGN=CENTER>19</TD><TD ALIGN=LEFT>4Alpha2Omega</TD><TD ALIGN=LEFT>Azusa Pacific University</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>06:05:19</TD></TR>
+<TR><TD ALIGN=CENTER>20</TD><TD ALIGN=LEFT>Junior Rebels</TD><TD ALIGN=LEFT>University of Nevada, Las Vegas</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>06:44:55</TD></TR>
+<TR><TD ALIGN=CENTER>21</TD><TD ALIGN=LEFT>Istari</TD><TD ALIGN=LEFT>Point Loma Nazarene University</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>06:59:11</TD></TR>
+<TR><TD ALIGN=CENTER>22</TD><TD ALIGN=LEFT>struct Gaucho</TD><TD ALIGN=LEFT>University of California, Santa Barbara</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>07:25:42</TD></TR>
+<TR><TD ALIGN=CENTER>23</TD><TD ALIGN=LEFT>UCI Gold</TD><TD ALIGN=LEFT>University of California, Irvine</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>00:41:34</TD></TR>
+<TR><TD ALIGN=CENTER>24</TD><TD ALIGN=LEFT>Digital Dragons</TD><TD ALIGN=LEFT>California State University, Long Beach</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>00:56:58</TD></TR>
+<TR><TD ALIGN=CENTER>25</TD><TD ALIGN=LEFT>Null Pointers</TD><TD ALIGN=LEFT>University of Southern California</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>00:57:27</TD></TR>
+<TR><TD ALIGN=CENTER>26</TD><TD ALIGN=LEFT>Seasiders</TD><TD ALIGN=LEFT>Brigham Young University, Hawaii</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>00:58:28</TD></TR>
+<TR><TD ALIGN=CENTER>27</TD><TD ALIGN=LEFT>Boo-Cake</TD><TD ALIGN=LEFT>California Lutheran University</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:01:33</TD></TR>
+<TR><TD ALIGN=CENTER>28</TD><TD ALIGN=LEFT>gigglyshaft</TD><TD ALIGN=LEFT>California State University, Long Beach</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:05:04</TD></TR>
+<TR><TD ALIGN=CENTER>29</TD><TD ALIGN=LEFT>Rebels</TD><TD ALIGN=LEFT>University of Nevada, Las Vegas</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:14:45</TD></TR>
+<TR><TD ALIGN=CENTER>30</TD><TD ALIGN=LEFT>Segfault</TD><TD ALIGN=LEFT>California State University, Fullerton</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:21:31</TD></TR>
+<TR><TD ALIGN=CENTER>31</TD><TD ALIGN=LEFT>SuperKids</TD><TD ALIGN=LEFT>California State University, Long Beach</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:23:54</TD></TR>
+<TR><TD ALIGN=CENTER>32</TD><TD ALIGN=LEFT>Toasty Keyboard</TD><TD ALIGN=LEFT>California State Polytechnic University, Pomona</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:32:05</TD></TR>
+<TR><TD ALIGN=CENTER>33</TD><TD ALIGN=LEFT>Return of the AzKickers</TD><TD ALIGN=LEFT>San Diego State University</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:33:28</TD></TR>
+<TR><TD ALIGN=CENTER>34</TD><TD ALIGN=LEFT>MESA Lancers</TD><TD ALIGN=LEFT>Pasadena City College</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:35:24</TD></TR>
+<TR><TD ALIGN=CENTER>35</TD><TD ALIGN=LEFT>Trinary Branches</TD><TD ALIGN=LEFT>Azusa Pacific University</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:40:40</TD></TR>
+<TR><TD ALIGN=CENTER>36</TD><TD ALIGN=LEFT>Please Hire Us</TD><TD ALIGN=LEFT>Riverside Community College</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:59:21</TD></TR>
+<TR><TD ALIGN=CENTER>37</TD><TD ALIGN=LEFT>Bottleneck</TD><TD ALIGN=LEFT>California State University, Fullerton</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>01:59:43</TD></TR>
+<TR><TD ALIGN=CENTER>38</TD><TD ALIGN=LEFT>Primative Data Types</TD><TD ALIGN=LEFT>California State University, Northridge</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>02:34:12</TD></TR>
+<TR><TD ALIGN=CENTER>39</TD><TD ALIGN=LEFT>LA eagles</TD><TD ALIGN=LEFT>California State University, Los Angeles</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>02:50:35</TD></TR>
+<TR><TD ALIGN=CENTER>40</TD><TD ALIGN=LEFT>UCI Smoke</TD><TD ALIGN=LEFT>University of California, Irvine</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>02:58:22</TD></TR>
+<TR><TD ALIGN=CENTER>41</TD><TD ALIGN=LEFT>Cal Poly Phonics</TD><TD ALIGN=LEFT>California State Polytechnic University, San Luis Obispo</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:03:27</TD></TR>
+<TR><TD ALIGN=CENTER>42</TD><TD ALIGN=LEFT>Partially Omniscient</TD><TD ALIGN=LEFT>Azusa Pacific University</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:11:51</TD></TR>
+<TR><TD ALIGN=CENTER>43</TD><TD ALIGN=LEFT>Mintaka</TD><TD ALIGN=LEFT>California State University, Northridge</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:18:14</TD></TR>
+<TR><TD ALIGN=CENTER>44</TD><TD ALIGN=LEFT>Silver</TD><TD ALIGN=LEFT>Riverside Community College</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>03:30:02</TD></TR>
+<TR><TD ALIGN=CENTER>45</TD><TD ALIGN=LEFT>Signal11</TD><TD ALIGN=LEFT>California State University, Fullerton</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>04:19:12</TD></TR>
+<TR><TD ALIGN=CENTER>46</TD><TD ALIGN=LEFT>MtSAC Blue</TD><TD ALIGN=LEFT>Mt. San Antonio College</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>04:22:43</TD></TR>
+<TR><TD ALIGN=CENTER>47</TD><TD ALIGN=LEFT>Alnilam</TD><TD ALIGN=LEFT>California State University, Northridge</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>0</TD><TD ALIGN=CENTER>04:34:30</TD></TR>
+</TABLE>
+</CENTER>
+</P>
+
+<P>
+<H2>Honorable Mention</H2>
+</P>
+
+<CENTER>
+<TABLE BORDER CELLSPACING=4>
+<TR>
+<TH ALIGN="CENTER" VALIGN="MIDDLE">Team Name</TH>
+<TH ALIGN="CENTER" VALIGN="MIDDLE">School</TH>
+</TR>
+<TR><TD VALIGN="MIDDLE">Java's Nightmare</TD><TD VALIGN="MIDDLE">California Lutheran University</TD></TR>
+<TR><TD VALIGN="MIDDLE">Standard</TD><TD VALIGN="MIDDLE">California Lutheran University</TD></TR>
+<TR><TD VALIGN="MIDDLE">LA eagles 2</TD><TD VALIGN="MIDDLE">California State University, Los Angeles</TD></TR>
+<TR><TD VALIGN="MIDDLE">MtSAC Red</TD><TD VALIGN="MIDDLE">Mt. San Antonio College</TD></TR>
+<TR><TD VALIGN="MIDDLE">PLNU Blue</TD><TD VALIGN="MIDDLE">Point Loma Nazarene University</TD></TR>
+<TR><TD VALIGN="MIDDLE">Bronze</TD><TD VALIGN="MIDDLE">Riverside Community College</TD></TR>
+<TR><TD VALIGN="MIDDLE">Return of the AzTechs</TD><TD VALIGN="MIDDLE">San Diego State University</TD></TR>
+<TR><TD VALIGN="MIDDLE">UCI Blue</TD><TD VALIGN="MIDDLE">University of California, Irvine</TD></TR>
+<TR><TD VALIGN="MIDDLE">Coding Rebels</TD><TD VALIGN="MIDDLE">University of Nevada, Las Vegas</TD></TR>
+</TABLE>
+</CENTER>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2002.shtml 32 2007-09-27 07:10:59Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Sat, 29-Sep-2007 02:22:29 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2002 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

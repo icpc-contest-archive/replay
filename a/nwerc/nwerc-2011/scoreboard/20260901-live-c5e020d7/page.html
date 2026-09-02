@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://www.nwerc.eu/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="NWERC 2026" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <title>Northwestern Europe Regional Contest 2026</title>
+                    <link rel="stylesheet" href="/css/styles.min.css">
+            <link rel="stylesheet" href="/css/scoreboard.css">
+            <link rel="stylesheet" href="/css/fontawesome-all.min.css">
+                        <style>
+/* dm-sans-100 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-100.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-100.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-100italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-100italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-100italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-200 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-200italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-200italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-200italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-300italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-500italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-600italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-800 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-800italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-800italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-800italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-900 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-900.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-sans-900italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/webfonts/dm-sans-v15-latin_latin-ext-900italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-sans-v15-latin_latin-ext-900italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-300italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* dm-mono-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Mono';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/webfonts/dm-mono-v14-latin_latin-ext-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/webfonts/dm-mono-v14-latin_latin-ext-500italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+body {
+  font-family: 'DM Sans', 'Inter', 'Roboto', sans-serif!important;
+  background: #f4f5ff!important;
+}
+
+.nwerc-button:hover {
+  color: #10375c!important;
+  background-color: #f4f5ff!important;
+  border-color: #10375c!important;
+}
+
+.nwerc-button {
+  color: #f4f5ff!important;
+  background-color: #10375c!important;
+  border-color: #10375c!important;
+}
+
+.text-darkblue {
+  color: #10375c!important;
+}
+
+.font-white {
+  color: #f4f5ff!important;
+}
+
+.bg-white {
+  background: #f4f5ff!important;
+}
+
+pre, code, kbd, samp {
+  font-family: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+            </style>
+            <style>
+                .prose a {
+                    color: #28AFB0!important;
+                }
+
+                .nav-current {
+                    color: #28AFB0!important;
+                }
+
+                .nav-other:hover {
+                    color: #28AFB0!important;
+                }
+
+                .bg-dark {
+                    background-color: #10375c;
+                }
+
+                section.footer {
+                    background-color: #10375c;
+                    width: 100%;
+                }
+
+                section.prose {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                .nav {
+                    width: 100%;
+                    height: 86px;
+                    position: fixed;
+                    line-height: 65px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .nav.affix {
+                    height: 66px;
+                }
+
+                .nav.active {
+                    background-color: color-mix(in srgb, #10375c 90%, transparent);
+                    transition: none;
+                }
+
+                .nav div.logo {
+                    float: left;
+                    width: auto;
+                    height: 80px;
+                    margin-top: -14px;
+                }
+
+                .nav div.logo img {
+                    height: 65px;
+                }
+
+                .nav div.main_list {
+                    height: 65px;
+                    float: right;
+                }
+
+                .nav div.main_list ul {
+                    width: 100%;
+                    height: 65px;
+                    display: flex;
+                    gap: 0 2rem;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .nav div.main_list ul li {
+                    width: auto;
+                    height: 65px;
+                    padding: 0;
+                }
+
+                .nav div.main_list ul li a {
+                    text-decoration: none;
+                    line-height: 65px;
+                }
+
+                .nav div.main_list ul li a:hover {
+                    color: #28AFB0;
+                }
+
+                .home {
+                    width: 100%;
+                    height: 100vh;
+                    background-image: var(--image-url);
+                    background-position: center top;
+                    background-size:cover;
+                }
+
+                .homeblock-img {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100vh;
+                    filter: brightness(0) invert(1) opacity(50%);
+                    background: var(--image-mask);
+                }
+
+                .homeblock-blur {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100vh;
+                    background-color: #10375c;
+                    filter: opacity(75%);
+                    backdrop-filter: blur(20px);
+                    mask: linear-gradient(black, transparent 50%);/*, var(--image-mask);*/
+                    mask-composite: subtract;
+                }
+
+                .homeblock {
+                    width: 100%;
+                    height: 100vh;
+                    background-color: #10375c;
+                    /*mask: var(--image-mask), linear-gradient(#000 0 0);*/
+                    mask-composite: exclude;
+                    filter: opacity(50%);
+                }
+
+                .homeblock::after {
+                    content: var(--image-credit);
+                    position: absolute;
+                    bottom: 0;
+                    right: 3px;
+                    color: #f4f5ff;
+                }
+
+                .imgcred {
+                    position: relative;
+                }
+
+                .imgcred::after {
+                    content: var(--image-credit);
+                    position: absolute;
+                    bottom: -1.5em;
+                    right: 3px;
+                }
+
+                .navTrigger {
+                    display: none;
+                }
+
+                .nav {
+                    z-index: 1000;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    -webkit-transition: all 0.4s ease;
+                    transition: all 0.4s ease;
+                }
+
+                .nav-container {
+                    position: relative;
+                    max-width: 1536px;
+                    width: 100%;
+                }
+
+                @media screen and (min-width: 850px) {
+                    .nav div.show_list {
+                        margin-right: -1.5rem!important;
+                    }
+                }
+
+                @media screen and (min-width: 1080px) {
+                    .nav div.show_list {
+                        margin-right: -2rem!important;
+                    }
+                }
+
+                @media screen and (max-width:1540px) {
+                    .nav-container {
+                        margin: 0;
+                    }
+                    .navTrigger {
+                        display: block;
+                    }
+                    .nav div.logo {
+                        margin-left: 15px;
+                    }
+                    .nav div.main_list {
+                        width: 100%;
+                        height: 0;
+                        overflow: hidden;
+                    }
+                    .nav div.show_list {
+                        height: auto;
+                        display: none;
+                        width: 100vw;
+                        margin-right: -1rem;
+                    }
+                    .nav div.show_list ul {
+                        padding-right: 1rem;
+                    }
+                    .nav div.show_list ul li {
+                        height: 45px;
+                    }
+                    .nav div.main_list ul {
+                        flex-direction: column;
+                        width: 100%;
+                        height: 100vh;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        background-color: color-mix(in srgb, #10375c 90%, transparent);
+                        background-position: center top;
+                    }
+                    .nav div.main_list ul li {
+                        width: 100%;
+                        text-align: right;
+                    }
+                    .nav div.main_list ul li a {
+                        text-align: center;
+                        width: 100%;
+                        padding: 20px;
+                    }
+                    .nav div.media_button {
+                        display: block;
+                    }
+                }
+
+                .navTrigger {
+                    cursor: pointer;
+                    width: 30px;
+                    height: 25px;
+                    position: absolute;
+                    right: 30px;
+                    top: 22px;
+                    bottom: 0;
+                }
+
+                .navTrigger i {
+                    background-color: #fff;
+                    border-radius: 2px;
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 4px;
+                }
+
+                .navTrigger i:nth-child(1) {
+                    -webkit-animation: outT 0.4s backwards;
+                    animation: outT 0.4s backwards;
+                    -webkit-animation-direction: reverse;
+                    animation-direction: reverse;
+                }
+
+                .navTrigger i:nth-child(2) {
+                    margin: 5px 0;
+                    -webkit-animation: outM 0.4s backwards;
+                    animation: outM 0.4s backwards;
+                    -webkit-animation-direction: reverse;
+                    animation-direction: reverse;
+                }
+
+                .navTrigger i:nth-child(3) {
+                    -webkit-animation: outBtm 0.4s backwards;
+                    animation: outBtm 0.4s backwards;
+                    -webkit-animation-direction: reverse;
+                    animation-direction: reverse;
+                }
+
+                .navTrigger.active i:nth-child(1) {
+                    -webkit-animation: inT 0.4s forwards;
+                    animation: inT 0.4s forwards;
+                }
+
+                .navTrigger.active i:nth-child(2) {
+                    -webkit-animation: inM 0.4s forwards;
+                    animation: inM 0.4s forwards;
+                }
+
+                .navTrigger.active i:nth-child(3) {
+                    -webkit-animation: inBtm 0.4s forwards;
+                    animation: inBtm 0.4s forwards;
+                }
+
+                @-webkit-keyframes inM {
+                    50% {
+                        -webkit-transform: rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: rotate(45deg);
+                    }
+                }
+
+                @keyframes inM {
+                    50% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(45deg);
+                    }
+                }
+
+                @-webkit-keyframes outM {
+                    50% {
+                        -webkit-transform: rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: rotate(45deg);
+                    }
+                }
+
+                @keyframes outM {
+                    50% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(45deg);
+                    }
+                }
+
+                @-webkit-keyframes inT {
+                    0% {
+                        -webkit-transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        -webkit-transform: translateY(9px) rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: translateY(9px) rotate(135deg);
+                    }
+                }
+
+                @keyframes inT {
+                    0% {
+                        transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        transform: translateY(9px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translateY(9px) rotate(135deg);
+                    }
+                }
+
+                @-webkit-keyframes outT {
+                    0% {
+                        -webkit-transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        -webkit-transform: translateY(9px) rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: translateY(9px) rotate(135deg);
+                    }
+                }
+
+                @keyframes outT {
+                    0% {
+                        transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        transform: translateY(9px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translateY(9px) rotate(135deg);
+                    }
+                }
+
+                @-webkit-keyframes inBtm {
+                    0% {
+                        -webkit-transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        -webkit-transform: translateY(-9px) rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: translateY(-9px) rotate(135deg);
+                    }
+                }
+
+                @keyframes inBtm {
+                    0% {
+                        transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        transform: translateY(-9px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translateY(-9px) rotate(135deg);
+                    }
+                }
+
+                @-webkit-keyframes outBtm {
+                    0% {
+                        -webkit-transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        -webkit-transform: translateY(-9px) rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: translateY(-9px) rotate(135deg);
+                    }
+                }
+
+                @keyframes outBtm {
+                    0% {
+                        transform: translateY(0px) rotate(0deg);
+                    }
+                    50% {
+                        transform: translateY(-9px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translateY(-9px) rotate(135deg);
+                    }
+                }
+
+                .affix {
+                    padding: 0;
+                    background-color: #10375c!important;
+                }
+
+                /* Container for the logo grid */
+                .sponsors-container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    text-align: center; /* Helps with overall centering */
+                }
+
+                .sponsors-grid {
+                    display: inline-flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 30px;
+                    width: 100%;
+                }
+
+                /* Logo item styling */
+                .sponsor-logo {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 200px;
+                }
+
+                /* Logo image styling */
+                .sponsor-logo img {
+                    max-width: 200px;
+                    max-height: 200px;
+                    object-fit: contain;
+                    margin: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                /* Responsive adjustments */
+                @media (max-width: 768px) {
+                    .sponsor-logo {
+                        width: 150px;
+                        height: 150px;
+                    }
+
+                    .sponsor-logo img {
+                        max-width: 150px;
+                        max-height: 150px;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .sponsors-grid {
+                        gap: 15px;
+                    }
+
+                    .sponsor-logo {
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    .sponsor-logo img {
+                        max-width: 100px;
+                        max-height: 100px;
+                    }
+                }
+
+                img.imgtop {
+                    margin-top: 0!important;
+                }
+
+              .badge {
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                margin-left: 6px;
+                border-radius: 4px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                position: relative;
+              }
+
+              .badge-AUT {
+                background-image: url('/images/countries/AUT.png');
+              }
+
+              .badge-CHE {
+                background-image: url('/images/countries/CHE.png');
+              }
+
+              .badge-POL {
+                background-image: url('/images/countries/POL.png');
+              }
+
+              .badge-BEL {
+                background-image: url('/images/countries/BEL.png');
+              }
+
+              .badge-LUX {
+                background-image: url('/images/countries/LUX.png');
+              }
+
+              .badge-EST {
+                background-image: url('/images/countries/EST.png');
+              }
+
+              .badge-ISL {
+                background-image: url('/images/countries/ISL.png');
+              }
+
+              .badge-NOR {
+                background-image: url('/images/countries/NOR.png');
+              }
+
+              .badge-IRL {
+                background-image: url('/images/countries/IRL.png');
+              }
+
+              .badge-LTU {
+                background-image: url('/images/countries/LTU.png');
+              }
+
+              .badge-NLD {
+                background-image: url('/images/countries/NLD.png');
+              }
+
+              .badge-SWE {
+                background-image: url('/images/countries/SWE.png');
+              }
+
+              .badge-FIN {
+                background-image: url('/images/countries/FIN.png');
+              }
+
+              .badge-DNK {
+                background-image: url('/images/countries/DNK.png');
+              }
+
+              .badge-DEU {
+                background-image: url('/images/countries/DEU.png');
+              }
+
+              .badge-FRA {
+                background-image: url('/images/countries/FRA.png');
+              }
+
+              .badge-GBR {
+                background-image: url('/images/countries/GBR.png');
+              }
+
+              .badge-kit {
+                background-image: url('/images/affiliations/KIT.png');
+              }
+
+              .badge-fsmi {
+                filter: invert(100%);
+                background-image: url('/img/fsmi.svg');
+              }
+
+              .badge-akk {
+                background-image: url('/img/akk.png');
+              }
+
+              .badge-domjudge {
+                background-image: url('/img/domjudge.svg');
+              }
+
+              .badge-delft {
+                background-image: url('/img/delft.svg');
+              }
+
+              .badge-augsburg {
+                background-image: url('/img/augsburg.svg');
+              }
+
+              .badge-booking {
+                background-image: url('/img/booking.svg');
+              }
+
+              .badge-moia {
+                background-image: url('/img/moia.svg');
+              }
+
+              .badge-google {
+                background-image: url('/img/google.svg');
+              }
+
+              .badge-scc {
+                background-image: url('/img/scc.png');
+              }
+
+              .badge-cpulm {
+                background-image: url('/img/cpulm.svg');
+              }
+
+              .badge-wien {
+                background-image: url('/images/wien.png');
+              }
+
+              .badge-paris {
+                background-image: url('/images/dauphine.png');
+              }
+
+              .badge-warsaw {
+                background-image: url('/img/warsaw.svg');
+              }
+
+              .badge-mpi {
+                background-image: url('/images/mpi.jpg');
+              }
+
+              .badge-altasigma {
+                background-image: url('/images/affiliations/AS.png');
+              }
+
+              .badge-fau {
+                background-image: url('/images/affiliations/FAU.png');
+              }
+
+              .badge-ulm {
+                background-image: url('/images/affiliations/UUlm.png');
+              }
+
+              .badge-saarland {
+                background-image: url('/images/affiliations/UdS.png');
+              }
+
+              .badge-luebeck {
+                background-image: url('/images/affiliations/UzL.png');
+              }
+
+              .badge-lyon {
+                background-image: url('/images/lyon.svg');
+              }
+
+              .badge-durham {
+                background-image: url('/images/durham.png');
+              }
+
+              .badge-planet {
+                background-image: url('/img/planet-ai.png');
+              }
+
+              .people-list {
+                margin-bottom: 1.25em;
+              }
+
+              .people-list > div {
+                position: relative;
+                padding-left: 1.75em;
+              }
+
+              .dot-sep > *:not(:last-child)::after {
+                  content: "•";
+                  margin: 0 0.5rem;
+              }
+
+              .dot-sep > .no-separator:not(:last-child)::after {
+                  color: #f4f5ff!important;
+              }
+
+              .people-list > div::before {
+                content: "";
+                position: absolute;
+                background-color: #d1d5db;
+                border-radius: 50%;
+                width: .375em;
+                height: .375em;
+                top: calc(.875em - .1875em);
+                left: .25em;
+              }
+
+              .hide > .inactive {
+                filter: opacity(0%);
+                transition: all 0.4s ease;
+              }
+
+              .inactive {
+                filter: opacity(100%);
+                transition: all 0.4s ease;
+              }
+            </style>
+        
+                                    <script src="/scripts/jquery-3.6.0.min.js"></script>
+        
+    <script src="/scripts/countdown.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var countdownElement = document.getElementById('countdown');
+            function updateCountdown() {
+                var timespan = countdown(null, new Date('2026-11-29T09:00:00+01:00'), countdown.DEFAULTS, 3);
+                countdownElement.textContent = timespan.toString();
+                setTimeout(updateCountdown, 1000);
+            }
+            updateCountdown();
+        });
+    </script>
+    </head>
+    <body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://www.nwerc.eu/">http://www.nwerc.eu/</a> (fetched 2026-09-01) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/nwerc-2011.html">nwerc-2011</a>)  <a href="https://web.archive.org/web/*/http://www.nwerc.eu/">wayback</a></div>
+
+        
+<nav class="nav">
+    <div class="nav-container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="logo">
+        <a href="/">
+            <img src="/img/NWERC_Logo_White.svg"/>
+        </a>
+    </div>
+    <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+                                                                                                                                                                <li><a href="/" class="nav-current text-2xl font-medium" aria-current="page">Home</a></li>
+                                                                                                                                                                            <li><a href="/rules" class="nav-other text-white text-2xl font-medium">Rules</a></li>
+                                                                                                                                                                            <li><a href="/support" class="nav-other text-white text-2xl font-medium">Support Us</a></li>
+                                                                                                                                                                            <li><a href="/about" class="nav-other text-white text-2xl font-medium">About</a></li>
+                                                                                                                                                                                                                                                                                        </ul>
+    </div>
+    <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+    </span>
+    </div>
+</nav>
+<section class="home" style="--image-url: url(/img/index2.jpg);">
+    <div class="homeblock-blur" style="--image-mask: url(/img/logo.svg) center/75% no-repeat;"></div>
+            <div class="homeblock" style="--image-credit: 'Photo: Brutenis Gliwa'; --image-mask: url(/img/logo.svg) center/75% no-repeat;"></div>
+        <div class="snow" style="opacity: 25%;"></div>
+    <div class="homeblock-img" style="--image-mask: url(/img/logo.svg) center/75% no-repeat;"></div>
+</section>
+<script>
+    $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    $(this).parent().parent().toggleClass('active');
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+    });
+    $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+    } else {
+        $('.nav').removeClass('affix');
+    }
+    });
+</script>
+
+
+<div class="content">
+    <header class="bg-white shadow">
+        <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <h1 id="headline" style="scroll-margin-top: 5.75rem;" class="text-3xl font-bold text-gray-900">Northwestern Europe Regional Contest 2026</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8 prose content-top">
+            
+              <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
+    <div class="col-span-2 content-top">
+      <section>
+    <div>
+        <h2>NWERC 2026</h2>
+        <p>Welcome to the website for the Northwestern Europe Regional Contest 2026. NWERC 2026 is organized by <a target="_blank" rel="noopener noreferrer" href="https://kit.edu/english/index.php">Karlsruhe Institute of Technology</a> and will take place from Friday, November 27 to Sunday, November 29, 2026.</p>
+        <p>The Northwestern Europe Regional Contest is a programming contest in which teams from universities all over the Northwestern part of Europe tackle a series of algorithmic problems. The goal of each team is to solve as many problems as possible within the five hour time limit. Teams submit their potential solutions to a judging system where they are then automatically evaluated. The teams that have solved the most problems by the end of the contest qualify for the <a target="_blank" rel="noopener noreferrer" href="https://worldfinals.icpc.global">ICPC World Finals</a> and the <a target="_blank" rel="noopener noreferrer" href="https://euc.icpc.global">ICPC Europe Championship</a>.</p>
+                                    </div>
+</section>
+    </div>
+    <div class="col-span-1 mt-9">
+      <div class="partner-box text-justify">
+  <h2 class="partners-h">Organized by:</h2>
+  <a href="https://kit.edu/english/index.php" target="_blank" rel="noopener noreferrer">
+    <div class="max-w-72 mx-auto w-full h-auto">
+      <img src="/img/kit.svg" width="100%" alt="Karlsruhe Institute of Technology">
+    </div>
+  </a>
+</div>
+
+<div class="partner-box text-justify">
+  <h2 class="partners-h">Supported by:</h2>
+  <a href="https://cpulm.org" target="_blank" rel="noopener noreferrer">
+    <div class="max-w-72 mx-auto w-full h-auto">
+      <img src="/img/cpulm.svg" alt="CPUlm">
+    </div>
+  </a>
+</div>
+
+    </div>
+  </div>
+        </div>
+                    </main>
+    <footer>
+            </footer>
+</div>
+
+                            <script src="/scripts/jquery-3.6.0.min.js"></script>
+        
+    <script src="/scripts/countdown.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var countdownElement = document.getElementById('countdown');
+            function updateCountdown() {
+                var timespan = countdown(null, new Date('2026-11-29T09:00:00+01:00'), countdown.DEFAULTS, 3);
+                countdownElement.textContent = timespan.toString();
+                setTimeout(updateCountdown, 1000);
+            }
+            updateCountdown();
+        });
+    </script>
+<section class="footer font-white">
+    <div class="container mx-auto w-full flex flex-wrap justify-between px-4 sm:px-6 lg:px-8">
+	<span></span>
+        <div class="float-right flex gap-2">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.kit.edu/english/index.php">KIT</a>
+            <span>|</span>
+            <a target="_blank" rel="noopener noreferrer" href="https://cpulm.org">CPUlm</a>
+            <span>|</span>
+            <a target="_blank" rel="noopener noreferrer" href="/rules#coc">CoC</a>
+            <span>|</span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.kit.edu/legals.php">Legals</a>
+            <span>|</span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.kit.edu/privacypolicy.php">Privacy Policy</a>
+        </div>
+    </div>
+</section>
+    </body>
+</html>

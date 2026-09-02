@@ -1,0 +1,45 @@
+2004 Alberta Collegiate Programming Contest
+October 2, 2004
+
+Final standings
+
+
+              A     B     C     D     E     F     G     H    Total
+    +------+-----+-----+-----+-----+-----+-----+-----+-----+--------+
+ 1. |acm018| 278 | 174 |  33 |     |  51 | 190 | 286 | 282 | 7 1294 |
+ 2. |acm009| 122 | 211 |  41 |     |  61 |     |     | 277 | 5  712 |
+ 3. |acm023| 137 |  -5 | 228 |     |   8 | 255 |  -1 | 193 | 5  821 |
+ 4. |acm003|  19 |  -2 |  86 |     |  -3 | 159 |     |  -1 | 3  264 |
+ 5. |acm005|     |     | 104 |     | 136 |     |     |     | 2  240 |
+ 6. |acm013|     |     | 240 |     |  39 |     |     |     | 2  279 |
+ 7. |acm004|  -3 |     | 117 |     | 228 |  -3 |     |     | 2  345 |
+ 8. |acm010|     |     | 222 |     | 251 |     |     |     | 2  473 |
+ 9. |acm011|     |  -1 | 256 |     |  -3 |     |     |     | 1  256 |
+10. |acm015|     |     |  -2 |     | 302 |     |     |     | 1  302 |
+    |acm021|     |  -1 |  -2 |     |  -2 |     |     |     | 0    0 |
+    |acm020|     |     |     |     |  -3 |     |     |     | 0    0 |
+    |acm022|     |     |  -1 |     |  -2 |     |     |     | 0    0 |
+    |acm006|     |     |     |     |  -1 |     |     |     | 0    0 |
+    +------+-----+-----+-----+-----+-----+-----+-----+-----+--------+
+
+
+
+Who is who
+
+acm003: UofC - Alex Fink, Bogdan Radacina, John Zhang
+acm004: UofC - Sean Nichols, Brett Shikaze, Paul Tarjan
+acm005: UofC - Kyle Yee, Rennie deGraaf, James Snell
+acm006: UofC - Terrance Mok, Miaosen Wang, Chris Berkholtz
+acm009: UofL - Zac Friggstad, Ethan Kim, Troy Ronda
+acm010: UofL - Beau Durrant, Barry Gergel, Ben Burnett
+acm011: UofL - Shelly Hatch, Brett Peake, Carrie Wang
+acm013: UofL - Attila Aros, Massih Khorvash, Corey Van Tighem
+acm014: UofL - Md Kamruzzaman, Shuvro Das, Avijit Saha
+acm015: UofL - Chad Befus, Darin McGee, Greg Skelton
+acm018: UofA - Jason Klaus, Sumudu Fernando, Andrew Neitsch
+acm019: UofA - Steve Lai, Karen Lo, Andrew Huynh
+acm020: UofA - Cuong Ly, Yan Chen, Burc Derya Gunes
+acm021: UofA - Jeff Ryan, Stella Luk, Curtis Badke
+acm022: UofA - Johnny Huynh, Benjamin Chu, Jennifer Lam
+acm023: UofA - Haydn Broomhall, Kevin Waugh, Roy de Bruijn
+acm024: UofA - William Thorne, Kevin Reed, James Neufeld

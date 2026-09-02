@@ -1,0 +1,135 @@
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/history/2000/results-2000.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>ACM Southern California Regional Programming Contest</title>
+<link rel="stylesheet" type="text/css" href="/history/classes/toc.css">
+</head>
+<body background="/history/images/tocbk.gif">
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2000/results-2000.shtml">http://socalcontest.org/history/2000/results-2000.shtml</a> (content as captured 2007-12-09 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2000.html">socal-2000</a>)  <a href="https://web.archive.org/web/20071209084628/http://socalcontest.org/history/2000/results-2000.shtml">wayback</a></div>
+
+<font color="#000080" face="Arial, Helvetica, Verdana">
+
+<center>
+<h2><b>Southern California Region</b></h2>
+<p><img src="/history/images/mast2000.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+</center>
+<table border="0" width="100%">
+<tr>
+  <td align=left nowrap width="10%"><font size="-1"><strong>Content Dated 2000</strong></font></td>
+  <td align=center><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">
+    Updated
+    <script>
+    var token="$Id: results-2000.shtml 37 2007-09-30 04:18:44Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+
+<center>
+<h2>2000-01 Southern California Regional Programming Contest Final Standings</h2>
+</center>
+
+<pre>
+
+Rank   Team ID    Team Name                        Solved   Penalties    Score
+
+   1   acm146     Caltech 1                           4          6    12:45:01
+
+   2   acm129     UCSD Scissors                       3          2     7:49:11
+   3   acm130     APU 4alpha2omega                    3          4     9:22:50
+   4   acm127     UCSD Paper                          3          3     9:26:29
+   5   acm106     HMC Saturation Bombing              3          5     9:33:09
+   6   acm141     UNLV1                               3          4    10:23:38
+   7   acm149     CPSUSLO Cal Poly Green              3          2    11:20:40
+
+   8   acm124     UCI Blue                            2          1     2:55:57
+   9   acm105     HMC Judges                          2          2     5:23:39
+  10   acm128     UCSD Rock                           2          4     7:00:16
+  11   acm118     CSUN Black                          2          1     7:09:42
+  12   acm145     UCR /usr/src/linux/kernel/panic.    2          5     9:56:29
+
+  13   acm132     APU Partially Omniscients           1          0     1:01:20
+  14   acm104     HMC Infinite Monkeys                1          1     1:10:32
+  15   acm136     Pomona C Hammer of Justice          1          1     1:17:05
+  16   acm109     PLNU Gold                           1          0     1:24:56
+  17   acm107     U Redlands *(--NULL)                1          0     1:32:35
+  18   acm152     Pomona C Pomona 47                  1          0     1:51:57
+  19   acm123     CSUSM Dream Team                    1          0     1:53:03
+  20   acm137     Pomona C North by Southwest         1          0     2:01:02
+  21   acm140     Cal Lutheran U StarFury             1          0     2:02:14
+  22   acm148     Caltech 3                           1          1     2:10:03
+  23   acm133     CSULB Beach Bums-TJK                1          1     2:19:02
+  24   acm103     RCC Tigers                          1          1     2:20:35
+  25   acm135     CSULB Thankpower                    1          3     2:24:36
+  26   acm121     BYU-Hawaii C-Siders                 1          2     2:25:48
+  27   acm139     Cal Lutheran U Cosmic Programmin    1          1     2:47:07
+  28   acm144     MtSAC MountiesGold                  1          3     2:48:09
+  29   acm115     SDSU Caffeinated Recursion          1          2     3:35:43
+  30   acm112     USC Cardinal and Gold               1          1     3:37:28
+  31   acm117     SDSU WRONG                          1          1     3:47:53
+  32   acm108     PLNU Blue                           1          2     4:00:19
+  33   acm110     PLNU Green                          1          3     4:09:51
+  34   acm119     CSUN Red                            1          4     4:55:52
+  35   acm151     CSUSM *DOA*                         1          1     4:59:45
+  36   acm142     UNLV2                               1          3     5:15:47
+  37   acm126     UCSB Crash                          1          3     5:18:15
+  38   acm120     CSUN Matadors                       1          2     5:30:09
+  39   acm125     UCI Gold                            1          4     6:10:50
+  40   acm113     USC Trojan Horse                    1          5     6:23:40
+  41   acm143     MtSAC MountiesBlue                  1          8     6:31:01
+
+       acm101     RCC Epsilon                         0          0     0:00:00
+       acm102     RCC Kaffee Konsumers                0          0     0:00:00
+       acm111     ECC Alpha                           0          0     0:00:00
+       acm114     USC Trojans                         0          0     0:00:00
+       acm116     SDSU Syntax Error                   0          0     0:00:00
+       acm122     CSUSM Platinum                      0          0     0:00:00
+       acm131     APU Cougars                         0          0     0:00:00
+       acm134     CSULB Seat Doubling Winesap         0          0     0:00:00
+       acm147     Caltech 2                           0          0     0:00:00
+       acm150     UCR IEEE                            0          0     0:00:00
+       acm153     CPSUP Cal Poly 1                    0          0     0:00:00
+</pre>
+<table border="0" width="100%">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: results-2000.shtml 37 2007-09-30 04:18:44Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr></td>
+  <td align=center nowrap width="10%"><font size="-1">Posted on Fri, 05-Oct-2007 21:50:21 MST
+
+</font></td>
+  <td align=right><hr></td>
+  <td align=right width="1%"><hr></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1">Copyright &#169; 2000 ACM Southern California Regional Programming Contest
+</font></td>
+  <td align=right><font size="-1"><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#97;&#99;&#109;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</body>
+</html>
+

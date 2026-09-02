@@ -1,0 +1,426 @@
+/* todo: Hierin moet eens heel hard gesnoeid worden! */
+@import url("style_woc.css");
+@import url("style_knoppen.css");
+@import url("style_bookweb.css");
+@import url("style_fotoweb.css");
+@import url("style_mailingweb.css");
+@import url("style_wsw.css");
+@import url("style_wsw4.css");
+@import url("style_escapade.css");
+
+/* Algemene classes */
+.italic {
+	font-style: italic;
+}
+
+.tiny {
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+.verplicht {
+	color: red;
+	font-weight: bolder;
+}
+
+.waarschuwing {
+	color: red;
+}
+
+.disabled {
+	color: silver;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.mediumtext {
+	font-size: 10pt;
+}
+
+.smalltext {
+	font-size: 8pt;
+}
+
+.strongtext {
+	font-weight: bolder;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Opmaak voor de sidebar */
+.rightbar #sidebar {
+	margin-top: 260px;
+	margin-left: 10px;
+}
+
+.rightbar #sidebar a {
+	text-decoration: none;
+}
+
+.rightbar #sidebar div {
+	margin-top: 20px;
+}
+
+/* Opmaak voor popup */
+#popup {
+	display: none;
+}
+#popup .bg {
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+#popup .outer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+#popup .outer .middle {
+	display: table-cell;
+}
+#popup .outer .middle .inner {
+	position: relative;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 75px;
+}
+#popup .outer .middle .inner .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 25px;
+}
+#popup .outer .middle .inner .close img {
+	width: 25px;
+}
+
+#popup_content{
+	background: #FFF;
+	border: 1px solid black;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px #000000;
+	padding: 10px;
+}
+
+#Form_defaultFormLidVerzameling_container {
+	max-height: 500px;
+	overflow: auto;
+}
+
+/* Voor het tonen van symbolen bij activiteiten */
+.actsoort {
+	font-size: 11pt;
+	width: 1em;
+}
+
+.actsoort_aes2 {
+	color: red;
+}
+.actsoort_uu {
+	color: #cccc00;
+}
+.actsoort_zus {
+	color: #3399ff;
+}
+.actsoort_land {
+	color: green;
+}
+.actsoort_.com {
+	color: black;
+}
+.actsoort_ext {
+	color: purple;
+}
+
+/* Oude meuk die niet geclassificeerd is */
+hr {
+	border: 0;
+	height: 1px;
+}
+
+pre {
+  font-family: monospace;
+}
+
+.smalltext p{
+	margin-top: 0.05em;
+	margin-bottom: 0.05em;
+}
+
+span.header3 {
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+span.header2 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+span.header1 {
+	font-size: 17pt;
+	font-weight: bold;
+}
+
+.nobullet {
+	list-style-type: none;
+}
+
+.valigntop {
+	vertical-align: top;
+}
+.halignright {
+	text-align: right;
+}
+
+/* opmaak voor wijzig en edit links in cie-agenda */
+
+.ag_tinylink {
+	font-size:smaller
+}
+
+/* gebruikt in cieagenda */
+
+.smallerfont {
+	font-size:smaller
+}
+
+.nieuwsbody {
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+
+.watskebeurt {
+	padding-left: 1ex;
+	padding-bottom: 1ex;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	width: 20%;
+	min-width: 200px;
+	float: right;
+	margin-left: 3em;
+}
+
+.watskebeurt th { 
+	border-bottom: solid 1px;
+	padding-top: 1em;
+}
+
+.watskebeurt .social_media_box {
+	display: inline; 
+	float: left;
+}
+
+.social_media_box iframe {
+	border:none; 
+	overflow:hidden; 
+	height:25px;
+}
+
+.social_media_box .social_media_fb {
+	width:110px; 
+}
+
+.social_media_box .social_media_twitter {
+	width:70px; 
+}
+
+#nieuwskop {
+	margin-top: 2em;
+}
+
+#tweetkop {
+	margin-top: 2em;
+}
+
+td.intro_totalen_totaal {
+	border-top: solid 1px black;
+	text-align: right;
+}
+td.intro_totalen_data {
+	text-align: right;
+}
+/*calendar */
+
+.calendar_emptyday, .calendar_nonday,  .calendar_anyday {text-align:center}
+
+/* override for size */
+
+a.calendar_next_prev:link{text-decoration:none}
+a.calendar_next_prev:visited{text-decoration:none}
+a.calendar_next_prev:hover{text-decoration:none}
+a.calendar_next_prev:active{text-decoration:none}
+
+
+tr.doorgestreept td {
+	text-decoration: line-through;
+}
+
+span.toelichting {font-style: italic;}
+span.toelichting em {font-weight: bold;}
+
+/* onderscheid verschillende listindenties */
+ol {list-style-type: decimal;}
+ol ol {list-style-type: lower-alpha;}
+ol ol ol {list-style-type: upper-roman;}
+
+/* internet explorer 6 ondersteunt [type=submit] niet  */
+table.loginpart input.loginpartsubmit {
+	color: #660000;
+	font-size: 0.9em;
+	width: auto;
+}
+table.loginpart input {
+	border-width: 1px;
+	border-style: solid;
+	width: 10em;
+}
+
+.tip {
+	border-width: 1px;
+	border-style: solid;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 1em;
+
+}
+
+.tip legend {
+	font-variant: small-caps;
+	font-weight: bold;
+	padding: .1ex .5ex;
+	border-width: 0px 2px 2px 0px;
+	border-style: solid;
+}
+
+.xmlbutton {
+	border: 1px solid;
+	border-color: #fc9 #630 #330 #f69;
+	padding: 0 3px;
+	font: bold 10px sans-serif;
+	color: #fff;
+	background: #f60;
+	text-decoration: none;
+	margin: 0;
+}
+
+.advertentie {
+	text-align: center;
+}
+.advertentie img {
+	border-width: 3px;
+	border-style: outset;
+	padding: 1ex;
+}
+.advertentie:first-line { font-size: x-small; }
+
+div.frameddiv {
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 3px;
+	text-align: left;
+}
+
+div.frameddiv table.frametitles {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+}
+
+div.frameddiv table.frametitles-top {
+	top: -13px;
+	margin-bottom: -18px;
+}
+
+div.frameddiv table.frametitles-bottom {
+	top: 18px;
+	margin-top: -20px;
+	background: none;
+}
+
+div.frameddiv table.frametitles td {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 0px;
+	overflow: hidden;
+	border-bottom: 1px solid red;
+}
+
+div.frameddiv table.frametitles td.left {
+	text-align: left;
+	border: none;
+}
+
+div.frameddiv table.frametitles td.center {
+	text-align: center;
+	border: none;
+}
+
+div.frameddiv table.frametitles td.right {
+	text-align: right;
+	vertical-align: middle;
+	border: none;
+}
+
+div.frameddiv table.frametitles td span.frametitle {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#vacaturebank tr {
+	background-color: #ececec;
+}
+
+#vacaturebank tr.light {
+	background-color: #fcfcfc;
+}
+
+#vacaturebank td {
+	/*border: 1px solid black;*/
+	padding: 0.6em;
+}
+
+#vacaturebank tr td.omschrijving {
+	vertical-align: top;
+}
+
+#vacaturebank strong.bedrijf {
+	color: #000; 
+	font-size: 1.2em;
+}
+
+#vacaturebank strong.functie {
+	color: #600; 
+	font-size: 1.3em;
+}
+
+#vacaturebank p.omscr_tekst {
+	text-align: justify;
+}
+
+#vacaturebank img {
+	margin-bottom: 8px;
+	width: 250px;
+}
+
+.bedrNaam {
+	font-size: 1.35em;
+}

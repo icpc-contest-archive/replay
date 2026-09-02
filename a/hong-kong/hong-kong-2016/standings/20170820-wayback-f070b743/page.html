@@ -1,0 +1,6140 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://asiahk16.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, Asia Hong Kong Regional Contest 2016</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery-ui.min.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic,800italic%7CMerriweather:400,400italic,700" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon" />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/system.css?afe5b7">
+    <style type="text/css">
+          .header {
+         background-color: #9a9a9a;
+     }
+     .header .main-nav > ul > li.current:before {
+         border-bottom-color: #9a9a9a;
+     }
+
+         </style>
+
+    <script type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+        var $j = jQuery;
+    </script>
+
+    <script type="text/javascript">
+    jQuery.ns = function (namespace) {
+        var parts = namespace.split('.');
+        var last = window;
+        for (var i = 0; i < parts.length; i++) {
+            last = last[parts[i]] || (last[parts[i]] = {});
+        }
+        return last;
+    };
+</script>
+
+    <script>
+jQuery.extend(jQuery.ns('Kattis.error'), (function () {
+    var messages = {"INTERNAL_SERVER_ERROR":"Internal server error.","ACCESS_DENIED":"Access denied.","NOT_AUTHENTICATED":"Not authenticated.","METHOD_NOT_ALLOWED":"Method not allowed.","INVALID_JSON":"JSON cannot be decoded or encoded data is deeper than the recursion limit.","BAD_CSRF_TOKEN":"Token matches session's csrf_token","SESSION_NAME_EMPTY":"Session's name must be non empty.","SESSION_START_TIME_EMPTY":"Session's start time must be non empty.","SESSION_START_TIME_PASSED":"Session's start time has already passed.","SESSION_DURATION_EMPTY":"Session's duration must be non empty.","SESSION_DURATION_NEGATIVE":"Session's duration must be a positive number.","SESSION_DURATION_EXCEEDED":"Maximum duration for the session was exceeded.","USER_CREATED_SESSION_DURATION_EXCEEDED":"Contest cannot be longer than 168 hours.","INVALID_SESSION_SHORTNAME":"Invalid shortname for the session.","INVALID_SESSION_CUTOFF":"Invalid cutoff for the session.","INVALID_USER_NAME":"Invalid username or email.","SESSION_NOT_FOUND":"No such session.","COURSE_NOT_FOUND":"No such course.","OFFERING_NOT_FOUND":"No such offering.","TEACHER_NOT_FOUND":"No such teacher.","AUTHOR_NOT_FOUND":"No such author.","JUDGE_NOT_FOUND":"No such judge.","JUDGE_ALREADY_EXIST":"The user is already a judge.","TEACHER_ALREADY_EXIST":"The user is already a teacher.","PROBLEM_NOT_FOUND":"No such problem.","TEAM_NOT_FOUND":"No such team.","SESSION_PROBLEM_ALREADY_EXIST":"The problem has been already added to the session.","SESSION_PROBLEM_DOES_NOT_EXIST":"The problem does not relate to the session.","PROBLEM_INDEX_NEGATIVE":"Problem index must be non negative.","AUTHOR_IS_CURRENT_TEAM_MEMBER":"The user you tried to add is already a member of the current team.","AUTHOR_IS_ANOTHER_TEAM_MEMBER":"The user you tried to add is already a member of another team in the current session.","AUTHOR_IS_JUDGE":"The user you tried to add is a judge.","AUTHOR_IS_NOT_TEAM_MEMBER":"The user you tried to remove is not a team member.","JUDGE_IS_TEAM_MEMBER":"The user you tried to add is a session team member or invitee.","SESSION_PUBLISHING_DENIED":"You do not have permission to publish this session.","CANNOT_PUBLISH_HISTORICAL_SESSION":"You cannot publish a session with a historical start time."};
+
+    return {
+        get_msg: function (error_code) {
+            return messages[error_code];
+        },
+
+        show_msg: function (base_message, error_code) {
+            alert(base_message + this.get_msg(error_code));
+        }
+    }
+})());
+</script>
+
+
+    
+
+        <script>
+  (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26661929-8', 'auto');
+  ga('set', 'forceSSL', true);
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+    
+</head>
+
+<body class="page-master-layout ">
+<div id="icpc-archive-banner">Archived copy of <a href="http://asiahk16.kattis.com/standings">http://asiahk16.kattis.com/standings</a> (content as captured 2017-08-20 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/hong-kong-2016.html">hong-kong-2016</a>)  <a href="https://web.archive.org/web/20170820230226/http://asiahk16.kattis.com/standings">wayback</a></div>
+
+
+
+<div id="wrapper">
+    <header class="header">
+    <div class="background">
+        
+        <div class="wrap">
+            <div class="fl">
+                                    <a href="/"><img class="logo" src="/images/site-logo" alt="" /></a>
+                                <div class="title-wrapper">
+                    <div class="header-title">Asia Hong Kong Regional Contest 2016</div>
+                    <nav class="main-nav">
+                        <ul>
+                                                                                            
+                                <li class="current"><a href="/standings">Standings</a></li>
+                                                                                            
+                                <li class=""><a href="/problems">Problems</a></li>
+                                                                                            
+                                <li class=""><a href="/help">Documentation</a></li>
+                            
+                                                    </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="user-side fr">
+
+                <nav class="user-nav">
+                    <ul class="user-nav-ul">
+                        
+                                                     
+                                <li><a class="btn dark-bg" href="/login">Log in</a></li>
+                                                                        </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!--[if IE]>
+    <div class="alert alert-warning" role="alert">
+        <strong>You are using an outdated browser!</strong> Some features might not look or work like expected. Kattis supports the last two versions of major browsers. Please consider upgrading to a recent version!    </div>
+    <![endif]-->
+
+    
+    
+            <div id="clars-box" class="wrap">
+            
+    
+
+
+
+                    <div class="alert alert-info" id="clarbox" style="display:none">
+                    </div>
+    
+    
+        </div>
+    
+    
+    
+
+    
+    
+
+
+    
+
+    <div class="wrap-fullwidth">
+        <div id="standings_wrapper">
+            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page-content boxed clearfix">
+    <section class="box clearfix main-content">
+
+                    
+
+
+
+
+<div id="contest_time">
+    <div class="contest-progress session-finished">
+                    <div class="info upper">
+                <div class="col-md-3 text-left no-pad">
+                    <h4>Start</h4>
+                    2016-11-06 03:00 CET
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2 class="title">Asia Hong Kong Regional Contest 2016</h2>
+                </div>
+                <div class="col-md-3 text-right no-pad">
+                    <h4>End</h4>
+                    2016-11-06 08:00 CET
+                </div>
+            </div>
+                    <div class="progress">
+                                                                    <div class="progress-bar" style="width: 100.00%">
+                <div class="nearend">
+                    The end is near!                </div>
+
+                <div class="finished">
+                    Contest is over.                </div>
+
+                <div class="nostart">
+                    Not yet started.                </div>
+
+                <div class="notstarted">
+                    Contest                    is starting in                    <span class="countdown">-287 days 21:02:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info only_in_contest">
+            <div class="fl">
+                <h4>Time elapsed</h4>
+                <span class="count_elapsed">5:00:00</span>
+            </div>
+
+            <div class="fr">
+                <h4>Time remaining</h4>
+                <span class="count_remaining">0:00:00</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript">
+        jQuery(function ($) {
+                            window.updateContestHeader = initContestHeader(true, 24872548, 18000);
+                    });
+    </script>
+</div>
+
+        
+                    <div class="alert alert-info text-center">
+                <h4 style="color: info">Unfinalized results!</h4>
+                <p>These are not the finalized results from the contest, the scoreboard will be updated.</p>
+            </div>
+        
+        
+        <div class="control-strip">
+            
+                                                </div>
+
+        
+
+                    <table class="scoreboard_filters"><tr class="filter_row "> <td class="filter_header_cell"> <h4 class="filter_header ">Team Filter</h4> </td> <td><div class="filter_item active"> <span class="filter_name active">All Teams</span> </div><div class="filter_item"> <a class="filter_name" href="?filter=733">Official Teams</a> </div></td> </tr></table>
+        
+                    <h2 class="filter_heading">All Teams</h2>
+        
+            
+    <div class="legend-strip">
+                
+        <div class="fr table-legend">
+                            <div>
+                    <span class="legend-solvedfirst legend-status"></span>
+                    <p class="legend-label"> First to solve problem</p>
+                </div>
+                                        <div>
+                    <span class="legend-solved legend-status"></span>
+                    <p class="legend-label"> Solved problem                </div>
+                        <div>
+                <span class="legend-attempted legend-status"></span>
+                <p class="legend-label"> Attempted problem</p>
+            </div>
+            <div>
+                <span class="legend-pending legend-status"></span>
+                <p class="legend-label"> Pending judgement</p>
+            </div>
+        </div>
+    </div>
+
+
+        <table id="standings" class="table table-kattis kattis-table-contest-standings">
+                <thead>    <tr>
+                                    <th class="table-min-wrap">Rk</th>
+            
+                            <th colspan="2" class="table-min-wrap">Team</th>
+            
+                            <th class="table-min-wrap">Slv.</th>
+
+                                    <th class="table-min-wrap">Time</th>
+                                    
+                    <th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Colourful Graph" href="/problems/colourful">A</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Doors" href="/problems/doors">B</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Playing with Numbers" href="/problems/playingwithnumbers">C</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Peak Tram" href="/problems/peaktram">D</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Peak Tower" href="/problems/peaktower">E</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Perfect k-ary Tree" href="/problems/perfecttree">F</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Scaffolding" href="/problems/scaffolding">G</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Slim Cut" href="/problems/slimcut">H</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Special Tour" href="/problems/specialtour">I</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Taboo" href="/problems/taboo">J</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Team Up" href="/problems/teamup">K</a> </th>
+        
+                                </tr>
+    </thead>
+
+                                                                        
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>1</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Wood Cube
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Fudan University" data-placement="top" title="Fudan University" src="/images/universities/fudan.edu.cn/56px?992bb549087b855cdff46927c08e676b" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>8</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1471</td>
+            
+                        
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>175</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>142</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>103</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            2<br>
+            <small>183</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            4<br>
+            <small>292</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            1<br>
+            <small>286</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            2<br>
+            <small>51</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>99</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>2</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    New Meta
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Shanghai Jiao Tong University" data-placement="top" title="Shanghai Jiao Tong University" src="/images/universities/sjtu.edu.cn/56px?cc4c48419d569252e25309f6ed623fbd" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>8</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1523</td>
+            
+                        
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>171</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>76</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>108</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>270</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            3<br>
+            <small>244</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            2<br>
+            <small>225</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>139</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>150</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>3</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    bitss003
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Beijing Institute of Technology" data-placement="top" title="Beijing Institute of Technology" src="/images/universities/bit.edu.cn/56px?6484a56458168394b469ed8d75e6bbbf" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>5</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1135</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>204</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>89</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>232</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>139</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>291</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>4</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    UESTC_moonflower
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Electronic Science and Technology of China" data-placement="top" title="University of Electronic Science and Technology of China" src="/images/universities/uestc.edu.cn/56px?df678f82d5efae8c620561fc1c3687aa" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>690</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>195</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>223</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>149</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            2<br>
+            <small>63</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>5</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    love_life
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Wuhan University" data-placement="top" title="Wuhan University" src="/images/universities/whu.edu.cn/56px?31defd534ab413ecdbbfa20a8dfb913b" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>703</td>
+            
+                        
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            1<br>
+            <small>114</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>171</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>84</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>274</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>6</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    SuperHighWay
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Hong Kong" data-placement="top" title="University of Hong Kong" src="/images/universities/hku.hk/56px?496318c4d0959cbf095549be3b0bf9a2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>748</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            1<br>
+            <small>71</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>152</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>290</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>215</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>7</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Paean
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Nankai University" data-placement="top" title="Nankai University" src="/images/universities/nankai.edu.cn/56px?c3243639aed1280c92d35c68d982b0c1" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>769</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>136</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>144</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>192</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>257</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>8</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    UESTC_Retarded
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Electronic Science and Technology of China" data-placement="top" title="University of Electronic Science and Technology of China" src="/images/universities/uestc.edu.cn/56px?df678f82d5efae8c620561fc1c3687aa" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>815</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            7<br>
+            <small>278</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>79</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>106</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>212</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>9</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    SYSU_FireAndBlood
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Sun Yat-sen University" data-placement="top" title="Sun Yat-sen University" src="/images/universities/sysu.edu.cn/56px?cfc893eaee65da91c1790362853dcb66" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>893</td>
+            
+                        
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>290</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>198</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>113</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            6<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>212</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>10</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Sad Frog
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Nanjing University" data-placement="top" title="Nanjing University" src="/images/universities/nju.edu.cn/56px?01c0cdf289dd342a004ae3f30d3cc6b1" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1209</td>
+            
+                        
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>299</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>277</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>225</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>268</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>11</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    KAOLENGMIAN
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Beijing University of Posts and Telecommunications" data-placement="top" title="Beijing University of Posts and Telecommunications" src="/images/universities/bupt.edu.cn/56px?8ac8c1f5f4f0b51763ad4d41b564104e" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>350</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>101</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>58</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>171</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>12</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    It&#039;s High Moon
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Peking University" data-placement="top" title="Peking University" src="/images/universities/pku.edu.cn/56px?23795b556d9571f6351883eca55bf098" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>544</td>
+            
+                        
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>291</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>87</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>106</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>13</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    QAQ
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Beihang University" data-placement="top" title="Beihang University" src="/images/universities/buaa.edu.cn/56px?d3deabc086da2948a73ddcb420ed3096" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>646</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>250</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>63</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>193</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>14</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Kingbase_Yorozuya
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Renmin University of China" data-placement="top" title="Renmin University of China" src="/images/universities/ruc.edu.cn/56px?b9cebf90261284b3ace04593396accb2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>753</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>273</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>171</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>229</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            22<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>15</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    FZU-Microcarpa
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Fuzhou University" data-placement="top" title="Fuzhou University" src="/images/universities/fzu.edu.cn/56px?5a9dab480dc9e5fa2108d2e792f6c9d3" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>802</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>293</small>
+        </td>
+    
+                    
+                                                                            
+                                    
+            <td class="solvedfirst team_problem_cell"
+                            title="First team to solve this problem"
+            
+             >
+
+            1<br>
+            <small>50</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            5<br>
+            <small>279</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>16</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    SAJIHPTS
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Xi&#039;an Jiaotong University" data-placement="top" title="Xi&#039;an Jiaotong University" src="/images/universities/xjtu.edu.cn/56px?e994a9aa548dee9b159d4594a242ac01" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>892</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            5<br>
+            <small>151</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>247</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>294</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>17</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    HIT_NowIWinScore
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Harbin Institute of Technology" data-placement="top" title="Harbin Institute of Technology" src="/images/universities/hit.edu.cn/56px?d8f7c4b3c6d08e1a2c31828072254e6f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>905</td>
+            
+                        
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            7<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>245</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>185</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            8<br>
+            <small>275</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>18</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    HKUST_Novege
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hong Kong University of Science and Technology" data-placement="top" title="Hong Kong University of Science and Technology" src="/images/universities/ust.hk/56px?c733dd3b693c465c3de86563e2ffe54f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>256</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>130</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>86</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            5<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>19</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ACellent
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Chinese University of Hong Kong" data-placement="top" title="Chinese University of Hong Kong" src="/images/universities/cuhk.edu.hk/56px?0a5b43b81c0761e1fb66253c3a6a1118" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>304</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>149</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            7<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>95</small>
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>20</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    HKUST_Forgettable_Name
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hong Kong University of Science and Technology" data-placement="top" title="Hong Kong University of Science and Technology" src="/images/universities/ust.hk/56px?c733dd3b693c465c3de86563e2ffe54f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>348</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>212</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>136</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>21</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    wellgasa
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Xi&#039;an Jiaotong University" data-placement="top" title="Xi&#039;an Jiaotong University" src="/images/universities/xjtu.edu.cn/56px?e994a9aa548dee9b159d4594a242ac01" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>365</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>184</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>161</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>22</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Holland Moon
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Chinese University of Hong Kong" data-placement="top" title="Chinese University of Hong Kong" src="/images/universities/cuhk.edu.hk/56px?0a5b43b81c0761e1fb66253c3a6a1118" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>369</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>252</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>57</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            5<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>23</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ACman Go!
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Hong Kong" data-placement="top" title="University of Hong Kong" src="/images/universities/hku.hk/56px?496318c4d0959cbf095549be3b0bf9a2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>404</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>151</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>193</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>24</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    TeamDouBi
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Xidian University" data-placement="top" title="Xidian University" src="/images/universities/xidian.edu.cn/56px?9cd3c6681a012a82a6f7ecce405eea55" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>419</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>249</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>130</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    AI
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Nanjing University of Science and Technology" data-placement="top" title="Nanjing University of Science and Technology" src="/images/universities/njust.edu.cn/56px?07ffe2e0e71682fccaeb9aac36f03169" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>434</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>125</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            5<br>
+            <small>209</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>26</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Journalist
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Science and Technology of China" data-placement="top" title="University of Science and Technology of China" src="/images/universities/ustc.edu.cn/56px?6a26cb8b8fd8fe689c715e7ac9a106ba" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>451</td>
+            
+                        
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>205</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>186</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>27</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Lovely Luna
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Science and Technology of China" data-placement="top" title="University of Science and Technology of China" src="/images/universities/ustc.edu.cn/56px?6a26cb8b8fd8fe689c715e7ac9a106ba" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>470</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>290</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>60</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            13<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>28</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ThinkGod
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Beijing University of Posts and Telecommunications" data-placement="top" title="Beijing University of Posts and Telecommunications" src="/images/universities/bupt.edu.cn/56px?8ac8c1f5f4f0b51763ad4d41b564104e" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>560</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>295</small>
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>185</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>29</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    The South China Sea
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Beihang University" data-placement="top" title="Beihang University" src="/images/universities/buaa.edu.cn/56px?d3deabc086da2948a73ddcb420ed3096" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>572</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            3<br>
+            <small>204</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>228</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>30</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    water_team
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hong Kong Polytechnic University" data-placement="top" title="Hong Kong Polytechnic University" src="/images/universities/polyu.edu.hk/56px?bbed4898bb18facda032389af2bcce3d" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'> 87</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>87</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>31</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    nupt2016team16
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Nanjing University of Posts and Telecommunications" data-placement="top" title="Nanjing University of Posts and Telecommunications" src="/images/universities/njupt.edu.cn/56px?41bc79330f74e41d1616b9ab8e55728b" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>100</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            6<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>100</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>32</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    feast_team
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hong Kong Polytechnic University" data-placement="top" title="Hong Kong Polytechnic University" src="/images/universities/polyu.edu.hk/56px?bbed4898bb18facda032389af2bcce3d" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>111</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>111</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>33</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Blacksmith
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="South China University of Technology" data-placement="top" title="South China University of Technology" src="/images/universities/scut.edu.cn/56px?7c3d28ba858052040b8dfba28b17469a" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>118</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>118</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>34</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    WeAreATeam
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="South China University of Technology" data-placement="top" title="South China University of Technology" src="/images/universities/scut.edu.cn/56px?7c3d28ba858052040b8dfba28b17469a" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>184</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            6<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>184</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>35</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ZCMU-HK
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Zhejiang Chinese Medical University" data-placement="top" title="Zhejiang Chinese Medical University" src="/images/universities/zjtcmiec.net/56px?e56d59d9b339707b99c3b295b01399ac" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>190</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>170</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>36</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    CQU_HongKong1
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Chongqing University" data-placement="top" title="Chongqing University" src="/images/universities/cqu.edu.cn/56px?7b0cc02f464788f3c6959d81cc2fcb8f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>206</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>146</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>37</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    hust_tripler
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Huazhong University of Science and Technology" data-placement="top" title="Huazhong University of Science and Technology" src="/images/universities/hust.edu.cn/56px?1825d656a3113f95a73a1ff1f35361c6" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>210</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>190</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>38</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Newbie
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="City University of Hong Kong" data-placement="top" title="City University of Hong Kong" src="/images/universities/cityu.edu.hk/56px?e612a58aa955d54d0d0f249b8f6535f7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>228</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            1<br>
+            <small>228</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>39</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Call Stack
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hangzhou Normal University" data-placement="top" title="Hangzhou Normal University" src="/images/universities/hznu.edu.cn/56px?2ff2922fed54c1babe177b3ba046b931" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>248</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            4<br>
+            <small>188</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>40</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    CQU_HongKong2
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Chongqing University" data-placement="top" title="Chongqing University" src="/images/universities/cqu.edu.cn/56px?7b0cc02f464788f3c6959d81cc2fcb8f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>307</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            2<br>
+            <small>287</small>
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            10<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>41</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Sandyshy
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Shanghai University" data-placement="top" title="Shanghai University" src="/images/universities/shu.edu.cn/56px?11bbb8538ff50e940dd4fa5d3fa7700a" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>365</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            7<br>
+            <small>245</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            5<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>42</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    CUGB1
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="China University of Geosciences" data-placement="top" title="China University of Geosciences" src="/images/universities/cugb.edu.cn/56px?603e38056c205c5d7e8c74121ee3b1bf" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>382</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>282</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>43</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    !@#$%^&amp;
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Nottingham Ningbo China" data-placement="top" title="University of Nottingham Ningbo China" src="/images/universities/nottingham.edu.cn/56px?f8d6f4f5391b8acc3783ff17d3e9d0ef" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>396</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>296</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>44</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    yahooooooooo
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="City University of Hong Kong" data-placement="top" title="City University of Hong Kong" src="/images/universities/cityu.edu.hk/56px?e612a58aa955d54d0d0f249b8f6535f7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>399</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                                                            
+                                    
+            <td class="solved team_problem_cell"
+            
+             >
+
+            6<br>
+            <small>299</small>
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ACmore_Army
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Shanghai Second Polytechnic University" data-placement="top" title="Shanghai Second Polytechnic University" src="/images/universities/sspu.edu.cn/56px?14aa6d5db6e1b0ae8daede367fc4a960" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            8<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Boomja!!!!!
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Open University of Hong Kong" data-placement="top" title="Open University of Hong Kong" src="/images/universities/ouhk.edu.hk/56px?4fcd81b944acc1380de5ad8063819277" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Control-Command-Power
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Macau" data-placement="top" title="University of Macau" src="/images/universities/umac.mo/56px?a98bc3e8e28074caa53e734159398e4a" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Ctrl+Alt+Del
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Macau" data-placement="top" title="University of Macau" src="/images/universities/umac.mo/56px?a98bc3e8e28074caa53e734159398e4a" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Dragonboat
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Macau University of Science and Technology" data-placement="top" title="Macau University of Science and Technology" src="/images/universities/must.edu.mo/56px?70172588332fc88bfd1187a1f86b9970" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            11<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    EnVy Us
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Sree Vidyanikethan Engineering College" data-placement="top" title="Sree Vidyanikethan Engineering College" src="/images/universities/vidyanikethan.edu/56px?dc5c97f15ee7580ebda800d5fb90e29f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    GDUFE_Vegetablesnevermakevoice
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Guangdong University of Finances &amp; Economics" data-placement="top" title="Guangdong University of Finances &amp; Economics" src="/images/universities/gdufe.edu.cn/56px?c1eba1d89db9d6c715bb3050248fe8f0" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            2<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            5<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    HHH@USC
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of South China" data-placement="top" title="University of South China" src="/images/universities/usc.edu.cn/56px?862c896f07a3c2e79cc6ccf70afed468" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            14<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            5<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            1<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    HTT
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Fujian Agriculture and Forestry University" data-placement="top" title="Fujian Agriculture and Forestry University" src="/images/universities/fafu.edu.cn/56px?4b8e8946ce856696062845f96a5387d7" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Lan
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Xinhua College of Sun Yat-sen University" data-placement="top" title="Xinhua College of Sun Yat-sen University" src="/images/universities/sysu.edu.cn/56px?cfc893eaee65da91c1790362853dcb66" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Lucky Stars
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Huazhong Agricultural University" data-placement="top" title="Huazhong Agricultural University" src="/images/universities/hzau.edu.cn/56px?7258de2b5bae58d37a21bbb9c6cbd388" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            6<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    New Game
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Dalian University of Technology" data-placement="top" title="Dalian University of Technology" src="/images/universities/dlut.edu.cn/56px?210a8307b329c8c06ffe23af698ced5f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    Salt Fish
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Huazhong Agricultural University" data-placement="top" title="Huazhong Agricultural University" src="/images/universities/hzau.edu.cn/56px?7258de2b5bae58d37a21bbb9c6cbd388" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    SYSU_GrowingStrong
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Sun Yat-sen University" data-placement="top" title="Sun Yat-sen University" src="/images/universities/sysu.edu.cn/56px?cfc893eaee65da91c1790362853dcb66" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            3<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            4<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                                                    
+                                        
+                                        
+                                <tr>
+    
+            <td class='rank table-min-wrap'>45</td>
+    
+            
+        
+        <td title="Asia Hong Kong Onsite Regional Contest">
+    
+            <div>
+                    ZCMU-HK2
+        
+                </div>
+        </td>
+    
+    
+                        
+            <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Zhejiang Chinese Medical University" data-placement="top" title="Zhejiang Chinese Medical University" src="/images/universities/zjtcmiec.net/56px?e56d59d9b339707b99c3b295b01399ac" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                                                                    
+            <td class="attempted team_problem_cell"
+            
+             >
+
+            7<br>
+            --
+        </td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+                    
+                        
+            <td></td>
+    
+            
+    
+    </tr>
+
+
+                                                
+            
+                    <tr>
+                                <td colspan="5"></td>
+        
+                    <th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Colourful Graph" href="/problems/colourful">A</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Doors" href="/problems/doors">B</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Playing with Numbers" href="/problems/playingwithnumbers">C</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Peak Tram" href="/problems/peaktram">D</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Peak Tower" href="/problems/peaktower">E</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Perfect k-ary Tree" href="/problems/perfecttree">F</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Scaffolding" href="/problems/scaffolding">G</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Slim Cut" href="/problems/slimcut">H</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Special Tour" href="/problems/specialtour">I</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Taboo" href="/problems/taboo">J</a> </th><th class="problemcolheader-standings"style="width: 62.090909090909px"> <a data-toggle="tooltip" title="Team Up" href="/problems/teamup">K</a> </th>
+        
+                                            </tr>
+    
+
+                                        <tr title="number of teams that solved problem / number of attempts (successful and failed)">
+            <td colspan="5">Solved / Tries</td>
+
+                                                <td class='stats'><span><sup>5</sup>/<sub>18</sub><br>(28%)</span></td>
+                                    <td class='stats'><span><sup>35</sup>/<sub>152</sub><br>(23%)</span></td>
+                                    <td class='stats'><span><sup>36</sup>/<sub>164</sub><br>(22%)</span></td>
+                                    <td class='stats'><span><sup>4</sup>/<sub>22</sub><br>(18%)</span></td>
+                                    <td class='stats'><span><sup>1</sup>/<sub>3</sub><br>(33%)</span></td>
+                                    <td class='stats'><span><sup>1</sup>/<sub>6</sub><br>(17%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>0</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>1</sup>/<sub>4</sub><br>(25%)</span></td>
+                                    <td class='stats'><span><sup>1</sup>/<sub>19</sub><br>(5%)</span></td>
+                                    <td class='stats'><span><sup>11</sup>/<sub>86</sub><br>(13%)</span></td>
+                                    <td class='stats'><span><sup>14</sup>/<sub>68</sub><br>(21%)</span></td>
+                            
+                    </tr>
+            <tr title="number of attempts / teams attempting problem">
+            <td colspan="5">Average tries</td>
+
+                                                <td class='stats'>2.25</td>
+                                    <td class='stats'>3.38</td>
+                                    <td class='stats'>3.04</td>
+                                    <td class='stats'>2.75</td>
+                                    <td class='stats'>3.00</td>
+                                    <td class='stats'>1.50</td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>4.00</td>
+                                    <td class='stats'>2.38</td>
+                                    <td class='stats'>3.07</td>
+                                    <td class='stats'>3.09</td>
+                            
+                    </tr>
+            <tr title="number of attempts needed to solve problem / number of teams solving problem">
+            <td colspan="5">Average tries to solve</td>
+
+                                                <td class='stats'><span class="no-pad">1.40</span></td>
+                                    <td class='stats'><span class="no-pad">3.00</span></td>
+                                    <td class='stats'><span class="no-pad">2.28</span></td>
+                                    <td class='stats'><span class="no-pad">2.75</span></td>
+                                    <td class='stats'><span class="no-pad">3.00</span></td>
+                                    <td class='stats'><span class="no-pad">2.00</span></td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'><span class="no-pad">4.00</span></td>
+                                    <td class='stats'><span class="no-pad">1.00</span></td>
+                                    <td class='stats'><span class="no-pad">2.73</span></td>
+                                    <td class='stats'><span class="no-pad">1.93</span></td>
+                            
+                    </tr>
+    
+            
+        </table>
+
+        
+
+    </section>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        if (window.updateContestHeader) {
+                            window.updateContestHeader(true, 24872548, 18000, new Date());
+                    }
+
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+            var interval = 60;
+
+            var update_standings = function () {
+                var url = '/standings?ajax=1';
+                $.get(url, {
+                    'cache': false
+                }).fail(function () {
+                }).success(function (data) {
+                    $('#standings_wrapper').html(data);
+                }).always(function () {
+                    setTimeout(update_standings, interval * 1000);
+                });
+            };
+
+            setTimeout(update_standings, interval * 1000);
+        });
+    </script>
+
+
+
+</div>
+
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-info col-md-3 ">
+                
+                            </div>
+            <div class="footer-powered col-md-6">
+                <h4>
+                                    Powered by&nbsp;Kattis                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+<script src="/js/system.js?239669" type="text/javascript"></script>
+
+
+
+    <script>peekin = {api_key: "f894d40e034f5ceff742"};</script><script src="//cdn.peekin.io/peekin.js" async></script>
+
+</body>
+</html>

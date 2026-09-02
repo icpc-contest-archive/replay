@@ -1,0 +1,610 @@
+
+
+
+
+<!--
+  REQUIRES: SSI variable year
+-->
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://socalcontest.org/current/index.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<title>SoCal Region ICPC</title>
+<!--
+
+  The style sheet reference is absolute.  For testing in a new subdirectory,
+  alter header.shtml and refer to a different absolute or relative .css path.
+  Remember to change it back after testing!
+
+  -->
+<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
+<link rel="shortcut icon" href="/images/icpc-foundation-2018-favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/current/index.shtml">http://socalcontest.org/current/index.shtml</a> (content as captured 2023-12-06 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2023.html">socal-2023</a>)  <a href="https://web.archive.org/web/20231206210124/http://socalcontest.org/current/index.shtml">wayback</a></div>
+
+
+<div id="header">
+<table border="0" width="100%" style="background-color: #fafafa;"/>
+<tr>
+  <td align=left>&nbsp;</td>
+  <td align=center nowrap width="10%"><font size="-1" color=#fdba31>
+    Updated
+    <script>
+    var token="$Id: index.shtml 251 2023-10-31 04:12:23Z edsko $".split(" ")
+    document.write(token[3] + " " + token[4])
+    </script>
+    </font></td>
+</tr>
+</table>
+</div>
+<div id="banner">
+  <!--<div id="main_masthead">-->
+    <img src="/images/mast2023.png" width="800" alt="ICPC Banner" border="0" usemap="#Map" style="background-color: #fafafa;"/>
+    <map name="Map">
+<!-- ICPC links -->
+      <area shape="rect" coords="117,0,225,63" href="https://icpc.global/" target="_blank">
+      <area shape="rect" coords="155,64,225,80" href="http://icpc.foundation/" target="_blank">
+      <area shape="rect" coords="259,85,538,110" href="http://socalcontest.org/">
+<!-- ICPC sponsor links -->
+      <area shape="rect" coords="552, 9,607,72" href="https://www.jetbrains.com/" target="_blank">
+      <area shape="rect" coords="620, 9,673,72" href="https://upe.acm.org/" target="_blank">
+<!--
+      <area shape="rect" coords="617, 9,676,72" href="https://www.twosigma.com/" target="_blank">
+      <area shape="rect" coords="686, 9,741,72" href="https://aws.amazon.com/education/awseducate/" target="_blank">
+-->
+    
+<!-- SoCal sponsor links -->
+  <!-- RCC to the left, TGS, IC2NET to the right -->
+<!--
+      <area shape="rect" coords="135,82,208,115" href="https://rcc.edu/" target="_blank">
+      <area shape="rect" coords="585,82,642,115" href="https://tgsmc.com/" target="_blank">
+      <area shape="rect" coords="710,107,790,138" href="http://ic2net.net/" target="_blank">
+-->
+  <!-- RCC, TGS, IC2NET to the right -->
+      <area shape="rect" coords="558,82,631,115" href="https://rcc.edu/" target="_blank">
+      <area shape="rect" coords="645,82,698,115" href="https://tgsmc.com/" target="_blank">
+      <area shape="rect" coords="712,82,799,115" href="http://ic2net.net/" target="_blank">
+    </map>
+  <!--</div>-->
+<!--
+  <div id="masthead_overlay">
+    <img src="/images/Live-Important-Updates.gif" width="80" alt="Chalkboard Image" usemap="#UpdateMap" />
+    <map name="UpdateMap">
+      <area shape="rect" coords="5,5,75,75" href="http://socalcontest.org/current/importantupdates.shtml" target="_blank">
+    </map>
+  </div>
+-->
+</div>
+
+<div id="headline">
+<br>
+<h2>
+	2023/2024 Contest: 28-Oct-2023<br> In-person, onsite at Riverside City College</h2>
+<b>Registration is CLOSED!  Payment via invoice.</b>
+</div>
+
+<div id="majorlinks">
+<center>
+<h3>
+	Unattended Rehearsal Contest 15-Oct through 26-Oct<br>
+	<a href="https://rehearsal.socalcontest.org/domjudge/">https://rehearsal.socalcontest.org/domjudge</a><br>
+</h3>
+	Note: The VM appliance username and password is different than the domjudge username and password.
+<!-- high priority links
+-->
+<p></p>
+<!--  IMPORTANT UPDATES
+Click Below<br>
+<a href="http://socalcontest.org/current/importantupdates.shtml" target="_new"><img src="/images/Live-Important-Updates.gif" height="128"></a>
+<p></p>
+-->
+  <table border="0" cellpadding="3" cellspacing="0">
+	<tbody>
+<!--
+		<tr>
+			<td></td>
+			<td><b><em>Want copies of your source code?</em></b> Send an email to <b>systems@socalcontest.org</b>.<br>
+			Subject "Code request".  In the email body, please include your
+			<ul>
+				<li>college name,
+				<li>team name, and
+				<li>NNN from your icpcNNN username.</b></td>
+			</ul>
+		</tr>
+-->
+		<tr>
+			<td></td>
+			<td><hr></td>
+		</tr>
+<!--
+		<tr>
+			<td></td>
+			<td><b><em>PRIOR TO ARRIVAL</em> Each participant needs to download, print, and <em>sign</em> the Site Waiver and Photography Release Form.</b></td>
+		</tr>
+		<tr>
+			<td><a href="http://socalcontest.org/current/2023_2024/Photography Release Form.pdf"><img src="/images/PDF_file_icon.svg_32px.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Photography Release Form.pdf"><em><b>Download Photograph Release Form.pdf</b>: Print and sign.</em></a></td>
+		</tr>
+-->
+		<tr>
+			<td><a href="http://www.rcc.edu/assets/documents/life-at-rcc/asrcc/forms/Photo%20Release%20Form.pdf"><img src="/images/PDF_file_icon.svg_32px.png" align="right" width="30"></a></td>
+			<td><a href="http://www.rcc.edu/assets/documents/life-at-rcc/asrcc/forms/Photo%20Release%20Form.pdf"><em><b>Download Photograph Release Form.pdf</b>: Print and sign.</em></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://socalcontest.org/current/2023_2024/2023-24 Site Waiver.pdf"><img src="/images/PDF_file_icon.svg_32px.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/2023-24 Site Waiver.pdf"><em><b>Download 2023-24 Site Waiver.pdf</b>: Print and sign.</em></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://socalcontest.org/current/2023_2024/Parking - RCC.pdf"><img src="/images/PDF_file_icon.svg_32px.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Parking - RCC.pdf"><em><b>Download Parking.pdf</b>: Print and place on your vehicle's dashboard.</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center" ><a href="https://icpc.global/regionals/finder/Southern-California" target="_new"><img src="images/icpc_logo_graphic_only.png" height="35" align="right"/></a></td>
+			<td><a href="https://icpc.global/regionals/finder/Southern-California" target="_new">ICPC Registration System at the ICPC Site.<br />
+			This is where a coach registers teams for the competition.</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><em><b>Payment:</b> $140.00 per team, invoiced via ICPC QuickBooks.</em><br>
+			    <em><b>Limits:</b> We guarantee up to three team slots per institution.</em>
+			    Additional slots will be allocated round-robin fashion to teams whose registration information is complete and fees are paid.
+			    After registration closes, all fourth team requests will be filled, followed by fifth, etc. until all available slots are filled.
+			</td>
+		</tr>
+<!--  T-SHIRTS if independent of registration
+		<tr>
+			<td valign="center"><a href="https://stores.wpromo.net/icpcglobal/shop/product-detail/1000664" target="_new"><img src="images/tshirt-white.png" height="35" align="right"/></a></td>
+			<td><a href="https://stores.wpromo.net/icpcglobal/shop/product-detail/1000664" target="_new">Participation is <b>free!</b>  Optional t-shirts are $14.99 each; purchase by 07-Feb to arrive before the contest.</a></td>
+		</tr>
+-->
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin1.pdf" target="_new"><img src="/images/icons8-Circled 1 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin1.pdf" target="_new"><em>Bulletin 1: Welcome</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin2.pdf" target="_new"><img src="/images/icons8-Circled 2 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin2.pdf" target="_new"><em>Bulletin 2: Online Rehearsal, Food</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin3.pdf" target="_new"><img src="/images/icons8-Circled 3 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin3.pdf" target="_new"><em>Bulletin 3: Schedule for the Contest, Lunch Process</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin4.pdf" target="_new"><img src="/images/icons8-Circled 4 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin4.pdf" target="_new"><em>Bulletin 4, Last Minute Reminders and Information</em></a></td>
+		</tr>
+<!--  BULLETINS
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin5.pdf" target="_new"><img src="/images/icons8-Circled 5 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin5.pdf" target="_new"><em>Bulletin 5, 21-Feb-2022: Schedule for the Contest</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="http://socalcontest.org/current/2023_2024/Bulletin6.pdf" target="_new"><img src="/images/icons8-Circled 6 C-26.png" align="right"/></a></td>
+			<td><a href="http://socalcontest.org/current/2023_2024/Bulletin6.pdf" target="_new"><em>Bulletin 6, 25-Feb-2021: Last Minute Reminders and Information</em></a></td>
+		</tr>
+-->
+<!--  APPLIANCE
+-->
+		<tr>
+			<td valign="top"><a href="http://socalcontest.org/f38-icpc-socal.ova"><img src="/images/Fedora_icon_32x31_72dpi.png" align="right" width="25"></a></td>
+			<td><a href="http://socalcontest.org/f38-icpc-socal.ova"><em>Download <b>f38-icpc-socal.ova</b>: VirtualBox Fedora 38 Rehearsal Appliance (7.4 GB), as of 08Oct2023</em></a><br>
+			To use, install <a href="https://www.virtualbox.org">VirtualBox 7.0 or later</a>, run VirtualBox Manager, File/Import Appliance...<br>
+			Password to user icpcuser='icpcpw' (without quotes).<br>
+			Sluggish performance? Increase settings to at least 4 GB RAM and 2 virtual CPUs.
+		</td>
+		</tr>
+<!--  WARMUP PACKET
+-->
+		<tr>
+			<td><a href="http://socalcontest.org/SoCalICPC-Rehearsal-2023-2024.pdf"><img src="/images/PDF_file_icon.svg_32px.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/SoCalICPC-Rehearsal-2023-2024.pdf"><em>Download <b>SoCalICPC-Rehearsal-2023-2024.pdf</b>: Rehearsal Packet, as of 11Oct2023</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="rules.shtml" target="_new"><img src="/images/icpc-foundation-2018-favicon.png" height="29"  align="right"/></a></td>
+			<td><a href="rules.shtml" target="_new">Rules</a></td>
+		</tr>
+<!--  ONLINE rules
+		<tr>
+			<td valign="center"><a href="onlinerules.shtml#OnlineRules" target="_new"><img src="/images/icpc-foundation-2018-favicon.png" height="29"  align="right"/></a></td>
+			<td><a href="onlinerules.shtml#OnlineRules" target="_new"><em>ONLINE Rules</em></a></td>
+		</tr>
+-->
+<!--
+		<tr>
+			<td valign="center"><a href="https://www.icpc.org/icpc-north-america-practice-contest" target="_new"><img src="/images/icpc-foundation-2018-favicon.png" height="29" align="right"/></a></td>
+			<td><a href="https://www.icpc.org/icpc-north-america-practice-contest" target="_new">North America Practice Contests, 12-Dec-2020 through 21-Feb-2021.</a></td>
+		</tr>
+-->
+<!--  PAYMENT
+		<tr>
+			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="images/pp_cc_mark_37x23.jpg" height="35" align="right"/></a></td>
+			<td><a href="payment.shtml" target="_new">Send an electronic payment for the <!- -#echo var='year' - -> Registration Fees, $128.00 per team.</a></td>
+		</tr>
+-->
+<!--
+		<tr>
+			<td valign="center"><a href="https://icpc.global/regionals/finder/Southern-California-2021/teams" target="_new"><img src="images/icpc_logo_graphic_only.png" height="35" align="right"/></a></td>
+			<td><a href="https://icpc.global/regionals/finder/Southern-California-2021/teams" target="_new">Regional Contest Information at the ICPC Site.<br />
+			See this page for the current list of registered teams.</a></td>
+		</tr>
+-->
+		<tr>
+			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="images/FB-f-Logo__blue_29.png" align="right" /></a></td>
+			<td><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new">Find us on Facebook.  Topical discussions and announcements for the SoCal regional contest.</a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="images/Wikipedia-W-bold-in-square.svg.png" align="right"/></a></td>
+			<td><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new">Wikipedia entry about the International Collegiate Programming Contest.<br />
+			History and interesting links.</a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="images/email-icon-vector.jpg" height="35" align="right"/></a></td>
+			<td><a href="contact.shtml" target="_new" />Contact Us.</a></td>
+		</tr>
+<!--
+		<tr>
+			<td valign="center"><a href="2020_2021/ICPC-North-America-Announcement_11Jan2021.pdf" target="_new"><img src="/images/icpc-foundation-2018-favicon.png" height="29"  align="right"/></a></td>
+			<td><a href="2020_2021/ICPC-North-America-Announcement_11Jan2021.pdf" target="_new">ICPC North America Announcement<em> updated 11-Jan-2021.</em></a></td>
+		</tr>
+		<tr>
+			<td valign="center"><a href="steering.shtml" target="_new"><img src="images/32px-Steering-wheel.png" height="35" align="right"/></a></td>
+			<td><a href="contact.shtml" target="_new" />Steering Committee</a></td>
+		</tr>
+-->
+	</tbody>
+</table>
+
+</center>
+</div>
+<br>
+
+<div id="hintlink">
+<center><br />
+<a href="https://icpc.global/regionals/finder" target="_new"><img src="images/small.bmp" /></a></center>
+</div>
+
+<div id="information">
+<!--  AFTER REMOVING THIS BEGINNING OF COMMENT, REPLACE "<- -" AND "- ->" WITH PROPER BEGIN, CLOSE OF COMMENTS
+-->
+<h3>2023/2024 Detailed Site Information</h3>
+
+<ul>
+
+	<li>Location:&nbsp;<a href="https://rcc.edu">Riverside City College</a>, <a href="https://www.rcc.edu/about/campus-map.html">Campus Map</a>.<br>Competition venue: see map Legend/Academic and Admin/Martin Luther King Jr. Teaching and Learning Center. </li>
+	<li><a href="rules.shtml">Rules</a>&nbsp;<font size="-1"><!-- #flastmod file='rules.shtml' --></font></li>
+	<li>Environment: Fedora 38 with DOMJudge contest environment</li>
+	<!-- <li><a href="onlineenvironment.shtml">Environment</a></li> -->
+	<li>Schedule for the Day: TBD<!--<a href="http://socalcontest.org/current/2021_2022/Bulletin5.pdf">Bulletin 5</a>--></li>
+<!--
+	<li><a href="guestpolicy.shtml">Guest Policy</a></li>
+	<li><a href="prize.shtml">Prizes</a> </li>
+-->
+  </ul>
+<h3>General Contest Information</h3>
+
+<ul>
+	<li><a href="expect.shtml">What to Expect at the Contest</a></li>
+	<li>Resources
+	  <ul>
+	    <li><a href="sample.shtml#PastProblems">Some Past Problems from the SoCal Region</a>
+	    <li><a href="sample.shtml#SampleSolution">A Solved Example</a>
+	    <li><a href="https://www.jetbrains.com/icpc/">JetBrains for ICPC</a>
+	  </ul>
+	</li>
+	<li><a href="helpus.shtml">How You Can Help</a> <!--<li><a href="volunteer.shtml">Volunteering as a Contest Site</a>--></li>
+	<li><a href="faq.shtml">Contest FAQ</a></li>
+</ul>
+<a name="HallOfChampions"></a>
+
+<h3><a name="HallOfChampions">Hall of Champions</a></h3>
+
+<table align="center" border="0" cellpadding="5" cellspacing="0">
+	<tbody>
+		<tr>
+			<th align="left" valign="top">Year</th>
+			<th align="center" colspan="5" valign="top">Available Information</th>
+		</tr>
+		<tr>
+			<td valign="top">2023-24</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2023/SCICPC-2023-2024-PreliminaryResults.html">Details</a></td>
+			<td valign="top"><a href="/history/2023/SCICPC-2023-2024-ProblemSet.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2022-23</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2022/SC2022-2023-PreliminaryResults.html">Details</a></td>
+			<td valign="top"><a href="/history/2022/SC2022-2023-ICPCProblemSet.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2021-22</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2021/SC2021-2022-FinalResults.html">Details</a></td>
+			<td valign="top"><a href="/history/2021/SC2021-2022-ICPCProblemSet.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2020-21</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2020/SC2020-2021-FinalResults.html">Details</a></td>
+			<td valign="top"><a href="/history/2020/SC2020-2021-ICPCProblemSet.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2019-20</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2019/2019SoCalScoreboard.html">Details</a></td>
+			<td valign="top"><a href="/history/2019/SoCal2019ProblemSet.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2018-19</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2018/Scoreboard-2018.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2018/SC2018ICPCProblems.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2017-18</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2017/details-2017.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2017/SC2017ICPCProblems.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2016-17</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2016/details-2016.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2016/SC2016ICPCProblems.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2015-16</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2015/details-2015.shtml">Details</a></td>
+			<td valign="top"><a href="../history/2015/problemset2015.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/photos_stream?tab=photos_albums" target="_blank">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2014-15</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2014/details-2014.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2014/socal2014.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2013-14</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2013/details-2013.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2013/socal2013.pdf">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2012-13</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2012/results-2012.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2012/details-2012.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2012/socal2012.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://picasaweb.google.com/lh/sredir?uname=104053136916994800021&amp;target=ALBUM&amp;id=5809735060920937985&amp;authkey=Gv1sRgCJeJtPKPlvqQhAE&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2011-12</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2011/results-2011.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2011/details-2011.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2011/socal2011.pdf">Problem Set</a></td>
+			<td valign="top"><a href="https://picasaweb.google.com/lh/sredir?uname=bobLogan68&amp;target=ALBUM&amp;id=5674656400524950321&amp;authkey=Gv1sRgCJHVo-np3rm2zAE&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2010-11</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2010/results-2010.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2010/details-2010.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2010/socal2010.pdf">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/lh/sredir?uname=bobLogan68&amp;target=ALBUM&amp;id=5541441492362997729&amp;authkey=Gv1sRgCPO9uba8hdShTg&amp;feat=email">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2009-10</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2009/results-2009.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2009/details-2009.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2009/socal2009.pdf">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMSoCalContest1172009?authkey=Gv1sRgCJOZ7Y2Dl-L6tQE&amp;feat=email#">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2008-09</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2008/results-2008.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2008/details-2008.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2008/2008.zip">Problem Set</a></td>
+			<td valign="top"><a href="http://picasaweb.google.com/bobLogan68/ACMContest20081115?authkey=znNHG63WhtA">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2007-08</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2007/results-2007.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2007/details-2007.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2007/2007.zip">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2006-07</td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2006/details-2006.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2006/2006.zip">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2005-06</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2005/results-2005.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2005/details-2005.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2005/2005.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2005/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2004-05</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2004/results-2004.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2004/details-2004.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2004/2004.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2004/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2003-04</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/2003/results-2003.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2003/details-2003.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2003/2003.zip">Problem Set</a></td>
+			<td valign="top"><a href="/history/2003/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2002-03</td>
+			<td valign="top"><a href="/history/2002/summary-2002.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2002/results-2002.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2002/details-2002.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2002/">Problem Set</a></td>
+			<td valign="top"><a href="/history/2002/pics/">Photos</a></td>
+		</tr>
+		<tr>
+			<td valign="top">2001-02</td>
+			<td valign="top"><a href="/history/2001/summary-2001.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2001/results-2001.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2001/details-2001.shtml">Details</a></td>
+			<td valign="top"><a href="/history/2001/">Problem Set</a></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">2000-01</td>
+			<td valign="top"><a href="/history/2000/summary-2000.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/2000/results-2000.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/2000/details-2000.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1999-2000</td>
+			<td valign="top"><a href="/history/1999/summary-1999.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1999/results-1999.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1998-99</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/1998/results-1998.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/1998/details-1998.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1997-98</td>
+			<td valign="top"><a href="/history/1997/summary-1997.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1997/results-1997.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1996-97</td>
+			<td valign="top"><a href="/history/1996/summary-1996.shtml">Summary</a></td>
+			<td valign="top"><a href="/history/1996/results-1996.shtml">Standings</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+		<tr>
+			<td valign="top">1995-96</td>
+			<td valign="top"></td>
+			<td valign="top"><a href="/history/1995/results-1995.shtml">Standings</a></td>
+			<td valign="top"><a href="/history/1995/details-1995.shtml">Details</a></td>
+			<td valign="top"></td>
+			<td valign="top"></td>
+		</tr>
+<!-- TODO
+-->
+	</tbody>
+</table>
+<!-- TODO
+<p><a href="local_acm.shtml"><strong>Local ACM Student Chapters</strong></a></p>
+-->
+
+<p></p>
+
+<p><b>CALL FOR VOLUNTEERS:</b> Our region needs individuals in Southern California to help develop upcoming contests. For more information, please send a message to <font face='Courier'>&#60;&#118;&#111;&#108;&#117;&#110;&#116;&#101;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+.</p>
+
+<!--
+<hr />
+<center><br />
+<a href="interactive.shtml"><font size="+2"><strong>Posing Interactive Contest Problems in the ICPC Scoring Model</strong></font></a><br />
+Ed Skochinski, Jefery Roberts, and Marc Furon<br />
+ACM ICPC Competitive Learning Symposium, April 2008<br />
+Banff, Alberta, Canada</center>
+</div>
+-->
+<div id="footer">
+<table style="border:0;width:100%;">
+<tr>
+  <td align=left width="1%">
+<script>
+var token="$Id: index.shtml 251 2023-10-31 04:12:23Z edsko $".split(" ")// javascript comments
+document.write("<font size='-2' color='silver'>" + token[2] + "</font>")
+</script></td>
+  <td align=left><hr style="color:silver"></td>
+  <td align=center nowrap width="10%"><font size="-1" color='silver'>Posted on Mon, 30-Oct-2023 21:12:33 MST
+
+</font></td>
+  <td align=right><hr style="color:silver"></td>
+  <td align=right width="1%"><font size="-2" color='silver'><!--
+Do not attempt to post this file as is to a web server.  This file, svnversion.shtml,
+is a placeholder for the following sequency of commands:
+
+  $ cp svnversion.shtml /tmp
+  $ svnversion >> /tmp/svnversion.shtml
+  # edit svnversion to retain only the appropriate HEAD value (global revision).
+  $ ftp $webhost
+  ftp> cd current
+  ftp> put /tmp/svnversion.shtml svnversion.shtml
+-->
+241M
+</font></td>
+</tr>
+</table>
+<table border="0" width="100%">
+<tr>
+  <td align=left><font size="-1" color='gray'>Copyright &#169; 1995-2023 Southern California Regional ICPC
+</font></td>
+  <td align=right><font size="-1" color='gray'><font face='Courier'>&#60;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#115;&#111;&#99;&#97;&#108;&#99;&#111;&#110;&#116;&#101;&#115;&#116;&#46;&#111;&#114;&#103;&#62;</font>
+</font></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+</body>
+</html>

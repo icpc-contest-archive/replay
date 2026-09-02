@@ -1,0 +1,89 @@
+
+
+h1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 150%;
+color:#009900;
+font-weight:bold;
+}
+
+h2
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 110%;
+color:#3399FF;
+font-weight:bold;
+}
+
+h3
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:black;
+font-size: 120%;
+}
+h4 
+{
+text-align: center;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:black;
+font-size: 80%;
+}
+h5
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 150%;
+color:05576D;
+}
+h6
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: black;
+font-weight:bold;
+font-size: 100%;
+}
+
+div, p, table, ul
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: black;
+font-size: 100%;
+}
+
+.big {line-height: 0.6cm}
+.center {text-align:center}
+.centerbold {text-align:center; font-size: 85%; font-weight:bold}
+.thick {font-weight:bold}
+.small {font-size: 90%;font-weight:bold}
+.smallgap {line-height: 0.1cm}
+.smallnormal {font-size: 75%}
+.right {text-align:right}
+.black  {color: black}
+.white {color: white}
+.blue {color: #13006a; font-weight:bold}
+.blue-centre {color: #13006a; font-weight:bold; text-align:center}
+.normal {font-size: 110%}
+.list {font-size: 100%}
+.italic {font: italic large Palatino; font-size: 100%; }
+.mainheader {font-family: Verdana, Arial, Helvetica, sans-serif; color: black;font-weight:bold;font-size: 110%}
+.designheader {font-size: 95%; font-weight:bold}
+.designheader2 {font-size: 120%; font-weight:bold}
+.greenbold{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;color:#009900;font-weight:bold;}
+.blueheader {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 120%;
+color:#3399FF;
+font-weight:bold;
+}
+
+
+a:link     {color:#3399FF; text-decoration:none; font-size: 100%}
+a:visited  {color: #3399FF; text-decoration:none; font-size: 100%}
+a:active   {color: #3399FF; text-decoration:none; font-size: 100%}
+a:hover    {color: blue; text-decoration:none; font-size: 100%}
+
+a.orange:link {color:#FF6600; text-decoration:none; font-size: 100%; font-weight:bold}
+a.orange:visited  {color: #FF6600; text-decoration:none; font-size: 100%; font-weight:bold}
+a.orange:active   {color: #FF6600; text-decoration:none; font-size: 100%; font-weight:bold}
+a.orange:hover    {color: blue; text-decoration:none; font-size: 100%; font-weight:bold}
+

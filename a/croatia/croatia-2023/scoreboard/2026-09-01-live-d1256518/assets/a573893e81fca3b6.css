@@ -1,0 +1,96 @@
+
+body
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  line-height: 140%;
+  color: #000066;
+  background-color: #EEEEEE;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: #0000CC;
+  background-color: inherit;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: #0000CC;
+  background-color: inherit;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #6666CC;
+  background-color: inherit;
+}
+
+a:active
+{
+  text-decoration: none;
+  color: #0000CC;
+  background-color: inherit;
+}
+
+table
+{
+  border-collapse: collapse;
+  border-style: none;
+  border-width: 1px;
+  border-color: #000066;
+}
+
+td
+{
+  border-style: none;
+  border-width: 1px;
+  border-color: #000066;
+}
+
+.naslov
+{
+  font-weight: bold;
+  color: #000099;
+  background-color: inherit;
+}
+
+.desni_rub
+{
+  border-right-style: dashed;
+  border-right-width: thin;
+}
+
+.rezultati td
+{
+  text-align: center;
+  line-height: 100%;
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tablica_hplhoni
+{
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+#display td
+{
+  border-style: solid;
+  border-width: 1px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
