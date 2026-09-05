@@ -2557,19 +2557,19 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
         <h3>Inaugural ceremony</h3>
         <div class="gallery">
           <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/inaugural/pic001.jpg" alt="Participants arriving at the ICPC Kanpur venue" loading="lazy"></button><figcaption>Welcome to ICPC Kanpur</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/inaugural/pic007.jpg" alt="Participants seated in the inaugural auditorium" loading="lazy"></button><figcaption>A full house</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/inaugural/pic011.jpg" alt="Ceremonial lamp lighting at the inauguration" loading="lazy"></button><figcaption>Opening ceremony</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/inaugural/pic045.jpg" alt="A contestant receiving recognition on stage" loading="lazy"></button><figcaption>Celebrating achievement</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/d49aca4a8b4e1394.jpg" alt="Participants seated in the inaugural auditorium" loading="lazy"></button><figcaption>A full house</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/a183946f86beac1f.jpg" alt="Ceremonial lamp lighting at the inauguration" loading="lazy"></button><figcaption>Opening ceremony</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/6371c441696efa9a.jpg" alt="A contestant receiving recognition on stage" loading="lazy"></button><figcaption>Celebrating achievement</figcaption></figure>
         </div>
       </div>
 
       <div class="gallery-group">
         <h3>Contest dinner</h3>
         <div class="gallery">
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/contest_dinner/pic006.jpg" alt="Illuminated entrance to the contest dinner" loading="lazy"></button><figcaption>An evening together</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/contest_dinner/pic015.jpg" alt="Cultural programme during the contest dinner" loading="lazy"></button><figcaption>Cultural evening</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/contest_dinner/pic030.jpg" alt="Participants enjoying the evening programme" loading="lazy"></button><figcaption>The ICPC community</figcaption></figure>
-          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/images/contest_dinner/pic058.jpg" alt="Contestants posing together at the event" loading="lazy"></button><figcaption>Memories with teammates</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/c133c8491f71ae02.jpg" alt="Illuminated entrance to the contest dinner" loading="lazy"></button><figcaption>An evening together</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/94e93196b27b6d5d.jpg" alt="Cultural programme during the contest dinner" loading="lazy"></button><figcaption>Cultural evening</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/5e772490c306382c.jpg" alt="Participants enjoying the evening programme" loading="lazy"></button><figcaption>The ICPC community</figcaption></figure>
+          <figure><button class="gallery-zoom" type="button" aria-haspopup="dialog" aria-controls="gallery-lightbox" aria-expanded="false"><img src="assets/717ea395609d8d98.jpg" alt="Contestants posing together at the event" loading="lazy"></button><figcaption>Memories with teammates</figcaption></figure>
         </div>
       </div>
     </div>
@@ -2588,18 +2588,18 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
         <p class="intro">Global sponsors supporting the ICPC community.</p>
         <div class="partners" style="grid-template-columns:repeat(2,1fr)">
           <a class="partner" href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/jetbrains.png" alt="JetBrains">
+            <img src="assets/4f48fbdb7e63ba5c.png" alt="JetBrains">
             <small>ICPC Global Programming Tools Sponsor</small>
           </a>
           <a class="partner" href="https://www.janestreet.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/jane-street.png" alt="Jane Street">
+            <img src="assets/cab0d931fe183361.png" alt="Jane Street">
             <small>ICPC Titanium Multi-Regional Sponsor</small>
           </a>
         </div>
         <div class="community">
           <h3>Community Partner</h3>
           <a class="community-link" href="https://www.codechef.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/cc-logo.svg" alt="CodeChef">
+            <img src="assets/bad608fd2756789f.svg" alt="CodeChef">
              <small>Programming community partner</small>
           </a>
         </div>

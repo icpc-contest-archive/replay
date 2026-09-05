@@ -1,0 +1,83 @@
+html{
+  background-image:   url('Background.jpg');
+  background-position: 0% 0%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+body{
+  width:            1000px;
+  margin-top:       10px;
+  margin-bottom:    0px;
+  margin-left:      auto;
+  margin-right:     auto;
+  font-size:        14pt;
+}
+
+.fancytitle{
+  opacity: 1.0;
+  color:            black;
+  font-family:      "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size:        60pt;
+  text-align:       center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  height: 75px;
+  vertical-align: center;
+  background: #E0E0E0;
+  border-bottom: 1px solid transparent;
+  border-top:1px solid transparent;
+  padding:8px;
+}
+
+tr:hover td{
+  background: #C6DEFF;
+}
+
+table, td, th{
+  padding: 2px;
+}
+
+th{
+  background-color:#707070;
+  color:#000000;
+}
+
+.transbox {
+  width:100%;
+  margin:10px 20px;
+  background-color: #C0C0C0;
+  border:1px solid black;
+  opacity:0.85;
+  filter:alpha(opacity=85); /* For IE8 and earlier */
+  min-height:600px;
+}
+
+.d90 {
+  width: 90%;
+  align: center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:justify;
+}
+
+.d90l {
+  width: 90%;
+  align: left;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+
+.d80 {
+  width: 80%;
+  align: center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:justify;
+}

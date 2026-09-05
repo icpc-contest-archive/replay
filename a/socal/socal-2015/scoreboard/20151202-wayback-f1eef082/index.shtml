@@ -29,7 +29,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
+<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
 <script>
 function notyet()
 {
@@ -60,7 +60,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 </table>
 </div>
 <div id="banner">
-<img src="/images/mast2015.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
+<img src="assets/082e9f2253ecaa06.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="33,5,507,93" href="http://socalcontest.org">
   <area shape="rect" coords="536,7,721,46" href="http://ibm.com/start" target="_blank">
@@ -79,34 +79,34 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 <table border="0" cellpadding="3" cellspacing="0">
 	<tbody>
 		<tr>
-			<td valign="center" width="100"><a href="orientation.shtml" target="_new"><img src="images/film_icon.png" /></a></td>
+			<td valign="center" width="100"><a href="orientation.shtml" target="_new"><img src="assets/f7a764fa33943ba7.png" /></a></td>
 			<td><a href="orientation.shtml" target="_new">ORIENTATION MATERIALS</a></td>
 		</tr>
 		<tr>
-			<td valign="center" width="100"><a href="http://icpc.baylor.edu" target="_new"><img src="images/ICPCLogo_button_100by35.png" /></a></td>
+			<td valign="center" width="100"><a href="http://icpc.baylor.edu" target="_new"><img src="assets/a20dfd45e6c80a02.png" /></a></td>
 			<td>ICPC Registration System at the ACM ICPC Site.<br />
 			This is where a coach registers teams for the competition.</td>
 		</tr>
 		<tr>
-			<td valign="center"><!--<a href="javascript:expired()">--><!--<a href="javascript:notyet()">--><!--<a target=_new href="payment.shtml">--><!--<a href="javascript:notyet()"><img src="images/paypal_button_reversed_100by35.png"></a>--><a href="payment.shtml" target="_new"><img src="images/paypal_button_reversed_100by35.png" /></a></td>
+			<td valign="center"><!--<a href="javascript:expired()">--><!--<a href="javascript:notyet()">--><!--<a target=_new href="payment.shtml">--><!--<a href="javascript:notyet()"><img src="assets/249200042712d6e3.png"></a>--><a href="payment.shtml" target="_new"><img src="assets/249200042712d6e3.png" /></a></td>
 			<td>Send an electronic payment for the 2015 Registration Fees, $108.00 per team.</td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://icpc.baylor.edu/regionals/finder/southern-california-2015" target="_new"><img src="images/ICPCLogo_button_100by35.png" /></a></td>
+			<td valign="center"><a href="http://icpc.baylor.edu/regionals/finder/southern-california-2015" target="_new"><img src="assets/a20dfd45e6c80a02.png" /></a></td>
 			<td>Regional Contest Information at the ACM ICPC Site.<br />
 			See this page for the current list of registered teams.</td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://www.facebook.com/home.php?#!/pages/Southern-California-ACM-International-Collegiate-Programming-Contest/112453688794162" target="_new"><img src="images/facebook_button_reversed_100by35.png" /></a></td>
+			<td valign="center"><a href="http://www.facebook.com/home.php?#!/pages/Southern-California-ACM-International-Collegiate-Programming-Contest/112453688794162" target="_new"><img src="assets/fc0552d63b0f4ddb.png" /></a></td>
 			<td>Topical discussions and announcements.</td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="images/wikipedia_button_reversed_100by35.png" /></a></td>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="assets/40510dbec9c5b4d9.png" /></a></td>
 			<td>Wikipedia entry about the ACM International Collegiate Programming Contest.<br />
 			History and interesting links.</td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="contact.shtml" target="_new"><img src="images/email-icon-vector_100by35.png" /></a></td>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="assets/e79cdb99aecb4c4a.png" /></a></td>
 			<td>Contact Us.</td>
 		</tr>
 	</tbody>
@@ -116,7 +116,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 
 <div id="hintlink">
 <center><br />
-<a href="http://icpc.baylor.edu" target="_new"><img src="images/small.bmp" /></a></center>
+<a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></center>
 </div>
 
 <div id="information">

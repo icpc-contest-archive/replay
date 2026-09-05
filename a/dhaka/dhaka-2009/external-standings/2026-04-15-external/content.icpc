@@ -41,24 +41,24 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
     <!-- is_embedded: False; context: <wayback.replay.core.ReplayContext object at 0x7f7868809340> -->
     <!-- navbar https://archive.org/web/navbar.php 0.05569s -->
     <!-- navbar script -->
-    <script src="//archive.org/includes/athena.js?v=80532f86" type="text/javascript"></script>
-    <script src="//archive.org/includes/apollo.js?v=80532f86" type="text/javascript"></script>
-    <script src="//archive.org/components/npm/lit/polyfill-support.js?v=80532f86" type="text/javascript"></script>
-    <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=80532f86" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/ia-topnav.min.js?v=80532f86" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/archive.min.js?v=80532f86" type="text/javascript"></script>
+    <script src="assets/11826e8ae001a069.js" type="text/javascript"></script>
+    <script src="assets/0010cc1ad69cf644.js" type="text/javascript"></script>
+    <script src="assets/76497f61e9b473b5.js" type="text/javascript"></script>
+    <script src="assets/8ebb858373163bc2.js" type="text/javascript"></script>
+    <script src="assets/667e21da93e0a0e1.js" type="text/javascript"></script>
+    <script src="assets/27c6256dbeb8385b.js" type="text/javascript"></script>
     <!-- navbar styles -->
-    <link href="//archive.org/includes/build/css/archive.min.css?v=80532f86" rel="stylesheet" type="text/css"/>
+    <link href="assets/0db09cdd65f9f6aa.css" rel="stylesheet" type="text/css"/>
     <!-- navbar meta -->
     <meta property="mediatype" content="">
     <meta property="primary_collection" content="">
     <!-- navbar end -->
     <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='';v.service='wb';v.server_name='wwwb-app259.us.archive.org';v.server_ms=215;archive_analytics.send_pageview_on_load()}</script>
-    <link href="https://web-static.archive.org/_static/images/archive.ico" rel="shortcut icon">
+    <link href="assets/17a1d85996f5c011.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/styles.css?v=HdpcXpRm" />
-    <script type="text/javascript" src="https://web-static.archive.org/_static/js/ui.js?v=7LYlZ-C2" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="assets/a24752d50973a025.css" />
+    <script type="text/javascript" src="assets/7fde6b4c70802cfb.js" charset="utf-8"></script>
     <base target="_top">  </head>
   <body class="navia">
 <div id="icpc-archive-banner">Archived copy of <a href="http://cm.baylor.edu/public/worldMap/publicStandings.icpc?contestId=499&amp;amp;cid=45396">http://cm.baylor.edu/public/worldMap/publicStandings.icpc?contestId=499&amp;amp;cid=</a> (fetched 2026-04-15) 
@@ -2505,7 +2505,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
                   <!--?lit$49386103$--><!---->
                   <a class="style-scope media-subnav" href="https://openlibrary.org/"
                     data-event-click-tracking="TopNav|OpenLibraryTexts"><img loading="lazy" class="style-scope media-subnav"
-                      src="https://archive.org/images/widgetOL.png"><!--?lit$49386103$-->Open Library</a>
+                      src="assets/5080085c294f17b0.png"><!--?lit$49386103$-->Open Library</a>
                   <!----><!---->
                   <a class="style-scope media-subnav" href="https://archive.org/details/americana"
                     data-event-click-tracking="TopNav|AmericanLibrariesTexts"><img loading="lazy" class="style-scope media-subnav"

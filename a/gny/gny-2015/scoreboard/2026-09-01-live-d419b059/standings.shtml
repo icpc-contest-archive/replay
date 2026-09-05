@@ -15,7 +15,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <html>
 <head>
 <title>ACM Greater New York Regional Collegiate Programming Contest</title>
-<link rel="icon" type="image/gif" href="/favicon.gif">
+<link rel="icon" type="image/gif" href="assets/8a81c1c959686eb7.gif">
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
@@ -28,7 +28,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <table>
 <tr>
   <td valign="top">
-    <a href="http://acmicpc.org"><img src="/icpclogo_big.png"
+    <a href="http://acmicpc.org"><img src="assets/4963b353917600c9.png"
     height=100 alt="ACM ICPC" border=0></a>
   </td>
   <td valign="top">
@@ -45,7 +45,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     </font></b></center>
   </td>
   <td valign="top">
-    <a href="http://acmicpc.org"><img src="/icpclogo_big.png"
+    <a href="http://acmicpc.org"><img src="assets/4963b353917600c9.png"
     height=100 alt="ACM ICPC" border=0></a>
   </td>
 </tr>
@@ -251,7 +251,7 @@ Sun Nov 08 17:58:30 EST 2015</p>
 
 <a href="http://www.acmgnyr.org">Back to the contest home page.</a>
 
-<font size=-1><i>Last modified <script src="lastmod.js"></script>. Please email <a href="mailto:director@acmgnyr.org">director@acmgnyr.org</a> with comments, questions, or corrections.</i></font>
+<font size=-1><i>Last modified <script src="assets/d08fe606bf9cbfb0.js"></script>. Please email <a href="mailto:director@acmgnyr.org">director@acmgnyr.org</a> with comments, questions, or corrections.</i></font>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

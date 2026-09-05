@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1199px
+2. 1130px
+3. 991px
+4. 767px
+5. 575px
+
+
+******************************/
+
+
+/************
+1. 1199px
+************/
+
+@media only screen and (max-width: 1199px) {
+	.search_form {
+		width: 152px;
+		left: 134px;
+	}
+
+}
+
+/************
+2. 1130px
+************/
+@media only screen and (max-width: 1130px) {
+
+	.main_nav_contaner,
+	.header_search,
+	.user {
+		display: none;
+	}
+
+	.hamburger {
+		display: inline-block;
+	}
+
+	.event-box .left {
+
+
+		padding-left: 70px;
+	}
+
+	.event-box .button {
+		font-size: 12px;
+	}
+
+}
+
+/************
+3. 991px
+************/
+
+@media only screen and (max-width: 991px) {
+
+	.main_nav_contaner,
+	.header_search,
+	.user {
+		/* display: none; */
+	}
+
+	.hamburger {
+		display: inline-block;
+	}
+
+	.event-box .left {
+		padding-left: 50px;
+	}
+
+}
+
+
+
+/************
+4. 767px
+************/
+
+@media only screen and (max-width: 767px) {
+
+	.header.scrolled {
+		top: 0px;
+	}
+
+	.header.scrolled .header_content {
+		height: 60px;
+	}
+
+	.about-icpc-img-bg {
+		display: none;
+	}
+}
+
+/************
+5. 575px
+************/
+
+@media only screen and (max-width: 575px) {
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	.header_content {
+		height: 70px;
+	}
+
+	.logo_text {
+		font-size: 20px;
+	}
+
+	.menu {
+		width: 100%;
+		right: -100%;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 75px;
+	}
+
+	.menu_close_container {
+		right: 18px;
+	}
+
+	.menu .search {
+		margin-bottom: 40px;
+	}
+
+	.menu_extra {
+		right: 20px;
+		bottom: 10px;
+	}
+
+	.menu_phone,
+	.menu_social {
+		font-size: 10px;
+	}
+
+	.menu_social {
+		margin-top: 0;
+	}
+
+	.event-box .left {
+		padding-left: 10px;
+	}
+
+	.event-box .button {
+		font-size: 14px;
+	}
+
+	.feature_inner {
+		padding: 30px;
+	}
+
+
+
+}

@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+body {
+/*
+	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background: #4E5869;
+*/
+	font: 100%/1.4 sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #FFF;
+}
+
+/* ~~ エレメント / タグセレクター ~~ */
+ul, ol, dl { /* ブラウザー間の相違により、リストの余白とマージンをゼロにすることをお勧めします。一貫性を保つために、量をここで指定するか、リストに含まれるリスト項目 (LI、DT、DD) で指定できます。より詳細なセレクターを記述しない限り、ここで指定する内容が .nav リストにも適用されることに注意してください。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* 上マージンを削除すると、マージンを含む div からマージンがはみ出す場合があるという問題を回避できます。残った下マージンにより、後続のエレメントからは離されます。 */
+	padding-right: 15px;
+	padding-left: 15px; /* div 自体ではなく div 内でエレメントの両側に余白を追加すると、ボックスモデル計算が不要になります。代わりに、両側に余白を指定した div をネストして使用することもできます。 */
+}
+a img { /* このセレクターは、一部のブラウザーでイメージをリンクで囲んだ場合にイメージの周囲に表示される初期設定の青いボーダーを削除します。 */
+	border: none;
+}
+
+/* ~~ サイトのリンクのスタイル付けは、ホバー効果を作成するセレクターグループも含め、この順序にする必要があります。~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* 非常に特殊な表示方法でリンクをスタイル付けする場合を除き、一目で見分けられるように下線を指定することをお勧めします。 */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* このセレクターグループは、キーボードを使用するユーザーに対し、マウスを使用するユーザーと同じホバー効果を提供します。 */
+	text-decoration: none;
+}
+
+/* ~~ このコンテナが他のすべての div を囲み、パーセンテージに基づいた幅を指定します。~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* レイアウトが大型モニターで広がりすぎないように、最大幅を指定することをお勧めします。これにより、読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
+	min-width: 780px;/* レイアウトが狭くなりすぎないように、最小幅を指定することをお勧めします。これにより、サイドカラムで読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
+	background: #FFF;
+	margin: 0 auto; /* 幅に加え、両側を自動値とすることで、レイアウトが中央に揃います。.container の幅を 100% に設定した場合、これは必要ありません。 */
+}
+
+/* ~~ ヘッダーには幅は指定されません。ヘッダーはレイアウトの幅全体まで広がります。ヘッダーには、ユーザー独自のリンクされたロゴに置き換えられるイメージプレースホルダーが含まれます。~~ */
+.header {
+	background: #FFFFFF;
+}
+
+/* ~~ レイアウトに使用するカラムです。~~ 
+
+1) 余白は、div の上部または下部にのみ配置されます。これらの div 内のエレメントには、それ自体に余白があるので、ボックスモデル計算を行う必要がありません。ただし、div 自体に両側の余白やボーダーを指定した場合、その値が加算されたものが合計幅になることに注意してください。div 内のエレメントの余白を削除し、さらにその div 内に、全体のデザインに必要な幅や余白を指定していない 2 つ目の div を追加することもできます。
+
+2) カラムはすべてフロートしているため、マージンは指定されていません。マージンを追加する必要がある場合は、フロート方向には指定しないでください (例えば、右フロートに設定した div の右マージン)。多くの場合、代わりに余白を使用できます。このルールに従わない場合は、div のルールに「display:inline」宣言を追加し、一部のバージョンの Internet Explorer でマージンが 2 倍になるバグを回避する必要があります。
+
+3) クラスはドキュメント内で複数回使用できるので (またエレメントには複数のクラスを適用できます)、カラムには ID ではなくクラス名が割り当てられます。例えば、必要に応じて 2 つのサイドバー div をスタックできます。クラスを各ドキュメントで一度しか使用しないのであれば、ユーザーの好みに応じて、クラス名を ID に変更することができます。
+
+4) ナビゲーションを右ではなく左に配置したい場合、これらのカラムを反対方向にフロートさせると (すべて右方向にする代わりに、すべて左方向に設定)、反転してレンダリングされます。HTML ソース内で div を移動する必要はありません。
+
+*/
+.sidebar1 {
+	float: right;
+	width: 20%;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 80%;
+	float: right;
+}
+
+/* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
+}
+
+/* ~~ ナビゲーションリストのスタイル付け (Spry などの事前作成済みのフライアウトメニューを使用する場合は削除できます) ~~ */
+ul.block, ul.nav {
+	list-style: none;
+}
+div.sidebar1 p {
+	margin-top: 0.5em;
+	text-align: center;
+}
+ul.nav#logo1 {
+	margin-bottom: 0;
+}
+ul.nav#logo2 {
+	margin-bottom: 40px;
+}
+ul.nav#logo3 {
+	margin-bottom: 20px;
+}
+ul.nav li {
+	margin: 18px 0;
+	text-align: center;
+}
+ul.nav a, ul.nav a:visited { /* これらのセレクターをグループ化することで、リンクのボタン表示が訪問後も確実に保持されます。 */
+	padding: 5px 5px 5px 15px;
+	display: block; /* リンクにブロックプロパティを指定し、リンクが含まれる LI 全体がリンクになるようにします。これにより、領域全体がマウスのクリックに反応するようになります。 */
+	text-decoration: none;
+}
+
+/* ~~ フッター ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* IE6 に、適切にクリアするための hasLayout を指定します。 */
+	clear: both; /* この clear プロパティにより .container は、カラムの範囲がどこまでかを認識してその範囲を含めるようになります。 */
+}
+
+/* ~~ その他の float/clear クラス ~~ */
+.fltrt {  /* このクラスを使用すると、ページ内でエレメントを右にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* このクラスを使用すると、ページ内でエレメントを左にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* このクラスは、#footer が #container から削除されているか取り出されている場合に、<br /> または空の div で、フローティングさせる最後の div に続く最後のエレメントとして (#container 内に) 配置できます。 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.menu ul {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+
+.menu li { 
+	display: inline; 
+	padding: 0; 
+	margin: 0; 
+	float: left;
+}
+
+.menu a {
+	display: block; 
+	border: 1px solid #474655;
+	background-color: #fff;
+	font-size: x-small;
+	padding: 3px;
+	text-decoration: none;
+	color: #333;
+	width: 100px; 
+	margin: 1px;
+	text-align: center;
+}
+
+.menu a:hover {
+	background-color: #BF5E5E;
+	color: #fff;
+}
+
+#submenu a {
+	background-color: #ccc;
+}

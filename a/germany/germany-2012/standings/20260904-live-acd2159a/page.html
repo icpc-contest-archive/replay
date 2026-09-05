@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://gcpc.nwerc.eu">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GCPC 2026</title>
+                            <link rel="stylesheet" href="/css/styles.css">
+            <link rel="stylesheet" href="assets/00bb7c2719874647.css">
+            <link rel="stylesheet" href="assets/e95d0dc42b9005ee.css">
+                    
+                            	<!-- Matomo -->
+	<script type="text/javascript">
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(["setCookieDomain", "*.gcpc.nwerc.eu"]);
+	  _paq.push(["disableCookies"]);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//insights.cpulm.org/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '3']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//insights.cpulm.org/matomo.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Matomo Code -->
+    </head>
+    <body>
+<div id="icpc-archive-banner">Archived copy of <a href="http://gcpc.nwerc.eu">http://gcpc.nwerc.eu</a> (fetched 2026-09-04) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/germany-2012.html">germany-2012</a>)  <a href="https://web.archive.org/web/*/http://gcpc.nwerc.eu">wayback</a></div>
+
+        
+<nav class="bg-gray-800 sticky top-0 z-50 shadow-lg">
+  <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="relative flex items-center justify-between h-20">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" id="navbar-mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <!--
+            Icon when menu is closed.
+
+            Heroicon name: outline/menu
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+          <svg id="navbar-menu-icon-closed" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <!--
+            Icon when menu is open.
+
+            Heroicon name: outline/x
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+          <svg id="navbar-menu-icon-open" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex-1 flex items-center justify-center h-8 sm:items-stretch sm:justify-start">
+                <div class="hidden sm:block">
+          <div class="flex space-x-4">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-100 hover:bg-gray-700 hover:text-white" -->
+                                                                                                                    <a href="/" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
+                                                                                                                                                                                                                                        <a href="/teams" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Teams</a>
+                                                                                                                                                    <a href="/rules" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Rules</a>
+                                                                                                                                                    <a href="/schedule" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Schedule</a>
+                                                                                                                                                    <a href="/system" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">System</a>
+                                                                                                                                                    <a href="/results" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Results</a>
+                                                                                                                                                    <a href="/materials" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Materials</a>
+                                                                                                                                                                                <a href="/faq" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
+                                                                                                                                                    <a href="/about" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                                                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu, show/hide based on menu state. -->
+  <div class="sm:hidden hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-100 hover:bg-gray-700 hover:text-white" -->
+                                                            <a href="/" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+                                                                                                                <a href="/teams" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Teams</a>
+                                                                            <a href="/rules" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Rules</a>
+                                                                            <a href="/schedule" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Schedule</a>
+                                                                            <a href="/system" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">System</a>
+                                                                            <a href="/results" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Results</a>
+                                                                            <a href="/materials" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Materials</a>
+                                                                                        <a href="/faq" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
+                                                                            <a href="/about" class="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                        </div>
+  </div>
+</nav>
+<script>
+	// Grab HTML Elements
+	const btn = document.querySelector("#navbar-mobile-menu-button");
+	const menu = document.querySelector("#mobile-menu");
+	const iconClosed = document.querySelector("#navbar-menu-icon-closed");
+	const iconOpen = document.querySelector("#navbar-menu-icon-open");
+
+	// Add Event Listeners
+	btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        iconClosed.classList.toggle("hidden");
+        iconClosed.classList.toggle("block");
+        iconOpen.classList.toggle("hidden");
+        iconOpen.classList.toggle("block");
+	});
+</script>
+
+
+<div class="content">
+    <header class="bg-white shadow">
+        <div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold text-gray-900">GCPC 2026</h1>
+        </div>
+    </header>
+    <main>
+        <div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8 prose content-top">
+            
+              <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
+    <div class="col-span-2 content-top">
+      <p>
+    Welcome to the website for German Collegiate Programming Contest 2026. GCPC 2026 is organised by <a href="https://cpulm.org/">CPUlm</a>.
+</p>
+<p>
+    The contest will take place on <strong><em>June 13, 2026</em></strong>.
+    Teams can register <a href="/signup">here</a>, starting May 20, 2026.
+</p>
+<p>
+    Note that there is a mailing list for all German coaches, contest site organisers, and problem authors.
+    If you plan on hosting a contest site, or otherwise getting involved in the organisation of this (or the next) contest and are not yet on the list, let us know if you would like to join!
+</p>
+    </div>
+    <div class="col-span-1">
+      <h2 class="partners-h">Partners</h2>
+
+<a href="https://cpulm.org" target="_blank">
+  <div class="max-w-72 mx-auto w-full h-auto">
+    <img src="assets/7ea8854d9a2a3e21.svg" alt="Competitive Programming Ulm">
+  </div>
+</a>
+
+<div class="partner-box text-justify">
+  <a href="https://www.altasigma.com/about/careers" target="_blank">
+    <div class="max-w-72 mx-auto w-full h-auto">
+      <img src="assets/ac2a7caf872d12e6.svg" width="100%" alt="AltaSigma GmbH">
+    </div>
+  </a>
+  Thank you to <a href="https://www.altasigma.com" target="_blank">AltaSigma GmbH</a>, who kindly sponsored the infrastructure the contest judge runs on.
+</div>
+
+<p class="text-justify">
+  Want to become a partner?<br/>Reach out to us (in German or English) at <a href="mailto:contact@gcpc.nwerc.eu">contact@gcpc.nwerc.eu</a>!
+</p>
+
+    </div>
+  </div>
+        </div>
+                    </main>
+</div>
+
+    </body>
+</html>

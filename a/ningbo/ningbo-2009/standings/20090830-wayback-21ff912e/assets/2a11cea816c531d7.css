@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.wordh {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+.word1 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.wordb {
+	font-family: "宋体";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+a:link {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #0033CC;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: underline;
+}
+.wordd {
+	font-family: "宋体";
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}

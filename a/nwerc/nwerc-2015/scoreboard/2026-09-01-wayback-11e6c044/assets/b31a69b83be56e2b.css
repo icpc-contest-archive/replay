@@ -1,0 +1,37 @@
+table#tablelegend {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+table#tablelegend td {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+table tr td.solved {
+  background-color:#99FF99 !important;
+}
+table tr td.solvedfirst {
+  color: white !important;
+  background-color:#008800 !important;
+  font-weight: 600 !important;
+}
+table tr td.attempted {
+  background-color:#FF9999 !important;
+}
+table tr td.pending{
+  background-color:#9999FF !important;
+}
+table tr td.group_leader { 
+    background-color: #FFFFAA !important;
+}
+
+table tr tr.highlight {
+	background-color: #EEEEFF !important;
+	font-weight: bold !important;
+}

@@ -1,0 +1,96 @@
+div.ranking table.docutils
+{
+    cell-spacing : 0;
+}
+
+div.ranking colgroup
+{
+  display : none;
+}
+
+div.ranking div.mainsphinx table.docutils td
+{
+    padding : 0;
+    margin : 0;
+    vertical-align : middle;
+}
+
+
+div.ranking tr td:nth-child(n+3)
+{
+    vertical-align : middle;
+    text-align : center;
+}
+
+
+div.ranking tr td:nth-child(1)
+{
+    width : 5%;
+}
+
+
+div.ranking tr td:nth-child(2)
+{
+    width : 35%;
+}
+
+div.ranking tr td:nth-child(3)
+{
+    width : 5%;
+    font-weight : bold;
+}
+
+div.ranking tr td:nth-child(4)
+{
+    width : 7%;
+}
+
+div.ranking tr td:nth-child(n+5)
+{
+    width : 4%;
+}
+
+.tdpos
+{
+  display : block;
+  background-color: #4B7721;
+  width:90%;
+}
+
+
+.tdneg
+{
+  display : block;
+  background-color : #B53D2B;
+  width:90%;
+}
+
+.tdpnd
+{
+  display : block;
+  background-color : #5BA1BD;
+  width:90%;
+}
+
+
+div.ranking tr:last-child td:first-child:after
+{
+  content : none;
+}
+
+div.ranking tr:nth-child(n+1) td:nth-child(n+5)
+{
+    vertical-align : middle;
+}
+  
+  
+div.ranking tr
+{
+    counter-increment : lp 1;
+}
+    
+div.ranking tr td:first-child:after
+{
+  content : counter(lp);
+}
+

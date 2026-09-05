@@ -12,11 +12,11 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<!-- DOMjudge version 3.3.5 -->
 <link rel="shortcut icon" href="http://contest-server/images/favicon.png" type="image/png">
-<link rel="stylesheet" href="scoreboard-2013.php_files/style.css" type="text/css">
-<link rel="stylesheet" href="scoreboard-2013.php_files/style_jury.css" type="text/css">
-<link rel="stylesheet" href="scoreboard-2013.php_files/style_printer.css" type="text/css" media="print">
-<script type="text/javascript" src="scoreboard-2013.php_files/sorttable.js"></script>
-<script type="text/javascript" src="scoreboard-2013.php_files/domjudge.js"></script>
+<link rel="stylesheet" href="assets/d931da14e73ff177.css" type="text/css">
+<link rel="stylesheet" href="assets/67c563d41c1d7874.css" type="text/css">
+<link rel="stylesheet" href="assets/7eb14689273003d1.css" type="text/css" media="print">
+<script type="text/javascript" src="assets/10f404b0c5d6de60.js"></script>
+<script type="text/javascript" src="assets/2eb27dd3ca98cceb.js"></script>
 
 
 
@@ -33,7 +33,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/history/classes/socaltheme.css">
+<link rel="stylesheet" type="text/css" href="assets/04ccd113a888d913.css">
 <script>
 function notyet()
 {
@@ -70,7 +70,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 </table>
 </div>
 <div id="banner">
-<img src="/history/images/mast2013.gif" alt="ACM ICPC Banner">
+<img src="assets/d4475e0dd9d5bf01.gif" alt="ACM ICPC Banner">
 </div>
 
 
@@ -88,7 +88,7 @@ collapse("filter");
 <colgroup><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"></colgroup>
 <thead>
 <tr class="scoreheader"><th title="rank" scope="col"><a>#</a></th><th title="team name" scope="col"><a >team</a></th><th title="# solved / penalty time" colspan="2" scope="col"><a>score</a></th><th title="# Penalties" scope="col"><a>penalties</a></th>
-<th title="problem 'Epithets Among Enemies'" scope="col"><a >1 <img style="background-color: Blue;" alt="problem colour Blue" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Full Board'" scope="col"><a >2 <img style="background-color: Green;" alt="problem colour Green" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'CART'" scope="col"><a >3 <img style="background-color: Gold;" alt="problem colour Gold" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Collatz'" scope="col"><a >4 <img style="background-color: Salmon;" alt="problem colour Salmon" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'BiBytes'" scope="col"><a >5 <img style="background-color: Magenta;" alt="problem colour Magenta" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Light Switch'" scope="col"><a >6 <img style="background-color: Yellow;" alt="problem colour Yellow" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Spectrum'" scope="col"><a >7 <img style="background-color: Red;" alt="problem colour Red" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'First to Solve'" scope="col"><a >8 <img style="background-color: Tan;" alt="problem colour Tan" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Moving Triangles'" scope="col"><a >9 <img style="background-color: Cyan;" alt="problem colour Cyan" src="scoreboard-2013.php_files/circle.png"></a></th><th title="problem 'Big Class'" scope="col"><a >10 <img style="background-color: White;" alt="problem colour White" src="scoreboard-2013.php_files/circle.png"></a></th></tr>
+<th title="problem 'Epithets Among Enemies'" scope="col"><a >1 <img style="background-color: Blue;" alt="problem colour Blue" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Full Board'" scope="col"><a >2 <img style="background-color: Green;" alt="problem colour Green" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'CART'" scope="col"><a >3 <img style="background-color: Gold;" alt="problem colour Gold" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Collatz'" scope="col"><a >4 <img style="background-color: Salmon;" alt="problem colour Salmon" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'BiBytes'" scope="col"><a >5 <img style="background-color: Magenta;" alt="problem colour Magenta" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Light Switch'" scope="col"><a >6 <img style="background-color: Yellow;" alt="problem colour Yellow" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Spectrum'" scope="col"><a >7 <img style="background-color: Red;" alt="problem colour Red" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'First to Solve'" scope="col"><a >8 <img style="background-color: Tan;" alt="problem colour Tan" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Moving Triangles'" scope="col"><a >9 <img style="background-color: Cyan;" alt="problem colour Cyan" src="assets/bc59b6561b0eb9df.png"></a></th><th title="problem 'Big Class'" scope="col"><a >10 <img style="background-color: White;" alt="problem colour White" src="assets/bc59b6561b0eb9df.png"></a></th></tr>
 </thead>
 
 <tbody>

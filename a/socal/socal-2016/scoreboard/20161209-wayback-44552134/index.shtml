@@ -31,7 +31,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
+<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
 <script>
 function notyet()
 {
@@ -62,7 +62,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 </table>
 </div>
 <div id="banner">
-<img src="/images/mast2016.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
+<img src="assets/374bd1f11167ecf9.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="33,5,507,93" href="http://socalcontest.org">
   <area shape="rect" coords="536,7,721,46" href="http://ibm.com/start" target="_blank">

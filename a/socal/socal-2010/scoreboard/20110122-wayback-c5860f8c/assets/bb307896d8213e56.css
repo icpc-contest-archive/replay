@@ -1,0 +1,35 @@
+a:link
+{
+	font-family: Arial, Helvetica, Verdana;
+}
+
+a:visited
+{
+	font-family: Arial, Helvetica, Verdana;
+}
+
+a:active
+{
+	font-family: Arial, Helvetica, Verdana;
+}
+
+a:hover 	
+{
+	font-family: Arial, Helvetica, Verdana;
+}
+
+body
+{
+	font-family: Arial, Helvetica, Verdana;
+	color:#000080;
+	background-image: url('http://www.socalcontest.org/images/tocbk.gif'); 
+}
+
+table
+{
+	background-repeat: repeat; 
+	background-attachment: scroll; 
+	background-image: url('http://socalcontest.acm.org/images/tocbk.gif');
+        background-position: 0%
+}
+

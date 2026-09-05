@@ -24,7 +24,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
+<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
 <script>
 function notyet()
 {
@@ -59,7 +59,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 </table>
 </div>
 <div id="banner">
-<img src="/images/mast2011.gif" alt="ACM ICPC Banner">
+<img src="assets/5465d3238b127558.gif" alt="ACM ICPC Banner">
 </div>
 
 
@@ -75,14 +75,14 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <table cellspacing="0" border="0" cellpadding="3">
 <tr>
   <td valign="center" width="100">
-    <a target=_new href="orientation.shtml"><img src="images/film_icon.png"></a>
+    <a target=_new href="orientation.shtml"><img src="assets/f7a764fa33943ba7.png"></a>
   </td>
   <td><a  target=_new href="orientation.shtml">ORIENTATION MATERIALS</a>
 <br></td>
 </tr>
 <tr>
   <td valign="center" width="100">
-    <a target=_new href="http://icpc.baylor.edu"><img src="images/ICPCLogo_button_100by35.png"></a>
+    <a target=_new href="http://icpc.baylor.edu"><img src="assets/a20dfd45e6c80a02.png"></a>
   </td>
   <td>ICPC Registration System at the ACM ICPC Site.
 <br>This is where a coach registers teams for the competition.
@@ -93,35 +93,35 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <!--<a href="javascript:expired()">-->
 <!--<a href="javascript:notyet()">-->
 <!--<a target=_new href="payment.shtml">-->
-<!--<a href="javascript:notyet()"><img src="images/paypal_button_reversed_100by35.png"></a>-->
-    <a target=_new href="payment.shtml"><img src="images/paypal_button_reversed_100by35.png"></a>
+<!--<a href="javascript:notyet()"><img src="assets/249200042712d6e3.png"></a>-->
+    <a target=_new href="payment.shtml"><img src="assets/249200042712d6e3.png"></a>
   </td>
   <td>Send an electronic payment for the 2011 Registration Fees, $66.00 per team.
 <br>Available 28-Sep through 31-Oct.</td>
 </tr>
 <tr>
   <td valign="center">
-    <a target=_new href="http://cm.baylor.edu/public/worldMap/worldMap.icpc?contestId=881"><img src="images/ICPCLogo_button_100by35.png"></a>
+    <a target=_new href="http://cm.baylor.edu/public/worldMap/worldMap.icpc?contestId=881"><img src="assets/a20dfd45e6c80a02.png"></a>
   </td>
   <td>Regional Contest Information at the ACM ICPC Site.
 <br>See this page for the current list of registered teams.</td>
 </tr>
 <tr>
   <td valign="center">
-    <a target=_new href="http://www.facebook.com/home.php?#!/pages/Southern-California-ACM-International-Collegiate-Programming-Contest/112453688794162"><img src="images/facebook_button_reversed_100by35.png"></a>
+    <a target=_new href="http://www.facebook.com/home.php?#!/pages/Southern-California-ACM-International-Collegiate-Programming-Contest/112453688794162"><img src="assets/fc0552d63b0f4ddb.png"></a>
   </td>
   <td>Topical discussions and announcements.</td>
 </tr>
 <tr>
   <td valign="center">
-    <a target=_new href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest"><img src="images/wikipedia_button_reversed_100by35.png"></a>
+    <a target=_new href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest"><img src="assets/40510dbec9c5b4d9.png"></a>
   </td>
   <td>Wikipedia entry about the ACM International Collegiate Programming Contest.
 <br>History and interesting links.</td>
 </tr>
 <tr>
   <td valign="center">
-    <a target=_new href="contact.shtml"><img src="images/at-sign_100by35.png"></a>
+    <a target=_new href="contact.shtml"><img src="assets/62ee1d7521284aac.png"></a>
   </td>
   <td>Contact Us.
 </tr>
@@ -132,7 +132,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <div id="hintlink">
 <center>
 <br>
-<a target=_new href="http://icpc.baylor.edu"><img src="images/small.bmp"></a>
+<a target=_new href="http://icpc.baylor.edu"><img src="assets/8136b17658391682.bmp"></a>
 <br>
 </center>
 </div>

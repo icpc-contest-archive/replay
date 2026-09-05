@@ -1,0 +1,31 @@
+#header,
+#nav ul,
+#subnav ul,
+#contentWrapper,
+#content, 
+#footer {
+	margin: 0 auto;
+	width: 68em;
+}
+
+
+#nav ul {
+	height: 1%;
+}
+
+#subnav ul {
+	height: 1%;
+}
+
+#sticky {
+	background: url(../images/sticky_note.gif) no-repeat left top;
+}
+
+#sheets {
+	background: url(../images/sheets.gif) no-repeat left top;
+	position: absolute;
+}
+
+#headerWrapper {
+	overflow: hidden;
+}

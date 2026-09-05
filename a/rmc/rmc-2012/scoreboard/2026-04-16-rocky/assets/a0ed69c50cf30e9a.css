@@ -1,0 +1,10 @@
+
+.blue { background-color: white; color:#0080C0; font-family: arial; }
+.iblue { background-color: #0080C0; color:white; font-family: arial; }
+.red  { background-color: white; color: red;    font-family: arial; }
+h4 { background-color: white; color: red;    font-family: arial; margin-left: -1em; }
+tt { font-size:12pt; font-weight: bold; }
+.section  { margin-left: 0.25in; }
+.left  { text-align:right; background-color: white; color: red;    font-family: arial; font-style: italic; vertical-align: top; }
+.right { text-align: left; background-color: white; color:#0080C0; font-family: arial; font-style: normal; vertical-align: top; }
+.border { border: solid #0080C0 1px; }

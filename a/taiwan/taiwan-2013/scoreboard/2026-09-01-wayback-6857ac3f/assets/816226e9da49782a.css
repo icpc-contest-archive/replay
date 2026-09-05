@@ -1,0 +1,97 @@
+
+
+.main_bot{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.formtype {
+	margin: 0px;
+}
+
+
+.r_t_title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0080FF;
+	text-align: center;
+}
+
+//以下還沒用到
+
+/*
+.title1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #336699;
+	text-align: center;
+}
+
+.sepbg{
+	background-image: url(./qimages/qa_sep_mid.jpg);
+}
+
+.commenttype{
+	font-size: 12px;
+	color: #FF0000;
+}
+
+.formtype {
+	margin: 0px;
+}
+
+.inputerrtype{
+	font-size: 18px;
+	font-weight: bold;
+	color: #CC0033;
+}
+
+.inputformtype {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tabletitle{
+	font-size: 18px;
+	font-weight: bold;
+	color: #0000FF;
+}
+
+.anntitle1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #008000;
+	text-align: center;
+}
+
+.formtype {
+	margin: 0px;
+}
+
+.col_des {
+  font-size: 12px;
+	color: #FF0000;
+}
+
+.originaldata {
+	font-size: 12px;
+	color: #008000;
+}
+
+.help_qtitle {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.help_anstitle1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.help_anstitle2 {
+	font-size: 16px;
+}
+
+*/

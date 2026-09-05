@@ -1,0 +1,86 @@
+/*
+    Table style
+ */
+.contest .scoreboard {
+}
+
+.contest .scoreboard.wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.contest .scoreboard tbody {
+    border-bottom: solid gray 2px;
+}
+
+.contest .scoreboard .problem {
+    min-width: 70px;
+    width: 70px;
+}
+
+.contest .scoreboard th, .contest .scoreboard .rank,
+.contest .scoreboard .score, .contest .scoreboard .penalty,
+.contest .scoreboard .problem, .contest .scoreboard .country {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contest .scoreboard .country {
+    width: 50px;
+    min-width: 50px;
+}
+
+.contest .scoreboard .country.flag {
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.contest .scoreboard .team span {
+    display: block;
+    width: 100%;
+	max-width: 20em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.contest .scoreboard .team span.university.name {
+    font-size: smaller;
+    opacity: 0.6;
+}
+
+.contest .scoreboard .problem span {
+    display: block;
+    width: 100%;
+}
+
+.contest .scoreboard .problem.attempted .solve_time {
+    display: none;
+}
+
+.contest .scoreboard .problem.unsolved .solve_time, .contest .scoreboard .problem.unsolved .attempts {
+    display: none;
+}
+
+.contest .scoreboard .team .problem:nth-child(even) {
+    background-color: rgb(220, 220, 220);
+}
+
+.contest .scoreboard .team .problem:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+
+.contest .scoreboard .team .problem.solved {
+    background-color: greenyellow;
+}
+
+.contest .scoreboard .team .problem.solved_first {
+    background-color: green;
+}
+
+.contest .scoreboard .team .problem.attempted {
+    background-color: crimson;
+}

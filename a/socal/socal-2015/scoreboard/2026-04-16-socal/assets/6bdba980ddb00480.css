@@ -1,0 +1,327 @@
+/*
+table {
+	margin: 0;
+}
+
+h2+p {
+	margin: 0;
+}
+
+h3+p {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+*/
+
+
+h2 {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+body
+{
+	font-family: Arial, Helvetica, Verdana;
+/*	color: white; */
+	color: black;
+/*	background-color: red; */
+	width: 800px;
+/*	margin: 0; */
+/*	padding: 0; */
+}
+
+#headline {
+	float: center;
+        text-align: center;
+/* Pre-2017 theme
+ *
+	color: white;
+        background-color: #231f20;
+ */
+	color: black;
+        background-color: white;
+	width: 800px;
+	height: 100px;
+}
+
+/* remember to generate 800by100 . GIF file */
+
+#pagetitle {
+	float: center;
+        text-align: center;
+/*
+ * Pre-2017 theme
+	color: white;
+  	background-color: #4a82c3;
+ */
+	color: black;
+  	background-color: white;
+/*      background-image: url('/classes/black_blue_gradient_800by75.gif'); */
+	width: 800px;
+	height: 75px;
+	border: 0;
+	padding: 0;
+}
+
+#pagetitle a:link {
+	color: white;
+/*	background-color: #4c82c3; */
+}
+
+#pagetitle a:visited {
+	color: white;
+/*	background-color: #4c82c3; */
+}
+
+#pagetitle a:hover {
+        color: #ffd520;
+/*	background-color: #4c82c3; */
+}
+
+#pagetitle a:active {
+        color: #red;
+/*	background-color: #4c82c3; */
+}
+
+#pagetitle h2 {
+	border: 0;
+}
+
+#pagetitle h3 {
+	border: 0;
+}
+
+#banner {
+	position: relative;
+/*	background-image: url('/classes/mast2010.gif'); */
+/*	height: 100px; */
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#banner img {
+	vertical-align: bottom;
+}
+
+#main_masthead {
+        width: 100%;
+        height: 100%;
+}
+
+#masthead_overlay {
+        position: absolute;
+        top: 150px;
+        left: 10px;
+}
+
+
+#majorlinks {
+	text-decoration: none;
+/*
+ * Pre-2017 theme
+	color: white;
+	background-color: #231f20;
+ */
+	color: black;
+	background-color: white;
+	width: 800px;
+}
+
+/*
+#majorlinks p table {
+	text-decoration: none;
+	color: red;
+	background-color: #231f20;
+}
+*/
+
+#majorlinks img {
+	background-color: white;
+/*	background-color: #231f20; */
+/*	border: none; */
+}
+
+#majorlinks a:link {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+#majorlinks a:visited {
+	color: #4a82c3;
+	background-color: white;
+	text-decoration: none;
+}
+
+#majorlinks a:hover {
+        color: #b12a1c;
+	background-color: white;
+}
+
+#majorlinks a:active {
+        color: #fdba31;
+	background-color: #4a82c3;
+}
+
+/*
+.majorlinks {
+	color: white;
+	text-decoration: none;
+}
+
+.majorlinks a:link {
+	color: white;
+	background-color: #231f20;
+}
+
+.majorlinks a:visited {
+	color: white;
+	background-color: #231f20;
+}
+
+.majorlinks a:hover {
+        color: #ffd520;
+	background-color: #4c82c3;
+}
+
+.majorlinks a:active {
+        color: red;
+	background-color: #4c82c3;
+}
+*/
+
+#hintlink {
+/*	background-image: url('/classes/black_blue_gradient_800by200.gif'); */
+	width: 800px;
+	height: 200px;
+}
+
+#hintlink a:link {
+	color: #231f20;
+	background-color: #4c82c3;
+}
+
+#hintlink a:visited {
+	color: #231f20;
+	background-color: #4c82c3;
+}
+
+#hintlink a:hover {
+        color: #ffd520;
+	background-color: #4c82c3;
+}
+
+#hintlink a:active {
+        color: red;
+	background-color: #4c82c3;
+}
+
+#information {
+/*
+ * Pre-2017 theme
+	color: white;
+	background-color: #4c82c3;
+ */
+	color: black;
+	background-color: white;
+	width: 800px;
+}
+
+#information a:link {
+/*
+ * Pre-2017 theme
+	color: white;
+	background-color: #4c82c3;
+ */
+	color: black;
+	background-color: white;
+}
+
+/*
+ * Pre-2017 theme
+#information a:visited {
+	color: #231f20;
+	background-color: #4c82c3;
+}
+
+#information a:hover {
+        color: #ffd520;
+	background-color: #4c82c3;
+}
+
+#information a:active {
+        color: #red;
+	background-color: #4c82c3;
+}
+ */
+#information a:visited {
+	color: #4a82c3;
+}
+#information a:hover {
+        color: #b12a1c;
+}
+
+/*
+#information image {
+	border: 2px;
+}
+*/
+
+#header {
+	width: 800px;
+/*	background-color: #231f20; */
+}
+
+#header img {
+	border:none;
+}
+
+#chalkboard {
+	background-color: white;
+	color: black;
+/*
+	background-color: #006a00;
+	color: white;
+*/
+}
+
+#footer {
+/*	background-image: url('/classes/blue_black_gradient_800by50.gif'); */
+	color: silver;
+	width: 800px;
+	height: 50px;
+}
+
+.codesample {
+	font-family: monospace;
+	color: #004275;
+/*	font-size: larger; */
+}
+
+.judgehr {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.informationmarginfiller {
+	color:#4c82c3;
+	height:1px;
+	margin:0;
+	padding:0;
+	border:0;
+}

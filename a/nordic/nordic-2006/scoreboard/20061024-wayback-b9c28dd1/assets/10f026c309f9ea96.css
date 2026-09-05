@@ -1,0 +1,84 @@
+body { 
+  background: white;
+  margin: 10px auto;
+}
+
+table { 
+  margin: 10px auto;
+}
+
+h1 { 
+  width: 12.5em;
+  text-align: center;  
+  margin: 10px auto;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+h2 { 
+  margin: 0;
+  text-align: center;  
+}
+
+td {
+  text-align: center;
+}
+
+.rank, .name { 
+  text-align: left;
+}
+
+img.school { 
+  height: 28px;
+}
+
+img.flag { 
+  width: 30px;
+}
+
+.links { 
+  text-align: center;  
+}
+
+.links a { 
+  margin: 0.5em;
+  text-decoration: none;
+  color: blue;
+}
+
+.accepted { 
+  background: #90EE90;
+}
+
+.rejected { 
+  background: #FFC0CB;
+}
+
+.footer { 
+  border-top: 1px solid black;
+  font-size: small;
+  text-align: center;  
+  color: gray;
+  width: 30em;
+  margin: auto;
+}
+
+.footer a { 
+  color: gray;
+  text-decoration: none;
+}
+
+.message { 
+  display:none;
+  text-align: center;  
+  font-size: small;
+  margin-bottom: 1em;;
+  background: red;
+  color: white;
+}
+
+@media print { 
+  .links { 
+    display: none;
+  }
+}

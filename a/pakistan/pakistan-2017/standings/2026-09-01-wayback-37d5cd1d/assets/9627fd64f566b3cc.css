@@ -1,0 +1,266 @@
+﻿.container {
+    
+}
+* {
+   border-radius: 0 !important;
+}
+body {
+    font-family:'OpenSans';
+    font-size:14px;
+}
+@media (max-width: 1200px) {
+    .container1 {
+        width:100% !important;
+    }
+}
+
+.content {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+* {
+    border-radius: 0px !important;
+}
+a {
+    color:#1B4B84;
+}
+a figure {
+    position:relative;
+    margin-bottom: 20px;
+}
+a.border figure {
+    margin-bottom: 10px;
+}
+a:not(.border) figure img {
+    
+    border:1px solid #CECECE;
+}
+a.border figure figcaption {
+    width:100%;
+    position:absolute;
+    bottom:0px;
+}
+a.border:hover figure figcaption {
+    width:100%;
+    border-bottom:10px solid #036;
+}
+a:hover:not(.border) figure{
+    
+}
+a:hover:not(.border) figure img{
+    
+}
+a:hover p {
+    text-decoration:underline;
+}
+.figure {
+    margin-bottom:20px;
+}
+.figure .detail p{
+    font-size: 13px;
+line-height: 20px;
+}
+a.animate figure {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+a.animate figure img
+{
+    transform: scale(1);
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+a.animate:hover img {
+	transform: scale(1.15);
+}
+a.animate figure figcaption {
+    position: absolute;
+    border: none !important;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-family:'OpenSansSemiBold';
+}
+a.animate figure figcaption span{
+    color:#222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+img1,.img-responsive {
+    width:100%;
+}
+.img-left {
+    float:left;
+    margin:20px 30px 20px 0px;
+}
+.img-right {
+    float:right;
+    margin:20px 0px 20px 30px;
+}
+strong, b {
+    font-family: OpenSansSemiBold !important;
+    font-weight: normal !important;
+    color: #454545 !important;
+}
+em {
+    font-family:'OpenSansRegularItalic' !important;
+}
+.table-responsive table
+{
+    width: 100%;
+}
+.table-responsive table th{
+    background-color:#1B4B84;
+    color:#FFFFFF;
+    border:1px solid #FFFFFF;
+    padding: 0 8px;
+}
+.table-responsive table td{
+    border:1px solid #CCCCCC;
+    padding: 0 8px;
+}
+div.form {
+    width:100%;
+    padding:20px;
+    border:1px solid #CCCCCC;
+}
+div.form p.label {
+    width:100%;
+    display:block;
+    text-align:left;
+    margin:0px;
+    padding:0px;
+    margin-bottom:10px;
+}
+div.form p.label span
+{
+    color: #343536;
+    font-size: 20px;
+    font-family: OpenSansLight;
+    font-weight: normal;
+    white-space:normal;
+}
+div.form p.input input,
+div.form p.input select,
+div.form p.input textarea {
+    margin: 0px;
+    padding: 5px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+}
+div.form p.input input:focus,
+div.form p.input select:focus,
+div.form p.input textarea:focus {
+    border:1px solid #1B4B84;
+}
+input[type="submit"], input[type="button"]
+{
+    background-color: #00235C;
+    color: #FFF;
+    border: 0px none;
+    padding: 6px 15px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+input[type="submit"]:hover, input[type="button"]:hover,
+input[type="submit"]:focus, input[type="button"]:focus {
+    background-color: #1B4B84;
+}
+error {
+    display:block;
+}
+error span,
+p.error {
+    display: block;
+    color: #F00 !important;
+}
+.scroller {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 10px;
+}
+.scroller .content {
+    margin:0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.scroller .row {
+    overflow: auto;
+    padding: 0px 5px;
+}
+.scroller .row .items {
+    height: 270px;
+}
+.scroller .row [class*="col-"] {
+    display: inline-block;
+    float: none;
+    padding-right: 0px;
+}
+.scroller .row [class*="col-"] a
+{
+    display: block;
+    float: left;
+    height: 80px;
+}
+.scroller .row p
+{
+    white-space: normal;
+}
+
+.scroller .enscroll {
+    margin-top:10px !important;
+}
+.scroller .enscroll .horizontal-track {
+    background-clip: padding-box;
+    background-color: #CCC;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0;
+    border-left-width: 1px;
+    height:10px;
+}
+
+.scroller .enscroll .horizontal-track.dragging,
+.scroller .enscroll .horizontal-track:hover {
+    
+}
+
+.scroller .enscroll .horizontal-track .horizontal-handle  {
+    text-align: center;
+    height: 16px;
+    background-color:#3E4146;
+    color: #FFF;
+    padding-top: 1px;
+    margin-top: -3px;
+    text-decoration:none;
+}
+
+.scroller .enscroll .horizontal-track .horizontal-handle:hover,
+.scroller .enscroll .horizontal-track .horizontal-handle.active,
+.scroller .enscroll .dragging .horizontal-handle {
+    background-color: #C00;
+}
+.handle4:hover {
+    
+}
+
+.dragging .handle4,
+.handle4:active {
+    
+}
+
+div.pp_default .pp_expand,
+div.pp_default .pp_contract {
+    background-image: url("images/prettyPhoto/default/sprite.png") !important;
+}
+div.pp_default a.pp_arrow_previous, div.pp_default a.pp_arrow_next,div.pp_default .pp_close {
+    background-image: url("images/prettyPhoto/default/sprite.png") !important;
+}
+a.pp_next {
+    background-image: url("images/prettyPhoto/light_rounded/btnNext.png") !important;
+}
+a.pp_previous {
+    background-image: url("images/prettyPhoto/light_rounded/btnPrevious.png") !important;
+}

@@ -288,7 +288,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
         <!-- Banner -->
         <section class="rounded-2xl overflow-hidden border border-white/10 bg-white">
           <img
-            src="assets/imgs/logo-1.png"
+            src="assets/342fb1e2981c12e3.png"
             alt="ICPC Kanpur Banner"
             class="w-full h-auto object-cover">
         </section>
@@ -824,7 +824,7 @@ animate();
 <li>
   <p class="updates-p">
     <a class="updates-link" href="https://kanpur.indiaicpc.in/directorreport.pdf" target="_blank" rel="noopener">
-      <img src="../new.gif" alt="New" class="updates-badge" loading="lazy">
+      <img src="assets/30199acebfa43168.gif" alt="New" class="updates-badge" loading="lazy">
       <strong>Report from the Regional Contest Director</strong> ICPC Kanpur site 2025
     </a>
   </p>
@@ -832,7 +832,7 @@ animate();
 <li>
   <p class="updates-p">
     <a class="updates-link" href="https://kanpur.indiaicpc.in/problem2025.pdf" target="_blank" rel="noopener">
-      <img src="../new.gif" alt="New" class="updates-badge" loading="lazy">
+      <img src="assets/30199acebfa43168.gif" alt="New" class="updates-badge" loading="lazy">
       <strong>Problem Statement</strong> ICPC Kanpur Onsite Round 2025
     </a>
   </p>
@@ -1021,7 +1021,7 @@ animate();
           <a href="https://www.jetbrains.com/" target="_blank"
              class="group relative rounded-2xl border border-white/10 bg-white text-slate-900 p-5 flex flex-col items-center justify-center
                     transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10 hover:ring-1 hover:ring-cyan-400/40">
-            <img src="assets/imgs/jb.png" alt="JetBrains"
+            <img src="assets/961bfcb082cfa48d.png" alt="JetBrains"
                  class="h-14 sm:h-16 object-contain mx-auto mb-3" />
             <div class="text-center text-sm">
               <div class="font-semibold">JetBrains</div>
@@ -1034,7 +1034,7 @@ animate();
           <a href="https://www.janestreet.com/" target="_blank"
              class="group relative rounded-2xl border border-white/10 bg-white text-slate-900 p-5 flex flex-col items-center justify-center
                     transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10 hover:ring-1 hover:ring-cyan-400/40">
-            <img src="assets/imgs/js1.png" alt="Jane Street"
+            <img src="assets/2c7d86f325a9ccfc.png" alt="Jane Street"
                  class="h-14 sm:h-16 object-contain mx-auto mb-3" />
             <div class="text-center text-sm">
               <div class="font-semibold">Jane Street</div>

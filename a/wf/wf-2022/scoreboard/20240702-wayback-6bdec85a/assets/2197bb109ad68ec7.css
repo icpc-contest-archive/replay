@@ -1,0 +1,251 @@
+html {
+	box-sizing: border-box;
+	font: 16px tahoma;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, pre {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+body {
+	background: #000;
+	color: #fff;
+}
+
+h1 {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+a {
+	color: #fc0;
+}
+a:visited:not(.user,.lang,.self,.year) {
+	color: #c90;
+}
+a.self {
+	color: inherit;
+}
+#help {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	width: 250px;
+	background: #000;
+	padding: 10px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	z-index: 10;
+	font-size: 0.7rem;
+}
+#help.active {
+	display: block;
+}
+#help h3 {
+	padding-bottom: 5px;
+}
+.help-toggle {
+	position: absolute;
+	top: 12px;
+	right: 0px;
+	width: 32px;
+	height: 24px;
+	font-size: 24px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.help-toggle:hover {
+	opacity: 1;
+}
+.help-toggle::before {
+	content: '🛈';
+	content: 'ⓘ';
+}
+.hint {
+	text-align: left;
+	border-left: 3px #fc0 solid;
+	padding-left: 1rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+.hint p {
+	color: #ccc;
+	margin-top: 0.75rem;
+}
+.hint h3+p {
+	margin-top: 0.5rem;
+}
+.frozen #contest_timenow {
+	color: #66f;
+}
+.updated {display: none}
+.standings {
+	position: relative;
+	margin: 0 auto;
+	padding: 1rem 0;
+	width: 100%;
+	max-width: 1000px;
+	min-width: 540px;
+}
+#timeline {
+	margin: 5px 0;
+	cursor: pointer;
+	position: relative;
+	width:100%;
+	height: 10px;
+	background: #333;
+}
+.timeline_bg_frozen {
+	position: absolute;
+	width: 20%;
+	height: 10px;
+	right: 0%;
+	background: #336;
+}
+.timeline_bg {
+	position: absolute;
+	width: 1px;
+	height: 10px;
+	background: #000;
+}
+#timeline_elapsed {
+	position: absolute;
+	width: 0%;
+	height: 10px;
+	left: 0%;
+	background: #666;
+}
+#timeline_shown {
+	position: absolute;
+	width: 0%;
+	height: 10px;
+	left: 0%;
+	background: #393;
+}
+.standings .hint {
+	margin-left: 16px;
+}
+.standings table {
+	border-spacing: 0px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.standings .pages {
+	text-align: left;
+}
+.standings .sticky th {
+	position: sticky;
+	top: 0;
+	background: #000;
+	border-bottom: 1px #666 solid;
+}
+.standings th p {
+	font-size: 0.5rem;
+}
+.standings tbody tr:hover {
+	background: #003;
+}
+.standings th.title {
+	overflow: hidden;
+	font-size: 0.75rem;
+	max-width: 80px;
+	text-overflow: ellipsis;
+	padding: 0.5rem 0;
+}
+.standings td {
+	padding: 0;
+	line-height: 1rem;
+}
+.standings .name, .standings .users {
+	font-size: 0.7rem;
+}
+.standings .users {
+	color: #999;
+}
+.standings th {
+	font-weight: normal;
+}
+.standings .ok, .standings .re, .standings .unk, .standings .if {
+	text-align: center;
+}
+.standings td b, .standings td i, .standings td p {
+	display: block;
+}
+.standings td.b, .standings th.b {
+	border-left: 1px #666 solid;
+}
+.standings td.br, .standings th.br {
+	border-right: 1px #666 solid;
+}
+.standings td.rank {
+	width: 30px;
+	color: #999;
+	text-align: center;
+}
+.standings td.score, .standings th.score {
+	border-left: 1px #666 solid;
+	text-align: center;
+}
+.standings td p {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+	height: 0.75rem;
+	font-style: normal;
+}
+.user {font-weight: bold; text-decoration: none; color: inherit}
+a.user-legendary {display: inline-block; color: #ee0000;}
+a.user-legendary::first-letter {color: #000;background:#ee0000; padding: 0 1px; border-radius: 3px}
+.user-red {color: #EE0000;}
+.user-orange {color: #FF9900;}
+.user-yellow {color: #cb0;}
+.user-violet {color: #a0a;}
+.user-blue {color: #6666FF;}
+.user-cyan {color: #03A89E;}
+.user-green {color: #00A900;}
+.user-gray {color: #999999;}
+.user-unknown {color: inherit;}
+.ok {
+	color: #0f0;
+}
+.re {
+	color: #f00;
+}
+.unk {
+	color: #feba12;
+}
+.if {
+	color: cyan;
+}
+.sm {
+	font-size: 75%;
+}
+.mark {
+	cursor: pointer;
+	display: none;
+	margin-right: 5px;
+	float: right;
+}
+
+td:hover > .mark {
+	display: inline;
+}
+
+
+.mark:before {
+	content: "☆";
+	color: inherit;
+	font-size: 12px;
+}
+
+.favorite .mark:before, .mark:hover:before {
+	content: "★";
+	color: #fc0;
+}

@@ -1,0 +1,52 @@
+﻿
+
+.social-sahre {
+    position: fixed;
+    top: 9em;
+    right: 0;
+    z-index: 99;
+}
+.social-sahre ul {
+    padding: 0px;
+}
+.social-sahre ul li {
+    list-style: none;
+}
+    .social-sahre ul li a {
+        width: 90px;
+        display: block;
+        text-align: center;
+        color: #f5efef;
+        float: right;
+        padding: 0 5px;
+        font-size: 15px;
+        -webkit-transition: all .7s ease-in-out;
+        -moz-transition: all .7s ease-in-out;
+        -o-transition: all .7s ease-in-out;
+        transition: all .7s ease-in-out;
+        margin-bottom: 5px;
+        padding: 5px;
+        padding-top: 23px;
+        line-height: 1.4 !important;
+        border-radius: 50% !important;
+        height: 90px;
+    }
+.social-sahre ul li a:hover {
+    width: 105px;
+}
+ .social-sahre .fb {
+    background: #325294;
+}
+.social-sahre .twitter {
+       background: #2196F3;
+}
+.social-sahre .linkden {
+       background: #0077b5;
+}
+.social-sahre .gpluse {
+    background: #DB4437;
+}
+.applynow {
+    font-size: 16px !important;
+    background: #008000 !important;
+}

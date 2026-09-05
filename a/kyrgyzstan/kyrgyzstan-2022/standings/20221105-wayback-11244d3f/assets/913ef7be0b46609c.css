@@ -1,0 +1,167 @@
+body{
+	font-family : Verdana;
+}
+hr{
+	padding:0;
+	margin:0;
+}
+table{
+	font-size   :10pt;
+}
+td{
+	vertical-align: top;
+}
+h1{
+        color: #AA7;
+	font-size   :14pt;
+	letter-spacing: 0.2em;	
+}
+h2{
+	font-size: 12pt;
+	margin : 5px;
+}
+a:link   {color:#600000;text-decoration:none;}
+a:visited{color:#600000;text-decoration:none;}
+a:hover  {color:#600000;text-decoration:underline;}
+p{text-align:justify;}
+.HeaderBar{
+	font-size   : 10pt;
+	width       : 100%;
+	text-align  : right;
+	letter-spacing: 0.07em;
+}
+.HeaderLogo{
+	width       : 100%;
+	height      : 110px;
+}
+.NavBar{
+	font-size   :10pt;
+	display: block;
+	border: 1px solid #996;
+	padding: 2px;
+	text-align: center;
+	font-weight: bolder;
+	background: #eed;
+}
+.NavBar a:hover{
+	background: #dd9;
+	text-decoration:none;
+	color: #000;
+}
+
+.LayoutTable{
+	width: 100%;
+}
+.LayoutCell{
+	font-size   :10pt;
+	width       : 100%;
+	padding-top : 1em;
+	padding-left: 3em;
+}
+.ReportTable{
+	border-style: solid;
+	border-width: 1px;
+	text-align  : left;
+}
+.RanklistTable{
+	font-size   : 8pt;
+	text-align  : center;
+	letter-spacing: 0.04em;
+}
+
+.StatusTable{
+	border-style: solid;
+	border-width: 1px;
+	font-size   : 8pt;
+	text-align  : center;
+	letter-spacing: 0.04em;
+}
+
+.RowHeader{
+	background-color: #E0E000;
+}
+.RowOdd{
+	background-color: #F0F0C0;
+}
+.RowEven{
+	background-color: #FFFFFF;
+}
+.RowSelf{
+	background-color: #CCF7F7;
+}
+
+
+.AcceptedCell a {
+	color: Green;
+	font-weight: bolder;
+}
+
+.TriedCell a {
+	color: Red;
+	font-weight: bolder;
+}
+
+
+.EmptyCell  {
+	color: #A0A0A0;
+}
+
+.SAccepted{
+	color: #009000;
+}
+.SError{
+	color: #900000;
+}
+.SUnk{
+	color: #000000;
+}
+.QueH
+{
+	background-color: #900000;
+	color: #fff;
+	font-size: smaller;
+}
+.QueHP
+{
+	background-color: #009000;
+	color: #fff;
+	font-size: smaller;
+}
+.QueHA
+{
+	background-color: #A0A000;
+	color: #fff;
+	font-size: smaller;
+}
+
+.Que
+{
+	background-color: #C0C0C0;
+}
+.QueS
+{
+	background-color: #C0C0C0;
+}
+.AnsH
+{
+	background-color: #000090;
+	color: #fff;
+	font-size: smaller;
+}
+.Ans
+{
+	background-color: #C0C0C0;
+}
+.AnsS
+{
+	background-color: #C0C0C0;
+}
+
+.NewsTable{
+	width: 100%;
+	border-top: 1px solid #996;	
+}
+.NewsF{
+	text-align : right;
+	font-size: smaller;
+}

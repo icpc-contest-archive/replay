@@ -1,0 +1,14 @@
+BODY {
+  color: black; background-color: white;
+}
+H1 {
+  color: black;
+  font-size: 300%; font-weight: bold; font-variant: small-caps
+}
+H2 {
+  color: black;
+  font-size: 150%; font-weight: bold; font-variant: small-caps
+}
+A:link { color: #0000FF; text-decoration: underline; } 
+A:visited { color: #800000; text-decoration: underline; } 
+A:active { color: #FF0000; text-decoration: underline; } 

@@ -1,0 +1,705 @@
+/* Grobal
+	----------------------------------------------------------------------------------------------------*/
+body {
+	color: #fff;
+	font: 14px/21px "Lucida Grande", "Hiragino Kaku Gothic Pro", "ÉqÉâÉMÉmäpÉS Pro W3", "ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", Arial, Verdana, sans-serif;
+	letter-spacing: 1px;
+	background-color: #242424;
+}
+
+a:link, a:visited {
+	color: #808080;
+	text-decoration: none;
+	border-bottom: 1px dotted #808080;
+}
+	
+a:hover, a:active {
+	color: #f3aa00;
+	border-bottom: 1px dotted #f3aa00;
+}
+
+h1.title {
+	color: #242424;
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-weight: bold;
+	font-style: bold;
+	width: 100%;
+}
+	
+h2 {
+	color: #242424;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+	
+img {
+	border: 0;
+}
+
+a.border-none {
+    border: 0;
+}
+
+a.translation-link {
+    visibility: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+/* For CSS Sticky Footer
+   ----------------------------------------------------------------------------------------------------*/
+	
+* {
+	margin: 0;
+}
+	
+html, body {
+	height: 100%;
+}
+	
+#withoutfooterwrapper {
+	background-color: #fff;	
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	}
+	
+#footerwrapper, .push {
+	height: 30px;
+}
+	
+	
+/* Header
+   ----------------------------------------------------------------------------------------------------*/
+#headerwrapper {	
+	background: #cdebf4 url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/background.png) repeat-x;
+}
+	
+div#topnav {
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+#title-japanese-link a, #title-english-link a {
+	border: 0;
+}
+
+body.i18n-ja #title-japanese-link a{
+    display: none;
+}
+
+body.i18n-en #title-english-link a{
+    display: none;
+}
+
+#title {
+	height:  100px;
+}
+
+#title-bottom, #title-twitter {
+	height:  31px;
+}
+
+#title, #title-bottom, #title-twitter {
+	padding-top: 0;
+	padding-bottom:  0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*--CSS Sprites - Default State--*/
+#title-twitter ul {
+	padding-top: 0;
+	padding-bottom:  0;
+	margin-top: 0;
+	margin-bottom: 0;
+    list-style-type: none;
+}
+
+#title-twitter ul a {
+	float: left;
+	display: block;
+	height: 31px; /*--Specify height of navigation--*/
+	text-indent: -99999px; /*--Shoot the text off the page--*/
+	background-position: left top;
+}
+
+/*--CSS Sprites - Hover State--*/
+
+#title-twitter ul a {
+    border: 0;
+}
+
+#title-twitter ul a:hover {
+	background-position: left -31px;
+}
+
+/*--Assign an image and width to each link--*/
+#title-twitter ul li a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/header/twitter.gif);
+	width: 160px;
+}
+
+
+/* Menu
+   ----------------------------------------------------------------------------------------------------*/
+	
+#menu {
+	height: 30px;
+}
+		
+#menuwrapper {
+	background-color: #242424;
+}
+
+/* Submenu
+   ----------------------------------------------------------------------------------------------------*/
+	
+#submenu {
+	height: 30px;
+}
+	
+div.menu-block-1 ul.menu ul {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	_zoom: 1;
+}
+	
+div.menu-block-1 ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+div.menu-block-1 ul.menu li a {
+	border: 0;
+	color: #fff;
+}
+
+div.menu-block-1 ul.menu li a:hover, ul.menu li a:active {
+	color: #fbe238;
+}
+div.menu-block-1 ul.menu li.active a, 
+div.menu-block-1 ul.menu li.active a:hover, 
+div.menu-block-1 ul.menu li.active a:active {
+	border: 0;
+    color: #333;
+}
+
+div.menu-block-1 ul.menu li.expanded, 
+div.menu-block-1 ul.menu li.collapsed,
+div.menu-block-1 ul.menu li.leaf {
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0 20px 0 0;
+  margin: 0;
+
+}
+	
+#submenuwrapper {
+	background-color: #f3aa00;
+}
+
+#submenuwrapper-clear {
+	background-color: #fff;
+}
+
+/* Contents
+   ----------------------------------------------------------------------------------------------------*/
+#contentwrapper {
+	background-color: #fff;
+}
+	
+#content-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #242424;
+}
+
+div.content div.column p {
+	padding-bottom: 20px;
+    padding-top: 10px;
+}	
+	
+div.content div.column {
+	padding-top: 20px;
+	padding-bottom:  20px;
+	margin-bottom: 0px;
+	border-top: 1px dotted #242424;
+	background-color: #fff;
+}
+
+div.content div.column div.box {
+	margin: 20px;
+	padding: 20px;
+	background-color: #e3e3e3;
+}
+
+div.content div.column ul, div.content div.column ol {
+	padding-left:  40px;
+	margin-top: 20px;	
+}
+
+div.content div.column ul  {
+	list-style-type: disc;
+}
+
+div.content div.column ul li, div.content div.column ul li {
+	padding-left: 10px;
+}
+
+div.content div.column ul.list{
+	padding-left: 0;
+	list-style-type: none;
+}
+	
+div.content div.column ul.list li{
+	padding-bottom: 10px;
+    padding-left: 0;
+}
+
+div.content div.highlight, div.content span.highlight {
+	color: #b8426f;
+	display: inline;
+	font-weight: bold;
+}
+
+div.content table {
+	width: 100%;
+}
+
+div.content table td {
+	padding: 5px;
+}
+
+div.content tbody {
+	border: 0;
+}
+
+div.content h3 {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: bold;
+	background-color: #ccc;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+div.content h4 {
+	font-size: 14px;
+	line-height: 21px;
+	background-color: #fbe238;
+	padding: 5px;
+	margin: 0px;
+}
+	
+div.content td.label {	
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+div.content td dl {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+div.content table.horizontal td.label {
+	background-color: #ccc;
+	text-align:  center;
+	width: 100px;
+	vertical-align: middle;
+}
+
+div.content table.horizontal td.text {
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+div.content table.horizontal td {
+	border-bottom: 2px solid #fff;
+}
+
+div.content td.sublabel {
+	background-color: #fbe238;
+}
+
+div.content td.text {
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+div.content dt {
+	font-weight: bold;
+}
+div.content dd {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}	
+
+/* Top page
+   ----------------------------------------------------------------------------------------------------*/
+#topMain {
+	width: 580px;
+  	margin-right: 10px;
+}
+
+#topSponsers {
+	width: 340px;
+  	margin-left: 10px;
+}
+
+#topMain, #topSponsers {
+	display: inline;
+  	float: left;
+  	position: relative;
+}
+
+/* Sponsers
+   ----------------------------------------------------------------------------------------------------*/
+#topSponsers table {
+	border: none;
+	margin: 0;
+	width: 340px;
+}
+
+#topSponsers td {
+	vertical-align: middle;
+	padding: 20px 0;
+}
+
+#topSponsers table.sponsersA, #topSponsers table.sponsersB {
+	border-bottom: 1px dotted #999;
+}
+
+#topSponsers table.sponsersB td {
+	width: 125px;
+}
+
+#topSponsers table.sponsersC td {
+	width: 70px;
+}
+
+#topSponsers table.sponsersB td.left {
+	padding-right: 45px;
+	text-align: center;
+}
+
+#topSponsers table.sponsersB td.right {
+	padding-left: 45px;
+	text-align: center;
+}
+
+#topSponsers table.sponsersC td.left {
+	padding-right: 10px;
+	text-align: center;
+}
+
+#topSponsers table.sponsersC td.right {
+	padding-left: 10px;
+	text-align: center;
+}
+
+#topSponsers table.sponsersC td.leftcenter {
+	width: 160px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+#topSponsers a {
+	border: none;
+}
+
+#topSponsers ul, #topSponsers ul li {
+	list-style: none;
+	padding: 5px 0;
+	margin: 0;
+}
+
+/* Footer
+   ----------------------------------------------------------------------------------------------------*/
+	
+#footerwrapper {
+	height: 30px;
+	background-color: #242424;
+}
+	
+#contact {
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+/* For Active state in navigation
+   ----------------------------------------------------------------------------------------------------*/
+	
+ul.main-menu {
+	margin: 0; padding: 0;
+	list-style: none;
+	float: left;
+}
+ul.main-menu li {
+	float: left;
+	margin: 0; padding: 0;
+}
+
+/*--CSS Sprites - Default State--*/
+ul.main-menu a {
+	float: left;
+	display: block;
+	height: 30px; /*--Specify height of navigation--*/
+	text-indent: -99999px; /*--Shoot the text off the page--*/
+	background-position: left top;
+}
+
+/*--CSS Sprites - Hover State--*/
+
+ul.main-menu a {
+    border: 0;
+}
+
+ul.main-menu a:hover {
+	background-position: left -30px;
+}
+
+/*--Assign an image and width to each link--*/
+body.i18n-ja ul.main-menu li.menu-121 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/home.png);
+	width: 110px;
+}
+body.i18n-ja ul.main-menu li.menu-122 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/outline.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-124 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/domesticcontest.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-123 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/regionalcontest.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-125 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/registration.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-126 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/pastcontests.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-127 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/links.png);
+	width: 120px;
+}
+body.i18n-ja ul.main-menu li.menu-128 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/contact.png);
+	width: 110px;
+}
+body.i18n-ja ul.main-menu li.menu-121.active-trail a,
+body.i18n-ja ul.main-menu li.menu-122.active-trail a,
+body.i18n-ja ul.main-menu li.menu-123.active-trail a,
+body.i18n-ja ul.main-menu li.menu-124.active-trail a,
+body.i18n-ja ul.main-menu li.menu-125.active-trail a,
+body.i18n-ja ul.main-menu li.menu-126.active-trail a,
+body.i18n-ja ul.main-menu li.menu-127.active-trail a,
+body.i18n-ja ul.main-menu li.menu-128.active-trail a {
+    background-position: left bottom;
+}
+
+body.i18n-en ul.main-menu li.menu-121 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/home.png);
+	width: 110px;
+}
+body.i18n-en ul.main-menu li.menu-188 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/outline.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-189 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/domesticcontest.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-190 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/regionalcontest.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-195 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/registration.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-198 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/pastcontests.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-199 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/links.png);
+	width: 120px;
+}
+body.i18n-en ul.main-menu li.menu-200 a {
+	background-image: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/menu/en/contact.png);
+	width: 110px;
+}
+body.i18n-en ul.main-menu li.menu-121.active-trail a,
+body.i18n-en ul.main-menu li.menu-188.active-trail a,
+body.i18n-en ul.main-menu li.menu-189.active-trail a,
+body.i18n-en ul.main-menu li.menu-190.active-trail a,
+body.i18n-en ul.main-menu li.menu-195.active-trail a,
+body.i18n-en ul.main-menu li.menu-198.active-trail a,
+body.i18n-en ul.main-menu li.menu-199.active-trail a,
+body.i18n-en ul.main-menu li.menu-200.active-trail a {
+    background-position: left bottom;
+}
+
+/* Ranking
+	----------------------------------------------------------------------------------------------------*/
+table#ranking thead tr, table#HonorableMention thead tr {
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+table#ranking tbody tr, table#HonorableMention tbody tr{
+	border-bottom: 1px solid #ccc;
+}
+table#ranking tbody tr.qualified {
+	font-weight: bold;
+	color:  #fff;
+	border-bottom: 1px solid #fff;
+}
+.qualified td {
+	background-color: #01a1cc;
+}
+
+/* Problems
+	----------------------------------------------------------------------------------------------------*/
+div.content div#problems table td, div.content div#problems table th{
+	border: 1px solid #242424;
+}
+div.content div#problems td {
+	padding: 5px;
+}
+div.content div#problems th {
+	background-color: #ccc;
+	text-align: center;
+	padding: 5px;
+}
+div.content div#problems a {
+	border: none;
+}
+div.content div#problems div.problem a:hover,  div.content div#problems div.problem a:active{
+	color: #242424;
+	border: none;
+}
+div.content div#problems div.problem h3 u {
+	text-decoration: none;
+}
+div.content div#problems div.problem p {
+	padding-bottom: 0;
+}
+
+/* Timetable
+	----------------------------------------------------------------------------------------------------*/
+div.content table.timetable {
+	margin: 10px;
+}
+
+div.content table.timetable td, div.content table.timetable th{
+	border: 1px solid #242424;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+div.content table.timetable th {
+	background: #ccc;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.content table.timetable td.sche-time {
+	text-align: center;
+	width: 15%;
+}
+
+div.content table.timetable td.sche-content {
+	text-align: left;
+	width: 40%;
+}
+
+div.content table.timetable td.sche-place {
+	text-align: left;
+	width: 45%;
+}
+
+/* Teamtable
+	----------------------------------------------------------------------------------------------------*/
+div.content table.team-table th, div.content table.team-table tr{
+	border-bottom: 1px solid #ccc;
+}
+
+div.content table.team-table th {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.content table.team-table td {
+	text-align: left;
+}
+
+div.content table.team-table td.team-name-intl, div.content table.team-table td.team-univ-intl, div.content table.team-table td.team-select-intl {
+	background: #e3e3e3;
+}
+
+/* Awards
+	----------------------------------------------------------------------------------------------------*/
+
+ol#awards {
+	margin-left: 100px;
+	padding-left: 0;
+	list-style: none;
+}
+
+ol#awards li {
+	background: url(http://icpc2010.honiden.nii.ac.jp/themes/ninesixty/images/crown.png) no-repeat;
+	padding-left: 150px;
+	margin: 20px 0;
+}
+
+ol#awards li.l1 {
+	background-position: left top;
+	height: 64px;
+	line-height: 64px;
+	font-size: 24px;
+}
+
+ol#awards li.l2, ol#awards li.l3{
+	height: 48px;
+	line-height: 48px;
+	font-size: 18px;
+}
+
+ol#awards li.l2{
+	background-position: left -64px;
+}
+
+ol#awards li.l3{
+	background-position: left bottom;
+}

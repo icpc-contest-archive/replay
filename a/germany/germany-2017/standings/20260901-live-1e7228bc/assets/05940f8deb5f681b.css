@@ -1,0 +1,254 @@
+.navbar, .nav {
+	width: 100%;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .navbar-default, .dropdown-menu .header {
+	background-color: #002143;
+	color: #ffffff;
+}
+.dropdown-menu .header {
+        font-weight: bold;
+        font-size: larger;
+        padding-left: 0.5em;
+}
+.navbar > .container .navbar-brand, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default a, .navbar-default a:hover, .navbar-default a:focus, .navbar-default .navbar-text, #timeleft {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #002143;
+	background-color: #ffffff;
+}
+.dropdown-menu > li > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #002143;
+}
+
+.dropdown-menu > li > a.pagetitle:hover, .dropdown-menu > li > a.pagetitle:focus {
+    background-color: #FFFFFF;
+}
+
+.navbar {
+	border-bottom-width: 5px;
+}
+.navbar .pagetitle {
+	font-weight: bold;
+	font-size: large;
+}
+.navbar .tumjudge-instance {
+	display: none;
+}
+.navbar .brand .dropdown-menu .page {
+	border-left-style: solid;
+	border-left-width: 10px;
+	margin-bottom: 2px;
+}
+
+.navbar .brand .dropdown-menu li {
+	width: 600px;
+}
+
+.navbar .brand .dropdown-menu .description {
+	position: absolute;
+	left: 130px;
+}
+
+.navbar .scrollable-menu {
+	height: auto;
+	max-height: 600px;
+	overflow-x: hidden;
+}
+
+.navbar .scrollable-menu::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 4px;        
+}    
+
+.navbar .scrollable-menu::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: #002143;
+	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}   
+
+
+/* free color: #ffcd00 */
+/* Design for different judge instances */
+.tumjudge-main .navbar {
+	border-bottom-color: #feff00;
+}
+.tumjudge-main .brand {
+	background-color: #feff00;
+}
+.navbar .brand .dropdown-menu .tumjudge-main {
+	border-left-color: #feff00;
+}
+.tumjudge-main .tumjudge-instance.tumjudge-main {
+	display: inline;
+}
+
+.tumjudge-test .navbar, .tumjudge-git .navbar {
+	border-bottom-color: #bae806;
+}
+.tumjudge-test .brand, .tumjudge-git .brand {
+	background: repeating-linear-gradient(
+		45deg,
+		#bae806,
+		#bae806 10px,
+		#cc5500 10px,
+		#cc5500 20px
+	);
+}
+.navbar .brand .dropdown-menu .tumjudge-test, .navbar .brand .dropdown-menu .tumjudge-git {
+	border-left-color: #bae806;
+}
+.tumjudge-test .tumjudge-instance.tumjudge-test, .tumjudge-git .tumjudge-instance.tumjudge-git {
+	display: inline;
+}
+
+.tumjudge-conpra .navbar, .tumjudge-info .navbar {
+	border-bottom-color: #2ece0c;
+}
+.tumjudge-conpra .brand, .tumjudge-info .brand {
+	background-color: #2ece0c;
+}
+.navbar .brand .dropdown-menu .tumjudge-conpra, .navbar .brand .dropdown-menu .tumjudge-info {
+	border-left-color: #2ece0c;
+}
+.tumjudge-conpra .tumjudge-instance.tumjudge-conpra, .tumjudge-info .tumjudge-instance.tumjudge-info {
+	display: inline;
+}
+
+.tumjudge-theo .navbar {
+       border-bottom-color: #cf9e0c;
+}
+.tumjudge-theo .brand {
+       background-color: #cf9e0c;
+}
+.navbar .brand .dropdown-menu .tumjudge-theo {
+       border-left-color: #cf9e0c;
+}
+.tumjudge-theo .tumjudge-instance.tumjudge-theo {
+       display: inline;
+}
+
+.tumjudge-contest .navbar, .tumjudge-discuss .navbar {
+	border-bottom-color: #0c99ce;
+}
+.tumjudge-contest .brand, .tumjudge-discuss .brand {
+	background-color: #0c99ce;
+}
+.navbar .brand .dropdown-menu .tumjudge-contest, .navbar .brand .dropdown-menu .tumjudge-discuss {
+	border-left-color: #0c99ce;
+}
+.tumjudge-contest .tumjudge-instance.tumjudge-contest, .tumjudge-discuss .tumjudge-instance.tumjudge-discuss {
+	display: inline;
+}
+
+.tumjudge-gad .navbar {
+	border-bottom-color: #0c5bce;
+}
+.tumjudge-gad .brand {
+	background-color: #0c5bce;
+}
+.navbar .brand .dropdown-menu .tumjudge-gad {
+	border-left-color: #0c5bce;
+}
+.tumjudge-gad .tumjudge-instance.tumjudge-gad {
+	display: inline;
+}
+
+.tumjudge-isabelle .navbar {
+	border-bottom-color: #1f0cce;
+}
+.tumjudge-isabelle .brand {
+	background-color: #1f0cce;
+}
+.navbar .brand .dropdown-menu .tumjudge-isabelle {
+	border-left-color: #1f0cce;
+}
+.tumjudge-isabelle .tumjudge-instance.tumjudge-isabelle {
+	display: inline;
+}
+
+.tumjudge-gcpc .navbar {
+	border-bottom-color: #800cce;
+}
+.tumjudge-gcpc .brand {
+	background-color: #800cce;
+}
+.navbar .brand .dropdown-menu .tumjudge-gcpc {
+	border-left-color: #800cce;
+}
+.tumjudge-gcpc .tumjudge-instance.tumjudge-gcpc {
+	display: inline;
+}
+
+.tumjudge-ioide .navbar {
+	border-bottom-color: #ce0c82;
+}
+.tumjudge-ioide .brand {
+	background-color: #ce0c82;
+}
+.navbar .brand .dropdown-menu .tumjudge-ioide {
+	border-left-color: #ce0c82;
+}
+.tumjudge-ioide .tumjudge-instance.tumjudge-ioide {
+	display: inline;
+}
+
+.tumjudge-ioiat .navbar {
+	border-bottom-color: #ff0000;
+}
+.tumjudge-ioiat .brand {
+	background-color: #ff0000;
+}
+.navbar .brand .dropdown-menu .tumjudge-ioiat {
+	border-left-color: #ff0000;
+}
+.tumjudge-ioiat .tumjudge-instance.tumjudge-ioiat {
+	display: inline;
+}
+
+.tumjudge-challenge .navbar {
+	border-bottom-color: #ff6000;
+}
+.tumjudge-challenge .brand {
+	background-color: #ff6000;
+}
+.navbar .brand .dropdown-menu .tumjudge-challenge {
+	border-left-color: #ff6000;
+}
+.tumjudge-challenge .tumjudge-instance.tumjudge-challenge {
+	display: inline;
+}
+
+.tumjudge-mlr .navbar {
+	border-bottom-color: #ff9a00;
+}
+.tumjudge-mlr .brand {
+	background-color: #ff9a00;
+}
+.navbar .brand .dropdown-menu .tumjudge-mlr {
+	border-left-color: #ff9a00;
+}
+.tumjudge-mlr .tumjudge-instance.tumjudge-mlr {
+	display: inline;
+}
+
+/*
+     FILE ARCHIVED ON 14:26:55 Jul 07, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:51:17 Oct 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 61.63
+  exclusion.robots: 0.097
+  exclusion.robots.policy: 0.086
+  cdx.remote: 0.075
+  esindex: 0.021
+  LoadShardBlock: 38.3 (3)
+  PetaboxLoader3.datanode: 54.859 (4)
+  load_resource: 111.301
+  PetaboxLoader3.resolve: 62.429
+*/

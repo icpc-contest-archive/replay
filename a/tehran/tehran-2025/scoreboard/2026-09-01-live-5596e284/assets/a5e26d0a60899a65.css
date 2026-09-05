@@ -1,0 +1,219 @@
+body {
+    font-family: Sahel, Arial, sans-serif;
+    font-size: 15px;
+    background: #111;
+    color: #fff;
+    padding-bottom: .7em;
+}
+
+.header {
+    padding: 20px 15px;
+    height: 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    background-color: #111;
+    top: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.scoreboard {
+    margin: 6em 15px 2.5em;
+}
+
+.footer {
+    color: gray;
+    font-size: 14px;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+/* -------------- Table styles -------------- */
+
+
+.score-row {
+    display: grid;
+    /* grid-template-columns: 50px 60px 1fr 55% 85px; */
+    align-items: center;
+    gap: 10px;
+    padding: 6px 16px;
+    margin-bottom: 8px;
+    background: #222;
+    border-radius: 8px;
+}
+
+.rank {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.logo.institution {
+    width: 40px;
+    height: 42px;
+    padding: 2px 5px;
+    background-color: white;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
+    max-height: 3em;
+}
+
+.problems {
+    display: flex;
+    gap: 6px;
+}
+
+.problems span {
+    background: #3a3a3a;
+    width: 25%;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.score-badge {
+    /* background: #32c739; */
+    padding: 6px 2px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.subtitle {
+    font-size: small;
+    color: gray;
+    line-height: 1em;
+}
+
+.scoreboard span,
+.score-badge {
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.scoreboard span.empty {
+    color: #888;
+}
+
+.scoreboard span.yes {
+    background-color: #32c739;
+    color: #111;
+}
+
+.scoreboard span.yes.first {
+    background-color: #19851e;
+}
+
+.scoreboard span.no {
+    background-color: #de290f;
+}
+
+.scoreboard span.pending {
+    background-color: #ffb200 !important;
+    color: #111;
+    cursor: pointer;
+}
+
+.muted {
+    font-size: 0.75em;
+    color: #555;
+    display: #111;
+}
+
+.no .muted {
+    color: #000;
+}
+
+.text-center {
+    display: block;
+    text-align: center !important;
+}
+
+span.balloon {
+    display: block !important;
+    width: 27px !important;
+    height: 40px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    background: url("../img/balloon.png") -1px -1px no-repeat;
+}
+
+/* -------------- Modal -------------- */
+
+#photoModal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#photoModal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#photoModal img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#closeModal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+    opacity: .7;
+}
+
+#closeModal:hover {
+    opacity: 1;
+}
+
+/* -------------- Font -------------- */
+
+@font-face {
+    font-family: "Sahel";
+    src: url("fonts/Sahel.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Sahel";
+    src: url("fonts/Sahel-Bold.woff2") format("woff2");
+    font-weight: 700;
+}

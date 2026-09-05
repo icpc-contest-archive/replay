@@ -1,0 +1,50 @@
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 0.7em;
+}
+
+h1 { color:#9C112E; }
+
+img.flag, img.school {
+	width: 28px;
+}
+
+th.rank {
+	text-align: left;
+}
+
+th.problem {
+	width: 40px;
+}
+
+td.rank {
+	text-align: right;
+	font-size: large;
+}
+
+td.solved, td.score {
+}
+
+td.flag, td.school {
+	text-align: center;
+}
+
+td.p_solved {
+	text-align: center;
+	background: lightgreen;
+}
+
+td.p_new {
+	text-align: center;
+	background: #40FF40;
+}
+
+td.p_pending {
+	text-align: center;
+	background: lightblue;
+}
+
+td.p_failed {
+	text-align: center;
+	background: pink;
+}

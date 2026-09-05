@@ -1,0 +1,67 @@
+﻿body {
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+}
+.solved
+{
+    background-color: #99FF99;
+    color: #000000;
+    font-weight: bold;
+}
+
+.attempted
+{
+    background-color: #FF7451;
+    color: #000000;
+}
+
+.notAttempted
+{
+    background-color: #FFFFFF;
+}
+
+.aus_main
+{
+    background-color:Green;
+    color:Black;
+    font-weight:bold;
+}
+
+.nz_main
+{
+    background-color:Black;
+    color:White;
+}
+
+.school
+{
+    background-color:cyan;
+    color:Black;
+}
+.guest
+{
+    background-color:orange;
+    color:Black;
+}
+H2 {
+	TEXT-ALIGN: center
+}
+H3 {
+	TEXT-ALIGN: center
+}
+H4 {
+	
+}
+.precontest
+{
+    color:brown;
+}
+.active
+{
+    color:black;
+}
+.finished
+{
+    color:blue;
+}

@@ -1,0 +1,9 @@
+body, p, h1, h2, h3, h4, td
+{
+font-family : verdana;
+}
+
+body, p, td
+{
+font-size : 10pt;
+}
