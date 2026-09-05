@@ -1,0 +1,67 @@
+.MenuBar{
+	padding: 0;
+	margin : 0;
+	display: block;
+	font-size: 10pt;
+	width: 180px;
+}
+.MenuBarDummy ul:before{
+	line-height: 0.1;
+	font-size: 1px;
+	background: transparent url("img/menu_tr.gif") no-repeat top right;
+	margin: 0;
+	height: 9px;
+	display: block;
+	border-bottom: 1px solid #aa6;
+	content: url("img/key-point_tl.gif");
+}
+.MenuBar ul{
+	border-top: 1px solid #aa6;
+	border-left: 1px solid #aa6;
+	background: #dd9 url("img/menu_back.gif") right repeat-y;
+	padding: 0;
+	margin: 0;
+}
+.MenuBarDummy ul:after{
+	display: block;
+	padding-top: 0;
+	line-height: 0.1;
+	font-size: 1px;
+	content:  url("img/key-point_bl.gif");
+	margin: 0 0 0 0;
+	height: 8px;
+	background: transparent url("img/menu_br.gif") scroll no-repeat bottom right ;
+	border-top: 1px solid #fff;
+}
+.MenuBar ul li {
+	display: inline;
+	padding: 0;
+}
+.MenuBar ul li a{
+	display: block;
+	padding: 3px 15px;
+	margin: 0;
+	text-decoration: none;
+	background: #eed;
+	color: #000;
+	border-bottom: 1px solid #aa6;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #aa6;
+}
+.MenuBar ul li a:hover {
+	background: #dd9;
+	text-decoration: none;
+	color: #000;
+}
+.MenuBar ul li a:visited {
+	color: #000;
+}
+
+.MenuBar p{
+	padding: 0px 0px;
+	margin: 2px;
+	font-weight:bold;
+	text-align:center;
+	color: #aa0;
+}
+

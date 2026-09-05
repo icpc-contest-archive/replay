@@ -1,0 +1,11 @@
+p  { text-align: center; font-family: monospace; }
+h2 { font-family: arial; font-size: 18; text-align: center; }
+h3 { font-family: arial; font-size: 16; }
+td    { font-family: monospace; vertical-align: top; font-size: 10pt;}
+td.r { text-align:right;}
+td.l { text-align:left;}
+td.c { text-align:center;}
+th   { font-family: monospace; vertical-align: top; font-size: 10pt; font-weight: bold;}
+th.r { text-align:right;}
+th.l { text-align:left;}
+th.c { text-align:center;}

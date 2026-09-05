@@ -23,8 +23,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/classes/socaltheme.css">
-<link rel="shortcut icon" href="/images/icpc-foundation-2018-favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
+<link rel="shortcut icon" href="assets/14e1d4d0186372c0.ico" type="image/x-icon">
 </head>
 <body>
 <div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/current/index.shtml">http://socalcontest.org/current/index.shtml</a> (content as captured 2018-11-24 via the Wayback Machine) 
@@ -47,7 +47,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 </table>
 </div>
 <div id="banner">
-<img src="/images/mast2018.png" width="800" alt="ICPC Banner" border="0" usemap="#Map">
+<img src="assets/3f0bb65cd1889aa4.png" width="800" alt="ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="5,0,435,75" href="http://socalcontest.org">
   <area shape="rect" coords="470,20,610,70" href="http://www.twosigma.com/" target="_blank">
@@ -75,7 +75,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
   <table border="0" cellpadding="3" cellspacing="0">
 	<tbody>
 		<tr>
-			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="images/icpc_logo_graphic_only.png" height="35" align="right"/></a></td>
+			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
 			<td><a href="http://icpc.baylor.edu" target="_new">ICPC Registration System at the ICPC Site.<br />
 			This is where a coach registers teams for the competition.</a></td>
 		</tr>
@@ -106,25 +106,25 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 		</tr>
 -->
 		<tr>
-			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="images/pp_cc_mark_37x23.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="assets/a1cc990315783fa4.jpg" height="35" align="right"/></a></td>
 			<td><a href="payment.shtml" target="_new">Send an electronic payment for the 2018 Registration Fees, $128.00 per team.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new"><img src="images/icpc_logo_graphic_only.png" height="35" align="right"/></a></td>
+			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
 			<td><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new">Regional Contest Information at the ICPC Site.<br />
 			See this page for the current list of registered teams.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="images/FB-f-Logo__blue_29.png" align="right" /></a></td>
+			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="assets/b2b1badfaa03eb46.png" align="right" /></a></td>
 			<td><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new">Find us on Facebook.  Topical discussions and announcements for the SoCal regional contest.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="images/Wikipedia-W-bold-in-square.svg.png" align="right"/></a></td>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="assets/1cf3f0a551921199.png" align="right"/></a></td>
 			<td><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new">Wikipedia entry about the International Collegiate Programming Contest.<br />
 			History and interesting links.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="contact.shtml" target="_new"><img src="images/email-icon-vector.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="assets/fbddbb8827a5b6b6.jpg" height="35" align="right"/></a></td>
 			<td><a href="contact.shtml" target="_new" />Contact Us.</a></td>
 		</tr>
 	</tbody>
@@ -142,7 +142,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
       <tr>
         <td valign="top"><a href="http://socalcontest.org/current/2017_2018/2017_bulletin1_welcome.php" /><em>Bulletin #1, 09-Oct-2017</em></a></td>
         <td>&nbsp;</td>
-        <td><a href="http://icpc.baylor.edu" target="_new"><img src="images/small.bmp" /></a></td>
+        <td><a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></td>
       </tr>
     </tbody>
 </table>
@@ -154,7 +154,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 
 <div id="hintlink">
 <center><br />
-<a href="http://icpc.baylor.edu" target="_new"><img src="images/small.bmp" /></a></center>
+<a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></center>
 </div>
 
 <div id="information">
@@ -435,6 +435,6 @@ document.write("<font size='-2' color='silver'>" + token[2] + "</font>")
 </table>
 </div>
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script></html>
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script></html>

@@ -9,7 +9,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 #icpc-archive-banner a{color:#8fc1f0}</style>
 
 <title>1998 ACM Greater NY Regional Collegiate Programming Contest</title>
-<link rel="icon" type="image/gif" href="/favicon.gif">
+<link rel="icon" type="image/gif" href="assets/8a81c1c959686eb7.gif">
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
@@ -22,7 +22,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <table>
 <tr>
   <td>
-    <a href="http://acm.baylor.edu"><img src="acmlogo.gif"
+    <a href="http://acm.baylor.edu"><img src="assets/e31390a040ae790f.gif"
     width="45" height="45" alt="ACM ICPC"></a>
   </td>
   <td valign="top">
@@ -35,7 +35,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     Bloomfield College in Bloomfield, NJ </font></b></center>
   </td>
   <td>
-    <a href="http://acm.baylor.edu"><img src="acmlogo.gif"
+    <a href="http://acm.baylor.edu"><img src="assets/e31390a040ae790f.gif"
     width="45" height="45" alt="ACM ICPC"></a>
   </td>
 </tr>

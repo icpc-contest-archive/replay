@@ -1,0 +1,11 @@
+BODY { color: #000000; background: #FFFFFF; font-family: Courier New; font-size: 12pt; font-weight: bold}
+P { color: #000000; font-family: Courier New; font-size: 12pt; font-weight: bold}
+TD { color: #BFBFBF; font-family: Courier New; font-size: 12pt;}
+H1 {font-size: 24pt; font-weight: bold; color: #FF3F3F;}
+.red {font-size: 16pt; font-weight: bold; color: #FF3F3F;}
+A {font-family: Courier New; font-weight: bold;}
+A.biglink {font-size: 20pt; text-decoration: none;}
+A:link {color: #3F3FFF;}
+A:visited {color: #FF3F3F;}
+A:active {color: #3F3FFF;}
+A:hover {color: #000000;}

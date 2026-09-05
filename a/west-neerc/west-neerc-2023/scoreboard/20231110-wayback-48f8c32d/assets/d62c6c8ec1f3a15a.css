@@ -1,0 +1,2342 @@
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.eot');
+  src: url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.eot?#iefix') format('embedded-opentype'),
+       local('Alegreya Sans SC Medium'),
+       local('Alegreya-Sans-SC-500'),
+       url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.woff2') format('woff2'),
+       url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.woff') format('woff'),
+       url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.ttf') format('truetype'),
+       url('./fonts/Alegreya-Sans-SC-500/Alegreya-Sans-SC-500.svg#AlegreyaSansSC') format('svg');
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body.ir-with-footer-2 {
+    /* Margin bottom by footer height */
+    margin-bottom: 52px;
+}
+body.ir-with-footer-3 {
+    /* Margin bottom by footer height */
+    margin-bottom: 70px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.footer-2 {
+    /* Set the fixed height of the footer here */
+    height: 52px;
+}
+.footer-3 {
+    /* Set the fixed height of the footer here */
+    height: 70px;
+}
+.ir-footer {
+    margin: 8px 0;
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+}
+.ir-footer a {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/**
+ * Jumbotron
+ */
+.ir-jumbotron h1 {
+    font-family: 'Alegreya Sans SC', Arial, sans-serif;
+    margin-bottom: 0;
+}
+.ir-jumbotron img {
+    margin-right: 0;
+    margin-left: auto;
+}
+.ir-jumbotron p.ir-logo-title {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+.ir-navbar-brand {
+    font-family: 'Alegreya Sans SC', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/**
+ * Course standings
+ */
+.ir-course-standings {
+    font-size: 12px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.ir-course-standings > tbody > tr:nth-of-type(even) > td, .ir-course-standings > thead > tr:nth-of-type(even) > th {
+    background-color: #ffffff;
+}
+.ir-course-standings > tbody > tr:nth-of-type(odd) > td, .ir-course-standings > thead > tr:nth-of-type(odd) > th {
+    background-color: #f9f9f9;
+}
+/* Create thick left border. .ir-seq-no is the first td or th in each row */
+.ir-course-standings .ir-seq-no {
+    border: none;
+    box-shadow: inset 5px 0 0 #ddd;
+    text-align: right;
+    padding-right: 4px;
+
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    left: 0;
+}
+.ir-course-standings .ir-seq-no.ir-subgroup-1 {
+    box-shadow: inset 5px 0 0 #F7EBAD;
+}
+.ir-course-standings .ir-seq-no.ir-subgroup-2 {
+    box-shadow: inset 5px 0 0 #D9EDF7;
+}
+.ir-course-standings .ir-seq-no.ir-subgroup-3 {
+    box-shadow: inset 5px 0 0 #e1b16a;
+}
+.ir-course-standings .ir-student-name {
+    border: none;
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 8px;
+    left: 32px;
+}
+/* border between header and body */
+.ir-course-standings > tbody > tr:first-child > td {
+    border-top: 2px solid #ddd;
+}
+/* highlight me */
+.ir-me > td, .ir-me > th {
+    background-color: #ffffcc;
+}
+/* usual cell */
+.ir-course-standings td, .ir-course-standings th {
+    border-right: 1px solid #ddd;
+}
+.ir-course-standings th {
+    border-bottom: 1px solid #ddd;
+    min-width: 2em;
+    vertical-align: top;
+    text-align: center;
+}
+.ir-course-standings th.ir-problem-name {
+    font-size: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+/* scorebox */
+.ir-course-standings .ir-scorebox {
+    min-width: 4em;
+    border-radius: 2px;
+    background-color: #dfdfdf;
+    color: white;
+    font-size: 0.9em;
+}
+.ir-course-standings .ir-scorebox-accepted {
+    color: white;
+    background-color: #76d276;
+}
+.ir-course-standings .ir-scorebox-accepted-after-deadline {
+    color: white;
+    background: repeating-linear-gradient(
+        -45deg,
+        #76d276,
+        #76d276 5px,
+        #dff0d8 5px,
+        #dff0d8 10px
+    );
+}
+.ir-course-standings .ir-scorebox-attempted {
+    color: white;
+    background-color: #f0ad4e;
+}
+
+.ir-course-standings .ir-problem-summary {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.ir-course-standings .ir-problem-summary span {
+    color: #aa6708;
+}
+
+.ir-stripe > .ir-box, .ir-stripe > a > .ir-box {
+    border-radius: 0;
+}
+.ir-stripe > .ir-box:first-child, .ir-stripe > a:first-child > .ir-box {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.ir-stripe > .ir-box:last-child, .ir-stripe > a:last-child > .ir-box {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.ir-stripe-wide {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.ir-course-standings > colgroup {
+    border-right: 2px solid #ddd;
+}
+
+/**
+ * Common tuning
+ */
+.ir-monospace {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 4px;
+}
+h1 { font-size: 32px; }
+h2 { font-size: 24px; line-height: 32px; }
+h3 { font-size: 20px; line-height: 32px; }
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.ir-card-link + .popover {
+    max-width: 380px;
+    min-width: 380px;
+}
+.ir-user-card-popover {
+    max-width: 380px;
+    min-width: 380px;
+}
+
+.ir-table-more-condensed > thead > tr > th,
+.ir-table-more-condensed > tbody > tr > th,
+.ir-table-more-condensed > tfoot > tr > th,
+.ir-table-more-condensed > thead > tr > td,
+.ir-table-more-condensed > tbody > tr > td,
+.ir-table-more-condensed > tfoot > tr > td {
+    padding: 2px;
+}
+
+.ir-compact-form .form-group {
+    margin-bottom: 8px;
+}
+
+.ir-compact-form .help-block {
+    margin-bottom: 0;
+}
+
+.ir-compact-table {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.ir-icon-label {
+    margin-left: 0.2em;
+}
+
+.ir-data {
+    white-space: pre;
+    word-wrap: normal;
+    word-break: normal;
+}
+
+.ir-last-name {
+    font-weight: 600;
+}
+
+.ir-problem-statement {
+    /*font-family: Verdana, sans-serif;*/
+    font-size: 14px;
+    line-height: 140%;
+}
+.ir-problem-statement h1 {
+    text-align: center;
+    font-size: 150%;
+    /*font-family: Arial, sans-serif;*/
+    font-weight: normal;
+    color: #225A8D;
+}
+.ir-problem-statement h2 {
+    font-size: 115%;
+    font-weight: bold;
+    /*font-family: Arial, sans-serif;*/
+    color: #225A8D;
+}
+.ir-problem-statement sup, sub {
+    vertical-align: 0;
+    position: relative;
+}
+.ir-problem-statement sup {
+    bottom: 1ex;
+}
+.ir-problem-statement sub {
+    top: 0.6ex;
+}
+.ir-problem-statement .inputs-outputs {
+    border-collapse: collapse;
+    width: 100%;
+}
+.ir-problem-statement .inputs-outputs td {
+    border: 1px solid #888;
+    background-color: #efefef;
+    padding: 4px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+    vertical-align: top;
+    min-width: 300px;
+    width: 50%;
+}
+.ir-problem-statement .inputs-outputs th {
+    border: 1px solid #888;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+.ir-problem-statement .infos {
+    color: #aaa;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+.ir-problem-statement img {
+    max-width: 100%;
+}
+
+/**
+ * Programming Language Box
+ */
+.ir-langbox {
+    /*
+    border-radius: 4px;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    width: 50px;
+    display: inline-block;*/
+    min-width: 4em;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.ir-langbox span {
+    font-size: 0.9em;
+}
+.ir-langbox-cpp, .ir-langbox-c {
+    /*background-color: #DD7E6B;*/
+    background-color: #FFDDB6;
+}
+.ir-langbox-java {
+    /*background-color: #FFE599;*/
+    background-color: #FFFFB3;
+}
+.ir-langbox-kt {
+    background-color: #f2bafa;
+}
+.ir-langbox-pas, .ir-langbox-dpr {
+    /*background-color: #A4C2F4;*/
+    background-color: #d2e0f9;
+}
+.ir-langbox-py {
+    /*background-color: #B4A7D6;*/
+    background-color: #d8cef3;
+}
+.ir-langbox-cs {
+    /*background-color: #B6D7A8;*/
+    background-color: #C2F1D9;
+}
+.ir-langbox-sh {
+    background-color: #777;
+    color: #0e0;
+}
+.ir-langbox-zip {
+    background-color: #777;
+    color: #FFFFFF;
+}
+.ir-langbox-asm {
+    background-color: #777;
+    color: #bff;
+}
+
+/**
+ * Language Select
+ */
+.ir-lang-fake-form {
+    display: inline;
+}
+.ir-lang-fake-form input[disabled] {
+    cursor: pointer;
+}
+
+
+/**
+ * Judgement Box
+ */
+.ir-judgementbox {
+    background-color: #f5f5f5;
+    color: #333;
+    min-width: 4.5em;
+    border-radius: 2px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.ir-judgementbox-ok {
+    color: #5cb85c;
+    background-color: #dff0d8;
+}
+.ir-judgementbox-fail {
+    color: #d9534f;
+    background-color: #f2dede;
+}
+.ir-judgementbox-pending {
+    color: #f0ad4e;
+    background-color: #fcf8e3;
+}
+
+/**
+ * Progress bars with centered text
+ */
+
+.ir-limit-progressbar {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.ir-limit-progressbar-filling {
+    background-color: #d9edf7;
+}
+
+.ir-limit-progressbar span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: #444;
+}
+
+/**
+ * Table Column
+ */
+.ir-testcase-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.panel .ir-testcase-table {
+    margin-bottom: 0;
+}
+.ir-testcase-table > thead > tr > th {
+    border-bottom: 2px solid #ddd;
+    padding: 1px 4px;
+    white-space: nowrap;
+}
+.ir-testcase-table > tbody > tr.ir-testcase-main-row > td {
+    border-top: 1px solid #ddd;
+    padding: 1px 4px;
+}
+.ir-testcase-table > tbody > tr.ir-testcase-hidden-row {
+    display: none;
+}
+.ir-testcase-table > tbody > tr.ir-testcase-hidden-row > td {
+    padding: 8px 8px 8px 8px;
+}
+/*.ir-testcase-table > tbody > tr > td:first-child,
+.ir-testcase-table > thead > tr > th:first-child {
+    padding-left: 16px;
+}
+.ir-testcase-table > tbody > tr > td:last-child,
+.ir-testcase-table > thead > tr > th:last-child {
+    padding-right: 16px;
+}*/
+.ir-col-min {
+    width: 1%;
+}
+.ir-col-min-center {
+    text-align: center;
+    width: 1%;
+}
+.ir-col-max {
+    max-width: 0;
+}
+
+.ir-col-limit {
+    width: 120px;
+    text-align: center;
+}
+
+.ir-col-score {
+    width: 80px;
+    text-align: center;
+}
+
+.ir-col-outcome {
+    width: 80px;
+    text-align: center;
+}
+.ir-col-outcome-wide {
+    text-align: left;
+    width: 300px;
+}
+.ir-col-no {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.ir-col-msg {
+    max-width: 0;
+}
+
+.ir-col-code {
+    width: 100px;
+    text-align: center;
+}
+
+.ir-col-arrow {
+    width: 32px;
+}
+
+.ir-checker-msg {
+    max-width: 0;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.ir-col-sourcelink {
+    width: 170px;
+}
+
+/**
+ * Tabs
+ */
+.ir-tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ir-pill-content {
+    padding-top: 10px;
+}
+
+
+/**
+ * Difficulty box
+ */
+.ir-difficultybox {
+    display: inline-block;
+    background: #d9edf7;
+    border-color: #d9edf7;
+    color: #337ab7;
+    height: 1.4em;
+    position: relative;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-right: 0.5em;
+    width: 1.6em;
+    text-align: center;
+}
+.ir-difficultybox:after {
+    left: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-width: 0.7em 0 0.7em 5px;
+    border-left-color: inherit;
+}
+.ir-difficultybox-used {
+    color: #333;
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+}
+/**
+ * Right pills
+ */
+.ir-inline-block {
+    display: inline-block;
+}
+.ir-condensed-pills > li > a {
+    padding: 6px 8px;
+}
+.ir-pagination-no-margin {
+    margin: 0;
+}
+
+/**
+ * Feedback messages list
+ */
+.ir-float-right {
+    float: right;
+}
+.ir-float-parent {
+    overflow: hidden;
+}
+
+
+/**
+ * Panels
+ */
+.ir-panel-heading {
+    padding: 6px 15px;
+}
+
+
+/**
+ * Log in/out form
+ */
+.ir-login-panel {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+
+/**
+ * Sheet
+ */
+.ir-sheet table, .ir-sheet td, .ir-sheet th {
+    border: 1px solid #ccc;
+}
+.ir-sheet tbody > tr:first-child > td {
+    border-top: 4px solid #ccc;
+}
+.ir-sheet td, .ir-sheet th {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    padding: 0 4px;
+    margin: 0;
+}
+.ir-sheet th {
+    text-align: center;
+    padding: 4px 4px;
+    font-size: 12px;
+}
+.ir-sheet .ir-activity {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ir-sheet .ir-final-mark {
+    background-color: #edf7fc;
+}
+.ir-sheet .ir-score {
+    text-align: right;
+}
+.ir-sheet td:focus {
+    background-color: #D9EDF7;
+}
+.ir-sheet-view .ir-sheet-bad {
+    color: #d9534f;
+}
+
+/**
+ * Two-panel multi choose
+ */
+.ir-threepanel-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.ir-threepanel-tab {
+    height: 480px;
+    font-size: 12px;
+    overflow-y: scroll;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+}
+.ir-threepanel-tab table {
+    width: 100%;
+}
+.ir-threepanel-tab tr > td {
+    padding: 2px;
+}
+.ir-threepanel-tab tr > td:first-child {
+    width: 20px;
+}
+
+.ir-threepanel-src > tr > td:first-child > span {
+    color: #dff0d8;
+}
+.ir-threepanel-src > tr.ir-active > td:first-child > span {
+    color: #3c763d;
+}
+
+.ir-threepanel-dst > tr > td:first-child > span {
+    color: #f2dede;
+}
+.ir-threepanel-dst > tr.ir-active > td:first-child > span {
+    color: #a94442;
+}
+
+.ir-threepanel-tab tr > td:first-child {
+    vertical-align: top;
+    padding-right: 4px;
+}
+.ir-threepanel-tab tr > td {
+    padding: 2px;
+}
+
+.ir-threepanel-tab tr.ir-active {
+    cursor: pointer;
+}
+.ir-threepanel-tab tr.ir-active:hover {
+    background: #f5f5f5;
+}
+.ir-threepanel-tab .ir-aux-label {
+    color: #aaa;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/**
+ *
+ */
+.ir-opt {
+    color: #000;
+}
+.ir-opt-gray {
+    color: #ccc;
+}
+
+.ir-icon-links {
+    font-size: 1.1em;
+}
+
+.ir-assignment {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.ir-assignment > tbody > tr > td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+.ir-assignment > div {
+    padding: 6px 8px;
+}
+.ir-assignment > ul > li {
+    padding: 6px 8px;
+}
+.ir-assignment .input-group-addon {
+    padding: 4px 8px;
+}
+.ir-assignment .form-control {
+    padding: 4px 8px;
+}
+.ir-assignment .form-group {
+    margin-bottom: 4px;
+}
+.ir-assignment select.form-control {
+    height: 28px;
+}
+.ir-assignment .checkbox {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.ir-assignment .ir-topic {
+    background-color: #fafafa;
+    width: 140px;
+}
+.ir-assignment .ir-topic .ir-topic-name {
+    padding-right: 20px;
+}
+.ir-assignment .ir-topic .ir-penalty-link {
+    margin-top: 4px;
+    font-size: 11px;
+}
+.ir-assignment .ir-penalty {
+    background-color: #FCF8E3;
+}
+.ir-assignment .ir-slot-penalty-cell {
+    background-color: #fcf8e3;
+}
+/*
+Yellow menu
+*/
+.ir-list-group-warning .active, .ir-list-group-warning .active:hover, .ir-list-group-warning .active:focus {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.ir-huge {
+    font-size: 40px;
+}
+
+.ir-no-margin {
+    margin: 0;
+}
+
+.ir-pagination {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.ir-pagination > li > span,
+.ir-pagination > li > a {
+    padding: 4px 8px;
+}
+.ir-pagination > li > span,
+.ir-pagination > li > span:hover,
+.ir-pagination > li > span:focus {
+    color: #ddd;
+    background-color: #fff;
+}
+.ir-pagination > li > a,
+.ir-pagination > li > a:hover,
+.ir-pagination > li > a:focus {
+    color: #000;
+}
+.ir-pagination > li > span.ir-selected,
+.ir-pagination > li > span.ir-selected:hover,
+.ir-pagination > li > span.ir-selected:focus {
+    color: black;
+    font-weight: bold;
+}
+.ir-pagination > li > span.ir-info,
+.ir-pagination > li > span.ir-info:hover,
+.ir-pagination > li > span.ir-info:focus {
+    color: #333;
+}
+
+
+.ir-pre {
+    padding: 0;
+    background-color: #fff;
+    -moz-tab-size: 4;
+    -o-tab-size:   4;
+    tab-size:      4;
+}
+
+.ir-toggle-row {
+    cursor: pointer;
+}
+.ir-arrow {
+    color: #ddd;
+}
+.ir-file-size {
+    color: #bbb;
+    font-size: 0.8em;
+}
+.ir-ajax-message {
+    padding: 40px;
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+}
+.ir-hidden-data {
+    padding-left: 40px;
+}
+
+.ir-solution-nav-pills > li > a {
+    padding: 4px 15px;
+}
+.ir-solution-nav-pills {
+    display: inline-block;
+    /*margin-top: 4px;
+    margin-bottom: 10px;*/
+}
+
+.ir-solution-panel {
+    /*margin-bottom: 0;*/
+}
+.ir-solution-panel dl {
+    /*margin-bottom: 0;*/
+}
+
+/**
+ * old iRunner-like folder tree
+ */
+.ir-folder-tree {
+}
+.ir-folder-tree ul {
+    list-style-type: none;
+    margin: 2px;
+    padding-left: 10px;
+}
+.ir-folder-tree > ul {
+    padding-left: 0;
+}
+.ir-folder-tree li {
+    font-size: 12px;
+}
+.ir-folder-tree .ir-bullet {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    padding: 0 4px;
+    border-radius: 2px;
+    background: #f5f5f5;
+    margin-right: 8px;
+    user-select: none;
+}
+.ir-folder-tree .ir-bullet-dyn {
+    cursor: pointer;
+    background: #e6e6e6;
+}
+
+/**
+ * criterion
+ */
+.ir-box {
+    display: inline-block;
+    text-align: center;
+}
+.ir-block-box {
+    display: block;
+    text-align: center;
+}
+.ir-criterion {
+    font-weight: bold;
+    font-size: 0.9em;
+    min-width: 1.4em;
+    border-radius: 2px;
+    background-color: #eee;
+    color: white;
+}
+
+.ir-criterion-yes {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.ir-criterion-no {
+    background-color: #ccc;
+    color: white;
+}
+
+.ir-criterion-editable {
+    cursor: pointer;
+}
+
+/*
+ * Solution filter
+ */
+.ir-solution-filter select {
+    min-width: 200px;
+    max-width: 200px;
+    padding: 4px 12px;
+    height: auto;
+}
+.ir-solution-filter input {
+    min-width: 160px;
+    max-width: 160px;
+    padding: 3px 12px;
+    height: auto;
+}
+.ir-solution-filter button {
+    padding: 3px 12px;
+    height: auto;
+}
+.ir-solution-filter {
+    background-color: #efefef;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    padding: 7px;
+    overflow: hidden;
+}
+
+/**
+ * Red menu
+ */
+.ir-list-group-danger .active, .ir-list-group-danger .active:hover, .ir-list-group-danger .active:focus {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+/*
+ * No objects message
+ */
+div.ir-absence {
+    padding: 20px 10px;
+    text-align: center;
+    font-style: italic;
+}
+span.ir-absence {
+    font-style: italic;
+}
+.ir-activity-plot {
+    height: 300px;
+}
+
+/**
+ * Score box
+ */
+.ir-scorebox {
+    min-width: 4em;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+    color: #888;
+    font-size: 0.9em;
+}
+/*.ir-scorebox-accepted {
+    color: #5cb85c;
+    background-color: #dff0d8;
+}*/
+
+.ir-scorecell {
+    min-width: 3.0em;
+    max-width: 3.5em;
+}
+
+/**
+ * Solutions
+ */
+.ir-col-time {
+    min-width: 140px;
+}
+
+
+.ir-best-solution {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.ir-subgroup-label {
+    color: #ccc;
+}
+
+.ir-folders-search {
+    margin-bottom: 10px;
+}
+
+/*
+ * Choose subgroup in course settings
+ */
+.ir-choose-subgroup .radio {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/**
+ * List of problems in course assignment page
+ */
+.ir-topic-problems-list th, .ir-topic-problems-list td {
+    font-size: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    vertical-align: middle;
+}
+.ir-topic-problems-list th {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+.ir-topic-problems-list > tbody > tr > td > button {
+    line-height: 1;
+}
+.ir-topic-problems-list .ir-full-width {
+    width: 100%;
+}
+
+.ir-fake-panel {
+    border: 1px solid #428bca;
+    border-left-width: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+.ir-problem-used a {
+    color: #ddd;
+}
+.ir-problem-used-me a {
+    color: #5cb85c;
+}
+
+.ir-button-before-text {
+    margin-right: 10px;
+    min-width: 120px;
+}
+
+/**
+ * Messaging system
+ */
+.ir-mail-message {
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ir-mail-message-unread {
+    border-left-color: #ce4844;
+}
+.ir-mail-message-first {
+    border-color: #337ab7;
+}
+.ir-mail-message-author {
+    float: left;
+}
+.ir-mail-message-date {
+    float: right;
+    color: #888;
+}
+.ir-mail-message-attachment {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+.ir-mail-message-heading {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.ir-mail-message .ir-subject {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ir-mail-thread {
+    padding: 4px 10px;
+}
+.ir-mail-thread-unresolved {
+    background-color: #faf2cc;
+}
+.ir-mail-thread-subject {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.ir-mail-thread-subject-unread {
+    font-weight: bold;
+    color: #ce4844;
+}
+.ir-mail-thread-problem {
+    color: #bbb;
+    font-size: 11px;
+    margin-left: 16px;
+}
+.ir-mail-thread-author {
+    color: #bbb;
+    font-size: 11px;
+    margin-left: 16px;
+}
+.ir-mail-thread-date {
+    float: right;
+    color: #888;
+    font-size: 11px;
+}
+.active .ir-mail-thread-date {
+    color: #eee;
+}
+
+/**
+ * Actions that appear on hover
+ */
+.ir-appear-on-hover {
+    visibility: hidden;
+}
+tr:hover .ir-appear-on-hover {
+    visibility: visible;
+}
+
+/**
+ * Group of icons
+ */
+.ir-icons span {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.ir-icons a {
+    color: #f0ad4e;
+}
+.ir-icons a:hover, .ir-icons a:focus {
+    color: #8a6d3b;
+}
+
+/**
+ * List of files per problem
+ */
+
+.ir-problem-files-table .ir-col-actions {
+    width: 120px;
+    text-align: center;
+}
+
+.ir-problem-files-table .ir-col-filename {
+    width: 250px;
+}
+
+.ir-problem-files-table .ir-col-filetype {
+    width: 230px;
+}
+
+.ir-problem-files-table .ir-col-compiler {
+    width: 1%;
+    text-align: center;
+}
+
+/**
+ * Test description images
+ */
+.ir-image-gallery {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-spacing: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.ir-image-gallery img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.ir-image-gallery > tbody > tr > td {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.ir-image-gallery-vertical {
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.ir-fit-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ir-test-description {
+    font-size: 12px;
+    background-color: #fcf8e3;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.ir-test-description a {
+    color: #8a6d3b;
+}
+
+.ir-imagebox {
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.ir-imagebox > div {
+    display: table;
+}
+.ir-imagebox > div > div {
+    display: table-cell;
+    min-width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ir-imagebox img {
+    max-height: 100%;
+    width: auto;
+}
+
+/*
+ * TeX editor
+ */
+.ir-tex-editor .btn-toolbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ir-tex-pre {
+    border: 0;
+    font-size: 11px;
+}
+.ir-tex-log {
+    min-height: 80px;
+}
+
+
+/*
+ * Prev-next folder nav
+ */
+.ir-navigator {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ir-navigator > div {
+    display: table-row;
+}
+.ir-navigator > div > div, .ir-navigator > div > a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+.ir-navigator > div > a:hover {
+    background-color: #eee;
+}
+.ir-navigator > div > a:first-child {
+    border-left: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 45px;
+}
+.ir-navigator > div > div > span {
+    color: #ccc;
+}
+.ir-navigator > div > a:last-child {
+    border-right: 1px solid #ddd;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 45px;
+}
+
+.ir-problem-heading {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ir-problem-heading .ir-problem-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #225A8D;
+}
+.ir-problem-heading .ir-problem-constraints {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/**
+ * Test info fake table
+ */
+.ir-test-info > tbody > tr > td:first-child {
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.ir-test-info > tbody > tr > td:last-child {
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.ir-test-info {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+/**
+ * Test edit
+ */
+.ir-test-limits {
+    width: 100%;
+}
+.ir-test-limits > tbody > tr > td {
+    vertical-align: middle;
+}
+.ir-test-limits > tbody > tr > td:first-child {
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+.ir-test-limits .form-control {
+    min-width: 100px;
+    max-width: 200px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.ir-test-limits .form-group {
+    margin: 0;
+    display: inline-block;
+}
+
+
+/**
+ * All problem images
+ */
+.ir-browse-image {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-color: #f8f8f8;
+}
+.ir-browse-image-data {
+    height: 200px;
+    margin: 4px;
+}
+
+
+/* Difflib HTML diff */
+.ir-difflib table {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 12px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #c0c0c0;
+    margin-bottom: 15px;
+}
+.ir-difflib td {
+    border: 1px solid #eeeeee;
+    white-space: pre-wrap;
+    vertical-align: top;
+}
+.ir-difflib .diff_header {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: right;
+    font-weight: bold;
+    background-color: #fafafa;
+}
+.ir-difflib .diff_next {
+    text-align: center;
+    background-color: #fafafa;
+    border-left: 2px solid #c0c0c0;
+}
+.ir-difflib .diff_next a {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-transform: uppercase;
+    background-color: #d9edf7;
+}
+.ir-difflib .diff_add {
+    background-color: #ddffdd;
+}
+.ir-difflib .diff_chg {
+    background-color: #fdfebc;
+}
+.ir-difflib .diff_sub {
+    background-color: #f8e4cc;
+}
+.ir-difflib span {
+    display: inline-block;
+}
+.ir-difflib tbody {
+    border-top: 18px solid #c0c0c0;
+}
+.ir-difflib tbody:first-of-type {
+    border-top: 0;
+}
+
+.ir-solution-timedelta {
+    font-style: italic;
+    color: #aaa;
+    text-align: left;
+    vertical-align: middle !important;
+}
+
+.ir-timeline {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    background-color: white !important;
+}
+.ir-timeline-1 {
+    width: 12px;
+    border-right: 2px solid #d9edf7;
+}
+.ir-timeline-2 {
+    width: 12px;
+}
+.ir-timeline-dot {
+    display: inline-block;
+    background-color: #d9edf7;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 8px;
+}
+.ir-timeline-dot-active {
+    display: inline-block;
+    background-color: #337ab7;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    left: 7px;
+}
+.ir-row-space {
+    background-color: #f8f8f8;
+}
+
+/**
+ * Progress bar
+ */
+.ir-progress {
+    max-width: 320px;
+}
+.ir-progress-good {
+    background-color: #5cb85c;
+}
+.ir-progress-bad {
+    background-color: #d9534f;
+}
+.ir-progress-neutral {
+    background-color: #f0ad4e;
+}
+
+
+/**
+ * Dotted href
+ */
+.ir-dotted {
+    border-bottom: dotted 1px #337ab7;
+}
+.ir-dotted, .ir-dotted:hover, .ir-dotted:active, .ir-dotted:visited, .ir-dotted:link {
+    text-decoration: none;
+}
+
+/**
+ * Validation status
+ */
+.ir-valid-true {
+    color: #5cb85c;
+}
+.ir-valid-false {
+    color: #d9534f;
+}
+.ir-valid-unk {
+    color: #ccc;
+}
+
+
+.ir-challenge-file {
+    padding: 12px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.ir-challenge-file-output {
+    border-left-color: #f0ad4e;
+}
+
+/*
+Green menu
+*/
+.ir-list-group-success .active, .ir-list-group-success .active:hover, .ir-list-group-success .active:focus {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+
+.ir-compiler-legacy {
+    color: #ccc;
+}
+
+/**
+ * Contest standings
+ */
+.ir-contest-standings {
+    width: 100%;
+    line-height: 14px;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: "Tahoma", "Geneva", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ir-contest-standings td, .ir-contest-standings th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.ir-contest-standings th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: top;
+}
+.ir-contest-standings th > small {
+    color: #777;
+    font-weight: normal;
+    font-size: 10px;
+}
+.ir-contest-standings th {
+    border-bottom: 3px solid #ddd;
+}
+.ir-contest-standings .ir-accepted {
+    color: #5cb85c;
+    font-weight: bold;
+}
+.ir-contest-standings .ir-rejected {
+    color: #d9534f;
+}
+.ir-contest-standings .ir-pending {
+    color: #f0ad4e;
+}
+.ir-contest-standings .ir-ts {
+    color: #333;
+    font-size: 10px;
+}
+.ir-contest-standings .ir-row-odd > td {
+    /*background-color: #EBEFF2;*/
+    background-color: #EEEEF0;
+}
+.ir-contest-standings .ir-row-even > td {
+    /*background-color: #CBDBEA;*/
+    /*background-color: #f8f8f8;*/
+    background-color: #ffffff;
+}
+.ir-contest-standings .ir-row-odd > .ir-recent {
+    background-color: #D8EAF0;
+}
+.ir-contest-standings .ir-row-even > .ir-recent {
+    background-color: #E6F9FF;
+}
+.ir-contest-standings .ir-column-place {
+    text-align: right;
+    padding-right: 4px;
+}
+.ir-contest-standings .ir-column-penalty {
+    text-align: right;
+}
+.ir-contest-standings .ir-column-contestant {
+    text-align: left;
+}
+.ir-contest-standings .ir-members {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.ir-contest-standings-header {
+    text-align: center;
+}
+.ir-contest-standings-header .ir-frozen {
+    color: #777;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ir-contest-standings-header .ir-last {
+    font-size: 12px;
+    color: #777;
+}
+
+.ir-contest-timing {
+    text-align: center;
+    font-size: 16px;
+}
+.ir-contest-timing .ir-state {
+    font-weight: bold;
+}
+.ir-contest-timing .ir-time {
+    color: #3c763d;
+}
+
+/**
+ * Contest messaging
+ */
+.ir-contest-message {
+    border: 1px solid #ddd;
+    border-left-width: 5px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+.ir-contest-message-unread, .ir-contest-message-unread-hoverable {
+    border-color: #f0ad4e;
+}
+
+.ir-contest-message-answered, .ir-contest-message-answered-hoverable {
+    border-color: #dff0d8;
+}
+.ir-contest-message-answered-hoverable:hover {
+    border-color: #d0e9c6;
+}
+
+.ir-contest-message-unanswered, .ir-contest-message-unanswered-hoverable {
+    border-color: #d9534f;
+}
+.ir-contest-message-unanswered-hoverable:hover {
+    border-color: #e4b9b9;
+}
+
+.ir-contest-message-hoverable:hover {
+    background-color: #f5f5f5;
+}
+.ir-contest-message .ir-link-spanner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* fixes overlap error in IE7/8 */
+    background-image: url('empty.gif');
+}
+.ir-contest-message p {
+    margin: 0;
+}
+.ir-contest-message .ir-when {
+    font-size: 12px;
+}
+.ir-contest-message .ir-sender {
+    font-size: 12px;
+}
+.ir-contest-message .ir-recipient {
+    color: #737373;
+    font-size: 12px;
+}
+.ir-contest-message .ir-subject {
+    font-weight: bold;
+}
+.ir-contest-message .ir-control {
+    margin-top: 10px;
+}
+.ir-contest-message .ir-control a {
+    color: #737373;
+}
+
+/**
+ * Plagiarism box
+ */
+.ir-plagiarismbox {
+    background-color: #f5f5f5;
+    color: #888;
+    min-width: 3em;
+    border-radius: 2px;
+    border: 1px solid #888;
+    font-size: 0.9em;
+}
+.ir-plagiarismbox a {
+    color: #888;
+}
+.ir-plagiarismbox-warning {
+    background-color: #fcf8e3;
+    border: 1px solid #f0ad4e;
+}
+.ir-plagiarismbox-warning a {
+    color: #f0ad4e;
+}
+.ir-plagiarismbox-danger {
+    background-color: #f2dede;
+    border: 1px solid #d9534f;
+}
+.ir-plagiarismbox-danger a {
+    color: #d9534f;
+}
+
+
+.ir-latest-solver {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.ir-accepted-solution-count {
+    color: #5cb85c;
+}
+.ir-all-solution-count {
+    color: #ccc;
+}
+
+/**
+ * Custom activity chart
+ */
+.ir-activity-chart {
+    display: table;
+    width: 100%;
+}
+.ir-activity-chart > .ir-row {
+    display: table-row;
+}
+.ir-activity-chart > .ir-row > .ir-bar-container {
+    display: table-cell;
+    height: 200px;
+    position: relative;
+}
+.ir-activity-chart .ir-bar {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.ir-activity-chart .ir-bar-container {
+    background-color: #fafafa;
+}
+.ir-activity-chart .ir-bar-container:hover {
+    background-color: #eeeeee;
+}
+.ir-activity-chart .ir-bar-container .ir-accepted {
+    background-color: #76d276;
+}
+.ir-activity-chart .ir-bar-container:hover .ir-accepted {
+    background-color: #5cb85c;
+}
+
+.ir-activity-chart .ir-bar-container .ir-rejected {
+    background-color: #f36d69;
+}
+.ir-activity-chart .ir-bar-container:hover .ir-rejected {
+    background-color: #d9534f;
+}
+
+/**
+ * Pygments
+ */
+.ir-pygments pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 13px;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.5em;
+    border: 0;
+    margin: 0;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    background-color: transparent;
+}
+.ir-pygments {
+    overflow-x: auto;
+    overflow-y: hidden; /* fixes display issues on Chrome browsers */
+    display: block;
+    margin-bottom: 10px;
+}
+.ir-pygments .linenos pre {
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    background-color: #fafafa;
+}
+.ir-pygments .code {
+    width: 100%;
+}
+.ir-pygments td {
+    vertical-align: top;
+}
+.ir-pygments .code pre {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+}
+.ir-pygments .linenos a {
+    color: #999;
+    text-decoration: none;
+}
+.ir-pygments .linenos a:active, .ir-pygments .linenos a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.ir-pygments .ir-referred-line {
+    background-color: #ff3;
+}
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+}
+
+
+/**
+ * Print version
+ */
+@media print {
+    .footer {
+        display: none;
+    }
+    .ir-difficultybox {
+        border: 0;
+    }
+    .ir-difficultybox:after {
+        border: 0;
+    }
+}
+
+/**
+ * User card
+ */
+.ir-card {
+    width: 100%;
+}
+.ir-card p {
+    margin-bottom: 4px;
+}
+.ir-card .ir-name {
+    font-size: 18px;
+}
+.ir-card .ir-members {
+    font-style: italic;
+}
+.ir-card ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+.ir-card ul > li {
+    font-size: 11px;
+}
+.ir-card .glyphicon {
+    color: #e1e1e8;
+}
+/**
+ * User card link
+ */
+.ir-card-link-nohref {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px dotted #555;
+}
+.ir-card-link-nohref:hover,
+.ir-card-link-nohref:focus {
+    color: #777;
+    text-decoration: none;
+    border-bottom: 1px dotted #777;
+}
+
+/**
+ * User card links in courses
+ */
+.ir-course-user-nolink {
+    color: #555;
+    text-decoration: none;
+}
+.ir-course-user-nolink .ir-lname {
+    font-weight: 600;
+}
+.ir-course-user-nolink:hover,
+.ir-course-user-nolink:focus {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #777;
+}
+
+.ir-course-user-link .ir-lname {
+    font-weight: 600;
+}
+
+/**
+ * User photo
+ */
+.ir-photobox {
+    display: inline-block;
+    border: 1px solid #e1e1e8;
+}
+.ir-photobox > div {
+    width: 96px;
+    height: 128px;
+    background-color: #efefef;
+}
+
+/**
+ * Subgroup badge
+ */
+.ir-subgroup-badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 2px 4px;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.ir-subgroup-badge-0 {
+    background-color: #777;
+}
+.ir-subgroup-badge-1 {
+    background-color: #F7EBAD;
+}
+.ir-subgroup-badge-2 {
+    background-color: #D9EDF7;
+}
+.ir-subgroup-badge-3 {
+    background-color: #e1b16a;
+}
+
+.ir-sample-test-mark {
+    /*color: #f0ad4e;*/
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+.ir-printout {
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    line-height: 11px;
+    white-space: pre-wrap;
+    padding: 4px;
+    margin: 0;
+}
+
+/* KaTeX */
+.ir-katex-displayed {
+    white-space: pre;
+}
+.ir-katex-inline {
+    white-space: pre;
+}
+.ir-err {
+    color: #cc0000;
+}
+
+.ir-badge-unresolved {
+    color: #faf2cc;
+    background-color: #8a6d3b;
+}
+
+.ir-course-list {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ir-course-list td {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: right;
+}
+.ir-course-list > tbody > tr > td:first-child {
+    width: 100%;
+    text-align: left;
+}
+
+.ir-course-list > thead > tr > th {
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #ddd;
+}
+
+.ir-course-list > thead > tr > th:first-child,
+.ir-course-list > tbody > tr > td:first-child {
+    padding-left: 15px;
+}
+.ir-course-list > thead > tr > th:last-child,
+.ir-course-list > tbody > tr > td:last-child {
+    padding-right: 15px;
+}
+
+/**
+ * Quizzes
+ */
+
+.ir-quiz-mark {
+    display: inline-block;
+    min-width: 2em;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: rgba(86, 61, 124, .15);
+    color: rgb(111, 84, 153);
+    text-align: center;
+    border-radius: 2px;
+    line-height: 100%;
+    padding: 2px;
+}
+.ir-quiz-pending-mark {
+    display: inline-block;
+    min-width: 2em;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: rgba(240, 173, 78, .15);
+    color: rgb(240, 173, 78);
+    text-align: center;
+    border-radius: 2px;
+    line-height: 100%;
+    padding: 2px;
+}
+.ir-quiz-pending-after-deadline-mark {
+    display: inline-block;
+    min-width: 2em;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: rgb(242, 222, 222);
+    color: rgb(217, 83, 79);
+    text-align: center;
+    border-radius: 2px;
+    line-height: 100%;
+    padding: 2px;
+}
+
+
+.ir-quiz-comment {
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ir-quiz-comment-author {
+    float: left;
+}
+.ir-quiz-comment-date {
+    float: right;
+    color: #888;
+}
+.ir-quiz-comment-heading {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+/**
+ * Violet menu
+ */
+.ir-list-group-quizzes .active, .ir-list-group-quizzes .active:hover, .ir-list-group-quizzes .active:focus {
+    background-color: #6f5499;
+    border-color: #6f5499;
+}
+.ir-list-group-quizzes li {
+    color: #563d7c;
+    background-color: #e5e1eb;
+}
+
+.ir-res-answer, .ir-res-legend {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 0!important;
+    margin-top: 0 !important;
+}
+
+.ir-res-answer-correct,
+.ir-res-answer-wrong,
+.ir-res-answer-notchosen {
+    padding-left: 11px !important;
+}
+
+.ir-res-answer-correct {
+    border-left: 4px solid #5cb85c;
+}
+
+.ir-res-answer-wrong {
+    border-left: 4px solid #d9534f;
+}
+
+.ir-res-answer-notchosen {
+    border-left: 4px solid #5bc0de;
+}
+
+.ir-res-problem, .ir-res-meta {
+    padding-bottom: 15px;
+}
+
+.ir-quiz-inline-btn {
+    float: left;
+    margin-right: 10px;
+}
+
+.ir-quiz-info-list {
+    padding-left: 15px;
+}
+
+.ir-statistics-block {
+    min-width: 310px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.ir-btn-without-border {
+    background-color: transparent;
+    border: none !important;
+}
+
+.ir-label-without-padding {
+    padding-left: 0 !important;
+}
+
+.ir-question-choice {
+    padding-bottom: 10px;
+}
+
+.ir-question-choice .radio {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* drag-and-drop quiz template editor */
+
+.ir-dnd-template-editor ul[dnd-list] {
+    min-height: 42px;
+    padding-left: 0;
+}
+
+.ir-dnd-template-editor ul[dnd-list] .dndDraggingSource {
+    display: none;
+}
+
+.ir-dnd-template-editor ul[dnd-list] .dndPlaceholder {
+    background-color: #ddd;
+    display: block;
+    min-height: 42px;
+}
+
+.ir-dnd-template-editor ul[dnd-list] li {
+    display: block;
+    padding: 3px 0 3px;
+    margin-bottom: -1px;
+    line-height: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.ir-dnd-template-editor ul[dnd-list] li:first-child {
+    border-top: 2px solid #ddd;
+}
+
+/* Test case reordering */
+.ir-test-reorder .dndDraggingSource {
+    display: none;
+}
+
+.ir-username {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.ir-username-aux {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: #aaa;
+}
+
+.ir-col-shrink {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.ir-table-nonfluid {
+   width: auto !important;
+}
+
+/**
+ * pylightex
+ */
+.pylightex {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.32;
+}
+.pylightex > .paragraph + .paragraph {
+    margin-top: 8px;
+}
+.pylightex .verbatim {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    white-space: pre-wrap;
+}
+.pylightex div.verbatim {
+    background-color: #f8f9fa;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    padding: 9px 14px;
+    margin: 4px 0;
+}
+.pylightex .path {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    white-space: pre-wrap;
+    font-style: italic;
+}
+.pylightex .monospace {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.pylightex .error {
+    color: red;
+    white-space: pre-wrap;
+}
+.pylightex .katex {
+    line-height: 1.1;
+    font-size: 1.1em;
+    white-space: nowrap;
+}
+.pylightex table.example {
+    width: 100%;
+    border-collapse: collapse;
+}
+.pylightex .example td {
+    white-space: pre-wrap;
+    vertical-align: top;
+    width: 50%;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    border: 1px solid #888;
+    background-color: #efefef;
+    padding: 0.3em;
+}
+.pylightex .example th {
+    width: 50%;
+    border: 1px solid #888;
+    padding: 0.3em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.pylightex h2, .pylightex h3 {
+    color: #225a8d;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.pylightex h2 {
+    font-size: 120%;
+}
+.pylightex h3 {
+    font-size: 100%;
+}
+.pylightex .center {
+    text-align: center;
+}
+.pylightex .mbox {
+    white-space: nowrap;
+}
+
+.ir-ace-editor {
+    width: 100%;
+    height: 30em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group.ir-required .control-label:after {
+    content: "*";
+    color: #d00;
+}
+
+/* Table with fixed left column and scrollable body */
+.ir-sticky-table-wrapper {
+    position: relative;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.ir-sticky-table-wrapper > table {
+    margin-bottom: 0;
+}
+.ir-sticky-column {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+.ir-sticky-first-column {
+    left: 0;
+}
+
+.ir-vgtu-jumbotron {
+    border: solid 8px #0b4dc7;
+    border-radius: 0 !important;
+    background-color: inherit;
+    clip-path: polygon(0 8px, 0 calc(100% - 16px), 16px 100%, calc(100% - 16px) 100%, 100% calc(100% - 16px), 100% 0, calc(50% + 8px) 0, 50% 8px, 8px 8px, 8px 0);
+}
+.ir-vgtu-jumbotron h1 {
+    color: #0b4dc7;
+}
+.ir-vgtu-jumbotron p {
+    color: #0b4dc7;
+}

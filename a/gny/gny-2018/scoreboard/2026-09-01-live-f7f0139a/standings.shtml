@@ -15,7 +15,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <html>
 <head>
 <title>ICPC Greater New York Regional Collegiate Programming Contest</title>
-<link rel="icon" type="image/gif" href="/favicon.gif">
+<link rel="icon" type="image/gif" href="assets/8a81c1c959686eb7.gif">
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
@@ -28,7 +28,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <table>
 <tr>
   <td valign="top">
-    <a href="http://icpc.global"><img src="/icpclogo_big.png"
+    <a href="http://icpc.global"><img src="assets/4963b353917600c9.png"
     height=100 alt="ICPC" border=0></a>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     </font></b></center>
   </td>
   <td valign="top">
-    <a href="http://icpc.global"><img src="/icpclogo_big.png"
+    <a href="http://icpc.global"><img src="assets/4963b353917600c9.png"
     height=100 alt="ICPC" border=0></a>
   </td>
 </tr>
@@ -57,7 +57,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <br>
 
 
-<center><img src="FirstPlace.jpg" width="600" height="338" /> </center>
+<center><img src="assets/5f93ff73fdc7ee90.jpg" width="600" height="338" /> </center>
 <br>
 <center><B>Greater New York Regional Champions for 2018 - "Columbia - Kington"</b></center>
 
@@ -84,46 +84,46 @@ Summary - ICPC Programming Contest -- Greater New York Region</TITLE>
 <td></td><td></td><td></td><td></td>
 </tr>
 <tr>
-<td>1</td><td><a href="team-photos/Team38-ColumbiaKington.jpg">Columbia - Kington</a></td><td>8</td><td>893</td><td>1/13</td><td>0/--</td><td>1/119</td><td>1/205</td><td>2/47</td><td>1/81</td><td>1/139</td><td>1/65</td><td>0/--</td><td>2/184</td><td>10/8</td>
+<td>1</td><td><a href="assets/345f6e89b2a4e162.jpg">Columbia - Kington</a></td><td>8</td><td>893</td><td>1/13</td><td>0/--</td><td>1/119</td><td>1/205</td><td>2/47</td><td>1/81</td><td>1/139</td><td>1/65</td><td>0/--</td><td>2/184</td><td>10/8</td>
 </tr>
 <tr>
-<td>2</td><td><a href="team-photos/Team42-Princeton1.jpg">Princeton 1</a></td><td>8</td><td>1185</td><td>1/5</td><td>0/--</td><td>1/75</td><td>1/246</td><td>7/195</td><td>2/67</td><td>1/203</td><td>1/102</td><td>0/--</td><td>1/152</td><td>15/8</td>
+<td>2</td><td><a href="assets/db5ca81740f9a79e.jpg">Princeton 1</a></td><td>8</td><td>1185</td><td>1/5</td><td>0/--</td><td>1/75</td><td>1/246</td><td>7/195</td><td>2/67</td><td>1/203</td><td>1/102</td><td>0/--</td><td>1/152</td><td>15/8</td>
 </tr>
 <tr>
-<td>3</td><td><a href="team-photos/Team71-Cornelli2.jpg">Cornell i^2</a></td><td>7</td><td>830</td><td>1/12</td><td>1/--</td><td>1/98</td><td>0/--</td><td>1/175</td><td>1/133</td><td>1/213</td><td>1/57</td><td>0/--</td><td>1/142</td><td>8/7</td>
+<td>3</td><td><a href="assets/0feec812ceca653c.jpg">Cornell i^2</a></td><td>7</td><td>830</td><td>1/12</td><td>1/--</td><td>1/98</td><td>0/--</td><td>1/175</td><td>1/133</td><td>1/213</td><td>1/57</td><td>0/--</td><td>1/142</td><td>8/7</td>
 </tr>
 <tr>
-<td>4</td><td><a href="team-photos/Team48-SBUEreshkigal.jpg">SBU-Ereshkigal</a></td><td>7</td><td>919</td><td>2/9</td><td>6/--</td><td>1/103</td><td>0/--</td><td>5/217</td><td>1/106</td><td>1/81</td><td>3/110</td><td>0/--</td><td>1/173</td><td>20/7</td>
+<td>4</td><td><a href="assets/2ff5158e63941ef6.jpg">SBU-Ereshkigal</a></td><td>7</td><td>919</td><td>2/9</td><td>6/--</td><td>1/103</td><td>0/--</td><td>5/217</td><td>1/106</td><td>1/81</td><td>3/110</td><td>0/--</td><td>1/173</td><td>20/7</td>
 </tr>
 <tr>
-<td>5</td><td><a href="team-photos/Team44-Princeton3.jpg">Princeton 3</a></td><td>7</td><td>993</td><td>1/6</td><td>0/--</td><td>1/162</td><td>0/--</td><td>1/186</td><td>1/103</td><td>1/211</td><td>1/43</td><td>0/--</td><td>1/282</td><td>7/7</td>
+<td>5</td><td><a href="assets/f77d0e9e6d877023.jpg">Princeton 3</a></td><td>7</td><td>993</td><td>1/6</td><td>0/--</td><td>1/162</td><td>0/--</td><td>1/186</td><td>1/103</td><td>1/211</td><td>1/43</td><td>0/--</td><td>1/282</td><td>7/7</td>
 </tr>
 <tr>
-<td>6</td><td><a href="team-photos/Team26-UnivRochester.jpg">Rochester 1</a></td><td>7</td><td>1147</td><td>1/6</td><td>2/--</td><td>2/82</td><td>4/--</td><td>6/121</td><td>7/241</td><td>1/140</td><td>1/54</td><td>0/--</td><td>1/263</td><td>25/7</td>
+<td>6</td><td><a href="assets/89edf0d83222e02e.jpg">Rochester 1</a></td><td>7</td><td>1147</td><td>1/6</td><td>2/--</td><td>2/82</td><td>4/--</td><td>6/121</td><td>7/241</td><td>1/140</td><td>1/54</td><td>0/--</td><td>1/263</td><td>25/7</td>
 </tr>
 <tr>
-<td>7</td><td><a href="team-photos/Team43-Princeton2.jpg">Princeton 2</a></td><td>6</td><td>994</td><td>1/7</td><td>0/--</td><td>1/76</td><td>0/--</td><td>5/241</td><td>1/154</td><td>0/--</td><td>2/117</td><td>0/--</td><td>1/299</td><td>11/6</td>
+<td>7</td><td><a href="assets/ef4487f215d80f8b.jpg">Princeton 2</a></td><td>6</td><td>994</td><td>1/7</td><td>0/--</td><td>1/76</td><td>0/--</td><td>5/241</td><td>1/154</td><td>0/--</td><td>2/117</td><td>0/--</td><td>1/299</td><td>11/6</td>
 </tr>
 <tr>
-<td>8</td><td><a href="team-photos/Team70-NYUHuaNong.jpg">NYU HuaNong Brothers</a></td><td>6</td><td>1127</td><td>1/10</td><td>0/--</td><td>1/233</td><td>0/--</td><td>4/221</td><td>3/181</td><td>1/--</td><td>1/83</td><td>0/--</td><td>1/299</td><td>12/6</td>
+<td>8</td><td><a href="assets/7a57da2f61ccaca7.jpg">NYU HuaNong Brothers</a></td><td>6</td><td>1127</td><td>1/10</td><td>0/--</td><td>1/233</td><td>0/--</td><td>4/221</td><td>3/181</td><td>1/--</td><td>1/83</td><td>0/--</td><td>1/299</td><td>12/6</td>
 </tr>
 <tr>
 <td>9</td><td>Cooper Union 1</td><td>6</td><td>1142</td><td>1/9</td><td>0/--</td><td>1/217</td><td>0/--</td><td>8/268</td><td>1/36</td><td>2/178</td><td>2/254</td><td>0/--</td><td>0/--</td><td>15/6</td>
 </tr>
 <tr>
-<td>10</td><td><a href="team-photos/Team30-NYU-SmallTransparent.jpg">NYU Small Transparent</a></td><td>5</td><td>652</td><td>1/9</td><td>0/--</td><td>1/128</td><td>0/--</td><td>4/181</td><td>1/98</td><td>0/--</td><td>1/176</td><td>0/--</td><td>0/--</td><td>8/5</td>
+<td>10</td><td><a href="assets/dd1c2267819c2994.jpg">NYU Small Transparent</a></td><td>5</td><td>652</td><td>1/9</td><td>0/--</td><td>1/128</td><td>0/--</td><td>4/181</td><td>1/98</td><td>0/--</td><td>1/176</td><td>0/--</td><td>0/--</td><td>8/5</td>
 </tr>
 <tr>
-<td>11</td><td><a href="team-photos/Team75-Cornell5.jpg">Cornell 5</a></td><td>5</td><td>736</td><td>1/6</td><td>0/--</td><td>2/175</td><td>0/--</td><td>2/98</td><td>2/--</td><td>0/--</td><td>1/139</td><td>0/--</td><td>1/278</td><td>9/5</td>
+<td>11</td><td><a href="assets/927a581ce5644e92.jpg">Cornell 5</a></td><td>5</td><td>736</td><td>1/6</td><td>0/--</td><td>2/175</td><td>0/--</td><td>2/98</td><td>2/--</td><td>0/--</td><td>1/139</td><td>0/--</td><td>1/278</td><td>9/5</td>
 </tr>
 <tr>
-<td>12</td><td><a href="team-photos/Team31-NYU-TooYoung.jpg">NYU TooYoung</a></td><td>5</td><td>749</td><td>1/12</td><td>0/--</td><td>2/119</td><td>0/--</td><td>2/144</td><td>3/--</td><td>4/--</td><td>1/148</td><td>0/--</td><td>1/286</td><td>14/5</td>
+<td>12</td><td><a href="assets/22ac67803c0f11d2.jpg">NYU TooYoung</a></td><td>5</td><td>749</td><td>1/12</td><td>0/--</td><td>2/119</td><td>0/--</td><td>2/144</td><td>3/--</td><td>4/--</td><td>1/148</td><td>0/--</td><td>1/286</td><td>14/5</td>
 </tr>
 <tr>
-<td>13</td><td><a href="team-photos/Team37-RutgersScarletPyrotechnics.jpg">Rutgers Scarlet Pyrotechnics</a></td><td>5</td><td>963</td><td>1/14</td><td>0/--</td><td>1/199</td><td>0/--</td><td>2/186</td><td>1/287</td><td>0/--</td><td>1/257</td><td>0/--</td><td>0/--</td><td>6/5</td>
+<td>13</td><td><a href="assets/cee5c86927f0234a.jpg">Rutgers Scarlet Pyrotechnics</a></td><td>5</td><td>963</td><td>1/14</td><td>0/--</td><td>1/199</td><td>0/--</td><td>2/186</td><td>1/287</td><td>0/--</td><td>1/257</td><td>0/--</td><td>0/--</td><td>6/5</td>
 </tr>
 <tr>
-<td>14</td><td><a href="team-photos/Team45-Princeton4.jpg">Princeton 4</a></td><td>4</td><td>395</td><td>1/46</td><td>0/--</td><td>1/78</td><td>7/--</td><td>4/--</td><td>1/152</td><td>0/--</td><td>1/119</td><td>0/--</td><td>0/--</td><td>15/4</td>
+<td>14</td><td><a href="assets/a3f320dd3bcd09bf.jpg">Princeton 4</a></td><td>4</td><td>395</td><td>1/46</td><td>0/--</td><td>1/78</td><td>7/--</td><td>4/--</td><td>1/152</td><td>0/--</td><td>1/119</td><td>0/--</td><td>0/--</td><td>15/4</td>
 </tr>
 <tr>
 <td>15</td><td><a href="team-photos/Team62-Yale3.jpg">Yale 3</a></td><td>4</td><td>521</td><td>1/14</td><td>0/--</td><td>2/154</td><td>0/--</td><td>3/--</td><td>3/--</td><td>0/--</td><td>1/61</td><td>0/--</td><td>1/272</td><td>11/4</td>

@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="cn" style="position:fixed; width: 100%; overflow: hidden; ">
+
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://acm.upc.edu.cn">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>登录 - i上编程</title>
+    <!-- 苹果液体玻璃效果所需SVG滤镜 -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <filter id="customLensFilter" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
+    <feComponentTransfer in="SourceAlpha" result="alpha">
+      <feFuncA type="identity" />
+    </feComponentTransfer>
+    <feGaussianBlur in="alpha" stdDeviation="50" result="blur" />
+    <feDisplacementMap in="SourceGraphic" in2="blur" scale="50" xChannelSelector="A" yChannelSelector="A" />
+  </filter>
+</svg>
+<!-- 玻璃效果样式 - 整合到.padding类中 -->
+
+<link rel="stylesheet" href="template/syzoj/css/style.css">
+<link rel="stylesheet" href="template/syzoj/css/tomorrow.css">
+<link rel="stylesheet" href="template/syzoj/css/semantic.min.css?v=0.1">
+<link rel="stylesheet" href="template/syzoj/css/katex.min.css">
+<link href="template/syzoj/css/morris.min.css" rel="stylesheet">
+<link href="template/syzoj/css/FiraMono.css" rel="stylesheet">
+<link href="template/syzoj/css/latin.css" rel="stylesheet">
+<link href="template/syzoj/css/Exo.css?v=0.1" rel="stylesheet">
+
+<link href="template/syzoj/css/white.css?v=0.1" rel="stylesheet">
+
+
+        <style>
+@media (max-width: 991px) {
+        .mobile-only {
+                display:block !important;
+        }
+
+        .desktop-only {
+            display:none !important;
+        }
+}
+
+/**毛玻璃背景*/
+.padding {
+  background: rgba(255,255,255,0.6);
+  box-shadow: inset 5px 5px 20px 0px rgba(255,255,255,0.1);
+  border-radius: 20px;
+      box-shadow: 10px -10px 20px rgb(255 255 255 / 20%), -10px 10px 20px rgb(255 255 255 / 10%);
+  backdrop-filter: blur(7px);
+  border-bottom:3px solid rgba(255,255,255,0.4);
+  border-right: 3px solid rgba(255,255,255,0.4);
+  border-left: 3px solid rgba(255, 255, 255, 0.4);
+  /*filter: brightness(1.1);*/
+}
+
+</style>
+    <script src="/include/jquery-latest.js"></script>
+
+<!-- Scripts -->
+<script>
+    console.log('\n %c HUSTOJ %c https://github.com/zhblue/hustoj %c\n', 'color: #fadfa3; background: #000000; padding:5px 0;', 'background: #fadfa3; padding:5px 0;', '');
+    console.log('\n %c Theme By %c Baoshuo ( @renbaoshuo ) %c https://baoshuo.ren %c\n', 'color: #fadfa3; background: #000000; padding:5px 0;', 'background: #fadfa3; padding:5px 0;', 'background: #ffbf33; padding:5px 0;', '');
+    console.log('\n GitHub Homepage: https://github.com/zhblue/hustoj \n Document: https://zhblue.github.io/hustoj \n Bug report URL: https://github.com/zhblue/hustoj/issues \n \n%c ★ Please give us a star on GitHub! ★ %c \n', 'color: red;', '')
+</script>
+</head>
+
+   
+<body id="MainBg-C" style="position: relative; margin-top: 49px; height: calc(100% - 49px); overflow-y: overlay;">
+<div id="icpc-archive-banner">Archived copy of <a href="http://acm.upc.edu.cn">http://acm.upc.edu.cn</a> (fetched 2026-09-04) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/qingdao-2016.html">qingdao-2016</a>)  <a href="https://web.archive.org/web/*/http://acm.upc.edu.cn">wayback</a></div>
+
+    <div id="page-header" class="ui fixed borderless menu" style="position: fixed; height: 49px; z-index:99999">
+        <div id="menu" class="ui stackable mobile ui container computer" style="margin-left:auto;margin-right:auto;">
+            <a class="header item"  href="/"><span
+                    style="font-family: 'Exo 2'; font-size: 1.5em; font-weight: 600; ">i上编程</span></a>
+            
+          <a class="desktop-only item" href="/"><i class="home icon"></i><span class="desktop-only">主页</span></a>            <!-- 问题 -->
+            <a class="item "
+                href="problemset.php"><i class="list icon"></i><span class="desktop-only">问题</span></a>
+            <!-- 状态 -->
+            <a class="item " href="status.php"><i
+                    class="tasks icon"></i><span class="desktop-only">状态</span></a>
+            <!-- 排名 -->
+            <a class="item  "
+                href="ranklist.php"><i class="signal icon"></i><span class="desktop-only">英雄榜</span></a>
+            <!--<a class="item " href="/discussion/global"><i class="comments icon"></i><span class="desktop-only">讨论版</span></a>-->
+            <!-- 专题训练 -->
+            <a class="item " href="contest.php" ><i
+                    class="trophy icon"></i><span class="desktop-only"> 专题训练</span></a>
+            <!-- 真题集锦 -->    
+            <a class="item  "
+                href="training.php"><i class="bullhorn icon"></i> <span class="desktop-only">真题集锦</span></a>
+
+            <!-- 初赛训练 -->
+            <a class="item  "
+                href="precsp/mcq_exam_list.php" target="_blank" rel="noopener noreferrer"><i class="bullhorn icon"></i> <span class="desktop-only">初赛训练</span></a>
+
+
+            <!-- 荣誉殿堂 -->
+                                <a class='item' href="hero.php"><i class="clipboard icon"></i> <span class="desktop-only">荣誉殿堂</span></a>
+              
+
+            <!-- 常见问答 -->
+            <a class="item " href="faqs.php"><i
+                    class="help circle icon"></i><span class="desktop-only"> 常见问答</span></a>
+                                    <div class="right menu">
+                
+
+                <div class="item">
+                    <a class="ui button" style="margin-right: 0.5em; " href="loginpage.php">
+                       登录                    </a>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+    <div style="margin-top: 49px; ">
+        <div id="main" class="ui main container">
+
+<div class="ui error message" id="error" hidden></div>
+<div class="ui middle aligned center aligned grid"  style="height: 500px;" >
+  <div class="row">
+    <div class="column" style="max-width: 450px">
+      <h2 class="ui image header">
+        <div class="content" style="margin-bottom: 10px; ">
+          登录        </div>
+      </h2>
+      <form class="ui large form" id="login" action="login.php" method="post" role="form" class="form-horizontal" onSubmit="return jsMd5();" >
+        <div class="ui existing segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input name="user_id" placeholder="用户名（学号）" type="text" id="username">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input name="password" placeholder="密码" autocomplete="off" type="password" id="password">
+            </div>
+          </div>
+                    <button name="submit" type="submit" class="ui fluid large submit button" >登录</button>
+        </div>
+
+        <div class="ui error message"></div>
+
+      </form>
+
+      <div class="ui message">
+
+        <a href="lostpassword.php">忘记密码</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="include/md5-min.js"></script>
+<script>
+  function jsMd5(){
+    if($("input[name=password]").val()=="") return false;
+    $("input[name=password]").val(hex_md5($("input[name=password]").val()));
+    return true;
+  }
+</script>
+<iframe id="sk" src="session.php" height=0px width=0px ></iframe>
+</div>
+</div>
+<script src="template/syzoj/css/semantic.min.js"></script>
+<script src="template/syzoj/css/Chart.min.js"></script>
+    <style>
+    .footer {
+        line-height: 1.4285em;
+        font-family: "Lato", "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "Droid Sans Fallback", "sans-serif";
+        box-sizing: inherit;
+        padding: 0 !important;
+        border: none !important;
+        color: #888;
+        font-size: 1rem;
+        margin: 35px 0 14px !important;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        background: none transparent;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    </style>
+    
+<!--  to enable mathjax in hustoj:
+svn export http://github.com/mathjax/MathJax/trunk /home/judge/src/web/mathjax
+<script type="text/javascript"
+  src="mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+-->
+<!--
+or
+<script type="text/javascript"
+  src="assets/7837fb499b87caf3.js">
+</script>
+
+-->
+<script src="template/bs3/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  var msg="<marquee style='margin-top:-10px;margin-bottom:10px' id=broadcast direction='left' scrollamount=3 scrolldelay=50 onMouseOver='this.stop()'"+
+      " onMouseOut='this.start()' class='padding' >"+""+"</marquee>";
+    $("form").append("<div id='csrf' />");
+  $("#csrf").load("csrf.php");
+  let left=window.innerWidth-parseInt($("#menu").css("width")) - 100;
+  left/=2;
+  $("#menu").attr("style","margin-left:auto;margin-right:auto;");
+  var screen_width = window.screen.width;
+  var screen_height = window.screen.height;
+  if(screen_width < 800) $("#main").attr("class","");
+  if(screen_width < 800) $("#MainBg-C").attr("class","");
+
+ $('body').css('background','url(/image/background.jpg)').css('background-repeat','no-repeat').css('background-size','100%');   if(window.location.href.indexOf("rank")==-1){
+	  $("tr").mouseover(function(){$(this).addClass("active")});
+	  $("tr").mouseout(function(){$(this).removeClass("active")})
+  }
+
+
+});
+
+
+function problem_add_source(sp,pid){
+	console.log("pid:"+pid);
+	let p=$(sp).parent();
+	p.html("<form onsubmit='return false;'><input type='hidden' name='m' value='problem_add_source'><input type='hidden' name='pid' value='"+pid+"'><input type='text' class='input input-large' name='ns'></form>");
+	p.find("input").focus();
+	p.find("input").change(function(){
+		console.log(p.find("form").serialize());
+		let ns=p.find("input[name=ns]").val();
+		console.log("new source:"+ns);
+		$.post("admin/ajax.php",p.find("form").serialize());
+		p.parent().append("<span class='label label-success'>"+ns+"</span>");
+		p.html("<span class='label label-success' pid='"+pid+"' onclick='problem_add_source(this,"+pid+");'>+</span>");
+	});
+}
+$(".hint pre").each(function(){
+        var plus="<span class='glyphicon glyphicon-plus'>点击查看剧透级题解</span>";
+        var content=$(this);
+        $(this).before(plus);
+        $(this).prev().click(function(){
+                content.toggle();
+        });
+   //     $(this).hide();
+});
+
+
+  console.log("If you want to change the appearance of the web pages, make a copy of bs3 under template directory.\nRename it to whatever you like, and change the $OJ_TEMPLATE value in db_info.inc.php\nAfter that modify files under your own directory .\n");
+  console.log("To enable mathjax in hustoj, check line 15 in /home/judge/src/web/template/bs3/js.php");
+  console.log( "█████████████████████████████████████████\n████ ▄▄▄▄▄ ██▄▄ ▀  █▀█▄▄██ ███ ▄▄▄▄▄ ████\n████ █   █ █▀▄  █▀██ ██▄▄  █▄█ █   █ ████\n████ █▄▄▄█ █▄▀ █▄█▀█  ▄▄█▀▀▄██ █▄▄▄█ ████\n████▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▀ █ ▀▄█▄▄▄▄▄▄▄████\n████ ▄▀▀█▄▄ █▄ █▄▄▄█▄█▀███▄  ██▀ ▄▀▀█████\n████▀█▀▀▀▀▄▀▀▄▀ ▄▄█▄ █▀▀ ▄▀▀▄  █▄▄▀▄█████\n████▄█ ▀▄▀▄▄ ▄ █▀█▀█ ▄▀▄ █▀▀▄█  ███  ████\n████▄ █▄ █▄▀▀▄██▀▄ ▄ ▄▄█▄█▀█▀   ▄█▀▄▀████\n████▄▄█   ▄▄██ █▄▄▀  ▄▀█▀▀▀ ▄█▀▄▄▀█ ▀████\n█████▄   ▀▄▄█ ▄▀▄▄▀▄▄▄▀▄▀█▀  ▀▀█▄█▀█▄████\n████ ▀ █▄▀▄▄█▀▀▄▀▀▄▄▄ ▀▀█▀ ▀▄▄█▀ ▀█ █████\n████ █▀   ▄ ▄ ▀█▀▄█ █▄▄███▀██▀▀██ ▀▄█████\n████▄▄▄██▄▄█ ▀█▄▄▄▀█ █▀▀█▀ █ ▄▄▄ █▀▄▀████\n████ ▄▄▄▄▄ █ ▄  ▄▄▀  ▄ ▀▄▄▄▄ █▄█   ▄█████\n████ █   █ ██ ▄▄▀▀█ ▀▀▀▀▀ ▄▀  ▄  ▀███████\n████ █▄▄▄█ █▀▄▄▄▀▀█ ▀▄ ▄▀██▄█ ██ █ █▄████\n████▄▄▄▄▄▄▄█▄███▄█▄▄▄████▄▄▄▄▄▄█▄██▄█████\n█████████████████████████████████████████\n            QQ扫码加官方群");
+</script>
+
+    <div class="footer">
+        <div class="ui center aligned container" title="如果你想移除这个信息，请编辑template/syzoj/footer.php" >
+            <div>i上编程 is powered by <a style="color: inherit !important;" class=" " title="GitHub"
+                    target="_blank" rel="noreferrer noopener" href="https://github.com/zhblue/hustoj">HUSTOJ</a>, Theme
+                by <a style="color: inherit !important;" href="https://github.com/syzoj">SYZOJ</a></div>
+         <!--   <div> Running on <a href='https://debian.org' target='_blank'>Debian11</a> / <a href='https://www.loongson.cn' target='_blank'>Loongson 3A3000</a> </div> -->
+                    </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
+<!--not cached-->

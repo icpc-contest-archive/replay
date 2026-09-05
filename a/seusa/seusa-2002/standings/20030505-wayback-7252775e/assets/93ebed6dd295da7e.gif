@@ -1,0 +1,993 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html id="top" xmlns="http://www.w3.org/1999/xhtml" xmlns:jspwiki="http://www.jspwiki.org">
+
+<head>
+  <title>
+    ICPCWiki: History
+  </title>
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" media="screen, projection, print" type="text/css"
+     href="/ICPCWiki/templates/default/jspwiki.css"/>
+
+<link rel="stylesheet" type="text/css" media="print" 
+     href="/ICPCWiki/templates/default/jspwiki_print.css" />
+<!-- INCLUDERESOURCES (stylesheet) -->
+
+<!-- INCLUDERESOURCES (inlinecss) -->
+
+
+
+<noscript>
+<style type="text/css">
+#hiddenmorepopup { display:block; }
+</style>
+</noscript>
+
+
+<script type="text/javascript" src="/ICPCWiki/scripts/mootools.js"></script>
+<script type="text/javascript" src="/ICPCWiki/scripts/prettify.js"></script>
+<script type="text/javascript" src="/ICPCWiki/scripts/jspwiki-common.js"></script>
+<script type="text/javascript" src="/ICPCWiki/scripts/jspwiki-commonstyles.js"></script>
+<!-- INCLUDERESOURCES (script) -->
+
+
+
+
+
+<meta name="wikiContext" content='view' />
+<meta name="wikiBaseUrl" content='http://icpc.baylor.edu/ICPCWiki/' />
+<meta name="wikiPageUrl" content='/ICPCWiki/Wiki.jsp?page=%23%24%25' />
+<meta name="wikiEditUrl" content='/ICPCWiki/Edit.jsp?page=History' />
+<meta name="wikiJsonUrl" content='/ICPCWiki/JSON-RPC' />
+<meta name="wikiPageName" content='History' />
+<meta name="wikiUserName" content='129.62.151.16' />
+<meta name="wikiTemplateUrl" content='/ICPCWiki/templates/default/' />
+<meta name="wikiApplicationName" content='ICPCWiki' />
+
+<script type="text/javascript">//<![CDATA[
+/* Localized javascript strings: LocalizedStrings[] */
+var LocalizedStrings = {
+"javascript.edit.allsections":"( All )",
+"javascript.slimbox.error":"<h2>Error</h2>There was a problem with your request.<br />Please try again",
+"javascript.slimbox.remoteRequest":"Remote Request {0} of {1}",
+"javascript.slimbox.close":"Close &#215;",
+"javascript.quick.edit":"[Edit]",
+"javascript.sort.descending":"Descending order. Click to reverse sort order",
+"javascript.expand":"Click to expand",
+"javascript.group.validName":"Please provide a valid name for the new Group",
+"javascript.slimbox.next":"Next&raquo;",
+"javascript.filter.all":"( All )",
+"javascript.edit.areyousure":"Without clicking the Save button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.quick.edit.title":"Edit section {0}...",
+"javascript.slimbox.directLink":"Direct Link to the target",
+"javascript.prefs.areyousure":"Without clicking the Save User Preferences button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.sbox.clone.suffix":"-New",
+"javascript.slimbox.info":"Image {0} of {1}",
+"javascript.tip.default.title":"More...",
+"javascript.edit.resize":"Drag to resize the text area",
+"javascript.edit.findandreplace.nomatch":"No match found!",
+"javascript.sort.ascending":"Ascending order. Click to reverse sort order",
+"javascript.slimbox.close.title":"Close [Esc]",
+"javascript.edit.toolbar.makeSelection":"Please make first a selection.",
+"javascript.favs.hide":"Click to hide Favorites",
+"javascript.sectionediting.label":"Section Overview",
+"javascript.slimbox.previous":"&laquo;Previous",
+"javascript.favs.show":"Click to show Favorites",
+"javascript.collapse":"Click to collapse",
+"javascript.category.title":"Click to show category [{0}] ...",
+"javascript.sort.click":"Click to sort",
+"javascript.edit.startOfPage":"( Start of page )"
+};
+
+
+/* INCLUDERESOURCES (jsfunction) */
+
+//]]></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="search" href="/ICPCWiki/Wiki.jsp?page=FindPage"
+    title='Search ICPCWiki' />
+<link rel="help"   href="/ICPCWiki/Wiki.jsp?page=TextFormattingRules"
+    title="Help" />
+
+ <link rel="start"  href="/ICPCWiki/Wiki.jsp?page=Main"
+    title="Front page" />
+<link rel="alternate stylesheet" type="text/css" href="/ICPCWiki/templates/default/jspwiki_print.css"
+    title="Print friendly" />
+<link rel="alternate stylesheet" type="text/css" href="/ICPCWiki/templates/default/jspwiki.css"
+    title="Standard" />
+<link rel="shortcut icon" type="image/x-icon" href="/ICPCWiki/images/favicon.ico" />
+
+<link rel="icon" type="image/x-icon" href="/ICPCWiki/images/favicon.ico" />
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+</head>
+
+<body class="view">
+
+<div id="wikibody" class="fav-left">
+ 
+  
+
+
+
+
+
+
+<div id="header">
+
+  <div class="titlebox"><div class="center">
+<a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=TitleBox">Welcome</a> to <a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=About">JSPWiki</a>
+</div>
+</div>
+
+  <div class="applicationlogo" > 
+    <a href="http://icpc.baylor.edu/welcome.icpc"
+       title="Go To Welcome Page"/></a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+   
+
+
+
+
+
+
+<div class="mainTopMenu">
+<div class="topMenu" id="topMenu">
+	<ul class="level1">
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=World%20Finals"><span class="decoration"></span>world finals</a>
+	<!--	<ul class="level2">
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Results%20World%20Finals%202008">2008 Final Results</a></li>
+		    <li><a href="http://icpc.baylor.edu/icpc/Finals/2008WorldFinalsProblemSet.pdf">2008 Problem Set</a></li>
+		    <li><a href="http://icpc.baylor.edu/dmt/default.asp?page=press_kit">Press Kit</a></li>
+		    <li><a href="http://icpc.baylor.edu/dmt/">Photos &amp; Video</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=World%20Finals%20Rules">World Finals Rules</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=World%20Final%20Schedule%20of%20Events">Schedule</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Activities">Activities</a></li>
+		</ul>-->
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Regionals"><span class="decoration"></span>regionals</a>
+<!--                <ul class="level2">                               
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/upcomingRegionals.jsf">Regional Results</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Regional%20Rules">Regional Rules</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Getting%20Involved">Getting Involved</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Hosting%20a%20Regional%20Contest">Hosting a Regional</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Starting%20a%20New%20Regional%20Contest">Starting a Regional</a></li>
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/reportTeamSite.jsf">ICPC Participation</a></li>
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/reportContest.jsf">Regional Info</a></li>
+		</ul>-->
+
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Compete"><span class="decoration"></span>compete</a>
+<!--                <ul class="level2">           
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=Preparing%20for%20the%20Competition">Preparation</a></li>
+ 		    <li><a href="http://cm2prod.baylor.edu/resources/pdf/ppgs.pdf">Policies &amp; Procedures</a></li>                    
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=FAQs">FAQs</a></li>
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=Problems">The Problems</a></li>
+		</ul>
+-->
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Community"><span class="decoration"></span>community</a> 
+   <!--             <ul class="level2">     
+  			<li><a href="http://www.ibm.com/university/acmcontest/">IBM Sponsorship</a></li>
+			<li><a href="http://www.acm.org/upe">Upsilon Pi Epsilon</a></li>
+			<li><a href="http://www.acm.org">ACM</a></li>
+			<li><a href="../ICPCWiki/attach/staticResources/Factsheet.pdf">Fact Sheet</a></li>
+			<li><a href="http://www.developer.ibm.com/university/students/contests/acm/">Newsroom</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=History">History</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=Contacts">Contacts</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=Credits">Credits</a></li>                          
+		</ul>
+-->
+	</li>	
+        </ul>
+</div>
+</div>
+
+
+
+<!--
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+ 
+  
+  
+  <div class="clearbox"></div>
+
+</div>
+
+<div class="loginBox">
+-->
+  
+<!--
+  
+  
+    
+      <a href="/ICPCWiki/Login.jsp?redirect=History" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  -->
+  
+<!--
+  
+  
+    <a href="/ICPCWiki/UserPreferences.jsp?redirect=History"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+  -->
+  <div class="clearbox"></div>
+
+</div>
+
+
+  <div class="pagename">History</div>
+
+  <div class="searchbox">
+
+
+
+
+
+
+<form action="/ICPCWiki/Search.jsp"
+        class="wikiform"
+           id="searchForm" accept-charset="UTF-8">
+
+  <div style="position:relative">
+  <input onblur="if( this.value == '' ) { this.value = this.defaultValue }; return true; "
+        onfocus="if( this.value == this.defaultValue ) { this.value = ''}; return true; "
+           type="text" value="Quick Navigation"
+           name="query" id="query"
+           size="20" 
+      accesskey="f" />
+  <button type="submit"
+  		 name="searchSubmit" id="searchSubmit"
+  		value="Go!"
+  		title="Go!"></button>
+  </div>
+  <div id="searchboxMenu" style='visibility:hidden;'>
+    <div id="searchTools">
+      <a href="#" id='quickView' class='action'
+      onclick="SearchBox.navigate( '/ICPCWiki/Wiki.jsp?page=__PAGEHERE__','View the selected page' );"
+        title="View the selected page">view</a>
+      <a href="#" id='quickEdit' class='action'
+      onclick="SearchBox.navigate( '/ICPCWiki/Edit.jsp?page=__PAGEHERE__','Edit the selected page' );"
+        title="Edit the selected page">edit</a>
+      <a href="#" id='quickClone' class='action'	
+      onclick="return SearchBox.navigate( '/ICPCWiki/Edit.jsp?page=__PAGEHERE__', 'Clone the selected page', true );"
+        title="Clone the selected page">clone</a>
+      <a href="#" id="advancedSearch" class='action'
+      onclick="SearchBox.navigate( 'http://icpc.baylor.edu/ICPCWiki/Search.jsp?query=__PAGEHERE__','History' )"
+        title="Advanced Search [ f ]">find</a>
+    </div>
+    <div id="searchResult" >
+	  Quick search
+      <span id="searchTarget" >(type ahead)</span>
+      <span id="searchSpin" class="spin" style="position:absolute;display:none;"></span>
+	  <div id="searchOutput" ></div>
+    </div>
+    <div id="recentSearches" style="display:none;">
+      Recent Searches
+      <span><a href="#" id="recentClear">(Clear)</a></span>
+    </div>
+  </div>
+
+</form></div>
+
+  <div class="breadcrumbs">Your trail:&nbsp;</div>
+
+</div>
+
+  <div id="content">
+
+    <div id="page">
+      
+
+
+
+
+
+<div id="actionsTop" class="pageactions"> 
+  <ul>
+
+    
+    
+    
+
+    
+  
+    
+
+  </ul>
+</div>
+
+      
+
+
+
+
+
+
+
+
+<div class="tabmenu">
+
+  
+
+  
+
+  
+  
+  
+    
+  
+    
+  
+
+
+
+  <a class="activetab" id="menu-pagecontent" accesskey="v" ><span class='accesskey'>V</span>iew</a>
+
+  
+
+  
+  <a id="menu-attach" accesskey="a" ><span class='accesskey'>A</span>ttach (1)</a>
+  
+    
+  <a id="menu-info" href='/ICPCWiki/PageInfo.jsp?page=History' accesskey="i" ><span class='accesskey'>I</span>nfo</a>
+    
+  
+
+</div>
+<div class="tabs">
+
+  <div id="pagecontent" >
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Champions">Champions</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=ICPC%20Challenge%20Hall%20of%20Champions">ICPC Challenge Hall of Champions</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Award%20-%20DI%20Service">Award - DI Service</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Award%20-%20Measures">Award - Measures</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Award%20-%20DeBlasi">Award - DeBlasi</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Award%20-%20Coach">Award - Coach</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Award%20-%20CLI%20Fellows">Award - CLI Fellows</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Problem%20Resources">Past World Finals Problems</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Past%20Participation">Past Participation</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202012">History - ICPC 2012</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202011">History - ICPC 2011</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202010">History - ICPC 2010</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202009">History - ICPC 2009</a>
+</li></ul><!--
+<ul><li><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202009">Results</a>
+</li><li><a class="external" href="http://cm.baylor.edu/history/2009.html">Snapshot of the web page</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" />
+</li></ul></li></ul>-->
+<ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202008">History - ICPC 2008</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202007">History - ICPC 2007</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202006">History - ICPC 2006</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202005">History - ICPC 2005</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202004">History - ICPC 2004</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202003">History - ICPC 2003</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202002">History - ICPC 2002</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202001">History - ICPC 2001</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%202000">History - ICPC 2000</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201999">History - ICPC 1999</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201998">History - ICPC 1998</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201997">History - ICPC 1997</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201996">History - ICPC 1996</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201995">History - ICPC 1995</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201994">History - ICPC 1994</a>      
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History%20-%20ICPC%201993">History - ICPC 1993</a>
+</li></ul><ul><li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=The%20Early%20Years">The Early Years</a>
+</li></ul>
+
+
+
+
+
+
+        
+  </div>
+
+
+  
+
+  
+  <div id="attach" class="hidetab" >
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="addattachment">
+<h3>Add new attachment</h3>
+
+
+<div class="formhelp">Only authorized users are allowed to upload new attachments.</div>
+
+</div>
+
+
+
+<h3>List of attachments</h3>
+
+  
+
+  
+
+  <div class="zebra-table"><div class="slimbox-img sortable">
+  <table class="wikitable">
+    <tr>
+      <th>Kind</th>
+      <th>Attachment Name</th>
+      <th>Size</th>
+      <th>Version</th>
+      <th>Date Modified</th>
+      <th>Author</th>
+      
+      <th class="changenote">Change note</th>
+    </tr>
+
+    
+    
+    <tr>
+      <td><div id="attach-jpeg" class="attachtype">jpeg</div></td>
+      <td><a class="attachment" href="/ICPCWiki/attach/History/finalists2008_small.jpeg" accesskey="" title="finalists2008_small.jpeg">finalists2008_small.jpeg</a></td>
+      <td style="white-space:nowrap;text-align:right;">
+        38.5&nbsp;kB
+      </td>
+      <td style="text-align:center;">
+        <a href="/ICPCWiki/PageInfo.jsp?page=History/finalists2008_small.jpeg" title="Attachment info and version history">1</a>
+      </td>
+	  <td style="white-space:nowrap;" jspwiki:sortvalue="1347897547000">
+	  17-Sep-2012 15:59
+	  </td>
+      <td>manager</td>
+      
+      <td class="changenote">
+      Finalist2008
+      </td>
+    </tr>
+    
+
+  </table>
+  </div></div>
+
+
+
+  </div>
+
+  
+    
+  <div id="info" class="hidetab" >
+
+  </div>
+
+    
+  
+
+<div style="clear:both;" ></div>
+</div>
+
+      
+
+
+
+
+
+
+
+<div id='actionsBottom' class="pageactions"> 
+    
+
+    <a href="#top" 
+      class="action quick2top" 
+      title="Go to top" >&laquo;</a>
+
+    
+       This page (revision-111) was last changed on <a href="/ICPCWiki/Diff.jsp?page=History&amp;r1=111&amp;r2=110">17-Sep-2012 15:59</a> by manager
+    
+
+    
+
+   
+
+  
+
+   
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div id="favorites">
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+   
+
+
+
+
+
+
+<div class="mainTopMenu">
+<div class="topMenu" id="topMenu">
+	<ul class="level1">
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=World%20Finals"><span class="decoration"></span>world finals</a>
+	<!--	<ul class="level2">
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Results%20World%20Finals%202008">2008 Final Results</a></li>
+		    <li><a href="http://icpc.baylor.edu/icpc/Finals/2008WorldFinalsProblemSet.pdf">2008 Problem Set</a></li>
+		    <li><a href="http://icpc.baylor.edu/dmt/default.asp?page=press_kit">Press Kit</a></li>
+		    <li><a href="http://icpc.baylor.edu/dmt/">Photos &amp; Video</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=World%20Finals%20Rules">World Finals Rules</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=World%20Final%20Schedule%20of%20Events">Schedule</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Activities">Activities</a></li>
+		</ul>-->
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Regionals"><span class="decoration"></span>regionals</a>
+<!--                <ul class="level2">                               
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/upcomingRegionals.jsf">Regional Results</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Regional%20Rules">Regional Rules</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Getting%20Involved">Getting Involved</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Hosting%20a%20Regional%20Contest">Hosting a Regional</a></li>
+		    <li><a href="../ICPCWiki/Wiki.jsp?page=Starting%20a%20New%20Regional%20Contest">Starting a Regional</a></li>
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/reportTeamSite.jsf">ICPC Participation</a></li>
+		    <li><a href="http://cm2prod.baylor.edu/public/static/report/reportContest.jsf">Regional Info</a></li>
+		</ul>-->
+
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Compete"><span class="decoration"></span>compete</a>
+<!--                <ul class="level2">           
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=Preparing%20for%20the%20Competition">Preparation</a></li>
+ 		    <li><a href="http://cm2prod.baylor.edu/resources/pdf/ppgs.pdf">Policies &amp; Procedures</a></li>                    
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=FAQs">FAQs</a></li>
+                    <li><a href="../ICPCWiki/Wiki.jsp?page=Problems">The Problems</a></li>
+		</ul>
+-->
+	</li>	
+	<li class="subMenu">
+		<a href="../ICPCWiki/Wiki.jsp?page=Community"><span class="decoration"></span>community</a> 
+   <!--             <ul class="level2">     
+  			<li><a href="http://www.ibm.com/university/acmcontest/">IBM Sponsorship</a></li>
+			<li><a href="http://www.acm.org/upe">Upsilon Pi Epsilon</a></li>
+			<li><a href="http://www.acm.org">ACM</a></li>
+			<li><a href="../ICPCWiki/attach/staticResources/Factsheet.pdf">Fact Sheet</a></li>
+			<li><a href="http://www.developer.ibm.com/university/students/contests/acm/">Newsroom</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=History">History</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=Contacts">Contacts</a></li>
+			<li><a href="../ICPCWiki/Wiki.jsp?page=Credits">Credits</a></li>                          
+		</ul>
+-->
+	</li>	
+        </ul>
+</div>
+</div>
+
+
+
+<!--
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+ 
+  
+  
+  <div class="clearbox"></div>
+
+</div>
+
+<div class="loginBox">
+-->
+  
+<!--
+  
+  
+    
+      <a href="/ICPCWiki/Login.jsp?redirect=History" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  -->
+  
+<!--
+  
+  
+    <a href="/ICPCWiki/UserPreferences.jsp?redirect=History"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+  -->
+  <div class="clearbox"></div>
+
+</div>
+
+  
+  <div id="hiddenmorepopup">
+  <ul id="morepopup">
+     
+       	
+     
+       
+     
+    
+       
+     
+       <li>
+       
+       <a class="action rawpage wikipage" 
+               href="/ICPCWiki/Wiki.jsp?page=History&amp;skin=raw"
+              title="View Page Source">View Page Source
+       </a>
+       
+       
+       </li>
+      
+        
+  
+      
+      
+      
+
+      
+	  <li class='separator'>
+        <div id="moremenu" ><p><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=RecentChanges">Recent Changes</a><br />
+<a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=PageIndex">Page Index</a><br />
+<a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=About">About</a><br />
+<a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=SystemInfo">SystemInfo</a><br />
+</p><p><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=UnusedPages">UnusedPages</a><br />
+<a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=UndefinedPages">UndefinedPages</a><br />
+</p>
+<p />
+<p /></div>
+      </li>
+  </ul>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+  <div class="leftmenu">
+    <ul><li><a class="external" href="http://icpc.baylor.edu/welcome.icpc">Home</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" />
+</li></ul><p><ul>
+ <li>01.<a href="/info/World%20Finals">world finals</a></li>
+     <ul id="worldFinalss" style="display:none;">
+     <!--
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=On-Site%20Registration#section-On-Site+Registration-AboutTeamNotebooks">On-Site Registration</a></li>
+         -->
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=World%20Final%20Schedule%20of%20Events">Schedule</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Activities">Activities</a></li>
+	<!--
+         <li><a class="external" href="http://english.hrbeu.edu.cn/showcolumn.php?columnid=48.">HEU Host Site</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+	-->
+	<li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Local%20Information">Local Information</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=World%20Finals%20Rules">World Finals Rules</a></li>
+         <li><a class="external" href="https://icpc.baylor.edu/ICPCWiki/attach/Problem%20Resources/icpc2012.pdf">Finals Problems</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <!--<li><a class="external" href="http://cm2prod.baylor.edu/public/static/report/statusInWF.jsf">Team Status</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>-->
+         <!--<li><a class="external" href="http://icpc09.csc.kth.se/live/">ICPC Live</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>-->
+         <!---->
+         <li><a class="external" href="http://icpc.baylor.edu/digital">Video/Photo Coverage</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>                  
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Results%20World%20Finals%202012">World Final Results</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Problem%20Resources">Past Problems</a></li>
+         <li><a class="external" href="http://icpc.baylor.edu/public/report/teamsWF.icpc">Teams</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="external" href="http://icpc.baylor.edu/challenge">ICPC Challenge</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li> 
+         <li><a class="external" href="http://icpc.baylor.edu/dmt/default.asp?page=press_kit">Press Kit</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="attachment" href="/ICPCWiki/attach/./staticResources/Factsheet.pdf">Fact Sheet</a><a href="/ICPCWiki/PageInfo.jsp?page=./staticResources/Factsheet.pdf" class="infolink"><img src="/ICPCWiki/images/attachment_small.png" border="0" alt="(info)" /></a></li>
+         <!--
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Certification">Team Certification</a></li>
+         -->
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Programming%20Environment">Prog. Environment</a></li>
+         <!--
+         <li><a class="external" href="http://icpc.baylor.edu/icpc/Finals/2008WorldFinalsProblemSet.pdf">2008 Problem Set</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=World%20Finals%20Teams">Teams</a></li>
+         <li><a class="external" href="http://cm2prod.baylor.edu/public/static/report/teamsInWF.jsf">Teams</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=On-Site%20Registration">On-Site Registration</a></li>
+         -->    	
+        <!-- <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Results%20World%20Finals%202009">World Finals Results</a></li> 	-->	 			
+     </ul>
+ <li> 02.<a href="/info/Regionals">regionals</a></li>
+      <ul id="regionals" style="display:none;">
+         <li><a class="external" href="http://icpc.baylor.edu/public/report/upcomingRegionals.icpc">Upcoming Regionals</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+          <li><a class="external" href="http://icpc.baylor.edu/public/report/regionalInfo.icpc">Regional Results</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Regional%20Rules">Regional Rules</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Getting%20Involved">Getting Involved</a></li>
+	<!--
+	ROONEY: "Hosting a regional" is the same as "Starting a regional", so I commented it out.
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Hosting%20a%20Regional%20Contest">Hosting a Regional</a></li>
+	-->
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Starting%20a%20New%20Regional%20Contest">Starting a Regional</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=ACM%20Student%20Membership">ACM Student Membership</a></li>
+         <!--<li><a class="external" href="http://icpc.baylor.edu/public/report/reportTeamSite.icpc">ICPC Participation</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>-->
+         <!--
+         <li><a class="external" href="http://icpc.baylor.edu/public/report/reportContest.icpc">Regional Info</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Regional%20News">Regional News</a></li>
+         -->
+     </ul>
+ <li> 03.<a href="/info/Compete">compete</a></li>
+      <ul id="compete" style="display:none;">
+          <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Preparing%20for%20the%20Competition">Preparation</a></li>
+          <li><a class="external" href="https://icpc.baylor.edu/ICPCWiki/attach/StaticResources/ICPC%20Policies%20and%20Procedures.pdf">Policies &amp; Procedures</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+          <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=FAQS">FAQs</a></li>
+          <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Problems">The Problems</a></li>
+	<!--
+          <li><a class="external" href="http://online-judge.uva.es/contest/services/index.html">World Finals Warmup</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+	-->
+     </ul>
+ <li> 04.<a href="/info/Community">community</a></li>
+       <ul id="community" style="display:none;">
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=ICPC%20Buzz">ICPC Buzz</a></li>
+         <li><a class="external" href="http://www.ibm.com/university/acmcontest/">IBM Sponsorship</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="external" href="http://www.acm.org/upe">Upsilon Pi Epsilon</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="external" href="http://www.acm.org/">ACM</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+         <li><a class="attachment" href="/ICPCWiki/attach/./staticResources/Factsheet.pdf">Fact Sheet</a><a href="/ICPCWiki/PageInfo.jsp?page=./staticResources/Factsheet.pdf" class="infolink"><img src="/ICPCWiki/images/attachment_small.png" border="0" alt="(info)" /></a></li>
+	<!--
+         <li><a class="external" href="http://www.developer.ibm.com/university/students/contests/acm/">Newsroom</a><img class="outlink" src="/ICPCWiki/images/out.png" alt="" /></li>
+	-->
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=History">History</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Contacts">Contacts</a></li>
+         <li><a class="wikipage" href="/ICPCWiki/Wiki.jsp?page=Credits">Credits</a></li>
+     </ul>
+</ul>
+</p>
+<p><script src="/ICPCWiki/scripts/icpc.js"></script>
+</p>
+<p><script> 
+var worldFinals = new Array(
+	"World%20Finals",
+	"Results%20World%20Finals%202008", 
+	"World%20Final%20Schedule%20of%20Events",
+	"World%20Finals%20Rules",
+	"Activities",
+	"Programming%20Environment",
+	"On-Site%20Registration",
+	"World%20Finals%20Teams",
+	"ICPC%20Challenge",
+	"Results%20World%20Finals%202009",
+	"Results%20World%20Finals%202011"
+);
+var regionals = new Array(
+	"Regionals",
+	"Regional%20Rules",
+	"Getting%20Involved",
+	"Hosting%20a%20Regional%20Contest",
+	"Starting%20a%20New%20Regional%20Contest",
+	"ACM%20Student%20Membership",
+	"Regional%20News",
+	"News%20from%20Africa%20and%20the%20Middle%20East",
+	"News%20from%20Asia",
+	"News%20from%20Europe",
+	"News%20from%20Latin%20America",
+	"News%20from%20North%20America",
+	"News%20from%20South%20Pacific"
+);
+var compete = new Array(
+	"Compete",
+	"Problems",
+	"FAQS",
+	"Preparing%20for%20the%20Competition"
+	);
+var community = new Array(
+	"Community",
+	"History",
+	"Contacts",
+	"Credits",
+	"Champions",
+	"ICPC%20Buzz",
+	"ICPC%20Challenge%20Hall%20of%20Champions",
+	"Award%20-%20DI%20Service",
+	"Award%20-%20Measures",
+	"Award%20-%20DeBlasi",
+	"Problem%20Resources",
+	"Past%20Participation",
+	"History%20-%20ICPC%202010",
+	"History%20-%20ICPC%202009",
+	"History%20-%20ICPC%202008",
+	"History%20-%20ICPC%202007",
+	"History%20-%20ICPC%202006",
+	"History%20-%20ICPC%202005",
+	"History%20-%20ICPC%202004",
+	"History%20-%20ICPC%202003",
+	"History%20-%20ICPC%202008",
+	"History%20-%20ICPC%202008",
+	"History%20-%20ICPC%202008",
+	"History%20-%20ICPC%202002",
+	"History%20-%20ICPC%202001",
+	"History%20-%20ICPC%202000",
+	"History%20-%20ICPC%201999",
+	"History%20-%20ICPC%201998",
+	"History%20-%20ICPC%201997",
+	"History%20-%20ICPC%201996",
+	"History%20-%20ICPC%201995",
+	"History%20-%20ICPC%201994",
+	"History%20-%20ICPC%201993",
+	"The%20Early%20Years"
+);
+icpcMenu(worldFinals,regionals,compete,community);
+</script>
+</p>
+    
+  </div>
+  
+  <div class="leftmenufooter">
+    <p />
+<p />
+    
+  </div>
+
+  
+
+  
+  
+  <div class="wikiversion">JSPWiki v2.8.3
+  <span class="rssfeed">
+    
+  </span>
+  </div>  
+  
+</div>
+
+	<div class="clearbox"></div>
+  </div>
+
+  
+
+
+
+
+
+ 
+<div id="footer">
+
+  <div class="applicationlogo" > 
+    <a href="/ICPCWiki/Wiki.jsp?page=Main"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  <div class="copyright">ICPC
+</div>
+
+  <div class="wikiversion">
+    JSPWiki v2.8.3
+  </div>
+
+  <div class="rssfeed">
+    
+  </div>
+
+</div><div id="LBottomLinks">
+    <p class="TextBottom">
+        <strong>&copy;</strong>
+        international collegiate programming contest
+    </p>
+    <p class="LinkBottom">
+        <ul class="footLinks">
+             <li><a href="./Wiki.jsp?page=Contacts">contact</a></li>
+             <li class="divider">|</li>
+             <li><a href="./Wiki.jsp?page=World%20Finals">world finals</a></li>
+             <li class="divider">|</li>
+             <li><a href="./Wiki.jsp?page=Regionals">regionals</a></li>
+             <li class="divider">|</li>
+             <li><a href="http://www.acm.org">acm</a></li>
+             <li class="divider">|</li>
+             <li id="last"><a href="http://www.ibm.com">ibm</a></li>
+        </ul>
+     </p>
+</div>
+<div id="LBottomSpacer"></div>
+
+
+
+</div>
+
+</body>
+</html>
+
+

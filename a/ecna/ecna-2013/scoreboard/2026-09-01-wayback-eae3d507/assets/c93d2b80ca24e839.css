@@ -1,0 +1,98 @@
+body {
+  color: #0;
+  background: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+p.title {
+  text-align: center;
+  font-size: 250%;
+}
+
+p.clock {
+  text-align: center;
+  font-size: 150%;
+}
+
+p.tName {
+  font-size: 100%;
+  margin: 0px;
+}
+
+p.tSchool {
+  margin: 0px;
+  font-size: 90%;
+  text-indent: 20px;
+}
+
+td.rank {
+  font-size: 200%;
+  text-align: right;
+padding-right: 8px;
+padding-bottom: 8px;
+}
+
+p.pScore {
+  font-size: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+p.pTries {
+  font-size: 80%;
+  text-align: center;
+  margin: 0px;
+}
+
+td.right {
+  background: #0c0;
+  border-radius: 0.3em;
+  border: 1px solid #ccc;
+}
+
+td.wrong {
+  background: #c00;
+  border-radius: 0.3em;
+  border: 1px solid #ccc;
+}
+
+td.submitted {
+  background: #88f;
+  border-radius: 0.3em;
+}
+
+td.tHeadP {
+  font-size: 150%;
+  text-align: center;
+  width: 2.5em;
+}
+
+td.tHead {
+  font-size: 150%;
+  padding-right: 8px;
+}
+
+td.tSolved {
+  font-size: 125%;
+  text-align: center;
+}
+
+td.tScore {
+  font-size: 125%;
+  text-align: right;
+}
+
+tr.teamRowDark {
+  padding: 8px 0px;
+  background-color: #bbb;
+}
+
+tr.teamRowLight {
+  padding: 8px 0px;
+  background-color: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+

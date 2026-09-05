@@ -22,7 +22,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="/history/classes/socaltheme.css">
+<link rel="stylesheet" type="text/css" href="assets/04ccd113a888d913.css">
 <script>
 function notyet()
 {
@@ -59,7 +59,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 </table>
 </div>
 <div id="banner">
-<img src="/history/images/mast2011.gif" alt="ACM ICPC Banner">
+<img src="assets/c304d33966839cb9.gif" alt="ACM ICPC Banner">
 </div>
 
 

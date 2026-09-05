@@ -1,0 +1,318 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	width: 100%;
+}
+
+#main
+{
+	margin: 0px;
+}
+
+body
+{
+	color: #001F30;
+	background: #ccc;
+}
+
+body, p, td, tr, th, ol, ul
+{
+	font: 12px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+}
+
+form
+{
+	display: inline;
+}
+
+dfn
+{
+	display: block;
+	font: 9px sans-serif;
+}
+
+a:link, a:visited, a:active
+{
+	color: #001F30;	
+	text-decoration: none;
+}
+a:hover
+{
+	color: #003E60;
+	text-decoration: none;
+}
+
+.titlebar a:link, .titlebar a:visited, .titlebar a:active
+{
+	color: #fff;
+}
+.titlebar a:hover
+{
+	color: #ff0;
+}
+
+
+input, select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	color: #000000;
+	background: #ccc;
+	padding: 0px 0px 0px 0px;
+}
+
+.button
+{
+	background: #FFFFFF;
+	padding: 0px 5px;
+}
+
+th
+{
+	font-weight: bold;
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+	font-variant: small-caps;
+}
+
+td.tinfo, .tinfo td
+{
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+}
+
+.container
+{
+	width: 900px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.tmain
+{
+	background: #DEE0E2;
+	border: 1px #666666 solid;
+	margin: 0px 0px 0px 0px;
+}
+
+.titlebar
+{
+	height: 21px;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	background: #5877AD;
+	background: #0A246A;	
+	color: white;
+	font: bold small-caps 12px tahoma;
+	padding: 0px 5px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#0A246A,endColorStr=#A6CAF0);
+}
+
+#showtimes
+{
+	height: 15px;
+	vertical-align: bottom;
+}
+
+.ac
+{
+	text-align: center;
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.re
+{
+	text-align: center;
+	color: darkred;
+	font-weight: bold;
+}
+
+.emp
+{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.status1
+{
+	color: darkblue;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status2
+{
+	color: darkgreen;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status3
+{
+	color: #A0A000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status4
+{
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.load
+{
+	color: #808080;
+}
+
+.msg1, .msg2, .msg1a, .msg2a
+{
+	color: #001F30;
+	border: 1px outset;
+	border-collapse: collapse;
+}
+
+.alt1 {color: #001F30; background: #EEEEEE;}
+.alt2 {color: #001F30; background: #F6F6F6;}
+.alt1a{color: #001F30; background: #C8E8F8;}
+.alt2a{color: #001F30; background: #D0F0FF;}
+.altmy{color: #001F30; background: #FFC0FF;}
+td.alt1 {color: #001F30; background: #EEEEEE;}
+
+.navlinks
+{
+	margin: 0 auto;
+}
+.navlinks td
+{
+	padding: 0;
+}
+.navlinks a
+{
+	font: bold 11px verdana;
+	font-variant: small-caps;
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+}
+.navlinks a:hover
+{
+	background: #fff;
+	color: #000;
+}
+
+.copy
+{
+	text-align: right;
+	padding-right: 10px;
+	font: 10px verdana;
+	font-variant: small-caps;
+	color: #000000;
+}
+a.zibada
+{
+	font: bold 11px arial;
+	/*color: #EE0000;*/
+	color: #cb0;
+}
+
+#debug
+{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px dotted #000;
+	margin: 0;
+}
+
+#standings
+{
+	width: 100%;
+}
+
+#standings dfn
+{
+	display: none;
+}
+
+#standings.show_times dfn
+{
+	display: block;
+}
+
+#standings td
+{
+	height: 20px;
+}
+
+#standings.show_times td
+{
+	height: 27px;
+}
+
+#history td
+{
+	height: 20px;
+	padding: 0 2px;
+}
+
+#history th
+{
+	text-align: left;
+}
+
+#standings.frozen .alt1  {color: #001F30; background: #CCCCFF;}
+#standings.frozen .alt2  {color: #001F30; background: #D6D6FF;}
+#standings.frozen .alt1a {color: #001F30; background: #A8C8FF;}
+#standings.frozen .alt2a {color: #001F30; background: #B0D0FF;}
+
+#archive .alt1,#archive .alt2, #archive .alt1a, #archive .alt2a
+{
+	height: 20px;
+}
+
+.tinfo label
+{
+	padding: 0 5px 0 0;
+}
+
+#standings .tc_name {display: none;}
+
+.unk
+{
+	color: #aaa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.error
+{
+	height: 21px;
+	background: #ccc;
+/*	background: #333;*/
+	color: #f00;
+	text-align: center;
+	font: bold small-caps 13px tahoma;
+	padding: 0px 5px;
+	filter: none;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+}

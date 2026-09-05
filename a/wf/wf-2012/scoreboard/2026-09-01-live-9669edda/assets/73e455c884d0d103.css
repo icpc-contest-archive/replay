@@ -1,0 +1,574 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	width: 100%;
+}
+
+#main
+{
+	margin: 0px;
+}
+
+body
+{
+	color: #fff;
+	background: #000;
+}
+
+body, p, td, tr, th, ol, ul
+{
+	font: 12px arial;
+}
+
+form
+{
+	display: inline;
+}
+
+dfn
+{
+	display: block;
+	font: 9px sans-serif;
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+hr
+{
+	border: none;
+	margin: 10px 0;
+	border-bottom: 1px solid #333;
+}
+
+.titlebar a
+{
+	color: #fff;
+}
+.titlebar a:hover
+{
+	color: #ff0;
+}
+
+h2 {
+	font: bold 12px arial; color: #cf9; background: #333;
+	text-transform: uppercase;
+	padding: 5px;
+	text-align: center;
+}
+
+input, select
+{
+	font: 12px arial;
+	color: #fff;
+	background: #222;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #666;
+}
+
+select
+{
+	background: #000;
+}
+
+.button
+{
+	background: #000;
+	padding: 0px 5px;
+}
+
+th {font: 12px arial; color: #cf9; background: #333; border: none}
+/*
+{
+
+	font-weight: bold;
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+	font-variant: small-caps;
+}
+*/
+
+td.tinfo, .tinfo td
+{
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+}
+
+.container
+{
+	width: 900px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.tmain
+{
+	background: #333;
+	border: none;
+	margin: 0;
+}
+
+.titlebar
+{
+	height: 21px;
+	border: none;
+	background: #333;
+	color: #cf9;
+	font: bold small-caps 13px tahoma;
+	padding: 0px 5px;
+	filter: none;
+}
+
+#showtimes
+{
+	height: 15px;
+	vertical-align: bottom;
+}
+
+.ac
+{
+	text-align: center;
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.re
+{
+	text-align: center;
+	color: darkred;
+	font-weight: bold;
+}
+
+.emp
+{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.status1
+{
+	color: darkblue;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status2
+{
+	color: darkgreen;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status3
+{
+	color: #A0A000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status4
+{
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.load
+{
+	color: #808080;
+}
+
+.msg1, .msg2, .msg1a, .msg2a
+{
+	color: #001F30;
+	border: 1px outset;
+	border-collapse: collapse;
+}
+
+.alt1 {color: #001F30; background: #EEEEEE;}
+.alt2 {color: #001F30; background: #F6F6F6;}
+.alt1a{color: #001F30; background: #C8E8F8;}
+.alt2a{color: #001F30; background: #D0F0FF;}
+.altmy{color: #001F30; background: #FFC0FF;}
+td.alt1 {color: #001F30; background: #EEEEEE;}
+
+.navlinks
+{
+	margin: 0 auto;
+}
+.navlinks td
+{
+	padding: 0;
+}
+.navlinks a
+{
+	font: bold 11px verdana;
+	font-variant: small-caps;
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+}
+.navlinks a:hover
+{
+	background: #000;
+	color: #fff;
+}
+
+.copy
+{
+	text-align: right;
+	padding-right: 10px;
+	font: 10px verdana;
+/*	font-variant: small-caps;*/
+	color: #cf9;
+}
+
+a.zibada
+{
+	font: bold 11px arial;
+	color: #cb0;
+	color: #EE0000; /* :) */
+}
+
+#debug
+{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px dotted #000;
+	margin: 0;
+}
+
+#standings
+{
+	width: 100%;
+	border-bottom: solid 1px #333;
+}
+
+#standings td dfn
+{
+	display: none;
+}
+
+#standings.show_times td dfn
+{
+	display: block;
+}
+
+#standings td
+{
+	height: 20px;
+}
+
+#standings.show_times td
+{
+	height: 27px;
+}
+
+
+#archive .alt1,#archive .alt2, #archive .alt1a, #archive .alt2a
+{
+	height: 20px;
+}
+
+.tinfo label
+{
+	padding: 0 10px 0 0;
+}
+
+/*
+#standings .users {display: inline;}
+#standings .name {display: inline;}
+*/
+.alt1  {color: #fff; background: #000;}
+.alt2  {color: #fff; background: #000;}
+.alt1a {color: #fff; background: #000;}
+.alt2a {color: #fff; background: #000;}
+.altmy, #standings tr:hover {color: #fff; background: #003 !important;}
+
+#standings td {font-size: 12px}
+
+#standings th {font: 12px arial; color: #cf9; background: #333; border: none}
+
+.tinfo td {font: 12px arial; color: #cf9; background: #222; border: none}
+
+.status1 {color: #66f}
+.status2 {color: #0f0}
+.status3 {color: #ff0}
+.status4 {color: #f00}
+
+.ac{color: #0f0;}
+.ac.last5{background: #030;}
+.ac.last10{background: #020;}
+.ac.last15{background: #010;}
+.re{font: italic 12px arial; color: #f00;}
+.emp{color: #aaa;}
+dfn{font: bold 10px arial; letter-spacing: -0.7px;}
+
+
+.user { font-weight: bold; }
+.orange { color: #FF9900; }
+.red { color: #EE0000; }
+.yellow { color: #DDCC00; }
+.blue { color: #6666FF; }
+.green { color: #00A900; }
+.gray { color: #999999; }
+.black { color: #FFFFFF; }
+
+option {padding-right: 10px}
+
+#standings.frozen .alt1  {color: #ccf; background: #000018;}
+#standings.frozen .alt2  {color: #ccf; background: #000018;}
+#standings.frozen .alt1a {color: #ccf; background: #000018;}
+#standings.frozen .alt2a {color: #ccf; background: #000018;}
+
+.unk
+{
+	color: #aaa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.error
+{
+	height: 21px;
+	border: none;
+	background: #333;
+	color: #f00;
+	text-align: center;
+	font: bold small-caps 13px tahoma;
+	padding: 0px 5px;
+	filter: none;
+}
+
+#motd {
+/*	display: none;*/
+}
+
+#motd p {
+	padding: 5px;
+	text-align: center;
+}
+
+#motd a {
+	color: #cf9;
+	text-decoration: underline;
+}
+
+#contest_frozen {
+	float:right;
+	padding-left: 5px;
+	color: #66f;
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#chat {
+	display: none;
+}
+
+
+#login {
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.loggedin #login {
+	display: none;
+}
+
+
+#login_username{
+	display: none;
+}
+
+.loggedin #login_username {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#login_username span {
+	font-weight: bold;
+}
+
+#login_label {
+	display: inline-block;
+	position: relative;
+	border-bottom: 1px dotted;
+}
+
+.hint {
+	display: none;
+	z-index: 10;
+}
+
+:hover > .hint {
+	display: block;
+	position: absolute;
+	background: #000;
+	border: 1px solid;
+	top: 15px;
+	left: 0px;
+	width: 320px;
+}
+
+.hint ul {
+	margin: 10px 5px 10px 25px;
+}
+
+#login_label a {
+	color: #cf9;
+	text-decoration: underline;
+}
+
+.userlist, .settings {
+	margin-left: 5px;
+	display: inline-block;
+	position: relative;
+	border-bottom: 1px dotted #fff;
+}
+.userlist ul {
+	list-style-type: none;
+	margin: 0;
+}
+.userlist li {
+	display: inline;
+}
+.userlist li:before {
+	content: ", ";
+}
+.userlist li:first-child:before {
+	content: "";
+}
+.userlist .hint, .settings .hint {
+	padding: 5px;
+	overflow: auto;
+	max-height: 300px;
+}
+
+#sid {
+	color: #cf9;
+	padding: 5px;
+	font: bold 14px arial;
+}
+
+#chat_messages
+{
+	max-height: 200px;
+	padding: 5px;
+	background: #000;
+	overflow: auto;
+	list-style-type: none;
+}
+#chat_messages li {
+	padding: 2px 0px;
+}
+#chat_messages .time {
+	float: left;
+	width: 60px;
+}
+#chat_messages .uid {
+	font-size: 3px;
+	color: #000;
+}
+#chat_messages .message {
+	margin-left: 70px;
+}
+
+#chat_username, #chat_message {
+	background: #000;
+}
+
+#chat_error {
+	color: #f00;
+}
+
+#chat.hide_en .en {
+	display: none;
+}
+
+#chat.hide_ru .ru {
+	display: none;
+}
+
+#chat.hide_cn .cn {
+	display: none;
+}
+
+#chat.hide_other .other {
+	display: none;
+}
+
+#chat.hide_guests .guest {
+	display: none;
+}
+
+#chat.hide_system .system {
+	display: none;
+}
+
+#chat .system {
+	color: #0f0;
+	font-weight: bold;
+}
+
+#chat_controls.enabled #chat_enter, #chat_controls.loading #chat_enter {
+	display: none;
+}
+#chat_controls #chat_options {
+	display: none;
+}
+#chat_controls.enabled #chat_options {
+	display: inline-block;
+}
+
+#contest_status {
+	text-align: right;
+	padding-right: 10px;
+}
+
+#contest_timenow {
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+.frozen #contest_timenow {
+	color: #66f;
+}
+
+.mark {
+	cursor: pointer;
+	display: none;
+	margin-left: 5px;
+}
+
+td:hover > .mark {
+	display: inline;
+}
+
+
+.mark:before {
+	content: "☆";
+	color: inherit;
+}
+
+.favorite .mark:before, .mark:hover:before {
+	content: "★";
+	color: #fc0;
+}

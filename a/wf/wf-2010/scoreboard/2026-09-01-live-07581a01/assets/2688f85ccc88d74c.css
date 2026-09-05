@@ -1,0 +1,392 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	width: 100%;
+}
+
+#main
+{
+	margin: 0px;
+}
+
+body
+{
+	color: #fff;
+	background: #000;
+}
+
+body, p, td, tr, th, ol, ul
+{
+	font: 12px arial;
+}
+
+form
+{
+	display: inline;
+}
+
+dfn
+{
+	display: block;
+	font: 9px sans-serif;
+}
+
+a:link, a:visited, a:active
+{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.titlebar a:link, .titlebar a:visited, .titlebar a:active
+{
+	color: #fff;
+}
+.titlebar a:hover
+{
+	color: #ff0;
+}
+
+
+input, select
+{
+	font: 12px arial;
+	color: #fff;
+	background: #222;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #666;
+}
+
+select
+{
+	background: #000;
+}
+
+.button
+{
+	background: #000;
+	padding: 0px 5px;
+}
+
+th {font: 12px arial; color: #cf9; background: #333; border: none}
+/*
+{
+
+	font-weight: bold;
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+	font-variant: small-caps;
+}
+*/
+
+td.tinfo, .tinfo td
+{
+	color: #000000;
+	background: #ccc;
+	border-right: #000 1px solid;
+	border-bottom: #000 1px solid;
+	border-top: #fff 1px solid;
+	border-left: #fff 1px solid;
+	padding: 2px 4px 2px 4px;
+}
+
+.container
+{
+	width: 900px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.tmain
+{
+	background: #333;
+	border: none;
+	margin: 0;
+}
+
+.titlebar
+{
+	height: 21px;
+	border: none;
+	background: #333;
+	color: #cf9;
+	font: bold small-caps 13px tahoma;
+	padding: 0px 5px;
+	filter: none;
+}
+
+#showtimes
+{
+	height: 15px;
+	vertical-align: bottom;
+}
+
+.ac
+{
+	text-align: center;
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.re
+{
+	text-align: center;
+	color: darkred;
+	font-weight: bold;
+}
+
+.emp
+{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.status1
+{
+	color: darkblue;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status2
+{
+	color: darkgreen;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status3
+{
+	color: #A0A000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.status4
+{
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.load
+{
+	color: #808080;
+}
+
+.msg1, .msg2, .msg1a, .msg2a
+{
+	color: #001F30;
+	border: 1px outset;
+	border-collapse: collapse;
+}
+
+.alt1 {color: #001F30; background: #EEEEEE;}
+.alt2 {color: #001F30; background: #F6F6F6;}
+.alt1a{color: #001F30; background: #C8E8F8;}
+.alt2a{color: #001F30; background: #D0F0FF;}
+.altmy{color: #001F30; background: #FFC0FF;}
+td.alt1 {color: #001F30; background: #EEEEEE;}
+
+.navlinks
+{
+	margin: 0 auto;
+}
+.navlinks td
+{
+	padding: 0;
+}
+.navlinks a
+{
+	font: bold 11px verdana;
+	font-variant: small-caps;
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+}
+.navlinks a:hover
+{
+	background: #000;
+	color: #fff;
+}
+
+.copy
+{
+	text-align: right;
+	padding-right: 10px;
+	font: 10px verdana;
+/*	font-variant: small-caps;*/
+	color: #cf9;
+}
+
+a.zibada
+{
+	font: bold 11px arial;
+	color: #cb0;
+	color: #EE0000; /* :) */
+}
+
+#debug
+{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px dotted #000;
+	margin: 0;
+}
+
+#standings
+{
+	width: 100%;
+	border-bottom: solid 1px #333;
+}
+
+#standings dfn
+{
+	display: none;
+}
+
+#standings.show_times dfn
+{
+	display: block;
+}
+
+#standings td
+{
+	height: 20px;
+}
+
+#standings.show_times td
+{
+	height: 27px;
+}
+
+
+#archive .alt1,#archive .alt2, #archive .alt1a, #archive .alt2a
+{
+	height: 20px;
+}
+
+.tinfo label
+{
+	padding: 0 10px 0 0;
+}
+
+
+#standings .tc_name {display: inline;}
+#standings .name {display: inline;}
+
+.alt1  {color: #fff; background: #000;}
+.alt2  {color: #fff; background: #000;}
+.alt1a {color: #fff; background: #000;}
+.alt2a {color: #fff; background: #000;}
+.altmy, #standings tr:hover {color: #fff; background: #003 !important;}
+
+#standings td {font-size: 12px}
+
+#standings th {font: 12px arial; color: #cf9; background: #333; border: none}
+
+.tinfo td {font: 12px arial; color: #cf9; background: #222; border: none}
+
+.status1 {color: #66f}
+.status2 {color: #0f0}
+.status3 {color: #ff0}
+.status4 {color: #f00}
+
+.ac{color: #0f0;}
+.ac.last5{background: #030;}
+.ac.last10{background: #020;}
+.ac.last15{background: #010;}
+.re{font: italic 12px arial; color: #f00;}
+.emp{color: #aaa;}
+dfn{font: bold 10px arial; letter-spacing: -0.7px;}
+
+
+.coderTextRed, .coderTextYellow, .coderTextBlue, .coderTextGreen, .coderTextGray, .coderTextOrange, .coderTextWhite, .coderTextBlack { font-weight: bold; }
+.coderTextOrange, .coderTextOrange:link, .coderTextOrange:visited, .coderTextOrange:hover, .coderTextOrange:active { color: #FF9900; }
+.coderTextRed, .coderTextRed:link, .coderTextRed:visited, .coderTextRed:hover, .coderTextRed:active { color: #EE0000; }
+.coderTextYellow, .coderTextYellow:link, .coderTextYellow:visited, .coderTextYellow:hover, .coderTextYellow:active { color: #DDCC00; }
+.coderTextBlue, .coderTextBlue:link, .coderTextBlue:visited, .coderTextBlue:hover, .coderTextBlue:active { color: #6666FF; }
+.coderTextGreen, .coderTextGreen:link, .coderTextGreen:visited, .coderTextGreen:hover, .coderTextGreen:active { color: #00A900; }
+.coderTextGray, .coderTextGray:link, .coderTextGray:visited, .coderTextGray:hover, .coderTextGray:active { color: #999999; }
+.coderTextWhite, .coderTextWhite:link, .coderTextWhite:visited, .coderTextWhite:hover, .coderTextWhite:active { color: #FFFFFF; }
+.coderTextBlack, .coderTextBlack:link, .coderTextBlack:visited, .coderTextBlack:hover, .coderTextBlack:active { color: #FFFFFF; }
+
+option {padding-right: 10px}
+
+#standings.frozen .alt1  {color: #ccf; background: #000018;}
+#standings.frozen .alt2  {color: #ccf; background: #000018;}
+#standings.frozen .alt1a {color: #ccf; background: #000018;}
+#standings.frozen .alt2a {color: #ccf; background: #000018;}
+
+.unk
+{
+	color: #aaa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.error
+{
+	height: 21px;
+	border: none;
+	background: #333;
+	color: #f00;
+	text-align: center;
+	font: bold small-caps 13px tahoma;
+	padding: 0px 5px;
+	filter: none;
+}
+
+#announce {
+	display: none;
+}
+
+#history td, #chat td
+{
+	height: 20px;
+	padding: 0 2px;
+}
+
+#history th, #chat th
+{
+	text-align: left;
+}
+
+#chat_messages
+{
+	max-height: 200px;
+	overflow: auto;
+}
+
+#chat_username, #chat_message {
+	background: #000;
+}
+
+#chat form {
+	display: block;
+	width: 100%;
+	background: #222;
+}
+
+#chat form span {
+	float: right;
+	color: #cf9;
+	font-size: 11px;
+	padding: 1px 30px 0 0;
+}
+
+#chat_message {
+	width: 400px;
+}

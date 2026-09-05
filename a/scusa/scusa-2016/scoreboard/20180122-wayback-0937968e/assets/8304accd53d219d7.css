@@ -1,0 +1,103 @@
+div.container
+{
+	width: 100%;
+	margin: 0px;
+	line-height: 100%;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+div.header,div.footer
+{
+	padding: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	clear:left;
+	text-align: center;
+	min-height: 70px;
+}
+
+div.header {
+	font-variant: small-caps;
+	text-decoraton: bolder;
+	font-size: 125%;
+}
+
+div.footer {
+	font-size: 50%;
+	font-style: italic;
+	line-height: 100%;
+}
+
+img.right { 
+	vertical-align: text-bottom;
+	float: right;
+}
+
+img.left { 
+	vertical-align: text-bottom;
+	float: left;
+}
+
+div.content {
+	margin-left:18%;
+	border-left:1px solid gray;
+	padding:1em;
+}
+div.contentPaper {
+	margin-left:0%;
+	padding:1em;
+}
+#nav, #nav ul {
+	float:left;
+	width:15%;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+#nav a.daddy {
+	background: url("/images/purpleArrow.gif") center left no-repeat;
+}
+
+#nav li { /* all list items */
+	position : relative;
+	min-width: 8em;
+	background-color: #FFFFFF;
+}
+
+#nav li ul { /* second-level lists */
+	position : absolute;
+	left: -999em;
+	margin-left: 8.05em;
+	margin-top: -1.5em;
+	background-color: #FFFFFF;
+}
+
+#nav li ul ul { /* third-and-above-level lists */
+	left: -999em;
+}
+
+#nav li a {
+	display : block;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	background-color: #FFFFFF;
+	padding : 0 0.5em;
+	background: url("/images/purpleDotBig.gif") center left no-repeat;
+}
+	
+#nav li a:hover {
+	color : #000000;
+	background-color : #FFFFFF; /* 580DA6 */
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+	background-color: #FDD023;
+}
+	
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+	background-color: #FDD023;
+}

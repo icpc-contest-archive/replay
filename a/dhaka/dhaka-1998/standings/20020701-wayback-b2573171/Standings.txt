@@ -1,0 +1,62 @@
+ACM International Collegiate Programming Contest 1998
+Asia Regional , Dhaka Site
+November 17, 1998
+North South University, Dhaka, Bangladesh
+
+Final Standings
+
+Place	University				Solved 		Minutes
+
+1	BUET Team F				  3		    599
+2	BUET Team B				  2		    112
+3	BUET Team C				  2		    151
+4	BUET Team E				  2		    220
+5	University of Morutowa, Sri Lanka	  2		    321
+6	BUET Team D				  2		    381
+7	Sharif University of Technology, Iran	  2		    450
+8	Dhaka University Team C			  1		     54
+9	BUET Team G				  1		    168
+10	AMA Team B				  1		    172
+11	IIT Kanpur, India			  1		    179
+12	NSU Team H				  1		    198
+13	NSU Team A				  1		    223
+14	AMA Team A				  1		    224
+15	Shahjalal University			  1		    246
+
+Honorable Mention
+
+Ahsanullah University Team A
+IUBAT Team A
+Ahsanullah University Team B
+IUBAT Team B
+Ahsanullah University Team C
+Khulna University Team A
+BIT Khulna Team A
+Khulna University Team B
+BIT Khulna Team B
+Khulna University Team C
+Delhi University, India
+Khulna University Team D
+Dhaka University Team A
+Khulna University Team E
+Dhaka University Team B
+Khulna University Team F
+Dhaka University Team D
+NSU Team B
+Dhaka University Team E
+NSU Team C
+East West University
+NSU Team D
+Islamic University Team A
+NSU Team E
+Islamic University Team B
+NSU Team F
+IST Team A
+NSU Team G
+IST Team B
+NSU Team I
+IUB Team A
+University of Asia Pacific
+IUB Team B
+
+

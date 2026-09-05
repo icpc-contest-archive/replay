@@ -1,0 +1,123 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+    padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 126px 0 100px;
+    }
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header-logo {
+    position: relative;
+    background: url(../images/header.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    background-color: #000000 !important;
+}
+
+#google-map {
+    width: 100%;
+    border: 0;
+    height: 40vh;
+}
+
+.title-lead {
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media only screen and (max-width: 600px) {
+  .leading-title {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .leading-title {
+    text-align: left;
+  }
+}
+
+@media print {
+    #header-logo {
+        background: url(../images/header-min.jpg) no-repeat left center;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    .logo-title {
+        margin: 0 auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        /*color: #000000;*/
+        text-align: left;
+        background-color: #fff;
+        width: 100%;
+    }
+}
+
+a {
+    color: #478556;
+}
+
+#logos {
+    padding-left : 30px;
+}
+
+.sponsorlogo {
+    padding-top : 1em;
+    min-height : 6em;
+}
+
+.sponsor-caption {
+    font-style : italic;
+    text-align : center;
+}
+
+a:hover {
+    color: #478556;
+}
+
+.gmnoprint{
+    display:none;
+}
+
+.medal-gold{
+    background-color : PaleGoldenRod;
+}
+
+.medal-silver{
+    background-color : Silver;
+}
+
+.medal-bronze{
+    background-color : BurlyWood;
+}

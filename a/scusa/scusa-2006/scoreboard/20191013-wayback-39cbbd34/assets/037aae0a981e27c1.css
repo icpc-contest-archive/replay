@@ -1,0 +1,55 @@
+h1, h2, h3 {
+	text-align: center;
+}
+
+#logo1 {
+	float: left;
+}
+
+#logo2 {
+	float: right;
+}
+
+#pagelinks {
+	text-align: center;
+	font-size: 125%;
+}
+
+#scoreboard, #honorable {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#scoreboard th, #honorable th {
+	border: 1px solid black;
+	padding: 0.1em;
+	background-color: #461D7C; /* LSU purple */
+	color: #FDD023; /* LSU "gold" */
+}
+
+#scoreboard td, #honorable td {
+	border: 1px solid black;
+	padding: 0.1em;
+}
+
+#honorable {
+	margin-top: 1em;
+}
+
+#description {
+	margin-top: 2em;
+	padding: 0.2em;
+	width: 25em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+#desc_title {
+	display: block;
+	font-size: 125%;
+	text-align: center;
+}
+

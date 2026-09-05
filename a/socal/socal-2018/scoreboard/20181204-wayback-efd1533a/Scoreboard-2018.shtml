@@ -14,7 +14,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <title>Scoreboard</title>
 <link rel="icon" href="http://localhost/domjudge/images/favicon.png" type="image/png">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="Scoreboard_files/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/ce7be5aea5c4ccf5.css" type="text/css">
 <style>
 body {
   padding-top: 4.5rem;
@@ -46,9 +46,9 @@ h6 { font-size: .75em; }
   margin-right: 2rem;
 }
 </style>
-<link rel="stylesheet" href="Scoreboard_files/style.css" type="text/css">
-<link rel="stylesheet" href="Scoreboard_files/octicons.css">
-<img src="/history/images/mast2018.png" align="center" width="920">
+<link rel="stylesheet" href="assets/c48bfd3500ff97f1.css" type="text/css">
+<link rel="stylesheet" href="assets/01715eaef373976b.css">
+<img src="assets/f073ba35e4b8e19b.png" align="center" width="920">
 </head>
 <body>
 <div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2018/Scoreboard-2018.shtml">http://socalcontest.org/history/2018/Scoreboard-2018.shtml</a> (content as captured 2018-12-04 via the Wayback Machine) 
@@ -187,4 +187,4 @@ using <a href="https://www.domjudge.org/">DOMjudge</a></p>
 
 
 
-</body><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
+</body><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script></html>

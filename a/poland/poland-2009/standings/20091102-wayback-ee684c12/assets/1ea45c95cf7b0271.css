@@ -1,0 +1,398 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: #FFF;
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.83em;
+	color: #000;
+}
+
+img {
+	border: 0;
+}
+.status {
+	font-variant: small-caps;
+}
+
+.accepted {
+        color: #339900;
+}
+
+.rejected {
+        color: #FF3300;
+}
+
+a {
+	color: #3080AB;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2E7498;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #444;
+	font-weight: normal;
+	padding: 0 0 0 20px;
+	background: url(../images/h2_bullet.png) no-repeat center left;
+	font-size: 200%;
+	margin: 1.2em 0 0.5em 0;
+}
+
+h3 {
+	margin: 1.2em 0 0.5em 0;
+	font-size: 150%;
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: normal;
+	margin: 1.2em 0 0.3em 0;
+	font-size: 110%;
+}
+
+span.separator {
+	display: block;
+	height: 10px;
+	border-top: 1px solid #DDD; 
+	margin: 2em 0 1em 0;
+	background: url(../images/separator_shadow.png) repeat-x top left;
+}
+
+#container {
+	width: 100%;
+	overflow: hidden;
+}
+
+#header,
+#nav ul,
+#subnav ul,
+#contentWrapper,
+#content, 
+#footer {
+	margin: 0 auto;
+	max-width: 54em;
+}
+
+
+
+#headerWrapper {
+	background: #FFF url(../images/header_shadow.png) repeat-x bottom left;
+}
+
+#header {
+	position: relative;
+	height: 140px;
+}
+
+
+#org {
+	margin: 15px 20px 0 0;
+	float: left;
+}
+
+#tagline {
+	float: left;
+	margin: 15px 0 0 20px;
+}
+
+#sheets {
+	width: 352px;
+	height: 261px;
+	position: absolute;
+	right: -200px;
+	background: url(../images/sheets.png) no-repeat left top;
+	z-index: 3;
+}
+
+/* IE < 7 doesn't support transparent png*/
+* html #sheets {
+	background: url(../images/sheets.gif) no-repeat left top;
+}
+
+#navWrapper {
+	padding: 1px 0 21px 0;
+	background: #FFF url(../images/nav_shadow.png) repeat-x bottom left;
+}
+
+#nav {
+	background: #236184 url(../images/nav_bg.png) repeat-x top left;
+}
+
+#nav ul {
+	list-style-type: none;
+	display: block;
+	overflow: hidden;
+	background: url(../images/nav_separator.png) no-repeat top left;
+}
+
+#nav li {
+	float: left;
+	background: url(../images/nav_separator.png) no-repeat top right;
+	padding: 0 2px 0 1px ;
+}
+
+#nav li a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 110%;
+	padding: 0.5em 1em 0.3em 1em;
+	display: block;
+	border-bottom: 3px solid #2A6989;
+}
+
+#nav li a:hover {
+	border-bottom: 3px solid #2E7498;
+	background: #236184 url(../images/nav_hover_bg.png) repeat-x top left;
+}
+
+#subnav {
+	border-top: 1px solid #184761	;
+	background: #2C79A2 url(../images/subnav_bg.png) repeat-x top left;
+}
+
+#subnav ul {
+	list-style-type: none;
+	display: block;
+	overflow: hidden;
+	background: url(../images/subnav_separator.png) no-repeat top left;
+}
+
+#subnav li {
+	float: left;
+	background: url(../images/subnav_separator.png) no-repeat top right;
+	padding: 0 2px 0 1px ;
+}
+
+#subnav li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 0.3em 1em;
+	display: block;
+}
+
+#subnav li a:hover {
+	background: #3489B7;
+}
+
+/*---------------------- content -----------------------*/
+
+#content {
+	padding: 0 1em 3em 1em;
+	margin: 1px auto;
+	color:#555555;
+}
+
+#content ul {
+    padding: 0 0 0 15px;
+	margin: 0 0 1em 0;
+	list-style: url(../images/dash.png);
+}
+
+#content li {
+	line-height: 130%;
+}
+
+#content p {
+    margin-bottom: 0.5em;
+	line-height: 130%;
+}
+
+/*---------------------- footer -----------------------*/
+
+#footer {
+	background: url(../images/nav_shadow.png) repeat-x top left;
+	padding: 10px 1em 0 1em;
+	overflow: auto;
+	color: #999;
+}
+
+#footer a {
+	color: #444;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #3080AB;
+}
+
+#contact {
+	float: left;
+	font-size: 85%;
+}
+
+#version {
+	float: left;
+	margin-left: 16em;
+	font-size: 85%;
+}
+
+#design {
+	float: right;
+	font-size: 85%;
+}
+
+/*---------------------- results -----------------------*/
+
+.results {
+	width: 100%;
+}
+
+.results td {
+	border-bottom: 1px solid #DDDDDD;
+	padding: 2px 2px 2px 5px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+td.results_title {
+	border-top: 1px solid #DDDDDD;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	background-color: #FBFBFB;					
+	text-align: center;
+}
+
+.results_head {
+	font-weight: bold;
+}
+
+.results {
+	text-align: left;
+}
+
+.results_table tr td {
+    padding: 1px 5px 1px 5px;
+    vertical-align: top;
+}
+
+/*------------------ resources --------------------------*/
+
+.resources {
+	width: 75%;
+}
+
+/*--------------------- tutorial ----------------------*/
+
+#tutorial p {
+	text-align: justify;
+}
+
+#tutorial pre {
+	font-size: 12px;
+	padding: 0 0 0 40px;
+	margin: 1em 0 1em 0;
+	color: black;
+}
+
+#tutorial p.navigate {
+	text-align: center;
+	margin: 1.5em 0;
+}
+
+#tutorial p.status {
+	text-align: center;
+}
+
+#tutorial p.title{ quotes: '"' '"' "'" "'" }
+
+#tutorial p.title {
+	text-align: center;
+	font-family: Times;
+	font-style: italic;
+	font-size: 200%;
+	margin: 1em 0 1em 0;
+}
+
+#tutorial p.title:before {
+  content: "\201E"; /*"\201C"*/
+}
+
+#tutorial p.title:after {
+  content: "\201D";
+}
+
+#tutorial .subtitle {
+	text-align: center;
+}
+
+#tutorial .author {
+	float: right;
+	font-size: 85%;
+}
+
+/*---------------------- webcpp -----------------------*/
+
+
+.webcpp a:link    {color:#000000;}
+.webcpp a:visited {color:#808080;}
+.webcpp a:active  {color:#000000;}
+.webcpp a:hover   {color:#000000;}
+
+.webcpp pre {
+	color: #000000;
+}
+
+.webcpp font {
+	font-size:100%;
+}
+
+.webcpp .symbols {
+	color: #000000;
+}
+
+.webcpp .preproc {
+	color: #000000;
+}
+
+.webcpp .integer {
+	color: #000000;
+}
+
+.webcpp .floatpt {
+	color: #000000;
+}
+
+.webcpp .dblquot {
+	color: #000000;
+}
+
+.webcpp .sinquot {
+	color: #000000;
+}
+
+.webcpp .keyword {
+	color: #000000;
+	font-weight: bold;
+}
+
+.webcpp .keytype {
+	color: #000000;
+	font-weight: bold;
+}
+
+.webcpp .comment {
+	color: #808080;
+	font-style: italic;
+}
+
+/*--------------------- teams ----------------------*/
+
+table.teams td {
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+table.teams td.break {
+	background: #FFFFFF;
+	border-bottom: none;
+}
+
+table.teams td.team_name {
+	background-color: #EBEBEB;
+}

@@ -1,0 +1,74 @@
+/* @license
+ * MyFonts Webfont Build ID 2164200, 2012-03-23T18:32:23-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed ../webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Foral Pro Light by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/light/
+ * Licensed pageviews: 4,000,000
+ *
+ * Webfont: Foral Pro Light Italic by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/light-italic/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro Bold Italic by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/bold-italic/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro Bold by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/bold/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro Italic by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/italic/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro ExtraBold by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/extrabold/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro ExtraBold Italic by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/extrabold-italic/
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Foral Pro by Fountain
+ * URL: http://www.myfonts.com/fonts/fountain/foral-pro/regular/
+ * Licensed pageviews: unspecified
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164200
+ * ../webfonts copyright: Copyright (c) 2010 by FOUNTAIN/Peter Bruhn, Sweden. All rights reserved. Designed by Rui Abreu.
+ *
+ * © 2012 Bitstream Inc
+*/
+
+
+
+
+ @font-face {font-family: 'ForalPro-Light';src: url("../webfonts/2105E8_0_0.abdd67a19831.eot");src: url("../webfonts/2105E8_0_0.abdd67a19831.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_0_0.82f47c0aff61.woff") format('woff'),url("../webfonts/2105E8_0_0.3bf4cc6dc45e.ttf") format('truetype');}
+
+ @font-face {font-family: 'ForalPro-LightItalic';src: url("../webfonts/2105E8_1_0.1cfa6f61edd1.eot");src: url("../webfonts/2105E8_1_0.1cfa6f61edd1.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_1_0.d96da42471dd.woff") format('woff'),url("../webfonts/2105E8_1_0.f926e6433d70.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro-Light';font-style:italic;src: url("../webfonts/2105E8_1_0.1cfa6f61edd1.eot");src: url("../webfonts/2105E8_1_0.1cfa6f61edd1.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_1_0.d96da42471dd.woff") format('woff'),url("../webfonts/2105E8_1_0.f926e6433d70.ttf") format('truetype');}
+
+ @font-face {font-family: 'ForalPro-BoldItalic';src: url("../webfonts/2105E8_2_0.465fb80d9012.eot");src: url("../webfonts/2105E8_2_0.465fb80d9012.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_2_0.7a33b828bff5.woff") format('woff'),url("../webfonts/2105E8_2_0.c59de56d419f.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro';font-style:italic;font-weight:bold;src: url("../webfonts/2105E8_2_0.465fb80d9012.eot");src: url("../webfonts/2105E8_2_0.465fb80d9012.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_2_0.7a33b828bff5.woff") format('woff'),url("../webfonts/2105E8_2_0.c59de56d419f.ttf") format('truetype');}
+
+
+ @font-face {font-family: 'ForalPro-Bold';src: url("../webfonts/2105E8_3_0.62e5d2a75aa2.eot");src: url("../webfonts/2105E8_3_0.62e5d2a75aa2.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_3_0.fac33bc73008.woff") format('woff'),url("../webfonts/2105E8_3_0.abd3d5526be3.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro';font-weight:bold;src: url("../webfonts/2105E8_3_0.62e5d2a75aa2.eot");src: url("../webfonts/2105E8_3_0.62e5d2a75aa2.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_3_0.fac33bc73008.woff") format('woff'),url("../webfonts/2105E8_3_0.abd3d5526be3.ttf") format('truetype');}
+
+ @font-face {font-family: 'ForalPro-Italic';src: url("../webfonts/2105E8_4_0.4e2d541dcdc0.eot");src: url("../webfonts/2105E8_4_0.4e2d541dcdc0.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_4_0.3840db8c56cb.woff") format('woff'),url("../webfonts/2105E8_4_0.c00f9e7cdca9.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro';font-style:italic;src: url("../webfonts/2105E8_4_0.4e2d541dcdc0.eot");src: url("../webfonts/2105E8_4_0.4e2d541dcdc0.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_4_0.3840db8c56cb.woff") format('woff'),url("../webfonts/2105E8_4_0.c00f9e7cdca9.ttf") format('truetype');}
+
+ @font-face {font-family: 'ForalPro-ExtraBold';src: url("../webfonts/2105E8_5_0.ce4e808f3b0a.eot");src: url("../webfonts/2105E8_5_0.ce4e808f3b0a.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_5_0.fa64a396cdce.woff") format('woff'),url("../webfonts/2105E8_5_0.16b1d63370de.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro';font-weight:bold;src: url("../webfonts/2105E8_5_0.ce4e808f3b0a.eot");src: url("../webfonts/2105E8_5_0.ce4e808f3b0a.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_5_0.fa64a396cdce.woff") format('woff'),url("../webfonts/2105E8_5_0.16b1d63370de.ttf") format('truetype');}
+
+ @font-face {font-family: 'ForalPro-ExtraBoldItalic';src: url("../webfonts/2105E8_6_0.67cda2d75ab0.eot");src: url("../webfonts/2105E8_6_0.67cda2d75ab0.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_6_0.6dfc49a4161a.woff") format('woff'),url("../webfonts/2105E8_6_0.d1400f8df502.ttf") format('truetype');}
+ @font-face {font-family: 'ForalPro';font-style:italic;font-weight:bold;src: url("../webfonts/2105E8_6_0.67cda2d75ab0.eot");src: url("../webfonts/2105E8_6_0.67cda2d75ab0.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_6_0.6dfc49a4161a.woff") format('woff'),url("../webfonts/2105E8_6_0.d1400f8df502.ttf") format('truetype');}
+
+
+ @font-face {font-family: 'ForalPro-Regular';src: url("../webfonts/2105E8_7_0.52569f0edbc1.eot");src: url("../webfonts/2105E8_7_0.52569f0edbc1.eot?#iefix") format('embedded-opentype'),url("../webfonts/2105E8_7_0.9cccc56a3fb7.woff") format('woff'),url("../webfonts/2105E8_7_0.8d30bb1d5e33.ttf") format('truetype');}

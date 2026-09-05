@@ -1,0 +1,103 @@
+body {margin:3px 10px; color:#000; background-color:#fff;}
+.allpage {min-width:620px; max-width:1260px; margin:0 auto;}
+p.right {text-align:right;}
+p.quote {font-family:Courier,Monospace,fixed-width; margin-left:30px; text-indent:20px;}
+
+a img {border:0px;}
+
+a {color:#224488; text-decoration:underline;}
+a:visited {color:#667788;}
+a:hover {text-decoration:underline;}
+a.textlink {color:#336699; text-decoration:underline;}
+a.navlink {color:#dddddd; font-family:Arial,Verdana; font-size:18px; text-decoration:underline;}
+a.navlink:visited {color:#dddddd;}
+a.navlink:hover {color:#ffffff; text-decoration:underline;}
+
+.clear {clear:both;}
+.page_header {position:relative; height:133px; width:100%; background-color:#356a9f; background1:#356a9f url(/design/ltorch.gif) no-repeat 9px 5px; color:#fff;}
+.logo_title {float:left; position:absolute; left:12px; top:24px; overflow:hidden; zoom:1;}
+.logo_univer {float:right; position:absolute; top:12px; right:10px; overflow:hidden; zoom:1;}
+.main_menu {float:left; position:absolute; bottom:0; width:100%; overflow:hidden; zoom:1;}
+.main_menu2 {margin:0 2px 7px 2px;}
+.main_menu a {margin-left:18px; margin-right:18px;}
+.main_menu {font-family:Arial,Verdana; text-align:center; line-height:1.4em;}
+.page_title {margin-top:6px; background-color:#356a9f; color:#fff; font-family:Arial,Verdana; font-weight:bold;}
+.page_title_text {float:left; padding:5px 5px 5px 16px; overflow:hidden; zoom:1;}
+.page_title_icons {text-align:right; padding:3px 4px 2px 4px; line-height:0.81em;}
+.main_menu A, .main_menu A:visited, .page_footer A, .page_footer A:visited {color:#fff; text-decoration:none;}
+.main_menu A:hover, .main_menu A:active, .page_footer A:hover, .page_footer A:active {color:#ffff38; text-decoration:none;}
+.page_footer {background-color:#356a9f; color:#fff;}
+.page_footer {font-size:0.81em; font-family:Arial,Verdana; clear:both; margin-top:1em; padding:6px 16px;}
+.page_footer_left {float:left; font-weight:bold; overflow:hidden; zoom:1;}
+.page_footer_right {text-align:right;}
+
+.menu_title {padding:5px; text-align:center; background-color:#356a9f; color:#fff;}
+.menu_text {border-bottom:solid 2px #356a9f; border-left:solid 2px #356a9f; border-right:solid 2px #356a9f;}
+.menu_text {padding:3px; margin-bottom:6px; background-color:#fff; color:#336699;}
+.menu_title, .menu_text {font-size:0.81em; font-weight:bold; font-family:Arial,Verdana; overflow:hidden;}
+.menu_text a {color:#336699; text-decoration:underline;}
+.menu_text a:hover {text-decoration:underline;}
+.menu_text a:visited {color:#667788;}
+.menu_text img {max-width:95%; margin:10px 5px; vertical-align:middle;}
+.right_menu {text-align:center;}
+
+.allcols {position:relative; clear:both; float:left; width:100%; overflow:hidden; zoom:1;}
+.colmid, .colleft {float:left; width:100%; position:relative;}
+.leftmenu, .maincontent, .rightmenu {float:left; position:relative; padding:6px 0 0 0; overflow:hidden; zoom:1;}
+.threecol .colmid {right:20%;}
+.threecol .colleft {right:60%;}
+.threecol .leftmenu {width:20%; left:80%;}
+.threecol .maincontent {width:58%; left:81%;}
+.threecol .rightmenu {width:20%; left:82%;}
+.twocol .colleft {right:80%;}
+.twocol .leftmenu {width:20%; left:80%;}
+.twocol .maincontent {width:79%; left:81%;}
+.maincontent>p:first-child, .maincontent>h1:first-child, .maincontent>h2:first-child, .maincontent>h3:first-child {margin-top:0;}
+
+.maincontent h1 {font-size:1.5em;}
+.maincontent h2 {font-size:1.3em;}
+.maincontent h3 {font-size:1.17em;}
+.maincontent_title {margin-top:0; margin-bottom:0.75em; font-weight:bold; font-size:1.5em;}
+
+table.silver {border:solid 1px silver; border-collapse:collapse;}
+table.silver td, table.silver th {border:solid 1px silver; padding:3px; vertical-align:top;}
+
+div.sponsors {float:right; text-align:center; border:solid 2px Silver; padding:7px; margin:0px 0px 10px 10px;}
+div.sponsors a {border:0px; margin:5px;}
+
+/********** acm.timus.ru monitor **********/
+TABLE.monitor {border-collapse:collapse;}
+TABLE.monitor TR TD, TABLE.monitor TR TH {border:solid 1px #BBB; padding:2px 4px; text-align:center; font-family:Arial,Helvetica,sans-serif;}
+TABLE.monitor TR TD {font-size:0.88em;}
+TABLE.monitor TR TH {font-size:0.81em; line-height:2em;}
+TABLE.monitor TR TD.author {text-align:left;}
+TABLE.monitor TR TD I {font-size:0.71em; font-style:normal;}
+TABLE.monitor TR TD.acc, TABLE.monitor TR TD.acb, TABLE.monitor TR TD.rej, TABLE.monitor TR TD.reb, TABLE.monitor TR TD.snt {font-family:Verdana,Geneva,'Bitstream Vera Sans','DejaVu Sans',sans-serif;}
+TABLE.monitor TR TD.acc {color:#070;}
+TABLE.monitor TR TD.acb {color:#070; font-weight:bold;}
+TABLE.monitor TR TD.rej {color:#B00;}
+TABLE.monitor TR TD.reb {color:#B00; font-weight:bold;}
+TABLE.monitor TR TD.snt {color:#F60;}
+TABLE.monitor TR.stat_row TD {border:0; font-size:0.81em; font-style:italic;}
+TABLE.monitor TR.stat_row TD.stat_caption {text-align:right;}
+TABLE.monitor TR.oddrow TD {background-color:#f0f0f8;}
+TABLE.monitor TR.evenrow TD {background-color:#e4e4f8;}
+
+/********** gallery generator **********/
+.gal_foto {float:left; margin:5px; background-color:#FFF; border:1px solid #EEE;}
+.gal_foto a img {border:0;}
+.gal_section {margin:0.7em 0 0.3em 0; padding:3px 10px 3px 10px;}
+.gal_section {color:White; background-color:#457aaf; font:1.3em sans-serif;}
+.gal_clear {clear:both;}
+
+@media screen and (max-width: 768px) {
+.allcols, .colmid, .colleft, .leftmenu, .maincontent, .rightmenu {position:static; float:none; width:100%;}
+.threecol .leftmenu, .threecol .maincontent, .threecol .rightmenu, .twocol .leftmenu, .twocol .maincontent {width:100%;}
+.menu_hide {display:none;}
+.menu_title {font-size:1em;}
+.menu_text {font-size:1em; font-weight:normal;}
+}
+
+@media screen and (max-width: 735px) {
+.logo_univer {display:none;}
+}

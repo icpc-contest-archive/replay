@@ -1,0 +1,100 @@
+BODY {
+	color : Black;
+	background-color : White;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size : 11px;
+}
+
+TD {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size : 11px;
+}
+
+A {
+	color : Blue;
+}
+
+A:HOVER {
+	color : Red;
+	text-decoration : none;
+}
+
+HR {
+	width : 75%;
+	color : #1D72B8;
+}
+
+H1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size : 30px;
+}
+
+H2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size : 24px;
+}
+
+H3 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size :18px;
+}
+
+H4 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size :12px;
+}
+
+
+TABLE.meniu {
+	background-color : #FFFFFF;
+}
+
+TR.meniu {
+	background-color : #ADD8E6;
+}
+
+TD.locul5 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-size : 11px;
+	font-weight : bold;
+}
+
+TD.locul4 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-weight : bold;
+	font-size: 13px;
+}
+
+TD.locul3 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-weight : bold;
+	font-size: 15px;
+}
+
+TD.locul2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-weight : bold;
+	font-size: 17px;
+}
+
+TD.locul1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, serif;
+	font-weight : bolder;
+	font-size: 20px;
+}
+
+
+A.meniu {
+	color : Black;
+	font-weight : bolder;
+	text-decoration : none;
+}
+
+A:HOVER.meniu {
+	color : Red;
+	text-decoration : none;
+}
+
+PRE{
+		font-size : 12px;
+}

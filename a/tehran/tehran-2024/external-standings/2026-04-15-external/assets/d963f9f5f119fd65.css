@@ -1,0 +1,156 @@
+/*
+	Scoreboard CSS
+	By: Hamid Zarrabi-Zadeh and Hamed Moghimi
+*/
+
+
+body {
+    font-family: Arial;
+    font-size: 15px;
+    min-width: 900px;
+    padding: 0 1em 1em;
+}
+
+#header {
+    min-height: 150px;
+}
+
+#header>.banner {
+    width: 100%;
+    margin: -4px 0;
+}
+
+#header>.logo-right {
+    float: right;
+    padding: 12px 30px 0 70px;
+    max-width: 100px;
+}
+
+#header>.logo-left {
+    float: left;
+    padding-left: 10px;
+    margin-top: -10px;
+    max-width: 200px;
+}
+
+#header>h1,
+#header>h2,
+#header>span {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#header>h1 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#header>h2 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#header>h2.announce {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#footer {
+    margin-top: 20px;
+    width: 100%;
+    color: gray;
+}
+
+#footer a {
+    color: gray; 
+    text-decoration: none;
+}
+
+/* -------------- Table styles -------------- */
+
+#scoreboard {
+    margin: 0px auto 5px;
+    width: 100%;
+    border: 2px solid #000;
+    border-spacing: 0;
+}
+
+#scoreboard th {
+    padding: 6px 0;
+    border-bottom: 2px solid #000;
+    border-right: 1px solid #aaa;
+}
+
+#scoreboard td {
+    padding: 0;
+    min-width: 30px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #aaa;
+}
+
+#scoreboard td:last-child,
+#scoreboard th:last-child {
+    border-right: none;
+}
+
+td.team {
+    font-size: 1.1em;
+    text-align: left !important;
+    padding: 3px 0 3px 15px !important;
+}
+
+#scoreboard tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+#scoreboard>tfoot td {
+    border-top: 2px solid #000;
+}
+
+#scoreboard td.yes {
+    background-color: #8f8;
+}
+
+#scoreboard td.yes.first {
+    background-color: #0d0;
+}
+
+#scoreboard td.no {
+    background-color: #f88;
+}
+
+#scoreboard td.pending {
+    background-color: #ff8 !important;
+}
+
+.muted {
+    font-size: 0.75em;
+    color: #555;
+    display: block;
+}
+
+.no .muted {
+    color: #000;
+}
+
+.text-center {
+    display: block;
+    text-align: center !important;
+}
+
+span.balloon {
+    display: block !important;
+    width: 27px !important;
+    height: 40px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    background: url("../img/balloon.png") -1px -1px no-repeat;
+}

@@ -1,0 +1,48 @@
+table {
+	border-style: none;
+	border-collapse: collapse;
+}
+th, td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+table#scoretable th, table#scoretable td {
+	padding: 5px;
+	max-width: 170px;
+	min-width: 35px;
+}
+tr:nth-child(odd) {
+	background-color: #eee;
+}
+tr:nth-child(even) {
+	background-color: #fff;
+}
+input[type="text"] {
+	border-style: inset;
+	border-color: gray;
+	border-width: 1px;
+	background: transparent;
+}
+th.left-double, td.left-double {
+	border-left-style: double;
+	border-left-width: 3px;
+}
+#selectSite{
+	font-size: 16px;
+}
+
+div.content {
+	border-style: solid;
+	border-width: 1px;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 5px 0px 5px;
+}
+
+h2 {
+	margin: 0px 0px 5px 0px;
+}
+
+form {
+	display: inline;
+}

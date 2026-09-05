@@ -1,0 +1,16 @@
+#mainlogo {
+  float: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#mainlogo img {
+  max-width: 100%;
+  height: auto;
+}

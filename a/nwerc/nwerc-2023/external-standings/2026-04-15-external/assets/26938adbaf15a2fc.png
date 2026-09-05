@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#058cce">
+    <link rel="icon" href="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/uet5duo.css">
+
+    <title>W.I.S.V. &#039;Christiaan Huygens&#039;</title>
+<meta name='robots' content='max-image-preview:large' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://ch.tudelft.nl/wp-includes/blocks/paragraph/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='custom-fonts-css' href='https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans:700' media='all' />
+<link rel='stylesheet' id='rechallenge-css' href='https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/css/app.css' media='all' />
+<script id="jquery-js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="https://api.w.org/" href="https://ch.tudelft.nl/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://ch.tudelft.nl/wp-json/wp/v2/pages/21" /><link rel="canonical" href="https://ch.tudelft.nl/" />
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style>
+</head>
+<body class="home wp-singular page-template-default page page-id-21 wp-theme-rechallenge front-page">
+
+<div class="page-container">
+
+    <!-- Page header -->
+    <header class="page-header">
+
+        <!-- Title Bar -->
+        <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="large">
+            <div class="row collapse">
+                <div class="small-6 medium-5 bg-left column">
+                    <a class="logo-small" href="https://ch.tudelft.nl/">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABboAAAEsAQAAAAAtajj0AAAAAnRSTlMAAHaTzTgAAABNSURBVHja7cGBAAAAAMOg+VPf4ARVAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzwDYzAABnLyl4gAAAABJRU5ErkJggg==" alt="W.I.S.V. &#039;Christiaan Huygens&#039;" class="logo-small lazyload" data-src="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/images/ch-logo.png" decoding="async" data-eio-rwidth="1466" data-eio-rheight="300"><noscript><img src="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/images/ch-logo.png" alt="W.I.S.V. &#039;Christiaan Huygens&#039;" class="logo-small" data-eio="l"></noscript>
+                    </a>
+                </div>
+                <div class="small-6 medium-7 bg-right column">
+                    <div class="float-right">
+                        <a class="login-button button alert" href="https://ch.tudelft.nl/portal" data-open="login-form">Login</a>                        <button class="wisv-menu-icon hamburger hamburger--collapse" type="button" data-toggle aria-label="Navigation menu">
+                            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Top Bar -->
+        <div class="wisv-header left">
+
+            <div class="wisv-header right">
+                <div class="center row">
+
+                    <nav class="top-bar" id="nav-menu">
+                        <div class="top-bar-left show-for-large">
+                            <div class="logo-wrapper">
+                                <a class="logo" href="https://ch.tudelft.nl/">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABboAAAEsAQAAAAAtajj0AAAAAnRSTlMAAHaTzTgAAABNSURBVHja7cGBAAAAAMOg+VPf4ARVAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzwDYzAABnLyl4gAAAABJRU5ErkJggg==" width="300" height="90" alt="W.I.S.V. &#039;Christiaan Huygens&#039;" data-src="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/images/ch-logo.png" decoding="async" class="lazyload" data-eio-rwidth="1466" data-eio-rheight="300"><noscript><img src="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/images/ch-logo.png" width="300" height="90" alt="W.I.S.V. &#039;Christiaan Huygens&#039;" data-eio="l"></noscript>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="top-bar-right">
+                            <ul class="vertical large-horizontal menu"><li id="menu-item-38" class="menu-item-38"><a href="https://ch.tudelft.nl/activities/">Activities</a></li>
+<li id="menu-item-37" class="menu-item-37"><a href="https://ch.tudelft.nl/association/">Association</a></li>
+<li id="menu-item-39" class="menu-item-39"><a href="https://ch.tudelft.nl/education/">Education</a></li>
+<li id="menu-item-40" class="menu-item-40"><a href="https://ch.tudelft.nl/career/">Career</a></li>
+<li id="menu-item-41" class="menu-item-41"><a href="https://ch.tudelft.nl/media/">Media</a></li>
+<li id="menu-item-43" class="menu-item-43"><a href="https://ch.tudelft.nl/contact/">Contact</a></li>
+<li><a class="login-button button alert" href="https://ch.tudelft.nl/portal" data-open="login-form">Login</a></li></ul>                        </div>
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+    <!-- Page title / slider -->
+    <div class="page-title slider">
+        <section class="orbit" role="region" data-orbit>
+
+            <ul class="orbit-container">
+                                    <li class="is-active orbit-slide lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/DSC00429-2_Bestuur_CH_2026-clean-1920x500.jpg" data-eio-rwidth="1920" data-eio-rheight="500">
+                        <div class="orbit-caption"><div class="align-middle"><div style="position: absolute; top: 4.5%; left: 0; width: 100%; text-align: center; z-index: 10;">
+<div style="background-color: rgba(0, 0, 0, 0.4); display: inline-block; padding: 15px 25px; border-radius: 5px;">
+<h1 style="margin: 0 !important; padding: 0 !important; line-height: 1 !important; color: #fff;">W.I.S.V. &#8216;Christiaan Huygens&#8217; Board 70</h1>
+</div>
+</div>
+</div></div>
+                    </li>
+                                        <li class="orbit-slide lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/confidentialmentor-e1782478568167-1920x500.jpeg" data-eio-rwidth="1920" data-eio-rheight="500">
+                        <div class="orbit-caption"><div class="align-middle"><h1>Contact Confidential Mentors</h1>
+<p>If you are experiencing or have experienced undesirable behavior (such as discrimination, (sexual) intimidation, agression, stalking, feeling left out at a certain event or bullying) by a fellow student, a Board member, teacher or someone else, we are here to listen and help. </p>
+<p><a class="button" href="https://wisv.ch/report" target="_top" rel="noopener noreferrer">TrusTool</a></p>
+</div></div>
+                    </li>
+                                        <li class="orbit-slide lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/Untitled-design-1-1920x500.png" data-eio-rwidth="1920" data-eio-rheight="500">
+                        <div class="orbit-caption"><div class="align-middle"><h1>Need help?</h1>
+<p>Have you had a bad experience in the association or within your studies, but don&#8217;t know where to go to?</p>
+<p><a class="button" href="https://ch.tudelft.nl/help" target="_top" rel="noopener noreferrer">Find out here!</a></p>
+</div></div>
+                    </li>
+                                        <li class="orbit-slide lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/WhatsApp-Tricks-Secrets-and-Hidden-Functions-1920x500.jpg" data-eio-rwidth="1920" data-eio-rheight="500">
+                        <div class="orbit-caption"><div class="align-middle"><h1>Whatsapp Announcement groups</h1>
+<p>CH has WhatsApp groups especially for announcements of events. There is one group specifically for events focussed on master students and one group for general events. Besides this, CH also has a group focussed on career announcements.</p>
+<p><a class="button" href="http://wisv.ch/whatsapp" rel="noopener noreferrer">General Announcements <i class="fa ch-arrow-right"></i></a> <a class="button" href="http://wisv.ch/masterwhatsapp" rel="noopener noreferrer">Master Announcements <i class="fa ch-arrow-right"></i></a> <a class="button" href="http://wisv.ch/careerwhatsapp" rel="noopener noreferrer">Career Announcements <i class="fa ch-arrow-right"></i></a></p>
+</div></div>
+                    </li>
+                                        <li class="orbit-slide lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/fbt-bg-1920x500.jpg" data-eio-rwidth="1920" data-eio-rheight="500">
+                        <div class="orbit-caption"><div class="align-middle"><h1>Feedback</h1>
+<p>Do you have improvements or complaints about the association or education?<br />
+We would love to hear from you!</p>
+<p><a class="button" href="https://ch.tudelft.nl/feedback/" target="new" rel="noopener">Give your feedback <i class="fa ch-arrow-right"></i></a></p>
+</div></div>
+                    </li>
+                                </ul>
+
+            <nav class="orbit-bullets"><button class="is-active"  data-slide="0" aria-label="Navigate to slide 1"></button><button  data-slide="1" aria-label="Navigate to slide 2"></button><button  data-slide="2" aria-label="Navigate to slide 3"></button><button  data-slide="3" aria-label="Navigate to slide 4"></button><button  data-slide="4" aria-label="Navigate to slide 5"></button></nav>
+        </section>
+    </div>
+
+
+    </header>
+
+    <!-- Intro text -->
+    <section class="section-odd intro-text">
+        <div class="row column text-center">
+            <h1>W.I.S.V. &#8216;Christiaan Huygens&#8217;</h1>
+<p>&#8216;Christiaan Huygens&#8217; is the study association for Applied Mathematics and Computer Science at the TU Delft.</p>
+<p><a class="button alt" href="https://ch.tudelft.nl/association/">Read more <i class="fa ch-arrow-right"></i></a></p>
+
+
+<p class="wp-block-paragraph"></p>
+        </div>
+    </section>
+
+<!-- Calendar / News -->
+<div class="section-even calendar-news">
+
+    <div class="row" data-equalizer data-equalize-on="large" id="equalize-columns">
+        <div class="column wisv-column-block medium-5 large-4">
+
+            <!-- Calendar -->
+            <section class="wisv-panel" data-equalizer-watch>
+                <header class="wisv-panel-heading">
+                    <h1 class="small">Calendar
+                        <small>
+                            <a href="https://ch.tudelft.nl/activities">
+                                More <i class="fa ch-arrow-right"></i>
+                            </a>
+                        </small>
+                    </h1>
+                </header>
+
+                <div class="wisv-panel-content">
+
+                    
+                        <ul>
+                                                            <li class="row event">
+                                    <article class="column icon-row">
+
+    <div class="icon-cell event-date-wrapper">
+        <a href="https://ch.tudelft.nl/activities/event/2026/lunch-lecture-tno/" class="event-date">
+            Tuesday<span>8</span>September        </a>
+    </div>
+
+    <div class="text-cell event-desc">
+        <header>
+            <h1 class="event-desc-header"><a href="https://ch.tudelft.nl/activities/event/2026/lunch-lecture-tno/">Lunch Lecture TNO</a></h1>
+        </header>
+
+        
+            <footer class="byline">
+                                    <span class="event-location">
+                    Career                </span>
+                                        <span class="event-time">
+                    12:40 - 13:30                </span>
+                
+            </footer>
+
+        
+        <p>Lunch Lecture TNO</p>
+
+    </div>
+
+</article>
+                                </li>
+                                                                <li class="row event">
+                                    <article class="column icon-row">
+
+    <div class="icon-cell event-date-wrapper">
+        <a href="https://ch.tudelft.nl/activities/event/2026/committee-interest-lunch-11/" class="event-date">
+            Wednesday<span>9</span>September        </a>
+    </div>
+
+    <div class="text-cell event-desc">
+        <header>
+            <h1 class="event-desc-header"><a href="https://ch.tudelft.nl/activities/event/2026/committee-interest-lunch-11/">Committee Interest Lunch!</a></h1>
+        </header>
+
+        
+            <footer class="byline">
+                                    <span class="event-location">
+                    Association                </span>
+                                        <span class="event-time">
+                    12:40 - 13:30                </span>
+                
+            </footer>
+
+        
+        <p>Committee Interest Lunch!</p>
+
+    </div>
+
+</article>
+                                </li>
+                                                                <li class="row event">
+                                    <article class="column icon-row">
+
+    <div class="icon-cell event-date-wrapper">
+        <a href="https://ch.tudelft.nl/activities/event/2026/lustrum-opening-party/" class="event-date">
+            Thursday<span>10</span>September        </a>
+    </div>
+
+    <div class="text-cell event-desc">
+        <header>
+            <h1 class="event-desc-header"><a href="https://ch.tudelft.nl/activities/event/2026/lustrum-opening-party/">Lustrum &#8211; Opening Party</a></h1>
+        </header>
+
+        
+            <footer class="byline">
+                                    <span class="event-location">
+                    Social                </span>
+                                        <span class="event-time">
+                    22:00 - 3:00                </span>
+                
+            </footer>
+
+        
+        <p>Join the Lustrum Opening Party organised by the LuCie</p>
+
+    </div>
+
+</article>
+                                </li>
+                                                                <li class="row event">
+                                    <article class="column icon-row">
+
+    <div class="icon-cell event-date-wrapper">
+        <a href="https://ch.tudelft.nl/activities/event/2026/rapelling-down-eemcs/" class="event-date">
+            Monday<span>14</span>September        </a>
+    </div>
+
+    <div class="text-cell event-desc">
+        <header>
+            <h1 class="event-desc-header"><a href="https://ch.tudelft.nl/activities/event/2026/rapelling-down-eemcs/">Rappelling down EEMCS</a></h1>
+        </header>
+
+        
+            <footer class="byline">
+                                    <span class="event-location">
+                    Social                </span>
+                                        <span class="event-time">
+                    12:00 - 17:00                </span>
+                
+            </footer>
+
+        
+        <p>Rappelling down EEMCS</p>
+
+    </div>
+
+</article>
+                                </li>
+                                                        </ul>
+
+                                    </div>
+            </section>
+
+        </div>
+        <div class="column medium-7 large-8">
+
+            <!-- News -->
+            <section class="wisv-panel" data-equalizer-watch>
+                <div class="wisv-panel-heading">
+                    <h1 class="small">News
+                        <small><a href="https://ch.tudelft.nl/association/news/">More <i class="fa ch-arrow-right"></i></a></small>
+                    </h1>
+                </div>
+                <div class="wisv-panel-content">
+                    <div class="row">
+
+                        
+                            <div class="medium-12 large-7 column">
+                                <article class="news-featured">
+
+
+    <header>
+        <a href="https://ch.tudelft.nl/association/news/70th-board-installed/" title="70th Board installed">
+            <img width="800" height="350" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAFeAQMAAABHCemzAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADdJREFUeNrtwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAaihYAAT0WtX0AAAAASUVORK5CYII=" class="attachment-featured-image size-featured-image wp-post-image lazyload" alt="" decoding="async" fetchpriority="high"   data-src="https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-800x350.jpg" data-srcset="https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-800x350.jpg 800w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-600x262.jpg 600w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-1200x524.jpg 1200w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-160x70.jpg 160w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-1536x670.jpg 1536w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-2048x894.jpg 2048w" data-max-width="800" data-sizes="auto" data-eio-rwidth="800" data-eio-rheight="350" /><noscript><img width="800" height="350" src="https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-800x350.jpg" class="attachment-featured-image size-featured-image wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-800x350.jpg 800w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-600x262.jpg 600w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-1200x524.jpg 1200w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-160x70.jpg 160w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-1536x670.jpg 1536w, https://ch.tudelft.nl/wp-content/uploads/DSC05061-e1788355743502-2048x894.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" data-eio="l" /></noscript>            <h1 class="small">70th Board installed</h1>
+        </a>
+
+        <p class="byline">
+                        <time pubdate="pubdate">September 2nd, 2026</time>
+             | Association        </p>
+    </header>
+
+    <a href="https://ch.tudelft.nl/association/news/70th-board-installed/" title="70th Board installed">
+        <p>On August 31st the associations&#8217; Change General Assembly was held. After great, touching farewell speeches Board 69 was discharged, after which Board 70 was installed. The functions are now filled as follows: Name Position Lauren But Chair Ivar Brits Secretary Dylan Schotvanger Treasurer Sanne van Leeuwen Commissioner of Applied Mathematics [&hellip;]</p>
+    </a>
+</article>                            </div>
+
+                                                            <ul class="medium-12 large-5 column news">
+                                    <li>
+    <article class="icon-row">
+
+        <div class="icon-cell">
+            <a class="thumbnail lazyload" href="https://ch.tudelft.nl/association/news/sign-up-for-freshmen-midweek-2026/" title="Sign up for Freshmen Midweek 2026!" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/thumbnail-ejw-2-160x160.jpg" data-eio-rwidth="160" data-eio-rheight="160"></a>
+        </div>
+
+        <div class="text-cell">
+            <h2 class="small"><a href=" https://ch.tudelft.nl/association/news/sign-up-for-freshmen-midweek-2026/">Sign up for Freshmen Midweek 2026!</a></h2>
+            <p class="byline">
+                <time pubdate="pubdate">July 15th, 2026</time>
+            </p>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="icon-row">
+
+        <div class="icon-cell">
+            <a class="thumbnail lazyload" href="https://ch.tudelft.nl/association/news/weekend-rally-winners-announcement/" title="Weekend Rally Winners Announcement" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/DSC02694-160x107.jpg" data-eio-rwidth="160" data-eio-rheight="107"></a>
+        </div>
+
+        <div class="text-cell">
+            <h2 class="small"><a href=" https://ch.tudelft.nl/association/news/weekend-rally-winners-announcement/">Weekend Rally Winners Announcement</a></h2>
+            <p class="byline">
+                <time pubdate="pubdate">May 29th, 2026</time>
+            </p>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="icon-row">
+
+        <div class="icon-cell">
+            <a class="thumbnail lazyload" href="https://ch.tudelft.nl/association/news/freshmen-weekend-2025/" title="Freshmen Weekend 2025" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/DSC_0827-160x107.jpg" data-eio-rwidth="160" data-eio-rheight="107"></a>
+        </div>
+
+        <div class="text-cell">
+            <h2 class="small"><a href=" https://ch.tudelft.nl/association/news/freshmen-weekend-2025/">Freshmen Weekend 2025</a></h2>
+            <p class="byline">
+                <time pubdate="pubdate">May 28th, 2025</time>
+            </p>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="icon-row">
+
+        <div class="icon-cell">
+            <a class="thumbnail lazyload" href="https://ch.tudelft.nl/association/news/symposium-solving-crime-in-no-time/" title="Symposium: Solving Crime in No Time" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/CHsymposium_screen-160x90.png" data-eio-rwidth="160" data-eio-rheight="90"></a>
+        </div>
+
+        <div class="text-cell">
+            <h2 class="small"><a href=" https://ch.tudelft.nl/association/news/symposium-solving-crime-in-no-time/">Symposium: Solving Crime in No Time</a></h2>
+            <p class="byline">
+                <time pubdate="pubdate">October 4th, 2022</time>
+            </p>
+        </div>
+    </article>
+</li>
+                                </ul>
+                                
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+</div><!-- Banner Bar -->
+<section class="section-even banner-bar">
+
+    <div class="row">
+                <div class="small-12 large-4 column wisv-buttons">
+            <div class="row">
+                            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Photo Album -->
+<section class="section-odd gallery">
+    <div class="row">
+        <div class="small-8 column">
+            <h1 class="small gallery-title">Photo galleries</h1>
+        </div>
+        <div class="small-4 column text-right">
+            <a class="button alt" href="https://ch.tudelft.nl/media/photos">View all <i class="fa ch-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- Page footer -->
+<footer class="page-footer">
+
+    
+    <!-- Partners -->
+    <div class="row column">
+        <h1 class="small">Our partners</h1>
+        <div class="row partners small-up-2 medium-up-4 large-up-5">
+            <div class="column">
+        <a href="http://netcompany.com" title="Netcompany" class="partner">
+        <span class="img hidetext lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/netcompany-logotype-darkgreen-RGB-600x92.png" data-eio-rwidth="600" data-eio-rheight="92">Netcompany</span>
+                    <span class="partner-excerpt">We are Netcompany Netcompany was founded in 2000 and has its headquarters in Copenhagen, Denmark. With the acquisition of Intrasoft International in late 2021, we added 2,800 people to our existing roster of 3,500 people. [&hellip;]<br><span class="button alt">Visit website <i class="fa ch-arrow-right"></i></span></span>
+            </a>
+</div>
+<div class="column">
+        <a href="http://www.northpool.nl" title="Northpool" class="partner">
+        <span class="img hidetext lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/NORTHOPOOL_LOGO_03_400x160.jpg" data-eio-rwidth="400" data-eio-rheight="160">Northpool</span>
+                    <span class="partner-excerpt">Northpool is a fast-growing commodity trading company based in Leiden, the Netherlands. Founded in 2013, the company specializes in trading energy and commodities, with a strong presence in intraday, short-term, and long-term power markets, as [&hellip;]<br><span class="button alt">Visit website <i class="fa ch-arrow-right"></i></span></span>
+            </a>
+</div>
+<div class="column">
+        <a href="https://www.drw.com/" title="DRW" class="partner">
+        <span class="img hidetext lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/DRW-logo_full-color_digital-600x197.png" data-eio-rwidth="600" data-eio-rheight="197">DRW</span>
+                    <span class="partner-excerpt">DRW is a diversified trading firm with over 3 decades of experience bringing sophisticated technology and exceptional people together to operate in markets around the world. We value autonomy and the ability to quickly pivot [&hellip;]<br><span class="button alt">Visit website <i class="fa ch-arrow-right"></i></span></span>
+            </a>
+</div>
+<div class="column">
+        <a href="https://optiver.com" title="Optiver" class="partner">
+        <span class="img hidetext lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/optiver_logo_rgb-600x161.png" data-eio-rwidth="600" data-eio-rheight="161">Optiver</span>
+                    <span class="partner-excerpt">We are Optiver, an international trading company, headquartered in Amsterdam. With more than 700 colleagues across four continents we constantly offer fair and highly competitive prices for the buying and selling of stocks, bonds, options, futures, ETF’s et cetera. It is called ‘market making’. We build markets and provide liquidity to international exchanges in Europe, the US and Asia Pacific.<br><span class="button alt">Visit website <i class="fa ch-arrow-right"></i></span></span>
+            </a>
+</div>
+<div class="column">
+        <a href="https://davincitrading.com/" title="Da Vinci" class="partner">
+        <span class="img hidetext lazyload" style="" data-back="https://ch.tudelft.nl/wp-content/uploads/DD_LOGO_FINAL_BLACK-600x75.png" data-eio-rwidth="600" data-eio-rheight="75">Da Vinci</span>
+                    <span class="partner-excerpt">About Da Vinci Da Vinci is a proprietary trading house founded in 2015, specialised in solving market inefficiencies, identifying opportunities based on volatility arbitrage and delta1 strategies and providing liquidity to the markets. We are [&hellip;]<br><span class="button alt">Visit website <i class="fa ch-arrow-right"></i></span></span>
+            </a>
+</div>
+        </div>
+    </div>
+
+
+    <div class="footer-top dotted-border">
+        <div class="row">
+
+            <!-- Contact information -->
+            <section class="small-12 large-6 columns">
+                <div class="textwidget custom-html-widget"><div class="row">
+<div class="column">
+<h1 class="small">Contact information</h1>
+</div>
+<div class="small-12 medium-3 large-6 columns">
+<ul class="fa-ul">
+<li><i class="fa-li fa ch-clock-o"></i>Opening hours:<br>
+Monday from 13:00 to 17:00<br>
+Tuesday to Friday from 9:00 to 17:00</li>
+</ul>
+</div>
+<div class="small-12 medium-3 large-6 columns">
+<ul class="fa-ul">
+<li><i class="fa-li fa ch-map-marker"></i><address>Mekelweg 4<br>
+2628 CD Delft<br>
+The Netherlands</address></li>
+</ul>
+</div>
+<div class="small-12 medium-6 large-12 columns">
+<ul class="fa-ul">
+ 	<li><i class="fa-li fa ch-phone"></i><a href="tel:0031152782532">015-278 2532</a></li>
+</ul>
+<ul class="fa-ul">
+ 	<li><i class="fa-li fa ch-envelope"></i><a href="#">board@ch.tudelft.nl</a></li>
+</ul>
+<ul class="fa-ul">
+ 	<li><i class="fa-li fa"></i><a href="https://ch.tudelft.nl/privacy-statement/">Privacy statement</a></li>
+</ul>
+</div>
+</div></div>            </section>
+
+            <!-- Twitter -->
+            <section class="small-12 large-6 columns">
+                <h1 class="small">Follow us <a href="https://twitter.com/WISVCH/" target="new">@WISVCH</a></h1>
+                			<div class="textwidget"></div>
+		            </section>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="row column">
+            <p class="text-center">Copyright &copy; W.I.S.V. 'Christiaan Huygens' 2026</p>
+        </div>
+    </div>
+
+</footer>
+
+
+    <section class="tiny reveal" id="login-form" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+
+        <button class="close-button" data-close type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <h1 class="text-center">Login</h1>
+
+        
+            <p class="text-center">Login with your CH account or TU Delft NetID.</p>
+
+            <div class="openid-connect-login-button" style="margin: 1em 0; text-align: center;">
+	<a class="button button-large" href="https://login.ch.tudelft.nl/realms/wisvch/protocol/openid-connect/auth?response_type=code&scope=email%20profile%20openid&client_id=ch-tudelft-nl&state=9ba5876e8084d346faa891b6f41dbf47&redirect_uri=https%3A%2F%2Fch.tudelft.nl%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dopenid-connect-authorize">Login with CH Account</a>
+</div>
+            <p class="text-center">
+                <small>Having trouble logging in? <a href="https://ch.tudelft.nl/wp-login.php?redirect_to=https%3A%2F%2Fch.tudelft.nl%2Fportal">Click here</a></small>
+            </p>
+
+                </section>
+
+
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/rechallenge/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="eio-lazy-load-js-before">
+var eio_lazy_vars = {"bg_min_dpr":1.1,"exactdn_domain":"","safe_domains":["ch.tudelft.nl","www.ch.tudelft.nl"],"skip_autoscale":0,"threshold":0,"use_dpr":1};
+//# sourceURL=eio-lazy-load-js-before
+</script>
+<script async data-wp-strategy="async" id="eio-lazy-load-js" src="https://ch.tudelft.nl/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js"></script>
+<script id="bwg_lazyload-js" src="https://ch.tudelft.nl/wp-content/plugins/photo-gallery/js/jquery.lazy.min.js"></script>
+<script id="rechallenge-js" src="https://ch.tudelft.nl/wp-content/themes/rechallenge/assets/js/scripts.min.js"></script>
+
+</body>
+</html>

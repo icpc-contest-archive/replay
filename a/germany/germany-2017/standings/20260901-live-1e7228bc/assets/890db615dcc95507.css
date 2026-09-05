@@ -1,0 +1,308 @@
+body {
+	padding-top: 80px;
+}
+a, a:hover, a:focus, a:link, a:visited {
+	color: #002143;
+}
+input[type="checkbox"], input[type="radio"] {
+	width: inherit;
+	height: inherit;
+}
+.form-control {
+	margin-top: 10px;
+}
+.checkbox + label, .checkbox, .radio + label, .radio {
+	margin-left: 25px;
+}
+label .checkbox, label .radio {/*edit user has a different nesting...*/
+	margin-left: 0;
+}
+table:not(.scoreboard):not(.legend table) {
+	width: 100%;
+}
+th, .scoreboard th a, h3.teamoverview {
+	background-color: #002143;
+	color: #ffffff;
+	font-size: inherit;
+	font-weight: bold;
+}
+th, h3.teamoverview {
+	padding: 10px;
+}
+#submitform .form-control, input#comment {
+	width: inherit;
+	height: inherit;
+	display: inline;
+}
+td, th {
+	vertical-align: middle;
+}
+.scoreboard td, .scoreboard th {
+	border-color: #002143;
+}
+.container #submitlist, .container #clarlist {  
+        position: inherit;
+        float: left;
+        width: 49%;
+        margin-bottom: 10px;
+}
+.container #submitlist {
+        float: left;
+}
+.container #clarlist {  
+        float: right;
+}
+.container #lastmod {
+	display: none;
+}
+.container #djlogo {
+        position: inherit;
+        float: right;
+}
+.container #teamscoresummary {
+	margin-top: 0px;
+}
+.dropdown-menu {
+        left: -1px;
+}
+
+
+p {
+    text-align:justify;
+}
+
+#login-container {
+  width: 250px; 
+  float: right; 
+  margin: 70px 0px 20px 20px;
+  background: #002143;
+  padding: 0px 20px 20px 20px; 
+  color:#ffffff;  
+}
+
+#login-container .form-control {
+  margin-top: 0px;  
+}
+
+#login-container input {
+  background-color:#ffffff;
+  color:#002143;
+}
+
+.indent_list li{
+  text-indent: -1em; 
+  padding-left: 1em;
+}
+
+blockquote {
+  font-size: 100%;
+}
+
+/*Kattis Scoreboards*/
+table.kattis-table-contest-standings#tablelegend {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+table.kattis-table-contest-standings#tablelegend td {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 16px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	-o-background-clip: padding-box;
+	background-clip: padding-box;
+}
+table.kattis-table-contest-standings tr td.solved {
+	background-color:#99FF99 !important;
+}
+table.kattis-table-contest-standings tr td.solvedfirst {
+	color: white !important;
+	background-color:#008800 !important;
+	font-weight: 600 !important;
+}
+table.kattis-table-contest-standings tr td.attempted {
+	background-color:#FF9999 !important;
+}
+table.kattis-table-contest-standings tr td.pending{
+	background-color:#9999FF !important;
+}
+table.kattis-table-contest-standings tr td.group_leader { 
+	background-color: #FFFFAA !important;
+}
+table.kattis-table-contest-standings tr tr.highlight {
+	background-color: #EEEEFF !important;
+	font-weight: bold !important;
+}
+table.kattis-table-contest-standings th.problemcolheader a, table.kattis-table-contest-standings th.problemcolheader a:hover, table.kattis-table-contest-standings th.problemcolheader a:focus, table.kattis-table-contest-standings th.problemcolheader a:link, table.kattis-table-contest-standings th.problemcolheader a:visited {
+	color: #ffffff;
+}
+table.kattis-table-contest-standings .country-flag img {
+	max-width: 20px;
+	max-height: 20px;
+	border-radius: 50%;
+	border: 1px rgb(137, 137, 146) solid;
+}
+table.kattis-table-contest-standings .university-logo img {
+	max-width: 20px;
+	max-height: 20px;
+	border-radius: 0;
+	border: none;
+}
+table.kattis-table-contest-standings .country-flag img, table.kattis-table-contest-standings .subdivision-flag img, table.kattis-table-contest-standings .university-logo img {
+	max-width: 28px;
+	max-height: 28px;
+}
+table.kattis-table-contest-standings .country-flag span.logo {
+	width: 23px;
+	height: 23px;
+	border: 1px solid black;
+	border-radius: 15px;
+	display: inline-block;
+	font-size: 8px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+table.kattis-table-contest-standings .country-flag {
+	overflow: hidden;
+}
+table.kattis-table-contest-standings .country-flag span.text, table.kattis-table-contest-standings .university-logo span.text {
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+/* Conpra, Contest 24: Christmas Week of Conpra WS14/15 */
+@font-face {
+	font-family:"Frostbitten";
+	src: url("/web/20220707142650im_/https://judge.in.tum.de/main/fonts/frostbitten.ttf");
+}
+.tumjudge-conpra.contest-24 h1, .tumjudge-conpra.contest-24 h2, .tumjudge-conpra.contest-24 h3, .tumjudge-conpra.contest-24 h4, .tumjudge-conpra.contest-24 #menutop *, .tumjudge-conpra.contest-24 .nodata, .tumjudge-conpra.contest-24 .scoreboard td, .tumjudge-conpra.contest-24 .scoreboard th {
+        font-family: "Frostbitten";
+}
+.tumjudge-conpra.contest-24 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_silver.png') !important;
+        background-position: 0px -10px !important;
+}
+.tumjudge-conpra.contest-24 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_gold.png') !important;
+}
+
+/* Conpra, Contest 42: Halloween Week of Conpra WS15/16 */
+.tumjudge-conpra.contest-42 th, .tumjudge-conpra.contest-42 .scoreboard th a, .tumjudge-conpra.contest-42 h3.teamoverview, .tumjudge-conpra.contest-42 #login-container, .tumjudge-conpra.contest-42 .dropdown-menu > .active > a, .tumjudge-conpra.contest-42 .dropdown-menu > .active > a:hover, .tumjudge-conpra.contest-42 .dropdown-menu > .active > a:focus, .tumjudge-conpra.contest-42 .navbar-default, .tumjudge-conpra.contest-42 .dropdown-menu .header {
+	background-color: #cc6600;
+	color: #000000;
+}
+.tumjudge-conpra.contest-42 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/pumpkin2.png') !important;
+}
+.tumjudge-conpra.contest-42 .scoreboard .score_correct, .tumjudge-conpra.contest-42 .scoreboard .score_correct a {
+	font-weight: bold;
+}
+.tumjudge-conpra.contest-42 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/pumpkin.png') !important;
+}
+.tumjudge-conpra.contest-42 .scoreboard .score_first, .tumjudge-conpra.contest-42 .scoreboard .score_first a {
+	color: #ffffff !important;
+	font-weight: bold;
+}
+.tumjudge-conpra.contest-42 .scoreboard .score_incorrect {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/blood.png') !important;
+}
+.tumjudge-conpra.contest-42 .navbar-default {
+	background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/bats.png') !important;
+	background-repeat: repeat;
+}
+.tumjudge-conpra.contest-42 .navbar {
+        border-bottom-color: #000000;
+}
+.tumjudge-conpra.contest-42 .brand {
+        background-color: #000000;
+}
+
+/* Contest, Contest 21: Halloween Contest */
+.tumjudge-contest.contest-21 th, .tumjudge-contest.contest-21 .scoreboard th a, .tumjudge-contest.contest-21 h3.teamoverview, .tumjudge-contest.contest-21 #login-container, .tumjudge-contest.contest-21 .dropdown-menu > .active > a, .tumjudge-contest.contest-21 .dropdown-menu > .active > a:hover, .tumjudge-contest.contest-21 .dropdown-menu > .active > a:focus, .tumjudge-contest.contest-21 .navbar-default, .tumjudge-contest.contest-21 .dropdown-menu .header {
+        background-color: #cc6600;
+        color: #000000;
+}
+.tumjudge-contest.contest-21 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/pumpkin2.png') !important;
+}
+.tumjudge-contest.contest-21 .scoreboard .score_correct, .tumjudge-contest.contest-21 .scoreboard .score_correct a {
+        font-weight: bold;
+}
+.tumjudge-contest.contest-21 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/pumpkin.png') !important;
+}
+.tumjudge-contest.contest-21 .scoreboard .score_first, .tumjudge-contest.contest-21 .scoreboard .score_first a {
+        color: #ffffff !important;
+        font-weight: bold;
+}
+.tumjudge-contest.contest-21 .scoreboard .score_incorrect {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/blood.png') !important;
+}
+.tumjudge-contest.contest-21 .navbar-default {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/bats.png') !important;
+        background-repeat: repeat;
+}
+.tumjudge-contest.contest-21 .navbar {
+        border-bottom-color: #000000;
+}
+.tumjudge-contest.contest-21 .brand {
+        background-color: #000000;
+}
+
+/* Conpra, Contest 51: Christmas Week of Conpra WS15/16 */
+.tumjudge-conpra.contest-51 h1, .tumjudge-conpra.contest-51 h2, .tumjudge-conpra.contest-51 h3, .tumjudge-conpra.contest-51 h4, .tumjudge-conpra.contest-51 #menutop *, .tumjudge-conpra.contest-51 .nodata, .tumjudge-conpra.contest-51 .scoreboard td, .tumjudge-conpra.contest-51 .scoreboard th {
+        font-family: "Frostbitten";
+}
+.tumjudge-conpra.contest-51 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_silver.png') !important;
+        background-position: 0px -10px !important;
+}
+.tumjudge-conpra.contest-51 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_gold.png') !important;
+}
+
+
+/* Conpra, Contests 74, 76: Christmas Week of Conpra WS16/17 */
+.tumjudge-conpra.contest-74 h1, .tumjudge-conpra.contest-74 h2, .tumjudge-conpra.contest-74 h3, .tumjudge-conpra.contest-74 h4, .tumjudge-conpra.contest-74 #menutop *, .tumjudge-conpra.contest-74 .nodata, .tumjudge-conpra.contest-74 .scoreboard td, .tumjudge-conpra.contest-74 .scoreboard th {
+        font-family: "Frostbitten";
+}
+.tumjudge-conpra.contest-74 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_silver.png') !important;
+        background-position: 0px -10px !important;
+}
+.tumjudge-conpra.contest-74 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_gold.png') !important;
+}
+
+.tumjudge-conpra.contest-76 h1, .tumjudge-conpra.contest-76 h2, .tumjudge-conpra.contest-76 h3, .tumjudge-conpra.contest-76 h4, .tumjudge-conpra.contest-76 #menutop *, .tumjudge-conpra.contest-76 .nodata, .tumjudge-conpra.contest-76 .scoreboard td, .tumjudge-conpra.contest-76 .scoreboard th {
+        font-family: "Frostbitten";
+}
+.tumjudge-conpra.contest-76 .scoreboard .score_correct {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_silver.png') !important;
+        background-position: 0px -10px !important;
+}
+.tumjudge-conpra.contest-76 .scoreboard .score_first {
+        background-image: url('/web/20220707142650im_/https://judge.in.tum.de/main/images/stars_gold.png') !important;
+}
+
+/*
+     FILE ARCHIVED ON 14:26:50 Jul 07, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:51:19 Oct 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 900.707
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.061
+  cdx.remote: 0.051
+  esindex: 0.008
+  LoadShardBlock: 863.979 (3)
+  PetaboxLoader3.resolve: 1040.968 (4)
+  PetaboxLoader3.datanode: 181.117 (4)
+  load_resource: 410.462
+*/

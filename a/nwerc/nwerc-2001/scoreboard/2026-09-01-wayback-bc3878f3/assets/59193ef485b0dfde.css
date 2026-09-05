@@ -1,0 +1,17 @@
+th.NWERC { font-size:21pt; font-variant:small-caps; font-weight:normal; text-align:left; }
+th { font-size:20pt; font-weight:bold; text-align:left; }
+body { background-color:white;  color:black; }
+div.timeline { border:1pt; padding:2mm; border-style:solid; }
+div.timeline dl { background:yellow; color:black; border:1pt; padding:4mm; }
+div.timeline dl dd a { color:blue; background:yellow; }
+div.navbar P { font-size:smaller;border-color:#eeeeee #aaaaaa #aaaaaa #eeeeee; background-color:#cccccc; border-width:thin; border-style:solid; padding:2pt; width:152px; }
+div.navbar p a { background-color:#cccccc; }
+th, td { vertical-align:top; }
+li.na { color:red; background:white; text-decoration:line-through; }
+a { color:#0000c0; background:white; }
+a.extern { color:#000080; background:white; }
+dl.schedule dt { color:black; background-color:silver; }
+dl.schedule dd { color:black; background-color:white; }
+td.tried { background-color:red; color:black; }
+td.solved { background-color:green; color:black; }
+table.pictures tr, table.pictures tr td { vertical-align:middle; text-align:center; }

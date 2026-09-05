@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+}
+
+table.wrapper {
+    text-align: center;
+    border-collapse: collapse;
+    border: none;
+    margin: 0pt;
+    padding: 0pt;
+    width: 95%;
+} 
+
+p {
+    text-align: center;
+    font-family: monospace; 
+}
+
+h2 { 
+    font-family: helvetica; 
+    font-size: large;
+    text-align: center;
+}
+
+h3 { 
+    font-family: helvetica; 
+    font-size: medium;
+}
+
+table { 
+    font-family: monospace; 
+}
+
+th {
+}
+
+th.solved {
+    text-align: right;
+    padding-left:  5pt;
+    padding-right: 5pt;
+    width: 5%;
+}
+
+th.penalty {
+    text-align: right;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    width: 5%;
+}
+
+th.party {
+    text-align: left;
+    padding-left: 10pt;
+    padding-right: 5pt;
+}
+
+th.rank {
+    text-align: right;
+    padding-right: 10pt;
+    width: 5%;
+}
+
+th.problem {
+    text-align: center;
+    width: 4%;
+}
+
+td {
+    text-align: center;
+}
+
+td.solved {
+    text-align: right;
+    padding-left:  5pt;
+    padding-right: 5pt;
+}
+
+td.penalty {
+    text-align: right;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+td.party {
+    text-align: left;
+    padding-left: 10pt;
+    padding-right: 5pt;
+}
+
+td.rank {
+    text-align: right;
+    padding-right: 10pt;
+}
+
+td.problem {
+    text-align: center;
+}
+
+b {
+    color: #c06060;
+    font-weight: normal;
+}
+i.first-to-solve {
+    display: block;
+    background-color: #c0ffc0;
+    font-style: normal;
+}
+s {                        
+    font-size: 10;
+    font-face: helvetica;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+}

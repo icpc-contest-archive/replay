@@ -14,7 +14,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <html>
 <head>
 <title>ACM Greater New York Regional Collegiate Programming Contest</title>
-<link rel="icon" type="image/gif" href="/favicon.gif">
+<link rel="icon" type="image/gif" href="assets/8a81c1c959686eb7.gif">
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
@@ -27,7 +27,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
 <table>
 <tr>
   <td valign="top">
-    <a href="http://acmicpc.org"><img src="/icpclogo_big.png"
+    <a href="http://acmicpc.org"><img src="assets/4963b353917600c9.png"
     height=100 alt="ACM ICPC" border=0></a>
   </td>
   <td valign="top">
@@ -45,7 +45,7 @@ part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC cont
     </font></b></center>
   </td>
   <td valign="top">
-    <a href="http://acmicpc.org"><img src="/icpclogo_big.png"
+    <a href="http://acmicpc.org"><img src="assets/4963b353917600c9.png"
     height=100 alt="ACM ICPC" border=0></a>
   </td>
 </tr>

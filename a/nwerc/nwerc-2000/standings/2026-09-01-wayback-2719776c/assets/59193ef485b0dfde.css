@@ -1,0 +1,15 @@
+th.NWERC { font-size: 21pt; font-variant: small-caps; font-weight: normal; text-align: left; }
+th { font-size: 20pt; font-weight: bold; text-align: left; }
+BODY { background-color: white;  color: black; }
+DIV.timeline { border: 1pt; padding: 2mm; border-style: solid; }
+DIV.timeline DL { background: yellow; color: black; border: 1pt; padding: 4mm; }
+div.timeline dl dd a { color: blue; background: yellow; }
+DIV.navbar P { font-size: smaller; }
+TH, TD { vertical-align: top; }
+LI.na { color: red; background: white; text-decoration: line-through; }
+A { color: #0000c0; background: white; }
+A.extern { color: #000080; background: white; }
+dl.schedule dt { color: black; background-color: silver; }
+dl.schedule dd { color: black; background-color: white; }
+td.tried { background-color: red; color: black; }
+td.solved { background-color: green; color: black; }

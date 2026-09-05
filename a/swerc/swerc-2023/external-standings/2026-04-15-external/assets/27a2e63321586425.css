@@ -1,0 +1,290 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../images/bg.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p,ul,dl,ol {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+dl ul, dl ol, dl dl, ul ol, ul ul, ul dl, ol ol, ol ul, ol dl {
+  font-size: inherit;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: none;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+    
+.brand {
+  display: inherit;
+  margin: 0;
+  padding: 30px 0 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+    
+.address-bar {
+  display: inherit;
+  margin: 0;
+  padding: 0 0 40px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+
+@media screen and (min-width:768px) {
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 20px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.logo { height: 5em; padding: 0 1em; }
+
+dt { float: left; width: 10em; text-align: right; margin-right: 1em; }
+dd { margin-left: 11em; }
+
+.carousel { margin: 0 20%; }
+
+.photo { float: left; margin-right: 1em; width: 7em; }
+
+dt ul {font-size: 100%; }
+
+.title { color: inherit; font-weight: bold; }
+a.title { border-bottom: 1px black dotted; text-decoration: none; }
+
+a.title:link, a.title:hover, a.title:focus a.tile:active { color: inherit; }
+  
+.collapse,.collapsing { padding: 0.5em 2em; font-size: 75%; }
+
+.collapse h3,.collapsing h3 {font-size: 1.2em; margin: 1em 0 0.5ex;}
+
+.session { font-style: italic; margin-left: 1em; font-size: 90%; }
+
+.collapse ul { font-size: 1.25em; }
+
+#mainlogo img { height: 14em; }
+
+#mainlogo {
+  float: left;
+  padding: 3em;
+}
+
+#sponsors img { width: 100%; max-width: 16em; padding: 1em 0; display: block; margin: 0 auto; }
+
+.navbar { clear: both; padding: 0 1em; }
+
+#sponsors h3 { text-align: center; border-top: 1px solid black; border-bottom: 1px solid black; margin-top: 1.5em; padding: 0.25ex 0; } 
+
+/* Deived from
+ * http://sanographix.github.io/css3-countdown/
+ * */
+.CDT-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#CDT {
+  font-size: 60px;
+  color: #eee;
+  margin: 0 auto 50px;
+  font-weight: bold;
+}
+
+#CDT .number-wrapper {
+  -moz-box-shadow: 0 5px 8px #000000;
+  -webkit-box-shadow: 0 5px 8px #000000;
+  box-shadow: 0 5px 8px #000000;
+  position: relative;
+}
+
+#CDT .number {
+  display: inline;
+    background-image: linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    padding: 0 12px;
+    width: 110px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #555;
+    box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    text-shadow: 0 3px 3px #000000;
+}
+       
+#CDT .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 52%;
+    left: 0;
+    background: #000;
+}
+
+.caption {
+  font-variant: small-caps;
+   font-size: 10px;
+   line-height: 1.1;
+   text-align: center;
+   position: absolute;
+   bottom: -35px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   color: #777;
+}

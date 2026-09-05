@@ -1,0 +1,2130 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    
+
+        <title>Faculty member not found</title>
+
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="MachineName" content="SC10.4Deliver1" />
+                <link rel="icon" href="/assets/assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PPBK8C5R');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js" defer></script>
+    <script defer src="/Content/scripts/app.ae7269c3aea794a5348b.js"></script>
+    <link href="/Content/css/app.9650ba9db6c402be72e9.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPBK8C5R"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+
+<button type="button" aria-label="Pause video" aria-hidden="true" id="pause-hero-video" style="position: absolute;">Pause video</button>
+<a href="#content" id="skip-navigation" style="position: absolute;">Skip Navigation</a>
+
+<div class="pre-header">
+    <ul>
+        <li><a href="/online" >Online</a></li>
+        <li><a href="/on-campus" >On-Campus</a></li>
+    </ul>
+</div>
+
+    <style>
+        .header.header--editor {
+            position: absolute !important;
+        }
+    </style>
+
+
+<header class="header header--normal">
+    <div class="header-container">
+        <div class="header-grid">
+
+            <!-- navigation -->
+            <nav class="navigation">
+                <ul>
+                    <li class="navigation-item is-hamburg">
+                        <button class="has-overlay" type="button" data-target="#nav-overlay" aria-expanded="false"
+                                aria-controls="nav-overlay">
+                            <span>Menu</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- logo -->
+<a href="/" class="header-logo" ><img src="/-/media/feature/navigation/logo.svg?la=en&amp;hash=5D77461E532FF0AC9229BD7A3B29E730" alt="Embry-Riddle logo" /></a>
+            <!-- header dropdowns and CTA's -->
+            <div class="header-callouts">
+                <nav class="navigation">
+                    <ul>
+                                <li class="navigation-item">
+                                    <a href="/request-information" class="header-button" >Get Info</a>
+                                </li>
+                                                        <li class="navigation-item">
+                                    <a href="/admissions/explore-embry-riddle/visit-campus" class="header-button" >Visit</a>
+                                </li>
+                                                        <li class="navigation-item">
+<a href="/apply" class="header-button header-button--gradient" >                                        <span>Apply</span>
+</a>                                </li>
+                        <li class="navigation-item is-search">
+                            <button class="has-overlay" type="button" data-target="#nav-overlay" aria-expanded="false"
+                                    aria-controls="nav-overlay">
+                                <span class="sr-only">Search overlay</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- navigation overlay -->
+<div id="nav-overlay" class="navigation-overlay is-hidden">
+
+    <!-- backdrop -->
+    <div class="navigation-overlay-backdrop"><!-- leave empty --></div>
+
+    <!-- content -->
+    <div class="navigation-overlay-container">
+        <div class="navigation-overlay-scrollable">
+            <div class="navigation-overlay-content">
+                <!-- close button -->
+                <button class="navigation-overlay-close" data-close-menu="">
+                    <span class="sr-only">Close overlay</span>
+                </button>
+
+                <!-- search -->
+                <form class="form-group global-search-form" action="/search-page" method="GET">
+                    <label for="global-search-terms">Search</label>
+                    <input type="text" class="form-control global-search-form-input" name="q" id="global-search-terms" aria-label="Enter search"
+                           placeholder="Search keywords ...">
+
+                    <input type="hidden" name="sf" value="" />
+
+                    <!-- form submit button -->
+                    <button class="global-search-form-submit" type="submit" data-gtm="">
+                        <span class="sr-only">Search Button</span>
+                    </button>
+                </form>
+
+                <div class="navigation-overlay-content-menu">
+                    <!-- collapse all -->
+                    <button class="navigation-overlay-content-menu--toggle">
+                        <span class="collapsed-label">Show All</span>
+                        <span class="expanded-label">Hide All</span>
+                    </button>
+
+                        <!-- main level -->
+        <nav class="navigation navigation--main">
+            <ul>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions">Admissions and Financial Aid</a>
+                    <button data-target="#nav-level-37f87a44-83c1-4f65-8506-2f6fe82f5e99" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-37f87a44-83c1-4f65-8506-2f6fe82f5e99" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/explore-embry-riddle">Explore Embry-Riddle</a>
+                    <button data-target="#nav-level-98bc3fd7-3d48-435f-9138-17f8a0cdbba1" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-98bc3fd7-3d48-435f-9138-17f8a0cdbba1" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+        <li class="navigation-item">
+            <a href="/request-information" class="link-item" >Request Info</a>
+        </li>
+                <li class="navigation-item">
+                    <a href="/admissions/explore-embry-riddle/visit-campus">Visit Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/explore-embry-riddle/virtual-tours">Virtual Tours</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/explore-embry-riddle/info-sessions">Virtual Info Sessions</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/explore-embry-riddle/events">Admissions Events</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/explore-embry-riddle/chat-with-us">Chat With Admissions</a>
+                </li>
+        <li class="navigation-item">
+            <a href="/pathfinder" class="link-item" >Your Degree Path</a>
+        </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/undergraduate-admissions">Undergraduate Admissions</a>
+                    <button data-target="#nav-level-b1471a22-64db-456b-9c6e-dbc77e94cef5" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-b1471a22-64db-456b-9c6e-dbc77e94cef5" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/undergraduate-admissions/first-time-students">First-Time Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/undergraduate-admissions/high-school-graduates">High School Graduates</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/undergraduate-admissions/undergraduate-returning-students">Returning Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/undergraduate-admissions/undergraduate-transfer-students">Transfer Students</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/graduate-admissions">Graduate Admissions</a>
+                    <button data-target="#nav-level-67ce2a22-0384-404e-b0cc-19b56c029271" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-67ce2a22-0384-404e-b0cc-19b56c029271" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/graduate-admissions/first-time-and-transfer-students">First-Time and Transfer Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/graduate-admissions/bachelors-to-masters">Bachelor&#39;s to Master&#39;s Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/graduate-admissions/doctoral-students">Doctoral Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/graduate-admissions/graduate-returning-students">Returning Students</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/international-admissions">International Admissions</a>
+                    <button data-target="#nav-level-3bfc7b6a-460c-4f29-a30f-a982a55cc827" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-3bfc7b6a-460c-4f29-a30f-a982a55cc827" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/international-students">International Students</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/international-admissions/language-institute">Embry-Riddle Language Institute (ERLI)</a>
+                    <button data-target="#nav-level-681b34a8-6ca9-4966-84fe-563267518cbf" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-681b34a8-6ca9-4966-84fe-563267518cbf" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/international-admissions/language-institute/apply">How to Apply</a>
+                    <button data-target="#nav-level-95dd4dd9-c766-4d20-b67a-3dfc2664ba58" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-95dd4dd9-c766-4d20-b67a-3dfc2664ba58" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/arabic-language-application-process">Arabic Language Application Process</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/chinese-language-application-process">Chinese Language Application Process</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/japanese-language-application-process">Japanese Language Application Process</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/portuguese-language-application-process">Portuguese Language Application Process</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/russian-language-application-process">Russian Language Application Process</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/apply/spanish-language-application-process">Spanish Language Application Process</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/academic-calendars">Academic Calendars</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/costs">Estimated Costs</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/housing-information">Housing Information</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/courses-and-sample-class-schedules">Courses, Achievement Scales and Sample Class Schedules</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/student-information-and-handbook">Student Information and Handbook</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/pathway-program">Pathway Program</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/erli-faqs">Frequently Asked Questions</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/admitted-student-checklist">Admitted Student Checklist</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/international-admissions/language-institute/college-prep-academies">College Prep Academies for International High School Students</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/estimate-your-transfer-credit">Estimate Your Transfer Credit</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/tuition-and-costs">Tuition and Costs</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid">Financial Aid</a>
+                    <button data-target="#nav-level-46e76334-3909-4b5a-a3db-e7ecbf644138" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-46e76334-3909-4b5a-a3db-e7ecbf644138" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/getting-started">Getting Started</a>
+                    <button data-target="#nav-level-0e71719a-c68e-474d-8213-b9b7c3b1cd38" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-0e71719a-c68e-474d-8213-b9b7c3b1cd38" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/getting-started/apply-financial-aid">Apply for Financial Aid</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/getting-started/net-price-calculator">Net Price Calculator</a>
+                    <button data-target="#nav-level-96b7a830-9739-47ad-b88b-28ac91ecfd0c" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-96b7a830-9739-47ad-b88b-28ac91ecfd0c" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/getting-started/net-price-calculator/daytona-beach">Daytona Beach</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/getting-started/net-price-calculator/prescott">Prescott</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/getting-started/net-price-calculator/worldwide">Worldwide &amp; Online</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/getting-started/faqs">Financial Aid FAQs</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/types-of-aid">Types of Aid</a>
+                    <button data-target="#nav-level-c01cf096-cea6-4eff-a812-0a3c0a507ef4" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-c01cf096-cea6-4eff-a812-0a3c0a507ef4" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/types-of-aid/grants">Grants</a>
+                    <button data-target="#nav-level-4d449a53-ab87-449f-9b7a-a6ab9e4e4c0f" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-4d449a53-ab87-449f-9b7a-a6ab9e4e4c0f" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/grants/pell-grant-lifetime-eligibility-used">Pell Grant Lifetime Eligibility Used</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/loans">Loans</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/types-of-aid/scholarships">Scholarships</a>
+                    <button data-target="#nav-level-ba365b7c-7dd0-4b7f-ba04-0802fdd236ac" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ba365b7c-7dd0-4b7f-ba04-0802fdd236ac" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/scholarships/boeing-scholars">Boeing Scholars Program</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/scholarships/international-scholarships-and-financial-aid">International Scholarships and Financial Aid</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/types-of-aid/military-and-va-benefits">Military and VA Benefits</a>
+                    <button data-target="#nav-level-9a4a49b4-1b42-4bdd-9f61-63c9bf711431" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-9a4a49b4-1b42-4bdd-9f61-63c9bf711431" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/military-and-va-benefits/active-duty-reserves-guard">Active Duty, National Guard and Reserves</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/military-and-va-benefits/veterans">Veterans</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/military-and-va-benefits/military-scholarships">Military Scholarships</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/military-and-va-benefits/rotc">ROTC Scholarships</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/types-of-aid/student-employment-and-work-study">Student Employment and Work Study</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/processes-and-eligibility">Processes and Eligibility</a>
+                    <button data-target="#nav-level-690792f7-2a10-4964-a6b6-ad20413a9e6a" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-690792f7-2a10-4964-a6b6-ad20413a9e6a" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/processes-and-eligibility/specialty-programs">Specialty Programs</a>
+                    <button data-target="#nav-level-a4a96017-1b6d-4625-8b1f-7f47219fe69f" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-a4a96017-1b6d-4625-8b1f-7f47219fe69f" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/specialty-programs/combined-and-accelerated-bachelors-to-masters-programs">Combined and Accelerated Bachelor&#39;s to Master&#39;s Programs</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/specialty-programs/understanding-flight-budgets-and-borrowing-for-flight">Understanding Flight Budgets and Borrowing for Flight</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/processes-and-eligibility/academic-eligibility">Academic Eligibility</a>
+                    <button data-target="#nav-level-4c12c377-0a12-445d-be25-436f22874511" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-4c12c377-0a12-445d-be25-436f22874511" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/academic-eligibility/return-of-title-iv-funds-policy">Return of Title IV Funds Policy</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/academic-eligibility/standards-of-academic-progress-policy">Standards of Academic Progress Policy</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/professional-judgment">Professional Judgment</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/verification">Verification</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/terms-and-conditions">Terms and Conditions</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/processes-and-eligibility/code-of-conduct">Code of Conduct</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/admissions/financial-aid/resources">Resources</a>
+                    <button data-target="#nav-level-53f63b9d-7046-42cb-ae46-59e059ef33cd" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-53f63b9d-7046-42cb-ae46-59e059ef33cd" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/resources/fatv-video-library">FATV Video Library</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/resources/forms">Forms</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/resources/glossary">Glossary</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/financial-aid/resources/important-financial-aid-dates">Important Financial Aid Dates</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/admissions/future-eagle-parents">Future Eagle Parents</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/guidance-counselors">School Counselors</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/applied-students">Applied Students</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/admissions/faq">Admissions FAQs</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics">Academics and Faculty</a>
+                    <button data-target="#nav-level-ba53b060-a1ac-41c5-aa71-7164feb54a44" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ba53b060-a1ac-41c5-aa71-7164feb54a44" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs">Degrees and Programs</a>
+                    <button data-target="#nav-level-986dbfc5-f394-44cc-88d2-dd99ee9c0ec1" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-986dbfc5-f394-44cc-88d2-dd99ee9c0ec1" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+        <li class="navigation-item">
+            <a href="/degrees" class="link-item" >Degree and Program Directory</a>
+        </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/areas-of-study">Areas of Study</a>
+                    <button data-target="#nav-level-af144c07-0fa7-4bba-9a22-9e5ca62d85dd" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-af144c07-0fa7-4bba-9a22-9e5ca62d85dd" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+        <li class="navigation-item">
+            <a href="/degrees/applied-science-area-of-study" class="link-item" >Applied Science</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/aviation-area-of-study" class="link-item" >Aviation</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/business-area-of-study" class="link-item" >Business</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/computers-and-technology-area-of-study" class="link-item" >Computers and Technology</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/engineering-area-of-study" class="link-item" >Engineering</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/security-intelligence-and-safety-area-of-study" class="link-item" >Security, Intelligence and Safety</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/space-area-of-study" class="link-item" >Space</a>
+        </li>
+                        </ul>
+                    </div>
+            </li>
+        <li class="navigation-item">
+            <a href="/degrees/program-minors" class="link-item" >Program Minors</a>
+        </li>
+        <li class="navigation-item">
+            <a href="/degrees/combined-and-accelerated-programs" class="link-item" >Combined and Accelerated Programs</a>
+        </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/professional-education">Professional Education</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/military-programs">Military Programs</a>
+                    <button data-target="#nav-level-16844a76-57cb-46f3-9300-a999d6c73dbb" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-16844a76-57cb-46f3-9300-a999d6c73dbb" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/army-credentialing-assistance-program">Army Credentialing Assistance Program</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/military-programs/skillbridge">SkillBridge for Transitioning Military</a>
+                    <button data-target="#nav-level-6a98a375-6e9e-4f65-8125-0e22101d36b5" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-6a98a375-6e9e-4f65-8125-0e22101d36b5" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/skillbridge/amtp">Aviation Maintenance Technology SkillBridge Program</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/military-programs/usncc">USNCC Partnership</a>
+                    <button data-target="#nav-level-569c8ed8-e368-4674-aaa4-01d95b2dc900" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-569c8ed8-e368-4674-aaa4-01d95b2dc900" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/usncc/aviation-maintenance">USNCC Associate of Science in Aviation Maintenance</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/usncc/uncrewed-systems">USNCC Associate of Science in Uncrewed and Autonomous Systems</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/usncc/usncc-associate-of-science-in-emergency-management">USNCC Associate of Science in Emergency Management</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/usncc/usncc-associate-of-science-in-engineering-fundamentals">USNCC Associate of Science in Engineering Fundamentals</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/military-programs/auabc">Air University Associate-to-Baccalaureate Cooperative (AU-ABC)</a>
+                    <button data-target="#nav-level-300fb274-6381-4469-af33-02a347fed7f5" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-300fb274-6381-4469-af33-02a347fed7f5" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bsa">BSA</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bses">BSES</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bsis">BSIS</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bslscm">BSLSCM</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bspm">BSPM</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bssm">BSSM</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bstm">BSTM</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/auabc/bsuas">BSUAS</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/military-programs/general-education-mobile-courses">General Education Mobile Courses</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/degrees-and-programs/free-online-courses">Free Online Courses</a>
+                    <button data-target="#nav-level-092ee27a-f20a-4acc-81be-bb414813a9ae" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-092ee27a-f20a-4acc-81be-bb414813a9ae" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/free-online-courses/aviation-101">Aviation 101</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/free-online-courses/private-pilot-101">Private Pilot 101</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/free-online-courses/remote-pilot-101">Remote Pilot 101</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/academics/degrees-and-programs/k-12-programs">K-12 Programs</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges">Colleges</a>
+                    <button data-target="#nav-level-ac8f719c-39ce-418e-8c91-ab73666ebbee" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ac8f719c-39ce-418e-8c91-ab73666ebbee" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences">Daytona Beach College of Arts & Sciences</a>
+                    <button data-target="#nav-level-64c475d8-168a-4c86-806f-114698534657" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-64c475d8-168a-4c86-806f-114698534657" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences/human-factors-and-behavioral-neurobiology">Department of Human Factors and Behavioral Neurobiology</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences/humanities-and-communication">Department of Humanities and Communication</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences/mathematics">Department of Mathematics</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences/physical-sciences">Department of Physical Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-arts-and-sciences/security-studies-and-international-affairs">Department of Security Studies and International Affairs</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/daytona-beach-college-of-aviation">Daytona Beach College of Aviation</a>
+                    <button data-target="#nav-level-5479b5e3-1118-4875-a986-49ece33a64d1" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-5479b5e3-1118-4875-a986-49ece33a64d1" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/aeronautical-science">Department of Aeronautical Science</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/applied-aviation-sciences">Department of Applied Aviation Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/aviation-maintenance-science">Department of Aviation Maintenance Science</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/aviation-safety-department">Aviation Safety Department</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/aviation-sustainability-a-college-of-aviation-initiative">Aviation Sustainability Initiative</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/eagles-flight-team">Eagles Flight Team</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/aviation-week">Aviation Week</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/daytona-beach-college-of-aviation/flight">Department of Flight</a>
+                    <button data-target="#nav-level-68d9135a-f63f-4762-a423-7baa7adbec06" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-68d9135a-f63f-4762-a423-7baa7adbec06" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/aviation-medical-information">Aviation Medical Information</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/flight-course-costs-and-payment">Flight Course Costs and Payment</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/flight-courses-and-ratings">Flight Courses and Ratings</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/international-students-information">International Students Information</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/pre-flight-checklist">Pre-Flight Checklist</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/flight/r-atp-information">R-ATP Information</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-aviation/school-of-graduate-studies">School of Graduate Studies</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/daytona-beach-college-of-business">Daytona Beach David B. O'Maley College of Business</a>
+                    <button data-target="#nav-level-3e8a3e09-3d46-4036-8260-2b6c5c58af72" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-3e8a3e09-3d46-4036-8260-2b6c5c58af72" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-business/accounting-economics-finance-and-information-sciences">Department of Accounting, Economics, Finance and Information Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-business/management-marketing-and-operations">Department of Management, Marketing and Operations</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/daytona-beach-college-of-engineering">Daytona Beach College of Engineering</a>
+                    <button data-target="#nav-level-02a86ed2-8f70-424d-b931-762bd431092f" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-02a86ed2-8f70-424d-b931-762bd431092f" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/aerospace-engineering">Department of Aerospace Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/civil-engineering">Department of Civil Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/electrical-engineering-and-computer-science">Department of Electrical Engineering and Computer Science</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/engineering-fundamentals">Department of Engineering Fundamentals</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/mechanical-engineering">Department of Mechanical Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/daytona-beach-college-of-engineering/engineers-week">Engineers Week</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-arts-and-sciences">Prescott College of Arts & Sciences</a>
+                    <button data-target="#nav-level-2d1615f6-e476-4752-8077-ce4c9993bfb4" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-2d1615f6-e476-4752-8077-ce4c9993bfb4" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-arts-and-sciences/behavioral-and-social-sciences">Department of Behavioral and Social Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-arts-and-sciences/biology-and-chemistry">Department of Biology and Chemistry</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-arts-and-sciences/humanities-and-communication">Department of Humanities and Communication</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-arts-and-sciences/mathematics">Department of Mathematics</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-arts-and-sciences/physics-and-astronomy">Department of Physics and Astronomy</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-aviation">Prescott College of Aviation</a>
+                    <button data-target="#nav-level-2767ea21-900b-4cac-9671-e178e28cbf95" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-2767ea21-900b-4cac-9671-e178e28cbf95" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/aeronautical-science">Department of Aeronautical Science</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-aviation/applied-aviation-sciences">Department of Applied Aviation Sciences</a>
+                    <button data-target="#nav-level-ec86987e-13a4-4086-86c9-bced4940eacf" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ec86987e-13a4-4086-86c9-bced4940eacf" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/applied-aviation-sciences/applied-meteorology">Applied Meteorology Weather Models</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-aviation/flight">Department of Flight</a>
+                    <button data-target="#nav-level-f6db04ac-0af8-4679-b8e9-a1181d8cf8a7" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-f6db04ac-0af8-4679-b8e9-a1181d8cf8a7" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/flight/flight-course-costs-and-payment">Flight Course Costs and Payment</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/safety-science">Department of Safety Science</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/golden-eagles-flight-team">Golden Eagles Flight Team</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-aviation/aviation-safety-department">Aviation Safety Department</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-business-security-and-intelligence">Prescott College of Business, Security and Intelligence</a>
+                    <button data-target="#nav-level-08088932-a050-45ea-9f24-666aaa879292" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-08088932-a050-45ea-9f24-666aaa879292" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-business-security-and-intelligence/cyber-intelligence-and-security">Department of Cyber Intelligence and Security</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-business-security-and-intelligence/global-security-and-intelligence-studies">Department of Global Security and Intelligence Studies</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-business-security-and-intelligence/school-of-business">School of Business</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/prescott-college-of-engineering">Prescott College of Engineering</a>
+                    <button data-target="#nav-level-bd7760b7-ceb7-4701-9933-4fd9686d3d14" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-bd7760b7-ceb7-4701-9933-4fd9686d3d14" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-engineering/aerospace-engineering">Department of Aerospace Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-engineering/computer-electrical-and-software-engineering">Department of Computer, Electrical and Software Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/prescott-college-of-engineering/mechanical-engineering">Department of Mechanical Engineering</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/worldwide-college-of-arts-and-sciences">Worldwide College of Arts & Sciences</a>
+                    <button data-target="#nav-level-6465cd76-5439-4f70-9297-26ef98a217bd" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-6465cd76-5439-4f70-9297-26ef98a217bd" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-arts-and-sciences/emergency-disaster-and-global-security-studies">Department of Emergency, Disaster and Global Security Studies</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-arts-and-sciences/human-factors-safety-and-social-sciences">Department of Human Factors, Safety and Social Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-arts-and-sciences/humanities-and-communication">Department of Humanities and Communication</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-arts-and-sciences/mathematics-science-and-technology">Department of Mathematics, Science and Technology</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-arts-and-sciences/pathways">PATHWAYS</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/worldwide-college-of-aviation">Worldwide College of Aviation</a>
+                    <button data-target="#nav-level-1a647545-3d73-4526-9160-a78f5afbc554" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-1a647545-3d73-4526-9160-a78f5afbc554" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-aviation/aeronautics">Department of Aeronautics</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-aviation/applied-aerospace-science">Department of Applied Aerospace Science</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-aviation/aviation-english">Department of Aviation English</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-aviation/flight">Department of Flight</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-aviation/school-of-engineering">School of Engineering</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/colleges/worldwide-college-of-business">Worldwide College of Business</a>
+                    <button data-target="#nav-level-9ced2245-ecec-43fe-91d6-fc6dd3145a66" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-9ced2245-ecec-43fe-91d6-fc6dd3145a66" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-business/business-administration">Department of Business Administration</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-business/decision-science-and-analytics">Department of Decision Science and Analytics</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/colleges/worldwide-college-of-business/management">Department of Management</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/faculty">Faculty</a>
+                    <button data-target="#nav-level-d44d4328-e44b-4d1f-9ac7-20358f05c8dd" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-d44d4328-e44b-4d1f-9ac7-20358f05c8dd" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+        <li class="navigation-item">
+            <a href="/faculty" class="link-item" >Faculty Directory</a>
+        </li>
+                <li class="navigation-item">
+                    <a href="/academics/faculty/fulbright-scholar">Fulbright Scholar and Specialist Programs</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/academic-experience">Academic Experience</a>
+                    <button data-target="#nav-level-e8e9606d-7be8-4654-acbc-004c763ace02" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-e8e9606d-7be8-4654-acbc-004c763ace02" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/aircraft-fleet-and-flight-simulators">Aircraft Fleet and Flight Simulators</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/academics/academic-experience/industry-advisory-boards">Industry Advisory Boards</a>
+                    <button data-target="#nav-level-9b0f1c3c-d78e-4c24-94c1-61b2ebda39ff" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-9b0f1c3c-d78e-4c24-94c1-61b2ebda39ff" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/daytona-beach-arts-and-sciences">Daytona Beach College of Arts &amp; Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/daytona-beach-aviation">Daytona Beach College of Aviation</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/daytona-beach-business">Daytona Beach David B. O&#39;Malley College of Business</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/daytona-beach-engineering">Daytona Beach College of Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/prescott-arts-and-sciences">Prescott College of Arts &amp; Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/prescott-aviation">Prescott College of Aviation</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/prescott-business">Prescott College of Business, Security and Intelligence</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/prescott-engineering">Prescott College of Engineering</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/worldwide-iab">Worldwide Industry Advisory Board</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/worldwide-arts-and-sciences">Worldwide College of Arts &amp; Sciences</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/worldwide-aviation">Worldwide College of Aviation</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/worldwide-business">Worldwide College of Business</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/industry-advisory-boards/asia">Asia Campus</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/daytona-beach-honors-program">Daytona Beach Honors Program</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/worldwide-honors-program">Worldwide Honors Program</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/awards-and-fellowships">Awards and Fellowships</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/libraries">Libraries</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/registrars-office">Office of the Registrar</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/academic-calendars">Academic Calendars</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/academics/academic-experience/ai">Artificial Intelligence</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience">Student Experience</a>
+                    <button data-target="#nav-level-d8b18352-2365-4021-ab7e-9144aa80874a" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-d8b18352-2365-4021-ab7e-9144aa80874a" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community">Campus and Community</a>
+                    <button data-target="#nav-level-f841bf5f-ca5e-4fee-bf48-5e732f7e9be6" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-f841bf5f-ca5e-4fee-bf48-5e732f7e9be6" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/housing">Housing</a>
+                    <button data-target="#nav-level-6ad6eb72-4091-4d40-8030-3f9d410ac337" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-6ad6eb72-4091-4d40-8030-3f9d410ac337" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/housing-calendars">Housing Calendars</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/housing-rates">Housing Rates</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls">Daytona Beach Residence Halls</a>
+                    <button data-target="#nav-level-8cda0859-287e-4eee-a703-ca900b8e1673" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-8cda0859-287e-4eee-a703-ca900b8e1673" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/adams-and-wood-halls">Adams and Wood Halls</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/apollo-hall">Apollo Hall</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/chanute-complex">Chanute Complex</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/doolittle-hall">Doolittle Hall</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/oconnor-hall">O&#39;Connor Hall</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/residence-hall-1-and-2">Residence Hall 1 and 2</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/residence-hall-3">Residence Hall 3</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/daytona-beach-residence-halls/stimpson-hall">Stimpson Hall</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/housing/prescott-residence-halls">Prescott Residence Halls</a>
+                    <button data-target="#nav-level-f9b4fce4-49f5-4f34-a873-dc8dd134c041" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-f9b4fce4-49f5-4f34-a873-dc8dd134c041" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/prescott-residence-halls/mingus-mountain">Mingus Mountain</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/prescott-residence-halls/thumb-butte">Thumb Butte</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/housing/prescott-residence-halls/village-complex">Village Complex</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/dining">Dining</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/fitness">Fitness and Recreation</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/health-and-wellness">Health and Wellness</a>
+                    <button data-target="#nav-level-ae2238c1-c6cd-4b3c-b7c5-ac827e20ec11" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ae2238c1-c6cd-4b3c-b7c5-ac827e20ec11" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/health-and-wellness/counseling">Counseling</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/athletics">Athletics</a>
+                    <button data-target="#nav-level-da1434d6-f67d-4be9-88a8-cfd24588eda8" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-da1434d6-f67d-4be9-88a8-cfd24588eda8" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/athletics/daytona-beach-athletics-email-newsletter-signup">Daytona Beach Athletics Email Newsletter Signup</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/clubs-and-organizations">Clubs and Organizations</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/faith-and-spirituality">Faith and Spirituality</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/new-student-orientation">New Student Orientation</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/campus-community/graduation-ceremonies">Graduation Ceremonies</a>
+                    <button data-target="#nav-level-736f4fe4-908f-4687-b242-900cefa18ce7" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-736f4fe4-908f-4687-b242-900cefa18ce7" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/graduation-ceremonies/daytona-beach">Daytona Beach</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/graduation-ceremonies/prescott">Prescott</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/campus-community/graduation-ceremonies/worldwide">Worldwide</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/online-learning">Online Learning</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/student-services">Student Services</a>
+                    <button data-target="#nav-level-65efc310-8e52-4045-8dfc-351465b4dd60" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-65efc310-8e52-4045-8dfc-351465b4dd60" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/academic-advising">Academic Advising</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/career-services">Career Services</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/support-and-tutoring">Tutoring and Academic Support</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/student-financial-services">Student Financial Services</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/student-services/student-accessibility-services">Student Accessibility Services</a>
+                    <button data-target="#nav-level-22b67c98-8c87-441d-90e9-af37b685ab24" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-22b67c98-8c87-441d-90e9-af37b685ab24" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/student-accessibility-services/documentation-and-disclosure">Documentation and Disclosure</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/student-accessibility-services/accessible-housing-requests">Accessible Housing Requests</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/student-services/bookstore">Bookstore</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/safety-and-policies">Safety and Policies</a>
+                    <button data-target="#nav-level-b1a06b2b-ee2c-42d6-a009-76f4a3eb0a10" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-b1a06b2b-ee2c-42d6-a009-76f4a3eb0a10" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/safety-and-policies/safety-and-security">Safety and Security</a>
+                    <button data-target="#nav-level-7544ec13-3078-4751-8024-43cb9c70d991" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-7544ec13-3078-4751-8024-43cb9c70d991" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/safety-and-security/daytona-beach">Daytona Beach</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/safety-and-security/prescott">Prescott</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/safety-and-security/asia">Asia</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/safety-and-security/campus-hazing-transparency-report">Campus Hazing Transparency Report</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/student-policies">Student Code of Conduct</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/student-grievances-feedback-and-reporting">Student Grievances, Feedback and Reporting</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/safety-and-policies/title-ix">Title IX</a>
+                    <button data-target="#nav-level-2a3eb77e-5f31-499e-817f-543581b1e268" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-2a3eb77e-5f31-499e-817f-543581b1e268" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/title-ix/non-discrimination-policy">Non-Discrimination Policy</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/title-ix/sexual-harassment-policy">Sexual Harassment Policy</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/safety-and-policies/title-ix/sexual-misconduct-policy">Sexual Misconduct Policy</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans">Military and Veterans</a>
+                    <button data-target="#nav-level-de307fd6-9e18-4800-9648-8203e3db033e" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-de307fd6-9e18-4800-9648-8203e3db033e" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/rotc">ROTC</a>
+                    <button data-target="#nav-level-7b3cd802-c75c-41f4-89b0-2c475eb5a4d2" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-7b3cd802-c75c-41f4-89b0-2c475eb5a4d2" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/rotc/daytona-beach">Daytona Beach</a>
+                    <button data-target="#nav-level-d5262e59-a24d-4e40-b7b1-63e59b648ed9" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-d5262e59-a24d-4e40-b7b1-63e59b648ed9" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/daytona-beach/air-force">Air Force</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/daytona-beach/army">Army</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/daytona-beach/naval">Naval</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/rotc/prescott">Prescott</a>
+                    <button data-target="#nav-level-be57d508-45fc-42a2-9c44-2b0a21f5739f" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-be57d508-45fc-42a2-9c44-2b0a21f5739f" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/prescott/air-force">Air Force</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/prescott/army">Army</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/rotc/marines">Marine Corps Platoon Leaders Program</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/military-and-veteran-students">Military and Veteran Students</a>
+                    <button data-target="#nav-level-3b336d25-bf0c-422a-895f-6047425212eb" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-3b336d25-bf0c-422a-895f-6047425212eb" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/military-and-veteran-students/residential">Residential</a>
+                    <button data-target="#nav-level-cb0e1fa6-2fc2-4032-b46a-acb2de836bff" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-cb0e1fa6-2fc2-4032-b46a-acb2de836bff" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/military-and-veteran-students/residential/request-information">Request Information</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/military-and-veterans/military-and-veteran-students/worldwide-online">Worldwide and Online</a>
+                    <button data-target="#nav-level-33c2356b-7025-4a27-b3c4-45ba172a0444" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-33c2356b-7025-4a27-b3c4-45ba172a0444" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/military-and-veteran-students/worldwide-online/europe">U.S. Military in Europe</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/military-and-veterans/military-and-veteran-students/worldwide-online/pacom">PACOM</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/international-programs">International Programs</a>
+                    <button data-target="#nav-level-bae198dc-970f-44f1-b329-3e5462f27e4c" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-bae198dc-970f-44f1-b329-3e5462f27e4c" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/international-programs/study-abroad">Study Abroad</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/student-experience/international-programs/international-education">Center for International Education</a>
+                    <button data-target="#nav-level-13988aa9-4f01-421a-b90c-4f8f4c130ea3" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-13988aa9-4f01-421a-b90c-4f8f4c130ea3" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/student-experience/international-programs/international-education/international-student-and-scholar-services">International Student and Scholar Services</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/international-programs/international-education/international-engagement">International Engagement</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/student-experience/international-programs/international-education/incoming-exchange-and-visiting-scholars">Incoming Exchange and Visiting Scholars</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation">Research and Innovation</a>
+                    <button data-target="#nav-level-6bd66f97-7f81-4304-86b0-afbd4eb614a0" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-6bd66f97-7f81-4304-86b0-afbd4eb614a0" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/centers-and-institutes">Research Centers and Facilities</a>
+                    <button data-target="#nav-level-5cc03d42-dc3c-4689-b1f0-6b217bdd65d8" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-5cc03d42-dc3c-4689-b1f0-6b217bdd65d8" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/axfab">Aerospace Experimentation and Fabrication Building</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/agile-research-group">Agile Research Group</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/assure">ASSURE</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/aviation-and-space-data-analytics">Aviation and Space Data Analytics</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/aviation-safety-and-security-archives">Aviation Safety and Security Archives</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/boeing-center-for-aviation-and-aerospace-safety">Boeing Center for Aviation and Aerospace Safety</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/center-for-advanced-air-mobility">Center for Advanced Air Mobility</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/center-for-aerospace-resilient-systems">Center for Aerospace Resilient Systems</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/center-for-innovation-and-entrepreneurship">Center for Innovation and Entrepreneurship</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/center-for-space-and-atmospheric-research">Center for Space and Atmospheric Research</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/faa-testing-center">FAA Testing Center</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/florida-test-bed">Florida Test Bed</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/king-engineering">King Engineering and Technology Center</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/robertson-safety-institute">Robertson Safety Institute</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/centers-and-institutes/jim-and-linda-lee-planetarium">Jim and Linda Lee Planetarium</a>
+                    <button data-target="#nav-level-fa06874e-6e98-4761-86bf-13ffc013eb3a" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-fa06874e-6e98-4761-86bf-13ffc013eb3a" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/jim-and-linda-lee-planetarium/fulldome-productions">Fulldome Productions</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/stem-center">STEM Education Center</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/centers-and-institutes/undergraduate-multiphysics-computation-group">Undergraduate Multiphysics Computation Group</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/labs">Research Labs Directory</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/groups">Research Groups Directory</a>
+                    <button data-target="#nav-level-b41d734a-d7df-4307-beee-b23eef2c9cea" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-b41d734a-d7df-4307-beee-b23eef2c9cea" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/groups/aamril-research-group">AAMRIL Research Group</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/projects">Research Projects Directory</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/undergraduate-research">Undergraduate Research</a>
+                    <button data-target="#nav-level-4e5b32cd-ea47-45da-858a-5a5bc52aa7fa" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-4e5b32cd-ea47-45da-858a-5a5bc52aa7fa" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/undergraduate-research/daytona-beach">Daytona Beach</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/undergraduate-research/prescott">Prescott</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/undergraduate-research/undergraduate-research-scholars-program">Undergraduate Research Scholars Program</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/research-park">Research Park</a>
+                    <button data-target="#nav-level-8c0fca61-1da9-4f17-b781-faf95a975c3d" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-8c0fca61-1da9-4f17-b781-faf95a975c3d" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/research-park/micaplex">MicaPlex</a>
+                    <button data-target="#nav-level-4047fb66-f041-401c-a170-9e599c1567a9" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-4047fb66-f041-401c-a170-9e599c1567a9" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/research-park/micaplex/launch-your-venture">Launch Your Venture</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/service-centers">Service Centers</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/research-and-innovation/technology-transfer">Technology Transfer and Commercialization</a>
+                    <button data-target="#nav-level-f36fe0f9-4e7d-45d2-a49e-c783a5759a9d" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-f36fe0f9-4e7d-45d2-a49e-c783a5759a9d" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/technology-transfer/patents">Patents</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/research-and-innovation/institutional-review-board">Institutional Review Board</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about">About</a>
+                    <button data-target="#nav-level-bc3d80da-9aee-447e-8c9c-daa832075a85" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-bc3d80da-9aee-447e-8c9c-daa832075a85" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are">Who We Are</a>
+                    <button data-target="#nav-level-708d2689-212f-4383-9e9c-cc7e5816e0cc" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-708d2689-212f-4383-9e9c-cc7e5816e0cc" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/leadership">Leadership</a>
+                    <button data-target="#nav-level-22966f5d-e3c4-4eaf-9632-b6a9e26029d1" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-22966f5d-e3c4-4eaf-9632-b6a9e26029d1" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/leadership/president">President</a>
+                    <button data-target="#nav-level-4f346a43-4806-45f0-b566-da5e2d6248d3" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-4f346a43-4806-45f0-b566-da5e2d6248d3" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/president/presidential-speaker-series">Presidential Speaker Series</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/president/state-of-the-university">State of the University</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/president/thought-leadership">Thought Leadership</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/president/audrey-butler">Dr. Audrey Butler</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/university-leadership">University Leadership</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/leadership/board-of-trustees">Board of Trustees</a>
+                    <button data-target="#nav-level-af7b6f26-b097-4540-881c-1e153136626c" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-af7b6f26-b097-4540-881c-1e153136626c" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/board-of-trustees/message-from-the-chairman">Message From the Chairman</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/board-of-trustees/trustees">Meet the Trustees</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/board-of-trustees/delegates">Meet the Delegates</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/leadership/board-of-trustees/trustees-in-the-news">Trustees in the News</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/our-people">Our People</a>
+                    <button data-target="#nav-level-b4fe1dc2-22da-4719-95c4-e11b5ff40717" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-b4fe1dc2-22da-4719-95c4-e11b5ff40717" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+        <li class="navigation-item">
+            <a href="/faculty" class="link-item" >Faculty Directory</a>
+        </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/our-people/eagle-authors">Eagle Authors</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/history">History</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/accreditation">Accreditation</a>
+                    <button data-target="#nav-level-e71bb808-cb0b-460c-ad84-7a686b5c81fb" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-e71bb808-cb0b-460c-ad84-7a686b5c81fb" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/accreditation/program-level-student-achievement-data">Program-Level Student Achievement Data</a>
+                    <button data-target="#nav-level-9b29c683-7c53-4f2e-82f1-fa3d27c6087c" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-9b29c683-7c53-4f2e-82f1-fa3d27c6087c" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/program-level-student-achievement-data/daytona-beach">Daytona Beach Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/program-level-student-achievement-data/prescott">Prescott Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/program-level-student-achievement-data/worldwide-online">Worldwide &amp; Online Campus</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/accreditation/state-authorizations">State Authorizations</a>
+                    <button data-target="#nav-level-41d8eea8-73b8-4da3-812e-8b5adfdb8f46" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-41d8eea8-73b8-4da3-812e-8b5adfdb8f46" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/who-we-are/accreditation/state-authorizations/california-disclosures">California Disclosures</a>
+                    <button data-target="#nav-level-863a65d9-1b98-4a46-942e-fb90df06c00c" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-863a65d9-1b98-4a46-942e-fb90df06c00c" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/state-authorizations/california-disclosures/annual-report">Annual Report</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/university-level-student-achievement-data">University-Level Student Achievement Data</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/who-we-are/accreditation/continuous-improvement">Continuous Improvement</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/why-embry-riddle">Why Embry-Riddle</a>
+                    <button data-target="#nav-level-74c297c5-e2a6-47d1-81d9-3748711803ea" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-74c297c5-e2a6-47d1-81d9-3748711803ea" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/embry-riddle-experience">The Embry-Riddle Experience</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/facts-and-rankings">Facts and Rankings</a>
+                </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/why-embry-riddle/partnerships">Partnerships</a>
+                    <button data-target="#nav-level-741a26bc-0ba8-4e82-839f-c58dc01cbaad" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-741a26bc-0ba8-4e82-839f-c58dc01cbaad" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/aerosecure">AeroSECURE Consortium</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/airline-transport-pilot">Airline Transport Pilot School</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/asia-partnerships">Asia Partnerships</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/boeing-learning-together-program">Boeing Learning Together Program</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/breaking-down-barriers">Breaking Down Barriers</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/embry-riddle-and-panhandle-helicopter-academy">Embry‑Riddle and Panhandle Helicopter Academy</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/lunken-flight-training-center">Lunken Flight Training Center</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/partnerships/women-and-drones">Women and Drones</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/why-embry-riddle/conference-services">Conference Services</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/news-and-stories">News and Stories</a>
+                    <button data-target="#nav-level-933047ea-db6b-4c67-b1a4-ba9861b828f7" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-933047ea-db6b-4c67-b1a4-ba9861b828f7" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/news-and-stories/news">News</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/news-and-stories/hub-spoke">Stories</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/news-and-stories/podcasts">Podcasts</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/news-and-stories/experts">Media Experts</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/news-and-stories/media-resources">Media Resources</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/locations">Locations</a>
+                    <button data-target="#nav-level-bc79f6da-fe4b-4fde-bd21-29f815c5d3cc" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-bc79f6da-fe4b-4fde-bd21-29f815c5d3cc" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+            <li class="navigation-item has-dropdown">
+                <a href="/about/locations/daytona-beach-campus">Daytona Beach Campus</a>
+                    <button data-target="#nav-level-346e01fd-8062-421c-8527-82f0c29fd141" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-346e01fd-8062-421c-8527-82f0c29fd141" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/locations/daytona-beach-campus/map">Daytona Beach Campus Map</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/daytona-beach-campus/conference-services">Conference Services</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="navigation-item has-dropdown">
+                <a href="/about/locations/prescott-campus">Prescott Campus</a>
+                    <button data-target="#nav-level-ade418f0-5298-473c-95be-98192b627574" class="has-dropdown" aria-expanded="false"></button>
+                    <!-- nav dropdown -->
+                    <div id="nav-level-ade418f0-5298-473c-95be-98192b627574" class="navigation-dropdown is-hidden" role="menu">
+                        <ul class="navigation-dropdown-content">
+                <li class="navigation-item">
+                    <a href="/about/locations/prescott-campus/map">Prescott Campus Map</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/prescott-campus/conference-services">Conference Services</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/worldwide-online-campus">Worldwide &amp; Online Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/asia-campus">Asia Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/europe-campus">Europe Campus</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/locations/brazil-campus">Central and South America</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+                <li class="navigation-item">
+                    <a href="/about/contact-us">Contact Us</a>
+                </li>
+                        </ul>
+                    </div>
+            </li>
+            </ul>
+        </nav>
+
+                </div>
+
+                <div class="navigation-overlay-content-buttons">
+                    <ul>
+                                    <li><a href="/request-information" >Get Info</a></li>
+
+                                    <li><a href="/admissions/explore-embry-riddle/visit-campus" >Visit</a></li>
+
+                                    <li>
+<a href="/apply" class="has-gradient" >                    <span>Apply</span>
+</a>            </li>
+
+                    </ul>
+                </div>
+
+                <ul class="navigation-overlay-content-utility">
+                        <li><a href="/online" >Online</a></li>
+    <li><a href="/on-campus" >On-Campus</a></li>
+
+                </ul>
+
+                <nav class="navigation-overlay-content-discovermore">
+                    <h2>Discover More</h2>
+                    <ul aria-labelledby="discover" role="list">
+                                <li class="navigation-item">
+                                    <a href="/about/news-and-stories/news" >Newsroom</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="https://givingto.erau.edu" class="derived-link-icon is-external" target="_blank" rel="noopener noreferrer" >Give to Embry-Riddle</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="https://alumni.erau.edu" class="derived-link-icon is-external" target="_blank" rel="noopener noreferrer" >Alumni Engagement</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="/about/why-embry-riddle/partnerships" >Industry Partners</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="https://erau.edu/athletics" class="derived-link-icon is-external" target="_blank" rel="noopener noreferrer" >Athletics</a>
+                                </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <main class="main-container" id="content">
+    
+    <div class="main-content">
+        
+
+        <!-- not found hero -->
+        <div class="hero-banner hero-banner--faculty">
+            <!-- breadcrumb -->
+            <nav class="breadcrumb is-back" aria-label="breadcrumb">
+                <!-- breadcrumb list -->
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item" id="back" aria-current="page"><a href="" class="breadcrumb-link" onclick="window.history.go(-1)">Faculty Directory</a></li>
+                </ol>
+            </nav>
+
+            <div class="hero-banner--faculty-container">
+                <div class="hero-banner-content-container">
+                    <div class="hero-banner-content">
+                        <h1 class="hero-banner-heading" id="facultyName">
+                            Faculty member not found
+                        </h1>
+                        <p class="hero-banner-intro">
+                            Please check the name and try again
+                        </p>
+                    </div>
+                </div>
+
+                <figure class="hero-banner-image">
+                    <img src="/-/media/Feature/Faculty/faculty-default" alt="Not found" />
+                </figure>
+            </div>
+        </div>
+
+
+<div data-anchor-target-id="" class="inline-link-container content-well-container has-white-bg is-left  disable-top-spacing disable-bottom-spacing">
+    <div class="content-well">
+        <!-- Adding white space -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>    </div>
+</div>
+
+    </div>
+</main>
+
+    
+<footer class="footer">
+    <div class="footer--top footer--top-desktop">
+        <div class="footer-container">
+            <h2 class="footer-heading h2">Take the Next Steps</h2>
+
+                <nav class="navigation">
+                    <ul>
+                                <li class="navigation-item">
+            <a href="/request-information" class="header-button Solid" >Get Info</a>
+        </li>
+
+                                <li class="navigation-item">
+            <a href="/admissions/explore-embry-riddle/visit-campus" class="header-button Solid" >Visit</a>
+        </li>
+
+                                <li class="navigation-item">
+            <a href="/apply" class="header-button header-button--gradient" >Apply</a>
+        </li>
+
+                    </ul>
+                </nav>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer--bottom">
+            <div class="footer-column footer-addresses">
+<a href="http://erau.edu/" class="footer-logo" ><img src="/-/media/feature/navigation/logo.svg?la=en&amp;hash=5D77461E532FF0AC9229BD7A3B29E730" alt="Embry-Riddle logo" /></a>                
+                <address>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; width: 100%;">
+<div style="min-width: 0; word-wrap: break-word;">
+<p>
+<a href="/about/locations/daytona-beach-campus">Daytona Beach Campus</a><br />
+1 Aerospace Boulevard<br />
+Daytona Beach, FL 32114-3900&nbsp;</p>
+<p>
+<a href="/about/locations/prescott-campus">Prescott Campus</a><br />
+3700 Willow Creek Road<br />
+Prescott, AZ 86301-3720&nbsp;</p>
+</div>
+<div style="min-width: 0; word-wrap: break-word;">
+<p>
+<a href="/about/locations/worldwide-online-campus">Worldwide &amp; Online Campus</a><br />
+1 Aerospace Boulevard<br />
+Daytona Beach, FL 32114-3900&nbsp;</p>
+<p>
+<a href="/about/locations/asia-campus">Asia Campus</a><br />
+70 Seletar Aerospace View; #02-01<br />
+Air 7 Asia Building<br />
+Singapore, 797564&nbsp;</p>
+</div>
+</div>
+                </address>
+            </div>
+
+                <ul class="footer-menu--primary">
+
+    <li>
+        <a href="/parents-and-family" class=" footer--url" >Parents and Family</a>
+    </li>
+    <li>
+        <a href="/faculty" class=" footer--url" >Faculty Directory</a>
+    </li>
+    <li>
+        <a href="https://alumni.erau.edu/" class="derived-link-icon is-external footer--url" target="_blank" rel="noopener noreferrer" >Alumni</a>
+    </li>
+    <li>
+        <a href="https://givingto.erau.edu" class="derived-link-icon is-external footer--url" target="_blank" rel="noopener noreferrer" >Giving</a>
+    </li>
+    <li>
+        <a href="https://commons.erau.edu/" class="derived-link-icon is-external footer--url" target="_blank" rel="noopener noreferrer" >AERO Commons</a>
+    </li>
+    <li>
+        <a href="https://catalog.erau.edu" class="derived-link-icon is-external footer--url" target="_blank" rel="noopener noreferrer" >Course Catalog</a>
+    </li>
+    <li>
+        <a href="/about/news-and-stories/podcasts" class=" footer--url" >Podcasts</a>
+    </li>
+                </ul>
+
+                <ul class="footer-menu--secondary">
+    <li>
+        <a href="/about/news-and-stories" class=" footer--url" >News and Stories</a>
+    </li>
+    <li>
+        <a href="/about/who-we-are/accreditation" class=" footer--url" >Accreditation</a>
+    </li>
+    <li>
+        <a href="/consumer-information" class=" footer--url" >Consumer Information</a>
+    </li>
+    <li>
+        <a href="/financial-disclosures" class=" footer--url" >Financial Disclosures</a>
+    </li>
+    <li>
+        <a href="/institutional-research" class=" footer--url" >Institutional Research</a>
+    </li>
+    <li>
+        <a href="https://careers.erau.edu" class="derived-link-icon is-external footer--url" target="_blank" rel="noopener noreferrer" >Working at Embry-Riddle</a>
+    </li>
+    <li>
+        <a href="/about/who-we-are/accreditation/state-authorizations/california-disclosures" class=" footer--url" >California Disclosures</a>
+    </li>
+                </ul>
+
+        <div class="footer-column footer-column--social">
+                <ul class="footer-social">
+        <li>
+            <a href="https://www.facebook.com/EmbryRiddleUniversity/" class="facebook link-inline-icon inline-link-with-icon" target="_blank"></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/EmbryRiddle" class="twitter link-inline-icon inline-link-with-icon" target="_blank"></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/user/EmbryRiddleUniv" class="youtube link-inline-icon inline-link-with-icon" target="_blank"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/school/embry-riddle-aeronautical-university/" class="linkedin link-inline-icon inline-link-with-icon" target="_blank"></a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/@embryriddle" class="tiktok link-inline-icon inline-link-with-icon" target="_blank"></a>
+        </li>
+                </ul>
+
+            <div><a href="https://ernie.erau.edu" class="footer-login footer--url" target="_blank" rel="noopener noreferrer" >Log in to ERNIE</a></div>
+        </div>
+        </div>
+
+        <div class="footer--legal">
+            © Embry‑Riddle Aeronautical University. All Rights Reserved.
+
+                <ul>
+    <li>
+        <a href="/accessibility" class=" footer--url" >Accessibility</a>
+    </li>
+    <li>
+        <a href="/student-experience/safety-and-policies/title-ix/non-discrimination-policy" class=" footer--url" >Nondiscrimination &amp; Title IX</a>
+    </li>
+    <li>
+        <a href="/privacy-statement" class=" footer--url" >Privacy Statement &amp; GDPR</a>
+    </li>
+    <li>
+        <a href="/terms-use" class=" footer--url" >Terms of Use</a>
+    </li>
+    <li>
+        <a href="/feedback" class=" footer--url" >Web Feedback</a>
+    </li>
+    <li>
+        <a href="/tech-support" class=" footer--url" >Technology Support</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    
+    <dialog id="cookie-consent" aria-label="Cookie and privacy consent request" class="cookiebanner">
+        <div class="container">
+            <div class="banner-position">
+                <div class="banner-holder">
+                    <span id="bannerDesc">
+                        <small>
+                            This website uses cookies and similar tools and technologies to understand visitors&rsquo; experiences. By&nbsp;continuing to use this website, you consent to <span style="white-space: nowrap;">Embry-Riddle</span> Aeronautical University&rsquo;s use of cookies and similar technologies, in accordance with the <a href="/privacy-statement">Embry-Riddle&nbsp;Privacy&nbsp;Statement</a>.
+                        </small>
+                    </span>
+                    <button class="btn btn--primary acknowledge" id="consent-granted" data-preference="acknowledged"><small>OK</small></button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <script>
+	consentBanners = (typeof consentBanners != 'undefined' && consentBanners instanceof Array) ? consentBanners : [];
+	consentBanners.push({ country: "us", iseu: false, consentexists: false });
+    </script>
+
+</body>
+</html>

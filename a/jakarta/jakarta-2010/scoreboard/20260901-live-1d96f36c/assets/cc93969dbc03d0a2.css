@@ -1,0 +1,48 @@
+body { font-family: Arial; }
+td { font-size: 13px;}
+
+
+table.sc_table { border: 1px solid BLACK; background-color: #FFFFFF; }
+td.sc_title { background-color: BLACK; color: #FFFFFF; font-weight: normal; text-align: center; }
+td.sc_team {  border-bottom: 1px solid BLACK; }
+td.sc_pyes { background-color: #00DD00; text-align: center; border-bottom: 1px solid BLACK; color: #FFFFFF; }
+td.sc_pnull { background-color: #EEEEFF; text-align: center; border-bottom: 1px solid BLACK; }
+td.sc_pno { background-color: #FF0000; text-align: center; border-bottom: 1px solid BLACK; color: #FFFFFF;  }
+td.sc_summary { background-color: GRAY; text-align: center; color: WHITE; }
+
+
+td.ro_univ { background-color: #9999CC;
+	text-align: left; font-weight: bold; color: #FFFFFF; font-size: 13px;
+	padding: 2 0 2 10;
+}
+
+table.t_form { border: 1px solid BLACK; }
+
+.ev_no { color: #FF0000; font-weight: bold; }
+.ev_yes { color: #00DD00; font-weight: bold; }
+
+td.header { border-bottom: 1px solid BLACK; }
+td.footer { border-top: 1px solid BLACK; }
+
+td.navi_blank { background-color: #FFCC99; text-align: center; font-size: 12px; }
+td.navi_info { background-color: #EEEEEE; text-align: center; font-size: 12px; }
+
+td.navi_public { background-color: #FF8000; text-align: center; border: 1px solid #FF8000; }
+td.navi_public:hover { background-color: #FF0000; text-align: center; border: 1px solid #CC0000; }
+td.navi_public_hover { background-color: #FF0000; text-align: center; border: 1px solid #CC0000; }
+a.navi_public { color: WHITE; font-size: 13px; text-decoration: none; }
+
+td.navi_team { background-color: #0080FF; text-align: center; border: 1px solid #0080FF; }
+td.navi_team:hover { background-color: #0000FF; text-align: center; border: 1px solid #0000CC; }
+td.navi_team_hover { background-color: #0000FF; text-align: center; border: 1px solid #0000CC; }
+a.navi_team { color: WHITE; font-size: 13px; text-decoration: none; }
+
+td.navi_judge { background-color: #00CC00; text-align: center; border: 1px solid #00CC00; }
+td.navi_judge:hover { background-color: #009900; text-align: center; border: 1px solid #006600; }
+td.navi_judge_hover { background-color: #009900; text-align: center; border: 1px solid #006600; }
+a.navi_judge { color: WHITE; font-size: 13px; text-decoration: none; }
+
+td.pr_prob { font-size: 20px; }
+
+
+td.ru_judging { background-color: #CC3300; color: #FFFFFF; font-weight: normal; text-align: center; }

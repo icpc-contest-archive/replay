@@ -1,0 +1,21 @@
+﻿table.upcomingRegionals
+{
+	margin-top:1em;
+	font-family:Verdana;
+	font-size:12px;
+}
+table.upcomingRegionals th
+{
+background:#c8dFf7;
+padding:.3em .5em;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+
+table.upcomingRegionals tr.even{background:#fff;}
+table.upcomingRegionals tr.odd{background:#f8f9fc;}
+table.upcomingRegionals tr:hover{background:#eef;}
+table.upcomingRegionals td{padding:.1em .5em;}
+table.upcomingRegionals div.number{text-align:right;}
+table.upcomingRegionals div.contest{padding-left:1.7em;}
+table.upcomingRegionals div.started{background:left no-repeat url("../images/icons/door_open.png");}

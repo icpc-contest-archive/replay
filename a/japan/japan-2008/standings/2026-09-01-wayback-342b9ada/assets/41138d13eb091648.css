@@ -1,0 +1,111 @@
+
+.align-right {
+	text-align:right;
+}
+.align-left {
+	text-align:left;
+}
+.align-center {
+	text-align:center;
+}
+.float-right {
+	float:right;
+}
+.float-left {
+	float:left;
+}
+
+body {
+		margin:0px;
+		font-family:Arial, Helvetica, sans-serif;
+}
+
+.demo-header-1 {
+		padding:0px;
+		margin:0px;
+		background-image:url(images/ws_logo.png);
+		height: 100px;
+		background-repeat:none;
+		border-collapse:collapse;
+}
+.demo-header-2 {
+		background-image:url(images/ws_logo-2.png);
+		background-repeat:repeat-x;
+		background-position:left;
+		padding:0px;
+		margin:0px;
+		border-collapse:collapse;
+}
+hr {
+		border:0px;
+		height:2px;
+		border-top:1px solid #ffd90f;
+}
+.main {
+		padding:15px;
+}
+.wide {
+		width:100%;
+}
+
+.half {
+		width:50%;
+}
+.main-table {
+		border-collapse: separate;
+		padding:1px;
+		spacing:1px;
+		background-image:url(images/icpc_bg.jpg);
+}
+.main-table td {
+		padding:8px;
+}
+.left-col-div {
+		font-size:12px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		border-right:2px solid #ffd90f;
+		padding:10px;
+}
+.left-col-div h4 {
+		font-size:14px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		color:#000587;
+}
+.right-col-div {
+		font-size:12px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		border-left:2px solid #ffd90f;
+		padding:10px;
+}
+.right-col-div h4 {
+		font-size:14px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		color: #000587;
+}
+
+.block { 
+		background-image:url(images/block_bg.png);
+}
+
+.block2 { 
+		background-color:#57a1ff; vertical-align:top; 
+		color: #b30000;
+}
+
+.block2link { 
+		color: #b30000; font-size:12px;
+}
+
+a:link{ color:#000577; }
+a:visited{ color:#001197; }
+a:hover{ color:#b30000;  }
+
+ul {
+ list-style-image: url(images/baloon_small.gif);
+ padding-left: 40px;
+ margin-bottom: 16px;
+}
+
+img.sponsor {
+ margin: 6px;
+}

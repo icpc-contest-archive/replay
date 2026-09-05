@@ -1,0 +1,12 @@
+
+
+
+
+input[type=checkbox], input[type=radio],
+input[type=checkbox]:hover, input[type=radio]:hover {
+  border-color: transparent;
+  box-shadow: none;
+  box-sizing: content-box;
+}
+
+      

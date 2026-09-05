@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+#page-container {
+  min-height:100%;
+}
+#content-wrapper {
+  overflow:auto;
+  min-height:100%;
+  padding-bottom:4rem;
+}
+.footer {
+  position: relative;
+  margin-top: -4rem;
+  height: 4rem;
+  clear: both;
+  border-width:3px!important;
+}
+.table td {
+  padding: .25rem;
+}
+.table th,
+.table thead {
+  padding: .75rem;
+}
+.table {
+  margin-bottom: 0;
+  min-width: 70%;
+}
+.table-responsive {
+  margin-bottom: 1rem;
+}
+.table-striped>tbody>tr:nth-child(odd)>td {
+  background-color: #ededea!important;
+}
+.light-cell,
+.table-bordered>thead>tr>th,
+.table-striped>tbody>tr:nth-child(even)>td {
+  background-color: #f6f6f4!important;
+}
+.text-large {
+  font-size: 125%;
+}
+div.pagination {
+  display: inline-block;
+}
+.page-pre, .page-next {
+  display: none;
+}

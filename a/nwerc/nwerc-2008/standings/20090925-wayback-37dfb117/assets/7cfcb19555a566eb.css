@@ -1,0 +1,178 @@
+body
+{
+	font-family: sans-serif;
+	background-color: #ffe9dd;
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+}
+
+table.logos {
+	height: 100%;
+}
+
+table.logos td {
+	text-align: center;
+}
+
+table.logos td img{
+	margin: 10px 10px 10px 10px;
+}
+
+table.partners {
+	margin-top: 20px;
+	width: 100%;
+}
+
+div 
+{
+	padding: 0 1em 0 1em;
+}
+
+#header
+{
+	background: #b76132 url('/images/header.jpg') no-repeat scroll top left;
+	height: 168px;
+	width: 100%;
+	padding: 0;
+}
+
+#header h1
+{
+	display: none;
+}
+
+a:link, a:visited
+{
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+table.menu
+{
+	background: #dba57d;
+	padding: 0;
+	margin: 0; 
+	height: 25px;
+	border-top: 1px solid #b76132;
+	border-bottom: 2px solid #b76132;
+	width: 100%;
+}
+
+table.menu td
+{
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: center;
+	height: 25px;
+}
+
+table.menu td.active
+{
+	background: #b76132;
+	color: #dba57d;
+	font-weight: bold;
+}
+
+table.submenu
+{
+	border-top: 0px;
+	height: 12px;
+	margin-bottom: 10px;
+}
+
+table.submenu td {
+	font-size: 10pt;
+	height: 12px;
+}
+
+
+table.menu a 
+{
+	color: #b76132;
+	font-weight: bold;
+}
+
+table.menu a:hover 
+{
+	color: #000AAA;
+}
+
+#lastupdate
+{
+	font-size: small;
+	color: gray;
+	background-color: #ffe9dd;
+	width: 95%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+	text-align: right;
+}
+
+#lastupdate a
+{
+	color: gray;
+}
+
+#lastupdate a:hover
+{
+	color: #000AAA;
+}
+
+#content
+{
+	margin-bottom: 40px;
+}
+
+#sponsor
+{
+	bottom: 0;
+	width: 100%;
+	background-color: #ffe9dd;
+}
+
+img 
+{
+	border: none;
+}
+
+#footnotes p
+{
+	font-size: small;
+	margin: 0;
+}
+
+a[id|="fnote"], a[id|="fmark"]
+{
+	font-size: small;
+	vertical-align: super;
+}
+
+div.error, span.error {
+	color: red;
+	border: 1px solid red;
+	padding: 2px;
+}
+
+.schedsub {
+	font-style: italic;
+}
+
+.photo {
+	border: 1px solid black;
+}
+
+.imgflag {
+	height: 18px;
+	border: 0;
+}
+.imglogo {
+	width: 24px;
+	border: 0;
+}

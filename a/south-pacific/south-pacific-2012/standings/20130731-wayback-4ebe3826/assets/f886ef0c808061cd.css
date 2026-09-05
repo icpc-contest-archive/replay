@@ -1,0 +1,37 @@
+﻿body {
+}
+.solved
+{
+    background-color: #99FF99;
+    color: #000000;
+    font-weight: bold;
+}
+
+.attempted
+{
+    background-color: #FF7451;
+    color: #000000;
+}
+
+.notAttempted
+{
+    background-color: #FFFFFF;
+}
+
+.aus_main
+{
+    background-color:Green;
+    color:Black;
+}
+
+.nz_main
+{
+    background-color:Black;
+    color:White;
+}
+
+.school
+{
+    background-color:White;
+    color:Black;
+}
