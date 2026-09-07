@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://icpc.com.ar/resultados-tap-2025/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=753'
+					+ '&is_singular=';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9pY3BjLmNvbS5hcg%3D%3D"
+		+ "&wpcomid=233250232"
+		+ "&time=1756223078";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<title>Resultados del Torneo Argentino de Programación 2025 &#8211; ICPC Argentina</title>
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="ICPC Argentina &raquo; Feed" href="https://icpc.com.ar/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ICPC Argentina &raquo; Comments Feed" href="https://icpc.com.ar/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1751981882i&ver=6.8.2-alpha-60439"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='assets/9c56202a7fe3cccc.css' type='text/css' media='all' />
+<style id='wp-block-site-logo-inline-css'>
+.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
+</style>
+<style id='wp-block-site-title-inline-css'>
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+</style>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+</style>
+<style id='wp-block-navigation-link-inline-css'>
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{border-top:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+
+				.is-style-arrow-link .wp-block-navigation-item__label:after {
+					content: "\2197";
+					padding-inline-start: 0.25rem;
+					vertical-align: middle;
+					text-decoration: none;
+					display: inline-block;
+				}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='assets/d5c880bb1133248e.css' type='text/css' media='all' />
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+</style>
+<style id='wp-block-post-title-inline-css'>
+.wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title :where(a){display:inline-block;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+</style>
+<style id='wp-block-post-featured-image-inline-css'>
+.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block;height:100%}.wp-block-post-featured-image :where(img){box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom;width:100%}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{background-color:#000;inset:0;position:absolute}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:initial}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}.wp-block-post-featured-image:where(.alignleft,.alignright){width:100%}
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+</style>
+<style id='wp-block-post-content-inline-css'>
+.wp-block-post-content{display:flow-root}
+</style>
+<style id='wp-block-site-tagline-inline-css'>
+.wp-block-site-tagline{box-sizing:border-box}
+</style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+
+				.is-style-asterisk:before {
+					content: '';
+					width: 1.5rem;
+					height: 3rem;
+					background: var(--wp--preset--color--contrast-2, currentColor);
+					clip-path: path('M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z');
+					display: block;
+				}
+
+				/* Hide the asterisk if the heading has no content, to avoid using empty headings to display the asterisk only, which is an A11Y issue */
+				.is-style-asterisk:empty:before {
+					content: none;
+				}
+
+				.is-style-asterisk:-moz-only-whitespace:before {
+					content: none;
+				}
+
+				.is-style-asterisk.has-text-align-center:before {
+					margin: 0 auto;
+				}
+
+				.is-style-asterisk.has-text-align-right:before {
+					margin-left: auto;
+				}
+
+				.rtl .is-style-asterisk.has-text-align-left:before {
+					margin-right: auto;
+				}
+</style>
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-36-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #f9f9f9;--wp--preset--color--base-2: #ffffff;--wp--preset--color--contrast: #111111;--wp--preset--color--contrast-2: #636363;--wp--preset--color--contrast-3: #A4A4A4;--wp--preset--color--accent: #cfcabe;--wp--preset--color--accent-2: #c2a990;--wp--preset--color--accent-3: #d8613c;--wp--preset--color--accent-4: #b1c5a4;--wp--preset--color--accent-5: #b5bdbc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--gradient-1: linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-2: linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-3: linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-4: linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-5: linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-6: linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-7: linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-8: linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-9: linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-10: linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-11: linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-12: linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%);--wp--preset--font-size--small: 0.9rem;--wp--preset--font-size--medium: 1.05rem;--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--font-family--body: "Inter", sans-serif;--wp--preset--font-family--heading: Cardo;--wp--preset--font-family--system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;--wp--preset--font-family--system-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;--wp--preset--spacing--20: min(1.5rem, 2vw);--wp--preset--spacing--30: min(2.5rem, 3vw);--wp--preset--spacing--40: min(4rem, 5vw);--wp--preset--spacing--50: min(6.5rem, 8vw);--wp--preset--spacing--60: min(10.5rem, 13vw);--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--10: 1rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 620px;--wp--style--global--wide-size: 1280px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.2rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.2rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.2rem;}:root :where(.is-layout-grid){gap: 1.2rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--medium);font-style: normal;font-weight: 400;line-height: 1.55;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: var(--wp--preset--spacing--50);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: var(--wp--preset--spacing--50);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}h1, h2, h3, h4, h5, h6{color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--heading);font-weight: 400;line-height: 1.2;}h1{font-size: var(--wp--preset--font-size--xx-large);line-height: 1.15;}h2{font-size: var(--wp--preset--font-size--x-large);}h3{font-size: var(--wp--preset--font-size--large);}h4{font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem);}h5{font-size: var(--wp--preset--font-size--medium);}h6{font-size: var(--wp--preset--font-size--small);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--contrast);border-radius: .33rem;border-color: var(--wp--preset--color--contrast);border-width: 0;color: var(--wp--preset--color--base);font-family: inherit;font-size: var(--wp--preset--font-size--small);font-style: normal;font-weight: 500;line-height: inherit;padding-top: 0.6rem;padding-right: 1rem;padding-bottom: 0.6rem;padding-left: 1rem;text-decoration: none;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);outline-color: var(--wp--preset--color--contrast);outline-offset: 2px;}:root :where(.wp-element-button:active, .wp-block-button__link:active){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){color: var(--wp--preset--color--contrast-2);font-family: var(--wp--preset--font-family--body);font-size: 0.8rem;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-base-2-color{color: var(--wp--preset--color--base-2) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-color{color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-color{color: var(--wp--preset--color--contrast-3) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-accent-2-color{color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-color{color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-color{color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-color{color: var(--wp--preset--color--accent-5) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-base-2-background-color{background-color: var(--wp--preset--color--base-2) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-background-color{background-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-background-color{background-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-accent-2-background-color{background-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-background-color{background-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-background-color{background-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-background-color{background-color: var(--wp--preset--color--accent-5) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-base-2-border-color{border-color: var(--wp--preset--color--base-2) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-border-color{border-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-border-color{border-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-accent-2-border-color{border-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-border-color{border-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-border-color{border-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-border-color{border-color: var(--wp--preset--color--accent-5) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-gradient-1-gradient-background{background: var(--wp--preset--gradient--gradient-1) !important;}.has-gradient-2-gradient-background{background: var(--wp--preset--gradient--gradient-2) !important;}.has-gradient-3-gradient-background{background: var(--wp--preset--gradient--gradient-3) !important;}.has-gradient-4-gradient-background{background: var(--wp--preset--gradient--gradient-4) !important;}.has-gradient-5-gradient-background{background: var(--wp--preset--gradient--gradient-5) !important;}.has-gradient-6-gradient-background{background: var(--wp--preset--gradient--gradient-6) !important;}.has-gradient-7-gradient-background{background: var(--wp--preset--gradient--gradient-7) !important;}.has-gradient-8-gradient-background{background: var(--wp--preset--gradient--gradient-8) !important;}.has-gradient-9-gradient-background{background: var(--wp--preset--gradient--gradient-9) !important;}.has-gradient-10-gradient-background{background: var(--wp--preset--gradient--gradient-10) !important;}.has-gradient-11-gradient-background{background: var(--wp--preset--gradient--gradient-11) !important;}.has-gradient-12-gradient-background{background: var(--wp--preset--gradient--gradient-12) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-heading-font-family{font-family: var(--wp--preset--font-family--heading) !important;}.has-system-sans-serif-font-family{font-family: var(--wp--preset--font-family--system-sans-serif) !important;}.has-system-serif-font-family{font-family: var(--wp--preset--font-family--system-serif) !important;}.wp-site-blocks table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.wp-site-blocks table th,
+.wp-site-blocks table td {
+	border: 1px solid #ccc;
+	padding: 6px 10px;
+	text-align: left;
+}
+
+.wp-site-blocks table th {
+	background-color: #f4f4f4;
+}
+
+.wp-site-blocks table tr:nth-child(even) td {
+	background-color: #fafafa;
+}
+:root :where(.wp-block-navigation){font-weight: 500;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-post-featured-image img, .wp-block-post-featured-image .block-editor-media-placeholder, .wp-block-post-featured-image .wp-block-post-featured-image__overlay){border-radius: var(--wp--preset--spacing--20);}
+:root :where(.wp-block-post-title a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-post-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-site-tagline){color: var(--wp--preset--color--contrast-2);font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-site-title){font-family: var(--wp--preset--font-family--body);font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.542), 1.2rem);font-style: normal;font-weight: 600;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: none;}
+</style>
+<style id='core-block-supports-inline-css'>
+.wp-container-core-group-is-layout-47e5a185 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-47e5a185 > * + *{margin-block-start:0px;margin-block-end:0;}.wp-container-core-group-is-layout-fbcf6490{gap:var(--wp--preset--spacing--20);}.wp-container-core-navigation-is-layout-cca85a86{gap:var(--wp--preset--spacing--20);justify-content:flex-end;}.wp-container-core-group-is-layout-b585a4aa{justify-content:space-between;}.wp-container-core-group-is-layout-fe9cc265{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-ea0cb840{gap:var(--wp--preset--spacing--10);flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-353c4f5a{flex-direction:column;align-items:stretch;}.wp-container-core-group-is-layout-e5edad21{justify-content:space-between;align-items:flex-start;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-40-1' href='https://s0.wp.com/_static/??-eJx9jFEKg0AMRC9kDMJK24/Ss9hlu8RmE3FXen1jBcUi/Zs3wxv8DOBVSpCCaYKBp0iS0WtKVgHTOxjln6a2pkJC0UJm5y2sw/nnGJ6s0WL8Hu74T4pBgdV3hVQOAC/uaFzUR7o3rr05d700rp8Bg7ZNhA==&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-42-1' href='assets/7530ceb8249a43ee.css' type='text/css' media='all' />
+<script id="wpcom-actionbar-placeholder-js-extra">
+var actionbardata = {"siteID":"233250232","postID":"753","siteURL":"https:\/\/icpc.com.ar","xhrURL":"https:\/\/icpc.com.ar\/wp-admin\/admin-ajax.php","nonce":"d658d7b751","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/PfMH2w-c9","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/reader\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","shortLinkCopied":"Shortlink copied to clipboard."}};
+</script>
+<script id="jetpack-mu-wpcom-settings-js-before">
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/sun\/jetpack_vendor\/automattic\/jetpack-mu-wpcom\/src\/build\/"};
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='assets/8b03b18c47597f04.js'></script>
+<script id="rlt-proxy-js-after">
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://icpcargentina.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://icpc.com.ar/resultados-tap-2025/" />
+<link rel='shortlink' href='https://wp.me/PfMH2w-c9' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Ficpc.com.ar%2Fresultados-tap-2025%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Ficpc.com.ar%2Fresultados-tap-2025%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Resultados del Torneo Argentino de Programación 2025" />
+<meta property="og:url" content="https://icpc.com.ar/resultados-tap-2025/" />
+<meta property="og:description" content="¡Felicitaciones a todos los participantes! Posición Equipo Institución Puntaje 1CormanUniversidad de Buenos Aires12 (1239) 2Red-Black TreeUniversidad Nacional de Rosario12 (1405) 3HelicópteroUniver…" />
+<meta property="article:published_time" content="2025-08-25T21:27:43+00:00" />
+<meta property="article:modified_time" content="2025-08-25T21:40:40+00:00" />
+<meta property="og:site_name" content="ICPC Argentina" />
+<meta property="og:image" content="https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=200" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="Resultados del Torneo Argentino de Programación&nbsp;2025" />
+<meta name="twitter:image" content="https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=240" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="search" type="application/opensearchdescription+xml" href="https://icpc.com.ar/osd.xml" title="ICPC Argentina" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<script type="importmap" id="wp-importmap">
+{"imports":{"@wordpress\/interactivity":"https:\/\/s0.wp.com\/wp-content\/plugins\/gutenberg-core\/v20.6.0\/build-module\/interactivity\/index.min.js?ver=d9948f13df6155717023"}}
+</script>
+<script type="module" src="assets/94b70b7dc2c4cc68.js" id="@wordpress/block-library/navigation/view-js-module"></script>
+<link rel="modulepreload" href="https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build-module/interactivity/index.min.js?ver=d9948f13df6155717023" id="@wordpress/interactivity-js-modulepreload"><meta name="description" content="¡Felicitaciones a todos los participantes! Posición Equipo Institución Puntaje 1CormanUniversidad de Buenos Aires12 (1239) 2Red-Black TreeUniversidad Nacional de Rosario12 (1405) 3HelicópteroUniversidad Nacional de Córdoba11 (913) 4Champán en lataUniversidad Tecnológica Nacional - Facultad Regional Santa Fe10 (994) 5NaN (Need a Name)Universidad Nacional de La Plata10 (1015) 6para el regional elegimos nombreUniversidad Nacional de Rosario10 (1206) 7Los&hellip;" />
+<style class='wp-fonts-local'>
+@font-face{font-family:Inter;font-style:normal;font-weight:100;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:200;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:300;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:400;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:500;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:600;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:700;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:800;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:900;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://s2.wp.com/wp-content/themes/pub/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://s2.wp.com/wp-content/themes/pub/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;font-display:fallback;src:url('https://s2.wp.com/wp-content/themes/pub/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:normal;font-weight:700;font-display:fallback;src:url('https://s2.wp.com/wp-content/themes/pub/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');}
+</style>
+<link rel="icon" href="assets/4b177ab6e9069a07.png" sizes="32x32" />
+<link rel="icon" href="assets/1359b4ef4119e28b.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="assets/504ebe199934d0d6.png" />
+<meta name="msapplication-TileImage" content="https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=270" />
+</head>
+
+<body class="wp-singular page-template-default page page-id-753 wp-custom-logo wp-embed-responsive wp-theme-pubtwentytwentyfour is-block-theme customizer-styles-applied jetpack-reblog-enabled">
+<div id="icpc-archive-banner">Archived copy of <a href="https://icpc.com.ar/resultados-tap-2025/">https://icpc.com.ar/resultados-tap-2025/</a> (content as captured 2025-08-26 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/tap-2025.html">tap-2025</a>)  <a href="https://web.archive.org/web/20250826154437/https://icpc.com.ar/resultados-tap-2025/">wayback</a></div>
+
+
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="wp-block-group alignwide has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:20px;padding-bottom:20px">
+<div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-b585a4aa wp-block-group-is-layout-flex">
+<div class="wp-block-group is-layout-flex wp-container-core-group-is-layout-fbcf6490 wp-block-group-is-layout-flex"><div class="wp-block-site-logo"><a href="https://icpc.com.ar/" class="custom-logo-link" rel="home"><img width="60" height="20" src="assets/eb22ae2a9d88b182.png" class="custom-logo" alt="ICPC Argentina" decoding="async" srcset="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=58&amp;h=20 58w, https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=116&amp;h=40 116w" sizes="(max-width: 60px) 100vw, 60px" data-attachment-id="145" data-permalink="https://icpc.com.ar/aapc-transparent/" data-orig-file="assets/eb22ae2a9d88b182.png" data-orig-size="425,146" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="AAPC transparent" data-image-description="" data-image-caption="" data-medium-file="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=300" data-large-file="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=425" /></a></div>
+
+
+<div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-47e5a185 wp-block-group-is-layout-flow"><p class="wp-block-site-title"><a href="https://icpc.com.ar" target="_self" rel="home">ICPC Argentina</a></p></div>
+</div>
+
+
+<nav class="is-responsive items-justified-right wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-cca85a86 wp-block-navigation-is-layout-flex" aria-label="Footer navigation 2" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+				data-wp-on-async--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5" /><rect x="4" y="15" width="16" height="1.5" /></svg></button>
+				<div class="wp-block-navigation__responsive-container"  id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on-async--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on-async--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://icpcargentina.wordpress.com/tap"><span class="wp-block-navigation-item__label">Torneo Argentino de Programación</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://icpc.com.ar/tc"><span class="wp-block-navigation-item__label">Training Camp Argentina</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://icpcargentina.wordpress.com/icpc-latam-pda-wf/"><span class="wp-block-navigation-item__label">ICPC</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://icpc.com.ar/socios/"><span class="wp-block-navigation-item__label">Socios</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://icpc.com.ar/institucional/"><span class="wp-block-navigation-item__label">Institucional</span></a></li></ul>
+							</div>
+						</div>
+					</div>
+				</div></nav></div>
+</div>
+</header>
+
+
+<main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+	
+	<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+		
+		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+		
+
+		<h1 class="has-text-align-center wp-block-post-title">Resultados del Torneo Argentino de Programación&nbsp;2025</h1>
+
+		
+		<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--30)" aria-hidden="true"
+			class="wp-block-spacer"></div>
+		
+
+		
+	</div>
+	
+
+	<div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<p>¡Felicitaciones a todos los participantes!</p>
+
+
+
+<p></p>
+
+
+
+<table>
+    <thead>
+      <tr>
+        <th>Posición</th>
+        <th>Equipo</th>
+        <th>Institución</th>
+        <th>Puntaje</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Corman</td><td>Universidad de Buenos Aires</td><td>12 (1239)</td></tr>
+      <tr><td>2</td><td>Red-Black Tree</td><td>Universidad Nacional de Rosario</td><td>12 (1405)</td></tr>
+      <tr><td>3</td><td>Helicóptero</td><td>Universidad Nacional de Córdoba</td><td>11 (913)</td></tr>
+      <tr><td>4</td><td>Champán en lata</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>10 (994)</td></tr>
+      <tr><td>5</td><td>NaN (Need a Name)</td><td>Universidad Nacional de La Plata</td><td>10 (1015)</td></tr>
+      <tr><td>6</td><td>para el regional elegimos nombre</td><td>Universidad Nacional de Rosario</td><td>10 (1206)</td></tr>
+      <tr><td>7</td><td>Los Catastróficos</td><td>Universidad de Buenos Aires</td><td>10 (1314)</td></tr>
+      <tr><td>8</td><td>Tiramos CV</td><td>Universidad Nacional de Jujuy</td><td>9 (1200)</td></tr>
+      <tr><td>9</td><td>Gracias Ma</td><td>Universidad Nacional de Córdoba</td><td>8 (724)</td></tr>
+      <tr><td>10</td><td>Los Tiburones Cuánticos</td><td>Universidad de Buenos Aires</td><td>6 (401)</td></tr>
+      <tr><td>11</td><td>El boca de Kikelli</td><td>Universidad de Buenos Aires</td><td>6 (417)</td></tr>
+      <tr><td>12</td><td>Marco Ventola</td><td>Universidad de Buenos Aires</td><td>6 (435)</td></tr>
+      <tr><td>13</td><td>El pabellón</td><td>Universidad Nacional de Córdoba</td><td>6 (491)</td></tr>
+      <tr><td>14</td><td>Sale con dp y fritas 2.71</td><td>Universidad de Buenos Aires</td><td>6 (560)</td></tr>
+      <tr><td>15</td><td>ALKA</td><td>Universidad Nacional de Rosario</td><td>6 (602)</td></tr>
+      <tr><td>16</td><td>Super Greeditos</td><td>Universidad de Buenos Aires</td><td>6 (665)</td></tr>
+      <tr><td>17</td><td>ChichuMerge</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>6 (672)</td></tr>
+      <tr><td>18</td><td>Nombre del grupo</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>5 (315)</td></tr>
+      <tr><td>19</td><td>TAPires</td><td>Universidad de San Andrés</td><td>5 (328)</td></tr>
+      <tr><td>20</td><td>La eterna cuestión</td><td>Universidad de Buenos Aires</td><td>5 (360)</td></tr>
+      <tr><td>21</td><td>hola</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>5 (376)</td></tr>
+      <tr><td>22</td><td>icom_helpers.h</td><td>Instituto Balseiro</td><td>5 (392)</td></tr>
+      <tr><td>23</td><td>Cooperativa Los Trapitos</td><td>Universidad de Buenos Aires</td><td>5 (404)</td></tr>
+      <tr><td>24</td><td>Melón Térmico</td><td>Universidad Nacional de Córdoba</td><td>5 (416)</td></tr>
+      <tr><td>25</td><td>Sé&#8211;</td><td>Instituto Balseiro</td><td>5 (576)</td></tr>
+      <tr><td>26</td><td>dr. Pancho</td><td>Universidad de Buenos Aires</td><td>4 (65)</td></tr>
+      <tr><td>27</td><td>#include</td><td>Universidad Nacional del Nordeste</td><td>4 (67)</td></tr>
+      <tr><td>28</td><td>Los lacayos de Fede Pizarro</td><td>Universidad de San Andrés</td><td>4 (72)</td></tr>
+      <tr><td>29</td><td>BEE</td><td>Universidad de San Andrés</td><td>4 (76)</td></tr>
+      <tr><td>30</td><td>deportivo_muela</td><td>Universidad Nacional de Córdoba</td><td>4 (104)</td></tr>
+      <tr><td>31</td><td>Peligro sin codificar</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>4 (112)</td></tr>
+      <tr><td>32</td><td>Holaaaa</td><td>Universidad de Buenos Aires</td><td>4 (119)</td></tr>
+      <tr><td>33</td><td>VaCa MaLa</td><td>Universidad Nacional de La Plata</td><td>4 (122)</td></tr>
+      <tr><td>34</td><td>HOT TO CODE!</td><td>Instituto Balseiro</td><td>4 (128)</td></tr>
+      <tr><td>35</td><td>Cerebros Binarios</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (128)</td></tr>
+      <tr><td>36</td><td>Segfault</td><td>Universidad de San Andrés</td><td>4 (137)</td></tr>
+      <tr><td>37</td><td>CAR: chori, albahaca y rúcula</td><td>Universidad Nacional de La Plata</td><td>4 (149)</td></tr>
+      <tr><td>38</td><td>Milanguchito</td><td>Universidad Nacional de Tucumán</td><td>4 (156)</td></tr>
+      <tr><td>39</td><td>Ed, Edd y Eddy v1.2</td><td>Universidad Nacional de La Matanza</td><td>4 (172)</td></tr>
+      <tr><td>40</td><td>McDuck</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Córdoba</td><td>4 (177)</td></tr>
+      <tr><td>41</td><td>The Sliders</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (177)</td></tr>
+      <tr><td>42</td><td>UPD</td><td>Universidad Nacional de La Plata</td><td>4 (178)</td></tr>
+      <tr><td>43</td><td>ElPuerro</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>4 (179)</td></tr>
+      <tr><td>44</td><td>Pan&#8217;t con manteca</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>4 (182)</td></tr>
+      <tr><td>45</td><td>Falta Para El Envido</td><td>Universidad Nacional de La Plata</td><td>4 (187)</td></tr>
+      <tr><td>46</td><td>Chapin Devs</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>4 (193)</td></tr>
+      <tr><td>47</td><td>Profilo</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (201)</td></tr>
+      <tr><td>48</td><td>Teamless</td><td>Instituto Universitario Aeronáutico</td><td>4 (207)</td></tr>
+      <tr><td>49</td><td>Skippy</td><td>Universidad de San Andrés</td><td>4 (210)</td></tr>
+      <tr><td>50</td><td>Ni Compila</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (212)</td></tr>
+      <tr><td>51</td><td>Chat con Grandes Problemas Tecnicos</td><td>Universidad Nacional de Tucumán</td><td>4 (214)</td></tr>
+      <tr><td>52</td><td>SanMorto</td><td>Universidad Torcuato Di Tella</td><td>4 (218)</td></tr>
+      <tr><td>53</td><td>while(so serious)</td><td>Universidad Nacional de Tucumán</td><td>4 (219)</td></tr>
+      <tr><td>54</td><td>M.E.R.Y.</td><td>Universidad de San Andrés</td><td>4 (219)</td></tr>
+      <tr><td>55</td><td>los pro_magadores</td><td>Universidad Nacional de Jujuy</td><td>4 (220)</td></tr>
+      <tr><td>56</td><td>Byters</td><td>Universidad Nacional de Chilecito</td><td>4 (232)</td></tr>
+      <tr><td>57</td><td>TUCUmancos</td><td>Universidad Nacional de Tucumán</td><td>4 (232)</td></tr>
+      <tr><td>58</td><td>entro la balubi? (〜￣▽￣)〜</td><td>Universidad Nacional de Rosario</td><td>4 (234)</td></tr>
+      <tr><td>59</td><td>VersionFinalFINAL (1)</td><td>Universidad de Buenos Aires</td><td>4 (235)</td></tr>
+      <tr><td>60</td><td>LMN</td><td>Universidad Nacional de Rosario</td><td>4 (247)</td></tr>
+      <tr><td>61</td><td>UTN-FRD-3</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Delta</td><td>4 (251)</td></tr>
+      <tr><td>62</td><td>nos va a ir bien tranqui</td><td>Universidad de San Andrés</td><td>4 (255)</td></tr>
+      <tr><td>63</td><td>Limit Tested</td><td>Universidad Nacional de La Matanza</td><td>4 (263)</td></tr>
+      <tr><td>64</td><td>En mí máquina funciona</td><td>Universidad de San Andrés</td><td>4 (269)</td></tr>
+      <tr><td>65</td><td>Marcos &#8211; Lotar</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>4 (270)</td></tr>
+      <tr><td>66</td><td>PodadoraSexy?!</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>4 (271)</td></tr>
+      <tr><td>67</td><td>Fuera De La Caja</td><td>Universidad Torcuato Di Tella</td><td>4 (279)</td></tr>
+      <tr><td>68</td><td>team ZER0</td><td>Universidad Nacional de Jujuy</td><td>4 (279)</td></tr>
+      <tr><td>69</td><td>Cubito Imaginario</td><td>Universidad Nacional de Chilecito</td><td>4 (284)</td></tr>
+      <tr><td>70</td><td>-WAall</td><td>Universidad Nacional de La Plata</td><td>4 (289)</td></tr>
+      <tr><td>71</td><td>Syntax Terror</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (293)</td></tr>
+      <tr><td>72</td><td>Los Mini Goats</td><td>Universidad Nacional de Jujuy</td><td>4 (294)</td></tr>
+      <tr><td>73</td><td>Labubu sin laburu</td><td>Universidad Nacional de Córdoba</td><td>4 (300)</td></tr>
+      <tr><td>74</td><td>Los Mejores Al Final</td><td>Universidad Nacional de La Plata</td><td>4 (304)</td></tr>
+      <tr><td>75</td><td>programadoreros</td><td>Universidad de San Andrés</td><td>4 (305)</td></tr>
+      <tr><td>76</td><td>UTN-FRD-2-DropDataBase</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Delta</td><td>4 (328)</td></tr>
+      <tr><td>77</td><td>Centauro?</td><td>Universidad Nacional de Rio Negro</td><td>4 (335)</td></tr>
+      <tr><td>78</td><td>ci_plas_plas</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (350)</td></tr>
+      <tr><td>79</td><td>SpreadF</td><td>Universidad Nacional de Tucumán</td><td>4 (359)</td></tr>
+      <tr><td>80</td><td>CHIPITIPUMBA</td><td>Universidad Nacional de Rosario</td><td>4 (404)</td></tr>
+      <tr><td>81</td><td>Sapucay</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>4 (430)</td></tr>
+      <tr><td>82</td><td>Mein Cöde</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>4 (462)</td></tr>
+      <tr><td>83</td><td>Undefined</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>4 (474)</td></tr>
+      <tr><td>84</td><td>Godhead</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>4 (475)</td></tr>
+      <tr><td>85</td><td>Chaco</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>4 (487)</td></tr>
+      <tr><td>86</td><td>AATGB</td><td>Universidad Nacional de Jujuy</td><td>4 (499)</td></tr>
+      <tr><td>87</td><td>Ctrl+Alt+Tres</td><td>Universidad Nacional del Litoral</td><td>4 (507)</td></tr>
+      <tr><td>88</td><td>Trío 200</td><td>Universidad Nacional de Rio Cuarto</td><td>4 (540)</td></tr>
+      <tr><td>89</td><td>Complejidad cero</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>4 (553)</td></tr>
+      <tr><td>90</td><td>Solo C que no C nada</td><td>Instituto Balseiro</td><td>4 (564)</td></tr>
+      <tr><td>91</td><td>ChadGPT</td><td>Universidad Nacional de Rio Negro</td><td>4 (576)</td></tr>
+      <tr><td>92</td><td>Team Sangre </td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>4 (577)</td></tr>
+      <tr><td>93</td><td>Mate.py</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>4 (599)</td></tr>
+      <tr><td>94</td><td>RETURN 3</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>4 (749)</td></tr>
+      <tr><td>95</td><td>Big Brain</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>3 (81)</td></tr>
+      <tr><td>96</td><td>Extra Soarre 1</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>3 (96)</td></tr>
+      <tr><td>97</td><td>RuntimeTerrors</td><td>Universidad Torcuato Di Tella</td><td>3 (113)</td></tr>
+      <tr><td>98</td><td>Con 15 líneas me armo alto código</td><td>Universidad Nacional de La Matanza</td><td>3 (157)</td></tr>
+      <tr><td>99</td><td>Alejandro &#8211; Maximiliano</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>3 (161)</td></tr>
+      <tr><td>100</td><td>printf(&#8220;Rose Everdeen&#8221;);</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>3 (172)</td></tr>
+      <tr><td>101</td><td>Los Terrabusi</td><td>Universidad Torcuato Di Tella</td><td>3 (184)</td></tr>
+      <tr><td>102</td><td>Fecha Libre</td><td>Instituto Balseiro</td><td>3 (189)</td></tr>
+      <tr><td>103</td><td>Mali</td><td>Universidad Nacional de Chilecito</td><td>3 (190)</td></tr>
+      <tr><td>104</td><td>Los Desconocidos</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>3 (195)</td></tr>
+      <tr><td>105</td><td>def torneo()</td><td>Universidad Nacional de Chilecito</td><td>3 (201)</td></tr>
+      <tr><td>106</td><td>PPP</td><td>Universidad de San Andrés</td><td>3 (208)</td></tr>
+      <tr><td>107</td><td>Cod-E</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>3 (215)</td></tr>
+      <tr><td>108</td><td>No de nuevo</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Santa Fe</td><td>3 (220)</td></tr>
+      <tr><td>109</td><td>404_Team_Not_Found</td><td>Universidad de San Andrés</td><td>3 (228)</td></tr>
+      <tr><td>110</td><td>Csquid</td><td>Universidad Nacional de Tucumán</td><td>3 (240)</td></tr>
+      <tr><td>111</td><td>Error_404</td><td>Universidad Nacional de Chilecito</td><td>3 (244)</td></tr>
+      <tr><td>112</td><td>Los tilines</td><td>Universidad Nacional de Chilecito</td><td>3 (244)</td></tr>
+      <tr><td>113</td><td>ExecutionTimeTerror</td><td>Universidad Nacional de Rio Cuarto</td><td>3 (252)</td></tr>
+      <tr><td>114</td><td>Código Amistad</td><td>Universidad de San Andrés</td><td>3 (255)</td></tr>
+      <tr><td>115</td><td>Code Queens</td><td>Universidad Nacional de Jujuy</td><td>3 (268)</td></tr>
+      <tr><td>116</td><td>UTN-FRD-1</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Delta</td><td>3 (270)</td></tr>
+      <tr><td>117</td><td>Guns and Rozas</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>3 (271)</td></tr>
+      <tr><td>118</td><td>IAL</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>3 (275)</td></tr>
+      <tr><td>119</td><td>The Last Bit</td><td>Universidad Nacional de Rio Cuarto</td><td>3 (281)</td></tr>
+      <tr><td>120</td><td>Java Padawans</td><td>Universidad Nacional de Salta</td><td>3 (284)</td></tr>
+      <tr><td>121</td><td>Pablo</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>3 (286)</td></tr>
+      <tr><td>122</td><td>SJG.Compile()</td><td>Universidad Nacional de Jujuy</td><td>3 (294)</td></tr>
+      <tr><td>123</td><td>El Coleccionista, El Villano y Lord Dona</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>3 (294)</td></tr>
+      <tr><td>124</td><td>While(True) SSJ</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>3 (304)</td></tr>
+      <tr><td>125</td><td>Sin nombre</td><td>Universidad Nacional de Chilecito</td><td>3 (305)</td></tr>
+      <tr><td>126</td><td>Tridente</td><td>Universidad Nacional de Salta</td><td>3 (305)</td></tr>
+      <tr><td>127</td><td>Py3k</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>3 (306)</td></tr>
+      <tr><td>128</td><td>Uno Cero</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>3 (308)</td></tr>
+      <tr><td>129</td><td>Los Inmutables</td><td>Universidad Nacional de Chilecito</td><td>3 (312)</td></tr>
+      <tr><td>130</td><td>EIF++</td><td>Universidad Nacional de Jujuy</td><td>3 (312)</td></tr>
+      <tr><td>131</td><td>Cacho</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>3 (314)</td></tr>
+      <tr><td>132</td><td>Desigualdad triangular</td><td>Instituto Balseiro</td><td>3 (326)</td></tr>
+      <tr><td>133</td><td>Los brancacitos</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>3 (328)</td></tr>
+      <tr><td>134</td><td>TheConcept</td><td>Universidad Nacional de Chilecito</td><td>3 (346)</td></tr>
+      <tr><td>135</td><td>Los Compi-ladores</td><td>Universidad Nacional de Chilecito</td><td>3 (347)</td></tr>
+      <tr><td>136</td><td>PuntoyComa.exe</td><td>Universidad Nacional de Chilecito</td><td>3 (363)</td></tr>
+      <tr><td>137</td><td>ds3</td><td>Universidad Nacional de Chilecito</td><td>3 (364)</td></tr>
+      <tr><td>138</td><td>Code Sisters</td><td>Universidad Nacional de Chilecito</td><td>3 (369)</td></tr>
+      <tr><td>139</td><td>Extra Soarib 1</td><td>Universidad Nacional del Comahue</td><td>3 (405)</td></tr>
+      <tr><td>140</td><td>Exceso 127</td><td>Universidad Nacional de Chilecito</td><td>3 (405)</td></tr>
+      <tr><td>141</td><td>CodeBusters</td><td>Universidad Nacional de Chilecito</td><td>3 (412)</td></tr>
+      <tr><td>142</td><td>boca predio</td><td>Universidad Nacional de Chilecito</td><td>3 (417)</td></tr>
+      <tr><td>143</td><td>devs^3</td><td>Universidad de San Andrés</td><td>3 (433)</td></tr>
+      <tr><td>144</td><td>HuillinCODE</td><td>Universidad Nacional de Rio Negro</td><td>3 (440)</td></tr>
+      <tr><td>145</td><td>Mechabyte 2.0</td><td>Universidad Nacional de Chilecito</td><td>3 (444)</td></tr>
+      <tr><td>146</td><td>SyntaxError:</td><td>Universidad Nacional de Chilecito</td><td>3 (689)</td></tr>
+      <tr><td>147</td><td>Capa de Densos</td><td>Universidad de San Andrés</td><td>2 (15)</td></tr>
+      <tr><td>148</td><td>Xi, Jin y Ping</td><td>Universidad Nacional de Rosario</td><td>2 (26)</td></tr>
+      <tr><td>149</td><td>gordito code</td><td>Universidad Nacional de Rio Cuarto</td><td>2 (31)</td></tr>
+      <tr><td>150</td><td>Las últimas 3 masitas</td><td>Universidad Nacional de Rio Cuarto</td><td>2 (32)</td></tr>
+      <tr><td>151</td><td>Los backend boys</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Rosario</td><td>2 (38)</td></tr>
+      <tr><td>152</td><td>StackOverflowed</td><td>Universidad Nacional de La Matanza</td><td>2 (39)</td></tr>
+      <tr><td>153</td><td>Sherlock Codes</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>2 (54)</td></tr>
+      <tr><td>154</td><td>Testing</td><td>Universidad Nacional de Jujuy</td><td>2 (69)</td></tr>
+      <tr><td>155</td><td>Innovacode</td><td>Universidad Nacional de Chilecito</td><td>2 (84)</td></tr>
+      <tr><td>156</td><td>CompiladoresX</td><td>Universidad Nacional de Salta</td><td>2 (97)</td></tr>
+      <tr><td>157</td><td>AK47</td><td>Universidad Nacional de Salta &#8211; Sede Regional Orán</td><td>2 (102)</td></tr>
+      <tr><td>158</td><td>B.I.T</td><td>Universidad de San Andrés</td><td>2 (110)</td></tr>
+      <tr><td>159</td><td>Marioneta</td><td>Universidad Nacional de Rio Cuarto</td><td>2 (112)</td></tr>
+      <tr><td>160</td><td>printf(&#8220;Equipo para T.A.P&#8221;);</td><td>Universidad Nacional de Chilecito</td><td>2 (126)</td></tr>
+      <tr><td>161</td><td>Codigo Raiz</td><td>Universidad Nacional de Chilecito</td><td>2 (168)</td></tr>
+      <tr><td>162</td><td>SMS</td><td>Universidad de San Andrés</td><td>2 (183)</td></tr>
+      <tr><td>163</td><td>TeamUNLaM03</td><td>Universidad Nacional de La Matanza</td><td>2 (192)</td></tr>
+      <tr><td>164</td><td>Nikola</td><td>Universidad Nacional de Chilecito</td><td>2 (201)</td></tr>
+      <tr><td>165</td><td>Codecraft</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>2 (203)</td></tr>
+      <tr><td>166</td><td>KiNoTo</td><td>Universidad Nacional de Rio Cuarto</td><td>2 (216)</td></tr>
+      <tr><td>167</td><td>Speed</td><td>Universidad Nacional de Córdoba</td><td>2 (222)</td></tr>
+      <tr><td>168</td><td>OnlyJava</td><td>Universidad Nacional de Rio Cuarto</td><td>2 (237)</td></tr>
+      <tr><td>169</td><td>ALT+F4</td><td>Universidad Nacional de Chilecito</td><td>2 (276)</td></tr>
+      <tr><td>170</td><td>Leveling</td><td>Universidad Nacional de Chilecito</td><td>2 (276)</td></tr>
+      <tr><td>171</td><td>Código 3</td><td>Universidad Nacional de Chilecito</td><td>2 (279)</td></tr>
+      <tr><td>172</td><td>Team TOR</td><td>Universidad Nacional del Litoral</td><td>2 (282)</td></tr>
+      <tr><td>173</td><td>Los yin y yang 2: La venganza de Momo</td><td>Universidad Nacional de Chilecito</td><td>2 (300)</td></tr>
+      <tr><td>174</td><td>E.A.B.M.O.D.E.L.</td><td>Universidad Nacional de La Matanza</td><td>2 (320)</td></tr>
+      <tr><td>175</td><td>CJ</td><td>Universidad Nacional de Chilecito</td><td>2 (402)</td></tr>
+      <tr><td>176</td><td>Code Hunters</td><td>Universidad Nacional de Jujuy</td><td>2 (408)</td></tr>
+      <tr><td>177</td><td>casi_ejecuta</td><td>Universidad Nacional del Litoral</td><td>2 (478)</td></tr>
+      <tr><td>178</td><td>baiteadores</td><td>Universidad Nacional de Chilecito</td><td>1 (9)</td></tr>
+      <tr><td>179</td><td>Panchito gang</td><td>Universidad Nacional de Chilecito</td><td>1 (10)</td></tr>
+      <tr><td>180</td><td>syntax error</td><td>Universidad Nacional de Chilecito</td><td>1 (62)</td></tr>
+      <tr><td>181</td><td>TOONS</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>1 (159)</td></tr>
+      <tr><td>182</td><td>Root</td><td>Universidad Tecnológica Nacional &#8211; Facultad Regional Resistencia</td><td>0 (0)</td></tr>
+      <tr><td>183</td><td>Code Breakers</td><td>Universidad Nacional de Jujuy</td><td>0 (0)</td></tr>
+    </tbody>
+  </table>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+</div>
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:30%">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex"><div class="wp-block-site-logo"><a href="https://icpc.com.ar/" class="custom-logo-link" rel="home"><img width="100" height="34" src="assets/eb22ae2a9d88b182.png" class="custom-logo" alt="ICPC Argentina" decoding="async" srcset="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=100&amp;h=34 100w, https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=198&amp;h=68 198w, https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=150&amp;h=52 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="145" data-permalink="https://icpc.com.ar/aapc-transparent/" data-orig-file="assets/eb22ae2a9d88b182.png" data-orig-size="425,146" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="AAPC transparent" data-image-description="" data-image-caption="" data-medium-file="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=300" data-large-file="https://icpc.com.ar/wp-content/uploads/2024/08/aapc-transparent.png?w=425" /></a></div>
+
+<p class="wp-block-site-title has-medium-font-size"><a href="https://icpc.com.ar" target="_self" rel="home">ICPC Argentina</a></p>
+
+<p class="wp-block-site-tagline has-small-font-size">Programación Competitiva en Argentina</p>
+
+
+<p>aapc.org.ar@gmail.com</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<div class="wp-block-group is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-e5edad21 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-353c4f5a wp-block-group-is-layout-flex">
+<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"></h2>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-ea0cb840 wp-block-group-is-layout-flex"></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-353c4f5a wp-block-group-is-layout-flex">
+<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"></h2>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-ea0cb840 wp-block-group-is-layout-flex"></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-353c4f5a wp-block-group-is-layout-flex">
+<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600">Social</h2>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-ea0cb840 wp-block-group-is-layout-flex">
+<p><a href="http://instagram.com/icpc.argentina">Instagram</a></p>
+
+
+
+<p><a href="http://youtube.com/@trainingcampargentina8088">Youtube</a></p>
+
+
+
+<p><a href="https://www.linkedin.com/company/106583868">Linkedin</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- wpcom_wp_footer -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/files\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/pub\/twentytwentyfour\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script src="assets/62a1fb2dfe060999.js" id="grofiles-cards-js"></script>
+<script id="wpgroho-js-extra">
+var WPGroHo = {"my_hash":""};
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='assets/2307780125567f1f.js'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile →': 'Edit your profile →',
+							'View profile →': 'View profile →',
+							'Contact': 'Contact',
+							'Send money': 'Send money',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Gravatar not found.': 'Gravatar not found.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+							'Is this you?': 'Is this you?',
+							'Claim your free profile.': 'Claim your free profile.',
+							'Email': 'Email',
+							'Home Phone': 'Home Phone',
+							'Work Phone': 'Work Phone',
+							'Cell Phone': 'Cell Phone',
+							'Contact Form': 'Contact Form',
+							'Calendar': 'Calendar',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	</div>
+		<div id="actionbar" dir="ltr" style="display: none;"
+			class="actnbr-pub-twentytwentyfour actnbr-has-follow actnbr-has-actions">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://icpc.com.ar">
+				<img loading='lazy' alt='' src='https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=50' srcset='https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=50 1x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=75 1.5x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=100 2x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=150 3x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=200 4x' class='avatar avatar-50' height='50' width='50' />				ICPC Argentina			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																				<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="233250232" />
+										<input type="hidden" name="source" value="https://icpc.com.ar/resultados-tap-2025/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="d60e8102ee" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Ficpc.com.ar%252Fresultados-tap-2025%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+									<li class="actnbr-btn actnbr-hidden no-display" onclick="javascript:__tcfapi( 'showUi' );">
+						<a class="actnbr-action actnbr-actn-privacy" href="#">
+							<svg class="gridicon gridicons-info-outline" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M13 9h-2V7h2v2zm0 2h-2v6h2v-6zm-1-7c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8m0-2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></g></svg>							<span>Privacy						</span>
+						</a>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+								<li class="actnbr-sitename">
+			<a href="https://icpc.com.ar">
+				<img loading='lazy' alt='' src='https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=50' srcset='https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=50 1x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=75 1.5x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=100 2x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=150 3x, https://icpc.com.ar/wp-content/uploads/2025/04/cropped-favicon-removebg-preview.png?w=200 4x' class='avatar avatar-50' height='50' width='50' />				ICPC Argentina			</a>
+		</li>
+								<li class="actnbr-folded-follow">
+										<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+								</li>
+														<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+							<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Ficpc.com.ar%252Fresultados-tap-2025%252F">Log in</a></li>
+																<li class="actnbr-shortlink">
+										<a href="https://wp.me/PfMH2w-c9">
+											<span class="actnbr-shortlink__text">Copy shortlink</span>
+											<span class="actnbr-shortlink__icon"><svg class="gridicon gridicons-checkmark" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M9 19.414l-6.707-6.707 1.414-1.414L9 16.586 20.293 5.293l1.414 1.414"/></g></svg></span>
+										</a>
+									</li>
+																<li class="flb-report">
+									<a href="https://wordpress.com/abuse/?report_url=https://icpc.com.ar/resultados-tap-2025/" target="_blank" rel="noopener noreferrer">
+										Report this content									</a>
+								</li>
+															<li class="actnbr-reader">
+									<a href="https://wordpress.com/reader/blogs/233250232/posts/753">
+										View post in Reader									</a>
+								</li>
+															<li class="actnbr-subs">
+									<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+								</li>
+																<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+														</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20250204";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+	<script src="https://s1.wp.com/wp-content/js/mobile-useragent-info.js?m=1609849039i&amp;ver=20241018" id="mobile-useragent-info-js" defer data-wp-strategy="defer"></script>
+<script id="comment-like-js-extra">
+var comment_like_text = {"loading":"Loading...","swipeUrl":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/comment-likes\/js\/lib\/swipe.js?ver=20131008"};
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/wp-content/mu-plugins/comment-likes/js/comment-likes.js?m=1637585230i'></script>
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.id = 'wp-skip-link';
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerText = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script src="//stats.wp.com/w.js?68" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'233250232','blog_tz':'-3','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'233250232','v':'wpcom','tz':'-3','user_id':'0','post':'753','subd':'icpcargentina'}]);
+_stq.push(['extra', {'crypt':'UE5tW3cvZGQ/JUs1UEpSdi1dRV9aVkFZQTljNzI9YX5fZVlILnosOXdPYWF8NzE0bkpmalltLXloRFFrJnMlMHE1eSUsJS9ab1JbQTNRVlROWDFrV2g/Z1FMVC43X0stb0NuSl9PSHJYR2hNJWlnUmZoTTZ0SFFJNkVJZjVfVnVxTkVYR0M9anlEJXhLby1PeG1uNjluX1pScjlDLEl+ZC95LTJ3ait1Rnw3SGhHb3RQYXVdUCxO'}]);
+_stq.push([ 'clickTrackerInit', '233250232', '753' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<meta id="bilmur" property="bilmur:data" content="" data-provider="wordpress.com" data-service="simple" data-site-tz="America/Argentina/Buenos_Aires" data-custom-props="{&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;pub\/twentytwentyfour&quot;,&quot;wptheme_is_block&quot;:&quot;1&quot;}"  >
+		<script defer src="/wp-content/js/bilmur.min.js?i=15&amp;m=202535"></script> 	<script>
+( function() {
+	function getMobileUserAgentInfo() {
+		if ( typeof wpcom_mobile_user_agent_info === 'object' ) {
+			wpcom_mobile_user_agent_info.init();
+			var mobileStatsQueryString = '';
+
+			if ( wpcom_mobile_user_agent_info.matchedPlatformName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.matchedUserAgentName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.isIPad() ) {
+				mobileStatsQueryString += '&x_' + 'ipad_views' + '=' + 'views';
+			}
+
+			if ( mobileStatsQueryString != '' ) {
+				new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+			}
+		}
+	}
+
+	document.addEventListener( 'DOMContentLoaded', getMobileUserAgentInfo );
+} )();
+</script></body>
+</html>
