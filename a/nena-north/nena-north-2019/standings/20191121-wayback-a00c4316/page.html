@@ -1,0 +1,4673 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://open.kattis.com/contests/nena19open">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, Kattis</title>
+
+    <link href="assets/38d3bfd7d000561e.css" rel="stylesheet">
+
+    <script src="assets/8b8b939158a7d0e2.js"></script>
+    <script src="assets/9e2b3bee8b659812.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="assets/4b4b530e64ec63e0.css" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic,800italic%7CMerriweather:400,400italic,700" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/07e6efb6150736aa.css" rel="stylesheet">
+
+    <!-- Bootstrap datetimepicker CSS-->
+    <link href="assets/979387c4790aedba.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="assets/1797e29789a808dc.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon" />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="assets/b9723d93a5a9a2d2.css">
+    <style type="text/css">
+          .header {
+         background-color: rgb(240,176,52);
+     }
+     .header .main-nav > ul > li.current:before {
+         border-bottom-color: rgb(240,176,52);
+     }
+
+          --div.page-content.clearfix.above-everything.alert.alert-danger { color: #31708f; background: #d9edf7; border-color: #bce8f1; }
+
+         </style>
+
+    <script type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    <script type="text/javascript">
+    jQuery.ns = function (namespace) {
+        var parts = namespace.split('.');
+        var last = window;
+        for (var i = 0; i < parts.length; i++) {
+            last = last[parts[i]] || (last[parts[i]] = {});
+        }
+        return last;
+    };
+</script>
+    <script>
+jQuery.extend(jQuery.ns('Kattis.error'), (function () {
+    var messages = {"INTERNAL_SERVER_ERROR":"Internal server error.","ACCESS_DENIED":"Access denied.","NOT_AUTHENTICATED":"Not authenticated.","METHOD_NOT_ALLOWED":"Method not allowed.","INVALID_JSON":"JSON cannot be decoded or encoded data is deeper than the recursion limit.","BAD_CSRF_TOKEN":"Token does not match session's csrf_token","SESSION_NAME_EMPTY":"Session's name must be non empty.","SESSION_START_TIME_EMPTY":"Session's start time must be non empty.","SESSION_START_TIME_PASSED":"Session's start time has already passed.","SESSION_DURATION_EMPTY":"Session's duration must be non empty.","SESSION_DURATION_NEGATIVE":"Session's duration must be a positive number.","SESSION_DURATION_EXCEEDED":"Maximum duration for the session was exceeded.","SESSION_ALREADY_STARTED":"The session has already started.","SESSION_ALREADY_FINISHED":"The session is already finished.","USER_CREATED_SESSION_DURATION_EXCEEDED":"Contest cannot be longer than 168 hours.","INVALID_PROBLEM_SCORE":"Invalid problem score.","INVALID_SESSION_SHORTNAME":"Invalid shortname for the session.","INVALID_SESSION_CUTOFF":"Invalid cutoff for the session.","INVALID_USER_NAME":"Invalid username or email.","SESSION_NOT_FOUND":"No such session.","COURSE_NOT_FOUND":"No such course.","OFFERING_NOT_FOUND":"No such offering.","TEACHER_NOT_FOUND":"No such teacher.","TEACHER_CANNOT_REMOVE_SELF":"You may not remove yourself as a teacher unless you are an administrator.","AUTHOR_NOT_FOUND":"No such author.","JUDGE_NOT_FOUND":"No such judge.","JUDGE_ALREADY_EXIST":"The user is already a judge.","TEACHER_ALREADY_EXIST":"The user is already a teacher.","PROBLEM_NOT_FOUND":"No such problem.","TEAM_NOT_FOUND":"No such team.","SESSION_PROBLEM_ALREADY_EXIST":"The problem has been already added to the session.","SESSION_PROBLEM_DOES_NOT_EXIST":"The problem does not relate to the session.","PROBLEM_INDEX_NEGATIVE":"Problem index must be non negative.","AUTHOR_IS_CURRENT_TEAM_MEMBER":"The user you tried to add is already a member of the current team.","AUTHOR_IS_ANOTHER_TEAM_MEMBER":"The user you tried to add is already a member of another team in the current session.","AUTHOR_IS_JUDGE":"The user you tried to add is a judge.","AUTHOR_IS_NOT_TEAM_MEMBER":"The user you tried to remove is not a team member.","JUDGE_IS_TEAM_MEMBER":"The user you tried to add is a session team member or invitee.","SESSION_PUBLISHING_DENIED":"You do not have permission to publish this session.","CANNOT_PUBLISH_HISTORICAL_SESSION":"You cannot publish a session with a historical start time.","INVALID_TEAM_NAME_TOO_LONG":"The team name you are trying to add is too long","TEAM_NAME_IS_NOT_VISIBLE":"The team name you are trying to add is not visible"};
+
+    return {
+        get_msg: function (error_code) {
+            return messages[error_code];
+        },
+
+        show_msg: function (base_message, error_code) {
+            if (error_code) {
+                alert(base_message + ": " + this.get_msg(error_code));
+            } else {
+                alert(base_message);
+            }
+        },
+
+        show_xhr_msg: function (elem, jqXHR) {
+            var base_message = elem.data('fail-msg');
+            var code = jqXHR.responseJSON && jqXHR.responseJSON.error &&
+                       jqXHR.responseJSON.error.code;
+            this.show_msg(base_message, code);
+        }
+    }
+})());
+</script>
+
+    
+
+    <script type="text/javascript">
+var rumMOKey="a854f3a6dd7ee5e3b7d1641570b79c34";
+(function(){
+if(window.performance && window.performance.timing && window.performance.navigation) {
+	var site24x7_rum_beacon=document.createElement('script');
+	site24x7_rum_beacon.async=true;
+	site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey='+rumMOKey);
+	document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+}
+})(window)
+</script>
+
+    
+</head>
+
+<body class="page-master-layout  page-contest">
+<div id="icpc-archive-banner">Archived copy of <a href="https://open.kattis.com/contests/nena19open">https://open.kattis.com/contests/nena19open</a> (content as captured 2019-11-21 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/nena-north-2019.html">nena-north-2019</a>)  <a href="https://web.archive.org/web/20191121170630/https://open.kattis.com/contests/nena19open">wayback</a></div>
+
+
+
+<div id="wrapper">
+    <header class="header">
+    <div class="background">
+        
+        <div class="wrap">
+            <div class="fl">
+                                    <a href="/"><img class="logo logo-open" src="/images/site-logo" alt="" /></a>
+                                <div class="title-wrapper">
+                    <div class="header-title">ICPC Northeast North America Regional Contest 2019 — Open Division</div>
+                    <nav class="main-nav">
+                        <ul>
+                                                                                            
+                                <li class="current"><a href="/contests/nena19open/standings">Standings</a></li>
+                                                                                            
+                                <li class=""><a href="/contests/nena19open/problems">Problems</a></li>
+                                                                                            
+                                <li class=""><a href="/contests/nena19open/help">Help</a></li>
+                            
+                                                    </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="user-side fr">
+
+                <nav class="user-nav">
+                    <ul class="user-nav-ul">
+                                                    <li>
+                                <form action="/search" class="site-search" method="GET">
+                                    <input type="text" name="q" placeholder="Search Kattis" />
+                                    <a href="#">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </form>
+                            </li>
+                        
+                                                                                    <li><a class="btn dark-bg" href="/login">Log in</a></li>
+                                                                        </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!--[if IE]>    <div class="alert alert-warning" role="alert">
+        <strong>You are using an outdated browser!</strong> Some features might not look or work like expected. Kattis supports the last two versions of major browsers. Please consider upgrading to a recent version!    </div>
+    <![endif]-->
+
+    
+    
+    
+            <div class="wrap">
+                
+
+
+
+
+        </div>
+    
+    
+
+    <div class="wrap-fullwidth">
+        <div id="standings_wrapper">
+            
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page-content boxed clearfix">
+    <section class="box clearfix main-content">
+
+                        <div id="contest_time" data-props="{&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:1043491,&quot;total_seconds&quot;:&quot;18000&quot;,&quot;refresh_at_start&quot;:true}">
+    <div class="contest-progress session-finished">
+            <div class="info upper">
+                <div class="col-md-3 text-left no-pad">
+                    <h4>Start</h4>
+                    2019-11-09 15:15 UTC
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2 class="title">ICPC Northeast North America Regional Contest 2019 — Open Division</h2>
+                </div>
+                <div class="col-md-3 text-right no-pad">
+                    <h4>End</h4>
+                    2019-11-09 20:15 UTC
+                </div>
+            </div>
+            <div class="progress">
+                                                                    <div class="progress-bar" style="width: 100.00%">
+                <div class="nearend">
+                    The end is near!                </div>
+
+                <div class="finished">
+                    Contest is over.                </div>
+
+                <div class="nostart">
+                    Not yet started.                </div>
+
+                <div class="notstarted">
+                    Contest                    is starting in                    <span class="countdown">-12 days 1:51:31</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info only_in_contest">
+            <div class="fl">
+                <h4>Time elapsed</h4>
+                <span class="count_elapsed">5:00:00</span>
+            </div>
+
+            <div class="fr">
+                <h4>Time remaining</h4>
+                <span class="count_remaining">0:00:00</span>
+            </div>
+        </div>
+    </div>
+
+    </div>
+        
+        
+        
+        <div class="control-strip">
+            
+                                                </div>
+
+        
+        
+        
+        
+    
+    <div class="legend-strip">
+                
+        <div class="fr table-legend">
+                            <div>
+                    <span class="legend-solvedfirst legend-status"></span>
+                    <p class="legend-label"> First to solve problem</p>
+                </div>
+                                        <div>
+                    <span class="legend-solved legend-status"></span>
+                    <p class="legend-label"> Solved problem                </div>
+                        <div>
+                <span class="legend-attempted legend-status"></span>
+                <p class="legend-label"> Attempted problem</p>
+            </div>
+            <div>
+                <span class="legend-pending legend-status"></span>
+                <p class="legend-label"> Pending judgement</p>
+            </div>
+        </div>
+    </div>
+
+
+        <table id="standings" class="table table-kattis kattis-table-contest-standings">
+            
+    <thead>    <tr>
+                                    <th class="table-min-wrap">Rk</th>
+            
+                            <th colspan="3" class="table-min-wrap">Team</th>
+            
+                            <th class="table-min-wrap">Slv.</th>
+
+                                    <th class="table-min-wrap">Time</th>
+                                    
+                                            
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Add &#039;Em Up!" href="/contests/nena19open/problems/addemup">A</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Colonization of El-gă-rizm" href="/contests/nena19open/problems/thecolonizationofelgarizm">B</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Cutting the Necklace" href="/contests/nena19open/problems/cuttingthenecklace">C</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Fair Divisions" href="/contests/nena19open/problems/fairdivisions">D</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Guess the Digits" href="/contests/nena19open/problems/guessthedigits">E</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Monument Maker" href="/contests/nena19open/problems/monumentmaker">F</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Protecting the Collection" href="/contests/nena19open/problems/protectingthecollection">G</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Sock Pile" href="/contests/nena19open/problems/thesockpile">H</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Stickers" href="/contests/nena19open/problems/stickers">I</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Wire Ghost" href="/contests/nena19open/problems/thewireghost">J</a></th>
+        
+                                            </tr>
+    </thead>
+
+                                                                        
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>1</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    UIUC - A (2/3)
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Illinois at Urbana–Champaign" data-placement="top" title="University of Illinois at Urbana–Champaign" src="/images/universities/illinois.edu/56px?5168ebdfbbec45f74f0ca165d3fc5b52" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>8</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>919</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>9</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>19</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>32</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>287</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>133</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>15</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            7<br>
+            <small>163</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>101</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>2</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    MIT 🐸∩v_v∩🐸
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?c52e3ca029106a05f63c55f3c430c65a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Massachusetts Institute of Technology" data-placement="top" title="Massachusetts Institute of Technology" src="/images/universities/mit.edu/56px?46c429082e8d4d0dfa8b5fc68fdf2377" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>7</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>290</td>
+            
+                        
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>3</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>7</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            2<br>
+            <small>13</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>109</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            5<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>18</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>37</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>63</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>3</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    s34vv1nd
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hanoi University of Science and Technology" data-placement="top" title="Hanoi University of Science and Technology" src="/images/universities/hust.edu.vn/56px?b823f33dca5d3f809dcad5c4a8d7d9ef" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>7</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>717</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>22</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>30</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>42</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>89</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>67</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>144</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>223</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>4</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/yogahmad27">Ahmad Haulian Yoga Pratama</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="IDN" data-placement="top" title="Indonesia" src="/images/countries/IDN/56px?99824d2db673d1f8e66cb606b7d941dd" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Indonesia" data-placement="top" title="University of Indonesia" src="/images/universities/ui.ac.id/56px?42a91a5f0416738c53d6efb668d89a3f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>6</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>306</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>8</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>16</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>30</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>122</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>41</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>89</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>5</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Annoying Orange
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Texas at Austin" data-placement="top" title="University of Texas at Austin" src="/images/universities/utexas.edu/56px?0e88b76e05f279da8da7129778161584" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>6</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>382</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>42</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>96</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>25</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>50</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>63</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>86</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>6</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/vtifand">Vincent Tandya</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="IDN" data-placement="top" title="Indonesia" src="/images/countries/IDN/56px?99824d2db673d1f8e66cb606b7d941dd" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="National University of Singapore" data-placement="top" title="National University of Singapore" src="/images/universities/nus.edu.sg/56px?398c807f629a7a264096cf789d5b237f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>6</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>655</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>35</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>79</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>51</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            5<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>47</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>105</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            5<br>
+            <small>198</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>7</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    2(MTA Team Alpha)/3
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?c52e3ca029106a05f63c55f3c430c65a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Mount Allison University" data-placement="top" title="Mount Allison University" src="/images/universities/mta.ca/56px?2fac2be09c6df7bce95e6937547f4ed2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>6</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>762</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>29</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>46</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>213</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>88</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>163</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>163</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>8</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/paul-wild">Paul Wild</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="DEU" data-placement="top" title="Germany" src="/images/countries/DEU/56px?47df22eaff3ba05d923a2fe09f80375f" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Erlangen-Nuremberg" data-placement="top" title="University of Erlangen-Nuremberg" src="/images/universities/fau.eu/56px?a5e55143874cdacc2510462e3d1f1821" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>6</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1170</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>158</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>166</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>182</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>175</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>198</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>251</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>9</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/itayz">Itay Z</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="ISR" data-placement="top" title="Israel" src="/images/countries/ISR/56px?644f2d519ef5895bdb288135bbdea165" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Technion – Israel Institute of Technology" data-placement="top" title="Technion – Israel Institute of Technology" src="/images/universities/technion.ac.il/56px?3026ac385551ea2b0415e91b219827c9" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>5</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>929</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>52</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>74</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>133</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>295</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>275</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>10</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    ksun48 fan club
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>5</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1022</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>173</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>188</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>177</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>185</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            3<br>
+            <small>199</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>11</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    NYUAD
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="ARE" data-placement="top" title="United Arab Emirates" src="/images/countries/ARE/56px?f51f6b7762a51732303ce908573fe08a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="New York University Abu Dhabi" data-placement="top" title="New York University Abu Dhabi" src="/images/universities/nyuad.nyu.edu/56px?0ad6cabd296b5e9fe6e3e83f4cd3f780" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>206</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>15</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>79</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            2<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>50</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solvedfirst team_problem_cell"
+                         title="First team to solve this problem"        >
+
+            
+            1<br>
+            <small>42</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>12</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Cell
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Colorado School of Mines" data-placement="top" title="Colorado School of Mines" src="/images/universities/mines.edu/56px?97ffa28410c1dbd95b578ee74ed802e3" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>556</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>45</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>88</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>132</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>211</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>13</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/kuxhg586">Rui</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CHN" data-placement="top" title="China" src="/images/countries/CHN/56px?dc8952a4159660127190dd9c32f4c274" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Technion – Israel Institute of Technology" data-placement="top" title="Technion – Israel Institute of Technology" src="/images/universities/technion.ac.il/56px?3026ac385551ea2b0415e91b219827c9" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>4</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>1001</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>166</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>287</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>200</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>228</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>14</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Minecraft
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>3</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>294</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>21</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            3<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>93</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>140</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>15</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/zhiyi-luo">Zhiyi Luo</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>104</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>27</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>57</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>16</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/daniele-mazzotta">Daniele Mazzotta</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="ITA" data-placement="top" title="Italy" src="/images/countries/ITA/56px?6c5bb5bcaf6a87670cf5dc81db8b086d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Polytechnic University of Milan" data-placement="top" title="Polytechnic University of Milan" src="/images/universities/polimi.it/56px?cae92653490f7c043fa188e2da21a9b9" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>109</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>14</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            4<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>95</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>17</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/sam-zhang">Sam Zhang</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="NZL" data-placement="top" title="New Zealand" src="/images/countries/NZL/56px?203f0061114d2d91a234275260d8928b" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Auckland" data-placement="top" title="University of Auckland" src="/images/universities/auckland.ac.nz/56px?bf890360b2cf870021bcb8439e662c30" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>177</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>30</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            6<br>
+            <small>47</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>18</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/thidailoc">Thi Dai Loc</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Posts and Telecommunications Institute of Technology" data-placement="top" title="Posts and Telecommunications Institute of Technology" src="/images/universities/ptit.edu.vn/56px?d59ab501e192d19fd45d62fc2958a579" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>212</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            6<br>
+            <small>38</small>
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>74</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>19</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/charlie-zheng">Charlie Zheng</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?c52e3ca029106a05f63c55f3c430c65a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Calgary" data-placement="top" title="University of Calgary" src="/images/universities/ucalgary.ca/56px?19b314599483213c9def4d27affa77b2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>2</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>337</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>130</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            3<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>147</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>20</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Canis lupus Pack
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="North Carolina State University" data-placement="top" title="North Carolina State University" src="/images/universities/ncsu.edu/56px?20b12a4abd235f3e8b50e8c422d6fd6c" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>204</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            1<br>
+            <small>204</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>21</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/soup">Thomas Vu</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="PRK" data-placement="top" title="North Korea" src="/images/countries/PRK/56px?78c2b3a99cade46016e4ab2e7d73bf65" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="University of Calgary" data-placement="top" title="University of Calgary" src="/images/universities/ucalgary.ca/56px?19b314599483213c9def4d27affa77b2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>261</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            2<br>
+            <small>241</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>22</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    MTA U+FFFD
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?c52e3ca029106a05f63c55f3c430c65a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Mount Allison University" data-placement="top" title="Mount Allison University" src="/images/universities/mta.ca/56px?2fac2be09c6df7bce95e6937547f4ed2" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>271</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            6<br>
+            <small>171</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>23</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/slobodan">Slobodan</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>283</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            4<br>
+            <small>223</small>
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>24</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Short, Sweet, and Sour
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Rochester Institute of Technology" data-placement="top" title="Rochester Institute of Technology" src="/images/universities/rit.edu/56px?63d6574411d5e6ef17d3be8518bb6c11" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>1</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>382</td>
+            
+                        
+    
+            <td class="solved team_problem_cell"
+                                >
+
+            
+            13<br>
+            <small>142</small>
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            3<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            3<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            11<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    2b || !2b
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="IND" data-placement="top" title="India" src="/images/countries/IND/56px?6d6c4ce39940a691724c3a2748c30eb6" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Indian Institute of Technology Kharagpur" data-placement="top" title="Indian Institute of Technology Kharagpur" src="/images/universities/iitkgp.ac.in/56px?ea145b8cbf362a91d69a595df576e4be" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/anh-do-quang-6299">Anh Do Quang</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Hanoi Open University" data-placement="top" title="Hanoi Open University" src="/images/universities/hou.edu.vn/56px?35c598810afcf3a2cfd2ed3f5acf9adc" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/ffyytt">Anh Kiet Duong</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Ho Chi Minh City University of Science" data-placement="top" title="Ho Chi Minh City University of Science" src="/images/universities/hcmus.edu.vn/56px?736fc6c29e0a7a7f41890db86db9d9da" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/brendan-king">Brendan King</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Rose-Hulman Institute of Technology" data-placement="top" title="Rose-Hulman Institute of Technology" src="/images/universities/rose-hulman.edu/56px?56678ebd892f1f0e3f0d59668e14e303" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/dana-colletti">Dana Colletti</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Rochester Institute of Technology" data-placement="top" title="Rochester Institute of Technology" src="/images/universities/rit.edu/56px?63d6574411d5e6ef17d3be8518bb6c11" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            2<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/duyledat197">Đạt Lê Duy</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Posts and Telecommunications Institute of Technology" data-placement="top" title="Posts and Telecommunications Institute of Technology" src="/images/universities/ptit.edu.vn/56px?d59ab501e192d19fd45d62fc2958a579" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/failed-coder">Divyansh Verma</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="IND" data-placement="top" title="India" src="/images/countries/IND/56px?6d6c4ce39940a691724c3a2748c30eb6" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="National Institute of Technology, Karnataka" data-placement="top" title="National Institute of Technology, Karnataka" src="/images/universities/nitk.ac.in/56px?d2d7a46789f30c798a58e35a14942cb3" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/duane-currie">Duane Currie</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CAN" data-placement="top" title="Canada" src="/images/countries/CAN/56px?c52e3ca029106a05f63c55f3c430c65a" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Acadia University" data-placement="top" title="Acadia University" src="/images/universities/acadiau.ca/56px?722bed24e88360c9260dcdbe48400b84" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <em>Hidden user</em>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Ho Chi Minh City University of Science" data-placement="top" title="Ho Chi Minh City University of Science" src="/images/universities/hcmus.edu.vn/56px?736fc6c29e0a7a7f41890db86db9d9da" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Goofy Goobers
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Rochester Institute of Technology" data-placement="top" title="Rochester Institute of Technology" src="/images/universities/rit.edu/56px?63d6574411d5e6ef17d3be8518bb6c11" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            2<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/hamad-ullah">Hamad Ullah</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    ICPC Northeast North America Regional Contest 2019 — Closed Division
+        
+                </div>
+        </td>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Kattis Everdeen
+        
+                </div>
+        </td>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            1<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/le-duc-minh1">Lê Đức Minh</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/maatla-merementsi">MAATLA MEREMENTSI</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="BWA" data-placement="top" title="Botswana" src="/images/countries/BWA/56px?f0703ac3a4a0ac8cd13a22d03b2299bd" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Botswana International University of Science and Technology" data-placement="top" title="Botswana International University of Science and Technology" src="/images/universities/biust.ac.bw/56px?30d4ee6d5961378f1c9d2faeba5cae08" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/nguyen-tien-dat-">Nguyen Tien Dat</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="National University of Singapore" data-placement="top" title="National University of Singapore" src="/images/universities/nus.edu.sg/56px?398c807f629a7a264096cf789d5b237f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/prateek-bhakta">Prateek Bhakta</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/souradeep-paul">Souradeep Paul</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/thanh-le-1455">Thanh Le</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="South Dakota State University" data-placement="top" title="South Dakota State University" src="/images/universities/sdstate.edu/56px?fcfd03dbecf7c3ea67a45a9599f38526" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td class="attempted team_problem_cell"
+                                >
+
+            
+            3<br>
+            --
+
+                    </td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <em>Hidden user</em>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="SGP" data-placement="top" title="Singapore" src="/images/countries/SGP/56px?8fbb53daa070624e38b13f40c873bc8b" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="National University of Singapore" data-placement="top" title="National University of Singapore" src="/images/universities/nus.edu.sg/56px?398c807f629a7a264096cf789d5b237f" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/torezhan-botakanov">Torezhan Botakanov</a>
+    
+                        <td></td>
+            
+                        <td></td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/vo-huu-huy-9738">Vo Huu Huy</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="VNM" data-placement="top" title="Vietnam" src="/images/countries/VNM/56px?77d538e28f90f1f0aec393983b7bda5d" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Nha Trang University" data-placement="top" title="Nha Trang University" src="/images/universities/ntu.edu.vn/56px?1819fe42fe17654832d2de4fa742a123" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/weiyu-wang">Weiyu Wang</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="CHN" data-placement="top" title="China" src="/images/countries/CHN/56px?dc8952a4159660127190dd9c32f4c274" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Cornell University" data-placement="top" title="Cornell University" src="/images/universities/cornell.edu/56px?e870ec0c46d1856041d89d603ef2fb1b" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <a href="/users/willkill07">Will Killian</a>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Millersville University of Pennsylvania" data-placement="top" title="Millersville University of Pennsylvania" src="/images/universities/millersville.edu/56px?5d4b0172f069a9a0142dc9006ec04474" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                                                    
+                                        
+                                        
+                    
+            <tr>
+    
+            <td class='rank table-min-wrap'>25</td>
+    
+            <td class="overflow-hidden">
+    
+            <div>
+                    Zolboo Erdenebaatar
+        
+                </div>
+        </td>
+    
+                                    <td class="country-flag table-min-wrap">
+            <img data-toggle="tooltip" alt="USA" data-placement="top" title="United States" src="/images/countries/USA/56px?1e002482b4980b17395ef6da2e3c9e60" />
+            </td>
+            
+                                    <td class="university-logo table-min-wrap">
+            <img data-toggle="tooltip" alt="Dickinson College" data-placement="top" title="Dickinson College" src="/images/universities/dickinson.edu/56px?6d921e3fbecab4a975281d3c82686bf5" />
+            </td>
+            
+                        <td class='total table-min-wrap table-td-align-right'>0</td>
+        
+                    <td class='total table-min-wrap table-td-align-right'>  0</td>
+            
+                        
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+                    
+    
+            <td></td>
+    
+            
+    
+        </tr>
+
+
+                                                
+            
+            
+        <tr>
+                                <td colspan="6"></td>
+        
+                                            
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Add &#039;Em Up!" href="/contests/nena19open/problems/addemup">A</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Colonization of El-gă-rizm" href="/contests/nena19open/problems/thecolonizationofelgarizm">B</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Cutting the Necklace" href="/contests/nena19open/problems/cuttingthenecklace">C</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Fair Divisions" href="/contests/nena19open/problems/fairdivisions">D</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Guess the Digits" href="/contests/nena19open/problems/guessthedigits">E</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Monument Maker" href="/contests/nena19open/problems/monumentmaker">F</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Protecting the Collection" href="/contests/nena19open/problems/protectingthecollection">G</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Sock Pile" href="/contests/nena19open/problems/thesockpile">H</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="Stickers" href="/contests/nena19open/problems/stickers">I</a></th>
+        <th class="problemcolheader-standings" style="width: 68.3px"><a data-toggle="tooltip" title="The Wire Ghost" href="/contests/nena19open/problems/thewireghost">J</a></th>
+        
+                                            </tr>
+    
+
+                            
+            <tr title="number of teams that solved problem / number of attempts (successful and failed)">
+            <td colspan="6">Solved / Tries</td>
+
+                                                <td class='stats'><span><sup>21</sup>/<sub>55</sub><br>(38%)</span></td>
+                                    <td class='stats'><span><sup>13</sup>/<sub>22</sub><br>(59%)</span></td>
+                                    <td class='stats'><span><sup>13</sup>/<sub>32</sub><br>(41%)</span></td>
+                                    <td class='stats'><span><sup>2</sup>/<sub>5</sub><br>(40%)</span></td>
+                                    <td class='stats'><span><sup>4</sup>/<sub>31</sub><br>(13%)</span></td>
+                                    <td class='stats'><span><sup>19</sup>/<sub>46</sub><br>(41%)</span></td>
+                                    <td class='stats'><span><sup>10</sup>/<sub>36</sub><br>(28%)</span></td>
+                                    <td class='stats'><span><sup>10</sup>/<sub>15</sub><br>(67%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>1</sub><br>(0%)</span></td>
+                                    <td class='stats'><span><sup>0</sup>/<sub>2</sub><br>(0%)</span></td>
+                            
+                    </tr>
+            <tr title="number of attempts / teams attempting problem">
+            <td colspan="6">Average tries</td>
+
+                                                <td class='stats'>2.29</td>
+                                    <td class='stats'>1.47</td>
+                                    <td class='stats'>1.68</td>
+                                    <td class='stats'>1.67</td>
+                                    <td class='stats'>2.82</td>
+                                    <td class='stats'>2.30</td>
+                                    <td class='stats'>3.27</td>
+                                    <td class='stats'>1.50</td>
+                                    <td class='stats'>1.00</td>
+                                    <td class='stats'>1.00</td>
+                            
+                    </tr>
+            <tr title="number of attempts needed to solve problem / number of teams solving problem">
+            <td colspan="6">Average tries to solve</td>
+
+                                                <td class='stats'><span class="no-pad">2.33</span></td>
+                                    <td class='stats'><span class="no-pad">1.38</span></td>
+                                    <td class='stats'><span class="no-pad">1.31</span></td>
+                                    <td class='stats'><span class="no-pad">2.00</span></td>
+                                    <td class='stats'><span class="no-pad">1.75</span></td>
+                                    <td class='stats'><span class="no-pad">2.26</span></td>
+                                    <td class='stats'><span class="no-pad">2.50</span></td>
+                                    <td class='stats'><span class="no-pad">1.50</span></td>
+                                    <td class='stats'>--</td>
+                                    <td class='stats'>--</td>
+                            
+                    </tr>
+    
+            
+        </table>
+
+        
+    </section>
+</div>
+        </div>
+    </div>
+
+                  <script type="text/javascript">
+        jQuery(function ($) {
+            var nowMs = new Date().getTime();
+            var starttimeMs = 1000 * 1573312500;
+            if (starttimeMs < nowMs + 10 * 60 * 60 * 1000) {  // Only poll if start is less than 10 hours away
+                // end polling 10 hours after end time (grace period for unfreezing and finalizing)
+                                var pollEndTime = 1000 * (1573330500 + 60 * 60 * 10);
+                                var intervalMs = 60 * 1000;
+                var update_standings = function() {
+                    var url = '/contests/nena19open/standings?ajax=1';
+                    $.get(url, {
+                        'cache': false
+                    }, function(data) {
+                        $('#standings_wrapper').html(data);
+                        $('[data-toggle="tooltip"]').tooltip();
+                        Kattis.views.contest.header.update();
+                    }).always(function() {
+                        if (new Date().getTime() < pollEndTime) {
+                            setTimeout(update_standings, intervalMs);
+                        }
+                    });
+                };
+                setTimeout(update_standings, intervalMs);
+            }
+        });
+    </script>
+    
+
+</div>
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-info col-md-2 ">
+                
+                            </div>
+            <div class="footer-powered col-md-8">
+                <h4>
+                                      <a href="/rss/new-problems"><i class="fa fa-rss-square" style="color: orange"></i>&nbsp;RSS feed for new problems</a> |
+                                    Powered by&nbsp;Kattis                                      | <a href="https://www.patreon.com/kattis">Support Kattis on Patreon!</a>
+                                  </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="assets/48466753625fec70.js"></script>
+<script src="assets/268ee5f38e2240cb.js"></script>
+<script src="assets/59d89a249d27d794.js"></script>
+<script src="assets/032d347a164dbf65.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.2.8/raphael.min.js"></script>
+<script src="/js/system.js?7c833e" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>
