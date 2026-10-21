@@ -1,0 +1,216 @@
+body
+{
+
+}
+
+zzz
+{
+background-image: url(../img/skyback2.jpg);
+}
+
+
+h1
+{
+  font-family: 'arial';
+  font-size: 16pt;
+  font-weight: bold;
+/*  color: #5493Fc;*/
+}
+
+h2 
+{
+  font-family: 'arial';
+  font-size: 13pt;
+/*  color: #AD0821;*/
+  margin-left: 5pt;
+}
+
+h3
+{
+  font-family: 'arial';
+  font-size: 12pt;
+  margin-left: 10pt;  
+/*  color: #EdCf0C;*/
+}
+
+p
+{
+  font-family: times new roman;
+  text-align: justify;
+  margin-left: 15pt;
+  font-size: 12pt;
+}
+
+p.information
+{
+}
+
+p.problems
+{
+}
+
+p.results
+{
+}
+
+p.wow
+{
+  text-align: center;
+  margin-left: 0pt;
+  font-size: 16pt;
+  font-weight: bold;
+/*  color: #408080;*/
+/*  font-family: "Comic Sans MS";*/
+  font-family: "Arial";
+}
+
+p.wow2
+{
+  text-align: center;
+  margin-left: 0pt;
+  font-size: 13pt;
+  font-weight: bold;
+/*  color: #408080;*/
+/*  font-family: "Comic Sans MS";*/
+  font-family: "Arial";
+}
+
+p.regions
+{
+}
+
+strong
+{
+/*  color: #00007f;*/
+}
+
+strong.caption
+{
+/*  color: #007f00;*/
+}
+
+em
+{
+  font-style: normal;
+/*  color: #af0000;*/
+  font-weight: bold;
+}
+
+td.main-table
+{
+  width="620"
+}
+
+td.maintable
+{
+  width="620"
+}
+
+td.form
+{
+  vertical-align: top;
+}
+
+a
+{
+/*  font-family: 'arial';
+  font-size: 10pt;
+  font-color: #54D3Fc;*/
+  color: #5493Fc;
+}
+
+p.forumdescription
+{
+  font-family: 'arial';
+  font-size: 10pt;
+  margin-left: 30pt;
+  text-align: justify;
+}
+
+p.forummessage
+{
+  font-family: 'arial';
+  font-size: 10pt;
+}
+
+a.forum
+{
+  font-family: 'arial';
+  font-size: 10pt;
+  color: #5493Fc;
+}
+
+a.forum:hover
+{
+  color: #C00000;
+}
+
+a.forummessage
+{
+  font-family: 'arial';
+  font-size: 10pt;
+  color: #5493Fc;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a.forummessage:hover
+{
+  color: #C00000;
+  text-decoration: underline;
+}
+
+a.forumuser
+{
+  font-family: 'arial';
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+var.forumuser
+{
+  font-family: 'arial';
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+
+a.forumurl
+{
+  font-family: 'arial';
+  font-style: normal;
+  text-decoration: none;
+  font-size: 10pt;
+  color: #000000;
+}
+
+a.forumurl:hover
+{
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+a.forumuser:hover
+{
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+
+td.forumdate
+{
+  vertical-align: top;
+  text-align: center;
+  font-family: 'arial';
+  font-size: 10pt;
+}
+
+td.forumnav
+{
+  vertical-align: top;
+  font-family: 'arial';
+  font-size: 10pt;
+}

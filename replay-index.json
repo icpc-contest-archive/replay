@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T18:16:10+00:00",
+ "generated": "2026-10-21T20:31:10+00:00",
  "shard": 1,
  "pages": [
   {
@@ -1297,6 +1297,30 @@
    "url": "https://web.archive.org/web/20241229183903/https://amritaicpc.in/final-rank-list",
    "fetched": "2026-09-01T07:51:24+00:00",
    "sha256_source": "e1df4e277869a5ca15404a8831f09933ec9675213c4077bf4c1e25cdad1e099b"
+  },
+  {
+   "contest": "amritapuri-2025",
+   "artifact": "problemset",
+   "path": "a/amritapuri/amritapuri-2025/problemset/20260608-wayback-a9d5c637/ICPC_Amritapuri_2025___26.pdf",
+   "url": "https://amritaicpc.in/data/ICPC_Amritapuri_2025___26.pdf",
+   "fetched": "2026-09-07T19:18:58+00:00",
+   "sha256_source": "323766b54bd9408e20e2d45094c58a6cd2e9275c5211a54c9f9c9440cdc5e16e"
+  },
+  {
+   "contest": "amritapuri-2025",
+   "artifact": "standings",
+   "path": "a/amritapuri/amritapuri-2025/standings/20261020-live-65961b48/page.html",
+   "url": "https://amritaicpc.in/archive/icpc_Amritapuri_2025/prelims-ranklist",
+   "fetched": "2026-10-21T03:56:04+00:00",
+   "sha256_source": "c7e233c09fc532591587789a747605307f372e99dd7105ba012dfdbe64f7ba1c"
+  },
+  {
+   "contest": "amritapuri-2025",
+   "artifact": "standings",
+   "path": "a/amritapuri/amritapuri-2025/standings/20261020-live-9d080c31/page.html",
+   "url": "https://amritaicpc.in/archive/icpc_Amritapuri_2025/onsite-ranklist",
+   "fetched": "2026-10-21T03:56:03+00:00",
+   "sha256_source": "8295efdcba66a1e2cc80e295adad45fc82c2226b9b42ac30dfc907f5ac9263ec"
   },
   {
    "contest": "angola-2019",
@@ -2883,12 +2907,36 @@
    "sha256_source": "dd0d2ec7668192d9c0bc9cb597215a0ad43d899162321c5c6c9600a545abec9a"
   },
   {
+   "contest": "bapc-prelims-2010",
+   "artifact": "web-mirror",
+   "path": "a/bapc-prelims/bapc-prelims-2010/web-mirror/20110501-wayback-c2cf3eb9/page.html",
+   "url": "http://2010.bapc.eu/",
+   "fetched": "2026-09-07T19:19:25+00:00",
+   "sha256_source": "95ca45d4628c8170600902872788e292ef220c502f9f9c633fe51d38429814e1"
+  },
+  {
    "contest": "bapc-prelims-2012",
    "artifact": "standings",
    "path": "a/bapc-prelims/bapc-prelims-2012/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/BAPC-Preliminaries-2013/standings",
    "fetched": "2026-04-26",
    "sha256_source": "d0b31d4f168fc1b26600969d73de49e77ae79c63501a78538bab13a978e118d3"
+  },
+  {
+   "contest": "bapc-prelims-2013",
+   "artifact": "standings",
+   "path": "a/bapc-prelims/bapc-prelims-2013/standings/20261020-live-5ab1ad5d/page.html",
+   "url": "https://eolymp.com/en/contests/3413",
+   "fetched": "2026-10-21T03:56:06+00:00",
+   "sha256_source": "a54f278f14e5b36a28f1bfdfa5caff61e1f0e586db94440d0879b4b836fe274c"
+  },
+  {
+   "contest": "bapc-prelims-2013",
+   "artifact": "web-mirror",
+   "path": "a/bapc-prelims/bapc-prelims-2013/web-mirror/20190426-wayback-264a842b/page.html",
+   "url": "https://codeforces.com/gym/100625",
+   "fetched": "2026-09-07T19:20:01+00:00",
+   "sha256_source": "c8a3774ef768ee7983894d8ad250511e37830c827a0a7ba1fb1cece92f03f0d5"
   },
   {
    "contest": "bapc-prelims-2014",
@@ -3211,6 +3259,14 @@
    "sha256_source": "6d92308ea8a32efcea40507e1dd3e4f25d1214a6a1d35e3bef528ecf4b3fac33"
   },
   {
+   "contest": "bapc-2009",
+   "artifact": "rankings",
+   "path": "a/bapc/bapc-2009/rankings/20261020-live-ec20fb2a/page.html",
+   "url": "https://en.wikipedia.org/wiki/BAPC",
+   "fetched": "2026-10-21T03:56:05+00:00",
+   "sha256_source": "76eef831b3ae8740b0b2054fa0769bb71f6d5c45f852280d4cb2b06de61149bb"
+  },
+  {
    "contest": "bapc-2010",
    "artifact": "scoreboard",
    "path": "a/bapc/bapc-2010/scoreboard/2026-09-01-wayback-42476750/page.html",
@@ -3425,6 +3481,14 @@
    "url": "https://chipcie.wisv.ch/archive/2021/bapc/scoreboard.html",
    "fetched": "2026-09-04T10:25:33+00:00",
    "sha256_source": "435c27a71d69d9de5246b806375ac497163a1d347c3eab8c7e5bdda1930301eb"
+  },
+  {
+   "contest": "bapc-2021",
+   "artifact": "standings",
+   "path": "a/bapc/bapc-2021/standings/20241103-wayback-617038de/page.html",
+   "url": "https://scoreboard.bapc.eu/",
+   "fetched": "2026-10-21T04:59:20+00:00",
+   "sha256_source": "c3a00fad4a9f05804cb21a691543e75757bb2f8744c850f233e53617ed9007c8"
   },
   {
    "contest": "bapc-2022",
@@ -3835,12 +3899,108 @@
    "sha256_source": "dd8267512dbb332935ec7793b16814bbaaca0cb95d0b152a241b5696830cd88e"
   },
   {
+   "contest": "bolivia-national-2015",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2015/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:19+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2016",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2016/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:33+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2017",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2017/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:25+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2018",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2018/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:23+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2019",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2019/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:34+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2020",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2020/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:25+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2021",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2021/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:29+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2022",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2022/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:27+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
+   "contest": "bolivia-national-2023",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2023/web-mirror/20240810-wayback-4b65649e/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:33+00:00",
+   "sha256_source": "32ad6c666f4f050e367bd844c20fa430c69009f69a00f3cbe6f0b80e1f1229b0"
+  },
+  {
    "contest": "bolivia-national-2024",
    "artifact": "standings",
    "path": "a/bolivia-national/bolivia-national-2024/standings/20240913-wayback-db0a09ec/page.html",
    "url": "https://clist.by/standings/2024-2025-icpc-bolivia-pre-national-contest-53746608/",
    "fetched": "2026-09-07T16:46:25+00:00",
    "sha256_source": "4317a88880037e389c0f1229274f03dc47b286372823384b4c387df02838699b"
+  },
+  {
+   "contest": "bolivia-national-2024",
+   "artifact": "standings",
+   "path": "a/bolivia-national/bolivia-national-2024/standings/20261020-live-bf839194/page.html",
+   "url": "https://clist.by/standings/2024-2025-icpc-bolivia-pre-national-contest-53746608/",
+   "fetched": "2026-10-21T03:56:29+00:00",
+   "sha256_source": "b546b39a6ed995dc080cf142bde3e8f526ff641034983092a895d52c71db7a29"
+  },
+  {
+   "contest": "bolivia-national-2025",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2025/web-mirror/20250404-wayback-ad3b8491/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:29+00:00",
+   "sha256_source": "208a4b9553896c02c80f9f9331022c611f6006ce3256800db35e546b80d7ce32"
+  },
+  {
+   "contest": "bolivia-national-2026",
+   "artifact": "web-mirror",
+   "path": "a/bolivia-national/bolivia-national-2026/web-mirror/20250404-wayback-ad3b8491/page.html",
+   "url": "https://icpcbolivia.org/",
+   "fetched": "2026-09-07T19:19:05+00:00",
+   "sha256_source": "208a4b9553896c02c80f9f9331022c611f6006ce3256800db35e546b80d7ce32"
   },
   {
    "contest": "bombay-2003",
@@ -4625,6 +4785,62 @@
    "url": "https://icpc.global/regionals/finder/BuCPC-SA-2018/standings",
    "fetched": "2026-04-26",
    "sha256_source": "333b366100431ada9c7741dc86856489fc5d2ee0352a978b7ab3b4cfbc1b66fe"
+  },
+  {
+   "contest": "caribbean-national-2013",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2013/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:03+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2014",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2014/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:08+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2015",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2015/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:42+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2016",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2016/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:39+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2017",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2017/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:36+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2018",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2018/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:35+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
+  },
+  {
+   "contest": "caribbean-national-2019",
+   "artifact": "web-mirror",
+   "path": "a/caribbean-national/caribbean-national-2019/web-mirror/20230113-wayback-c1266797/page.html",
+   "url": "https://www.icpccaribe.org/",
+   "fetched": "2026-09-07T19:19:40+00:00",
+   "sha256_source": "9bea135f963b20256d4149b9c54f6ded309b3feb8ab2b68f4495be6c183c671e"
   },
   {
    "contest": "caribbean-2009",
@@ -5539,6 +5755,30 @@
    "sha256_source": "fd3335646e8bdb152634b104afacf947aa968e9becff26f4e598165d875f6bf2"
   },
   {
+   "contest": "central-russia-1999",
+   "artifact": "web-mirror",
+   "path": "a/central-russia/central-russia-1999/web-mirror/20100723-wayback-1eaac9c5/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&tag=qf",
+   "fetched": "2026-09-07T19:20:39+00:00",
+   "sha256_source": "cfafa7c4f39fa2719ba954cfe46e1ffe85bf4ec5e9b032128f46e16628defe07"
+  },
+  {
+   "contest": "central-russia-2000",
+   "artifact": "problemset",
+   "path": "a/central-russia/central-russia-2000/problemset/20100723-wayback-1eaac9c5/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&tag=qf",
+   "fetched": "2026-09-07T19:20:03+00:00",
+   "sha256_source": "cfafa7c4f39fa2719ba954cfe46e1ffe85bf4ec5e9b032128f46e16628defe07"
+  },
+  {
+   "contest": "central-russia-2002",
+   "artifact": "problemset",
+   "path": "a/central-russia/central-russia-2002/problemset/20061013-wayback-d2ccf95a/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=37",
+   "fetched": "2026-09-07T19:19:53+00:00",
+   "sha256_source": "30cb83d65f254648d6dbfebd91f73da6cdcbdeb215739635f12c702dd8328766"
+  },
+  {
    "contest": "central-russia-2003",
    "artifact": "standings",
    "path": "a/central-russia/central-russia-2003/standings/20171011-wayback-21477e59/standings.html",
@@ -6379,6 +6619,14 @@
    "sha256_source": "12a1edb54395d81b56de49bd33700237d814f441ca04dce89b5b93eb99c18940"
   },
   {
+   "contest": "cerc-2008",
+   "artifact": "standings",
+   "path": "a/cerc/cerc-2008/standings/20261020-live-e8676abd/standings.html",
+   "url": "http://cepc08.ii.uni.wroc.pl/standings.html",
+   "fetched": "2026-10-21T03:57:23+00:00",
+   "sha256_source": "12a1edb54395d81b56de49bd33700237d814f441ca04dce89b5b93eb99c18940"
+  },
+  {
    "contest": "cerc-2009",
    "artifact": "external-standings",
    "path": "a/cerc/cerc-2009/external-standings/2026-04-15-external/content.html",
@@ -6899,12 +7147,28 @@
    "sha256_source": "0896645f378857148e61d37aec289adeb9b2246affcdae76e8cae6f4e86c5e15"
   },
   {
+   "contest": "cerc-2024",
+   "artifact": "scoreboard",
+   "path": "a/cerc/cerc-2024/scoreboard/20261020-live-07d86408/results.html",
+   "url": "https://cerc24.ii.uni.wroc.pl/results.html",
+   "fetched": "2026-10-21T03:57:28+00:00",
+   "sha256_source": "134fd19c0e4325d5933824c8c149e56c8aef4de0bd590a6b735598c15411c332"
+  },
+  {
    "contest": "cerc-2025",
    "artifact": "scoreboard",
    "path": "a/cerc/cerc-2025/scoreboard/20260218-wayback-99cf1604/results.html",
    "url": "https://cerc25.ii.uni.wroc.pl/results.html",
    "fetched": "2026-09-01T14:00:25+00:00",
    "sha256_source": "1b2ac1588025db15f2e4210bad23aa75d42e69b502f526d573b04e7846f5b602"
+  },
+  {
+   "contest": "cerc-2025",
+   "artifact": "scoreboard",
+   "path": "a/cerc/cerc-2025/scoreboard/20261020-live-d74c8e2b/results.html",
+   "url": "https://cerc25.ii.uni.wroc.pl/results.html",
+   "fetched": "2026-10-21T03:57:29+00:00",
+   "sha256_source": "3bfa348115ff6f9c38438f60886f33be9b02d9fad7544aa10b3d2ec4c20d2f4e"
   },
   {
    "contest": "changchun-2007",
@@ -8636,6 +8900,14 @@
   },
   {
    "contest": "dhaka-2002",
+   "artifact": "scoreboard",
+   "path": "a/dhaka/dhaka-2002/scoreboard/20030503-wayback-4f07fadc/tableweb.htm",
+   "url": "http://www.buet.ac.bd/acmicpc/tableweb.htm",
+   "fetched": "2026-10-21T04:59:23+00:00",
+   "sha256_source": "6aa21e2c6e2b04c0a3f9e7269e9c4d519da13677b37d62b5dbca3b5f83fde70b"
+  },
+  {
+   "contest": "dhaka-2002",
    "artifact": "standings",
    "path": "a/dhaka/dhaka-2002/standings/20060901-wayback-a2c5f5da/ViewRegionalStandings55d7.html",
    "url": "http://icpc.baylor.edu/past/icpc2003/regionals/Reports/icpc.baylor.edu/icpc/regionals/ViewRegionalStandings55d7.html?ContestID=591",
@@ -9171,6 +9443,14 @@
    "sha256_source": "393250183373c3f3ab6002081767b2dad07501a6bf79f887675925d765ba8c8e"
   },
   {
+   "contest": "east-siberia-2006",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2006/standings/20261020-live-8efc5608/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2006/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:45+00:00",
+   "sha256_source": "393250183373c3f3ab6002081767b2dad07501a6bf79f887675925d765ba8c8e"
+  },
+  {
    "contest": "east-siberia-2007",
    "artifact": "standings",
    "path": "a/east-siberia/east-siberia-2007/standings/20171011-wayback-e590f8a6/standings.html",
@@ -9192,6 +9472,14 @@
    "path": "a/east-siberia/east-siberia-2007/standings/20260613-wayback-22ed53c3/standings.html",
    "url": "https://nerc.itmo.ru/archive/2007/east-siberian/standings.html",
    "fetched": "2026-09-01T14:11:32+00:00",
+   "sha256_source": "35ab9c0d3ffbd8f1eaafa746fac2db0d9883e7065545426a8d4efe3afd94b9c5"
+  },
+  {
+   "contest": "east-siberia-2007",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2007/standings/20261020-live-b93fb2fe/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2007/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:46+00:00",
    "sha256_source": "35ab9c0d3ffbd8f1eaafa746fac2db0d9883e7065545426a8d4efe3afd94b9c5"
   },
   {
@@ -9219,6 +9507,14 @@
    "sha256_source": "f1e259c08c91b04be7ada0b9a5da4ef57de15d861f06a5446d64fc2f14d8758b"
   },
   {
+   "contest": "east-siberia-2008",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2008/standings/20261020-live-9b54324e/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2008/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:47+00:00",
+   "sha256_source": "f1e259c08c91b04be7ada0b9a5da4ef57de15d861f06a5446d64fc2f14d8758b"
+  },
+  {
    "contest": "east-siberia-2009",
    "artifact": "scoreboard",
    "path": "a/east-siberia/east-siberia-2009/scoreboard/2026-09-01-live-47b6549e/standings.html",
@@ -9243,6 +9539,14 @@
    "sha256_source": "2527a24071f11bd48dc221ecd5381c41cfa60ad3a82ebcbf1c068c7b93b8802f"
   },
   {
+   "contest": "east-siberia-2009",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2009/standings/20261020-live-94822b63/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2009/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:48+00:00",
+   "sha256_source": "9874dc00ff0f57d74edb425621e85f86324b5e8999cd8d879b303d4b10aa82c8"
+  },
+  {
    "contest": "east-siberia-2010",
    "artifact": "standings",
    "path": "a/east-siberia/east-siberia-2010/standings/20171011-wayback-14f8fb04/standings.html",
@@ -9264,6 +9568,14 @@
    "path": "a/east-siberia/east-siberia-2010/standings/2026-09-01-live-13cf571c/standings.html",
    "url": "https://nerc.itmo.ru/archive/2010/east-siberian/standings.html",
    "fetched": "2026-09-01T07:57:42+00:00",
+   "sha256_source": "18304471bad3a4329a45168ded7ce1dd410fc60124e1f385283145aa3845c3a0"
+  },
+  {
+   "contest": "east-siberia-2010",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2010/standings/20261020-live-94ccfa70/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2010/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:49+00:00",
    "sha256_source": "18304471bad3a4329a45168ded7ce1dd410fc60124e1f385283145aa3845c3a0"
   },
   {
@@ -9307,6 +9619,14 @@
    "sha256_source": "afada864fd448cf436495ff0ab29694c0791b747054db44127ea82fe65628f05"
   },
   {
+   "contest": "east-siberia-2012",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2012/standings/20261020-live-252c4128/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2012/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:50+00:00",
+   "sha256_source": "1360bb9981f0e857c89ba9eee00b97aa6a1a410eb9f2fb0149661b440eeb0216"
+  },
+  {
    "contest": "east-siberia-2013",
    "artifact": "scoreboard",
    "path": "a/east-siberia/east-siberia-2013/scoreboard/2026-09-01-live-bfe98923/standings.html",
@@ -9329,6 +9649,14 @@
    "url": "https://neerc.ifmo.ru/archive/2013/east-siberian/standings.html",
    "fetched": "2026-09-05T18:17:29+00:00",
    "sha256_source": "d6c6aa04d9172f3d414f25d6fd28a2969e4b44eaef0f560974f9626ebd04a3ea"
+  },
+  {
+   "contest": "east-siberia-2013",
+   "artifact": "standings",
+   "path": "a/east-siberia/east-siberia-2013/standings/20261020-live-3fe7b7e6/standings.html",
+   "url": "https://neerc.ifmo.ru/archive/2013/east-siberian/standings.html",
+   "fetched": "2026-10-21T03:58:51+00:00",
+   "sha256_source": "da3347222db65213007d2270ca938f5d75a6f3b165abcaf4c7d1dd3a7bd36e3b"
   },
   {
    "contest": "east-siberia-2014",
@@ -9601,6 +9929,62 @@
    "url": "https://icpc.global/regionals/finder/East-Siberian-Regional-2026/standings",
    "fetched": "2026-04-26",
    "sha256_source": "d3978f0ade45cf47b11acd9b947a8b45a8ac2e904887d85779a42f80ea45a6a5"
+  },
+  {
+   "contest": "ecna-1989",
+   "artifact": "standings",
+   "path": "a/ecna/ecna-1989/standings/20261020-live-fc3a7ee3/page.html",
+   "url": "https://icpc-ecna.ysu.edu/PastResults/",
+   "fetched": "2026-10-21T03:58:48+00:00",
+   "sha256_source": "ac3dae23c817f8f3582b38f9c1fdac2a211a2a7b4bfb17a6cbaa9926cc5a8dc8"
+  },
+  {
+   "contest": "ecna-1992",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1992/problemset/20010121-wayback-3bae084c/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec92/index.html",
+   "fetched": "2026-09-07T19:19:06+00:00",
+   "sha256_source": "800a2dbabc8c7f4827298e7e44328e4ebd398abc211680ed8aafd2893e7651f7"
+  },
+  {
+   "contest": "ecna-1993",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1993/problemset/20000122-wayback-283602ae/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec93/index.html",
+   "fetched": "2026-09-07T19:19:06+00:00",
+   "sha256_source": "f1e3ba62c5ff564304d0c756fcf09e99a1db578cc43422d9ee297bd2aa4949b5"
+  },
+  {
+   "contest": "ecna-1994",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1994/problemset/20000129-wayback-e0f37280/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec94/index.html",
+   "fetched": "2026-09-07T19:19:09+00:00",
+   "sha256_source": "9c8d67a71fee5c9db49d45ac96e202523fc95f8a70e246c1af8e233300940903"
+  },
+  {
+   "contest": "ecna-1995",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1995/problemset/20000309-wayback-f3310089/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec95/index.html",
+   "fetched": "2026-09-07T19:19:19+00:00",
+   "sha256_source": "7fc7ae9361e169e014cddacf7b5f1609564c159748a645f79029e8076791437c"
+  },
+  {
+   "contest": "ecna-1996",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1996/problemset/20000517-wayback-4fd16737/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec96/index.html",
+   "fetched": "2026-09-07T19:19:44+00:00",
+   "sha256_source": "288b80b866059201f4d8b107a40340a1d182f72949bab91e1c8802746cd128d5"
+  },
+  {
+   "contest": "ecna-1997",
+   "artifact": "problemset",
+   "path": "a/ecna/ecna-1997/problemset/20000118-wayback-277b3911/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/ec97/index.html",
+   "fetched": "2026-09-07T19:19:35+00:00",
+   "sha256_source": "7778603da1a6580d1845f97ecea5d3793ad1035eae6ed542189d0ff5bb1e80ed"
   },
   {
    "contest": "ecna-1998",
@@ -10267,6 +10651,14 @@
    "sha256_source": "6fbe56f8a62e685a0b01793993c0861b6740272d00cc802525bd9a2f0d0f13a1"
   },
   {
+   "contest": "ecna-2014",
+   "artifact": "standings",
+   "path": "a/ecna/ecna-2014/standings/20250709-wayback-566fffcc/standings.2014.html",
+   "url": "http://acm-ecna.ysu.edu/standings.2014.html",
+   "fetched": "2026-10-21T04:59:29+00:00",
+   "sha256_source": "3f032f875b10fca8baa396a654c85c2252fddc04adfbc6fdbd99128d727d74e5"
+  },
+  {
    "contest": "ecna-2015",
    "artifact": "external-standings",
    "path": "a/ecna/ecna-2015/external-standings/2026-04-15-external/content.html",
@@ -10683,6 +11075,22 @@
    "sha256_source": "00b0f3db591b12a93ab10590eeffb8251f07fe84060c99c83454e4492e9f0b84"
   },
   {
+   "contest": "erc-1990",
+   "artifact": "web-mirror",
+   "path": "a/erc/erc-1990/web-mirror/20090928-wayback-7dac452a/page.html",
+   "url": "https://nwerc.eu/",
+   "fetched": "2026-09-07T19:19:02+00:00",
+   "sha256_source": "6d200a51fbe4a583e05cf965cd91753e4683c7abaad20a8d8fc4973c57ea00a8"
+  },
+  {
+   "contest": "erc-1990",
+   "artifact": "web-mirror",
+   "path": "a/erc/erc-1990/web-mirror/20230328-wayback-001d2388/page.html",
+   "url": "https://chipcie.wisv.ch/archive/",
+   "fetched": "2026-09-07T19:19:06+00:00",
+   "sha256_source": "eaafc1fb0b25b55db7e7863a50d6d3d6f129f6c55df8ffdd2005fda5cd23621f"
+  },
+  {
    "contest": "ethiopia-2016",
    "artifact": "standings",
    "path": "a/ethiopia/ethiopia-2016/standings/api-20260904/standings.html",
@@ -10705,6 +11113,14 @@
    "url": "https://icpc.global/regionals/finder/SA-ECPC-2019/standings",
    "fetched": "2026-04-26",
    "sha256_source": "12ba4ba6147d9185e3523c23eb28d8bfb4ba196bd166d3646450579a4aaa4fb2"
+  },
+  {
+   "contest": "ethiopia-2019",
+   "artifact": "web-mirror",
+   "path": "a/ethiopia/ethiopia-2019/web-mirror/20251123-wayback-51be1925/page.html",
+   "url": "https://t.me/s/etcpc",
+   "fetched": "2026-09-07T19:19:17+00:00",
+   "sha256_source": "2c5ed82c5ee8d0ce750334d5b20c7b224aa8bce430fcd888dee02aa68ae9646e"
   },
   {
    "contest": "ethiopia-2020",
@@ -10841,6 +11257,14 @@
    "url": "https://scoreboard.euc.icpc.global/",
    "fetched": "2026-09-01T14:24:22+00:00",
    "sha256_source": "6f457f51dad1a038468059d9daf1560dad5d1d41f30584dbc6e90ce54d8c8f4c"
+  },
+  {
+   "contest": "far-east-russia-1998",
+   "artifact": "web-mirror",
+   "path": "a/far-east-russia/far-east-russia-1998/web-mirror/20020124-wayback-e7a0e88c/far-eastern.html",
+   "url": "https://neerc.ifmo.ru/subregions/far-eastern.html",
+   "fetched": "2026-09-07T19:20:39+00:00",
+   "sha256_source": "1fab5ac85d32b265de553fc8b7dad7faec51c7d2a3c1e7c734dd21f31f5a9477"
   },
   {
    "contest": "far-east-russia-2003",
@@ -13123,12 +13547,28 @@
    "sha256_source": "2ad954cdea4b73123cc1d397241ca1a82add0f3e61a3f46dfe5bcf4dd7bb1d1b"
   },
   {
+   "contest": "gran-premio-centroamerica-2025",
+   "artifact": "standings",
+   "path": "a/gran-premio-centroamerica/gran-premio-centroamerica-2025/standings/20261020-live-aaf60c3a/page.html",
+   "url": "https://icpccentroamerica.org/resultados-oficiales/",
+   "fetched": "2026-10-21T03:59:10+00:00",
+   "sha256_source": "efb6bab9b31bb1d7671f44d9b147e5d46b86cdabfa9f08e8f6f907b2ad4eef20"
+  },
+  {
    "contest": "gran-premio-centroamerica-2026",
    "artifact": "standings",
    "path": "a/gran-premio-centroamerica/gran-premio-centroamerica-2026/standings/20260419-wayback-3ee61ba6/page.html",
    "url": "https://icpccentroamerica.org/resultados-oficiales/",
    "fetched": "2026-09-07T16:46:10+00:00",
    "sha256_source": "b76d30e7bf8296c36c04f7de73b685e2f3d043584e90783725ef033275657def"
+  },
+  {
+   "contest": "gran-premio-centroamerica-2026",
+   "artifact": "standings",
+   "path": "a/gran-premio-centroamerica/gran-premio-centroamerica-2026/standings/20261020-live-aaf60c3a/page.html",
+   "url": "https://icpccentroamerica.org/resultados-oficiales/",
+   "fetched": "2026-10-21T03:59:11+00:00",
+   "sha256_source": "efb6bab9b31bb1d7671f44d9b147e5d46b86cdabfa9f08e8f6f907b2ad4eef20"
   },
   {
    "contest": "gran-premio-mexico-2015",
@@ -13139,12 +13579,36 @@
    "sha256_source": "697c89dc3bff4d2d7cc607a7e8e6831ee407ab581fb975392f1788203dcc9244"
   },
   {
+   "contest": "gran-premio-mexico-2015",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2015/standings/20261020-live-51c02ebc/page.html",
+   "url": "https://eventos.iteso.mx/acm/primera-fase-gran-premio-de-mexico-centroamerica/standing-a-la-fecha-del-gran-premio/",
+   "fetched": "2026-10-21T03:59:07+00:00",
+   "sha256_source": "8df67768ca0317ea02e0c83188a389a0aefd94e20d84db4b1b18911104d04f18"
+  },
+  {
+   "contest": "gran-premio-mexico-2016",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2016/standings/20261020-live-5f0cc8f1/page.html",
+   "url": "https://eventos.iteso.mx/acm/primera-fase-gran-premio-de-mexico-centroamerica/standing-a-la-fecha-del-gran-premio-2016/",
+   "fetched": "2026-10-21T03:59:07+00:00",
+   "sha256_source": "eb144bd9e4592e17803ebdcbecf7832a9dc98e33bdb8d8202c317a7372b15152"
+  },
+  {
    "contest": "gran-premio-mexico-2017",
    "artifact": "standings",
    "path": "a/gran-premio-mexico/gran-premio-mexico-2017/standings/20250917-wayback-d4ede4b8/page.html",
    "url": "https://eventos.iteso.mx/acm/1-primera-fase-gran-premio-de-mexico-y-centroamerica/sobre-los-concursos-del-gran-premio-2017/resultado-acumulado-a-la-fecha-del-gran-premio-de-mexico-y-centroamerica-2017/",
    "fetched": "2026-09-07T16:46:15+00:00",
    "sha256_source": "15f05414f3f9bd1726f7d1db9d4dc0ef0022af904d297404df6eb95625b985f7"
+  },
+  {
+   "contest": "gran-premio-mexico-2017",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2017/standings/20261020-live-d4f0b8f8/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-gran-premio-de-mexico-y-centroamerica/sobre-los-concursos-del-gran-premio-2017/resultado-acumulado-a-la-fecha-del-gran-premio-de-mexico-y-centroamerica-2017/",
+   "fetched": "2026-10-21T03:59:08+00:00",
+   "sha256_source": "8754a4c23e12d289356234ddcc491e8b52f9dbc0bfb16bc1bf640b6393ff9f76"
   },
   {
    "contest": "gran-premio-mexico-2018",
@@ -13155,12 +13619,28 @@
    "sha256_source": "22d7b2bb45352c76b5b4b15deb0710ce7bb5a266fe89a12b1973f6338f641454"
   },
   {
+   "contest": "gran-premio-mexico-2018",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2018/standings/20261020-live-56ae1b6a/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-gran-premio-de-mexico/sobre-los-concursos-del-gran-premio-2018/resultado-acumulado-del-gran-premio-2018/",
+   "fetched": "2026-10-21T03:59:09+00:00",
+   "sha256_source": "7ae86a5b9c11b704d479371a669b317d2746cb2e52a644c02a6e0efa4ba0676c"
+  },
+  {
    "contest": "gran-premio-mexico-2019",
    "artifact": "standings",
    "path": "a/gran-premio-mexico/gran-premio-mexico-2019/standings/20250907-wayback-6941c9e2/page.html",
    "url": "https://eventos.iteso.mx/acm/1-primera-fase-gran-premio-de-mexico-2/sobre-los-concursos-del-granpremiomx2019/granpremiomx2019-resultado-acumulado/",
    "fetched": "2026-09-07T16:46:12+00:00",
    "sha256_source": "eedd66da9f6a7f911ed68a1736e523a066a011f61f29439b4edd042c09231350"
+  },
+  {
+   "contest": "gran-premio-mexico-2019",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2019/standings/20261020-live-0405bf86/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-gran-premio-de-mexico-2/sobre-los-concursos-del-granpremiomx2019/granpremiomx2019-resultado-acumulado/",
+   "fetched": "2026-10-21T03:59:10+00:00",
+   "sha256_source": "10f5be883e3a9bac07eab09be2b07ef74942b106d340c23ae9cc8dbdf6c85592"
   },
   {
    "contest": "gran-premio-mexico-2020",
@@ -13171,12 +13651,28 @@
    "sha256_source": "e07b9f535c48f6d346da447fcd6495bc257682388011f999a5a2f2440f402b97"
   },
   {
+   "contest": "gran-premio-mexico-2020",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2020/standings/20261020-live-3fd44b68/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremio2020/clasificacion-a-la-eliminatoria-regional-icpcmx2020/",
+   "fetched": "2026-10-21T03:59:11+00:00",
+   "sha256_source": "f159cae3d19a562f3ba00ecd3689f2d796e0bcbe9177d52ec7f67d705e9baaa0"
+  },
+  {
    "contest": "gran-premio-mexico-2021",
    "artifact": "standings",
    "path": "a/gran-premio-mexico/gran-premio-mexico-2021/standings/20250824-wayback-f2d2ddc5/page.html",
    "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomexico2021/clasificacion-a-la-eliminatoria-regional-icpcmx2021/",
    "fetched": "2026-09-07T16:46:12+00:00",
    "sha256_source": "45d017a7c42bc796d51c4791eda0bf505f249c341f7f861888c672437d30223c"
+  },
+  {
+   "contest": "gran-premio-mexico-2021",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2021/standings/20261020-live-a8ec43d6/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomexico2021/clasificacion-a-la-eliminatoria-regional-icpcmx2021/",
+   "fetched": "2026-10-21T03:59:12+00:00",
+   "sha256_source": "cae43a49695d07f97dfec68cc1fd0162e187d18201b1dae6f88a40137d7f6c7e"
   },
   {
    "contest": "gran-premio-mexico-2022",
@@ -13187,12 +13683,36 @@
    "sha256_source": "e1f9851c7bb0cc80fb1ac72aae985dfca1e8c96a3b3c7eced532fa954ae68062"
   },
   {
+   "contest": "gran-premio-mexico-2022",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2022/standings/20261020-live-c3a576c1/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2022/clasificacion-a-la-eliminatoria-regional-icpcmx2022/",
+   "fetched": "2026-10-21T03:59:13+00:00",
+   "sha256_source": "d8e10ceb1d66afbfc2fbc1dedaaa4938be41e26c94265a90ffbc693734e9d457"
+  },
+  {
+   "contest": "gran-premio-mexico-2023",
+   "artifact": "problemset",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2023/problemset/20230528-wayback-ee2f7056/page.html",
+   "url": "https://codeforces.com/gym/104375",
+   "fetched": "2026-09-07T19:20:15+00:00",
+   "sha256_source": "4faaa34895ac0ae8b1cf3490afc8bcb44a1c9b5b824ceeacfd7f407622729dc7"
+  },
+  {
    "contest": "gran-premio-mexico-2023",
    "artifact": "standings",
    "path": "a/gran-premio-mexico/gran-premio-mexico-2023/standings/20250830-wayback-05cd70ef/page.html",
    "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2023/clasificacion-a-la-eliminatoria-regional-icpcmx2023/",
    "fetched": "2026-09-07T16:46:14+00:00",
    "sha256_source": "576aae435a567c2aed422d69b159aef60bb3ccea132b64a2f968b0b162506576"
+  },
+  {
+   "contest": "gran-premio-mexico-2023",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2023/standings/20261020-live-9565fd04/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2023/clasificacion-a-la-eliminatoria-regional-icpcmx2023/",
+   "fetched": "2026-10-21T03:59:14+00:00",
+   "sha256_source": "badc232d0f52d143b4e6ac3776f0f07ba7c5d0d8f0907570bc7e826e63fed0df"
   },
   {
    "contest": "gran-premio-mexico-2024",
@@ -13203,12 +13723,44 @@
    "sha256_source": "0778a94a3884e4e4b49dbffcf6726966354692a0c6d48c22551524521672531b"
   },
   {
+   "contest": "gran-premio-mexico-2024",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2024/standings/20261020-live-b9f07041/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2024/clasificacion-a-la-eliminatoria-regional-icpcmx2024/",
+   "fetched": "2026-10-21T03:59:15+00:00",
+   "sha256_source": "6cc5668939a37f0f9457c6494254f98202ee75b2642600356461680c0893a41a"
+  },
+  {
    "contest": "gran-premio-mexico-2025",
    "artifact": "standings",
    "path": "a/gran-premio-mexico/gran-premio-mexico-2025/standings/20250914-wayback-1cef157e/page.html",
    "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2025/clasificacion-a-la-final-mexicana-icpcmx2025/",
    "fetched": "2026-09-07T16:46:11+00:00",
    "sha256_source": "d9e7bd5af7ae22e417cc37f9826487cb10c723631e8789dea6b6db436f8340a3"
+  },
+  {
+   "contest": "gran-premio-mexico-2025",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2025/standings/20261020-live-f4619267/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2025/clasificacion-a-la-final-mexicana-icpcmx2025/",
+   "fetched": "2026-10-21T03:59:16+00:00",
+   "sha256_source": "13668365b258107ad34d91dfe2af74c016fc17e1c5c2ed434d392bcdf424d48c"
+  },
+  {
+   "contest": "gran-premio-mexico-2026",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2026/standings/20261020-live-22e03fae/page.html",
+   "url": "https://codeforces.com/gym/106495/standings",
+   "fetched": "2026-10-21T03:59:15+00:00",
+   "sha256_source": "2034df7a2f8f1e64cdf62e312dfb1e0d0310d7d8d2ce92a31005dfd0667dd803"
+  },
+  {
+   "contest": "gran-premio-mexico-2026",
+   "artifact": "standings",
+   "path": "a/gran-premio-mexico/gran-premio-mexico-2026/standings/20261020-live-8051c7c4/page.html",
+   "url": "https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-gran-premio-de-mexico-2026/clasificacion-a-la-final-mexicana-icpc-2026/",
+   "fetched": "2026-10-21T03:59:17+00:00",
+   "sha256_source": "6a75f1a00aae3854042c82adf4253b49eb980260624dd8a700af89a74ee2ea6e"
   },
   {
    "contest": "greece-2023",
@@ -13491,6 +14043,14 @@
    "sha256_source": "6a020b3d1ec5110c4d76037f041e5f5810c2e71e36c16a4cb32b9f607d91fb1e"
   },
   {
+   "contest": "hangzhou-2022",
+   "artifact": "scoreboard",
+   "path": "a/hangzhou/hangzhou-2022/scoreboard/20261020-live-7f8439fd/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/hangzhou",
+   "fetched": "2026-10-21T03:59:21+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "hangzhou-2023",
    "artifact": "scoreboard",
    "path": "a/hangzhou/hangzhou-2023/scoreboard/20231210-wayback-ea1cd68b/page.html",
@@ -13513,6 +14073,14 @@
    "url": "https://codeforces.com/gym/104976/standings",
    "fetched": "2026-09-01T08:00:51+00:00",
    "sha256_source": "9728dd80a6a17657eaf5e39811fdea2b2cd07e7655225548577f294f04eb8904"
+  },
+  {
+   "contest": "hangzhou-2023",
+   "artifact": "scoreboard",
+   "path": "a/hangzhou/hangzhou-2023/scoreboard/20261020-live-5dc4e859/page.html",
+   "url": "https://board.xcpcio.com/icpc/48th/hangzhou",
+   "fetched": "2026-10-21T03:59:21+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "hangzhou-2024",
@@ -13585,6 +14153,30 @@
    "url": "https://github.com/xcpcio/board-data",
    "fetched": "2026-09-07T16:46:43+00:00",
    "sha256_source": "2b51244a9944e104befec827daf9c9cda336c1ec65834e67cb11879a5ec519aa"
+  },
+  {
+   "contest": "harbin-2009",
+   "artifact": "standings",
+   "path": "a/harbin/harbin-2009/standings/20261020-live-1b8513ed/index.html",
+   "url": "https://acm.sdut.edu.cn/acmss/icpc/2010/tianjin/index.html",
+   "fetched": "2026-10-21T03:59:23+00:00",
+   "sha256_source": "4c4142a66bcdaf1ff48c83a845f9e9294a538765ff28713b83c14042d9ddb30b"
+  },
+  {
+   "contest": "harbin-2009",
+   "artifact": "standings",
+   "path": "a/harbin/harbin-2009/standings/20261020-live-433f2afa/page.html",
+   "url": "https://github.com/xcpcio/board-data",
+   "fetched": "2026-10-21T03:59:22+00:00",
+   "sha256_source": "654b6b7f790a8a333a86e9086991123840793fb3f192078584d3a36931847382"
+  },
+  {
+   "contest": "harbin-2009",
+   "artifact": "standings",
+   "path": "a/harbin/harbin-2009/standings/20261020-live-91183e54/page.html",
+   "url": "https://rl.algoux.org/ranklist/icpc2010harbin",
+   "fetched": "2026-10-21T03:59:24+00:00",
+   "sha256_source": "f0e6a00c41045e372fc3cbe711728a0cf414314f8ab6ef705e2057fa7761bc65"
   },
   {
    "contest": "harbin-2009",
@@ -13731,6 +14323,14 @@
    "sha256_source": "2952daf149db9edf3820923685283954efc84bca7f4651de21e5384f1d0ab5bf"
   },
   {
+   "contest": "hefei-2023",
+   "artifact": "scoreboard",
+   "path": "a/hefei/hefei-2023/scoreboard/20261020-live-b9788173/page.html",
+   "url": "https://board.xcpcio.com/icpc/48th/hefei",
+   "fetched": "2026-10-21T03:59:25+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "hong-kong-2000",
    "artifact": "rankings",
    "path": "a/hong-kong/hong-kong-2000/rankings/2026-09-01-wayback-bc480b17/page.html",
@@ -13860,6 +14460,14 @@
   },
   {
    "contest": "hong-kong-2022",
+   "artifact": "scoreboard",
+   "path": "a/hong-kong/hong-kong-2022/scoreboard/20261020-live-5aea1728/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/hongkong",
+   "fetched": "2026-10-21T03:59:26+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
+   "contest": "hong-kong-2022",
    "artifact": "standings",
    "path": "a/hong-kong/hong-kong-2022/standings/20240313-wayback-8157f2e4/standings.pdf",
    "url": "https://icpc2023.cse.cuhk.edu.hk/standings.pdf",
@@ -13971,6 +14579,22 @@
    "sha256_source": "032b6e6f59edf61e049add3d807938513d150bf2fcba7370117cebf9de47b166"
   },
   {
+   "contest": "hungary-2015",
+   "artifact": "web-mirror",
+   "path": "a/hungary/hungary-2015/web-mirror/20160605-wayback-f76dd862/page.html",
+   "url": "https://versenyek.inf.elte.hu/versenyek/orszagos-acm-verseny/",
+   "fetched": "2026-09-07T19:19:23+00:00",
+   "sha256_source": "bc6947db865b654442d3bfdabbd2bea8c23b51885e45f7bc17cd7cf2794dacdf"
+  },
+  {
+   "contest": "hungary-2015",
+   "artifact": "web-mirror",
+   "path": "a/hungary/hungary-2015/web-mirror/20240627-wayback-cd966147/page.html",
+   "url": "https://cs.bme.hu/icpc/",
+   "fetched": "2026-09-07T19:19:29+00:00",
+   "sha256_source": "d26760b44a3a0bd9cd02ed55e73153146f5e28639bbe2609def33b06b408c09c"
+  },
+  {
    "contest": "hungary-2016",
    "artifact": "standings",
    "path": "a/hungary/hungary-2016/standings/20170517-wayback-cfb3cda5/page.html",
@@ -14001,6 +14625,14 @@
    "url": "https://web.archive.org/web/20221025101944/https://domjudge.cms.inf.elte.hu/public",
    "fetched": "2026-04-16T06:36:10Z",
    "sha256_source": "9d2866bd28e6d6527a4dc2dd7e579aa9d384560c2ac69a6780f40a7dcecaae95"
+  },
+  {
+   "contest": "hungary-2022",
+   "artifact": "scoreboard",
+   "path": "a/hungary/hungary-2022/scoreboard/20261020-live-e53ae157/page.html",
+   "url": "https://domjudge.cms.inf.elte.hu/public",
+   "fetched": "2026-10-21T03:59:28+00:00",
+   "sha256_source": "8a74443f9e206370e408315980e82094e69d06376b769e3cbef0f17b864ccf49"
   },
   {
    "contest": "hungary-2023",
@@ -15035,6 +15667,14 @@
    "sha256_source": "2323e5619beb12fbc06ae134212ed2967d7b6617113d6bf34b54761cb417bd4f"
   },
   {
+   "contest": "jinan-2022",
+   "artifact": "scoreboard",
+   "path": "a/jinan/jinan-2022/scoreboard/20261020-live-a0bdc3af/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/jinan",
+   "fetched": "2026-10-21T03:59:42+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "jinan-2023",
    "artifact": "scoreboard",
    "path": "a/jinan/jinan-2023/scoreboard/20231230-wayback-decafb5d/page.html",
@@ -15057,6 +15697,14 @@
    "url": "https://codeforces.com/gym/104901/standings",
    "fetched": "2026-09-01T08:02:01+00:00",
    "sha256_source": "06b9dddf4393cfcdb30c9704c606af19abde90138e3aa8e0d8055a648338bab7"
+  },
+  {
+   "contest": "jinan-2023",
+   "artifact": "scoreboard",
+   "path": "a/jinan/jinan-2023/scoreboard/20261020-live-5c8f5287/page.html",
+   "url": "https://board.xcpcio.com/icpc/48th/jinan",
+   "fetched": "2026-10-21T03:59:45+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "jinhua-2012",
@@ -17387,6 +18035,14 @@
    "sha256_source": "8b65b125bb45e1a21694c865f7f1012f13101869393007092c01a54dfe8b3345"
   },
   {
+   "contest": "kuwait-2022",
+   "artifact": "scoreboard",
+   "path": "a/kuwait/kuwait-2022/scoreboard/20261020-live-e5b9ad1e/page.html",
+   "url": "https://acpcsb.acpc.global/kcpc2022/",
+   "fetched": "2026-10-21T04:00:30+00:00",
+   "sha256_source": "805d1c27f649746dfad3e390fc6867141cced3fa08c1862218a8ea86641f7d8e"
+  },
+  {
    "contest": "kuwait-2024",
    "artifact": "frozen_scoreboard",
    "path": "a/kuwait/kuwait-2024/frozen_scoreboard/2026-09-01-live-6e10e469/all.html",
@@ -17803,6 +18459,22 @@
    "sha256_source": "25fb935a814c677d6d6456e5df2ffcd0f159caac9bb2853e37b43c082e164207"
   },
   {
+   "contest": "kyrgyzstan-2018",
+   "artifact": "web-mirror",
+   "path": "a/kyrgyzstan/kyrgyzstan-2018/web-mirror/20181108-wayback-9e240d93/kyrgyzstan.html",
+   "url": "https://neerc.ifmo.ru/subregions/kyrgyzstan.html",
+   "fetched": "2026-09-07T19:19:54+00:00",
+   "sha256_source": "0a7a1b388752224a8746edf16da628d364e3e394d30a1ef03c8b21a9c332840d"
+  },
+  {
+   "contest": "kyrgyzstan-2018",
+   "artifact": "web-mirror",
+   "path": "a/kyrgyzstan/kyrgyzstan-2018/web-mirror/20221108-wayback-05c8c000/page.html",
+   "url": "https://codeforces.com/gym/104018",
+   "fetched": "2026-09-07T19:21:19+00:00",
+   "sha256_source": "0ef08b574bd2841448a715907cc432104a76e90eeba34dc4d8ca6363441fded6"
+  },
+  {
    "contest": "kyrgyzstan-2019",
    "artifact": "scoreboard",
    "path": "a/kyrgyzstan/kyrgyzstan-2019/scoreboard/2026-09-01-live-3b4c1123/standings.html",
@@ -17833,6 +18505,30 @@
    "url": "https://neerc.ifmo.ru/archive/2019/kyrgyzstan/standings.html",
    "fetched": "2026-09-04T10:35:21+00:00",
    "sha256_source": "2f2e8647f19ce54805932e60188c9c2120256bb880d7db11c1e7dd191a71bd75"
+  },
+  {
+   "contest": "kyrgyzstan-2020",
+   "artifact": "web-mirror",
+   "path": "a/kyrgyzstan/kyrgyzstan-2020/web-mirror/20200905-wayback-c522fc6f/page.html",
+   "url": "https://github.com/iensen/olymp.krsu.edu.kg",
+   "fetched": "2026-09-07T19:20:03+00:00",
+   "sha256_source": "9b39f433a4100658e9227fbe982cbd1d4a72f507471a269c723cf7e7fc600d99"
+  },
+  {
+   "contest": "kyrgyzstan-2020",
+   "artifact": "web-mirror",
+   "path": "a/kyrgyzstan/kyrgyzstan-2020/web-mirror/20210518-wayback-a4e1b136/kyrgyzstan.html",
+   "url": "https://neerc.ifmo.ru/subregions/kyrgyzstan.html",
+   "fetched": "2026-09-07T19:19:20+00:00",
+   "sha256_source": "229eed63c16d97e10da4a65e46e705f4fde7a819cd610a310dd17aa631bfa972"
+  },
+  {
+   "contest": "kyrgyzstan-2020",
+   "artifact": "web-mirror",
+   "path": "a/kyrgyzstan/kyrgyzstan-2020/web-mirror/20250807-wayback-0bd8ef4d/page.html",
+   "url": "https://codeforces.com/gym/105493",
+   "fetched": "2026-09-07T19:21:18+00:00",
+   "sha256_source": "59addda108ef5824a16053b98f257817df112349d33cd1da1a4d3731e2f215d8"
   },
   {
    "contest": "kyrgyzstan-2021",
@@ -18099,6 +18795,14 @@
    "sha256_source": "f62cf1df568adca2cd3f5812e2dea3926a91d51f3df05a97fdf55968b3038fed"
   },
   {
+   "contest": "lebanon-2022",
+   "artifact": "scoreboard",
+   "path": "a/lebanon/lebanon-2022/scoreboard/20261020-live-0504d5c4/page.html",
+   "url": "https://acpcsb.acpc.global/lcpc2022/",
+   "fetched": "2026-10-21T04:00:55+00:00",
+   "sha256_source": "e5b5faeaea328e92d74bc673d3029cb8178583689c60fe30c1c99847dfcff663"
+  },
+  {
    "contest": "lebanon-2023",
    "artifact": "frozen_scoreboard",
    "path": "a/lebanon/lebanon-2023/frozen_scoreboard/2026-09-01-live-dab1a0d4/Lebanon.html",
@@ -18339,6 +19043,14 @@
    "sha256_source": "21b9498b5e4198a0001800104e67298745f5cfd15cc12f728f66d5eafce6cabd"
   },
   {
+   "contest": "lethbridge-2020",
+   "artifact": "standings",
+   "path": "a/lethbridge/lethbridge-2020/standings/20261020-live-7781d86d/2020.html",
+   "url": "https://www.cs.uleth.ca/~cheng/contest/2020.html",
+   "fetched": "2026-10-21T04:00:56+00:00",
+   "sha256_source": "21b9498b5e4198a0001800104e67298745f5cfd15cc12f728f66d5eafce6cabd"
+  },
+  {
    "contest": "lethbridge-2021",
    "artifact": "standings",
    "path": "a/lethbridge/lethbridge-2021/standings/20240120-wayback-23672486/2021.html",
@@ -18347,11 +19059,27 @@
    "sha256_source": "4b61a3fbf94a610729d6ae253c022b8160b3eb6d12747898506f8032b7765f25"
   },
   {
+   "contest": "lethbridge-2021",
+   "artifact": "standings",
+   "path": "a/lethbridge/lethbridge-2021/standings/20261020-live-a19bb18c/2021.html",
+   "url": "https://www.cs.uleth.ca/~cheng/contest/2021.html",
+   "fetched": "2026-10-21T04:00:56+00:00",
+   "sha256_source": "0dd509988b085995d36f44c3340832bb88e55c1876029df0d1b604d940c962a2"
+  },
+  {
    "contest": "lethbridge-2022",
    "artifact": "standings",
    "path": "a/lethbridge/lethbridge-2022/standings/20250803-wayback-98f91b95/2022.html",
    "url": "https://www.cs.uleth.ca/~cheng/contest/2022.html",
    "fetched": "2026-09-07T16:46:20+00:00",
+   "sha256_source": "4cee7df8dd01a4dfb2fc476d6dd9f16216de86c103d8f98a1c30b78da72b6ecb"
+  },
+  {
+   "contest": "lethbridge-2022",
+   "artifact": "standings",
+   "path": "a/lethbridge/lethbridge-2022/standings/20261020-live-d2f43168/2022.html",
+   "url": "https://www.cs.uleth.ca/~cheng/contest/2022.html",
+   "fetched": "2026-10-21T04:00:57+00:00",
    "sha256_source": "4cee7df8dd01a4dfb2fc476d6dd9f16216de86c103d8f98a1c30b78da72b6ecb"
   },
   {
@@ -18363,11 +19091,27 @@
    "sha256_source": "ae7dd5254e3dd7a084cceb581cb389281bf35507bee6401cc680a53e99c6ffde"
   },
   {
+   "contest": "lethbridge-2023",
+   "artifact": "standings",
+   "path": "a/lethbridge/lethbridge-2023/standings/20261020-live-e1ac5c3e/2023.html",
+   "url": "https://www.cs.uleth.ca/~cheng/contest/2023.html",
+   "fetched": "2026-10-21T04:00:58+00:00",
+   "sha256_source": "ae7dd5254e3dd7a084cceb581cb389281bf35507bee6401cc680a53e99c6ffde"
+  },
+  {
    "contest": "lethbridge-2024",
    "artifact": "standings",
    "path": "a/lethbridge/lethbridge-2024/standings/20260212-wayback-bd7c27a5/2024.html",
    "url": "https://www.cs.uleth.ca/~cheng/contest/2024.html",
    "fetched": "2026-09-07T16:46:37+00:00",
+   "sha256_source": "02c12e3fc06d686d28f64ab92650f09d4904086ff72a474b2ad800603dfea2b0"
+  },
+  {
+   "contest": "lethbridge-2024",
+   "artifact": "standings",
+   "path": "a/lethbridge/lethbridge-2024/standings/20261020-live-50712c79/2024.html",
+   "url": "https://www.cs.uleth.ca/~cheng/contest/2024.html",
+   "fetched": "2026-10-21T04:00:59+00:00",
    "sha256_source": "02c12e3fc06d686d28f64ab92650f09d4904086ff72a474b2ad800603dfea2b0"
   },
   {
@@ -18401,6 +19145,14 @@
    "url": "https://codeforces.com/gym/104373/standings",
    "fetched": "2026-09-01T08:07:00+00:00",
    "sha256_source": "ece6e06ca1c72c037424c35a6188a7c4ff1359f37539ccb386df6884c29165ca"
+  },
+  {
+   "contest": "macau-2021",
+   "artifact": "scoreboard",
+   "path": "a/macau/macau-2021/scoreboard/20261020-live-420e1cc8/page.html",
+   "url": "https://board.xcpcio.com/icpc/46th/macau",
+   "fetched": "2026-10-21T04:00:59+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "macau-2023",
@@ -18689,6 +19441,14 @@
    "url": "https://www.eecis.udel.edu/~saunders/regional96/scores.html",
    "fetched": "2026-09-01T08:07:14+00:00",
    "sha256_source": "5531f0abdaed53405cff044853169b4f6335aaf2ffa77064aa2344444fccc0d0"
+  },
+  {
+   "contest": "mausa-1997",
+   "artifact": "web-mirror",
+   "path": "a/mausa/mausa-1997/web-mirror/19990428-wayback-14915665/UDteams.html",
+   "url": "http://www.eecis.udel.edu/~saunders/regional98/UDteams.html",
+   "fetched": "2026-09-07T19:20:37+00:00",
+   "sha256_source": "39717d33025a6da4792ad6a75ca8861cef1ae7d7f00189d96eea4553d1b294a8"
   },
   {
    "contest": "mausa-1998",
@@ -20203,6 +20963,14 @@
    "sha256_source": "46133fa465c10b6fc2e8061428678279dbda72ea8020b22efdd479d32c787299"
   },
   {
+   "contest": "morocco-2022",
+   "artifact": "web-mirror",
+   "path": "a/morocco/morocco-2022/web-mirror/20190910-wayback-9a2acc14/page.html",
+   "url": "https://ensias.um5.ac.ma/page/nos-%C3%A9l%C3%A8ves-se-distinguent-une-%C3%A9quipe-de-lensias-sest-qualifi%C3%A9-pour-lacpc-acm-arab-collegiate",
+   "fetched": "2026-09-07T19:20:54+00:00",
+   "sha256_source": "d8612eba16d3bd769f22f61cdf1717692ed7bf514fbbc869bd1f886a967b0a51"
+  },
+  {
    "contest": "morocco-2025",
    "artifact": "frozen_scoreboard",
    "path": "a/morocco/morocco-2025/frozen_scoreboard/20260810-wayback-ef02f4da/page.html",
@@ -20843,11 +21611,27 @@
    "sha256_source": "84576b720e966a427e44158a1b45dff8d9386f298c7efcb76318c4a356adf4fb"
   },
   {
+   "contest": "myanmar-mcpc-2018",
+   "artifact": "standings",
+   "path": "a/myanmar-mcpc/myanmar-mcpc-2018/standings/20261020-live-039dd85c/sb-mcpc2018.html",
+   "url": "http://www.ucsy.edu.mm/ucsy/pages/sb-mcpc2018.html",
+   "fetched": "2026-10-21T04:02:20+00:00",
+   "sha256_source": "84576b720e966a427e44158a1b45dff8d9386f298c7efcb76318c4a356adf4fb"
+  },
+  {
    "contest": "myanmar-mcpc-2019",
    "artifact": "standings",
    "path": "a/myanmar-mcpc/myanmar-mcpc-2019/standings/20211025-wayback-47d46287/page.html",
    "url": "https://www.ucsy.edu.mm/ucsy/pages/sb-mcpc2019.jsp",
    "fetched": "2026-09-07T16:46:54+00:00",
+   "sha256_source": "9ad60967aba996dc1faab5c854cfd32251949f6330eae5af3a57435d22c62e57"
+  },
+  {
+   "contest": "myanmar-mcpc-2019",
+   "artifact": "standings",
+   "path": "a/myanmar-mcpc/myanmar-mcpc-2019/standings/20261020-live-b56dcf76/page.html",
+   "url": "https://www.ucsy.edu.mm/ucsy/pages/sb-mcpc2019.jsp",
+   "fetched": "2026-10-21T04:02:22+00:00",
    "sha256_source": "9ad60967aba996dc1faab5c854cfd32251949f6330eae5af3a57435d22c62e57"
   },
   {
@@ -21091,6 +21875,14 @@
    "sha256_source": "77228b4d08f75957f3b4bf00550a9e6c855b9207352175af26a87e10049f9e2a"
   },
   {
+   "contest": "nanjing-2021",
+   "artifact": "scoreboard",
+   "path": "a/nanjing/nanjing-2021/scoreboard/20261020-live-fbd88da7/page.html",
+   "url": "https://board.xcpcio.com/icpc/46th/nanjing",
+   "fetched": "2026-10-21T04:02:25+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "nanjing-2022",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2022/scoreboard/20230203-wayback-d13fb0fd/page.html",
@@ -21115,6 +21907,14 @@
    "sha256_source": "d5e4bcd10d077eb9ea80de87bf3eb87a0141b781e7e7a90604bbcd2ff5410439"
   },
   {
+   "contest": "nanjing-2022",
+   "artifact": "scoreboard",
+   "path": "a/nanjing/nanjing-2022/scoreboard/20261020-live-b9468817/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/nanjing",
+   "fetched": "2026-10-21T04:02:28+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "nanjing-2023",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2023/scoreboard/20231128-wayback-602b8cbe/page.html",
@@ -21137,6 +21937,14 @@
    "url": "https://codeforces.com/gym/104821/standings",
    "fetched": "2026-09-01T08:10:57+00:00",
    "sha256_source": "ac0b9967fcae61240e7efd172041735aa17c4c20aa3cd441717188bb6ef9914f"
+  },
+  {
+   "contest": "nanjing-2023",
+   "artifact": "scoreboard",
+   "path": "a/nanjing/nanjing-2023/scoreboard/20261020-live-f03620b2/page.html",
+   "url": "https://board.xcpcio.com/icpc/48th/nanjing",
+   "fetched": "2026-10-21T04:02:28+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "nanjing-2024",
@@ -21193,6 +22001,14 @@
    "url": "http://acm.gxu.edu.cn",
    "fetched": "2026-09-01T15:19:22+00:00",
    "sha256_source": "8031e3668747c897d73a13531153d8b6f7503a37e0837a811de8c5f8ccfb0c32"
+  },
+  {
+   "contest": "nanning-2017",
+   "artifact": "standings",
+   "path": "a/nanning/nanning-2017/standings/20261020-live-07ebb9d3/page.html",
+   "url": "http://acm.gxu.edu.cn",
+   "fetched": "2026-10-21T04:02:30+00:00",
+   "sha256_source": "ff87836f73c27e5d96a9ac67cb78a70b5fe0353e3ac567707dba82d7f45f2d8e"
   },
   {
    "contest": "naq-2014",
@@ -21331,6 +22147,14 @@
    "sha256_source": "06b570fdb2a2bcb5da9a6afebfe8144f1d4e42a68dae3083b05c9874769ea3b8"
   },
   {
+   "contest": "naq-2023",
+   "artifact": "standings",
+   "path": "a/naq/naq-2023/standings/20261020-live-2fa03d5d/page.html",
+   "url": "https://qoj.ac/contest/1102/standings",
+   "fetched": "2026-10-21T04:02:28+00:00",
+   "sha256_source": "62a878255f619a1ad1fedcd9d9f211689213378d3b50c2385fcfe300e0dfd87c"
+  },
+  {
    "contest": "naq-2024",
    "artifact": "scoreboard",
    "path": "a/naq/naq-2024/scoreboard/20241005-wayback-5da88c17/page.html",
@@ -21361,6 +22185,14 @@
    "url": "https://naq25.kattis.com/contests/naq25/standings",
    "fetched": "2026-09-01T08:11:06+00:00",
    "sha256_source": "6ff71f3bc789688d1b12234e827cfa09280566299902fbde81335c3aa69e38a7"
+  },
+  {
+   "contest": "ncna-1993",
+   "artifact": "web-mirror",
+   "path": "a/ncna/ncna-1993/web-mirror/20000831-wayback-d9f26b5a/page.html",
+   "url": "http://www.karrels.org/Ed/ACM/",
+   "fetched": "2026-09-07T19:19:14+00:00",
+   "sha256_source": "eef30c0c286bacdfef26dfd27377369951c92614a21c535134e1e8f2bf23f497"
   },
   {
    "contest": "ncna-1996",
@@ -22873,6 +23705,38 @@
    "url": "https://mcgill19.kattis.com/standings",
    "fetched": "2026-09-07T16:46:11+00:00",
    "sha256_source": "f23bb920c28e8203380f942ad460595ea8222e128fe91222533051d56533ea92"
+  },
+  {
+   "contest": "nena-north-2019",
+   "artifact": "standings",
+   "path": "a/nena-north/nena-north-2019/standings/20261020-live-87f7a4a5/page.html",
+   "url": "https://mcgill19.kattis.com/standings",
+   "fetched": "2026-10-21T04:02:54+00:00",
+   "sha256_source": "5200557d949f3413a49f8808c6c7b39201ceacabb9d8ee1142e7567149659916"
+  },
+  {
+   "contest": "nena-north-2019",
+   "artifact": "standings",
+   "path": "a/nena-north/nena-north-2019/standings/20261020-live-fec9d633/page.html",
+   "url": "https://open.kattis.com/contests/nena19open",
+   "fetched": "2026-10-21T04:02:55+00:00",
+   "sha256_source": "4773e148731dc17a3a05fb73f5611aaf35fd28ef5b769ee5aa44ce695dce64d8"
+  },
+  {
+   "contest": "nena-north-2019",
+   "artifact": "web-mirror",
+   "path": "a/nena-north/nena-north-2019/web-mirror/20221006-wayback-195dfa05/page.html",
+   "url": "https://mcgill19.kattis.com/contests/mcgill19/teams",
+   "fetched": "2026-09-07T19:19:02+00:00",
+   "sha256_source": "aaca785b13f1e71bc4235e29ce9109112490f6d0e2593584e5b3959e69aa826a"
+  },
+  {
+   "contest": "nena-north-2019",
+   "artifact": "web-mirror",
+   "path": "a/nena-north/nena-north-2019/web-mirror/20241204-wayback-ea8ac0ce/page.html",
+   "url": "https://mcgill19.kattis.com/contests/mcgill19/rules",
+   "fetched": "2026-09-07T19:18:59+00:00",
+   "sha256_source": "2ba05ac075d64057bb7e5e2881a42b8ca696c1f5bb2a54181929040e30844df5"
   },
   {
    "contest": "nena-west-2009",
@@ -24795,6 +25659,22 @@
    "sha256_source": "c8fe1910e481f1dd253e644c71172734d1db6e0cbc53845f11d02bcba7035fa2"
   },
   {
+   "contest": "nwerc-1995",
+   "artifact": "problemset",
+   "path": "a/nwerc/nwerc-1995/problemset/20240531-wayback-09687b1f/nwerc95.pdf",
+   "url": "https://chipcie.wisv.ch/archive/1995/nwercpc/nwerc95.pdf",
+   "fetched": "2026-09-07T19:19:47+00:00",
+   "sha256_source": "e0aa5623c02471f05865568a88feb8405f48a2d0cbea73967fd4a3e87bf5a02c"
+  },
+  {
+   "contest": "nwerc-1996",
+   "artifact": "problemset",
+   "path": "a/nwerc/nwerc-1996/problemset/20240413-wayback-64d63025/problemset.pdf",
+   "url": "https://chipcie.wisv.ch/archive/1996/nwercpc/problemset.pdf",
+   "fetched": "2026-09-07T19:19:52+00:00",
+   "sha256_source": "e576bb853db3ef5e2207d43c7887032b4895bd067784816f4cbb4967ff750656"
+  },
+  {
    "contest": "nwerc-1997",
    "artifact": "scoreboard",
    "path": "a/nwerc/nwerc-1997/scoreboard/2026-09-01-live-3cf75018/score.html",
@@ -25875,6 +26755,38 @@
    "sha256_source": "31abae97c93f91b3f89707599a0af8b21051e3e9bb993fb7cedcf25cc280d851"
   },
   {
+   "contest": "oman-coastline-2025",
+   "artifact": "web-mirror",
+   "path": "a/oman-coastline/oman-coastline-2025/web-mirror/20251004-wayback-217d7a77/page.html",
+   "url": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-programming-contest-2025-concludes-with-strong-competition-150",
+   "fetched": "2026-09-07T19:19:11+00:00",
+   "sha256_source": "1c3f7950ccab59863ab7123bbe043e4c51eece5ea44b3c61c915ecc0ce1849fd"
+  },
+  {
+   "contest": "oman-coastline-2025",
+   "artifact": "web-mirror",
+   "path": "a/oman-coastline/oman-coastline-2025/web-mirror/20251119-wayback-a91cd22f/page.html",
+   "url": "https://ocmt.odoo.com/blog/news-and-activities-1/the-codebreakers-qualify-for-ocpc-2025-finals-387",
+   "fetched": "2026-09-07T19:19:18+00:00",
+   "sha256_source": "9cc807cd055ccff3c2a840c0b04912e39c11ea150599d421bab258bc73db6412"
+  },
+  {
+   "contest": "oman-midland-2025",
+   "artifact": "web-mirror",
+   "path": "a/oman-midland/oman-midland-2025/web-mirror/20251004-wayback-217d7a77/page.html",
+   "url": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-programming-contest-2025-concludes-with-strong-competition-150",
+   "fetched": "2026-09-07T19:19:53+00:00",
+   "sha256_source": "1c3f7950ccab59863ab7123bbe043e4c51eece5ea44b3c61c915ecc0ce1849fd"
+  },
+  {
+   "contest": "oman-southern-2025",
+   "artifact": "web-mirror",
+   "path": "a/oman-southern/oman-southern-2025/web-mirror/20251004-wayback-217d7a77/page.html",
+   "url": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-programming-contest-2025-concludes-with-strong-competition-150",
+   "fetched": "2026-09-07T19:19:54+00:00",
+   "sha256_source": "1c3f7950ccab59863ab7123bbe043e4c51eece5ea44b3c61c915ecc0ce1849fd"
+  },
+  {
    "contest": "oman-2013",
    "artifact": "standings",
    "path": "a/oman/oman-2013/standings/api-20260904/standings.html",
@@ -25929,6 +26841,14 @@
    "url": "https://icpc.global/regionals/finder/OCPC-2022/standings",
    "fetched": "2026-04-26",
    "sha256_source": "a2cf59151a4633fd42cdd706f25a3b332544435bcb986039b1974a658cd406c0"
+  },
+  {
+   "contest": "oman-2022",
+   "artifact": "scoreboard",
+   "path": "a/oman/oman-2022/scoreboard/20261020-live-57c36c3a/ocpc.html",
+   "url": "https://acpcsb.acpc.global/ocpc2022/ocpc.html",
+   "fetched": "2026-10-21T04:03:39+00:00",
+   "sha256_source": "c439b222f6041923b96ae1a1946ebf68158a76f1961e80ebd54d2c76754dab18"
   },
   {
    "contest": "oman-2025",
@@ -27699,6 +28619,14 @@
    "sha256_source": "db75f57cd5e12341ad6618ae6ba1b07ca46c46f931b42c6699ac8fad3074b818"
   },
   {
+   "contest": "poland-2016",
+   "artifact": "standings",
+   "path": "a/poland/poland-2016/standings/20261020-live-13499cd9/ranking.html",
+   "url": "http://www.amppz.ii.uni.wroc.pl/ranking2016/ranking.html",
+   "fetched": "2026-10-21T04:03:51+00:00",
+   "sha256_source": "a1a8fafee5406068a6d331b8ce2c6beb97b761c17b85d22370920d5f8f0c57e1"
+  },
+  {
    "contest": "poland-2017",
    "artifact": "scoreboard",
    "path": "a/poland/poland-2017/scoreboard/20220425-wayback-4897d3fe/page.html",
@@ -27715,12 +28643,28 @@
    "sha256_source": "db75f57cd5e12341ad6618ae6ba1b07ca46c46f931b42c6699ac8fad3074b818"
   },
   {
+   "contest": "poland-2017",
+   "artifact": "standings",
+   "path": "a/poland/poland-2017/standings/20261020-live-564cf451/ranking.html",
+   "url": "http://www.amppz.ii.uni.wroc.pl/ranking2017/ranking.html",
+   "fetched": "2026-10-21T04:03:51+00:00",
+   "sha256_source": "fb07e3b1e4bbdeb53dcb68048ab2f9ddc66c0d764d375c2a7df1e44b2fa819e3"
+  },
+  {
    "contest": "poland-2018",
    "artifact": "scoreboard",
    "path": "a/poland/poland-2018/scoreboard/2026-04-16-amppz/2018-polish-collegiate-programming-contest-2018.html",
    "url": "http://www.amppz.ii.uni.wroc.pl/2018",
    "fetched": "2026-04-16T06:33:43Z",
    "sha256_source": "db75f57cd5e12341ad6618ae6ba1b07ca46c46f931b42c6699ac8fad3074b818"
+  },
+  {
+   "contest": "poland-2018",
+   "artifact": "standings",
+   "path": "a/poland/poland-2018/standings/20261020-live-fa12ccb5/ranking.html",
+   "url": "http://www.amppz.ii.uni.wroc.pl/ranking2018/ranking.html",
+   "fetched": "2026-10-21T04:03:51+00:00",
+   "sha256_source": "5b80e373f356a82602ded2f0090898ee11d5cf2662c38d1b52a1efb17caeee3c"
   },
   {
    "contest": "poland-2019",
@@ -27857,6 +28801,14 @@
    "url": "http://ranking.amppz.edu.pl/",
    "fetched": "2026-09-07T16:46:10+00:00",
    "sha256_source": "58f6a9a80928868c0f28f3cb1160ff8d7badbe4b2bdb711e6aa43599ffb38af9"
+  },
+  {
+   "contest": "poland-2025",
+   "artifact": "rankings",
+   "path": "a/poland/poland-2025/rankings/20261020-live-258a0c73/page.html",
+   "url": "http://ranking.amppz.edu.pl/",
+   "fetched": "2026-10-21T04:03:52+00:00",
+   "sha256_source": "fb0794bda726822944c04bfe156a6121ef4f8b7e5c07254f67814acc0b3d6efa"
   },
   {
    "contest": "pyongyang-2016",
@@ -28012,6 +28964,14 @@
   },
   {
    "contest": "qingdao-2018",
+   "artifact": "scoreboard",
+   "path": "a/qingdao/qingdao-2018/scoreboard/20261020-live-c540b68f/page.html",
+   "url": "https://board.xcpcio.com/icpc/2018/qingdao",
+   "fetched": "2026-10-21T04:03:57+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
+   "contest": "qingdao-2018",
    "artifact": "standings",
    "path": "a/qingdao/qingdao-2018/standings/20181106-wayback-b3cb2101/page.html",
    "url": "http://acm.upc.edu.cn",
@@ -28035,6 +28995,14 @@
    "sha256_source": "bc28fcf10e9879a532213028e1630504778e1e5baa05d10d127aa607f1284470"
   },
   {
+   "contest": "rmc-1995",
+   "artifact": "rankings",
+   "path": "a/rmc/rmc-1995/rankings/20261020-live-d570e2f5/icpc.html",
+   "url": "https://www.cs.uleth.ca/~cheng/icpc.html",
+   "fetched": "2026-10-21T04:03:57+00:00",
+   "sha256_source": "976718e255af8e263f898a226ddbcd0db2203b4dc395ac8f0c44bd426c785c07"
+  },
+  {
    "contest": "rmc-1996",
    "artifact": "rankings",
    "path": "a/rmc/rmc-1996/rankings/20030814-wayback-d04a1d19/icpc.html",
@@ -28043,12 +29011,28 @@
    "sha256_source": "bc28fcf10e9879a532213028e1630504778e1e5baa05d10d127aa607f1284470"
   },
   {
+   "contest": "rmc-1996",
+   "artifact": "rankings",
+   "path": "a/rmc/rmc-1996/rankings/20261020-live-d570e2f5/icpc.html",
+   "url": "https://www.cs.uleth.ca/~cheng/icpc.html",
+   "fetched": "2026-10-21T04:03:58+00:00",
+   "sha256_source": "976718e255af8e263f898a226ddbcd0db2203b4dc395ac8f0c44bd426c785c07"
+  },
+  {
    "contest": "rmc-1997",
    "artifact": "rankings",
    "path": "a/rmc/rmc-1997/rankings/20030814-wayback-d04a1d19/icpc.html",
    "url": "https://www.cs.uleth.ca/~cheng/icpc.html",
    "fetched": "2026-09-05T18:18:08+00:00",
    "sha256_source": "bc28fcf10e9879a532213028e1630504778e1e5baa05d10d127aa607f1284470"
+  },
+  {
+   "contest": "rmc-1997",
+   "artifact": "rankings",
+   "path": "a/rmc/rmc-1997/rankings/20261020-live-d570e2f5/icpc.html",
+   "url": "https://www.cs.uleth.ca/~cheng/icpc.html",
+   "fetched": "2026-10-21T04:03:59+00:00",
+   "sha256_source": "976718e255af8e263f898a226ddbcd0db2203b4dc395ac8f0c44bd426c785c07"
   },
   {
    "contest": "rmc-1998",
@@ -29043,6 +30027,22 @@
    "sha256_source": "627bd59421363a9c9befbbbe6d8043f7ec4482d00366a0e4ce988a7e9c6a6d05"
   },
   {
+   "contest": "romania-2020",
+   "artifact": "web-mirror",
+   "path": "a/romania/romania-2020/web-mirror/20210622-wayback-260065df/page.html",
+   "url": "https://cronicaromana.net/2021/05/21/cei-mai-talentati-studeti-din-domeniul-it-se-reunesc-la-universitatea-politehnica-din-bucuresti/",
+   "fetched": "2026-09-07T19:19:41+00:00",
+   "sha256_source": "feaa815644ac3af52c5cf7a9b6467bed771ca3ad78a1efd1ee402b3d75bb4825"
+  },
+  {
+   "contest": "romania-2020",
+   "artifact": "web-mirror",
+   "path": "a/romania/romania-2020/web-mirror/20220101-wayback-20ea1932/page.html",
+   "url": "https://codeforces.com/blog/entry/97289",
+   "fetched": "2026-09-07T19:19:22+00:00",
+   "sha256_source": "aea20ddbd3a5a154af53fd71c824cd7dc81f02709fa66523c2e06b7b108ea7a9"
+  },
+  {
    "contest": "romania-2021",
    "artifact": "external-standings",
    "path": "a/romania/romania-2021/external-standings/2026-04-15-external/content.html",
@@ -29155,12 +30155,36 @@
    "sha256_source": "fd0378aa6a323967f26266831d1c8da84b21c03c79ea8b38a618d7d55df9c5c1"
   },
   {
+   "contest": "saudi-arabia-2023",
+   "artifact": "standings",
+   "path": "a/saudi-arabia/saudi-arabia-2023/standings/20261020-live-e9e9d285/page.html",
+   "url": "https://codeforces.com/group/hTqC3XzK2z/contest/400007",
+   "fetched": "2026-10-21T04:04:11+00:00",
+   "sha256_source": "79c32299cc0b4cc83793c7d39265583b4022f43313b8d0e4dd122f8a75e0eedd"
+  },
+  {
+   "contest": "saudi-arabia-2023",
+   "artifact": "web-mirror",
+   "path": "a/saudi-arabia/saudi-arabia-2023/web-mirror/20230921-wayback-d9429484/page.html",
+   "url": "https://futureskills.mcit.gov.sa/ar/node/30104",
+   "fetched": "2026-09-07T19:19:03+00:00",
+   "sha256_source": "6ae52d41d0824807241b1c1db1e2fa7ea2518b13781247493f0d3ddaaef8920d"
+  },
+  {
    "contest": "scusa-1987",
    "artifact": "standings",
    "path": "a/scusa/scusa-1987/standings/20081120-wayback-23ebb859/icpc.html",
    "url": "https://www.cs.rice.edu/~greiner/icpc.html",
    "fetched": "2026-09-07T16:47:47+00:00",
    "sha256_source": "4ae3b2a4fb696d01ae32fd092c33bbd3710f3609118e41acda547d2ed70c4a33"
+  },
+  {
+   "contest": "scusa-1987",
+   "artifact": "standings",
+   "path": "a/scusa/scusa-1987/standings/20261020-live-b83df596/icpc.html",
+   "url": "https://www.cs.rice.edu/~greiner/icpc.html",
+   "fetched": "2026-10-21T04:04:10+00:00",
+   "sha256_source": "ce7d240398833564c81ff8c2ced06bf39ef8aad2d3b50cc3ea4a8642782501b9"
   },
   {
    "contest": "scusa-1988",
@@ -29171,6 +30195,14 @@
    "sha256_source": "4ae3b2a4fb696d01ae32fd092c33bbd3710f3609118e41acda547d2ed70c4a33"
   },
   {
+   "contest": "scusa-1988",
+   "artifact": "standings",
+   "path": "a/scusa/scusa-1988/standings/20261020-live-b83df596/icpc.html",
+   "url": "https://www.cs.rice.edu/~greiner/icpc.html",
+   "fetched": "2026-10-21T04:04:11+00:00",
+   "sha256_source": "ce7d240398833564c81ff8c2ced06bf39ef8aad2d3b50cc3ea4a8642782501b9"
+  },
+  {
    "contest": "scusa-1992",
    "artifact": "standings",
    "path": "a/scusa/scusa-1992/standings/20081120-wayback-23ebb859/icpc.html",
@@ -29179,12 +30211,28 @@
    "sha256_source": "4ae3b2a4fb696d01ae32fd092c33bbd3710f3609118e41acda547d2ed70c4a33"
   },
   {
+   "contest": "scusa-1992",
+   "artifact": "standings",
+   "path": "a/scusa/scusa-1992/standings/20261020-live-b83df596/icpc.html",
+   "url": "https://www.cs.rice.edu/~greiner/icpc.html",
+   "fetched": "2026-10-21T04:04:12+00:00",
+   "sha256_source": "ce7d240398833564c81ff8c2ced06bf39ef8aad2d3b50cc3ea4a8642782501b9"
+  },
+  {
    "contest": "scusa-1993",
    "artifact": "standings",
    "path": "a/scusa/scusa-1993/standings/20081120-wayback-23ebb859/icpc.html",
    "url": "https://www.cs.rice.edu/~greiner/icpc.html",
    "fetched": "2026-09-07T16:46:28+00:00",
    "sha256_source": "4ae3b2a4fb696d01ae32fd092c33bbd3710f3609118e41acda547d2ed70c4a33"
+  },
+  {
+   "contest": "scusa-1993",
+   "artifact": "standings",
+   "path": "a/scusa/scusa-1993/standings/20261020-live-b83df596/icpc.html",
+   "url": "https://www.cs.rice.edu/~greiner/icpc.html",
+   "fetched": "2026-10-21T04:04:13+00:00",
+   "sha256_source": "ce7d240398833564c81ff8c2ced06bf39ef8aad2d3b50cc3ea4a8642782501b9"
   },
   {
    "contest": "scusa-1998",
@@ -31539,12 +32587,36 @@
    "sha256_source": "adf5f1d55c01b62a463021e398e0a70f4f8570c36deac0fe9f8ede4548e1eaa3"
   },
   {
+   "contest": "shanghai-2021",
+   "artifact": "scoreboard",
+   "path": "a/shanghai/shanghai-2021/scoreboard/20261020-live-d7ccadd4/page.html",
+   "url": "https://board.xcpcio.com/icpc/46th/shanghai",
+   "fetched": "2026-10-21T04:06:36+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "shanghai-2022",
    "artifact": "scoreboard",
    "path": "a/shanghai/shanghai-2022/scoreboard/20260902-live-a4f90d3a/page.html",
    "url": "https://board.xcpcio.com/icpc/47th/shanghai",
    "fetched": "2026-09-01T18:28:26+00:00",
    "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
+   "contest": "shanghai-2023",
+   "artifact": "standings",
+   "path": "a/shanghai/shanghai-2023/standings/20261020-live-572283e8/page.html",
+   "url": "https://contest.ucup.ac/contest/1522/standings?v=1",
+   "fetched": "2026-10-21T04:06:36+00:00",
+   "sha256_source": "fc318ead83ba1e813e946409aec2e3f9e38bb112e59f21a007c58fd5b3d70303"
+  },
+  {
+   "contest": "shanghai-2023",
+   "artifact": "web-mirror",
+   "path": "a/shanghai/shanghai-2023/web-mirror/20240301-wayback-570d0e79/page.html",
+   "url": "https://codeforces.com/blog/entry/125968",
+   "fetched": "2026-09-07T19:19:44+00:00",
+   "sha256_source": "2533f11005b6fd384920437420be1ce541735b9d3539317ec94cf104c4a92153"
   },
   {
    "contest": "shanghai-2024",
@@ -31667,6 +32739,14 @@
    "sha256_source": "6df64ce3f223a72d5c054f7982692149add295ccb796c1f4ff6e5c2fbe2e63cf"
   },
   {
+   "contest": "shenyang-2021",
+   "artifact": "scoreboard",
+   "path": "a/shenyang/shenyang-2021/scoreboard/20261020-live-cd3d8072/page.html",
+   "url": "https://board.xcpcio.com/icpc/46th/shenyang",
+   "fetched": "2026-10-21T04:06:39+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
    "contest": "shenyang-2022",
    "artifact": "scoreboard",
    "path": "a/shenyang/shenyang-2022/scoreboard/20240301-wayback-20a8f189/page.html",
@@ -31681,6 +32761,14 @@
    "url": "https://codeforces.com/gym/104160/standings",
    "fetched": "2026-09-01T08:23:53+00:00",
    "sha256_source": "b4087f27f3b037ea226f5ffb9ad14d56b111da82cc2d73442cafe8b78c98e655"
+  },
+  {
+   "contest": "shenyang-2022",
+   "artifact": "scoreboard",
+   "path": "a/shenyang/shenyang-2022/scoreboard/20261020-live-8c363991/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/shenyang",
+   "fetched": "2026-10-21T04:06:40+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "shenyang-2023",
@@ -31835,6 +32923,22 @@
    "sha256_source": "588e79a689dc45dbdb5f3ba3c2f0a71e8a2ce0913a3d5f16e5c0a29659ae88ea"
   },
   {
+   "contest": "slovenia-2009",
+   "artifact": "web-mirror",
+   "path": "a/slovenia/slovenia-2009/web-mirror/20190822-wayback-715d034f/page.html",
+   "url": "https://tekmovanja.acm.si/?q=upm/zgodovina-upm",
+   "fetched": "2026-09-07T19:20:00+00:00",
+   "sha256_source": "ab68c4d59f907adc8118e8b7fc30acb8ad08ed7a2795e3b4b58b793c90ef27f9"
+  },
+  {
+   "contest": "slovenia-2010",
+   "artifact": "web-mirror",
+   "path": "a/slovenia/slovenia-2010/web-mirror/20190822-wayback-715d034f/page.html",
+   "url": "https://tekmovanja.acm.si/?q=upm/zgodovina-upm",
+   "fetched": "2026-09-07T19:19:59+00:00",
+   "sha256_source": "ab68c4d59f907adc8118e8b7fc30acb8ad08ed7a2795e3b4b58b793c90ef27f9"
+  },
+  {
    "contest": "slovenia-2012",
    "artifact": "standings",
    "path": "a/slovenia/slovenia-2012/standings/20260902-live-70e80131/page.html",
@@ -31849,6 +32953,14 @@
    "url": "https://tekmovanja.acm.si/?q=upm/zgodovina/2013/rezultati",
    "fetched": "2026-09-05T18:18:09+00:00",
    "sha256_source": "12dfdb3edd1cbd8886f15856c5e1e4efcdb2b816427006b46135903969bde1d2"
+  },
+  {
+   "contest": "slovenia-2013",
+   "artifact": "standings",
+   "path": "a/slovenia/slovenia-2013/standings/20261020-live-62be67e2/page.html",
+   "url": "https://tekmovanja.acm.si/?q=upm/zgodovina/2013/rezultati",
+   "fetched": "2026-10-21T04:06:41+00:00",
+   "sha256_source": "5a79fcea1ac2de63bacc99c511602f5175d59d19b2e0f94b95ef535cf8372983"
   },
   {
    "contest": "slovenia-2014",
@@ -31955,6 +33067,14 @@
    "sha256_source": "5a24e8ce1e529e43791c499b4234d4aab46a027b3587c43739a736afea518d27"
   },
   {
+   "contest": "slovenia-2020",
+   "artifact": "standings",
+   "path": "a/slovenia/slovenia-2020/standings/20261020-live-8c959f97/page.html",
+   "url": "https://tekmovanja.acm.si/?q=node/639",
+   "fetched": "2026-10-21T04:06:42+00:00",
+   "sha256_source": "11e92b315b1440b193d7350ee9860502b637ae29deb58fb43c9aa026768feb70"
+  },
+  {
    "contest": "slovenia-2021",
    "artifact": "standings",
    "path": "a/slovenia/slovenia-2021/standings/20220815-wayback-f67740b0/page.html",
@@ -31963,12 +33083,28 @@
    "sha256_source": "c27c507f1bd77047948b38fa5935fc15fe5438ead3a926e57f89045b2762344b"
   },
   {
+   "contest": "slovenia-2021",
+   "artifact": "standings",
+   "path": "a/slovenia/slovenia-2021/standings/20261020-live-6d238433/page.html",
+   "url": "https://tekmovanja.acm.si/?q=node/688",
+   "fetched": "2026-10-21T04:06:43+00:00",
+   "sha256_source": "312d93e593e304e9b67f1579050d8db48bb97b47e0e8b1a8f1e701b5f3a4cdf1"
+  },
+  {
    "contest": "slovenia-2022",
    "artifact": "standings",
    "path": "a/slovenia/slovenia-2022/standings/20240811-wayback-8060d7ad/page.html",
    "url": "https://tekmovanja.acm.si/?q=node/732",
    "fetched": "2026-09-05T18:18:11+00:00",
    "sha256_source": "6fa09bdd0fb970df48e687e5696281129a145df9e6b83a735e50133193927f84"
+  },
+  {
+   "contest": "slovenia-2022",
+   "artifact": "standings",
+   "path": "a/slovenia/slovenia-2022/standings/20261020-live-36d3c571/page.html",
+   "url": "https://tekmovanja.acm.si/?q=node/732",
+   "fetched": "2026-10-21T04:06:44+00:00",
+   "sha256_source": "9aea11ea900bc65f0819d3f6d23320d57dba89b56926f8ce96080af9cc75af7d"
   },
   {
    "contest": "slovenia-2023",
@@ -32012,6 +33148,14 @@
   },
   {
    "contest": "socal-1996",
+   "artifact": "rankings",
+   "path": "a/socal/socal-1996/rankings/20261020-live-b2005c89/results-1996.shtml",
+   "url": "http://www.socalcontest.org/history/1996/results-1996.shtml",
+   "fetched": "2026-10-21T04:06:42+00:00",
+   "sha256_source": "87c4fa1b10e3f27e8e50e5119be4e1ab7f609e566590c193a3d8496acc7d8509"
+  },
+  {
+   "contest": "socal-1996",
    "artifact": "standings",
    "path": "a/socal/socal-1996/standings/20071209-wayback-e7e6cfdf/results-1996.shtml",
    "url": "http://socalcontest.org/history/1996/results-1996.shtml",
@@ -32049,6 +33193,14 @@
    "url": "http://www.socalcontest.org/history/1998/results-1998.shtml",
    "fetched": "2026-09-07T16:46:18+00:00",
    "sha256_source": "53e39f0d36543d952fb135f399b393cceab022e92f378e76149f6fbfecf3b984"
+  },
+  {
+   "contest": "socal-1998",
+   "artifact": "rankings",
+   "path": "a/socal/socal-1998/rankings/20261020-live-36109f3c/results-1998.shtml",
+   "url": "http://www.socalcontest.org/history/1998/results-1998.shtml",
+   "fetched": "2026-10-21T04:06:43+00:00",
+   "sha256_source": "3f02f29af7dd318fee63343087d288ac37f8096a623df08c9d680ddc3c3a08be"
   },
   {
    "contest": "socal-1998",
@@ -34147,6 +35299,14 @@
    "sha256_source": "fd3335646e8bdb152634b104afacf947aa968e9becff26f4e598165d875f6bf2"
   },
   {
+   "contest": "south-america-1997",
+   "artifact": "web-mirror",
+   "path": "a/south-america/south-america-1997/web-mirror/20140421-wayback-3a63c846/page.html",
+   "url": "http://maratona.ime.usp.br/hist/1997/",
+   "fetched": "2026-09-07T19:19:58+00:00",
+   "sha256_source": "b29776b1d658b23bc8c5ebad1e401e85e924346d4fb1269aa27838f92e705906"
+  },
+  {
    "contest": "south-america-1998",
    "artifact": "standings",
    "path": "a/south-america/south-america-1998/standings/20020326-wayback-5eb0fdcc/Standings.htm",
@@ -35643,6 +36803,38 @@
    "sha256_source": "de2676cde2148e4df16cd7daacc906950fc04f218bd2a7c57b23b3d1de24c3e3"
   },
   {
+   "contest": "south-russia-1998",
+   "artifact": "web-mirror",
+   "path": "a/south-russia/south-russia-1998/web-mirror/20031205-wayback-c7694121/page.html",
+   "url": "https://contest.sgu.ru/?id=5",
+   "fetched": "2026-09-07T19:19:51+00:00",
+   "sha256_source": "1ec02c284dcf4a5591f6cac8a8403ad0882f4ce74014af2f63b184c7b19d74e6"
+  },
+  {
+   "contest": "south-russia-1999",
+   "artifact": "web-mirror",
+   "path": "a/south-russia/south-russia-1999/web-mirror/20031205-wayback-c7694121/page.html",
+   "url": "https://contest.sgu.ru/?id=5",
+   "fetched": "2026-09-07T19:19:58+00:00",
+   "sha256_source": "1ec02c284dcf4a5591f6cac8a8403ad0882f4ce74014af2f63b184c7b19d74e6"
+  },
+  {
+   "contest": "south-russia-2000",
+   "artifact": "web-mirror",
+   "path": "a/south-russia/south-russia-2000/web-mirror/20031205-wayback-c7694121/page.html",
+   "url": "https://contest.sgu.ru/?id=5",
+   "fetched": "2026-09-07T19:19:52+00:00",
+   "sha256_source": "1ec02c284dcf4a5591f6cac8a8403ad0882f4ce74014af2f63b184c7b19d74e6"
+  },
+  {
+   "contest": "south-russia-2001",
+   "artifact": "web-mirror",
+   "path": "a/south-russia/south-russia-2001/web-mirror/20010928-wayback-a978b087/page.html",
+   "url": "https://contest.sgu.ru/",
+   "fetched": "2026-09-07T19:19:17+00:00",
+   "sha256_source": "c2d03fcf5d980300e8f008a6e0b63e3f7c4a2a1c4b0464ea23d9da3504b7db9c"
+  },
+  {
    "contest": "south-russia-2003",
    "artifact": "standings",
    "path": "a/south-russia/south-russia-2003/standings/20161030-wayback-1435343a/standings.html",
@@ -36163,6 +37355,14 @@
    "sha256_source": "ad08383c9620d6a76a6624098520e79f936c1f5b13c517fd33632b3cc374ce41"
   },
   {
+   "contest": "south-russia-2018",
+   "artifact": "standings",
+   "path": "a/south-russia/south-russia-2018/standings/20261020-live-12b7a724/page.html",
+   "url": "https://codeforces.com/contest/1070/standings",
+   "fetched": "2026-10-21T04:07:19+00:00",
+   "sha256_source": "ffffa7616a1e33fecae2aa5f54f63223950dfbc16f47eb506a394ce0cc01135e"
+  },
+  {
    "contest": "south-russia-2019",
    "artifact": "scoreboard",
    "path": "a/south-russia/south-russia-2019/scoreboard/20260613-wayback-209bb95f/standings.html",
@@ -36201,6 +37401,14 @@
    "url": "https://codeforces.com/contest/1468/standings",
    "fetched": "2026-09-05T18:18:18+00:00",
    "sha256_source": "66f5d106d613cd1588db6e9ab4843c841e18aa82de8d974cf7509ae071486b46"
+  },
+  {
+   "contest": "south-russia-2020",
+   "artifact": "standings",
+   "path": "a/south-russia/south-russia-2020/standings/20261020-live-f765d954/page.html",
+   "url": "https://codeforces.com/contest/1468/standings",
+   "fetched": "2026-10-21T04:07:20+00:00",
+   "sha256_source": "b0d30305d4a3659d65300d25f1d2e62c68baf89a049a38ade981794844e3f398"
   },
   {
    "contest": "south-russia-2021",
@@ -37179,12 +38387,36 @@
    "sha256_source": "07107753e4ff7e464d695a467e71a46185a3fd91c89b50158a160eb046cfed4b"
   },
   {
+   "contest": "syria-2024",
+   "artifact": "scoreboard",
+   "path": "a/syria/syria-2024/scoreboard/20261020-live-27933691/all.html",
+   "url": "https://acpcsb.acpc.global/SCPC2024/all.html",
+   "fetched": "2026-10-21T04:07:28+00:00",
+   "sha256_source": "666ee4e092b968365c9e6d154bf90366eb1e94c69b8e6c55946f2b5198867e68"
+  },
+  {
    "contest": "syria-2025",
    "artifact": "standings",
    "path": "a/syria/syria-2025/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/SCPC-2026/standings",
    "fetched": "2026-04-26",
    "sha256_source": "18d84123aecbab2c601cd4023604dda6f216e195680e31e8a026846a5e4549ff"
+  },
+  {
+   "contest": "taiwan-ncpc-2007",
+   "artifact": "web-mirror",
+   "path": "a/taiwan-ncpc/taiwan-ncpc-2007/web-mirror/20240818-wayback-f4c66f09/page.html",
+   "url": "https://ncpc.nsysu.edu.tw/p/412-1062-25782.php",
+   "fetched": "2026-09-07T19:19:25+00:00",
+   "sha256_source": "c35646fc1f6e713fa49fd3ec28ba38a85f491382f3390d39aa053a15087ab4fd"
+  },
+  {
+   "contest": "taiwan-ncpc-2013",
+   "artifact": "web-mirror",
+   "path": "a/taiwan-ncpc/taiwan-ncpc-2013/web-mirror/20240818-wayback-f4c66f09/page.html",
+   "url": "https://ncpc.nsysu.edu.tw/p/412-1062-25782.php",
+   "fetched": "2026-09-07T19:19:39+00:00",
+   "sha256_source": "c35646fc1f6e713fa49fd3ec28ba38a85f491382f3390d39aa053a15087ab4fd"
   },
   {
    "contest": "taiwan-1995",
@@ -37763,6 +38995,38 @@
    "sha256_source": "c10f0389253999abd47002830bd36428815273195f29711406e41a950ed5e7bc"
   },
   {
+   "contest": "tap-2012",
+   "artifact": "web-mirror",
+   "path": "a/tap/tap-2012/web-mirror/20130525-wayback-e0422195/page.html",
+   "url": "http://icpc.com.ar/",
+   "fetched": "2026-09-07T19:19:27+00:00",
+   "sha256_source": "7c7276a4b3026e8de43ae2238d1e9bca809fcdd09603f589794f455d878417e3"
+  },
+  {
+   "contest": "tap-2012",
+   "artifact": "web-mirror",
+   "path": "a/tap/tap-2012/web-mirror/20150921-wayback-932b9b03/page.html",
+   "url": "http://www.torneoprogramacion.com.ar/",
+   "fetched": "2026-09-07T19:19:24+00:00",
+   "sha256_source": "6a9ed1d17e063f0e5b547e0b70de07150a59352e85c7d2be0c5ea540216cebce"
+  },
+  {
+   "contest": "tap-2013",
+   "artifact": "web-mirror",
+   "path": "a/tap/tap-2013/web-mirror/20150921-wayback-932b9b03/page.html",
+   "url": "http://www.torneoprogramacion.com.ar/",
+   "fetched": "2026-09-07T19:19:28+00:00",
+   "sha256_source": "6a9ed1d17e063f0e5b547e0b70de07150a59352e85c7d2be0c5ea540216cebce"
+  },
+  {
+   "contest": "tap-2013",
+   "artifact": "web-mirror",
+   "path": "a/tap/tap-2013/web-mirror/20241224-wayback-163c14b8/page.html",
+   "url": "http://icpc.com.ar/",
+   "fetched": "2026-09-07T19:19:42+00:00",
+   "sha256_source": "c9eb344aa1fd96de88982f80463a8165b94a9da5ac040341b87da6225cf6d0e4"
+  },
+  {
    "contest": "tap-2015",
    "artifact": "standings",
    "path": "a/tap/tap-2015/standings/20151005-wayback-2cc442ed/page.html",
@@ -37771,12 +39035,92 @@
    "sha256_source": "5fd28e12d0d6b61232b4f1a52dc03ee819c43feeecd1fa082e7a502010da5504"
   },
   {
+   "contest": "tap-2015",
+   "artifact": "standings",
+   "path": "a/tap/tap-2015/standings/20261020-live-8b0ed47a/page.html",
+   "url": "https://www.dc.uba.ar/resultados-del-torneo-argentino-de-programacion-tap-2015/",
+   "fetched": "2026-10-21T04:08:13+00:00",
+   "sha256_source": "84c0eafc8424e379d804aea31fc9fd1da6d85e241c915a41ae1fec4f2ee71485"
+  },
+  {
+   "contest": "tap-2016",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2016/problemset/20230925-wayback-3aa9ab76/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/101881",
+   "fetched": "2026-09-07T19:20:22+00:00",
+   "sha256_source": "b46f07f29887498ed9b818b3c48967350c68571a5c041ffcc7e35490caeb3a9f"
+  },
+  {
+   "contest": "tap-2017",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2017/problemset/20230925-wayback-9b9dda41/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/101811",
+   "fetched": "2026-09-07T19:20:09+00:00",
+   "sha256_source": "deeb2f3f172602d3e4f2be5207209cd94ab1cbe1ba1599fc418e08d28ac7633e"
+  },
+  {
+   "contest": "tap-2018",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2018/problemset/20230925-wayback-5fd7a0d5/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/101919",
+   "fetched": "2026-09-07T19:20:09+00:00",
+   "sha256_source": "c14de84ae5d7f57686834e84d39b7b9eb42809ac1e3684e03443a594573f2633"
+  },
+  {
+   "contest": "tap-2019",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2019/problemset/20230925-wayback-0802eb9d/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/102363",
+   "fetched": "2026-09-07T19:20:20+00:00",
+   "sha256_source": "acf43709711329ca0d33a20e6bacee666e7b953f6cac755a6d9d06d89bf95e0d"
+  },
+  {
+   "contest": "tap-2021",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2021/problemset/20230925-wayback-f5c7a02d/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/103388",
+   "fetched": "2026-09-07T19:20:14+00:00",
+   "sha256_source": "d517787bfa2dabd26f14f25a9a5cefe17949bd6e01d81e15a044374ea41503fb"
+  },
+  {
+   "contest": "tap-2022",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2022/problemset/20230925-wayback-e7bf2f2f/page.html",
+   "url": "https://codeforces.com/group/YjFmW2O15Q/contest/103960",
+   "fetched": "2026-09-07T19:21:49+00:00",
+   "sha256_source": "9d10219fcee188e66159d28285c9f898657f63ff59b9c392890723ad32e7743a"
+  },
+  {
+   "contest": "tap-2024",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2024/problemset/20250823-wayback-e0a68b6d/page.html",
+   "url": "https://codeforces.com/gym/105321",
+   "fetched": "2026-09-07T19:20:02+00:00",
+   "sha256_source": "fda04e6b82f0d5aef80942bc9d994128f2fe38a696046d7278a7bafe42f122a6"
+  },
+  {
+   "contest": "tap-2025",
+   "artifact": "problemset",
+   "path": "a/tap/tap-2025/problemset/20250910-wayback-ac220daa/page.html",
+   "url": "https://codeforces.com/gym/106054",
+   "fetched": "2026-09-07T19:20:04+00:00",
+   "sha256_source": "be8c162ee530cc20b01ced94998800affc2918d18a2b5c899d3e5fedb2ae4906"
+  },
+  {
    "contest": "tap-2025",
    "artifact": "standings",
    "path": "a/tap/tap-2025/standings/20250826-wayback-bd6c75da/page.html",
    "url": "https://icpc.com.ar/resultados-tap-2025/",
    "fetched": "2026-09-07T16:46:21+00:00",
    "sha256_source": "2183e057e5c8c8d97edc484b649d40a3fb23cc07a05aa01bbb489efe37df80ef"
+  },
+  {
+   "contest": "tap-2025",
+   "artifact": "standings",
+   "path": "a/tap/tap-2025/standings/20261020-live-e95d244e/page.html",
+   "url": "https://icpc.com.ar/resultados-tap-2025/",
+   "fetched": "2026-10-21T04:08:13+00:00",
+   "sha256_source": "de4761dc812c279614300ef18eedeefa16439f159b50cb95d4374e5339a63a96"
   },
   {
    "contest": "taurida-2014",
@@ -38675,6 +40019,14 @@
    "sha256_source": "6c962ccbf6ae4cad59adb20c95dcd1f7c1b3f096e1d58a99b9109b0ba7922209"
   },
   {
+   "contest": "thailand-national-2025",
+   "artifact": "standings",
+   "path": "a/thailand-national/thailand-national-2025/standings/20261020-live-970ebf09/page.html",
+   "url": "https://codeforces.com/gym/106069/standings",
+   "fetched": "2026-10-21T04:08:41+00:00",
+   "sha256_source": "1fc60fde2f480ee30fc0e0609714a9be6f44ed68e2796dd66ec7b6b6e57d51b9"
+  },
+  {
    "contest": "thailand-2009",
    "artifact": "external-standings",
    "path": "a/thailand/thailand-2009/external-standings/2026-04-15-external/content.html",
@@ -38971,6 +40323,14 @@
    "sha256_source": "629a8b1160d88253f80577ebde164e3a4a7d570b2b7c949b11b71fba14ceb179"
   },
   {
+   "contest": "togo-2022",
+   "artifact": "problemset",
+   "path": "a/togo/togo-2022/problemset/20250812-wayback-82ab4b5f/page.html",
+   "url": "https://www.scribd.com/document/557514016/TogoCPC-P",
+   "fetched": "2026-09-07T19:19:57+00:00",
+   "sha256_source": "b2b1deddca8e418b2011a93f018517e27f17bf69ab8ef43d29642a5218100b95"
+  },
+  {
    "contest": "tunisia-2013",
    "artifact": "standings",
    "path": "a/tunisia/tunisia-2013/standings/api-20260904/standings.html",
@@ -39068,11 +40428,59 @@
   },
   {
    "contest": "tunisia-2024",
+   "artifact": "scoreboard",
+   "path": "a/tunisia/tunisia-2024/scoreboard/20261020-live-79909b07/TCPC.html",
+   "url": "https://acpcsb.acpc.global/TCPC2024/TCPC.html",
+   "fetched": "2026-10-21T04:08:45+00:00",
+   "sha256_source": "37163c00d660f433ed39ab39ffb19bff308a633f6562b7eb5741ef4c2aecaa2b"
+  },
+  {
+   "contest": "tunisia-2024",
    "artifact": "standings",
    "path": "a/tunisia/tunisia-2024/standings/20241107-wayback-b413803c/page.html",
    "url": "https://codeforces.com/blog/entry/135324",
    "fetched": "2026-09-07T16:46:25+00:00",
    "sha256_source": "b3b675b644a6790894ba2ba45d365ff550ce6cb770af91a03f687cac9fc36cb3"
+  },
+  {
+   "contest": "tunisia-2024",
+   "artifact": "standings",
+   "path": "a/tunisia/tunisia-2024/standings/20261020-live-4baed207/page.html",
+   "url": "https://codeforces.com/blog/entry/135324",
+   "fetched": "2026-10-21T04:08:46+00:00",
+   "sha256_source": "3a6d0ee04cd42c2f94497fd47f0ad766a038a59e72d1fb27de601f8054455908"
+  },
+  {
+   "contest": "tunisia-2024",
+   "artifact": "standings",
+   "path": "a/tunisia/tunisia-2024/standings/20261020-live-ed626b90/page.html",
+   "url": "https://codeforces.com/gym/105020/my",
+   "fetched": "2026-10-21T04:08:45+00:00",
+   "sha256_source": "c981c9697a3d61fbef8d47ed2d09f841dac0d54e03520a0719c61b4766ecab3b"
+  },
+  {
+   "contest": "tunisia-2024",
+   "artifact": "web-mirror",
+   "path": "a/tunisia/tunisia-2024/web-mirror/20240914-wayback-fa3dfac3/page.html",
+   "url": "https://www.polytecsousse.tn/tcpc-2k24/",
+   "fetched": "2026-09-07T19:19:01+00:00",
+   "sha256_source": "647ead155ff1b0b104e8c2188829f371134f83c4db800b278d4b8a091f2d9c51"
+  },
+  {
+   "contest": "tunisia-2024",
+   "artifact": "web-mirror",
+   "path": "a/tunisia/tunisia-2024/web-mirror/20241012-wayback-4f77fe33/page.html",
+   "url": "https://www.polytecsousse.tn/tcpc/",
+   "fetched": "2026-09-07T19:19:04+00:00",
+   "sha256_source": "2dfd1f0055cb7cc70333f228dc675f609e2973dfd005fd64d9cd1f384daaada6"
+  },
+  {
+   "contest": "tunisia-2025",
+   "artifact": "scoreboard",
+   "path": "a/tunisia/tunisia-2025/scoreboard/20261020-live-1c13fec2/TCPC.html",
+   "url": "https://acpcsb.acpc.global/TCPC2025/TCPC.html",
+   "fetched": "2026-10-21T04:08:46+00:00",
+   "sha256_source": "1bf5be1c151808cc6b8ba50fb5db58cc3be38d9cad3eaa01dad68c228a78e58f"
   },
   {
    "contest": "tunisia-2025",
@@ -39083,12 +40491,44 @@
    "sha256_source": "59320327c80ad1dfa246fb9dbe8ed97df55f4251f0807828e75ec82a900e76b4"
   },
   {
+   "contest": "tunisia-2025",
+   "artifact": "standings",
+   "path": "a/tunisia/tunisia-2025/standings/20261020-live-9a8859cf/page.html",
+   "url": "https://codeforces.com/blog/entry/145458",
+   "fetched": "2026-10-21T04:08:47+00:00",
+   "sha256_source": "e33e49afbe5999ee6799006ed91929f0d6d16665f372985e013fb1f0b31eb40d"
+  },
+  {
+   "contest": "tunisia-2025",
+   "artifact": "web-mirror",
+   "path": "a/tunisia/tunisia-2025/web-mirror/20250812-wayback-5e15e255/page.html",
+   "url": "https://www.polytecsousse.tn/tcpc-2k25/",
+   "fetched": "2026-09-07T19:19:06+00:00",
+   "sha256_source": "11d039c6305c2bc4e973ff61b6ea1eaad8d8a40a47d2cec25fc203f70d2ebb03"
+  },
+  {
    "contest": "tunisia-2026",
    "artifact": "standings",
    "path": "a/tunisia/tunisia-2026/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/TCPC-2027/standings",
    "fetched": "2026-04-26",
    "sha256_source": "76de9cfc58bdc7740892d22d38f01d38105ade147a8ba99adbc65dc65399abd6"
+  },
+  {
+   "contest": "turkey-2010",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2010/web-mirror/20190626-wayback-96992554/page.html",
+   "url": "https://codeforces.com/blog/inzva",
+   "fetched": "2026-09-07T19:19:49+00:00",
+   "sha256_source": "02ac64c063170b98289d66d756cf61c8033fbab9428b5273096ea4aefa4bdec4"
+  },
+  {
+   "contest": "turkey-2010",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2010/web-mirror/20191016-wayback-7e9d67a8/page.html",
+   "url": "https://inzva.com/reports/2019/turkish-programming-contest",
+   "fetched": "2026-09-07T19:19:16+00:00",
+   "sha256_source": "d2dc1dd286565592e2a77f87b0ff02bf0f5eac5acf9e685335b7e22398cc5623"
   },
   {
    "contest": "turkey-2019",
@@ -39123,12 +40563,84 @@
    "sha256_source": "69b858b5632541298bd8611090778b0ab6db45b494bfd8aab02a66eb9df4447d"
   },
   {
+   "contest": "turkey-2020",
+   "artifact": "scoreboard",
+   "path": "a/turkey/turkey-2020/scoreboard/20261020-live-501bf7f2/page.html",
+   "url": "https://algotester.com/en/Contest/ViewScoreboard/60350",
+   "fetched": "2026-10-21T04:08:47+00:00",
+   "sha256_source": "e900a097a7aebe9076a9869250c55554f7e563c204e61cd8ae1c4a0f0b33fe46"
+  },
+  {
+   "contest": "turkey-2020",
+   "artifact": "scoreboard",
+   "path": "a/turkey/turkey-2020/scoreboard/20261020-live-8e41a29d/page.html",
+   "url": "https://algotester.com/en/Contest/ViewScoreboard/60345",
+   "fetched": "2026-10-21T04:08:46+00:00",
+   "sha256_source": "bf16b408d0a14726f72a816da286e731e430a9c9987724d4aaad06654a4e3cc3"
+  },
+  {
+   "contest": "turkey-2020",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2020/web-mirror/20240819-wayback-8ea45549/page.html",
+   "url": "https://inzva.com/reports/2020/online-programming-contest-2020",
+   "fetched": "2026-09-07T19:19:00+00:00",
+   "sha256_source": "bd361a20ebe753535994d02aa177c3180eaff2ccfc9cc352c35fdf08da1e4d88"
+  },
+  {
+   "contest": "turkey-2021",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2021/web-mirror/20221124-wayback-b95d7c29/page.html",
+   "url": "https://inzva.com/reports/2021/online-programming-contest-for-universities-2021-report",
+   "fetched": "2026-09-07T19:19:12+00:00",
+   "sha256_source": "dc1e6dfb707b1f1650e72db1c52ecfc74e27c5a8d96410501d0249a9779a3db1"
+  },
+  {
    "contest": "turkey-2022",
    "artifact": "scoreboard",
    "path": "a/turkey/turkey-2022/scoreboard/20220917-wayback-479faec7/page.html",
    "url": "https://www.algoleague.com/contest/online-programming-contest-2022/leaderboard",
    "fetched": "2026-09-07T16:46:18+00:00",
    "sha256_source": "db3a0a9cf929e1f577446c960df986d5557346de0a8fef62f38eaa04afc0d8e8"
+  },
+  {
+   "contest": "turkey-2022",
+   "artifact": "scoreboard",
+   "path": "a/turkey/turkey-2022/scoreboard/20261020-live-ec76889f/page.html",
+   "url": "https://www.algoleague.com/contest/online-programming-contest-2022/leaderboard",
+   "fetched": "2026-10-21T04:08:47+00:00",
+   "sha256_source": "b5d1dd37a3c08b01744534c2f0cbf1c893b71591599de7320a56321f44995cda"
+  },
+  {
+   "contest": "turkey-2022",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2022/web-mirror/20240404-wayback-b5e8adb6/page.html",
+   "url": "https://inzva.com/reports/2022/online-programming-contest-2022",
+   "fetched": "2026-09-07T19:19:02+00:00",
+   "sha256_source": "a55311c8c213e3020bfa1fdb15f48708ac604dd88c31ce463fd3488bbef766ce"
+  },
+  {
+   "contest": "turkey-2022",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2022/web-mirror/20240722-wayback-a63a16b1/page.html",
+   "url": "https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva",
+   "fetched": "2026-09-07T19:19:14+00:00",
+   "sha256_source": "6956cd3a0e31a0270d8f0dae9fb174735d3206ec65b5cb2804cf49c11add4402"
+  },
+  {
+   "contest": "turkey-2023",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2023/web-mirror/20240416-wayback-dd6a6554/page.html",
+   "url": "https://w3.cs.bilkent.edu.tr/news/bilkent-university-excels-in-inzvas-online-programming-contest-2023/",
+   "fetched": "2026-09-07T19:19:08+00:00",
+   "sha256_source": "8c64c0026ef8c44ccec7d26c182b670c5d57eeb0229b3e27b8bf9cbb8f31d030"
+  },
+  {
+   "contest": "turkey-2023",
+   "artifact": "web-mirror",
+   "path": "a/turkey/turkey-2023/web-mirror/20240503-wayback-dfd566a9/page.html",
+   "url": "https://www.algoleague.com/contest/online-programming-contest-2023/leaderboard",
+   "fetched": "2026-09-07T19:19:10+00:00",
+   "sha256_source": "cb0d85645ee01c4b26426e5e28bc7dfa628e6050996ffba376f6dafbf2e84010"
   },
   {
    "contest": "turkmenistan-2025",
@@ -39747,6 +41259,46 @@
    "sha256_source": "63b8f0a6444af592de25d3fa1f57bf12f774e0d48367b4064a18d9f7c3c4700a"
   },
   {
+   "contest": "ukraine-2023",
+   "artifact": "web-mirror",
+   "path": "a/ukraine/ukraine-2023/web-mirror/20241206-wayback-b2b9cfce/page.html",
+   "url": "https://icpc.algotester.com/en/Contest/ViewScoreboard/1",
+   "fetched": "2026-09-07T19:19:03+00:00",
+   "sha256_source": "21a8ca65fbc8f8e7c09b308d6ea05f677f5fd75150fe45ea3fb9b657f5cc56e3"
+  },
+  {
+   "contest": "ukraine-2024",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2024/standings/20261020-live-3c92495b/page.html",
+   "url": "https://icpc.algotester.com/uk/Contest/ViewScoreboard/2?group=2&groupEx=19",
+   "fetched": "2026-10-21T04:08:50+00:00",
+   "sha256_source": "71d67c36f40a7f2ea1f837cf9fc468c7ed894e6576da741c3c88c3fd00f8f0f8"
+  },
+  {
+   "contest": "ukraine-2024",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2024/standings/20261020-live-8d2bc90f/page.html",
+   "url": "https://icpc.algotester.com/en/Contest/ViewScoreboard/3?group=1&groupEx=30",
+   "fetched": "2026-10-21T04:08:50+00:00",
+   "sha256_source": "19748a300857e08d92a5a52763dd887f5315328191710f3ff438fb8a88c7eb83"
+  },
+  {
+   "contest": "ukraine-2024",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2024/standings/20261020-live-f580871f/page.html",
+   "url": "https://icpc.algotester.com/uk/Contest/ViewScoreboard/4?group=2",
+   "fetched": "2026-10-21T04:08:49+00:00",
+   "sha256_source": "6131b0ca327ff4c5c08dad0a051db76a7ed75d3e3f37f48f09fdb1e9f3dfa23e"
+  },
+  {
+   "contest": "ukraine-2025",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2025/standings/20260124-wayback-03377d25/page.html",
+   "url": "https://icpc2025.algotester.com/uk/Contest/ViewScoreboard/30022",
+   "fetched": "2026-09-07T19:19:04+00:00",
+   "sha256_source": "e3155ae94346f00ad8be9febf81eb5788ac5a1306cfd15e6872987b8919b596e"
+  },
+  {
    "contest": "ukraine-2025",
    "artifact": "standings",
    "path": "a/ukraine/ukraine-2025/standings/20260124-wayback-0ddb9c0b/page.html",
@@ -39761,6 +41313,46 @@
    "url": "https://icpc2025.algotester.com/uk/Contest/ViewScoreboard/20019?showUnofficial=False",
    "fetched": "2026-09-07T16:46:02+00:00",
    "sha256_source": "de04f3aa5e2da3b1b742276f0eedddfd3347d4812a3850861e3c0bf3647b85db"
+  },
+  {
+   "contest": "ukraine-2025",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2025/standings/20261020-live-0986fce2/page.html",
+   "url": "https://icpc2025.algotester.com/uk/Contest/ViewScoreboard/30022",
+   "fetched": "2026-10-21T04:08:50+00:00",
+   "sha256_source": "76c9fc1fdc9be280972d72c418d3530432ca6b146129ca33fff67c189a14af6e"
+  },
+  {
+   "contest": "ukraine-2025",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2025/standings/20261020-live-57433666/page.html",
+   "url": "https://icpc2025.algotester.com/uk/Contest/ViewScoreboard/10014?showUnofficial=False",
+   "fetched": "2026-10-21T04:08:49+00:00",
+   "sha256_source": "53c5a01d2ef56a68dc868f3d845cfd58d5de4b54fb18cbfa1a76e545c0f16e70"
+  },
+  {
+   "contest": "ukraine-2025",
+   "artifact": "standings",
+   "path": "a/ukraine/ukraine-2025/standings/20261020-live-d0f39b02/page.html",
+   "url": "https://icpc2025.algotester.com/uk/Contest/ViewScoreboard/20019?showUnofficial=False",
+   "fetched": "2026-10-21T04:08:48+00:00",
+   "sha256_source": "b78f1e2fe9c1be87e877590c0fa2572e1afeb1ea44627b54fef452588d1878a6"
+  },
+  {
+   "contest": "urals-1998",
+   "artifact": "web-mirror",
+   "path": "a/urals/urals-1998/web-mirror/20201024-wayback-ad89c8f2/ural_neerc.html",
+   "url": "https://sp.urfu.ru/history/ural_neerc.html",
+   "fetched": "2026-09-07T19:20:01+00:00",
+   "sha256_source": "1cdef0b6cdf335fcdae5a209b3cc66655d64796279c9b6b29688416ad2b79f26"
+  },
+  {
+   "contest": "urals-2001",
+   "artifact": "web-mirror",
+   "path": "a/urals/urals-2001/web-mirror/20180921-wayback-aab3de91/Vasilev_VN__Kazakov_MA__Korneev_GA__Parfenov_VG__Stankevich_AS_--_NEERC_2001.pdf",
+   "url": "https://www.kgeorgiy.info/papers/Vasilev_VN__Kazakov_MA__Korneev_GA__Parfenov_VG__Stankevich_AS_--_NEERC_2001.pdf",
+   "fetched": "2026-09-07T19:20:03+00:00",
+   "sha256_source": "7c8cd95cdf5804128f0834b068d1259def6b6674e9733ea44700db626f29ad83"
   },
   {
    "contest": "urals-2003",
@@ -41579,6 +43171,54 @@
    "sha256_source": "f03adba718d1299eb117ac8b8146ac10257171005197ff0a989f84039f18e895"
   },
   {
+   "contest": "werc-1994",
+   "artifact": "problemset",
+   "path": "a/werc/werc-1994/problemset/20000129-wayback-aac98f33/index.html",
+   "url": "http://www.karrels.org/Ed/ACM/weur94/index.html",
+   "fetched": "2026-09-07T19:20:09+00:00",
+   "sha256_source": "bd9d8489e7336442da6f03ed29f80261a47d3d3500007c61ad20d3002e29aecc"
+  },
+  {
+   "contest": "west-neerc-1998",
+   "artifact": "web-mirror",
+   "path": "a/west-neerc/west-neerc-1998/web-mirror/20150427-wayback-1a3fdff9/page.html",
+   "url": "https://acm.bsu.by/",
+   "fetched": "2026-09-07T19:20:06+00:00",
+   "sha256_source": "ab6c88dccf5e3a292e9d293e3297a56e2376372051dc0771c743953c82592e13"
+  },
+  {
+   "contest": "west-neerc-1999",
+   "artifact": "web-mirror",
+   "path": "a/west-neerc/west-neerc-1999/web-mirror/20150427-wayback-1a3fdff9/page.html",
+   "url": "https://acm.bsu.by/",
+   "fetched": "2026-09-07T19:20:07+00:00",
+   "sha256_source": "ab6c88dccf5e3a292e9d293e3297a56e2376372051dc0771c743953c82592e13"
+  },
+  {
+   "contest": "west-neerc-2000",
+   "artifact": "web-mirror",
+   "path": "a/west-neerc/west-neerc-2000/web-mirror/20150427-wayback-1a3fdff9/page.html",
+   "url": "https://acm.bsu.by/",
+   "fetched": "2026-09-07T19:20:00+00:00",
+   "sha256_source": "ab6c88dccf5e3a292e9d293e3297a56e2376372051dc0771c743953c82592e13"
+  },
+  {
+   "contest": "west-neerc-2002",
+   "artifact": "web-mirror",
+   "path": "a/west-neerc/west-neerc-2002/web-mirror/20050118-wayback-9388ff7d/western.html",
+   "url": "https://neerc.ifmo.ru/subregions/western.html",
+   "fetched": "2026-09-07T19:19:21+00:00",
+   "sha256_source": "944526d102614016742877d262c3d1166c080169362fb7ad683b376f6eed3755"
+  },
+  {
+   "contest": "west-neerc-2002",
+   "artifact": "web-mirror",
+   "path": "a/west-neerc/west-neerc-2002/web-mirror/20150427-wayback-1a3fdff9/page.html",
+   "url": "https://acm.bsu.by/",
+   "fetched": "2026-09-07T19:19:08+00:00",
+   "sha256_source": "ab6c88dccf5e3a292e9d293e3297a56e2376372051dc0771c743953c82592e13"
+  },
+  {
    "contest": "west-neerc-2003",
    "artifact": "standings",
    "path": "a/west-neerc/west-neerc-2003/standings/20191105-wayback-04599c50/standings.html",
@@ -42361,6 +44001,22 @@
    "url": "https://acm.bsu.by/contests/282/standings/",
    "fetched": "2026-09-01T08:36:23+00:00",
    "sha256_source": "f0796bc141010c3e9c6adab557309176c39cc75162658642320fa7f2df94290e"
+  },
+  {
+   "contest": "west-siberia-1999",
+   "artifact": "web-mirror",
+   "path": "a/west-siberia/west-siberia-1999/web-mirror/20010309-wayback-e6c8fa29/page.html",
+   "url": "https://olymp.nstu.ru/",
+   "fetched": "2026-09-07T19:21:26+00:00",
+   "sha256_source": "9a8df11cf7966a2e06a31b5f08a704c861e8c1ba7a43dff9ab0691e24094c604"
+  },
+  {
+   "contest": "west-siberia-1999",
+   "artifact": "web-mirror",
+   "path": "a/west-siberia/west-siberia-1999/web-mirror/20050118-wayback-431eb5ae/west-siberian.html",
+   "url": "https://neerc.ifmo.ru/subregions/west-siberian.html",
+   "fetched": "2026-09-07T19:21:06+00:00",
+   "sha256_source": "71ae2b1100d765219244199466d78017dc0cc3dfda97aba1d425b294f856e80f"
   },
   {
    "contest": "west-siberia-2003",
@@ -43533,6 +45189,14 @@
   {
    "contest": "wf-2000",
    "artifact": "standings",
+   "path": "a/wf/wf-2000/standings/20010519-wayback-e4f585bc/Standings00.htm",
+   "url": "http://acm.baylor.edu/acmicpc/about/Standings00.htm",
+   "fetched": "2026-10-21T05:00:04+00:00",
+   "sha256_source": "702e3c2bc29edc5822936ee2a1b4c1dd95d8f2430374f1935f31f63787a18cea"
+  },
+  {
+   "contest": "wf-2000",
+   "artifact": "standings",
    "path": "a/wf/wf-2000/standings/20211023-wayback-d861c51f/page.html",
    "url": "https://cphof.org/standings/icpc/2000",
    "fetched": "2026-09-01T17:25:50+00:00",
@@ -44476,6 +46140,14 @@
   },
   {
    "contest": "xian-2022",
+   "artifact": "scoreboard",
+   "path": "a/xian/xian-2022/scoreboard/20261020-live-73849cae/page.html",
+   "url": "https://board.xcpcio.com/icpc/47th/xian",
+   "fetched": "2026-10-21T04:09:33+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
+  },
+  {
+   "contest": "xian-2022",
    "artifact": "standings",
    "path": "a/xian/xian-2022/standings/20200204-wayback-35428d93/page.html",
    "url": "http://icpc.nwpu.edu.cn",
@@ -44497,6 +46169,14 @@
    "url": "https://board.xcpcio.com/icpc/48th/xian",
    "fetched": "2026-09-07T16:46:12+00:00",
    "sha256_source": "d9b6e23177cac5183e92af1805bf54b05819654e810bde74700f2db183435750"
+  },
+  {
+   "contest": "xian-2023",
+   "artifact": "scoreboard",
+   "path": "a/xian/xian-2023/scoreboard/20261020-live-17ef7143/page.html",
+   "url": "https://board.xcpcio.com/icpc/48th/xian",
+   "fetched": "2026-10-21T04:09:32+00:00",
+   "sha256_source": "e0e25101cf5fbec722f355017303722c9ebaf8a2017527c6dfc2d5f9609cf0b2"
   },
   {
    "contest": "xian-2023",

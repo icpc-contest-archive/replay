@@ -1,0 +1,658 @@
+body {
+    color: #333333;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0pt;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.sparse {
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+ul.incell {
+    margin-left: 15pt;
+}
+
+table, td, tr {
+    border: none;
+    vertical-align: top;
+
+    padding: 0px;
+    margin: 0px;
+
+    text-align: justify;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.c {
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+.maintext {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+/* Links and menu style  */
+
+td.menutop {
+    background-color: #F9F9F0;
+    text-align: center;
+}
+
+td.menuleftbullet {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menuleftcap {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: small;
+
+    color: #325A9A;
+    background-color: #EDF2F9;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.menutop {
+    color: #325A9A;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: x-small;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+a.menutop:hover {
+    color: #FFFFFF;
+    background-color: #628ACA;
+}
+
+a.menuleft
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: none;
+
+    color: #325A9A;
+
+    padding-left: 5px;
+    padding-right: 10px;
+
+    width: 250px;
+}
+
+a.menuleft:hover
+{
+    color: #FFFFFF;
+    background-color: #628ACA;
+}
+
+a {
+    color: #325A9A;
+}
+
+a:hover {
+    color: #123A7A;
+    background-color: #E2EAFA;
+}
+
+img {
+    border: none;
+}
+
+a.top {
+    color: #B2BADA;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a.top:hover {
+    color: #FFFFFF;
+    background-color: #E2EAFA;
+}
+
+/* End of links and menus style */
+
+
+/* Decoration elements */
+
+table.wrapper {
+    width: 100%;
+    height: 100%;
+}  
+
+.borderlineh {
+    background-color: #224A8A;
+}
+
+.borderlinev {
+    background-color: #E2EAFA;
+/*    background-color: #224A8A;*/
+}
+
+hr {
+    width: 100%;
+    border: 0px;
+    background-color: #224A8A;
+    height: 1px;
+}
+/* End of decoration elements */
+
+/* Welcome page */
+
+table.home-welcome {
+    width: 100%;
+}
+
+.welcome-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #325A9A;
+
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+td.sponsors {
+    width: 25%;
+    text-align: center;
+}
+
+td.sponsor {
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 5pt;
+    padding-right: 5pt;
+
+}
+
+td.itopic {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+td.itopicfin {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+table.ifinwrapper {
+    width: 80%;
+}
+
+/* End of welcome page */
+
+/* Finalists page */
+
+table.finalists {
+    border: silver 1px solid;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+table.winners {
+    border: silver 1px solid;
+    border-collapse: collapse;
+    margin-left: 20pt;
+}
+
+table.fminfo {
+    border: silver 1px solid;
+    border-collapse: collapse;
+}
+
+th.fin {
+    border: silver 1px solid;
+}
+
+td.fyear {
+    text-align: center;
+    font-weight: bold;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.fparty {
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.fsolved {
+    text-align: center;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.frank {
+    text-align: center;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.fmore {
+    text-align: center;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+tr.gold {
+    background-color: #ffffe0;
+}
+
+tr.silver {
+    background-color: #e8f8ff;
+}
+
+tr.bronze {
+    background-color: #fff0e0;
+}
+
+/* End of finalists page */
+
+/* Information pages */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: left;
+    color: #325A9A;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: #325A9A;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: left;
+    color: #325A9A;
+}
+
+/* End of information pages */
+
+/* Outcomes table */
+
+table.outcomes {
+    border: silver 1px solid;
+    border-collapse: collapse;
+    margin-top: 10pt;
+}
+
+th.otc {
+    border: silver 1px solid;
+}
+
+td.ocap {
+    text-align: left;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.ocomm {
+    text-align: left;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.otest {
+    text-align: center;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+/* End of outcomes table */
+
+/* Registration rules table */
+
+table.reg {
+    border: silver 1px solid;
+    border-collapse: collapse;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+td.ritem, td.rscomm {
+    text-align: left;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+td.rstep {
+    font-weight: bold;
+
+    text-align: left;
+    border: silver 1px solid;
+    padding: 2pt;
+}
+
+/* End of registration rules table */
+
+/* News table */
+
+td.newsdate {
+    padding: 2pt;
+}
+
+td.newscont {
+    padding: 2pt;
+}
+
+/* End of news table */
+
+/* Images table */
+
+table.images {
+    border: silver 1px solid;
+    border-collapse: collapse;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td.image {
+    text-align: center;
+    border: silver 1px solid;
+
+    padding: 5px;
+}
+
+/* End of images table */
+
+/* Subregion information */
+
+table.subrinfo, table.subrpcp {
+    border-collapse: collapse;
+
+    width: 95%;
+}
+
+td.subrinfovar {
+    font-weight: bold;
+
+    width: 20%;
+
+    padding: 2px;
+}
+
+td.subrinfoval {
+    padding: 2px;
+}
+
+/* End of subregion information */
+
+/* Resourses */
+
+table.resr {
+    border-collapse: collapse;
+    border: silver 1px solid;
+
+    width: 95%;
+}
+
+td.resr {
+    border: silver 1px solid;
+    width: 30%;
+
+    padding: 2px;
+}
+
+td.resrcomm {
+    border: silver 1px solid;
+    width: 70%;
+
+    padding: 2px;
+}
+
+/* End of resourses */
+
+/* Contacts */
+
+table.cnt {
+    border-collapse: collapse;
+
+    width: 95%;
+}
+
+td.cnt-role {
+    font-weight: bold;
+
+    padding: 2px;
+}
+
+td.cnt-person, td.cnt-pos, td.cnt-com {
+    padding: 2px;
+}
+
+td.cnt-val {
+    padding: 2px;
+}
+
+td.cnt-cmm {
+    text-align: right;
+    padding: 2px;
+    padding-right: 10px;
+}
+
+td.cnt-skip {
+    border: none;
+    height: 20px;
+
+    padding: 2px;
+}
+
+/* End of contacts */
+
+/* Links */
+li.link {
+    padding: 2pt;  
+}
+/* End of links */
+
+/* Past */
+table.past {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    width: 60%;
+    padding: 2px;
+}
+
+td.neercyear, td.neercprob, td.neercres {
+    border: 1px solid silver;
+    padding: 2px;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+/* End of past */
+
+/* Selection rules */
+table.selt {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    width: 60%;
+    padding: 2px;
+}
+
+tr.seltno {
+    color: black;
+}
+
+tr.seltsh {
+    color: silver;
+}
+
+td.selttt {
+    border: 1px solid silver;
+    padding: 2px;
+    padding-left: 5px;
+    width: 50%;
+    text-align: left;
+}
+
+td.seltts {
+    border: 1px solid silver;
+    padding: 2px;
+    width: 10%;
+    text-align: center;
+}
+
+td.selttp {
+    border: 1px solid silver;
+    padding: 2px;
+    padding-right: 10px;
+    width: 10%;
+    text-align: right;
+}
+
+th.selt {
+    border: 1px solid silver;
+}
+
+table.quotas {
+    border: 1px silver solid;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td.qh {
+    border: 1px silver solid;
+    text-align: left;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+td.qhcount {
+    border: 1px silver solid;
+    text-align: center;
+    width: 10%;
+    padding: 2px;
+}
+
+td.qhcount2 {
+    border: 1px silver solid;
+    width: 10%;
+    text-align: center;
+    padding: 2px;
+}
+
+table.qint {
+    border: none;
+    border-collapse: collapse;
+    padding:0px;
+}
+
+table.clndr {
+    border: 1px silver solid;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td.clndr, th.clndr {
+    border: 1px silver solid;
+    padding: 5px;
+}
+
+td.clndrdate {
+    border: 1px silver solid;
+    width: 30%;
+    padding: 5px;
+}
+
+td.clndrsh {
+    border: 1px silver solid;
+    color: silver;
+    padding: 5px;
+}
+
+/* End of selection rules */
+
+/* Teams table */
+table.teamssummary {
+	width: 300;
+	border: silver 1pt solid;
+	border-collapse: collapse;
+}
+
+table.teams {
+	width: 90%;
+	border: silver 1pt solid;
+	border-collapse: collapse;
+}
+
+td.tm {
+	border: silver 1pt solid;
+	padding: 2pt;
+	width: 33%;
+}
+
+td.th {
+	border: silver 1pt solid;
+	font-weight: bold;
+	padding: 2pt;
+}
+/* End of teams table */
+
+/* Time table */
+table.ttable {
+	width: 90%;
+	border: silver 1pt solid;
+	border-collapse: collapse;
+}
+
+td.day {
+	border: silver 1pt solid;
+	padding: 2pt;
+	font-family: arial;
+	font-weight: bold;
+}
+
+td.event {
+	border: silver 1pt solid;
+	padding: 2pt;
+}
+/* End of time table */

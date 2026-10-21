@@ -1,0 +1,95 @@
+body,div,table,thead,tbody,tfoot,tr,th,td,p { 
+    font-family:"Arial"; font-size:small;
+    color:#ffffff; 
+}
+
+a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+comment { display:none;  } 
+
+tr:nth-child(odd) {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(56,162,178), rgb(52,70,108)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(56,162,178), rgb(52,70,108)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(56,162,178), rgb(52,70,108)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(56,162,178), rgb(52,70,108)); /* Standard syntax */
+}
+
+tr:nth-child(even) {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(96,202,218), rgb(92,110,148)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(96,202,218), rgb(92,110,148)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(96,202,218), rgb(92,110,148)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(96,202,218), rgb(92,110,148)); /* Standard syntax */
+}
+
+
+
+tr:nth-child(odd) td.bred {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(154,20,20), rgb(54,20,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(154,20,20), rgb(54,20,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(154,20,20), rgb(54,20,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(154,20,20), rgb(54,20,20)); /* Standard syntax */
+}
+
+tr:nth-child(even) td.bred {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(224,20,20), rgb(124,20,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(224,20,20), rgb(124,20,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(224,20,20), rgb(124,20,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(224,20,20), rgb(124,20,20)); /* Standard syntax */
+    
+}
+
+tr:nth-child(odd) td.bgreen {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(20,154,20), rgb(20,54,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(20,154,20), rgb(20,54,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(20,154,20), rgb(20,54,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(20,154,20), rgb(20,54,20)); /* Standard syntax */
+}
+
+tr:nth-child(even) td.bgreen {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(20,224,20), rgb(20,124,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(20,224,20), rgb(20,124,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(20,224,20), rgb(20,124,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(20,224,20), rgb(20,124,20)); /* Standard syntax */
+    
+}
+
+tr:nth-child(odd) td.byellow {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(154,154,20), rgb(54,54,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(154,154,20), rgb(54,54,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(154,154,20), rgb(54,54,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(154,154,20), rgb(54,54,20)); /* Standard syntax */
+}
+
+tr:nth-child(even) td.byellow {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(224,224,20), rgb(124,124,20)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(224,224,20), rgb(124,124,20)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(224,224,20), rgb(124,124,20)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(224,224,20), rgb(124,124,20)); /* Standard syntax */
+    
+}		
+
+tr:nth-child(odd) td.bblue {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(20,20,154), rgb(20,20,54)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(20,20,154), rgb(20,20,54)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(20,20,154), rgb(20,20,54)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(20,20,154), rgb(20,20,54)); /* Standard syntax */
+}
+
+tr:nth-child(even) td.bblue {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(20,20,224), rgb(20,20,124)); /* For Safari 5.1 to 6.0 */
+    background:      -o-linear-gradient(rgb(20,20,224), rgb(20,20,124)); /* For Opera 11.1 to 12.0 */
+    background:    -moz-linear-gradient(rgb(20,20,224), rgb(20,20,124)); /* For Firefox 3.6 to 15 */
+    background:         linear-gradient(rgb(20,20,224), rgb(20,20,124)); /* Standard syntax */
+    
+}
+

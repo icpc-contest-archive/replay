@@ -94,6 +94,39 @@ def apply_assets(raw: bytes, manifest: dict, src_dir, dest_dir) -> bytes:
     return raw
 
 
+# Wayback's own additions to a page fetched through its wrapper rather than id_
+# (the sheet-era 2026-04 captures and a few wrapper-URL live fetches): toolbar block,
+# scripts/stylesheets, wombat init, playback/archived-on comments. Stripped at bake so
+# the replay page is the resource, not Wayback's chrome around it; root-relative
+# /web/<ts>/ links are made absolute so they keep working off web.archive.org.
+_WB_JUNK = [
+    re.compile(rb"(?is)<!--\s*BEGIN WAYBACK TOOLBAR INSERT\s*-->.*?<!--\s*END WAYBACK TOOLBAR INSERT\s*-->"),
+    re.compile(rb"(?is)<script[^>]*(?:web-static\.archive\.org|archive\.org/_static/|/_static/js/)[^>]*>\s*</script>"),
+    re.compile(rb"(?is)<link[^>]*(?:web-static\.archive\.org|archive\.org/_static/|/_static/css/)[^>]*>"),
+    re.compile(rb"(?is)<script[^>]*>(?:(?!</script>).)*?(?:__wm\.(?:init|wombat|bt|rw)|wombat\.js|wbinfo\s*=)(?:(?!</script>).)*?</script>"),
+    re.compile(rb"(?is)<!--\s*playback timings.*?-->"),
+    re.compile(rb"(?is)<!--\s*FILE ARCHIVED ON .*?-->"),
+    re.compile(rb"(?is)<!--\s*(?:End )?Wayback Rewrite JS Include\s*-->"),
+]
+_WB_RELLINK = re.compile(rb"""(?i)((?:href|src|action)\s*=\s*["']?)(/web/\d{4,14}[a-z_]*/)""")
+_WRAP = re.compile(r"^https?://web\.archive\.org/web/(\d{4,14})(?:[a-z]{1,2}_?)?/+(.+)$", re.I)
+
+
+def strip_wayback(raw: bytes):
+    """-> (raw, stripped?)"""
+    before = raw
+    for rx in _WB_JUNK:
+        raw = rx.sub(b"", raw)
+    raw = _WB_RELLINK.sub(rb"\1https://web.archive.org\2", raw)
+    return raw, raw != before
+
+
+def unwrap(url: str):
+    m = _WRAP.match(url or "")
+    return (m.group(2) if m.group(2).startswith(("http://", "https://")) else "http://" + m.group(2),
+            m.group(1)) if m else (url, None)
+
+
 def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
     if raw[:2] in (b"\xff\xfe", b"\xfe\xff"):  # UTF-16: skip injection
         return raw
@@ -117,6 +150,7 @@ def main() -> int:
     index = json.loads((arch / "index.json").read_text())
 
     pages, total = [], 0
+    stats: dict = {}
     for cap in index["captures"]:
         if cap.get("content_caveat"):
             continue  # junk-flagged captures stay in the archive but are not published
@@ -137,12 +171,22 @@ def main() -> int:
             url = cap.get("url") or ""
             raw, _enc = to_utf8(raw, cap.get("content_type") or "", url)
             raw = apply_assets(raw, manifest, src.parent, dest.parent)
+            raw, stripped = strip_wayback(raw)
+            # resource model: a wrapper URL is (url, time), never the address shown
+            raw_url, inner_ts = unwrap(url)
+            if inner_ts and not cap.get("wayback_timestamp"):
+                cap = {**cap, "wayback_timestamp": inner_ts,
+                       "wayback_url": f"https://web.archive.org/web/{inner_ts}/{raw_url}"}
+            url = raw_url
+            if stripped:
+                stats["wayback chrome stripped"] = stats.get("wayback chrome stripped", 0) + 1
             canonical = f'<link rel="canonical" href="{html.escape(url, True)}">' if url else ""
             url_link = f'<a href="{html.escape(url, True)}">{html.escape(url[:80])}</a>' if url \
                 else "an ICPC result page"
             ts = cap.get("wayback_timestamp")
             if ts:
-                fetched = (f" (content as captured {ts[:4]}-{ts[4:6]}-{ts[6:8]} "
+                hm = f" {ts[8:10]}:{ts[10:12]}" if len(ts) >= 12 else ""
+                fetched = (f" (content as captured {ts[:4]}-{ts[4:6]}-{ts[6:8]}{hm} "
                            f"via the Wayback Machine)")
             else:
                 fetched = f" (fetched {cap['fetched'][:10]})" if cap.get("fetched") else ""
@@ -162,6 +206,8 @@ def main() -> int:
                       "path": "a/" + cap["path"], "url": cap.get("url"),
                       "fetched": cap.get("fetched"), "sha256_source": cap["sha256"]})
 
+    if stats:
+        print(stats)
     out = {"generated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
            "shard": 1, "pages": pages}
     (ROOT / "replay-index.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
