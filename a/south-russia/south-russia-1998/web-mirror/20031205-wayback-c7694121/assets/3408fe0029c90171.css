@@ -1,0 +1,103 @@
+FONT {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+TD {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+BODY {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+P {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+DIV {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+PRE {
+	FONT-FAMILY: Courier New, Courier; FONT-SIZE: 11px
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; HEIGHT: 18px
+}
+
+INPUT.radio {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; HEIGHT: 12px; WIDTH: 12px;
+}
+
+
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; HEIGHT: 18px
+}
+FORM {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.content {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.block-title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.storytitle {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.storycat {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.boxtitle {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #363636; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.boxcontent {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.option {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tiny {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+
+.teamslist tr td{
+	font-size:10pt;
+}
+.teamslist tr td a{
+	text-decoration : none;
+	font-size:10pt;
+}
+
+.teamslist tr td a:visited{
+	text-decoration : none;
+	font-size:10pt;
+}
+
+.teamslist tr td a:hover{
+	text-decoration : underline;
+	font-size:10pt;
+}
+.subheader{
+color:#000000;
+font-weight:bold;
+font-size:12pt	
+}
+
+.contenttext td{
+	font-size:10pt;
+	
+}

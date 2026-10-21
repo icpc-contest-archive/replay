@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://mcgill19.kattis.com/contests/mcgill19/rules">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+            <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="assets/efed676333b06dd3.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "f2b77a15fd5624e1c077ecea047ebe9735d258c0",
+                environment: "edu",
+                whitelistUrls: [
+                    /https?:\/\/mcgill19\.kattis\.com/                 ],
+                ignoreErrors: [
+                    "Non-Error exception captured",                     "Non-Error promise rejection captured",                    'ResizeObserver loop limit exceeded',                    'Can\'t find variable: zaloJSV2'                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'],                 autoSessionTracking: false,
+                integrations: [                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 1.0,
+                replaysSessionSampleRate: 0,                 replaysOnErrorSampleRate: 0,                 tracePropagationTargets: ["localhost", /https?:\/\/mcgill19\.kattis\.com/],             });
+                        Sentry.configureScope((scope) => scope.setTransactionName("contests_rules"));         })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rules &ndash; Kattis, 2019 ICPC NENA (Qubec) Regional Qualifier</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/300.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/300-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/400.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/400-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/700.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/merriweather/700-italic.css" rel="stylesheet">
+                <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/300.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/300-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/400.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/400-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/500.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/500-italic.css" rel="stylesheet">
+            <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/700.css" rel="stylesheet">
+        <link href="/assets/45ee1c6d5829549ca51118259436e200/@fontsource/ubuntu/700-italic.css" rel="stylesheet">
+    
+    <!-- DateRangePicker CSS -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/css/select2.css" rel="stylesheet">
+
+            <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, 2019 ICPC NENA (Qubec) Regional Qualifier">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+    
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="/css/7ed5029c14b633a359d151df8eee8d1d/style.css">
+    <style type="text/css">           :root {
+                      --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+              }
+
+         </style>
+
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+    
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner">Archived copy of <a href="https://mcgill19.kattis.com/contests/mcgill19/rules">https://mcgill19.kattis.com/contests/mcgill19/rules</a> (content as captured 2024-12-04 00:20 via the Wayback Machine) 
+part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
+(<a href="https://icpc-contest-archive.github.io/contests/contest/nena-north-2019.html">nena-north-2019</a>)  <a href="https://web.archive.org/web/20241204002049/https://mcgill19.kattis.com/contests/mcgill19/rules">wayback</a></div>
+
+
+
+
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="2019 ICPC NENA (Qubec) Regional Qualifier">
+                <img class="logo" src="/images/site-logo?v=200f9ac2e8f894fa7119399bfd31094d" alt="2019 ICPC NENA (Qubec) Regional Qualifier logo" />
+            </a>
+            <h4 class="logo-container-text">2019 ICPC NENA (Qubec) Regional Qualifier</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav>
+                <ul class="main_menu">
+                                                                    <li>
+                            <a  href="/contests/mcgill19/standings" class="main_menu-item main_menu-item_link  " title="Standings">
+                                                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Standings</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/contests/mcgill19/problems" class="main_menu-item main_menu-item_link  " title="Problems">
+                                                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Problems</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link  " title="Info">
+                                                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Info</span>
+                                                            </a>
+                        </li>
+                                                                    <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link  " title="Help">
+                                                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                                                <span class="main_menu-item_name ">Help</span>
+                                                            </a>
+                        </li>
+                                    </ul>
+            </nav>
+                    </div>
+    </div>
+</header>
+
+<div class="l-main_area">
+    
+
+    
+    <main class="flex flex-col grow content_padding">
+        
+
+
+
+<div class="top_bar ">
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+            <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <div class="breadcrumb top_bar-item">
+                                                                        <a href="/contests" class="breadcrumb-link">Contests</a><span class="breadcrumb-divider">/</span>
+                                                    <a href="/contests/mcgill19" class="breadcrumb-link">2019 ICPC NENA (Quebec) Regional Qualifier</a><span class="breadcrumb-divider">/</span>
+                                                                                    <span class="breadcrumb-current">
+                                                    Rules
+                                            </span>
+                </div>
+
+                            </div>
+
+            <div class="top_bar-section tooltip-right-container top_bar-section-small">
+
+                
+                
+        
+
+
+
+    
+
+                                    <a href="/login" class="button button-primary button-small">Log in</a>
+                            </div>
+        </div>
+    
+    
+        
+
+
+
+            
+    
+            
+
+    </div>
+
+        
+            <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/modules/banner.js"></script>
+    
+    
+
+    
+    
+            
+
+
+    
+        
+    <div class="flex justify-between items-center mb-8 mt-4">
+        <h1>2019 ICPC NENA (Quebec) Regional Qualifier</h1>
+        <div>
+                            
+    
+                    </div>
+    </div>
+
+
+    
+    
+    <div class="l-strip_list-gap strip-plain">
+        <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/modules/mobile_tabs.js"></script><nav class="tab-nav" data-mobile-select-classes="is-hidden@md"><a class="tab-nav-item " href="/contests/mcgill19" title="Contest">Contest</a><a class="tab-nav-item " href="/contests/mcgill19/standings" title="Standings">Standings</a><a class="tab-nav-item " href="/contests/mcgill19/problems" title="Problems">Problems</a><a class="tab-nav-item " href="/contests/mcgill19/teams" title="Teams">Teams</a><a class="tab-nav-item active" href="/contests/mcgill19/rules" title="Rules">Rules</a><div class="ml-auto flex"></div></nav>
+    </div>
+    <div class="l-strip_list">
+        <section class="strip">
+            <div class="strip-item">
+                <h1>Rules</h1>
+            </div>
+        </section>
+
+
+        <section class="strip strip-item">
+            <div class="w-full">
+                                    
+
+    <h2>Rank</h2>
+    <p>
+                                                         Your rank in the contest depends on how many problems you solve (column Slv. on the standings page).                            
+            
+                            Ties are broken using the total time it took you to solve the problems (column Time);
+                the final tie-breaker is the submission time of the last accepted submission.                        </p>
+
+            
+        <h3>Total time computation</h3>
+        <p>
+            The total time is defined as the sum of the submission times of your accepted submissions
+            (don&#039;t worry, there will be an example) and any penalty time for incorrect submissions.                             Only the submissions you have made to problems you solve contribute to your total time.                        Penalty time is computed as follows.
+            You get 
+                                                        
+            20 minutes of penalty time for each incorrect submission you make to a problem prior to solving it.
+            Penalty is given for all judgements except Accepted, Compile Error and Judge Error.        </p>
+                                     <p>Say a contestant has:<p>
+                <ul>
+                    <li>Two incorrect submissions to problem A before solving it 30 minutes into the contest.</li>
+                    <li>Three incorrect submissions to problem B, without ever solving it.</li>
+                    <li>One incorrect submission to problem C before solving it 45 minutes into the contest.</li>
+                </ul>
+            
+                                                                        <p>
+                                    The contestant has solved two problems.                                Since problem B was not solved, those incorrect submissions do not contribute to the total time.
+                Problem A contributes 30 + 2 × 20 minutes to the total time, and problem C contributes 45 + 1 × 20 minutes.
+                This gives us a total of 
+                                                        
+            2 hours and        15 minutes. For the purpose of computing time, the time of submission is rounded down to 
+    minutes.            </p>
+            
+                        <h3>Last accepted submission</h3>
+            <p>
+                                                            The final tie breaker, in case two contestants solved the same number of problems and have the same total time,
+                        is the time of the last accepted submission.                                        In other words, if A and B both solve 5 problems,
+                    and they both have total time 674, but A submitted her last accepted submission before B, then A places before B.                            </p>
+            
+<h2>Reading the standings</h2>
+    
+    <p>
+                    On the standings page there are circles with different colors:                            dark green, light green, red, or gray.            </p>
+
+    <ul>
+                    <li>Dark green means that you have solved the problem, and you were the first to do so.</li>
+            <li>Light green means that you have solved the problem.</li>
+                <li>Red means that you have submitted on the problem but all your submissions have been rejected.</li>
+        <li>Gray means that you have a submission to that problem, but the result (accept or reject) is pending.</li>
+        <li>No circle means that you have not submitted on that problem.</li>
+    </ul>
+
+    <p>The upper number to the right of the circle is the number of submissions.</p>
+    <ul>
+        <li>
+            For green circles: this is specifically the number up to and including your first accepted submission
+            (but not including any later submissions since they don&#039;t affect your score).        </li>
+        <li>For red circles: this is the number of rejected submissions that give you a penalty, so not including Compile Error and Judge Error.</li>
+        <li>
+            For gray circles: the number is actually two numbers (A + B).
+            The first has the same meaning as for the red circle, and the second is the number of still pending submission.        </li>
+    </ul>
+
+    <p>The lower number to the right of the circle is the time.</p>
+    <ul>
+        <li>For green circles: this is the time until you solved the problem.</li>
+        <li>For red and gray circles this number is not given.</li>
+    </ul>
+    <br> 
+
+                            </div>
+        </section>
+    </div>
+
+
+    </main>
+
+    
+
+
+
+    <footer class="l-footer ">
+        <span class="text-center text-sm">
+        <a href="/info/contact">Contact</a> |
+        <a href="https://status.kattis.com">System Status</a> |
+        <a rel="terms-of-service" href="/info/tos">Terms of Service</a> |
+        <a rel="privacy-policy" href="https://www.kattis.com/policies/privacy_policy.pdf">Privacy Policy</a>
+        </span>
+    </footer>
+
+</div>
+
+
+
+    <script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" type="module" src="/js/e7c853dff69f41ac236a02c21334ce5e/pages/contest/header.js"></script>
+<script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
+<script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
+
+
+
+        <script defer nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" src="https://status.kattis.com/embed/script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" nonce="c21e48b98a80870b41e9ea89d2a4324ecf196d8cf1fb682cad3f0a3d30819aae" data-cf-beacon='{"rayId":"8ec7a1fe09fa0592","version":"2024.10.5","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"6651308a007d4d459b12876077322bfb","b":1}' crossorigin="anonymous"></script>
+</body>
+</html>

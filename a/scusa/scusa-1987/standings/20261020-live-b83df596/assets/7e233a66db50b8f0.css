@@ -1,0 +1,218 @@
+/* Color #002469 is the official Rice blue.
+   Colors #CFD3D7 and #F1F5FA are based on the official Rice gray #5e6062,
+   actually a blue-gray, but with increased brightness for better contrast.
+*/
+
+BODY {
+	background-color: #F1F5FA;
+	background-image: none;
+	color: #000000;
+	font-family: sans-serif;
+        margin: 0;
+}
+DIV.content {
+	margin: auto 7px;
+}
+
+p.center {
+	text-align: center;
+}
+
+BLOCKQUOTE {
+        border-left:  6px double #002469;
+        margin:       1em 2em;
+        padding-left: 1em;
+        color:        #002469;
+}
+BLOCKQUOTE.fancy P:first-letter {
+        float: left;
+        margin: .2em .3em .1em 0;
+        font-size: 220%;
+        font-weight: bold;
+}
+
+/***************
+ * Other tables
+ ***************/
+
+TABLE.list {
+	width: 100%;
+	border-spacing:0;
+}
+table.list tr:hover {
+	background: #CFD3D7;
+}
+table.list th {
+	padding: 5px;
+	background: #CFD3D7;
+	color: #002469;
+	vertical-align: top;
+}
+TABLE.list TD {
+	padding: 5px 10px;
+	vertical-align: top;
+        font-size: smaller;
+}
+
+TD.date {
+        vertical-align: top;
+	text-align: right;
+        white-space: nowrap;
+}
+TD.topic {
+        vertical-align: top;
+	text-align: left;
+}
+TD.holiday {
+	color: gray;
+}
+
+
+/******************
+ * Two even columns
+ ******************/
+
+DIV.twocol {
+	width: 100%;
+	clear: both;
+	float: left;
+	overflow: hidden;
+}
+
+DIV.twocol-helper {
+	float: left;
+	width: 100%;
+	right: 50%;
+	position: relative;
+}
+
+DIV.col1, DIV.col2 {
+	float: left;
+	position: relative;
+	padding: 0 0 1em 0;
+	overflow: hidden;
+}
+
+DIV.col1 {
+	width: 48%;
+	left: 50%;
+}
+
+DIV.col2 {
+	width: 48%;
+	left: 54%;
+}
+
+/********************
+ * Two uneven columns
+ ********************/
+
+DIV.spreadcol {
+	clear: both;
+}
+DIV.sidepadding {
+	padding: 0 3em;
+}
+DIV.spreadcol1 {
+	float: left;
+}
+DIV.spreadcol2 {
+	float: right;
+}
+DIV.spreadfinish {
+	clear: both;
+}
+DIV.caption {
+	font-weight: bold;
+}
+
+
+/*********
+ * Other
+ ********/
+
+H1, H2, H3 {
+	color: #002469;
+	text-align: left;
+	margin: auto 7px;
+}
+
+h1 {
+	background-color: white;
+	vertical-align: middle;
+	padding: 5px 7px 0px 7px;
+	font-size: 38px;
+        margin: 0;
+        overflow: auto;
+}
+
+h3 {
+	background-color: #CFD3D7;
+        padding: 0 7px;
+        margin: 0;
+}
+
+HR {
+	width: 100%;
+	clear: both;
+	color: #002469;
+}
+
+p {
+	margin-left: 7px;
+}
+
+P, LI {
+	text-align: justify;
+	margin-right: 7px;
+}
+
+dt {
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+DD {
+	padding: 0 0 .5em 0;
+}
+
+IMG.right {
+	float: right;
+	border: 0;
+	margin: auto auto 0 1em;
+}
+
+DIV.announce {
+        padding: 10px;
+	color: red;
+        font-weight: bold;
+}
+
+PRE {
+	margin-left: 3em;
+}
+
+UL.codelist LI {
+	display: inline;
+}
+
+ASIDE {
+	border-style: dashed;
+	border-width: thin;
+	margin: 10px .6in 10px .6in;
+}
+
+DIV.exercise {
+	border: 1pt solid #002469;
+	padding: 0 2em;
+}
+
+SPAN.feature {
+	font-weight: bold;
+}
+
+FIGCAPTION {
+	font-weight: bold;
+}
+
