@@ -20,9 +20,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <script type="text/javascript" src="scoreboard.php_files/domjudge.js"></script>
 </head>
 <body>
-<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2013/details-2013.shtml">http://socalcontest.org/history/2013/details-2013.shtml</a> (content as captured 2013-11-13 23:34 via the Wayback Machine) 
-part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
-(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2013.html">socal-2013</a>)  <a href="https://web.archive.org/web/20131113233445/http://socalcontest.org/history/2013/details-2013.shtml">wayback</a></div>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://socalcontest.org/history/2013/details-2013.shtml">http://socalcontest.org/history/2013/details-2013.shtml (2013-11-13 23:34)</a> (Wayback snapshot 2013-11-13 23:34; fetched 2026-09-01)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/socal-2013.html">socal-2013</a>  <a href="https://web.archive.org/web/20131113233445/http://socalcontest.org/history/2013/details-2013.shtml">wayback</a>  <a href="http://socalcontest.org/history/2013/details-2013.shtml">live</a></div>
 
 
 <h1>Scoreboard SoCal 2013 - Contest</h1>
