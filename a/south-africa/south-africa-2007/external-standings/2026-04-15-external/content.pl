@@ -19,9 +19,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 		<link type="text/css" rel="stylesheet" href="standings.css" />
 	</head>
 	<body>
-<div id="icpc-archive-banner">Archived copy of <a href="http://acm.cs.up.ac.za/cgi-bin/standings.pl">http://acm.cs.up.ac.za/cgi-bin/standings.pl</a> (fetched 2026-04-15) 
-part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
-(<a href="https://icpc-contest-archive.github.io/contests/contest/south-africa-2007.html">south-africa-2007</a>)  <a href="https://web.archive.org/web/20170301050833/http://acm.cs.up.ac.za/cgi-bin/standings.pl">wayback</a></div>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://acm.cs.up.ac.za/cgi-bin/standings.pl">http://acm.cs.up.ac.za/cgi-bin/standings.pl</a> (live fetch 2026-04-15)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/south-africa-2007.html">south-africa-2007</a>  <a href="https://web.archive.org/web/20170301050833/http://acm.cs.up.ac.za/cgi-bin/standings.pl">wayback</a>  <a href="http://acm.cs.up.ac.za/cgi-bin/standings.pl">live</a></div>
 
 		<h1>Standings</h1>
 		<noscript>

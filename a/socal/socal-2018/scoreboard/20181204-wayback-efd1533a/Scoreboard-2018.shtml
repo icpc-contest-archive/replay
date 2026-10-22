@@ -51,9 +51,8 @@ h6 { font-size: .75em; }
 <img src="assets/f073ba35e4b8e19b.png" align="center" width="920">
 </head>
 <body>
-<div id="icpc-archive-banner">Archived copy of <a href="http://socalcontest.org/history/2018/Scoreboard-2018.shtml">http://socalcontest.org/history/2018/Scoreboard-2018.shtml</a> (content as captured 2018-12-04 05:29 via the Wayback Machine) 
-part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
-(<a href="https://icpc-contest-archive.github.io/contests/contest/socal-2018.html">socal-2018</a>)  <a href="https://web.archive.org/web/20181204052954/http://socalcontest.org/history/2018/Scoreboard-2018.shtml">wayback</a></div>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://socalcontest.org/history/2018/Scoreboard-2018.shtml">http://socalcontest.org/history/2018/Scoreboard-2018.shtml (2018-12-04 05:29)</a> (Wayback snapshot 2018-12-04 05:29; fetched 2026-09-01)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/socal-2018.html">socal-2018</a>  <a href="https://web.archive.org/web/20181204052954/http://socalcontest.org/history/2018/Scoreboard-2018.shtml">wayback</a>  <a href="http://socalcontest.org/history/2018/Scoreboard-2018.shtml">live</a></div>
 
 <main role="main" class="pl-4"><div class="card"><div class="card-header" style="font-family: Roboto, sans-serif; display: flex;"><span style="font-weight: bold;">2018-2019 Southern California Regional ICPC</span> <span style="color: DimGray; margin-left: auto;">final standings</span></div></div><br><table class="scoreboard center">
 <colgroup><col id="scorerank"><col id="scoreteamname"></colgroup><colgroup><col id="scoresolv"><col id="scoretotal"></colgroup>

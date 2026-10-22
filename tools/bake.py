@@ -29,9 +29,10 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 #icpc-archive-banner a{{color:#8fc1f0}}</style>
 """
 
-BANNER_BODY = """<div id="icpc-archive-banner">Archived copy of {url_link}{fetched} —
-part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
-({contest_link}){wayback}</div>
+# Same shape as the local server's banner (contests/tools/serve.py):
+#   ICPC contest archive — archived copy of <url (time)> (<provenance>) · catalogue: <contest> · wayback · live
+BANNER_BODY = """<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+— archived copy of {url_link}{fetched} · catalogue: {contest_link}{wayback}{live}</div>
 """
 
 
@@ -186,20 +187,25 @@ def main() -> int:
             ts = cap.get("wayback_timestamp")
             if ts:
                 hm = f" {ts[8:10]}:{ts[10:12]}" if len(ts) >= 12 else ""
-                fetched = (f" (content as captured {ts[:4]}-{ts[4:6]}-{ts[6:8]}{hm} "
-                           f"via the Wayback Machine)")
+                when = f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}{hm}"
+                url_link = (f'<a href="{html.escape(url, True)}">{html.escape(url[:80])} ({when})</a>' if url
+                            else "an ICPC result page")
+                fetched = f" (Wayback snapshot {when}; fetched {str(cap.get('fetched', ''))[:10]})"
+            elif cap.get("source") == "icpc-api-archive":
+                fetched = f" (rendered from the ICPC standings API dump of {str(cap.get('fetched', ''))[:10]})"
             else:
-                fetched = f" (fetched {cap['fetched'][:10]})" if cap.get("fetched") else ""
+                fetched = f" (live fetch {cap['fetched'][:10]})" if cap.get("fetched") else ""
             wayback = ""
             wb = cap.get("wayback_url") or (f"https://web.archive.org/web/*/{url}" if url else "")
             if wb:
                 wayback = f' · <a href="{html.escape(wb, True)}">wayback</a>'
             contest_link = (f'<a href="https://icpc-contest-archive.github.io/contests/contest/'
                             f'{cap["contest"]}.html">{cap["contest"]}</a>')
+            live = f' · <a href="{html.escape(url, True)}">live</a>' if url else ""
             raw = inject(raw, BANNER.format(
                 charset='<meta charset="utf-8">\n' if _enc else "", canonical=canonical),
                          BANNER_BODY.format(url_link=url_link, fetched=fetched,
-                                            contest_link=contest_link, wayback=wayback))
+                                            contest_link=contest_link, wayback=wayback, live=live))
         dest.write_bytes(raw)
         total += len(raw)
         pages.append({"contest": cap["contest"], "artifact": cap["artifact"],

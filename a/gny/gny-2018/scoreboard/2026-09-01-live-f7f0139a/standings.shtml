@@ -19,9 +19,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
-<div id="icpc-archive-banner">Archived copy of <a href="http://acmgnyr.org/year2018/standings.shtml">http://acmgnyr.org/year2018/standings.shtml</a> (fetched 2026-09-01) 
-part of the <a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a>
-(<a href="https://icpc-contest-archive.github.io/contests/contest/gny-2018.html">gny-2018</a>)  <a href="https://web.archive.org/web/*/http://acmgnyr.org/year2018/standings.shtml">wayback</a></div>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://acmgnyr.org/year2018/standings.shtml">http://acmgnyr.org/year2018/standings.shtml</a> (live fetch 2026-09-01)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/gny-2018.html">gny-2018</a>  <a href="https://web.archive.org/web/*/http://acmgnyr.org/year2018/standings.shtml">wayback</a>  <a href="http://acmgnyr.org/year2018/standings.shtml">live</a></div>
 
  
 <center>
