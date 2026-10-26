@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.algotester.com/opc">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="utf-8"/>
+    <meta name="Viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="algorithms,programming,competitive programming,contests,algorithmic competitions,coding,icpc,ioi,math,data structures,graph theory">
+    <meta name="description" content="Algotester is a modern competitive programming platform, with a large archive of algorithmic problems, educational content, and regular competitions for high school and university students">
+    <title>Online Programming Contest for Universities | Events | Algotester</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/9b12b0f7bd56c39d.svg">
+    <link rel="alternate icon" href="assets/74aef1f19a9fbed4.ico">
+    <link rel="stylesheet" href="assets/9975f3cd0ddbac6c.css" />
+    <link rel="stylesheet" href="assets/555cc9d881258414.css" />
+    <link rel="stylesheet" href="assets/0382ba6aecdd11ab.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZMEERSFGT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KZMEERSFGT');
+    </script>
+</head>
+<body class="fixed hold-transition skin-blue sidebar-mini ">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://www.algotester.com/opc">https://www.algotester.com/opc</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/turkey-2020.html">turkey-2020</a>  <a href="https://web.archive.org/web/*/https://www.algotester.com/opc">wayback</a>  <a href="https://www.algotester.com/opc">live</a></div>
+
+<div class="wrapper">
+    <header class="main-header">
+    <!-- Logo -->
+    <a href="/en" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><img style="padding:10px" src="assets/be27282677ae3fcf.svg"/></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><img style="padding:5px" src="assets/f9b8760b7cf40859.svg"/></span>
+    </a>
+
+    <nav class="navbar navbar-static-top">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-header pull-right">
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+
+<li class="visible-lg"><a target="blank" href="https://discord.algotester.com"><img src="assets/aa9a26448f376ca7.svg" style="height: 18px;"></a></li>
+<li class="visible-lg"><a target="blank" href="https://youtube.algotester.com"><i class="fa fa-sm fa-youtube-play"></i></a></li>
+<li class="visible-lg"><a target="blank" href="https://facebook.algotester.com"><i class="fa fa-sm fa-facebook-square"></i></a></li>
+<li class="visible-lg"><a target="blank" href="https://instagram.algotester.com"><i class="fa fa-sm fa-instagram"></i></a></li>
+<li class="dropdown hidden-lg">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-sm fa-bullhorn"></i>
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-left">
+        <li><a target="blank" href="https://discord.algotester.com"><img src="assets/9fbfac277312700e.svg" style="height: 18px;margin-right: 10px;">Discord</a></li>
+        <li><a target="blank" href="https://youtube.algotester.com"><i class="fa fa-lg fa-youtube-play"></i>YouTube</a></li>
+        <li><a target="blank" href="https://facebook.algotester.com"><i class="fa fa-lg fa-facebook-square"></i>Facebook</a></li>
+        <li><a target="blank" href="https://instagram.algotester.com"><i class="fa fa-lg fa-instagram"></i>Instagram</a></li>
+    </ul>
+</li>                    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <img src="assets/8933f3f87386707e.gif" class="flag flag-gb" />
+        <span class="hidden-xs hidden-sm hidden-md">
+            &nbsp;
+            english
+        </span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+            <li>
+                <a href="/opc/en">
+                    <img src="assets/8933f3f87386707e.gif" class="flag flag-gb" />
+                    &nbsp;
+                    english
+                </a>
+            </li>
+            <li>
+                <a href="/opc/uk">
+                    <img src="assets/8933f3f87386707e.gif" class="flag flag-ua" />
+                    &nbsp;
+                    &#x443;&#x43A;&#x440;&#x430;&#x457;&#x43D;&#x441;&#x44C;&#x43A;&#x430;
+                </a>
+            </li>
+    </ul>
+</li>
+
+<li class="dropdown hidden-xs">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-sm fa-info-circle"></i>
+    </a>
+    <ul class="dropdown-menu bg-white" role="menu">
+            <li><a href="/en/Home/ReleaseNotes">Algotester 4.8</a></li>
+            <li><a href="/en/Home/ReleaseNotes">Build 771</a></li>
+            <li><a href="/en/Home/ReleaseNotes">2025-12-30</a></li>
+    </ul>
+</li>                        <li class="hidden-xs" data-toggle="tooltip" title="Register">
+        <a href="/en/Account/Register">
+            <i class="fa fa-sm fa-user-plus"></i>
+        </a>
+    </li>
+    <li>
+        <a href="/en/Account/LogIn">
+            <i class="fa fa-sm fa-sign-in"></i>
+            <span class="hidden-xs hidden-sm">
+                &nbsp;
+                Log In
+            </span>
+        </a>
+    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="navbar-header pull-left">
+            <div class="navbar-custom-menu">
+<ul class="nav navbar-nav">
+    <li>
+        <a href="/en/Inquiry/Create">
+            <i class="fa fa-sm fa-envelope"></i>
+            <span class="hidden-xs hidden-sm hidden-md">&nbsp;Contact Us</span>
+        </a>
+    </li>
+</ul>
+<ul class="nav navbar-nav">
+    <li>
+        <a href="/college">
+            <i class="fa fa-sm fa-bell-o"></i>
+            <span class="hidden-xs hidden-sm hidden-md">
+                &nbsp;
+                College
+            </span>
+        </a>
+    </li>
+</ul>
+<ul class="nav navbar-nav hidden-xs">
+    <li>
+        <a href="/en/Home/Sponsors">
+            <i class="fa fa-sm fa-battery-three-quarters"></i>
+            <span class="hidden-xs hidden-sm hidden-md">
+                &nbsp;
+                Sponsors
+            </span>
+        </a>
+    </li>
+</ul>
+<ul class="nav navbar-nav">
+    <li class="btn-warning">
+        <a href="/en/Home/Donate">
+            <i class="fa fa-sm fa-handshake-o"></i>
+            <span class="hidden-xs">&nbsp;Donate</span>
+        </a>
+    </li>
+</ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <aside class="main-sidebar">
+    <section class="sidebar">
+        <ul class="sidebar-menu" data-widget="tree">
+            <li>
+                <a href="/en/Home/About">
+                    <i class="fa fa-info-circle"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/en/Home/Statistics">
+                    <i class="fa fa-bar-chart"></i>
+                    <span>Statistics</span>
+                </a>
+            </li>
+            <li>
+                <a href="/en/Home/Help">
+                    <i class="fa fa-question-circle"></i>
+                    <span>Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="/en/Home/Analysis">
+                    <i class="fa fa-book"></i>
+                    <span>Analysis</span>
+                </a>
+            </li>
+            <li>
+                <a href="/en/Home/Events">
+                    <i class="fa fa-calendar"></i>
+                    <span>Events</span>
+                </a>
+            </li>
+<li class="header"><span class="text-uppercase">Archive</span></li>
+<li>
+    <a href="/en/ArchiveProblem">
+        <i class="fa fa-files-o"></i> <span>Problems</span>
+    </a>
+</li>
+<li>
+    <a href="/en/ArchiveProblem/Rank">
+        <i class="fa fa-trophy"></i> <span>Rank</span>
+    </a>
+</li>
+<li>
+    <a href="/en/ArchiveProblem/SolutionQueue">
+        <i class="fa fa-list"></i> <span>Solution Queue</span>
+    </a>
+</li>            
+         </ul>
+    </section>
+</aside>
+
+    <div class="content-wrapper">
+        <section class="content-header">
+                <h1>
+                <span class='page-header'>Online Programming Contest for Universities | Events</span>
+    </h1>
+        <ol class="breadcrumb">
+                    <li>
+                        <a href="/opc/en">Online Programming Contest for Universities</a>
+                    </li>
+        </ol>
+
+        </section>
+        <section class="content">
+            <div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title text-primary">
+            <i class="fa fa-calendar"></i>
+            &nbsp;
+            Online Programming Contest for Universities
+        </h3>
+        <div class="box-body">
+                <div class="row">
+        <div class="col-md-6">
+            
+    <div class="dl-horizontal">
+        <dt>Start</dt><dd>
+    <a href='https://www.timeanddate.com/worldclock/fixedtime.html?year=2020&month=10&day=24&hour=0&min=0&sec=0' data-utcdate='2020-10-24T00:00' target='_blank'></a>
+</dd>
+<dt>End</dt><dd>
+    <a href='https://www.timeanddate.com/worldclock/fixedtime.html?year=2020&month=12&day=26&hour=18&min=0&sec=0' data-utcdate='2020-12-26T18:00' target='_blank'></a>
+</dd>    </div>
+    <br/>
+<p>
+	inzva greets the winter of 2020 with an online programming contest designed for all universities across Turkey and invites university teams to participate in the contest, completely free of charge.</p>
+<p>
+	Online Programming Contest for Universities (&ldquo;OPC&rdquo;) is a two-round, team-based contest that will be held on December 12 and December 26, respectively, and is initiated in collaboration with leading Turkish universities and <a href="https://algotester.com">algotester.com</a>.</p>
+<p>
+	SCHEDULE</p>
+<ul>
+	<li>
+		Application Period: October 24 - December 5, 2020 until 19:00</li>
+	<li>
+		Practical Session: Friday, December 7, 2020 at 19:00</li>
+	<li>
+		Online &#39;Qualification&#39; Round: Saturday, December 12, 2020 between 11:00 - 16:00</li>
+	<li>
+		Announcement of Finalist Teams: Wednesday, December 16</li>
+	<li>
+		Online Final Contest: Saturday, December 26, 2020 between 11:00 - 16:00</li>
+	<li>
+		Closing Ceremony: Saturday, December 26, 2020 at 18:00</li>
+</ul>
+<p>
+	PRIZE</p>
+<ul>
+	<li>
+		Tech gifts for the top five teams at Final Contest</li>
+	<li>
+		inzva kit for the teams that place between the top six and top ten at Final Contest</li>
+</ul>
+<p>
+	RULES</p>
+<ul>
+	<li>
+		Participating teams must consist of <strong>three students who are enrolled in the same university</strong></li>
+	<li>
+		The participants must send the answers of the problems from <strong>only one team account</strong>. Team account information should be the same as the registration account information</li>
+	<li>
+		All team members must follow the schedule and provide full participation</li>
+	<li>
+		Teams or members who fail to follow the rules will be disqualified</li>
+	<li>
+		The contest will follow the official <a href="https://icpc.global/regionals/rules" target="_blank">ICPC rules</a>. Please read them carefully</li>
+	<li>
+		The contest will last 5 hours and consist of problems prepared by professional coaches in the algotester team</li>
+	<li>
+		If the team decides to change/remove team members, they should inform <a href="/cdn-cgi/l/email-protection#bfded3d8d0cdd6cbd7d2ffd6d1c5c9de91dcd0d2"><span class="__cf_email__" data-cfemail="6c0d000b031e051804012c0502161a0d420f0301">[email&#160;protected]</span></a> of the said changes</li>
+	<li>
+		In case of plagiarism, the fact that it was an individual and/or collective effort does not matter. <strong>The teams committing plagiarism will be disqualified, and they will be banned from the next Turkish Programming Contest 2021</strong></li>
+	<li>
+		More information for the Online Programming Contest, <a href="https://inzva.com/algorithm/2020/contests/online-programming-contest-for-universities-2020" target="_blank">click this link</a></li>
+</ul>
+<p>
+	LINKS</p>
+<ul>
+	<li>
+		Final round&nbsp;<a href="/en/Contest/Display/60350?tab=statements">task descriptions</a></li>
+	<li>
+		Final round&nbsp;<a href="/en/Contest/Display/60350?tab=clarifications">Q&amp;A</a></li>
+	<li>
+		Final round&nbsp;<a href="/en/Contest/ViewScoreboard/60350">leaderboard</a></li>
+</ul>
+<p>
+	QUALIFICATION ROUND UNIVERSITY LEADERBOARDS</p>
+<ul>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20222">Abdullah G&uuml;l University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20291">Bah&ccedil;eşehir University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20223">Bilkent University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20224">Boğazi&ccedil;i University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20226">Ege University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20292">Galatasaray University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20227">Hacettepe University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20230">Istanbul Technical University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20293">Istanbul University - Cerrahpaşa</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20231">Ko&ccedil; University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20290">MEF University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20229">Middle East Technical University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20232">Sabancı University</a></li>
+	<li>
+		<a href="/en/Contest/ViewScoreboard/60345?group=20233">Yıldız Technical University</a></li>
+</ul>
+
+        </div>
+        <div class="col-md-6">
+                <a href="#">
+                    <img class="img-responsive img-thumbnail" src="/en/Event/Poster/20" />
+                </a>
+        </div>
+    </div>
+
+            <br/>
+            <div class="row">
+<table data-loading-font-size="14" data-page-list="" data-page-size="100" data-pagination="true" data-side-pagination="server" data-toggle="table" data-url-copy="/en/Contest/TournamentList/40?actions=11,28,10" id="Contest-TournamentList"><thead><th data-field="Now" data-visible="false">Now</th><th data-field="Name" data-formatter="app.table.formatter.url">Name</th><th data-field="ContestStart" data-formatter="app.table.formatter.date.countdown">Start</th><th data-field="ContestEnd" data-formatter="app.table.formatter.date.countdown">End</th><th data-field="Registration">Registration status</th><th data-field="Id" data-visible="false">#</th><th data-field="Actions" data-formatter="app.table.formatter.action.list">Actions</th></thead></table>            </div>
+        </div>
+    </div>
+</div>
+        </section>
+    </div>
+    <footer class="main-footer">
+        <div class="pull-right">
+            <span class=" hidden-xs">
+                <a target="blank" href="https://algotester.org.ua">Algotester</a>
+                &nbsp;
+            </span>
+            <a target="blank" href="https://algotester.org.ua"><i class="fa fa-lg fa-globe"></i></a>
+            &nbsp;
+            <a target="blank" href="https://discord.algotester.com">
+                <img src="assets/9fbfac277312700e.svg" style="height: 20px;"></img>
+            </a>
+            &nbsp;
+            <a target="blank" href="https://youtube.algotester.com"><i class="fa fa-lg fa-youtube-play"></i></a>
+            &nbsp;
+            <a target="blank" href="https://facebook.algotester.com"><i class="fa fa-lg fa-facebook-square"></i></a>
+            &nbsp;
+            <a target="blank" href="https://instagram.algotester.com"><i class="fa fa-lg fa-instagram"></i></a>
+        </div>
+    <div>
+        <strong>
+            &copy; 2013-2026
+            &nbsp;-&nbsp;
+            <a href="/en">algotester.com</a>
+        </strong>
+        <span class="hidden-xs">
+            .&nbsp;All rights reserved.
+        </span> 
+    </div>
+</footer>
+
+    <script data-cfasync="false" src="assets/71c7b4d10429412c.js"></script><script src="assets/fa3d149f1f55f641.js"></script>
+    <script src="assets/afe7366bbf1df835.js"></script>
+    <script src="assets/13b6c1fe406a0161.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                macros: {
+                    ss: "{\\beta}",
+                    noindent: "",
+                    item: "-"
+                },
+                autoload: {
+                    color: [],
+                    colorv2: ['color']
+                },
+                packages: {'[+]': ['noerrors']}
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: {
+                load: ['input/asciimath', '[tex]/noerrors']
+            }
+        };
+    </script>
+    <script defer src="assets/ba3d96d4408cd730.js"></script>
+    
+    
+    <script type="text/javascript">
+    app.notice.data = [];
+</script>
+</div>
+</body>
+</html>

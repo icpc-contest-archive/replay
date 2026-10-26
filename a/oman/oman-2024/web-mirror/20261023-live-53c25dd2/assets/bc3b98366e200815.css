@@ -1,0 +1,108 @@
+.banner,.banner ul,.banner ul li ,.banner,.inner,.dot,.dots {
+	margin: 0;
+	padding: 0;
+    
+	-webkit-font-smoothing: antialiased;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.banner {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+	min-height: 135px;
+    min-width: 300px;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+
+	
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+
+	background: #5b4d3d;
+		
+	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.24);
+	-moz-box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.24);
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.24);
+}
+.banner ul {
+	list-style: none;
+	width: 300%;
+}
+.banner ul li {
+	display: block;
+	float: left;
+	width: 33%;
+	/* min-height: 410px; */
+
+	-o-background-size: 	cover;
+	-ms-background-size: 	cover;
+	-moz-background-size: 	cover;
+	-webkit-background-size:cover;
+	background-size: 		cover;
+	/*background-size: 		100% 100%;*/
+	background-position:center center;
+
+}
+
+.banner .inner {
+	padding: 20px 0 20px;
+}
+
+.innerindex{
+	margin-top:50px;
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+.dot {
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 	3px 3px 3px 0px rgba(0,0,0,0.5);
+	box-shadow: 		3px 3px 3px 0px rgba(0,0,0,0.5);
+}
+
+.dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+}
+.banner .dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+
+	text-indent: -999em;
+
+	border: 2px solid #fff;
+	border-radius: 6px;
+
+	cursor: pointer;
+	opacity: .4;
+
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+			.banner .dots li.active {
+				background: #fff;
+				opacity: 1;
+			}
+
+	.banner .arrows {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		color: #fff;
+	}
+		.banner .arrow {
+			display: inline;
+			padding-left: 10px;
+			cursor: pointer;
+		}
+
+h1{margin:10px;}

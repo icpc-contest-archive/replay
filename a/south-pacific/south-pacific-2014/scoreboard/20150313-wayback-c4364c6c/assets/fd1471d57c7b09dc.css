@@ -1,0 +1,381 @@
+body {
+	color: black; font-family: sans-serif; background-color: white;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+.sol {
+	font-variant: small-caps; font-weight: bold;
+}
+.sol_correct {
+	color: green;
+}
+.sol_incorrect {
+	color: red;
+}
+.sol_queued {
+	color: gray;
+}
+.prevsubmit {
+	color: rgb(105, 105, 105);
+}
+tr.sub_ignore td {
+	text-decoration: line-through;
+}
+tr.unseen td {
+	font-weight: bold;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: purple;
+}
+a:active {
+	color: red;
+}
+.disabled {
+	color: silver;
+}
+.disabled a {
+	color: gray;
+}
+.disabled .balloonimage {
+	opacity: 0.2;
+}
+.nodata {
+	color: gray; font-style: italic;
+}
+table {
+	border-collapse: separate; border-spacing: 2px;
+}
+th {
+	vertical-align: bottom;
+}
+caption {
+	font-weight: bold; margin-bottom: 1ex;
+}
+hr {
+	border: 0px currentColor; border-image: none; height: 1px; margin-top: 2em; background-color: gray;
+}
+address {
+	font-size: smaller;
+}
+tr.unread td {
+	font-weight: bold;
+}
+.list {
+	border-collapse: collapse; border-spacing: 0px;
+}
+.list th {
+	padding-right: 3px; padding-left: 3px; vertical-align: bottom;
+}
+td {
+	vertical-align: top;
+}
+.list tr {
+	border-bottom-color: silver; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.list tr.roweven {
+	background: rgb(237, 237, 237);
+}
+.list tr:hover {
+	background: rgb(255, 255, 204);
+}
+.list thead tr {
+	border-bottom-color: black;
+}
+.list thead tr:hover {
+	background: white;
+}
+.list a {
+	padding: 3px 5px; color: black; text-decoration: none; display: block;
+}
+.list .disabled a {
+	color: silver;
+}
+.list .editdel a {
+	display: inline;
+}
+.output_text {
+	margin: 0px; padding: 5px; font-family: monospace; border-top-color: rgb(192, 192, 192); border-bottom-color: rgb(192, 192, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-bottom-style: dotted; background-color: rgb(250, 250, 250);
+}
+span.differ {
+	color: red;
+}
+span.endline {
+	color: orange;
+}
+span.extra {
+	color: red;
+}
+.teamid {
+	font-family: monospace;
+}
+.probid {
+	font-variant: small-caps;
+}
+.langid {
+	font-variant: small-caps;
+}
+#menutop a {
+	margin: 2px; padding: 2px 5px; border: 1px solid black; border-image: none; font-weight: bold; text-decoration: none; background-color: rgb(255, 255, 240);
+}
+#menutop a.new {
+	color: rgb(255, 0, 0);
+}
+#menutopright {
+	top: 1ex; text-align: right; right: 1ex; position: absolute;
+}
+#clock {
+	padding: 4px; border: 1px dashed rgb(204, 204, 204); border-image: none; color: gray; font-family: monospace; z-index: -1;
+}
+#timeleft {
+	color: rgb(128, 0, 128);
+}
+#refresh {
+	margin-top: 5px; margin-bottom: 5px;
+}
+fieldset {
+	margin: 2em; padding: 1em;
+}
+.error {
+	border: 1px dotted red; border-image: none; color: red; font-family: monospace;
+}
+legend {
+	padding: 0.1ex 0.5ex; font-variant: small-caps; font-weight: bold;
+}
+.error legend {
+	font-size: x-large; border-right-color: gray; border-bottom-color: gray; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.center {
+	margin: 0px auto;
+}
+.scoreboard {
+	clear: both; border-collapse: collapse;
+}
+.scoreboard td {
+	font-size: small;
+}
+.scoreboard tr {
+	border-bottom-color: silver; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.scoreboard td {
+	padding: 3px; border-right-color: black; border-right-width: 1px; border-right-style: solid;
+}
+.scoreboard th {
+	padding: 3px; border-right-color: black; border-right-width: 1px; border-right-style: solid;
+}
+.scoreboard a {
+	padding: 3px; color: black; text-decoration: none; display: block;
+}
+.scoreboard .scoretn {
+	padding: 0px; width: 25ex;
+}
+.scoreboard .scoreaf {
+	white-space: nowrap;
+}
+.scoreheader {
+	font-variant: small-caps; border-bottom-color: black; border-bottom-width: 2px; border-bottom-style: solid;
+}
+.score_correct {
+	background: rgb(51, 255, 102);
+}
+.score_first {
+	background: rgb(0, 170, 0) !important;
+}
+.score_pending {
+	background: rgb(102, 102, 255);
+}
+.score_incorrect {
+	background: rgb(255, 102, 102);
+}
+#scoresolv {
+	width: 5em;
+}
+#scoretotal {
+	width: 5em;
+}
+.scorenc {
+	width: 2ex; text-align: right;
+}
+.scorett {
+	width: 2ex; text-align: right;
+}
+.scorepl {
+	width: 2ex; text-align: right;
+}
+td.scorenc {
+	border-color: silver;
+}
+.scoreprob {
+	width: 7em;
+}
+.scoreaffil {
+	text-align: center;
+}
+#scoresummary {
+	font-variant: small-caps; border-top-color: black; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: medium; border-top-style: solid; border-bottom-style: none;
+}
+#scorethisisme .scoretn {
+	background: rgb(255, 102, 0); font-weight: bold;
+}
+.scorelegend {
+	vertical-align: top; display: inline-block;
+}
+.scorelegend td {
+	width: 25ex; text-align: center;
+}
+#lastmod {
+	right: 1ex; margin-top: 1em; position: absolute;
+}
+#lastmod {
+	text-align: right; color: gray; font-size: x-small;
+}
+#lastmod a {
+	text-align: right; color: gray; font-size: x-small;
+}
+#teamscoresummary {
+	margin-top: 2.5em;
+}
+#teampicture {
+	top: 7ex; right: 4ex; position: absolute;
+}
+.sortorderswitch {
+	border-top-color: black; border-top-width: 2px; border-top-style: solid;
+}
+.contestswitch {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+.submissionsuccessful {
+	margin: 1em; padding: 2px 5px; border: 1px solid black; border-image: none; color: rgb(0, 100, 0); font-weight: bold; background-color: rgb(255, 255, 240);
+}
+input {
+	border: 1px solid darkgray; border-image: none; background-color: rgb(240, 240, 240);
+}
+select {
+	border: 1px solid darkgray; border-image: none; background-color: rgb(240, 240, 240);
+}
+textarea {
+	border: 1px solid darkgray; border-image: none; background-color: rgb(240, 240, 240);
+}
+input {
+	cursor: pointer;
+}
+select {
+	cursor: pointer;
+}
+h3.teamoverview {
+	padding-left: 1ex; font-size: smaller; font-weight: normal; margin-top: 2ex; border-top-color: darkgray; border-bottom-color: darkgray; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(196, 216, 255);
+}
+#submitlist {
+	width: 48%;
+}
+#clarlist {
+	width: 48%;
+}
+#submitlist {
+	left: 1ex; position: absolute;
+}
+#clarlist {
+	right: 1ex; position: absolute;
+}
+.compilation-success {
+	color: green; font-style: italic;
+}
+.compilation-error {
+	color: red; font-style: italic;
+}
+#submitform {
+	text-align: center;
+}
+.submissiondone {
+	text-align: center;
+}
+.submissiondone a {
+	color: red;
+}
+#submitlist .list {
+	width: 100%;
+}
+#clarlist .list {
+	width: 100%;
+}
+#submitlist .list th {
+	text-align: left;
+}
+#clarlist .list th {
+	text-align: left;
+}
+#submitlist td.result {
+	width: 1000ex;
+}
+#clarlist td.clartext {
+	width: 1000ex;
+}
+#submitlist tr.highlight {
+	border-color: blue; background-color: rgb(196, 216, 255);
+}
+.errorfield {
+	border-color: red; color: red;
+}
+.button {
+	border: 1px solid darkgray; border-image: none; font-size: 90%; background-color: rgb(240, 240, 240);
+}
+h2#teamwelcome {
+	padding-bottom: 0px; font-weight: normal; margin-bottom: 0px; margin-left: 3em;
+}
+#teamwelcometeam {
+	font-weight: bold;
+}
+h3#contestnotstarted {
+	color: silver; margin-top: 0.2ex; margin-left: 8em;
+}
+span.fileinputs {
+	position: relative;
+}
+input#addfile {
+	margin-top: 1ex;
+}
+.tabberlive .tabbertabhide {
+	display: none;
+}
+.tabber {
+	
+}
+.tabberlive {
+	margin-top: 1em;
+}
+ul.tabbernav {
+	font: bold 12px/normal Verdana, sans-serif; margin: 0px; padding: 3px 0px; border-bottom-color: rgb(119, 119, 136); border-bottom-width: 1px; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal;
+}
+ul.tabbernav li {
+	list-style: none; margin: 0px; display: inline;
+}
+ul.tabbernav li a {
+	background: rgb(221, 221, 238); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(119, 119, 136) rgb(119, 119, 136) currentColor; padding: 3px 0.5em; border-image: none; text-decoration: none; margin-left: 3px;
+}
+ul.tabbernav li a:link {
+	color: rgb(68, 68, 136);
+}
+ul.tabbernav li a:visited {
+	color: rgb(102, 102, 119);
+}
+ul.tabbernav li a:hover {
+	background: rgb(170, 170, 238); border-color: rgb(34, 34, 119); color: rgb(0, 0, 0);
+}
+ul.tabbernav li.tabberactive a {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+ul.tabbernav li.tabberactive a:hover {
+	background: white; color: rgb(0, 0, 0); border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabberlive .tabbertab {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(170, 170, 170) rgb(170, 170, 170); padding: 5px; border-image: none;
+}
+.tabberlive .tabbertab h2 {
+	display: none;
+}

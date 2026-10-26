@@ -1,0 +1,83 @@
+
+#admin_menu, #admin_menu_2 {
+	position: absolute;
+	font-size: 1.2em;
+}
+
+#admin_menu {
+	left: 130px;
+	top: -10px;
+	width: 830px;
+	text-align: center;
+}
+
+#admin_menu_2 {
+	left: 130px;
+	top: 100px;
+	width: 830px;
+	text-align: center;
+}
+
+
+#admin_menu li, #admin_menu_2 li, .admin_menu li {
+	float: left;
+	display: inline; 
+	margin-right: 10px;
+	padding-right: 10px;
+	position: relative;
+	height: 21px;
+	line-height: 19px;
+}
+	.vertical_admin_menu li {
+		clear: left;
+		margin-bottom: 10px;
+	}
+
+#admin_menu li a, #admin_menu_2 li a, .admin_menu li a, .admin-menu-container li a { color: #6C0000; }
+#admin_menu li a:link, #admin_menu li a:visited,
+#admin_menu_2 li a:link, #admin_menu_2 li a:visited,
+.admin_menu li a:link, .admin_menu li a:visited
+ { text-decoration: none; } 
+ 
+#admin_menu li a:hover, #admin_menu li a:active,
+#admin_menu_2 li a:hover, #admin_menu_2 li a:active,
+.admin_menu li a:hover, .admin_menu li a:active 
+ { text-decoration: underline; } 
+
+
+#admin_menu li div, #admin_menu_2 li div, .admin_menu li div {
+	background: url(../../images/menu/admin_btn_bg.png) no-repeat -10px 0;
+	padding-left: 10px;
+	height: 21px;
+	float: left;
+}
+
+#admin_menu li div.r, #admin_menu_2 li div.r, .admin_menu li div.r {
+	padding: 0;
+	background-position: 0 0;
+	position: absolute;
+	margin-left: 100%;
+	left: -10px;
+	top: 0;
+	width: 10px;
+	height: 21px;
+	overflow: hidden;	
+}
+
+
+.admin-menu-container {
+	background-color: #f9f5a5;
+	border: 1px dotted #999;
+	margin-top: 2em;
+}
+
+.admin-menu-container h2 {
+	border-bottom: 1px dotted #999;
+	padding: 0.2em 0 0.2em 19px;
+}
+
+.admin-menu-container .vertical_admin_menu {
+	margin: 0.5em 0.5em 0.5em 19px;
+}
+
+

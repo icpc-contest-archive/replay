@@ -1,0 +1,2082 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://codeforces.com/gym/102219">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-743380-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-743380-5');
+        </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="e93eeae9ef5d146b669abbd5ed4dd49e"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <meta name="robots" content="noai">
+    <meta name="robots" content="noimageai">
+
+    <script type="text/javascript" src="assets/fe3d1fc680afda7d.js"></script>
+    <script type="application/javascript">
+        window.locale = "en";
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+
+        /* Protection against trailing dot in domain. */
+        let hostLength = window.location.host.length;
+        if (hostLength > 1 && window.location.host[hostLength - 1] === '.') {
+            window.location = window.location.protocol + "//" + window.location.host.substring(0, hostLength - 1);
+        }
+    </script>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="k1">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="assets/1412b2bacac80f54.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="1024" />
+        <meta property="og:image:alt" content="Codeforces" />
+    <link rel="image_src" href="assets/1412b2bacac80f54.png" />
+    <meta property="og:title" content="Dashboard - 2019 ICPC Malaysia National - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    
+    <meta name="cc" content="59ac7bc19aa32d3ee2370c9943e2736babfa7197"/>
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Dashboard - 2019 ICPC Malaysia National - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="assets/27a970271406055c.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/7b0d78eb70541706.css" type="text/css" charset="utf-8" />
+
+        <link rel="preconnect" href="https://challenges.cloudflare.com">
+        <link rel="dns-prefetch" href="https://challenges.cloudflare.com">
+        <style type="text/css">@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/700/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}</style>
+        <style type="text/css">@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/42d1c70bfc95d126.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/427e2ba21011c526.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/5859646056536f73.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/c86176c3a3b25821.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/db30b760e6de77f3.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/e89405b4c40b34f2.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/d93ff204d5f3410c.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/07aa7699cb468d3b.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/6b8e6b324abeceec.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/3bc291da1f9e2a4b.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/962af70ad0d1132b.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/10c40a9097894425.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/b5fcc3432a878044.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//codeforces.com/codeforces.org/s/28420/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="assets/b14d276bd458f38c.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/05891d1ac595fe2e.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/7050bc627395dcee.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/3d41d4b83bf40c72.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/becd0fca35ac24be.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/5ba9c7b8f470a4a5.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/2a12922cb3b7a871.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/39807fe5345ad516.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/community.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/css/sidebar-menu.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    MathJax.Hub.Register.StartupHook("End", function () {
+        Codeforces.runMathJaxListeners();
+    });
+    </script>
+    <script type="text/javascript" async
+            src="https://codeforces.com/mathjax.codeforces.org/MathJax.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/pushstream.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/facebox.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/autosize.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/06fa68219470ef6151964b73c1bf5641/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/preparedVerdictFormats-en.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/confetti.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/js/purify.min.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/28420/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/28420/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+
+
+</head>
+<body class=" ">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://codeforces.com/gym/102219">https://codeforces.com/gym/102219</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/malaysia-national-2019.html">malaysia-national-2019</a>  <a href="https://web.archive.org/web/*/https://codeforces.com/gym/102219">wayback</a>  <a href="https://codeforces.com/gym/102219">live</a></div>
+<span style='display:none;' class='csrf-token' data-csrf='e93eeae9ef5d146b669abbd5ed4dd49e'>&nbsp;</span>
+
+<!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
+<div class="notificationTextCleaner" style="font-size: 0"></div>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile === "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }, beforeSend: function(jqXHR, settings) {
+        const url = new URL(settings.url, window.location.href);
+        const urlHref = url.href;
+        url.searchParams.set('rv', Math.random().toString(36).substr(2, 9)); // Generate a random value
+        settings.url = url.href;
+    }});
+
+    window.updateTypography();
+    Codeforces.signForms();
+    Codeforces.applyDatatableJs("Hold Ctrl+Alt and click to hide column. Also, you can drag&drop columns to reorder them.");
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        if (json.t === "a") {
+            setTimeout(function() {
+               Codeforces.showAnnouncements(json.d, "en");
+            }, Math.random() * 500);
+        }
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t === "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        const title = $(this).attr("data-title");
+        const clazz = $(this).attr("data-clazz");
+        const props = {};
+        if (typeof (clazz) !== 'undefined') {
+            props['clazz'] = clazz;
+        }
+        if (title) {
+            Codeforces.alert(title, null, null, props);
+        } else {
+            Codeforces.alert($(this).attr("title"), null, null, props);
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+        Codeforces.showDelayedMessage();
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+
+<div id="body">
+        
+
+<div id="header" style="position: relative;">
+
+    <div style="float:left; max-height: 60px;">
+                <a href="/"><img height="65" style="height: 65px;" alt="Codeforces"
+                                                         title="Codeforces"
+                                                         src="//codeforces.com/codeforces.org/s/28420/images/codeforces-logo-with-telegram-555x130.png"/></a>
+    </div>
+    <div class="lang-chooser">
+            <div style="text-align: right;">
+                <a href="?locale=en"><img src="//codeforces.com/codeforces.org/s/28420/images/flags/24/gb.png" title="In English"
+                                                         alt="In English"/></a>
+                <a href="?locale=ru"><img src="//codeforces.com/codeforces.org/s/28420/images/flags/24/ru.png" title="По-русски"
+                                                         alt="По-русски"/></a>
+            </div>
+
+        <div >
+                        <a href="/enter?back=%2Fgym%2F102219">Enter</a>
+                     | 
+                        <a href="/register">Register</a>
+                    
+        </div>
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+
+        
+
+
+    <div class="roundbox menu-box borderTopRound borderBottomRound" style="">
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/top">Top</a></li>
+                <li class=""><a href="/catalog">Catalog</a></li>
+                <li class=""><a href="/contests">Contests</a></li>
+                <li class="current"><a href="/gyms">Gym</a></li>
+                <li class=""><a href="/problemset">Problemset</a></li>
+                <li class=""><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/edu/courses"><span class="edu-menu-item">Edu</span></a></li>
+                <li class=""><a href="/apiHelp">API</a></li>
+                <li class=""><a href="/calendar">Calendar</a></li>
+                <li class=""><a href="/help">Help</a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='e93eeae9ef5d146b669abbd5ed4dd49e'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+        
+<style data-nocturne="true" type="text/css">
+._BlitzInfoFrame_info {
+  margin: 1em;
+  text-align: center;
+  position: relative;
+}
+._BlitzInfoFrame_button {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 8px;
+  right: 1rem;
+}
+</style>
+
+
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                        <div id="sidebar">
+
+    <div class="roundbox sidebox borderTopRound " style="">
+        <table class="rtable ">
+            <tbody>
+                <tr>
+                            <th class="left" style="width:100%;"><a style="color: black" href="/gym/102219">2019 ICPC Malaysia National</a></th>
+                </tr>
+                    <tr>
+                                <td class="left bottom" colspan="1"><span class="contest-state-phase">Finished</span></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <div class="roundbox sidebox ContestVirtualFrame borderTopRound " style="">
+        <div class="caption titled">&rarr; Virtual participation         <i class="sidebar-caption-icon las la-angle-down"></i>
+
+            <div class="top-links">
+            </div>
+        </div>
+<div     style=" "
+
+        data-page-url="/data/sidebarFrames"
+
+>
+    <div style="margin:1em;font-size:0.8em;">
+        Virtual contest is a way to take part in past contest, as close as possible to participation on time. It is supported only ICPC mode for virtual contests.
+
+If you've seen these problems, a virtual contest is not for you - solve these problems in the archive.
+
+If you just want to solve some problem from a contest, a virtual contest is not for you - solve this problem in the archive.
+
+Never use someone else's code, read the tutorials or communicate with other person during a virtual contest.
+    </div>
+
+    <div style="text-align:center;margin:1em;">
+        <form action="/gym/102219/virtual" method="get">
+            <input type="submit" name="submit" value="Start virtual contest" style="padding:0 0.5em;">
+        </form>
+    </div>
+</div>
+        <script>
+            $(function () {
+    $(".ContestVirtualFrame .sidebar-caption-icon").click(function() {
+        $(this).toggleClass("la-angle-down la-angle-right");
+        const $target = $(this).parent().next();
+        $target.toggle();
+        const dataPageUrl = $target.attr("data-page-url");
+        const collapsed = $(this).hasClass("la-angle-right");
+        const params = {
+            action: "setCollapsed",
+            sidebarFrameSimpleClassName: "ContestVirtualFrame",
+            collapsed
+        };
+        $.each($target[0].attributes, function(i, a) {
+            const name = a.name;
+            if (name.startsWith("data-extra-key-")) {
+                const key = a.value;
+                const keyIndex = parseInt(name.substring("data-extra-key-".length));
+                params[key] = $target.attr("data-extra-value-" + keyIndex);
+            }
+        });
+        $.post(dataPageUrl, params, function (result) {
+            if (result["success"] !== "true") {
+                Codeforces.showMessage("Failed to save collapsed state.");
+            }
+        }, "json");
+        return false;
+    });
+            })
+        </script>
+    </div>
+
+
+    <div class="roundbox sidebox borderTopRound " style="">
+        <div class="caption titled">&rarr; Practice?
+            <div class="top-links">
+            </div>
+        </div>
+<div>
+    <div style="margin:1em;font-size:0.8em;">
+        Want to solve the contest problems after the official contest ends? Just register for practice and you will be able to submit solutions.
+    </div>
+    <div style="text-align:center;margin:1em;">
+    <form action="" method="post"><input type='hidden' name='csrf_token' value='e93eeae9ef5d146b669abbd5ed4dd49e'/>
+        <input type="hidden" name="action" value="registerForPractice"/>
+        <input type="submit" name="submit" value="Register for practice" style="padding:0 0.5em;" >
+    </form>
+    </div>    
+</div>
+    </div>
+
+    <!-- ContestResourcesSidebarFrame: hidden. -->
+</div>
+                        <div id="pageContent" class="content-with-sidebar">
+                    <div class="second-level-menu">
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="/gym/102219">Problems</a></li>
+        <li><a
+                                        href="/gym/102219/submit">Submit Code</a></li>
+        <li><a
+                                        href="/gym/102219/my">My Submissions</a></li>
+        <li><a
+                                        href="/gym/102219/status">Status</a></li>
+        <li><a
+                                        href="/gym/102219/standings">Standings</a></li>
+        <li><a
+                                        href="/gym/102219/customtest">Custom Invocation</a></li>
+</ul>
+</div>
+
+
+<style>
+    .output-only-problem-label {
+        font-size: 1.1rem;
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 0.25rem;
+        padding: 0.25rem;
+    }
+</style>
+
+
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Problems
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/28420/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/28420/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="problems">
+
+        <tr>
+                <th style="width: 4em;">#</th>
+            <th>Name</th>
+            <th style="width: 3em;">&nbsp;</th>
+                    <th style="width: 5em;">&nbsp;</th>
+        </tr>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/A">
+                            A
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/A"><!--
+                        -->Mental Rotation<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/A"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/A"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x696</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/B">
+                            B
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/B"><!--
+                        -->SpongeBob SquarePants<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/B"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/B"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x836</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/C">
+                            C
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/C"><!--
+                        -->I Don't Want To Pay For The Late Jar!<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/C"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/C"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x718</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/D">
+                            D
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/D"><!--
+                        -->Ali The Multi-billionaire<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            5 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/D"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/D"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x24</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/E">
+                            E
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/E"><!--
+                        -->Optimal Slots<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            2 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/E"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/E"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x441</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/F">
+                            F
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/F"><!--
+                        -->Military Class<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/F"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/F"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x253</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/G">
+                            G
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/G"><!--
+                        -->Timeout<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            5 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/G"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/G"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x49</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/H">
+                            H
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/H"><!--
+                        -->Are You Safe?<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            15 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/H"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/H"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x287</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/I">
+                            I
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/I"><!--
+                        -->To Crash Or Not To Crash<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/I"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/I"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x785</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/J">
+                            J
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/J"><!--
+                        -->Kitchen Plates<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/J"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/J"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x693</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/102219/problem/K">
+                            K
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/102219/problem/K"><!--
+                        -->Help The Support Lady<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 256 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/102219/submit/K"><img src="//codeforces.com/codeforces.org/s/28420/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/102219/status/K"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/28420/images/icons/user.png"/>&nbsp;x679</a>
+                </td>
+
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+
+
+
+    <form id="update-contest-form"
+          action="/gym/102219/releaseOrUpdate?action=releaseAndUpdate"
+          method="post" style="display: none;"><input type='hidden' name='csrf_token' value='e93eeae9ef5d146b669abbd5ed4dd49e'/>
+    </form>
+    <script type="text/javascript">
+        $(function () {
+            $(".update-contest-link").click(function () {
+                Codeforces.confirm(
+                        "It may take several minutes, do not interrupt or close browser tab.<br/><br>Are you sure you want to update the contest?",
+                        function () {
+                            $("#update-contest-form").submit();
+                        },
+                        function () {
+                        },
+                        "Yes", "No"
+                );
+                return false;
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $("#show-deleted-problems-link-102219").click(function() {
+        $(this).hide();
+        $(".deletedProblems102219").show();
+        return false;
+    });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+    <div style="text-align: right; font-size: 1.1rem; margin-top: 3px;">
+        <a href="/gym/102219/problems">
+            Complete problemset
+        </a>
+    </div>
+    <div style="margin-top: 2em;">
+
+<style>
+    .question-answer-by {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .question-requestText-td {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+
+        text-align: left !important;
+        /*white-space: ;*/
+        width: 20rem;
+    }
+
+    .quick-answer-select {
+        display: none;
+        position: absolute;
+        margin-top: 4px;
+        padding: 0;
+        list-style: none;
+        border: 1px solid #aaa;
+        background: white;
+        width: 300px;
+    }
+
+    .quick-answer-select li {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+    .quick-answer-select li:hover {
+        background: #eee;
+    }
+
+    .hide-question {
+        cursor: pointer;
+    }
+
+    @media (min-width: 1024px) {
+        .answer-question-box table {
+            width: 60em;
+        }
+    }
+    @media (max-width: 1023px) {
+        .answer-question-box table {
+            width: 30em;
+        }
+    }
+
+    .custom-quick-answer {
+        background: var(--highlighted-green-color) !important;
+    }
+</style>
+
+    <div style="position: relative; height: 2em;" class="action-link">
+        <div style="position: absolute; right: 0; margin: 0 0 1em 0;">
+        </div>
+    </div>
+
+
+<div class="datatable contest-102219-questions-container"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Questions about problems
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/28420/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/28420/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="problem-questions-table">
+<tr>
+    <th style="width: 2em;">&nbsp;</th>
+    <th>Question</th>
+    <th>Answer</th>
+</tr>
+<tr class="problem-question broadcast-question"
+                
+                >
+            <td style="font-size: 65%;">
+                2026-01-29 01:22:48
+                <br/>
+            </td>
+            <td class="question-requestText-td monospaced">                <div class="question-content"><a href="/gym/102219/problem/D?statementsLocale=ru">Problem D. Ali The Multi-billionaire</a><br>*****<br><span style="white-space: pre-wrap"><b>Announcement</b></span></div></td>
+<td class="question-requestText-td question-response-td monospaced "
+    
+    >
+        <div class="question-response"
+              data-response-type="TEXT"
+              data-question-id="260986"
+              data-is-announcement="false"
+              data-announcement-response-text=""
+              data-is-contest-quick-answer="false">Some test data in Problem D is broken so to skip those tests do the following: output 66815857 if (n == 1874 &amp;&amp; m == 11511) and 3659837 if (n == 100 &amp;&amp; m == 6875) then terminate the program without taking further input. (Don't blame me I am not the author I am just trying to help)</div>
+</td>
+        </tr><tr class="problem-question broadcast-question"
+                
+                >
+            <td style="font-size: 65%;">
+                2019-05-27 18:39:45
+                <br/>
+            </td>
+            <td class="question-requestText-td monospaced">                <div class="question-content"><a href="/gym/102219/problem/D?statementsLocale=en">Problem D. Ali The Multi-billionaire</a><br>*****<br><span style="white-space: pre-wrap">Can you check your testdata or intendent solution or problem statement? Something is wrong with problem...</span></div></td>
+<td class="question-requestText-td question-response-td monospaced "
+    
+    >
+        <div class="question-response"
+              data-response-type="TEXT"
+              data-question-id="76793"
+              data-is-announcement="false"
+              data-announcement-response-text=""
+              data-is-contest-quick-answer="false">Test data for this problem is broken. I will try to contact the author(s).</div>
+</td>
+        </tr><tr class="problem-question broadcast-question"
+                
+                >
+            <td style="font-size: 65%;">
+                2019-05-27 18:39:00
+                <br/>
+            </td>
+            <td class="question-requestText-td monospaced">                <div class="question-content"><a href="/gym/102219/problem/E?statementsLocale=en">Problem E. Optimal Slots</a><br>*****<br><span style="white-space: pre-wrap">What is the constraints? What is maximum value of T and N?</span></div></td>
+<td class="question-requestText-td question-response-td monospaced "
+    
+    >
+        <div class="question-response"
+              data-response-type="TEXT"
+              data-question-id="76792"
+              data-is-announcement="false"
+              data-announcement-response-text=""
+              data-is-contest-quick-answer="false">I know that t&lt;=1000</div>
+</td>
+        </tr><tr class="problem-question broadcast-question"
+                
+                >
+            <td style="font-size: 65%;">
+                2019-05-27 17:47:48
+                <br/>
+            </td>
+            <td class="question-requestText-td monospaced">                <div class="question-content"><a href="/gym/102219/problem/H?statementsLocale=en">Problem H. Are You Safe?</a><br>*****<br><span style="white-space: pre-wrap">Does the order in which the points are outputted for the polygon matter? That is, does it matter which point is listed first?</span></div></td>
+<td class="question-requestText-td question-response-td monospaced "
+    
+    >
+        <div class="question-response"
+              data-response-type="TEXT"
+              data-question-id="76790"
+              data-is-announcement="false"
+              data-announcement-response-text=""
+              data-is-contest-quick-answer="false">Yes, it does matter. The first point should be the one with smallest x coordinate. If there is more then one such point, choose the one with smallest y coordinate. (The statement does not mention it because it is a very bad statement)</div>
+</td>
+        </tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+<script type="text/javascript">
+    function toggleQuestionHide() {
+        const $this = $(this);
+        var hidden = $this.hasClass("icon-eye-open"); // Currently shown, going to be hidden
+        var isAnnouncement = $this.attr("data-is-announcement");
+        var questionId = $this.attr("data-question-id");
+
+        var row = $this.parent().parent();
+
+        if (confirm(hidden ? "Are you sure you want to hide problem question?" : "Are you sure you want to show problem question?")) {
+            $.post("/data/changeProblemQuestionOrAnnouncementDataPage", {
+                action: "changeHiddenForQuestion",
+                contestId: 102219,
+                hidden: hidden,
+                isAnnouncement: isAnnouncement,
+                questionId: questionId
+            }, function (data) {
+                if (data["success"] === "true") {
+                    if (hidden) {
+                        row.addClass("highlighted-row");
+                        $this.removeClass("icon-eye-open").addClass("icon-eye-close").attr("title", "show");
+                    } else {
+                        row.removeClass("highlighted-row");
+                        $this.addClass("icon-eye-open").removeClass("icon-eye-close").attr("title", "hide");
+                    }
+
+                    Codeforces.showMessage(hidden ? "Problem question is hidden for all users" : "Problem question is visible for all users");
+                } else {
+                    Codeforces.showMessage(data["message"]);
+                }
+            }, "json");
+        }
+
+        return false;
+    }
+
+    function toggleQuestionBroadcast() {
+        var broadcast = $(this).attr("checked");
+        var questionId = $(this).attr("data-question-id");
+
+        if (confirm(broadcast ? "Are you sure you want to broadcast problem question?" : "Are you sure you don't want to broadcast problem question?")) {
+            $.post("/data/changeProblemQuestionOrAnnouncementDataPage", {
+                action: "changeBroadcastForQuestion",
+                contestId: 102219,
+                broadcast: broadcast,
+                questionId: questionId
+            }, function (data) {
+                if (data["success"] === "true") {
+                    Codeforces.reload();
+                    //Codeforces.showMessage(broadcast ? "Problem question is broadcasted" : "Problem question isn't broadcasted");
+                } else {
+                    Codeforces.showMessage(data["message"]);
+                }
+            }, "json");
+        } else {
+            if (broadcast) {
+                $(this).removeAttr("checked");
+            } else {
+                $(this).attr("checked", "true");
+            }
+        }
+
+        return false;
+    }
+
+    $(function () {
+        $(".hide-question").click(toggleQuestionHide);
+        $(".broadcast-question").change(toggleQuestionBroadcast);
+
+        $(".mute-user").click(function () {
+            const handle = $(this).attr("data-handle");
+            const problemQuestionId = $(this).attr("data-problemQuestionId");
+            Codeforces.confirm("Are you sure you want to mute the user '30f8f81dba64e' for several hours?".replace("30f8f81dba64e", handle),
+                function () {
+                    $.post("/data/answerProblemQuestion", {
+                        action: "muteUser", problemQuestionId: problemQuestionId
+                    }, function (response) {
+                        if (response["success"] === "true") {
+                            Codeforces.showMessage("User '30f8f81dba64e' has been muted in questions.".replace("30f8f81dba64e", handle));
+                        }
+                    }, "json");
+                }, function () {
+                });
+            return false;
+        });
+    });
+</script>
+
+<div class="ask-question-box" style="display:none;">
+<h5>Ask a question</h5>
+<hr/>
+<form method="post" action=""><input type='hidden' name='csrf_token' value='e93eeae9ef5d146b669abbd5ed4dd49e'/>
+    <input type="hidden" name="action" value="questionSubmitted"/>
+
+    <table class="table-form" style="width: 45em;">
+        <tr>
+            <td class="field-name">Problem:</td>
+            <td>
+                <select style="width: 25em;" name="submittedProblemIndex">
+                <option value="">Choose problem</option>
+                    <option value="A" >A - Mental Rotation</option>
+                    <option value="B" >B - SpongeBob SquarePants</option>
+                    <option value="C" >C - I Don't Want To Pay For The Late Jar!</option>
+                    <option value="D" >D - Ali The Multi-billionaire</option>
+                    <option value="E" >E - Optimal Slots</option>
+                    <option value="F" >F - Military Class</option>
+                    <option value="G" >G - Timeout</option>
+                    <option value="H" >H - Are You Safe?</option>
+                    <option value="I" >I - To Crash Or Not To Crash</option>
+                    <option value="J" >J - Kitchen Plates</option>
+                    <option value="K" >K - Help The Support Lady</option>
+                </select>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__submittedProblemIndex">
+             <span class="error for__submittedProblemIndex " style="display: none;">&nbsp;</span>
+             <span class="notice for__submittedProblemIndex ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Question:</td>
+            <td>
+                <textarea name="question" style="width: calc(100% - 1rem); height: 15em; margin-bottom: 2px;" class="monospaced"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__question">
+             <span class="error for__question " style="display: none;">&nbsp;</span>
+             <span class="notice for__question ">At most 1000 characters&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td colspan="2">
+                <div style="text-align: center;">
+                    <input class="submit" type="submit" value="Send"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+$(".broadcast-question").css("font-weight", "bold");
+
+$(".ask-question-link").click(function () {
+    Codeforces.facebox(".ask-question-box", "//codeforces.com/codeforces.org/s/28420");
+    $("#facebox .ask-question-box .submit").click(function () {
+        Codeforces.clearAjaxFormErrors("#facebox .table-form");
+        var question = $("#facebox textarea[name=question]").val();
+        var submittedProblemIndex = $("#facebox select[name=submittedProblemIndex]").val();
+        $.post("/data/newProblemQuestion",
+            { contestId: 102219, question: question, submittedProblemIndex: submittedProblemIndex },
+            function(data) {
+                var invalid = Codeforces.setAjaxFormErrors("#facebox .table-form", data);
+                if (!invalid) {
+                    $.facebox.close();
+                    Codeforces.reload();
+                }
+            },
+            "json"
+        );
+        return false;
+    });
+    return false;
+});
+        });
+    </script>
+
+<div class="add-announcement-box" style="display: none;">
+<h5>Add announcement</h5>
+<hr/>
+<form method="post" action=""><input type='hidden' name='csrf_token' value='e93eeae9ef5d146b669abbd5ed4dd49e'/>
+    <table class="table-form" style="width:45em;">
+        <tr>
+            <td class="field-name">Problem:</td>
+            <td>
+                <select style="width: 25em;" name="submittedProblemIndex">
+                <option value="">Choose problem</option>
+                    <option value="generalAnnouncement" data-problem-name="" >General announcement</option>
+                    <option value="A" data-problem-name="Mental Rotation" >A - Mental Rotation</option>
+                    <option value="B" data-problem-name="SpongeBob SquarePants" >B - SpongeBob SquarePants</option>
+                    <option value="C" data-problem-name="I Don't Want To Pay For The Late Jar!" >C - I Don't Want To Pay For The Late Jar!</option>
+                    <option value="D" data-problem-name="Ali The Multi-billionaire" >D - Ali The Multi-billionaire</option>
+                    <option value="E" data-problem-name="Optimal Slots" >E - Optimal Slots</option>
+                    <option value="F" data-problem-name="Military Class" >F - Military Class</option>
+                    <option value="G" data-problem-name="Timeout" >G - Timeout</option>
+                    <option value="H" data-problem-name="Are You Safe?" >H - Are You Safe?</option>
+                    <option value="I" data-problem-name="To Crash Or Not To Crash" >I - To Crash Or Not To Crash</option>
+                    <option value="J" data-problem-name="Kitchen Plates" >J - Kitchen Plates</option>
+                    <option value="K" data-problem-name="Help The Support Lady" >K - Help The Support Lady</option>
+                </select>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__submittedProblemIndex">
+             <span class="error for__submittedProblemIndex " style="display: none;">&nbsp;</span>
+             <span class="notice for__submittedProblemIndex ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr style="display: none; font-size: 0.7em;">
+            <td>&nbsp;</td>
+            <td>
+                <input type="checkbox" checked="checked" name="announceInPairContest"/>
+                <span class="notice pairProblemNotice" style="display: none; position: relative; top: -2px;">Add a copy of announcement for problem <span class="pairProblem"></span></span>
+                <span class="notice pairContestNotice" style="display: none; position: relative; top: -2px;">Add a copy of announcement for contest <span class="pairContest"></span></span>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__announceInPairContest">
+             <span class="error for__announceInPairContest " style="display: none;">&nbsp;</span>
+             <span class="notice for__announceInPairContest ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr class="subscription-row">
+            <td>&nbsp;</td>
+            <td>
+                <span class="notice shiftUp" style="word-break: break-word;">Fields below will be interpreted as plain text.</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field-name">English text:</td>
+            <td>
+                <textarea name="englishText" class="bottom-space-small monospaced" style="width: 80%; height: 10em;"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__englishText">
+             <span class="error for__englishText " style="display: none;">&nbsp;</span>
+             <span class="notice for__englishText ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Russian text:</td>
+            <td>
+                <textarea name="russianText" class="bottom-space-small monospaced" style="width: 80%; height: 10em;"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__russianText">
+             <span class="error for__russianText " style="display: none;">&nbsp;</span>
+             <span class="notice for__russianText ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Target user:</td>
+            <td>
+                <input class="targetUserHandle" name="targetUserHandle" style="width: 15em;"/>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__targetUserHandle">
+             <span class="error for__targetUserHandle " style="display: none;">&nbsp;</span>
+             <span class="notice for__targetUserHandle ">Leave blank if you want to announce all participants&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td colspan="2">
+                <div style="text-align: center;">
+                    <input class="submit" type="submit" value="Send"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+    </div>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2026 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Oct/23/2026 19:23:07</span> (k1).</div>
+                    <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
+                <div class="smaller">
+                    <a href="/privacy">Privacy Policy</a>
+                    |
+                    <a href="/terms">Terms and Conditions</a>
+                </div>
+
+                    <div style="margin-top: 25px;">
+                        Supported by
+                    </div>
+                        <div style="text-align: center; margin-top: 8px;">
+                            <a href="https://telegram.org/"><img style="width: 60px;" src="//codeforces.com/codeforces.org/s/28420/images/telegram-100x100.png" alt="Telegram" title="Telegram"/></a>
+                        </div>
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+
+            Codeforces.focusOnError();
+
+            Codeforces.setCopiedToClipboardText("Copied to clipboard");
+            Codeforces.listenCopyable();
+        });
+    </script>
+    <div class="userListsFacebox" style="display:none;">
+        <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/28420/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/28420/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+        </div>
+    </div>
+    <script type="application/javascript">
+        $(function() {
+            $(".userListMarker").click(function() {
+                $.post("/data/lists", {action: "findTouched"}, function(json) {
+                    Codeforces.facebox(".userListsFacebox");
+                    var tbody = $("#facebox tbody");
+                    tbody.empty();
+                    for (var i in json) {
+                        tbody.append(
+                            $("<tr></tr>").append(
+                                $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                            )
+                        );
+                    }
+                    Codeforces.updateDatatables();
+                    tbody.find("td").css("cursor", "pointer").click(function() {
+                        document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                    });
+                }, "json");
+            });
+        });
+    </script>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            navigator.serviceWorker.register('/service-worker-28420.js')
+                .then(function (registration) {
+                    console.log('Service worker registered: ', registration);
+                })
+                .catch(function (error) {
+                    console.log('Registration failed: ', error);
+                });
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4f2159cecf068fa',t:'MTc5Mjc3MjU4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"316c29dfa3804effb5a91c52a59b5bd0","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

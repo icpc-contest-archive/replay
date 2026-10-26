@@ -1,0 +1,306 @@
+TABLE.strict A
+{
+	color: #000000;
+}
+TABLE.strict A:hover
+{
+	color: #000000;
+}
+TABLE.strict A:visited
+{
+	color: #000000;
+}
+PRE.code
+{
+	background-color: #F0F0F0;
+	padding: 4px;
+}
+H1.title, H2.title
+{
+	color: #1A5CC8;
+	text-align: center;
+}
+H2.subtitle, H3.subtitle
+{
+	color: #1A5CC8;
+	text-align: left;
+}
+.narrow_content
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/********** status **********/
+
+TABLE.status
+{
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+TABLE.status TR.header
+{
+	height: 36px;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #EEEEEE;
+}
+TABLE.status TR.even
+{
+	height: 37px;
+}
+TABLE.status TR.odd
+{
+	height: 37px;
+	background-color: #F4F4F4;
+}
+
+TABLE.status TD, TABLE.status TH
+{
+	padding: 2px 6px;
+}
+TABLE.status TD
+{
+	border-top: 1px solid #DDDDDD;
+}
+TABLE.status .id
+{
+	width: 64px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .date
+{
+	width: 86px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .coder
+{
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status TD.coder
+{
+	text-align: left;
+}
+TABLE.status .problem
+{
+	width: 68px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .language
+{
+	width: 76px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .result, TABLE.status .verdict_wt, TABLE.status .verdict_ac, TABLE.status .verdict_rj
+{
+	width: 160px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .verdict_ac
+{
+	color: #006600;
+}
+TABLE.status .verdict_rj
+{
+	color: #800000;
+}
+TABLE.status .test
+{
+	width: 52px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .runtime
+{
+	width: 68px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.status .memory
+{
+	width: 76px;
+}
+
+TABLE.status_footer
+{
+	margin: 10px 0px 0px 0px;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: left;
+	width: 100%;
+}
+TABLE.status_footer TD.footer_left
+{
+	padding: 0px 32px 0px 0px;
+}
+TABLE.status_footer TD.footer_right
+{
+	text-align: right;
+	vertical-align: top;
+}
+
+P.status_filter
+{
+	margin: 0px;
+	padding: 0px 0px 4px 0px;
+	border: 0px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: right;
+}
+
+TABLE.status A, TABLE.status_footer A, P.status_filter A
+{
+	color: #0044CC;
+	text-decoration: underline;
+}
+
+/********** rating **********/
+
+TABLE.rating
+{
+	margin-bottom: 10px;
+	padding: 0px;
+	border-top: 1px solid #808080;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+TABLE.rating TR.header
+{
+	height: 36px;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #EEEEEE;
+}
+TABLE.rating TR.even, TABLE.rating TR.odd
+{
+	height: 37px;
+}
+TABLE.rating TR.odd
+{
+	background-color: #F4F4F4;
+}
+
+TABLE.rating TH, TABLE.rating TD
+{
+	padding: 2px 6px;
+	border-right: 1px solid #DDDDDD;
+}
+TABLE.rating TD
+{
+	border-top: 1px solid #DDDDDD;
+}
+
+TABLE.rating .rank
+{
+	border-left: 1px solid #DDDDDD;
+	width: 52px;
+}
+TABLE.rating .id
+{
+	width: 64px;
+}
+TABLE.rating .date
+{
+	width: 86px;
+}
+TABLE.rating .coder
+{
+	width: 248px;
+}
+TABLE.rating TD.coder
+{
+	text-align: left;
+}
+TABLE.rating .language
+{
+	width: 76px;
+}
+TABLE.rating .runtime
+{
+	width: 68px;
+}
+TABLE.rating .memory
+{
+	width: 76px;
+}
+TABLE.rating TD.footer
+{
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #808080;
+	border-right: none;
+}
+
+TABLE.rating_footer
+{
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	width: 100%;
+}
+TABLE.rating_footer TD
+{
+	padding: 0px;
+	border: none;
+	vertical-align: top;
+}
+TABLE.rating_footer TD.footer_left
+{
+	padding-right: 32px;
+	text-align: left;
+}
+TABLE.rating_footer TD.footer_right
+{
+	text-align: right;
+}
+
+TABLE.rating A
+{
+	color: #0044CC;
+	text-decoration: underline;
+}
+
+/********** problem **********/
+
+TABLE.sample
+{
+	border-collapse: collapse;
+	border: 1px solid #1A5CC8;
+}
+TABLE.sample TR TD, TABLE.sample TR TH
+{
+	border: 1px solid #1A5CC8;
+	vertical-align: top;
+	padding: 2px;
+}
+TABLE.sample TR TD PRE
+{
+	margin: 1px;
+}
+TABLE.sample TR TH
+{
+	width: 50%;
+}
+TABLE.sample TR TH DIV
+{
+	width: 350px;
+	color: #1A5CC8;
+}
+H3.subtitle
+{
+	color: #1A5CC8;
+}
+DIV.title
+{
+	font-size: x-large;
+	color: #1A5CC8;
+}

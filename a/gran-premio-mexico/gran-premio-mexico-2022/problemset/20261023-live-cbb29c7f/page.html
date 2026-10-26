@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+  <head data-locale="es">
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://omegaup.com/arena/ICPCMX2022_1er/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+          <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"d37bbf4509",applicationID:"73039771",sa:1}</script>
+    
+          <meta name="google-signin-client_id" content="392749661744-p2kh8dghr16c8lc3o6qtvd1us3pp8p75.apps.googleusercontent.com" />
+    
+    <script type="text/javascript" src="assets/070c0d4cf5fc4b5e.js"></script>
+    <title>Entrar al concurso &ndash; omegaUp</title>
+    <script type="text/javascript" src="assets/dcc2375586816a8e.js"></script>
+    <script type="text/javascript" src="assets/175bbbe7612ca221.js"></script>
+    <script type="text/javascript" src="assets/7c16d76d4e82cd18.js" defer></script>
+    <script src="assets/b4b5163d964f1f51.js" type="text/javascript" defer></script>
+<script src="assets/0bb2ead71dc70071.js" type="text/javascript" defer></script>
+<script src="/js/dist/npm..pnpm.js?ver=49e123" type="text/javascript" defer></script>
+<script src="assets/0527f5ff9f8566e8.js" type="text/javascript" defer></script>
+
+    
+    
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/611b9fc21bc6ede2.css"/>
+    <script src="assets/f8205be065d4b063.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/6c7746dfa41da1a5.css">
+    <link rel="shortcut icon" href="assets/48c6caae1851f502.ico" />
+
+    
+      </head>
+
+  <body class="d-flex flex-column h-100">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://omegaup.com/arena/ICPCMX2022_1er/">https://omegaup.com/arena/ICPCMX2022_1er/</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/gran-premio-mexico-2022.html">gran-premio-mexico-2022</a>  <a href="https://web.archive.org/web/*/https://omegaup.com/arena/ICPCMX2022_1er/">wayback</a>  <a href="https://omegaup.com/arena/ICPCMX2022_1er/">live</a></div>
+
+    <script type="text/json" id="header-payload">{"omegaUpLockDown":false,"inContest":false,"isLoggedIn":false,"isReviewer":false,"gravatarURL51":"","gravatarURL128":"","currentUsername":"","currentName":null,"currentEmail":"","associatedIdentities":[],"apiTokens":[],"isUnder13User":false,"userVerificationDeadline":null,"userClassname":"user-rank-unranked","userCountry":"xx","profileProgress":0,"isMainUserIdentity":false,"isAdmin":false,"isSupportTeamMember":false,"mentorCanChooseCoder":false,"lockDownImage":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAAA6UlEQVQ4jd2TMYoCMRiFv5HBwnJBsFqEiGxtISps6RGmFD2CZRr7aQSPIFjmCGsnrFYeQJjGytJKRERsfp2QmahY+iDk5c97L\/wJCchBFCclYAD8SmkBTI1WB1cb5Ji\/gT+g7mxtgK7RausNiOIEYAm0pHSWOZR5BbSNVndPwTmlaZnnQFnGXGot0XgDfiw+NlrtjVZ7YOzRZAJCix893NZkAi4eYejRpJcYxckQ6AENKf0DO+EVoCN8DcyMVhM3eQR8WesO+WgAVWDituC28wiFDHkXHxBgv0IfKL7oO+UF1Ei\/7zMsbuQKTFoqpb8KS2AAAAAASUVORK5CYII=","navbarSection":"","userTypes":[],"nextRegisteredContestForUser":null,"preferredLanguage":"es","maintenanceMessage":null,"ephemeralGraderEnabled":true}</script>
+    <script src="assets/4e76bde05eec7b3d.js" type="text/javascript" defer></script>
+    <script src="assets/0b5d8baef8d869f3.js" type="text/javascript" defer></script>
+          <div id="common-navbar"></div>
+        <main role="main" class="flex-grow-1 container-lg py-5 px-3 px-md-5">
+      <div id="global-notifications" role="status" aria-live="polite" aria-atomic="false" aria-relevant="additions"></div>
+
+      <script type="text/json" id="payload">{"contest":{"director":"jpablo.marinr","contest_id":15460,"problemset_id":28223,"acl_id":102502,"title":"Gran Premio de M\u00e9xico 2022 Primera Fecha","description":"Gran Premio de M\u00e9xico 2022 Primera Fecha\n\n\n![ICPC M\u00e9xico][1]\n\n[1]: https:\/\/score.icpcmexico.org\/logo_mexico.jpg \" \"\n","start_time":1652569200,"finish_time":1652587200,"last_updated":1652536843,"window_length":null,"rerun_id":null,"admission_mode":"public","alias":"ICPCMX2022_1er","scoreboard":80,"points_decay_factor":0,"submissions_gap":60,"feedback":"none","penalty":20,"penalty_type":"contest_start","penalty_calc_policy":"sum","default_show_all_contestants_in_scoreboard":true,"show_scoreboard_after":true,"show_penalty":true,"urgent":false,"recommended":false,"archived":false,"certificate_cutoff":null,"certificates_status":"uninitiated","contest_for_teams":false,"score_mode":"all_or_nothing","languages":"c11-gcc,c11-clang,cpp11-gcc,cpp11-clang,cpp17-gcc,cpp17-clang,cpp20-gcc,cpp20-clang,java,py2,py3"},"shouldShowModalToLoginWithRegisteredIdentity":false,"omegaUpLockDown":false,"inContest":false,"isLoggedIn":false,"isReviewer":false,"gravatarURL51":"","gravatarURL128":"","currentUsername":"","currentName":null,"currentEmail":"","associatedIdentities":[],"apiTokens":[],"isUnder13User":false,"userVerificationDeadline":null,"userClassname":"user-rank-unranked","userCountry":"xx","profileProgress":0,"isMainUserIdentity":false,"isAdmin":false,"isSupportTeamMember":false,"mentorCanChooseCoder":false,"lockDownImage":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAAA6UlEQVQ4jd2TMYoCMRiFv5HBwnJBsFqEiGxtISps6RGmFD2CZRr7aQSPIFjmCGsnrFYeQJjGytJKRERsfp2QmahY+iDk5c97L\/wJCchBFCclYAD8SmkBTI1WB1cb5Ji\/gT+g7mxtgK7RausNiOIEYAm0pHSWOZR5BbSNVndPwTmlaZnnQFnGXGot0XgDfiw+NlrtjVZ7YOzRZAJCix893NZkAi4eYejRpJcYxckQ6AENKf0DO+EVoCN8DcyMVhM3eQR8WesO+WgAVWDituC28wiFDHkXHxBgv0IfKL7oO+UF1Ei\/7zMsbuQKTFoqpb8KS2AAAAAASUVORK5CYII=","navbarSection":"","userTypes":[],"nextRegisteredContestForUser":null,"preferredLanguage":"es","maintenanceMessage":null,"ephemeralGraderEnabled":true}</script>
+      <script src="assets/fb8dc471f07c9022.js" type="text/javascript" defer></script>
+      <div id="main-container"></div>
+    </main>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PBDCQK1GEQ"></script>
+      <script type="text/javascript" src="assets/72ce96f0b32dd3fb.js"></script>
+    
+    <script src="assets/f3dbfb9bbfc5bf3b.js" type="text/javascript" defer></script>
+          <div id="common-footer"></div>
+    
+  </body>
+  <script type="text/javascript" src="assets/f7aeb7aaacd2408b.js" defer></script>
+</html>

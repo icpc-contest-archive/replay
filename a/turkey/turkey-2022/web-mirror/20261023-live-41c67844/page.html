@@ -1,0 +1,841 @@
+
+
+
+<html lang="en">
+
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+<meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><title>
+	Online Programming Contest 2022 | inzva
+</title><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet" /><link rel="stylesheet" href="assets/1009d2f2cc0bf93b.css" />
+	<script src="assets/1c50b321b2a986b9.js"></script>
+	<link rel="stylesheet" href="assets/51842af7f332943c.css" /><meta property="og:title" content="İT&#220; | Faculty of Computer and Informatics Engineering" /><meta property="og:url" content="https://bm.itu.edu.tr/en/home" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Bilgisayar M&#252;hendisliği" /><meta name="Generator" content="Sitefinity 12.2.7200.0 PE" /><link rel="canonical" href="https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva" /><link href="assets/1a42030605fca390.css" type="text/css" rel="stylesheet" /><style type="text/css" media="all">.RadDock .rdTable {
+  height: auto !important;
+}
+
+body > form{
+	margin:0;
+}
+@media (max-width: 768px){
+.slider__item {
+    height: 360px;
+  }
+}
+
+
+</style></head>
+
+
+<body>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva">https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/turkey-2022.html">turkey-2022</a>  <a href="https://web.archive.org/web/*/https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva">wayback</a>  <a href="https://bm.itu.edu.tr/en/home/2022/07/21/online-programming-contest-2022-inzva">live</a></div>
+
+	<form method="post" action="./online-programming-contest-2022-inzva" id="form1">
+<input type="hidden" name="ctl08_TSM" id="ctl08_TSM" value="" />
+<input type="hidden" name="ctl09_TSSM" id="ctl09_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"en","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"$","NaNSymbol":"NaN","CurrencyNegativePattern":0,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2049,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, MMMM d, yyyy h:mm:ss tt","LongDatePattern":"dddd, MMMM d, yyyy","LongTimePattern":"h:mm:ss tt","MonthDayPattern":"MMMM d","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"M/d/yyyy","ShortTimePattern":"h:mm tt","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":true,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]},"eras":[1,"A.D.",null,0]};//]]>
+</script>
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl08_TSM&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ab0290e94-80ea-457c-96c5-ab52881b7490%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2019.3.917.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3acb7ecd12-8232-4d4a-979d-f12706320867%3a16e4e7cd%3af7645509%3addbfcb67%3bTelerik.Sitefinity%2c+Version%3d12.2.7200.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a69f7f411-db5d-4f58-8ffa-4a9e263f780b%3a721addc%3a41f6c3a7" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A8AA9DF" /><input type="hidden" name="ctl00$ctl08" id="ctl08" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl08", "ctl00$ctl08");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+		<div class="wrapper" data-page="home">
+
+			<!--Header Start-->
+			<div class="header header--no-background">
+				<div class="header__inner">
+					<div class="header__search">
+						<div class="container">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="icon-search"></i>
+								</span>
+								<input type="text" class="form-control" placeholder="ARANACAK KELİMEYİ ARAMA ALANINA YAZIN">
+								<span class="input-group-addon close-search">
+									<i class="icon-close"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="navbar-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-3 col-lg-3">
+									
+
+
+								</div>
+								<div class="col-12 col-md-9 col-lg-9">
+									
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="header__nav">
+						<div class="container">
+							<div class="row">
+
+
+								<div class="col-xs-6 col-md-2 col-lg-3">
+									
+<div class='sfContentBlock'><div class="sfContentBlock">
+<a href="/en/home" class="header__logo hidden-xs"><img src="assets/95a6da7ec33062da.png" alt="bm-EN-B" data-displaymode="Original" /></a>
+<a href="/home" class="header__logo visible-xs">
+<img src="assets/a7b62815cbdff58c.png" alt="bm-EN-K" data-displaymode="Original" /></a>&nbsp;
+</div>
+
+</div>
+									
+								</div>
+								<div class="col-xs-6 col-md-10 col-lg-9">
+									<div class="row menu_row clearfix">
+										<div class="col-xs-9 col-md-10 col-lg-10">
+											
+
+
+
+<div class="header__main-menu">
+    
+    
+    
+    
+
+    <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_navigationUl" class="sfNavHorizontalDropDown sfNavList">
+        
+                        <li class=>
+                          <a href="/en" class="sfSel"><span>Home</span></a>
+                            
+                            
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/about-us"><span>About Us</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl01_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/mission-statement"><span>Mission Statement</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/administration-and-duties"><span>Administration and Duties</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/committees"><span>Committees</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/academic-job-applications"><span>Academic Job Applications</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/achievements"><span>Achievements</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/about-us/videos"><span>Videos</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/staff"><span>Staff</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl02_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/staff/department-members"><span>Department Members</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/staff/research-assistants"><span>Research Assistants</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/staff/oyp-research-assistants"><span>ÖYP Research Assistants</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/staff/turkcell-research-assistants"><span>Turkcell Research Assistants</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/staff/administrative-staff"><span>Administrative Staff</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/staff/former-academics"><span>Former Academics</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/education"><span>Education</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl03_childNodesContainer">
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/education/undergraduate"><span>Undergraduate Programs</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl03_ctl01_childNodesContainer">
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/education/undergraduate/computer-engineering"><span>Computer Engineering</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl03_ctl01_ctl01_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/education/undergraduate/computer-engineering/general-information"><span>General Information</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/undergraduate/computer-engineering/accreditation"><span>Accreditation</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/undergraduate/computer-engineering/course-catalog-forms" target="_blank"><span>Course Catalog Forms</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/education/undergraduate/information-systems-engineering-suny"><span>Information System Engineering (SUNY)</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl03_ctl01_ctl02_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/education/undergraduate/information-systems-engineering-suny/general-information"><span>General Information </span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/undergraduate/information-systems-engineering-suny/course-catalog-forms" target="_blank"><span>Course Catalog Forms</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/education/graduate-programs"><span>Graduate Programs</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl03_ctl02_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/education/graduate-programs/computer-engineering-graduate"><span>Computer Engineering Graduate Programs</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/graduate-programs/game-and-interaction-technologies-master-program" target="_blank"><span>Game and Interaction Technologies Master Program</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/graduate-programs/information-technologies-non-thesis-master-program" target="_blank"><span>Information Technologies Non-Thesis Master Program</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/education/academic-calendar" target="_blank"><span>Academic Calendar</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/research"><span>Research</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=has-submenu>
+
+                        
+                          <a href="/en/students"><span>Students</span></a>
+                          <em class='hidden-lg icon-circle-arrow-down'></em>
+                            <ul id="cphNavigation_T0C55DCF5001_ctl00_ctl00_ctl02_ctl05_childNodesContainer">
+                      <li class=>
+
+                        
+                          <a href="/en/students/internship-regulations" target="_blank"><span>Internship Regulations</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/erasmus" target="_blank"><span>Erasmus</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/graduation-projects"><span>Graduation Projects</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/student-clubs"><span>Student Clubs</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/jobs-internship-announcements"><span>Jobs & Internship Announcements</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/course-evaluation-criteria" target="_blank"><span>Course Evaluation Criteria</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/students/alumni"><span>Alumni</span></a>
+                          
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/news"><span>News</span></a>
+                          
+                            
+                        </li>
+                    
+                      <li class=>
+
+                        
+                          <a href="/en/contact"><span>Contact</span></a>
+                          
+                            
+                        </li>
+                    
+              <li class="search hidden-xs hidden-sm hidden-md">
+                                                <a href="#">
+                                                    <span>
+                                                        <i class="icon-search"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+    </ul>
+</div>
+
+
+										</div>
+										<div class="col-xs-3 col-md-2 col-lg-2">
+											
+<div id="cphLanguage_T0C55DCF5021" class="lang-switch">
+	<div id="cphLanguage_T0C55DCF5021_ctl00_ctl00_controlWrapper">
+
+    
+
+    
+                
+                        <ul class="sflanguagesHorizontalList">
+                    
+                        <li id="cphLanguage_T0C55DCF5021_ctl00_ctl00_languagesRepeater_horizontal_langHolder_0" class="sflanguageItem sflang_tr">
+                            <a href="../../../../../anasayfa/2022/07/21/online-programming-contest-2022" id="cphLanguage_T0C55DCF5021_ctl00_ctl00_languagesRepeater_horizontal_langLink_0" class="sflanguageLnk" lang="tr"><span id="cphLanguage_T0C55DCF5021_ctl00_ctl00_languagesRepeater_horizontal_langName_0">Türkçe</span></a>
+                        </li>
+                    
+                        </ul>
+                    
+            
+</div>
+
+</div>
+										</div>
+									</div>
+
+
+
+									
+
+									<div class="header__mobile">
+										<a href="#" class="search">
+											<i class="icon-search"></i>
+										</a>
+										<a href="javascript:;" class="js-mobile-menu">
+											<i></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+			<!--Header End-->
+
+			<!--Sticy Social Link Start-->
+			
+
+			
+			<!--Sticy Social Link End-->
+
+			<!--Slider Start-->
+			
+<div>
+	
+<!-- 2019.3.917.45 -->
+           <div class="slider owl-carousel owl-theme">
+            
+      <div class="slider__item" style="background-image: url('https://bm.itu.edu.tr/images/librariesprovider92/default-album/the-rankings-2026.jpg?sfvrsn=7b8d3098_2')">
+                    <div class="slider__text-container" style="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <h2>We are ranked #1 in Türkiye</h2>
+                                    <p>
+                                       
+                                    </p>
+                                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7421809793352265728/" target="_blank" class="btn btn-detail btn-ghost btn-large">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+       </div>
+    <input id="ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView_ClientState" name="ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView_ClientState" type="hidden" /><span id="ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView" style="display:none;"></span>
+
+
+</div>
+
+
+			<!--Slider End-->
+
+			<!--Haber ve Duyurular Start-->
+
+			<div class="news">
+				<div class="container">
+					<div class="row">
+
+						
+						
+
+
+						<div class="news__list">
+							
+ 
+
+            
+            
+       <div class="sfnewsDetails sfdetails" data-sf-provider='newsProvider91'  data-sf-id='fdb95717-b909-4a06-ab6d-7af649561701' data-sf-type="Telerik.Sitefinity.News.Model.NewsItem">
+        <h1 class="sfnewsTitle sftitle" data-sf-field="Title" data-sf-ftype="ShortText">
+            Online Programming Contest 2022 | inzva
+        </h1>
+        
+        <div class="sfnewsAuthorAndDate sfmetainfo">
+            by 
+            <!--Arda İnceoğlu | -->Jul 21, 2022
+            
+
+        </div>
+         
+        <div class="sfnewsContent sfcontent" data-sf-field="Content" data-sf-ftype="LongText">
+            <p dir="ltr">inzva is holding the third time <a href="https://inzva.com/algorithm/contests/online-programming-contest-2022" target="x-RcoJHQMzSt3FeRwYq3gW3" moz-do-not-send="true" rel="noopener noreferrer">Online Programming Contest</a> on Saturday, September 17, 2022, between 11:00 - 16:00, a team-based contest on <a href="http://algoleague.com/" target="ieAFpbzQMnE1wos5NO7DYvy" moz-do-not-send="true" rel="noopener noreferrer">algoleague</a>. It is open to all undergraduate students studying in Turkey who are willing to compete in teams of three, completely free of charge! This year the minimum team quota has been removed.&nbsp;&nbsp;&nbsp;</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">The contest aims to elevate the skill sets that talented students use in their careers; such as teamwork, solving various problems and working with time limitations.</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">The prizes will be announced later!</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">Stay tuned.&nbsp;</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">Important Dates:</p>
+<ul>
+    <li dir="ltr">
+    <p dir="ltr" role="presentation">Application Deadline: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; August 30, 2022 until 17:00</p>
+    </li>
+    <li dir="ltr">
+    <p dir="ltr" role="presentation">Practice Session: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Friday, September 9, 2022, at 19:00</p>
+    </li>
+    <li dir="ltr">
+    <p dir="ltr" role="presentation">Online Programming Contest: &nbsp; &nbsp; &nbsp; Saturday, September 17, 2022, between 11:00 - 16:00</p>
+    </li>
+    <li dir="ltr">
+    <p dir="ltr" role="presentation">Closing Ceremony:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saturday, September 17, 2022, at 18:00</p>
+    </li>
+</ul>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">More details and application:</p>
+<p dir="ltr"><a href="https://inzva.com/algorithm/contests/online-programming-contest-2022" target="SYd3cfibCSYlSWfdyJyqsOf" moz-do-not-send="true" rel="noopener noreferrer">https://inzva.com/algorithm/contests/online-programming-contest-2022</a></p>
+        </div>
+           
+       </div>
+    
+    <input id="ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView_ClientState" name="ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView_ClientState" type="hidden" /><span id="ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView" style="display:none;"></span>
+
+<span></span>
+
+							
+
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+			
+			<!--Haber ve Duyurular End-->
+
+			<!--ITU Etkinlikleri Start-->
+			
+ 
+
+
+<span></span>
+			
+			<!--ITU Etkinlikleri End-->
+
+
+			<!--About-us Start-->
+			
+<div class='sfContentBlock'><div class="about-us" style="background-color:white;">
+<div class="container">
+<div class="row">
+<div class="col xs-12 text-center">
+<h2>ITU Department of Computer Engineering</h2>
+<div class="col-md-5"><img alt="bf-hakkimizda" src="assets/09166227188637e7.jpg" class="img-responsive" data-displaymode="Original" /></div>
+<div class="col-md-7 text-left">
+<div class="text-container">
+Computer engineering education in Istanbul Technical University started in 1980 as a program under the Department of Control and Computer Engineering Department. In order to keep up with the contemporary developments, Computer Engineering was reshaped as a separate department under the same faculty. All related programs and departments were transferred to the new Faculty of Computer and Informatics Engineering in 2010.
+<br />
+<br />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><div class='sfContentBlock'><div class="col xs-12 text-center">
+&nbsp;<br />
+<table style="width: 95%;" align="center">
+    <tbody>
+        <tr>
+            <td style="width: 45%; text-align: center; vertical-align: top;" colspan="3">
+            <img src="assets/75aae80acfaf0dfe.png" data-displaymode="Original" alt="abetakreditasyon" title="abetakreditasyon" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 0.762cm; width: 325px;" />
+            <br />
+            ITU Computer Engineering Undergraduate Program is accredited by the Engineering Accreditation Commission (EAC) of ABET,&nbsp;<a href="http://www.abet.org/" target="_blank">www.abet.org</a>, (Criteria: Computer Engineering)<br />
+            <br />
+            <a href="/en/education/undergraduate/computer-engineering/accreditation" target="_blank">Click here for details of undergraduate program accreditation</a><br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="col-md-7 text-left">
+<div class="text-container">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+</div>
+			
+			<!--About-us End-->
+
+			
+<div class='sfContentBlock'><div class="sfContentBlock">
+<div class="sticky-social-list"> <a href="https://twitter.com/itubilgmuh" target="_blank" class="sticky-social-list__item"> <em class="icon-twitter"></em> </a> <a href="https://facebook.com/itubbf" target="_blank" class="sticky-social-list__item"> <em class="icon-facebook"></em> </a> <a href="https://www.linkedin.com/company/itu-bbf/" target="_blank" class="sticky-social-list__item"> <em class="icon-linkedin"></em> </a> <a href="https://www.instagram.com/itu.bbf/" target="_blank" class="sticky-social-list__item"> <em class="icon-instagram"></em> </a> </div>
+</div>
+
+</div>
+			<!--Quotes Start-->
+			
+			<!--Quotes End-->
+
+
+			<!--Sayılarla İTÜ Start-->
+			
+<script type="text/javascript">$(document).ready(function(){
+  $(".header__search").find('input').on('keyup', function (event) {
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    var search_query = $(this).val();
+    if (keycode == 13) {
+      window.location = '/en/search-results?indexCatalogue=search-bm&searchQuery=' + search_query;
+      event.preventDefault();
+      return false;
+    }
+  });
+})</script>
+			
+			<!--Sayılarla İTÜ End-->
+
+			<!--Footer Start-->
+			
+<div class='sfContentBlock'><div class="footer__top" style="text-align: left;">
+<div class="container">
+<div class="row address">
+<div class="col-xs-12 col-md-4" style="text-align: left;">
+<div class="address__item"> <em class="icon-phone"></em>
+<p><strong>Department of Computer Engineering- Telephone </strong>+90 (212) 285 36 82</p>
+</div>
+</div>
+<div class="col-xs-12 col-md-4" style="text-align: left;">
+<div class="address__item"> <em class="icon-fax"></em>
+<p><strong>Department of Computer Engineering- Fax</strong> +90 (212) 285 34 24</p>
+</div>
+</div>
+<div class="col-xs-12 col-md-4">
+<div class="address__item"> <em class="icon-location"></em>
+<p style="text-align: left;"><strong>Department of Computer Engineering- Address </strong>İT&Uuml; Ayazaga Campus, 34469, Maslak/Istanbul </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+			<div class="footer">
+
+				<!--Footer Top Start-->
+
+				
+
+
+				<!-- <div class="footer__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 col-xl-8">
+              <h2>İTÜ E-Bülten</h2>
+              <div class="form">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-10 col-md-8 col-xl-6">
+                    <div class="input-group input-group-lg">
+                      <input type="text" name="ebulten" id="" class="form-control" placeholder="E-mail adresinizi girin">
+                      <span class="input-group-btn">
+                        <input type="button" value="Gönder" class="btn btn-primary">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-4">
+              <h2>İTÜ Mobil Uygulaması</h2>
+              <div class="download-buttons clearfix">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <a href="javascript:;" target="_blank" class="clearfix">
+                      <span>
+                        <i class="icon-apple-app"></i>
+                        <span class="hidden-xs">Download on the
+                          <br> </span>APP STORE</span>
+                    </a>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <a href="javascript:;" target="_blank" class="clearfix">
+                      <span>
+                        <i class="icon-google-app"></i>
+                        <span class="hidden-xs">GET IT ON
+                          <br>
+                        </span> GOOGLE PLAY</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+				<!--Footer Top End-->
+
+				<!--Footer Middle Start-->
+				
+
+				
+				<!--Footer Middle End-->
+
+				<!--Footer Bottom Start-->
+				
+<div class='sfContentBlock'><div class="footer__bottom">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-4">
+<a href="https://www.itu.edu.tr/en"><img alt="" src="assets/7679c06ccbbe2c7f.png" /></a>
+</div>
+<div class="col-xs-12 col-md-4 col-md-push-4 footer__social">
+<div class="footer__social-list"><a href="https://www.facebook.com/itu1773" target="_blank" class="footer__social-list-item"> <em class="icon-facebook"></em></a> <a href="https://twitter.com/itu1773" target="_blank" class="footer__social-list-item"> <em class="icon-twitter"></em></a> <a href="https://www.youtube.com/itu1773" target="_blank" class="footer__social-list-item"> <em class="icon-youtube"></em></a> <a href="https://www.instagram.com/itu1773/" target="_blank" class="footer__social-list-item"> <em class="icon-instagram"></em></a> <a href="https://www.linkedin.com/school/itu1773" target="_blank" class="footer__social-list-item"><em class="icon-linkedin"></em></a> </div>
+</div>
+<div class="col-xs-12 col-md-4 col-md-pull-4 footer__copyright">
+<p>İT&Uuml; Information Technologies Directorate &copy; <span id="siteYear"></span></p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+				
+				<!--Footer Bottom End-->
+
+			</div>
+			<!--Footer End-->
+
+		</div>
+
+	
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl08_TSM');//]]>
+</script>
+<script type="text/javascript" src="assets/e308624889a059cd.js"></script><script type="text/javascript">$(document).ready(function() {
+
+var date = new Date();
+
+$("#siteYear").html(date.getFullYear());
+
+});</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$cphSlider$ctl01$ctl00$ctl00$dynamicContentListView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView_ClientState","renderMode":1}, null, null, $get("ctl00_cphSlider_ctl01_ctl00_ctl00_dynamicContentListView"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$cphNewsFeatured$C020$newsFrontendDetails$ctl00$ctl00$DetailsView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView_ItemContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView_ClientState","renderMode":1}, null, null, $get("ctl00_cphNewsFeatured_C020_newsFrontendDetails_ctl00_ctl00_DetailsView"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.UserPreferences, {"_timeOffset":"10800000","_userBrowserSettingsForCalculatingDates":true,"timeZoneDisplayName":"(UTC+03:00) Istanbul","timeZoneId":"Turkey Standard Time"}, null, null);
+});
+//]]>
+</script>
+</form>
+
+</body>
+
+</html>

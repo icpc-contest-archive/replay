@@ -1,0 +1,331 @@
+/* ==========================================================================
+   TOBB ETÜ — Erişilebilirlik (WCAG 2.2 Level A) yardımcı stilleri
+   --------------------------------------------------------------------------
+   Bu dosya EKLEMELİDİR: mevcut main.css / SCSS yapısına dokunmaz, yalnızca
+   erişilebilirlik için gereken görünmez/odak/durdur stillerini ekler.
+   Görsel tasarımı değiştirmez; etkileri yalnızca klavye/ekran-okuyucu
+   kullanıcılarında görünür.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1) Ekran okuyucuya özel (görsel olarak gizli) metin — WCAG 1.1.1 / 1.3.1
+   Not: Projedeki mevcut .sr-only yalnızca print.css içinde (media="print"),
+   yani ekranda çalışmıyor. Bunu ekran için yeniden tanımlıyoruz.
+   -------------------------------------------------------------------------- */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Odaklanınca görünür olması gereken sr-only öğeler (örn. skip-link) */
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    clip: auto !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+    white-space: normal !important;
+}
+
+/* --------------------------------------------------------------------------
+   2) "İçeriğe atla" bağlantısı — WCAG 2.4.1 Bypass Blocks
+   Normalde ekran dışında; klavye ile odaklanınca sol üstte belirir.
+   -------------------------------------------------------------------------- */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 8px;
+    z-index: 100000;
+    display: inline-block;
+    padding: 10px 18px;
+    background: #ffffff;
+    color: #003a78;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: underline;
+    border: 2px solid #003a78;
+    border-radius: 0 0 4px 4px;
+    transition: top .15s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+}
+
+/* --------------------------------------------------------------------------
+   3) Görünür klavye odağı — WCAG 2.1.1 kullanılabilirliği (2.4.7 AA)
+   Yalnızca klavyeyle gezinen kullanıcılarda belirir (:focus-visible);
+   fare/dokunmatik etkileşimde ve genel tasarımda hiçbir değişiklik olmaz.
+   Çift katman (koyu outline + açık halka) her zemin üzerinde görünür kılar.
+   -------------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible,
+[role="button"]:focus-visible,
+[role="tab"]:focus-visible,
+[role="link"]:focus-visible,
+[contenteditable]:focus-visible {
+    outline: 3px solid #003a78 !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, .85) !important;
+    border-radius: 2px;
+}
+
+/* Koyu/transparan header üzerinde de görünür kalsın diye ters varyant:
+   beyaz zeminli alanlarda yukarıdaki, koyu alanlarda halka iş görür. */
+
+/* --------------------------------------------------------------------------
+   4) Otomatik oynayan medya için durdur/oynat düğmesi — WCAG 2.2.2
+   JS tarafından enjekte edilir; tasarıma sade biçimde oturur.
+   -------------------------------------------------------------------------- */
+.a11y-media-toggle {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    z-index: 50;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .55);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.a11y-media-toggle:hover,
+.a11y-media-toggle:focus {
+    background: rgba(0, 0, 0, .8);
+}
+
+.a11y-media-toggle svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    pointer-events: none;
+}
+
+/* Bir konteynerde mutlak konumlu düğme için referans noktası */
+.a11y-media-wrap {
+    position: relative;
+}
+
+/* --------------------------------------------------------------------------
+   5) Hareket azaltma tercihi — WCAG 2.3.x / 2.2.2 destekleyici
+   Kullanıcı "azaltılmış hareket" seçtiyse otomatik oynatma/animasyonları yumuşat.
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ==========================================================================
+   6) Renk kontrastı düzeltmeleri — WCAG 1.4.3 (AA)
+   Canlı sitede axe-benzeri ölçümle saptanan başarısız renk çiftleri.
+   Yalnızca tonu koruyarak minimal koyulaştırma; koyu-zemindeki (lightbox/
+   video) gri kontroller bilinçli HARİÇ tutuldu (orada koyulaştırma bozardı).
+   ========================================================================== */
+
+/* 6a) Soluk gri ikincil metinler (yalnızca BEYAZ/AÇIK zemin) -> #6f6f6f (~5:1).
+   Hero-görseli üstündeki (.featured_header__*), koyu footer ve lightbox/video
+   gri metinleri bilinçli HARİÇ — orada koyulaştırma kontrastı bozardı. */
+.pagination__item strong,
+.pagination__nav,
+.news .news__item .news__item__time,
+.haber_alt__bilgi time,
+.blockBox__item__link__desc,
+.fakulte-listesi__item__menu__header,
+.timeline__item span,
+.list_or_gallery span.active,
+.searchSubInfo,
+.sirket_kutusu__sirket_adresi,
+.user-list__detail__info__deneyim ol li span,
+.ortam_box__item__link .post_link span,
+.ortam_box__item__link .post_link em,
+.ortam_box__item__link time,
+.ortam_box__header span,
+.etu-search__filters__item a,
+.etu-search__filters__item a:hover,
+.etu-search__results__breadcrumb__item,
+.etu-search__results__desc time,
+.event-takvimi__nav__item,
+.event-takvimi__item__list__item__title,
+.logolar__box__download small,
+.popupInline em,
+.randevu p,
+.randevu .randevu_tabs a span,
+.randevu .randevu_tabs a p,
+.randevu .randevu_content .form_item .sub_info,
+.randevu .randevu_onay div strong em,
+.form_tab__menu--item,
+.form_info_text,
+.form_info_list li,
+.file_yukle__btn,
+.file_yukle__msg:after,
+.video_sunum__record__howto ul li span,
+.iletisim__wrap .iletisim_box strong,
+.iletisim__wrap .iletisim_box small,
+.iletisim__wrap .iletisim_box p,
+.rezervasyon__katilimcilar ul li,
+.rezervasyon__katilimcilar ol li,
+.rezervasyon__katilimcilar p,
+.alertMe-dialog-bd,
+.basvuru_form .select-wrap::after,
+.open404,
+.flatpickr-prev-month:hover,
+.flatpickr-next-month:hover,
+.footable .pagination > .disabled > span,
+.fourzerofour button:last-child {
+    color: #6f6f6f !important;
+}
+
+/* 6b) Placeholder metinleri (beyaz input zemini) -> okunur gri */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { color: #6f6f6f; }
+input::-moz-placeholder,
+textarea::-moz-placeholder { color: #6f6f6f; opacity: 1; }
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder { color: #6f6f6f; }
+input::placeholder,
+textarea::placeholder { color: #6f6f6f; }
+
+/* 6c) Metin taşıyan turuncu zeminler (beyaz metin) -> koyu amber (aynı sıcak ton) */
+.ucdonemegitim__wrap,
+.aday_menu__big .aday_menu__big__item.uniform a,
+.oeg__video__thumb__label {
+    background-color: #a85c0a !important;
+}
+
+/* 6d) Twitter paylaş butonu (küçük beyaz metin) */
+.shareBtn.tweet { background-color: #1379b5 !important; }
+
+/* 6e) Kenar menü AKTİF/hover linkleri (açık-mavi zeminde) -> daha koyu mavi.
+   Yalnızca aktif/hover/odak durumu hedeflenir: taban linkler (#0F4C90) zaten
+   geçiyor; beyaz-metinli alt-menü başlıkları (.subMenuItem) korunur. */
+.sideMenu__list__item.active .sideMenu__list__item--link,
+.sideMenu__list__item.active .sideMenu__list__item--link.subMenuItem-Inner,
+.sideMenu__list__item--link:hover,
+.sideMenu__list__item--link:focus {
+    color: #356aa3 !important;
+}
+
+/* ==========================================================================
+   7) Responsive taşma menüsü — Aday Öğrenci üst sekme menüsü (.aday_menu__big)
+   --------------------------------------------------------------------------
+   Sorun: 8 sekme yalnızca ~1560px+ ekranda tek satıra sığar; 1024–1560 arası
+   (tüm yaygın laptop'lar) sekmeler ikinci satıra kırılır ve kırılan sekme beyaz
+   alt-menü (.aday_menu__small) altında kalır. main.css/media.css'te bu aralık
+   için big-menü genişlik stratejisi yoktur. ≤1023 (table-layout) ve ≤768
+   (akordiyon) zaten çözülü; açık kalan tek aralık masaüstü/laptop'tur.
+
+   Çözüm: "priority+" taşma deseni. `_accessibility.js` (Bölüm 10) sığmayan
+   sekmeleri sondan başlayarak (AKTİF sekmeyi atlayarak) bir "Daha fazla ▾"
+   açılır menüsüne taşır; bar her zaman TEK satır kalır. Dile göre kendini
+   ayarlar (TR/EN etiket genişliği farkı). Bu blok yalnız görünümü sağlar:
+   "Daha fazla" sekmesi diğer mavi sekmelerle özdeş görünür; açılır liste
+   sitenin mevcut .aday_menu__sub estetiğiyle uyumlu beyaz dropdown'dur.
+   main.css/media.css'e ve şablona DOKUNULMAZ; markup JS ile eklenir.
+   ========================================================================== */
+.aday_menu__more { position: relative; }
+.aday_menu__more__toggle { cursor: pointer; }
+.aday_menu__more__toggle .aday_menu__more__caret {
+    display: inline-block; width: 0; height: 0; margin-left: 8px;
+    vertical-align: middle;
+    border-left: 5px solid transparent; border-right: 5px solid transparent;
+    border-top: 5px solid currentColor; transition: transform .2s;
+}
+.aday_menu__more.is-open .aday_menu__more__toggle .aday_menu__more__caret {
+    transform: rotate(180deg);
+}
+.aday_menu__more__list {
+    position: absolute; top: 100%; right: 0; min-width: 230px;
+    margin: 0; padding: 0; list-style: none;
+    background: #fff; box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+    display: none; z-index: 60; text-align: left;
+    font-size: 16px; /* ebeveyn .aday_menu__big font-size:0'ı sıfırla */
+}
+.aday_menu__more.is-open .aday_menu__more__list { display: block; }
+.aday_menu__more__list .aday_menu__big__item { display: block; margin: 0; }
+.aday_menu__more__list .aday_menu__big__item a {
+    display: block; line-height: normal; padding: 13px 20px; top: 0;
+    border-left: 0; border-radius: 0; border-bottom: 1px solid #ddd;
+    background: #fff; color: #0F4C90; white-space: nowrap; font-size: 16px;
+}
+.aday_menu__more__list .aday_menu__big__item:last-child a { border-bottom: 0; }
+.aday_menu__more__list .aday_menu__big__item a:hover,
+.aday_menu__more__list .aday_menu__big__item a:focus { background: #eff5fc; }
+/* Aktif sekme normalde barda kalır; savunma amaçlı dropdown içi görünüm */
+.aday_menu__more__list .aday_menu__big__item.active a {
+    background: #eff5fc; padding-bottom: 13px;
+}
+.aday_menu__more__list .aday_menu__big__item.active a::before,
+.aday_menu__more__list .aday_menu__big__item.active a::after {
+    display: none; content: none;
+}
+
+/* 768–1023: native media.css bu aralıkta big-menü'yü display:table +
+   table-layout:fixed yapıp 8 sekmeyi eşit hücrelere SIKIŞTIRIR -> uzun etiketler
+   KIRPILIR. "Daha fazla" taşma yapısını 768px'e kadar sürdürmek için burada
+   inline-block akışına döndür (Bölüm 10 JS guard'ı da <768). Sabit nth-child
+   genişlikleri (200/195px) sıfırlanır; sekmeler ortalanır; native'in kompakt
+   14px/nowrap görünümü korunur. <768px'te bu blok kapanır -> native akordiyon. */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .aday_menu .aday_menu__big {
+        display: block !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+    .aday_menu .aday_menu__big .aday_menu__big__item {
+        display: inline-block !important;
+        width: auto !important;
+    }
+    .aday_menu .aday_menu__big .aday_menu__big__item a {
+        white-space: nowrap;
+    }
+}
+*.sk_branding {
+    display: none !important;
+}
+.ortam_box a {
+    color: rgba(10, 106, 161, 0); !important;
+}
+.ortam_box > .sk_branding {
+    display: none !important;
+}
+.ortam_box + .sk_branding {
+    display: none !important;
+}
+.ortam_box .sk-ww-ig-feed-container .sk_branding {
+    display: none !important;
+}

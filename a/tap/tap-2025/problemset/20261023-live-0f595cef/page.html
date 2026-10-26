@@ -1,0 +1,2196 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://codeforces.com/gym/106054">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-743380-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-743380-5');
+        </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="429fb355c3f53967c144a312b47f0513"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <meta name="robots" content="noai">
+    <meta name="robots" content="noimageai">
+
+    <script type="text/javascript" src="assets/52be2d6461f0ca94.js"></script>
+    <script type="application/javascript">
+        window.locale = "en";
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+
+        /* Protection against trailing dot in domain. */
+        let hostLength = window.location.host.length;
+        if (hostLength > 1 && window.location.host[hostLength - 1] === '.') {
+            window.location = window.location.protocol + "//" + window.location.host.substring(0, hostLength - 1);
+        }
+    </script>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="l1">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="assets/c13ca5aafa1b7f6d.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="1024" />
+        <meta property="og:image:alt" content="Codeforces" />
+    <link rel="image_src" href="assets/c13ca5aafa1b7f6d.png" />
+    <meta property="og:title" content="Dashboard - 2025 Argentinian Programming Tournament (TAP) - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    
+    <meta name="cc" content="fb391ec86b82b9360f6b7f1190bf7262ab732747"/>
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Dashboard - 2025 Argentinian Programming Tournament (TAP) - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="assets/bf124b2d3a4ec2f1.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/1838f84334960aa2.css" type="text/css" charset="utf-8" />
+
+        <link rel="preconnect" href="https://challenges.cloudflare.com">
+        <link rel="dns-prefetch" href="https://challenges.cloudflare.com">
+        <style type="text/css">@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin-ext/700/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:url(/cf-fonts/s/pt-sans-narrow/5.2.8/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+        <style type="text/css">@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Cuprum';font-style:normal;font-weight:400;src:url(/cf-fonts/s/cuprum/5.2.8/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/da58a4e33385bd5a.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/375c1fcf694fb6e8.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/d0b1a9ecbd32bdfe.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/edbab44be11529f4.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/2e52c7dd2554531c.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/df1aa0f5407236b1.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/1de163917d6afbc0.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/b2439495500d0646.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/2ce121271a9c680e.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/b11be469b112228d.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/6267d5628b25dd09.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/c43760b9c0383d99.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/6d4aa8864763a866.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//codeforces.com/codeforces.org/s/58933/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="assets/8d0d25d22514f26e.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/4a19fad3d34c2382.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/246edd38f65cbca9.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/6d6f8927e8c1e43e.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/97c940ebcf793842.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/58fc51d1cca16e83.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/0a525e9cd7fc56b6.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/07b935cf7eb16df0.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/community.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/css/sidebar-menu.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    MathJax.Hub.Register.StartupHook("End", function () {
+        Codeforces.runMathJaxListeners();
+    });
+    </script>
+    <script type="text/javascript" async
+            src="https://codeforces.com/mathjax.codeforces.org/MathJax.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/pushstream.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/facebox.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/autosize.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/98eed84ed335783b387d632c2b0d6cbc/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/preparedVerdictFormats-en.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/confetti.min.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/js/purify.min.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.com/codeforces.org/s/58933/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="//codeforces.com/codeforces.org/s/58933/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+
+
+</head>
+<body class=" ">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://codeforces.com/gym/106054">https://codeforces.com/gym/106054</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/tap-2025.html">tap-2025</a>  <a href="https://web.archive.org/web/*/https://codeforces.com/gym/106054">wayback</a>  <a href="https://codeforces.com/gym/106054">live</a></div>
+<span style='display:none;' class='csrf-token' data-csrf='429fb355c3f53967c144a312b47f0513'>&nbsp;</span>
+
+<!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
+<div class="notificationTextCleaner" style="font-size: 0"></div>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile === "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }, beforeSend: function(jqXHR, settings) {
+        const url = new URL(settings.url, window.location.href);
+        const urlHref = url.href;
+        url.searchParams.set('rv', Math.random().toString(36).substr(2, 9)); // Generate a random value
+        settings.url = url.href;
+    }});
+
+    window.updateTypography();
+    Codeforces.signForms();
+    Codeforces.applyDatatableJs("Hold Ctrl+Alt and click to hide column. Also, you can drag&drop columns to reorder them.");
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        if (json.t === "a") {
+            setTimeout(function() {
+               Codeforces.showAnnouncements(json.d, "en");
+            }, Math.random() * 500);
+        }
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t === "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        const title = $(this).attr("data-title");
+        const clazz = $(this).attr("data-clazz");
+        const props = {};
+        if (typeof (clazz) !== 'undefined') {
+            props['clazz'] = clazz;
+        }
+        if (title) {
+            Codeforces.alert(title, null, null, props);
+        } else {
+            Codeforces.alert($(this).attr("title"), null, null, props);
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+        Codeforces.showDelayedMessage();
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+
+<div id="body">
+        
+
+<div id="header" style="position: relative;">
+
+    <div style="float:left; max-height: 60px;">
+                <a href="/"><img height="65" style="height: 65px;" alt="Codeforces"
+                                                         title="Codeforces"
+                                                         src="//codeforces.com/codeforces.org/s/58933/images/codeforces-logo-with-telegram-555x130.png"/></a>
+    </div>
+    <div class="lang-chooser">
+            <div style="text-align: right;">
+                <a href="?locale=en"><img src="//codeforces.com/codeforces.org/s/58933/images/flags/24/gb.png" title="In English"
+                                                         alt="In English"/></a>
+                <a href="?locale=ru"><img src="//codeforces.com/codeforces.org/s/58933/images/flags/24/ru.png" title="По-русски"
+                                                         alt="По-русски"/></a>
+            </div>
+
+        <div >
+                        <a href="/enter?back=%2Fgym%2F106054">Enter</a>
+                     | 
+                        <a href="/register">Register</a>
+                    
+        </div>
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+
+        
+
+
+    <div class="roundbox menu-box borderTopRound borderBottomRound" style="">
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/top">Top</a></li>
+                <li class=""><a href="/catalog">Catalog</a></li>
+                <li class=""><a href="/contests">Contests</a></li>
+                <li class="current"><a href="/gyms">Gym</a></li>
+                <li class=""><a href="/problemset">Problemset</a></li>
+                <li class=""><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/edu/courses"><span class="edu-menu-item">Edu</span></a></li>
+                <li class=""><a href="/apiHelp">API</a></li>
+                <li class=""><a href="/calendar">Calendar</a></li>
+                <li class=""><a href="/help">Help</a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='429fb355c3f53967c144a312b47f0513'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+        
+<style data-nocturne="true" type="text/css">
+._BlitzInfoFrame_info {
+  margin: 1em;
+  text-align: center;
+  position: relative;
+}
+._BlitzInfoFrame_button {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 8px;
+  right: 1rem;
+}
+</style>
+
+
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                        <div id="sidebar">
+
+    <div class="roundbox sidebox borderTopRound " style="">
+        <table class="rtable ">
+            <tbody>
+                <tr>
+                            <th class="left" style="width:100%;"><a style="color: black" href="/gym/106054">2025 Argentinian Programming Tournament (TAP)</a></th>
+                </tr>
+                    <tr>
+                                <td class="left bottom" colspan="1"><span class="contest-state-phase">Finished</span></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div class="roundbox sidebox borderTopRound " style="">
+        <div class="caption titled">&rarr; About Contest
+            <div class="top-links">
+            </div>
+        </div>
+            <div style="text-align: center; margin: 1em">
+                    <a href="https://icpc.com.ar/"><img style="max-width: 250px" src="data:image/png;base64,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" alt="Logo"/></a>
+                </div>
+            <hr width="92%"/>
+            <div class="smaller" style="margin: 1em"><a href="https://icpc.com.ar/">Contest website</a></div>
+    </div>
+
+
+
+    <div class="roundbox sidebox ContestVirtualFrame borderTopRound " style="">
+        <div class="caption titled">&rarr; Virtual participation         <i class="sidebar-caption-icon las la-angle-down"></i>
+
+            <div class="top-links">
+            </div>
+        </div>
+<div     style=" "
+
+        data-page-url="/data/sidebarFrames"
+
+>
+    <div style="margin:1em;font-size:0.8em;">
+        Virtual contest is a way to take part in past contest, as close as possible to participation on time. It is supported only ICPC mode for virtual contests.
+
+If you've seen these problems, a virtual contest is not for you - solve these problems in the archive.
+
+If you just want to solve some problem from a contest, a virtual contest is not for you - solve this problem in the archive.
+
+Never use someone else's code, read the tutorials or communicate with other person during a virtual contest.
+    </div>
+
+    <div style="text-align:center;margin:1em;">
+        <form action="/gym/106054/virtual" method="get">
+            <input type="submit" name="submit" value="Start virtual contest" style="padding:0 0.5em;">
+        </form>
+    </div>
+</div>
+        <script>
+            $(function () {
+    $(".ContestVirtualFrame .sidebar-caption-icon").click(function() {
+        $(this).toggleClass("la-angle-down la-angle-right");
+        const $target = $(this).parent().next();
+        $target.toggle();
+        const dataPageUrl = $target.attr("data-page-url");
+        const collapsed = $(this).hasClass("la-angle-right");
+        const params = {
+            action: "setCollapsed",
+            sidebarFrameSimpleClassName: "ContestVirtualFrame",
+            collapsed
+        };
+        $.each($target[0].attributes, function(i, a) {
+            const name = a.name;
+            if (name.startsWith("data-extra-key-")) {
+                const key = a.value;
+                const keyIndex = parseInt(name.substring("data-extra-key-".length));
+                params[key] = $target.attr("data-extra-value-" + keyIndex);
+            }
+        });
+        $.post(dataPageUrl, params, function (result) {
+            if (result["success"] !== "true") {
+                Codeforces.showMessage("Failed to save collapsed state.");
+            }
+        }, "json");
+        return false;
+    });
+            })
+        </script>
+    </div>
+
+
+    <div class="roundbox sidebox borderTopRound " style="">
+        <div class="caption titled">&rarr; Practice?
+            <div class="top-links">
+            </div>
+        </div>
+<div>
+    <div style="margin:1em;font-size:0.8em;">
+        Want to solve the contest problems after the official contest ends? Just register for practice and you will be able to submit solutions.
+    </div>
+    <div style="text-align:center;margin:1em;">
+    <form action="" method="post"><input type='hidden' name='csrf_token' value='429fb355c3f53967c144a312b47f0513'/>
+        <input type="hidden" name="action" value="registerForPractice"/>
+        <input type="submit" name="submit" value="Register for practice" style="padding:0 0.5em;" >
+    </form>
+    </div>    
+</div>
+    </div>
+
+<style type="text/css">
+#new-resource-form tr td {
+padding-top: 0.5em;
+}
+#new-resource-form input:not([type="submit"]) {
+font-size: 0.8em;
+}
+#new-resource-form select {
+font-size: 0.8em;
+}
+.new-resource-error {
+font-size: 0.8em;
+}
+.resource-locale {
+color: #666;
+font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+</style>
+<div class="roundbox sidebox sidebar-menu borderTopRound " style="">
+<div class="caption titled">&rarr; Contest materials
+<div class="top-links">
+</div>
+</div>
+<ul>
+<li>
+<span>
+<a href="/blog/entry/145893" title="Announcement" target="_blank">Announcement <span class="resource-locale">(en)</span></a>
+</span>
+<span style="float: right;">
+<img class="delete-resource-link" resourceIds="32940" resourceName="Announcement"
+resourceManual="true" src="//codeforces.com/codeforces.org/s/58933/images/icons/close-10x10.png"
+style="position: relative;bottom: -1px;left: 1px;cursor: pointer;"/>
+</span>
+<div style="clear: both;"></div>
+</li>
+<li>
+<span>
+<a href="/gym/106054/attachments/download/32939/tap2025_en.pdf" title="Statements (PDF)" target="_blank">Statements (PDF) <span class="resource-locale">(en)</span></a>
+</span>
+<span style="float: right;">
+<img class="delete-resource-link" resourceIds="32939" resourceName="Statements (PDF)"
+resourceManual="true" src="//codeforces.com/codeforces.org/s/58933/images/icons/close-10x10.png"
+style="position: relative;bottom: -1px;left: 1px;cursor: pointer;"/>
+</span>
+<div style="clear: both;"></div>
+</li>
+<li>
+<span>
+<a href="/gym/106054/attachments/download/32938/tap-simple-faz.pdf" title="Statements (PDF)" target="_blank">Statements (PDF) <span class="resource-locale">(es)</span></a>
+</span>
+<span style="float: right;">
+<img class="delete-resource-link" resourceIds="32938" resourceName="Statements (PDF)"
+resourceManual="true" src="//codeforces.com/codeforces.org/s/58933/images/icons/close-10x10.png"
+style="position: relative;bottom: -1px;left: 1px;cursor: pointer;"/>
+</span>
+<div style="clear: both;"></div>
+</li>
+</ul>
+</div></div>
+                        <div id="pageContent" class="content-with-sidebar">
+                    <div class="second-level-menu">
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="/gym/106054">Problems</a></li>
+        <li><a
+                                        href="/gym/106054/submit">Submit Code</a></li>
+        <li><a
+                                        href="/gym/106054/my">My Submissions</a></li>
+        <li><a
+                                        href="/gym/106054/status">Status</a></li>
+        <li><a
+                                        href="/gym/106054/standings">Standings</a></li>
+        <li><a
+                                        href="/gym/106054/customtest">Custom Invocation</a></li>
+</ul>
+</div>
+
+
+<style>
+    .output-only-problem-label {
+        font-size: 1.1rem;
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 0.25rem;
+        padding: 0.25rem;
+    }
+</style>
+
+
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Problems
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/58933/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/58933/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="problems">
+
+        <tr>
+                <th style="width: 4em;">#</th>
+            <th>Name</th>
+            <th style="width: 3em;">&nbsp;</th>
+                    <th style="width: 5em;">&nbsp;</th>
+        </tr>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/A">
+                            A
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/A"><!--
+                        -->Artifact to print<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/A"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/A"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x883</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/B">
+                            B
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/B"><!--
+                        -->Block sum array<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/B"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/B"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x216</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/C">
+                            C
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/C"><!--
+                        -->Circularly<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1.5 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/C"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/C"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x373</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/D">
+                            D
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/D"><!--
+                        -->Day of rain<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            3 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/D"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/D"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x76</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/E">
+                            E
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/E"><!--
+                        -->Execution<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            2.5 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/E"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/E"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x297</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/F">
+                            F
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/F"><!--
+                        -->Feeding the goat<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1.5 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/F"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/F"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x7</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/G">
+                            G
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/G"><!--
+                        -->Going to the kiosk<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/G"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/G"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x864</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/H">
+                            H
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/H"><!--
+                        -->Hidden divisor<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/H"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/H"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x406</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/I">
+                            I
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/I"><!--
+                        -->In&eacute;s and her compitas<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/I"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/I"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x648</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/J">
+                            J
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/J"><!--
+                        -->Jaimito's blocks<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/J"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/J"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x171</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/K">
+                            K
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/K"><!--
+                        -->Kuantum<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            3.6 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/K"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/K"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x44</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/L">
+                            L
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/L"><!--
+                        -->Lakes<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            4 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/L"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/L"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x403</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/M">
+                            M
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/M"><!--
+                        -->March and Conquer<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/M"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/M"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x135</a>
+                </td>
+            <tr
+                
+                    
+            >
+                <td class="id">
+                        <a href="/gym/106054/problem/N">
+                            N
+                        </a>
+                </td>
+            <td>
+                <div style="position: relative;">
+                    <div style="float: left;">
+                            <a href="/gym/106054/problem/N"><!--
+                        -->Nothofagus antarctica<!--
+                 --></a><!--
+                 -->
+                    </div>
+                        <div style="position:absolute;right:0;top:-0.5em;font-size:1rem;padding-top:1px;text-align:right;" class="notice">
+
+                                    <div>
+                                        standard input/output
+                                    </div>
+                            1 s, 1024 MB
+                        </div>
+                </div>
+            </td>
+            <td class="act">
+
+                <span class="act-item">
+            <a href="/gym/106054/submit/N"><img src="//codeforces.com/codeforces.org/s/58933/images/icons/submit-22x22.png" title="Submit" alt="Submit"/></a>
+        </span>
+
+
+            </td>
+                <td style="font-size: 1.1rem;">
+                        <a title="Participants solved the problem" href="/gym/106054/status/N"><img style="vertical-align: middle;" src="//codeforces.com/codeforces.org/s/58933/images/icons/user.png"/>&nbsp;x696</a>
+                </td>
+
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+
+
+
+    <form id="update-contest-form"
+          action="/gym/106054/releaseOrUpdate?action=releaseAndUpdate"
+          method="post" style="display: none;"><input type='hidden' name='csrf_token' value='429fb355c3f53967c144a312b47f0513'/>
+    </form>
+    <script type="text/javascript">
+        $(function () {
+            $(".update-contest-link").click(function () {
+                Codeforces.confirm(
+                        "It may take several minutes, do not interrupt or close browser tab.<br/><br>Are you sure you want to update the contest?",
+                        function () {
+                            $("#update-contest-form").submit();
+                        },
+                        function () {
+                        },
+                        "Yes", "No"
+                );
+                return false;
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $("#show-deleted-problems-link-106054").click(function() {
+        $(this).hide();
+        $(".deletedProblems106054").show();
+        return false;
+    });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+    <div style="text-align: right; font-size: 1.1rem; margin-top: 3px;">
+        <a href="/gym/106054/problems">
+            Complete problemset
+        </a>
+    </div>
+    <div style="margin-top: 2em;">
+
+<style>
+    .question-answer-by {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .question-requestText-td {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+
+        text-align: left !important;
+        /*white-space: ;*/
+        width: 20rem;
+    }
+
+    .quick-answer-select {
+        display: none;
+        position: absolute;
+        margin-top: 4px;
+        padding: 0;
+        list-style: none;
+        border: 1px solid #aaa;
+        background: white;
+        width: 300px;
+    }
+
+    .quick-answer-select li {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+    .quick-answer-select li:hover {
+        background: #eee;
+    }
+
+    .hide-question {
+        cursor: pointer;
+    }
+
+    @media (min-width: 1024px) {
+        .answer-question-box table {
+            width: 60em;
+        }
+    }
+    @media (max-width: 1023px) {
+        .answer-question-box table {
+            width: 30em;
+        }
+    }
+
+    .custom-quick-answer {
+        background: var(--highlighted-green-color) !important;
+    }
+</style>
+
+    <div style="position: relative; height: 2em;" class="action-link">
+        <div style="position: absolute; right: 0; margin: 0 0 1em 0;">
+        </div>
+    </div>
+
+
+<div class="datatable contest-106054-questions-container"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Questions about problems
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/58933/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/58933/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="problem-questions-table">
+<tr>
+    <th style="width: 2em;">&nbsp;</th>
+    <th>Question</th>
+    <th>Answer</th>
+</tr>
+
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+<script type="text/javascript">
+    function toggleQuestionHide() {
+        const $this = $(this);
+        var hidden = $this.hasClass("icon-eye-open"); // Currently shown, going to be hidden
+        var isAnnouncement = $this.attr("data-is-announcement");
+        var questionId = $this.attr("data-question-id");
+
+        var row = $this.parent().parent();
+
+        if (confirm(hidden ? "Are you sure you want to hide problem question?" : "Are you sure you want to show problem question?")) {
+            $.post("/data/changeProblemQuestionOrAnnouncementDataPage", {
+                action: "changeHiddenForQuestion",
+                contestId: 106054,
+                hidden: hidden,
+                isAnnouncement: isAnnouncement,
+                questionId: questionId
+            }, function (data) {
+                if (data["success"] === "true") {
+                    if (hidden) {
+                        row.addClass("highlighted-row");
+                        $this.removeClass("icon-eye-open").addClass("icon-eye-close").attr("title", "show");
+                    } else {
+                        row.removeClass("highlighted-row");
+                        $this.addClass("icon-eye-open").removeClass("icon-eye-close").attr("title", "hide");
+                    }
+
+                    Codeforces.showMessage(hidden ? "Problem question is hidden for all users" : "Problem question is visible for all users");
+                } else {
+                    Codeforces.showMessage(data["message"]);
+                }
+            }, "json");
+        }
+
+        return false;
+    }
+
+    function toggleQuestionBroadcast() {
+        var broadcast = $(this).attr("checked");
+        var questionId = $(this).attr("data-question-id");
+
+        if (confirm(broadcast ? "Are you sure you want to broadcast problem question?" : "Are you sure you don't want to broadcast problem question?")) {
+            $.post("/data/changeProblemQuestionOrAnnouncementDataPage", {
+                action: "changeBroadcastForQuestion",
+                contestId: 106054,
+                broadcast: broadcast,
+                questionId: questionId
+            }, function (data) {
+                if (data["success"] === "true") {
+                    Codeforces.reload();
+                    //Codeforces.showMessage(broadcast ? "Problem question is broadcasted" : "Problem question isn't broadcasted");
+                } else {
+                    Codeforces.showMessage(data["message"]);
+                }
+            }, "json");
+        } else {
+            if (broadcast) {
+                $(this).removeAttr("checked");
+            } else {
+                $(this).attr("checked", "true");
+            }
+        }
+
+        return false;
+    }
+
+    $(function () {
+        $(".hide-question").click(toggleQuestionHide);
+        $(".broadcast-question").change(toggleQuestionBroadcast);
+
+        $(".mute-user").click(function () {
+            const handle = $(this).attr("data-handle");
+            const problemQuestionId = $(this).attr("data-problemQuestionId");
+            Codeforces.confirm("Are you sure you want to mute the user '30f8f81dba64e' for several hours?".replace("30f8f81dba64e", handle),
+                function () {
+                    $.post("/data/answerProblemQuestion", {
+                        action: "muteUser", problemQuestionId: problemQuestionId
+                    }, function (response) {
+                        if (response["success"] === "true") {
+                            Codeforces.showMessage("User '30f8f81dba64e' has been muted in questions.".replace("30f8f81dba64e", handle));
+                        }
+                    }, "json");
+                }, function () {
+                });
+            return false;
+        });
+    });
+</script>
+
+<div class="ask-question-box" style="display:none;">
+<h5>Ask a question</h5>
+<hr/>
+<form method="post" action=""><input type='hidden' name='csrf_token' value='429fb355c3f53967c144a312b47f0513'/>
+    <input type="hidden" name="action" value="questionSubmitted"/>
+
+    <table class="table-form" style="width: 45em;">
+        <tr>
+            <td class="field-name">Problem:</td>
+            <td>
+                <select style="width: 25em;" name="submittedProblemIndex">
+                <option value="">Choose problem</option>
+                    <option value="A" >A - Artifact to print</option>
+                    <option value="B" >B - Block sum array</option>
+                    <option value="C" >C - Circularly</option>
+                    <option value="D" >D - Day of rain</option>
+                    <option value="E" >E - Execution</option>
+                    <option value="F" >F - Feeding the goat</option>
+                    <option value="G" >G - Going to the kiosk</option>
+                    <option value="H" >H - Hidden divisor</option>
+                    <option value="I" >I - In&eacute;s and her compitas</option>
+                    <option value="J" >J - Jaimito's blocks</option>
+                    <option value="K" >K - Kuantum</option>
+                    <option value="L" >L - Lakes</option>
+                    <option value="M" >M - March and Conquer</option>
+                    <option value="N" >N - Nothofagus antarctica</option>
+                </select>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__submittedProblemIndex">
+             <span class="error for__submittedProblemIndex " style="display: none;">&nbsp;</span>
+             <span class="notice for__submittedProblemIndex ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Question:</td>
+            <td>
+                <textarea name="question" style="width: calc(100% - 1rem); height: 15em; margin-bottom: 2px;" class="monospaced"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__question">
+             <span class="error for__question " style="display: none;">&nbsp;</span>
+             <span class="notice for__question ">At most 1000 characters&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td colspan="2">
+                <div style="text-align: center;">
+                    <input class="submit" type="submit" value="Send"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+$(".broadcast-question").css("font-weight", "bold");
+
+$(".ask-question-link").click(function () {
+    Codeforces.facebox(".ask-question-box", "//codeforces.com/codeforces.org/s/58933");
+    $("#facebox .ask-question-box .submit").click(function () {
+        Codeforces.clearAjaxFormErrors("#facebox .table-form");
+        var question = $("#facebox textarea[name=question]").val();
+        var submittedProblemIndex = $("#facebox select[name=submittedProblemIndex]").val();
+        $.post("/data/newProblemQuestion",
+            { contestId: 106054, question: question, submittedProblemIndex: submittedProblemIndex },
+            function(data) {
+                var invalid = Codeforces.setAjaxFormErrors("#facebox .table-form", data);
+                if (!invalid) {
+                    $.facebox.close();
+                    Codeforces.reload();
+                }
+            },
+            "json"
+        );
+        return false;
+    });
+    return false;
+});
+        });
+    </script>
+
+<div class="add-announcement-box" style="display: none;">
+<h5>Add announcement</h5>
+<hr/>
+<form method="post" action=""><input type='hidden' name='csrf_token' value='429fb355c3f53967c144a312b47f0513'/>
+    <table class="table-form" style="width:45em;">
+        <tr>
+            <td class="field-name">Problem:</td>
+            <td>
+                <select style="width: 25em;" name="submittedProblemIndex">
+                <option value="">Choose problem</option>
+                    <option value="generalAnnouncement" data-problem-name="" >General announcement</option>
+                    <option value="A" data-problem-name="Artifact to print" >A - Artifact to print</option>
+                    <option value="B" data-problem-name="Block sum array" >B - Block sum array</option>
+                    <option value="C" data-problem-name="Circularly" >C - Circularly</option>
+                    <option value="D" data-problem-name="Day of rain" >D - Day of rain</option>
+                    <option value="E" data-problem-name="Execution" >E - Execution</option>
+                    <option value="F" data-problem-name="Feeding the goat" >F - Feeding the goat</option>
+                    <option value="G" data-problem-name="Going to the kiosk" >G - Going to the kiosk</option>
+                    <option value="H" data-problem-name="Hidden divisor" >H - Hidden divisor</option>
+                    <option value="I" data-problem-name="In&eacute;s and her compitas" >I - In&eacute;s and her compitas</option>
+                    <option value="J" data-problem-name="Jaimito's blocks" >J - Jaimito's blocks</option>
+                    <option value="K" data-problem-name="Kuantum" >K - Kuantum</option>
+                    <option value="L" data-problem-name="Lakes" >L - Lakes</option>
+                    <option value="M" data-problem-name="March and Conquer" >M - March and Conquer</option>
+                    <option value="N" data-problem-name="Nothofagus antarctica" >N - Nothofagus antarctica</option>
+                </select>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__submittedProblemIndex">
+             <span class="error for__submittedProblemIndex " style="display: none;">&nbsp;</span>
+             <span class="notice for__submittedProblemIndex ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr style="display: none; font-size: 0.7em;">
+            <td>&nbsp;</td>
+            <td>
+                <input type="checkbox" checked="checked" name="announceInPairContest"/>
+                <span class="notice pairProblemNotice" style="display: none; position: relative; top: -2px;">Add a copy of announcement for problem <span class="pairProblem"></span></span>
+                <span class="notice pairContestNotice" style="display: none; position: relative; top: -2px;">Add a copy of announcement for contest <span class="pairContest"></span></span>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__announceInPairContest">
+             <span class="error for__announceInPairContest " style="display: none;">&nbsp;</span>
+             <span class="notice for__announceInPairContest ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr class="subscription-row">
+            <td>&nbsp;</td>
+            <td>
+                <span class="notice shiftUp" style="word-break: break-word;">Fields below will be interpreted as plain text.</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field-name">English text:</td>
+            <td>
+                <textarea name="englishText" class="bottom-space-small monospaced" style="width: 80%; height: 10em;"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__englishText">
+             <span class="error for__englishText " style="display: none;">&nbsp;</span>
+             <span class="notice for__englishText ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Russian text:</td>
+            <td>
+                <textarea name="russianText" class="bottom-space-small monospaced" style="width: 80%; height: 10em;"></textarea>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__russianText">
+             <span class="error for__russianText " style="display: none;">&nbsp;</span>
+             <span class="notice for__russianText ">&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td class="field-name">Target user:</td>
+            <td>
+                <input class="targetUserHandle" name="targetUserHandle" style="width: 15em;"/>
+            </td>
+        </tr>
+<tr class="subscription-row">
+     <td>&nbsp;</td>
+     <td>
+         <div class="shiftUp error__targetUserHandle">
+             <span class="error for__targetUserHandle " style="display: none;">&nbsp;</span>
+             <span class="notice for__targetUserHandle ">Leave blank if you want to announce all participants&nbsp;</span>
+         </div>
+     </td>
+</tr>
+
+        <tr>
+            <td colspan="2">
+                <div style="text-align: center;">
+                    <input class="submit" type="submit" value="Send"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+    </div>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2026 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Oct/23/2026 23:11:23</span> (l1).</div>
+                    <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
+                <div class="smaller">
+                    <a href="/privacy">Privacy Policy</a>
+                    |
+                    <a href="/terms">Terms and Conditions</a>
+                </div>
+
+                    <div style="margin-top: 25px;">
+                        Supported by
+                    </div>
+                        <div style="text-align: center; margin-top: 8px;">
+                            <a href="https://telegram.org/"><img style="width: 60px;" src="//codeforces.com/codeforces.org/s/58933/images/telegram-100x100.png" alt="Telegram" title="Telegram"/></a>
+                        </div>
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+
+            Codeforces.focusOnError();
+
+            Codeforces.setCopiedToClipboardText("Copied to clipboard");
+            Codeforces.listenCopyable();
+        });
+    </script>
+    <div class="userListsFacebox" style="display:none;">
+        <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.com/codeforces.org/s/58933/images/icons/magnifier-medium.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.com/codeforces.org/s/58933/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+        </div>
+    </div>
+    <script type="application/javascript">
+        $(function() {
+            $(".userListMarker").click(function() {
+                $.post("/data/lists", {action: "findTouched"}, function(json) {
+                    Codeforces.facebox(".userListsFacebox");
+                    var tbody = $("#facebox tbody");
+                    tbody.empty();
+                    for (var i in json) {
+                        tbody.append(
+                            $("<tr></tr>").append(
+                                $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                            )
+                        );
+                    }
+                    Codeforces.updateDatatables();
+                    tbody.find("td").css("cursor", "pointer").click(function() {
+                        document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                    });
+                }, "json");
+            });
+        });
+    </script>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            navigator.serviceWorker.register('/service-worker-58933.js')
+                .then(function (registration) {
+                    console.log('Service worker registered: ', registration);
+                })
+                .catch(function (error) {
+                    console.log('Registration failed: ', error);
+                });
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4f363efeed3f0c0',t:'MTc5Mjc4NjI4MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"316c29dfa3804effb5a91c52a59b5bd0","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

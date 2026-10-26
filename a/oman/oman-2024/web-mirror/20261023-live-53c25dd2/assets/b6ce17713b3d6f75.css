@@ -1,0 +1,6 @@
+body,a,td,th,input,select{
+	/* font-family: 'Open Sans Condensed', sans-serif !important; */
+	font-family: 'Alegreya Sans', sans-serif !important;
+	line-height: 175% !important;
+	font-size:15px;
+}

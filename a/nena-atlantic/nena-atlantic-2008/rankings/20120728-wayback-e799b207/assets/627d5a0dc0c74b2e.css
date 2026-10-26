@@ -1,0 +1,270 @@
+/*
+Theme Name: Science Atlantic
+Theme URI: http://www.scienceatlantic.ca/
+Description: Custom WordPress theme for Science Atlantic
+Version: 1.0
+Author: Science Atlantic
+Author URI: http://www.scienceatlantic.ca/
+Tags: custom header
+
+	Science Atlantic v1.0
+	 http://www.scienceatlantic.ca/
+
+	This theme was designed and built for Science Atlantic
+
+*/
+
+/* HTML5 ✰ Boilerplate */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; }
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; } 
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+
+::-moz-selection{ background: #fe57a1; color:#fff; text-shadow: none; }
+::selection { background:#fe57a1; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #fe57a1; }
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+body, select, input, textarea { color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+
+/**
+ * Primary styles
+ *
+ * Author: Able Sense Media Inc. 
+ */
+
+body {background: #fff; font-size: 100%; font-family: arial, verdana, sans-serif; color: #444; font-weight: normal;}
+
+
+/* Typography */
+p, ol, ul, table, h1, h2, h3, h4, h5, h6 { margin: 0 0 1em 0; }
+h1, h2, h3, h4, h5, h6 { font-family: 'TitilliumText22LRegular', verdana, sans-serif; }
+h1 { font-size: 2.4em; }
+h2 { font-size: 1.6em; }
+li { margin-bottom: 0.5em; }
+blockquote{ font-size: 1.1em; line-height: 1.5em; border-top: solid 1px #bfbfbf; border-bottom: solid 1px #bfbfbf; font-weight: normal; color: #39b8b9; padding: 14px 14px; margin: 25px 0px; font-style: italic;}
+blockquote p { margin: 0; }
+#main .wp-caption-text { font-size: 0.9em; font-style: italic; }
+a { color: #39b8b9;}
+a:hover {color: #39b8b9;}
+a:active {color: #39b8b9;}
+a:visited {color: #39b8b9;}
+.postmetadata { border: 1px dashed #ccc; padding: 10px; clear: both; margin-bottom: 30px; }
+.comments { margin-top: 1em; }
+
+#container {margin: auto; padding: 0px; width: 960px; min-height: 1000px; font-size: 0.8125em;}
+
+body > header { display: block; width: 100%; overflow: hidden; background: url(img/header-bg.png) 0 0 repeat-x #fff; position: relative; }
+body > header nav { display: block; width: 960px; height: 40px; margin: auto; overflow: hidden; position: relative; top: 0px; z-index: 10000; }
+body > header h1 { display: block; width: 960px; height: 120px; padding: 30px 0px; margin: auto; border-bottom: 1px solid #ccc; }
+
+header #logo { background: url(img/science-atlantic-banner.png) 50% 50% no-repeat; overflow: visible; display: block; height: 116px; text-indent: -9999em;}
+.aquafish header #logo { background: url(img/aquaculture-and-fisheries-banner.png) 50% 50% no-repeat;}
+.biology header #logo { background: url(img/biology-banner.png) 50% 50% no-repeat;}
+.chemistry header #logo { background: url(img/chemistry-banner.png) 50% 50% no-repeat;}
+.compsci header #logo { background: url(img/computer-science-banner.png) 50% 50% no-repeat;}
+.earthsci header #logo { background: url(img/earth-science-banner.png) 50% 50% no-repeat;}
+.environment header #logo { background: url(img/environment-banner.png) 50% 50% no-repeat;}
+.mathstats header #logo { background: url(img/mathematics-and-statistics-banner.png) 50% 50% no-repeat;}
+.physics header #logo { background: url(img/physics-and-astronomy-banner.png) 50% 50% no-repeat;}
+.psychology header #logo { background: url(img/psychology-banner.png) 50% 50% no-repeat;}
+.ciab header #logo { background: url(img/ciab-banner.png) 50% 50% no-repeat;}
+
+header #logo a{ display: block; height: 116px; }
+header ul{ list-style-type: none; display: block; height: 40px; }
+header li{ float: left; line-height: 40px; height: 40px; }
+header li a { display: block; padding: 0 0.9em; color: #fff; text-decoration: none; border-left: 1px solid #444; font-size: 15px; }
+header li:first-child a { padding-left: 0px; background: none; border-left: none; }
+header li:last-child { float: right; }
+header li:last-child a { border-left: none; }
+header li a:hover { color: #38b8b9; }
+header li a:active { color: #38b8b9; }
+header li a:visited { color: #fff; }
+header li.current_page_item a, header li.current_page_parent a, header li.current_page_ancestor a, header li.current-menu-item a, header a {color: #38b8b9; text-decoration: none;}
+header li.current_page_item a:hover, header li.current_page_parent a:hover, header li.current_page_ancestor a:hover, header li.current-menu-item a:hover, header a:hover {color: #38b8b9; text-decoration: none;}
+header li.current_page_item a:active, header li.current_page_parent a:active, header li.current_page_ancestor a:active, header li.current-menu-item a:active, header a:active {color: #38b8b9; text-decoration: none;}
+
+#inside-content { position: relative; width: 960px; min-height: 300px;}
+
+#main { float:right; padding: 41px 0 0 0; width: 630px}
+#main h1 { font-size: 2.4em; line-height: 1.3em; font-weight: lighter; margin: 0 0 30px 0; padding: 0px; border: none; text-align: left;}
+#main h2 { font-size: 1.6em; line-height: 1.2em; font-weight: lighter; margin: 0 0 20px 0; padding: 0px; border: none; text-align: left;}
+#main p, #main li { font-size: 1.2em; line-height: 1.267; }
+body.sitemap #main { margin: 0; width: 960px; }
+#main ul.sitemap { -moz-column-count: 3; -webkit-column-count: 3; column-count: 3; }
+#main ul.sitemap li { font-size: 1.2em; }
+#main ul.sitemap li ul { margin-left: 2em; }
+#main ul.sitemap li li { font-size: 0.9em; }
+#main img { margin-bottom: 1em; }
+#main ol { list-style-position: outside; margin-left: 3em; }
+#main ul { list-style-position: inside; }
+
+#sidebar { float:left; padding: 41px 0 0 0; width: 300px; }
+#sidebar h1, #features h1, #sidebar h2 { font-size: 1.7em; font-weight: normal; color: #39b8b9; }
+#features h1  { text-align: center; padding: 8px 0; }
+#sidebar ul, #sidebar p { margin-bottom: 30px; }
+#sidebar ul { display: block; list-style-type: none; width: 100px; width: 100%;}
+#sidebar li { padding-left: 13px; margin-bottom: 8px; border-top: 1px solid #eee; padding-top: 0.5em; }
+#sidebar li:first-child { border-top: none; padding-top: 0; background-position: 0 5px; }
+#sidebar li a, #sidebar li a:visited { font-size: 1.2em; text-decoration: none; color: #444; }
+#sidebar nav ul li ul { margin-top: 8px; margin-bottom: 0; }
+#sidebar .current_page_item, #sidebar .current_page_parent, #sidebar .current-cat { background: url('img/arrow.png') 0px 0.75em no-repeat; }
+#sidebar .current_page_parent .current_page_item { background: none; }
+#sidebar .current_page_parent > a, #sidebar .current_page_parent .current_page_item a, #sidebar .current-cat a, #sidebar .current_page_item > a { color: #39b8b9 !important; }
+#sidebar .children { display: none; }
+#sidebar .children li a { font-size: 1em; }
+#sidebar .current_page_item .children, #sidebar .current_page_ancestor .children { display: block; }
+#sidebar #searchform fieldset { position: relative; display: block; height: 75px; background: #e5e5e5; margin-bottom: 25px;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+#sidebar #s { position: absolute; top: 25px; left: 25px; width: 160px; height: 20.5px; line-height: 20.5px; padding: 0 2px; }
+#sidebar #searchsubmit { position: absolute; top: 25.5px; right: 25px;  height: 25px; line-height: 25px; border: solid 1px #000; background-color: #000; text-align: center; color: #fff; }
+
+footer { display: block; width: 960px; background-color: #fff; border-top: solid 1px #BABABA; min-height: 300px; padding: 30px 0; margin-top: 40px;}
+footer h1 { font-size: 1.15em; line-height: 1.7em; color: #595959; font-style: italic; font-weight: normal; border: none; text-align: left; padding: 0px; margin: 0px;}
+footer h1 b {color: #000; font-weight: normal;}
+footer nav {margin: 0; border-top: solid 1px #bababa; padding-top: 30px; clear: both; }
+footer ul{float: left; list-style-type: none; display: block; padding: 0 0 15px 0; width: 900px; margin: 0px;}
+footer li{ font-size: 1.1em; float: left; margin-right: 25px; line-height: 1.2em;}
+footer p{font-size: 1em; line-height: 1.5em; clear: both; }
+
+footer aside:first-child { text-align: center; padding-bottom: 30px; vertical-align: middle; }
+footer .textwidget { float: left; margin-left: 30px; }
+footer #searchform { float: left; width: 240px; height: 82px; line-height: 82px; margin-left: 0; }
+footer #searchsubmit, input#submit { background: #000; color: #fff; border: none; padding: 5px; margin-left: 3px; }
+footer #s { padding: 3px; width: 160px; }
+footer .addthis_toolbox { margin-top: 17px; }
+
+#profile_container { clear: both; margin: 30px auto; }
+#profile_container h2 { margin-left: 165px; }
+#profiles { display: block; width: 630px; height: 240px; margin: auto; background: url(img/puzzle-630.png) top left no-repeat; }
+#profiles a { float: left; width: 166px; height: 40px; padding-top: 180px; font-size: 2em; text-align: center; text-decoration: none; vertical-align: bottom; }
+#profiles a.faculty { width: 166px; margin-right: 20px; }
+#profiles a.students { width: 258px; margin: 0; }
+#profiles a.partners { width: 166px; margin-left: 20px; }
+#profiles a:hover { background: rgba(255,255,255,0.25); }
+#profiles p { clear: none; float: left; margin-left: 30px; width: 300px; font-size: 1.3em; }
+
+/* Utility Classes */
+.alignleft { float: left; margin: auto 1.5em 1.5em auto; }
+.alignright { float: right; margin: auto auto 1.5em 1.5em; }
+.clickable { cursor: pointer; }
+ul:hover .clickable { opacity: 0.38; }
+li.clickable:hover { opacity: 1; }
+.clearboth { clear: both; }
+
+/* Wordpress Override Defaults */
+.rsswidget img { display: none; }
+.rsswidget { text-decoration: none; }
+
+/* IE Hacks */
+.ie6 #main-menu .current_page_item a, .ie6 #main-menu .current_page_parent a, .ie6 #main-menu .current-page-ancestor a, .ie6 #main-menu .current-menu-item a { text-decoration: underline; }
+.ie7 #main-menu .current_page_item a, .ie7 #main-menu .current_page_parent a, .ie7 #main-menu .current-page-ancestor a, .ie7 #main-menu .current-menu-item a { text-decoration: underline; }
+
+/*** End of page code ***/
+
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+#inside-content:before, #inside-content:after, .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+#inside-content:after, .clearfix:after { clear: both; }
+#inside-content, .clearfix { zoom: 1; }
+
+
+@media all and (orientation:portrait) {
+
+}
+
+@media all and (orientation:landscape) {
+
+}
+
+@media screen and (max-device-width: 480px) {
+  
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } 
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+
