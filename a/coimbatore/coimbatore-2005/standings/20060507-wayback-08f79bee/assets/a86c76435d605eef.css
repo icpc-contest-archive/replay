@@ -1,0 +1,157 @@
+
+BODY
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #002953;
+    LINE-HEIGHT: 150%;
+	BACKGROUND-COLOR:#ffffff;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A:link
+{
+    COLOR: #0000FF;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;
+}
+A:hover
+{
+    COLOR: #0000FF;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline;
+}
+
+H5
+{
+    COLOR: #D64B20;
+    LINE-HEIGHT: normal;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: justify;
+}
+H6
+{
+    COLOR: #002953;
+    LINE-HEIGHT: normal;
+	FONT-SIZE: 7pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: justify;
+}
+P
+{
+    FONT-WEIGHT: normal;
+	COLOR: #003A75;
+    FONT-SIZE: 9pt;
+    LINE-HEIGHT: 150%;
+    FONT-STYLE: normal;
+    FONT-FAMILY: 'Verdana', 'Arial', 'Helvetica';
+    TEXT-ALIGN: justify;
+}
+/*-------------------------------------------------------*/
+.contact
+{
+    FONT-WEIGHT: normal;
+	COLOR: #003A75;
+    FONT-SIZE: 9pt;
+    LINE-HEIGHT: 150%;
+    FONT-STYLE: normal;
+    FONT-FAMILY: 'Verdana', 'Arial', 'Helvetica';
+    TEXT-ALIGN: center;
+}
+/*------------------------------------------------------*/
+.bottom {
+    FONT-WEIGHT: normal;
+	COLOR: #002953;
+	FONT-SIZE: 7pt; 
+	FONT-FAMILY: 'Verdana', 'Geneva', 'Arial', 'sans-serif'; 
+	FONT-STYLE: normal;
+	TEXT-ALIGN: left;
+}
+/*-------------------------------------------------------*/
+.bottom1 {
+    FONT-WEIGHT: normal;
+	COLOR: #002953;
+	FONT-SIZE: 7pt; 
+	FONT-FAMILY: 'Verdana', 'Geneva', 'Arial', 'sans-serif'; 
+	FONT-STYLE: normal;
+	TEXT-ALIGN: left;
+}
+/*--------------------------------------------------------*/
+.leftnright
+{
+    border-left:#004080 1px solid;
+	border-right:#004080 1px solid;
+}
+/*--------------------------------------------------------*/
+.leftline
+{
+border-left:#004080 1px solid;
+}
+.leftline1
+{
+border-left:#FFF4DD 1px solid;
+}
+.bottomline
+{
+border-bottom:#004080 1px solid;
+}
+/*-------------------------------------------------------*/
+.news {
+    FONT-WEIGHT: normal;
+	COLOR: #002953;
+	FONT-SIZE: 7pt; 
+	FONT-FAMILY: 'Verdana', 'Geneva', 'Arial', 'sans-serif'; 
+	FONT-STYLE: normal;
+	TEXT-ALIGN: left;
+}
+/*--------------------------------------------------------*/
+.header
+{
+	COLOR: #660066;	FONT-SIZE: 14pt; FONT-FAMILY: 'Verdana';
+	letter-spacing:normal;
+	line-height:normal;
+	FONT-weight: bold; TEXT-ALIGN: center;border-bottom:#004080 1px solid;
+}
+.subheader
+{
+	COLOR: #990000;	FONT-SIZE: 12pt; FONT-FAMILY: 'Verdana';
+	letter-spacing:normal;
+	line-height:normal;
+	FONT-weight: bold; TEXT-ALIGN: center;
+}
+.subheader1
+{
+	COLOR: #003A75;	FONT-SIZE: 10pt; FONT-FAMILY: 'Verdana';
+	letter-spacing:normal;
+	line-height:normal;
+	FONT-weight: bold; TEXT-ALIGN: center;
+}
+/*-----------------------------------------------*/
+.menu1 {
+	FONT: verdana,sans-serif; COLOR: #B82E03; TEXT-ALIGN: left; BACKGROUND: #fff; font-size: 10pt; 
+}
+TD.menu1 {
+	BORDER-bottom: #FFF4DD 1px solid; BACKGROUND: #fff; TEXT-ALIGN: left; padding-left: 1px;
+}
+.menu1 A:link {
+	BACKGROUND: #fff; COLOR: #B82E03; TEXT-DECORATION: none;
+}
+.menu1 A:visited {
+	COLOR: #B82E03; TEXT-DECORATION: none;
+}
+.menu1 A:active {
+	BACKGROUND: #fff; COLOR: #B82E03; TEXT-DECORATION: none
+}
+.menu1 A:hover {
+	COLOR: #9A4E0A; TEXT-DECORATION: none; DISPLAY: block; background-color:#EDEAE7;
+}
+/*------------------------------------------------*/
+.cpyright
+{
+	COLOR: #002D59;	FONT-SIZE: 8pt; FONT-FAMILY: 'Arial'; 
+	FONT-STYLE: normal;	TEXT-ALIGN: center; BORDER-BOTTOM: #004080 1px solid;
+	BORDER-TOP: #FFECC6 1px solid;
+}
+/*------------------------------------------------*/

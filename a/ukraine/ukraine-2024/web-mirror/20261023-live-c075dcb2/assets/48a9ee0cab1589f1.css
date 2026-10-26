@@ -1,0 +1,123 @@
+
+/* = Nav Menu
+---------------------------------------------------- */
+
+.widget_nav_menu ul{
+	padding-left: 0;
+}
+
+.widget_nav_menu li{
+	list-style: none;
+}
+
+/* = Recent/Popular News
+---------------------------------------------------- */
+
+.widget-recent-news ul,
+.widget-popular-news ul{
+	padding-left: 0;
+}
+
+.widget-recent-news li,
+.widget-popular-news li{
+	list-style: none;
+	border-top: 1px solid #ccc;
+	padding-top: 18px;
+	margin-top: 20px;
+}
+
+.widget-recent-news li:first-child,
+.widget-popular-news li:first-child{
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.widget-recent-news li .date,
+.widget-popular-news li .date{
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 12px;
+	display: block;
+	color: #999;
+}
+
+.widget-recent-news li .title,
+.widget-popular-news li .title{
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 12px;
+	font-weight: 700;
+}
+
+.widget-recent-news li .excerpt,
+.widget-popular-news li .excerpt{
+	font-weight: 300;
+	line-height: 17px;
+	font-size: 14px;
+}
+
+/* = Recent Theses
+---------------------------------------------------- */
+
+.widget-recent-theses ul{
+	padding-left: 0;
+}
+
+.widget-recent-theses li{
+	list-style: none;
+	border-top: 1px solid #ccc;
+	padding-top: 18px;
+	margin-top: 20px;
+}
+
+.widget-recent-theses li:first-child{
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.widget-recent-theses li .date{
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 12px;
+	display: block;
+	color: #999;
+}
+
+.widget-recent-theses li h5{
+	line-height: 19px;
+	font-size: 16px;
+}
+
+.widget-recent-theses li h5 .author{
+	display: block;
+}
+
+.widget-recent-theses li h5 .theme{
+	font-weight: 700;
+}
+
+/* = Back Link
+---------------------------------------------------- */
+
+.widget.back-link a{
+	padding-right: 40px;
+	display: inline-block;
+	position: relative;
+}
+
+.widget.back-link a i{
+	width: 20px;
+	height: 14px;
+	background-image: url(../images/pagination-arrows.png);
+	background-position: -21px 0;
+	position: absolute;
+	display: block;
+	top: 5px;
+	right: 0;
+}
+
+.widget.back-link a:hover i{
+	background-position: -21px -15px;
+}

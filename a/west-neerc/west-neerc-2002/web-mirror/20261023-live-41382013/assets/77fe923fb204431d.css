@@ -1,0 +1,899 @@
+@use postcss-nestaed;
+
+:root {
+    --color-primary: #4c83c3;
+    --color-primary-dark: #325a9a;
+    --color-primary-darker: #224a8a;
+
+    --color-border: #cccccc;
+
+    --color-text: #333333;
+    --color-text-dark: #262d3c;
+    --color-text-light: #ffffff;
+    --color-text-muted: #b2bada;
+
+    --color-surface: #f6f6f6;
+    --color-surface-hover: #e2eafa;
+
+    --color-gold: #ffffe0;
+    --color-silver: #e8f8ff;
+    --color-bronze: #fff0e0;
+
+    --color-registration: #2f65b0;
+
+    --header-height: 37px;
+}
+
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', "Helvetica Light", sans-serif;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Roboto',"Helvetica Light", sans-serif;;
+    font-style: Light;
+    src: url("https://nerc.itmo.ru/Helvetica-light.otf");
+    font-display: optional;
+}
+
+body {
+    margin: 0pt;
+    color: var(--color-text);
+}
+
+html {
+    scroll-padding-top: calc(var(--header-height) + 20px);
+    scroll-behavior: smooth;
+}
+
+.menutopHeader {
+    padding: var(--header-height);
+}
+
+.flex {
+    display: flex;
+}
+
+.position-left,
+.position-right {
+    width: 500px;
+    padding: 10px;
+}
+
+div.maincontent {
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column {
+    border: none;
+}
+
+div.inline.inlineSub {
+    justify-content: space-between;
+}
+
+.header {
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    background: var(--color-primary);
+    z-index: 1000;
+}
+
+.agendaSub {
+    min-width: 30%;
+    max-width: 700px;
+}
+
+.img-centr {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.media {
+    position: relative;
+    left: 40px;
+}
+
+.svg {
+    position: relative;
+    top: 3px;
+    height: 30px;
+}
+
+.svg-con {
+    height: 15px;
+}
+
+.paddH2 {
+    padding-left: 60px;
+}
+
+.cnt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pad {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.box {
+    overflow: hidden;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.second {
+    width: calc(100% - 68px - 5px);
+    overflow-wrap: break-word;
+}
+
+.maintext {
+    width: 100%;
+    padding: 2px 10px 10px;
+}
+
+.content {
+    width: 100%;
+}
+
+.padding {
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.white {
+    color: var(--color-text-light);
+}
+
+/*table.calendar  list of all regional contest dates this season */
+
+table.calendar {
+    border: none;
+    text-align: center;
+    border-collapse: separate;
+}
+
+table.calendar th {
+    background: var(--color-surface);
+    padding: 5px;
+    border-radius: 10px;
+}
+table.calendar td {
+    background: var(--color-surface);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*table.day = day = array[{time,name,location}] json key, schedule of events for one day */
+table.day {
+    border: none;
+    text-align: center;
+    border-collapse: separate;
+}                       
+
+table.day td {
+    background: var(--color-surface);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.sparse {
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+ol.nested {
+    margin: 0;
+    padding: 0;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.first {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.nested > li {
+    display: table;
+    margin-bottom: 0.6em;
+    counter-increment: item;
+}
+
+ol.nested > li:before {
+    display: table-cell;
+    padding-right: 0.5em;
+    padding-left: 1em;
+    content: counters(item, '.') '. ';
+}
+
+ol.first > li {
+    display: table;
+    margin-bottom: 0.6em;
+    counter-increment: item;
+}
+
+li ol.first > li {
+    margin: 0;
+}
+
+ol.first > li:before {
+    display: table-cell;
+    padding-right: 0.5em;
+    padding-left: 1em;
+    content: counters(item, '.') '. ';
+}
+
+li ol.first > li:before {
+    content: counters(item, '.') '. ';
+}
+
+li ol.nested > li {
+    margin: 0;
+}
+
+li ol.nested > li:before {
+    content: counters(item, '.') '. ';
+}
+
+ul.incell {
+    margin-left: 0pt;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: top;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.c {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+/* Links and menu style  */
+
+.menutop {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+}
+
+td.menutop {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+a.menutop {
+    padding-right: 0;
+    padding-left: 0;
+
+    color: var(--color-text-light);
+
+    text-decoration: none;
+    justify-content: center;
+}
+
+a.menutop:hover {
+    color: var(--color-text-dark);
+}
+
+a.active {
+    background-color: var(--color-primary) !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+
+div.menuleft {     /*this is menu flex*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.menuleft > a,  /*this is menu item*/
+a.menuleft {       /*this allows to use menu item style elsewhere*/
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color-surface);
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    margin: 5px;
+}
+
+a.menuleft:hover {
+    color: var(--color-text-dark);
+}
+
+
+a {
+    color: var(--color-primary-dark);
+}
+
+.textBackp p a {
+    color: var(--color-text-light);
+}
+
+img {
+    border: none;
+}
+
+a.top {
+    padding-right: 0;
+    padding-left: 0;
+    color: var(--color-text-muted);
+}
+
+a.top:hover {
+    background-color: var(--color-surface-hover);
+    color: var(--color-text-light);
+}
+
+/* End of links and menus style */
+
+/* Decoration elements */
+
+table.wrapper {
+    width: 100%;
+    height: 1220px;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    background-color: var(--color-primary-darker);
+}
+
+/* End of decoration elements */
+
+/* Welcome page */
+
+td.sponsors {
+    text-align: center;
+}
+
+td.sponsor {
+    padding-right: 10pt;
+    padding-left: 10pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.itopic {
+    padding: 5px 30px;
+}
+
+td.itopicfin {
+    padding: 5px 30px;
+    text-align: center;
+}
+
+table.ifinwrapper {
+    width: 80%;
+}
+
+/* End of welcome page */
+
+/* Finalists page */
+
+table.finalists {
+    border: var(--color-border) 1px solid;
+    border-collapse: collapse;
+}
+
+table.winners {
+    margin-left: 20pt;
+    border: var(--color-border) 1px solid;
+    border-collapse: collapse;
+}
+
+table.fminfo {
+    border: var(--color-border) 1px solid;
+    border-collapse: collapse;
+}
+
+th.fin {
+    border: var(--color-border) 1px solid;
+}
+
+td.fyear {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.finalists td {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+}
+
+td.fsolved,
+td.frank,
+td.fmore {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+    text-align: center;
+}
+
+tbody.gold {
+    background-color: var(--color-gold);
+}
+
+tbody.silver {
+    background-color: var(--color-silver);
+}
+
+tbody.bronze {
+    background-color: var(--color-bronze);
+}
+
+/* End of finalists page */
+
+/* Information pages */
+
+h1 {
+    font-size: 26px;
+    color: var(--color-primary-dark);
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: var(--color-primary-dark);
+    text-align: left;
+}
+
+h3 {
+    font-size: 21px;
+    color: var(--color-primary-dark);
+    text-align: left;
+}
+
+/* End of information pages */
+
+/* Outcomes table */
+
+table.outcomes {
+    margin-top: 10pt;
+    border: var(--color-border) 1px solid;
+    border-collapse: collapse;
+}
+
+th.otc {
+    border: var(--color-border) 1px solid;
+}
+
+td.ocap {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+    text-align: left;
+}
+
+td.ocomm {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+    text-align: left;
+}
+
+td.otest {
+    padding: 2pt;
+    border: var(--color-border) 1px solid;
+    text-align: center;
+}
+
+/* End of outcomes table */
+
+/* Subregion information */
+
+table.subrinfo,
+table.subrpcp {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+td.subrinfovar {
+    width: 20%;
+    padding: 2px;
+    font-weight: bold;
+}
+
+td.subrinfoval {
+    padding: 2px;
+}
+
+/* End of subregion information */
+
+/* Resourses */
+
+table.resr {
+    border: var(--color-border) 1px solid;
+    border-collapse: collapse;
+}
+
+td.resr {
+    width: 25%;
+    padding: 2px;
+    border: var(--color-border) 1px solid;
+}
+
+td.resrcomm {
+    width: 75%;
+    padding: 2px;
+    border: var(--color-border) 1px solid;
+}
+
+/* End of resourses */
+
+/* Contacts */
+
+.cnt {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.cnt-role {
+    padding: 2px;
+    font-weight: bold;
+}
+
+.cnt-person,
+.cnt-pos,
+.cnt-val,
+.cnt-com {
+    padding: 2px;
+}
+
+.cnt-cmm {
+    padding: 2px 10px 2px 2px;
+    text-align: right;
+}
+
+.cnt-skip {
+    height: 20px;
+    padding: 2px;
+    border: none;
+}
+
+/* End of contacts */
+
+/* Links */
+li.link {
+    padding: 2pt;
+}
+
+/* End of links */
+
+/* Past */
+table.past {
+    width: 60%;
+    padding: 2px;
+    border: 1px solid var(--color-border);
+    border-collapse: collapse;
+}
+
+td.neercyear,
+td.neercprob,
+td.neercres {
+    min-width: 100pt;
+    padding: 2px;
+    border: 1px solid var(--color-border);
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* End of past */
+
+/* Selection rules */
+
+table.quotas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+table.quotas th,
+table.quotas td {
+    border: 1px solid var(--color-border);
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.quotas td:first-child {
+    text-align: left;
+}
+
+table.quotas th {
+    background-color: var(--color-surface-hover);
+}
+
+/* End of selection rules */
+
+/* Teams table */
+table.teamssummary {
+    width: 300px;
+    border: var(--color-border) 1pt solid;
+    border-collapse: collapse;
+}
+
+table.teams {
+    width: 90%;
+    border: var(--color-border) 1pt solid;
+    border-collapse: collapse;
+}
+
+td.tm {
+    padding: 2pt 5pt;
+    border: var(--color-border) 1pt solid;
+}
+
+td.th {
+    padding: 2pt;
+    border: var(--color-border) 1pt solid;
+    font-weight: bold;
+}
+
+/* End of teams table */
+
+/* Ruble */
+
+span.dot {
+    position: absolute;
+    text-indent: -1000em;
+}
+
+span.hyphen:after {
+    content: '\2013';
+}
+
+span.hyphen {
+    position: absolute;
+    margin: 0.1ex 0 0;
+    behavior: expression(this.innerHTML = '&ndash;');
+}
+
+/*
+span.dot { position:absolute; text-indent: -1000em; }
+span.hyphen:after { content: '\2013'; }
+span.hyphen { position:absolute; margin:.1ex 0 0; behavior: expression(this.innerHTML = '&ndash;'); }
+*/
+/*
+span.ruble:after { content: 'P'; }
+span.ruble { behavior: expression(this.innerHTML = 'P'); }
+*/
+
+@media screen and (max-width: 1000px) {
+    * {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .header {
+        height: 60px;
+        font-size: 48px;
+    }
+
+    .menutopHeader {
+        padding: 60px;
+    }
+
+    .maincontent {
+        font-size: 20px;
+    }
+
+    .font {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .second {
+        width: calc(100% - 96px - 30px);
+    }
+
+    .svg-con {
+        width: 25px;
+        height: 25px;
+    }
+
+    .svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box {
+        width: 96px;
+        height: 96px;
+    }
+
+    .cnt {
+        grid-template-columns: 1fr;
+    }
+
+    .agendaSub {
+        max-width: none;
+    }
+
+    .inlineSub {
+        display: block;
+    }
+
+    .media {
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .position-right {
+        width: auto;
+    }
+
+    .position-left {
+        width: auto;
+    }
+
+    .language-toggle {
+    font-size: 20px;
+    padding: 0 6px;
+  }
+}
+
+@media print {
+  .menuleft {
+    display:none !important
+  }
+}
+
+/* for lang switch */
+.language-toggle {
+    height: 30px;
+    min-width: 52px;
+    padding: 0 12px;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 15px;
+
+    background: transparent;
+    color: var(--color-text-light);
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+body.northern-page .language-toggle {
+    display: inline-flex;
+}
+
+.language-toggle:hover {
+    background-color: var(--color-text-light);
+    color: var(--color-primary);
+}
+
+.lang-en {
+    display: none;
+}
+
+body.show-en .lang-ru {
+    display: none;
+}
+
+body.show-en .lang-en {
+    display: block;
+}
+
+/* inline translations: Contacts / Archive */
+.lang-inline-en {
+    display: none;
+}
+
+body.show-en .lang-inline-ru {
+    display: none;
+}
+
+body.show-en .lang-inline-en {
+    display: inline;
+}
+
+.reg_button {
+    display: inline-block;
+
+    padding: 10px 30px;
+
+    background-color: var(--color-registration);
+    color: var(--color-text-light);
+
+    border: 2px solid var(--color-registration);
+    border-radius: 8px;
+
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+.reg_button:hover {
+    background-color: var(--color-text-light);
+    color: var(--color-registration);
+}

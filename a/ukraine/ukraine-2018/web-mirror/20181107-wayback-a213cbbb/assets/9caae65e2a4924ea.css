@@ -1,0 +1,189 @@
+/* ------------------------------------------ */
+/* http://nubip.edu.ua/            		       */
+/* 5.03.2012                                 */
+/* ------------------------------------------ */
+
+
+/* Green 
+---------------------------------------------------- */
+/* Links
+---------------------------------------------------- */
+
+a:link					{ color : #3D884D; } 
+a:visited				{ color : #85A30C; } 
+a:hover					{ color : #3D884D; } 
+a:active				{ color : #d21616; }
+
+/* Form
+---------------------------------------------------- */
+		
+form input.button { color: #3D884D; }
+
+
+/* =========================-==================== */
+/*  header */
+
+
+/* main menu */
+#mainmenu a { color: #3D884D; }
+		
+		
+/* =========== */
+/* main menu */
+ul#main_menu a:link 	{ color: #3D884D; }
+ul#main_menu a:visited 	{ color: #3D884D; }
+ul#main_menu a:hover 	{ color: #d21616; }
+ul#main_menu a:active	{ color: #d21616; }
+
+ul#main_menu .active { background-color: #2f8040; }
+
+
+			
+/* ================== */	
+/* 28.04.2011 */
+/* map block on homepage */
+
+			html .b-regional-map ul li a:link { color: #3D884D; } 
+			html .b-regional-map ul li a:visited { color: #3D884D; } 						
+			html .b-regional-map ul li a:hover { color: #3D884D; } 						
+			html .b-regional-map ul li a:active { color: #3D884D; } 						
+		
+
+/* developer styles - add new and override exist */
+
+html .text ul.pager li.pager-current { color: #3D884D; }
+
+/* 
+	content and columns framework
+	ccf.css | Alekzander Voznuk, alekzander@fishdesign.com.ua
+	v 0.2, 17.12.09
+*/
+.text .block h2 { color: #3D884D; }
+.text .block h2 a {	color: #3D884D; }
+			
+/* text headers */
+div.text h1 { color: #3D884D; }
+
+div.text h2 { color: #3D884D; }
+
+div.text h3 { color: #3D884D; }
+
+div.text h4 { color: #3D884D; }
+
+/* foto/video icons in header */
+.item-labels { color: #3D884D; }
+
+/* special links */
+.additional_nav ul.special_links li.sel { background: #3D884D url(../../images/int/submenu_bg_top.png) no-repeat 0 0; }
+			
+
+/* 
+	ccf 
+	nubip.edu.ua
+	5.03.2012
+-------------------------------------------------- */
+/* from old version */
+
+
+	
+
+/* webform */		
+	
+		
+	.form-actions .form-submit { color: #3D884D; }
+	
+/* calendar-nav */
+.calendar-block .calendar-nav .year-row { border-bottom: 1px solid #dfe5f0; border-top: 1px solid #dfe5f0; color: #777; }
+	.calendar-block .calendar-nav .year-row b a { color: #fff; background-color: #3D884D;  }	
+	.calendar-block .calendar-nav .year-row a:hover { background-color: #DFFFBF; }	
+			.calendar-block .calendar-nav .year-row b a:hover { background-color: #3D884D; }	
+				
+.calendar-block .calendar-nav .month-row { border-bottom: 1px solid #dfe5f0; color: #777; }
+	.calendar-block .calendar-nav .month-row b a { color: #fff; background-color: #3D884D; }	
+		.calendar-block .calendar-nav .month-row a:hover { background-color: #DFFFBF; }	
+			.calendar-block .calendar-nav .month-row b a:hover { background-color: #3D884D; }	
+				
+.calendar-block .calendar-nav .day-row { border-bottom: 1px solid #dfe5f0; color: #777; }
+		.calendar-block .calendar-nav .day-row a:link 		{ border-bottom: 1px solid #3D884D; }
+		.calendar-block .calendar-nav .day-row a:visited	{ border-bottom: 1px solid #85A30C; }
+    .calendar-block .calendar-nav .day-row i { color: #FF6A6A; }
+			.calendar-block .calendar-nav .day-row i a:link 	{ color: #FF2B2B; border-bottom: 1px solid #FF2B2B; }
+			.calendar-block .calendar-nav .day-row i a:visited { color: #FF5555; border-bottom: 1px solid #FF5555; }
+			.calendar-block .calendar-nav .day-row i a:hover 	{ color: #FF4040; }
+			.calendar-block .calendar-nav .day-row i a:active 	{ color: #D21616; }
+	       		.calendar-block .calendar-nav .day-row .week-set:hover { background-color: #DFFFBF; }
+		.calendar-block .calendar-nav .day-row .sel { background-color: #3D884D; color: #D4F3FF; }
+			.calendar-block .calendar-nav .day-row .sel:hover { background-color: #3D884D; }
+			.calendar-block .calendar-nav .day-row .sel a { color: #fff; }
+				.calendar-block .calendar-nav .day-row .sel a:link		{ border-bottom: 1px solid #fff; }
+				.calendar-block .calendar-nav .day-row .sel a:visited	{ border-bottom: 1px solid #fff; }
+			.calendar-block .calendar-nav .day-row .sel i { color: #FEFF99; }					
+				.calendar-block .calendar-nav .day-row .sel i a { color: #FEFF55; }		
+					.calendar-block .calendar-nav .day-row .sel i a:link 		{ border-bottom: 1px solid #FEFF99; }
+					.calendar-block .calendar-nav .day-row .sel i a:visited 	{ border-bottom: 1px solid #FEFF99; }
+							
+							
+    /* day-row-labeled variation */
+	.calendar-block .calendar-nav .day-row-labeled { border-bottom: 1px solid #dfe5f0; color: #777; }
+		
+				.calendar-block .calendar-nav .day-row-labeled a:link 		{ border-bottom: 1px solid #3D884D; }
+				.calendar-block .calendar-nav .day-row-labeled a:visited	{ border-bottom: 1px solid #85A30C; }
+					
+			.calendar-block .calendar-nav .day-row-labeled .week-set { margin-right: 3px; display: block; float: left; white-space: nowrap; padding: 2px 6px; margin-bottom: 0.3em; min-width: 95px; min-height: 1px; }
+				.calendar-block .calendar-nav .day-row-labeled .week-set .day { display: inline; float: left; margin-right: 3px; text-align: center; }
+					.calendar-block .calendar-nav .day-row-labeled .week-set .day .label { font-size: 11px; }
+
+				.calendar-block .calendar-nav .day-row-labeled .week-set .holiday { font-size: 0.85em; color: #FF6A6A; font-style: normal; }
+						.calendar-block .calendar-nav .day-row-labeled .week-set .holiday a:link 		{ color: #FF2B2B; border-bottom: 1px solid #FF2B2B; }
+						.calendar-block .calendar-nav .day-row-labeled .week-set .holiday a:visited 	{ color: #FF5555; border-bottom: 1px solid #FF5555; }
+						.calendar-block .calendar-nav .day-row-labeled .week-set .holiday a:hover 		{ color: #FF4040; border-bottom: none; }
+						.calendar-block .calendar-nav .day-row-labeled .week-set .holiday a:active 	{ color: #D21616; border-bottom: none; }
+				
+					.calendar-block .calendar-nav .day-row-labeled .week-set:hover { background-color: #DFFFBF; }
+				.calendar-block .calendar-nav .day-row-labeled .sel { background-color: #3D884D; color: #D4F3FF; }
+					.calendar-block .calendar-nav .day-row-labeled .sel:hover { background-color: #3D884D; }
+					.calendar-block .calendar-nav .day-row-labeled .sel a { color: #fff; }
+						.calendar-block .calendar-nav .day-row-labeled .sel a:link		{ border-bottom: 1px solid #fff; }
+						.calendar-block .calendar-nav .day-row-labeled .sel a:visited	{ border-bottom: 1px solid #fff; }
+						
+					.calendar-block .calendar-nav .day-row-labeled .sel .holiday { color: #FEFF99; }					
+						.calendar-block .calendar-nav .day-row-labeled .sel .holiday a { color: #FEFF55; text-decoration: none; }		
+							.calendar-block .calendar-nav .day-row-labeled .sel .holiday a:link 	{ color: #FEFF55; border-bottom: 1px solid #FEFF99; }
+							.calendar-block .calendar-nav .day-row-labeled .sel .holiday a:visited 	{ color: #FEFF55; border-bottom: 1px solid #FEFF99; }
+							.calendar-block .calendar-nav .day-row-labeled .sel .holiday a:hover 	{ color: #FEFF55; }
+							.calendar-block .calendar-nav .day-row-labeled .sel .holiday a:active 	{ color: #FEFF55; }
+			                 
+
+	/* calendar-title */
+	.calendar-block .calendar-title .calendar-switcher div { border-bottom: 1px dashed #3D884D; color: #3D884D; }
+		.calendar-block .calendar-title .calendar-switcher div.sel { color: #666; background-color: #DFFFBF; }			
+	.calendar-block .calendar-title .calendar-switcher div.divider {  color: #bbb; }						
+		
+	/* calendar-list */	
+		.calendar-block .calendar-grid .calendar-day h3.day-title { color: #333; }
+				.calendar-block .calendar-grid .calendar-day-holiday h3.day-title { color: #ff2b2b; }
+		.calendar-block .calendar-grid .calendar-day .day-list { background: url(../../images/day_bg.png) no-repeat 0 0; }	
+			.calendar-block .calendar-grid .calendar-day-holiday .day-list { background-image: url(../../images/holiday_bg.png); }	
+				
+				.calendar-block .calendar-grid .calendar-day .day-list .item h3 { border-bottom: 1px solid #edeff1; }
+	
+	/* calendar-pager */	
+	.calendar-block .calendar-pager div { color: #555; }	
+	.calendar-block .calendar-pager div.no { color: #bbb; }	
+
+
+
+/* int-block */	
+#internal-page  .text .int-block h2 { color: #000; }
+	
+/* wrapped-block */
+.wrapped-block { background-color: #f6f6f6; }
+    .wrapped-block .wb-header .wb-toggle-link span { color: Green; border-bottom: 1px dashed Green; }		
+	.wrapped-block .wb-body { border-top: 1px dotted #bbf; }		
+	
+	
+/*27.03.2012*/
+html .item-labels { color: #888888; }
+
+html .nubip-structure-division-press { color: #3D884D; }
+			

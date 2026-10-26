@@ -1,0 +1,180 @@
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 10;
+  }
+}
+
+/* ====== Seção geral ====== */
+.calls-intro {
+    color: #222;            /* mais escuro */
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+    font-size: 1.05rem;     /* leve destaque */
+}
+
+.calls-section h2 {
+    font-weight: 600;
+}
+
+.calls-section h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+
+/* ====== Card de chamada ====== */
+
+.call-card {
+    border-radius: 12px;
+    border: 1px solid #e3e3e3;
+    padding: 1.4rem;
+    height: 100%;
+    background: white;
+    transition: 0.15s ease;
+}
+
+.call-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* título */
+.call-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+/* descrição */
+.call-desc {
+    margin-top: 0.7rem;
+    color: #2f2f2f;   /* mais escuro */
+}
+
+/* prazo */
+.call-date {
+    margin-top: 0.7rem;
+    font-size: 0.95rem;
+}
+
+
+/* ====== Status ====== */
+
+.call-status {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    margin-top: 0.25rem;   /* espaço pequeno */
+}
+
+.status-continuous {
+    background: #e7f0ff;
+    color: #1a4fb8;
+}
+
+.status-open {
+    background: #e6f6ec;
+    color: #137a3b;
+}
+
+.status-soon {
+    background: #fff4d6;
+    color: #8a6d00;
+}
+
+.status-closed {
+    background: #eee;
+    color: #666;
+}
+
+
+/* ====== Botão ====== */
+
+.call-btn {
+    margin-top: 0.8rem;
+}
+
+/* ====== Botões por tipo ====== */
+
+/* contínuo — azul suave */
+.btn-continuous {
+    background: #e7f0ff;
+    color: #1a4fb8;
+    border: 1px solid #c8d8ff;
+    font-weight: 500;
+}
+
+.btn-continuous:hover {
+    background: #dbe7ff;
+    color: #123f96;
+    border-color: #b7ccff;
+}
+
+.btn-continuous:active {
+    background: #cfdfff !important;
+    border-color: #a7beff !important;
+    color: #0f327a !important;
+}
+
+
+/* aberto — verde mais suave que bootstrap */
+.btn-open {
+    background: #e6f6ec;
+    color: #137a3b;
+    border: 1px solid #bfe8cc;
+    font-weight: 500;
+}
+
+.btn-open:hover {
+    background: #d7f0e2;
+    color: #0f5e2e;
+    border-color: #a6dcb8;
+}
+
+.btn-open:active {
+    background: #c9e9d8 !important;
+    border-color: #95d1a9 !important;
+    color: #0c4c25 !important;
+}
+
+/* em breve */
+.btn-soon {
+    background: #f3f3f3;
+    color: #888;
+    border: 1px solid #e2e2e2;
+}
+
+/* encerrado — cinza mais forte */
+.btn-closed {
+    background: #e0e0e0;
+    color: #555;
+    border: 1px solid #cfcfcf;
+}
+.btn-soon:hover,
+.btn-closed:hover {
+    background: inherit;
+    color: inherit;
+    border-color: inherit;
+}
+/* ===== botão encerrado ===== */
+
+.btn.btn-closed,
+.btn.btn-closed:disabled,
+.btn.btn-closed.disabled {
+    background-color: #dcdcdc !important;
+    border-color: #c8c8c8 !important;
+    color: #555 !important;
+    opacity: 1 !important;     /* bootstrap reduz opacidade */
+    cursor: default;
+    pointer-events: none;
+}
+

@@ -1,0 +1,261 @@
+body {
+    font-family: 'Source Sans Pro',sans-serif !important;
+    background-color: #f5f8fe !important;
+    font-size: 14px !important;
+}
+
+body > form{
+	margin:0;
+}
+
+
+.rsmFlow.rsmLevel.rsmOneLevel {
+    list-style: none !important;
+    padding: 32px 0 !important;
+    margin: 0 !important;
+}
+
+.rsmItem.sfNoBreadcrumbNavigation:first-child a {
+    float: left !important;
+}
+
+.rsmItem.sfBreadcrumbNavigation a.rsmLink {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #002d62 !important;
+    padding-left: 0px !important;
+    position: relative !important;
+}
+
+.RadSiteMap_Default .rsmOneLevel .rsmLink:hover {
+    background-image: url('') !important;
+    background-color: transparent !important;
+    border-color: none !important;
+}
+
+.rsmItem.sfNoBreadcrumbNavigation:last-child a.rsmLink {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    position: relative !important;
+    color: #3b8cea;
+}
+
+.sfBreadcrumbWrp {
+    margin: 0 !important;
+}
+
+.content-area h1, .content-area h2, .content-area h3 {
+    color: #062a54 !important;
+}
+
+.news-spot .card__text-container h2 {
+    color: #fff !important;
+    font-size: 32px !important;
+}
+
+.card__image p {
+    margin: 0 0 10px !important;
+}
+
+.card__footer.clearfix .sfTagsList {
+    float: right !important;
+}
+
+    .card__footer.clearfix .sfTagsList li {
+        list-style-type: none !important;
+        cursor: default;
+    }
+
+        .card__footer.clearfix .sfTagsList li:hover {
+        }
+
+.card__footer-right .sfTagsList span {
+    color: #002d62;
+    font-weight: 700;
+}
+
+    .card__footer-right .sfTagsList span:before {
+        display: none !important;
+    }
+
+.card__footer-right .sfTagsList li::first-letter {
+    text-transform: uppercase;
+}
+
+
+ul.events-category__list {
+    padding-left: 0px !important;
+    list-style-type: none !important;
+}
+
+ul.news-archive__list {
+    padding-left: 0px !important;
+    list-style-type: none !important;
+}
+
+.news-archive h3 {
+    margin-top: 0 !important;
+    margin: 0 0 22px !important;
+    border-bottom: 0 !important;
+}
+
+.news-archive {
+    /*padding: 20px !important;*/
+}
+
+
+
+.sfarchiveList {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    list-style-type: none !important;
+    margin-bottom: 0 !important;
+}
+
+
+
+ul.sfarchiveList li.sfarchiveListItem a {
+    line-height: 29px;
+    font-size: 14px;
+    color: #25292f;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.sfarchiveList .sfSel {
+    font-weight: 400 !important;
+    color: #fff !important;
+    background-color: #3b8cea !important;
+    text-decoration: none !important;
+}
+
+    .sfarchiveList .sfSel span.sfCount {
+        color: #fff !important;
+        font-size: 13px !important;
+    }
+
+
+h2.sfarchiveTitle {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    padding: 20px !important;
+    padding-bottom: 0 !important;
+}
+
+.sf_pagerNumeric {
+    border-radius: 0;
+    text-align: center;
+    width: 100%;
+}
+
+    .sf_pagerNumeric a {
+        padding: 7px 14px !important;
+        color: #909090 !important;
+        border-color: #e1e6e8 !important;
+        font-size: 14px !important;
+    }
+
+        .sf_pagerNumeric a:hover {
+            background-color: #f5f8fe !important;
+            color: #002d62 !important;
+        }
+
+        .sf_pagerNumeric a.sf_PagerCurrent {
+            background-color: #f5f8fe !important;
+            color: #002d62 !important;
+        }
+
+
+/*navigasyon custom css start*/
+
+.sfNavHorizontalDropDown {
+    background-color: transparent !important;
+}
+
+    .sfNavHorizontalDropDown li {
+        border-right: 0 !important;
+    }
+
+    .sfNavHorizontalDropDown a:hover {
+        //background-color: transparent !important;
+        //color: #fff !important;
+    }
+
+.header__main-menu > ul li:hover ul li a:hover {
+    //background-color: #3b8cea !important;
+    //color: #fff !important;
+}
+
+
+/*navigasyon custom css end*/
+
+
+/*yayýnlar custom css start*/
+
+#yayinTable .entity-main .title {
+    margin: 0 0 4px;
+    font-size: 20px;
+    color: #062a54;
+    font-weight: 700;
+    line-height: 1;
+}
+/*yayýnlar custom css start*/
+@media (min-width: 992px) {
+    .content-area h1 {
+        font-size: 48px !important;
+        margin: 0 0 32px !important;
+        font-weight: 700 !important;
+    }
+}
+
+.address__item em {
+    float: left;
+    font-size: 48px;
+    color: #002d62;
+    margin-right: 15px;
+}
+
+.sticky-social-list__item em {
+    color: #fff;
+    font-size: 20px;
+}
+/*iletiþim sayfasýnda gizle-göster çalýþmadýðý için yazýldý, gizle göster düzeltilince silinecek*/
+.contact__info-content{
+    display:block;
+}
+
+.contact__info-header {
+    padding: 3px 120px 24px 24px !important;
+}
+
+.social a {
+    color: #fff !important;
+}
+.contact__info-image a {
+    color: #fff !important;
+}
+
+.contact__info-image .btn em {
+    display: inline;
+    font-size: 10px;
+    margin-right: 20px;
+    position: relative;
+    top: -3px;
+}
+.academic__list-detail a em {
+    float: left;
+    margin-right: 7px;
+    color: #3b8cea;
+    margin-top: 5px;
+}
+
+.contact__info .sfContentBlock h2 {
+    margin-top: 20px !important;
+}
+
+.gallery .gallery__image a {
+    height: auto !important;
+}

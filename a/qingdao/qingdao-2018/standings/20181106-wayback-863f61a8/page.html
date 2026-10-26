@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://acm.upc.edu.cn/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://acm.upc.edu.cn/xmlrpc.php">
+
+<title>第43届ACM-ICPC亚洲区域赛（青岛）</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//acm.upc.edu.cn' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="第43届ACM-ICPC亚洲区域赛（青岛） &raquo; Feed" href="http://acm.upc.edu.cn/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="第43届ACM-ICPC亚洲区域赛（青岛） &raquo; 评论Feed" href="http://acm.upc.edu.cn/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/acm.upc.edu.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='awesome-weather-css'  href='assets/4393ba809d8dfa1a.css' type='text/css' media='all' />
+<style id='awesome-weather-inline-css' type='text/css'>
+.awesome-weather-wrap { font-family: 'Open Sans', sans-serif;  font-weight: 400; font-size: 14px; line-height: 14px; } 
+</style>
+<link rel='stylesheet' id='opensans-googlefont-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300&#038;ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jcountdown-css'  href='assets/dfcdd96b079f4ba2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flymag-bootstrap-css'  href='assets/1c970e2f4c522a51.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flymag-body-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C400italic%2C700%2C700italic&#038;ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flymag-headings-fonts-css'  href='//fonts.googleapis.com/css?family=Oswald%3A400%2C300%2C700&#038;ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flymag-style-css'  href='assets/b8f746fe4aebec4c.css' type='text/css' media='all' />
+<style id='flymag-style-inline-css' type='text/css'>
+.social-navigation li:hover > a::before, a, a:hover, a:focus, a:active { color:}
+.custom-menu-item-1:hover, .custom-menu-item-1 .sub-menu, .ticker-info, button, .button, input[type="button"], input[type="reset"], input[type="submit"] { background-color:}
+.custom-menu-item-1 { border-color:}
+.custom-menu-item-2:hover, .custom-menu-item-2 .sub-menu { background-color:}
+.custom-menu-item-2 { border-color:}
+.custom-menu-item-3:hover, .custom-menu-item-3 .sub-menu { background-color:}
+.custom-menu-item-3 { border-color:}
+.custom-menu-item-4:hover, .custom-menu-item-4 .sub-menu { background-color:}
+.custom-menu-item-4 { border-color:}
+.custom-menu-item-0:hover, .custom-menu-item-0 .sub-menu { background-color:}
+.custom-menu-item-0 { border-color:}
+.site-branding { background-color:}
+.news-ticker { background-color:}
+.site-title a, .site-title a:hover { color:}
+.site-description { color:}
+.main-navigation { background-color:}
+.main-navigation a, .main-navigation li::before { color:}
+body { color:}
+.widget-area .widget, .widget-area .widget a { color:}
+.site-footer, .footer-widget-area { background-color:}
+.site-branding { padding:100px 30px; }
+
+</style>
+<link rel='stylesheet' id='flymag-font-awesome-css'  href='assets/621c28c0e1283ff6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='assets/2d73b9f36bd4485a.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='assets/1af8ed7babb6a499.css' type='text/css' media='screen' />
+<script type='text/javascript' src='assets/2493fd0bdf6619b1.js'></script>
+<script type='text/javascript' src='assets/568a49ba8b969020.js'></script>
+<script type='text/javascript' src='assets/0d1dd21e79f0f9e8.js'></script>
+<script type='text/javascript' src='assets/2e78370495d688d0.js'></script>
+<script type='text/javascript' src='assets/0c7ae7aa81b83373.js'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/jquery.easy-ticker.min.js?ver=1'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/wow.min.js?ver=1'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/scripts.js?ver=1'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/owl.carousel.min.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sliderOptions = {"slideshowspeed":"4000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/slider-init.js?ver=1'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/plugins/wp-simpleweather/jquery.simpleWeather.js?ver=4.8.1'></script>
+<link rel='https://api.w.org/' href='http://acm.upc.edu.cn/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://acm.upc.edu.cn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://acm.upc.edu.cn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.1" />
+<script type='text/javascript'>
+var tminusnow = '{"now":"11\/6\/2018 22:46:28"}';
+</script><link rel="stylesheet" href="http://acm.upc.edu.cn/wp-content/plugins/wp-simpleweather/wp-simpleweather-plain.css" type="text/css" /><script type='text/javascript'>
+		jQuery(function() 
+			{
+				jQuery.simpleWeather(
+				{
+				location: 'Xin'an', unit: 'f',
+				success: function(weather)
+				{
+				jQuery("#simpleweather-widget").append('<h3>'+weather.city+'</h3>');jQuery("#simpleweather-widget").append('<img src=\'http://acm.upc.edu.cn/wp-content/plugins/wp-simpleweather/images/weather-images-shiny/'+weather.image+'\' id=\'current_weather_image\'&#47;>');jQuery("#simpleweather-widget").append('<span id=\'current_temperature\'>'+weather.temp+'&deg; '+weather.units.temp+'</span>');jQuery("#simpleweather-widget").append('<span id=\'current_weather\'>'+weather.currently+'</span>');
+				},
+		error: function(error) 
+		{
+			jQuery("#simpleweather-widget").html('<p>'+error+'</p>');
+		}
+	});
+});
+				
+		</script><!--[if lt IE 9]>
+<script src="http://acm.upc.edu.cn/wp-content/themes/flymag/js/html5shiv.js"></script>
+<![endif]-->
+
+			<style type="text/css">
+				.site-branding {
+					background: url(http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-1-1.jpg) no-repeat;
+					background-position: center;
+					background-size: cover;
+				}
+			</style>
+		<link rel="icon" href="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-icpc-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-icpc-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-icpc-180x180.png" />
+<meta name="msapplication-TileImage" content="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-icpc-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+您可以在此处加入您的CSS。
+
+点击上方的帮助图标来了解更多。
+*/
+.site-title a {
+    color: #fff;
+
+}		</style>
+	</head>
+
+<body class="home blog">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://acm.upc.edu.cn/">http://acm.upc.edu.cn/ (2018-11-06 14:50)</a> (Wayback snapshot 2018-11-06 14:50; fetched 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/qingdao-2018.html">qingdao-2018</a>  <a href="https://web.archive.org/web/20181106145050/http://acm.upc.edu.cn/">wayback</a>  <a href="http://acm.upc.edu.cn/">live</a></div>
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			
+			<div class="latest-news container">
+				<div class="ticker-info col-md-1 col-sm-1 col-xs-1">
+					<i class="fa fa-bullhorn"></i>
+				</div>
+				<div class="news-ticker col-md-11 col-sm-11 col-xs-11">
+					<div class="ticker-inner">
+													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=828" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）终榜</a></h4>													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=825" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）精彩瞬间集锦</a></h4>													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=822" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）座位号查询</a></h4>													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=811" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）参赛队员及教练信息核对</a></h4>													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=806" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）快速报到信息查询</a></h4>													<h4 class="ticker-title"><a href="http://acm.upc.edu.cn/?p=803" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）志愿者信息</a></h4>											</div>
+				</div>
+			</div>
+
+			
+	<header id="masthead" class="site-header container clearfix" role="banner">
+		<div class="site-branding clearfix">
+							<h1 class="site-title"><a href="http://acm.upc.edu.cn/" rel="home">第43届ACM-ICPC亚洲区域赛（青岛）</a></h1>
+				<h2 class="site-description"></h2>
+					</div>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-%e9%a6%96%e9%a1%b5-container"><ul id="menu-%e9%a6%96%e9%a1%b5" class="menu"><li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-131 custom-menu-item-1"><a href="http://acm.upc.edu.cn/">首页</a></li>
+</ul></div>			<span class="search-toggle"><i class="fa fa-search"></i></span>
+			
+<div class="search-wrapper">
+	<form role="search" method="get" class="flymag-search-form" action="http://acm.upc.edu.cn/">
+		<span class="search-close"><i class="fa fa-times"></i></span>
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field" placeholder="Type and press enter" value="" name="s" title="Search for:" />
+		</label>
+	</form>
+</div>
+	
+		</nav><!-- #site-navigation -->
+		<nav class="mobile-nav"></nav>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content container clearfix">
+				<div class="fly-slider slider-loader">
+		<div class="featured-inner clearfix">
+			<div class="slider-inner">
+									<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=828">
+															<img width="600" height="400" src="http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-600x400.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image" alt="" />														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=828" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）终榜</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=828"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+											<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=825">
+															<img width="600" height="400" src="http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-600x400.jpg" class="attachment-carousel-thumb size-carousel-thumb wp-post-image" alt="" />														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=825" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）精彩瞬间集锦</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=825"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+											<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=822">
+															<img src="http://acm.upc.edu.cn/wp-content/themes/flymag/images/placeholder.png"/>														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=822" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）座位号查询</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=822"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+											<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=811">
+															<img width="600" height="400" src="http://acm.upc.edu.cn/wp-content/uploads/2017/10/daf41176-f5cc-49aa-95a9-08a25a66f1f6-3-600x400.jpg" class="attachment-carousel-thumb size-carousel-thumb wp-post-image" alt="" />														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=811" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）参赛队员及教练信息核对</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=811"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+											<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=806">
+															<img width="600" height="400" src="http://acm.upc.edu.cn/wp-content/uploads/2017/11/5-600x400.jpg" class="attachment-carousel-thumb size-carousel-thumb wp-post-image" alt="" />														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=806" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）快速报到信息查询</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=806"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+											<div class="slide">
+							<span class="carousel-overlay"></span>
+							<a href="http://acm.upc.edu.cn/?p=803">
+															<img width="600" height="400" src="http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-600x400.jpg" class="attachment-carousel-thumb size-carousel-thumb wp-post-image" alt="" />														</a>
+							<h1 class="slide-title"><a href="http://acm.upc.edu.cn/?p=803" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）志愿者信息</a></h1>							<span class="slide-link"><a href="http://acm.upc.edu.cn/?p=803"><i class="fa fa-long-arrow-right"></i></a></span>
+						</div>
+								</div>
+		</div>
+			</div>
+				
+		
+	<div id="primary" class="content-area ">
+		<main id="main" class="site-main" role="main">
+
+		
+						<div class="home-wrapper ">
+			
+				
+<article id="post-828" class="clearfix post-828 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=828" title="第43届ACM-ICPC亚洲区域赛（青岛）终榜" >
+				<img width="820" height="363" src="http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-820x363.png" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-820x363.png 820w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-300x133.png 300w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-768x340.png 768w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/1-1024x453.png 1024w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=828" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）终榜</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=828" rel="bookmark"><time class="entry-date published updated" datetime="2018-11-05T15:44:39+00:00">2018年11月5日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>榜单地址：acm.upc.edu.cn/rank</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-825" class="clearfix post-825 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=825" title="第43届ACM-ICPC亚洲区域赛（青岛）精彩瞬间集锦" >
+				<img width="820" height="461" src="http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-820x461.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-820x461.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-300x169.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-768x432.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2018/11/QQ图片20181104174221-1024x576.jpg 1024w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=825" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）精彩瞬间集锦</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=825" rel="bookmark"><time class="entry-date published updated" datetime="2018-11-04T17:38:31+00:00">2018年11月4日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+								</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-822" class="clearfix post-822 post type-post status-publish format-standard hentry category-uncategorized">
+
+				
+	
+	<div class="post-wrapper ">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=822" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）座位号查询</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=822" rel="bookmark"><time class="entry-date published" datetime="2018-11-03T09:49:06+00:00">2018年11月3日</time><time class="updated" datetime="2018-11-03T12:07:16+00:00">2018年11月3日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>因工作失误，秩序册中的座位号有错误，第43届ACM-ICPC亚洲区域赛（青岛）场地内的座位号以该表格查询的为准</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-811" class="clearfix post-811 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=811" title="第43届ACM-ICPC亚洲区域赛（青岛）参赛队员及教练信息核对" >
+				<img width="800" height="477" src="http://acm.upc.edu.cn/wp-content/uploads/2017/10/daf41176-f5cc-49aa-95a9-08a25a66f1f6-3.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2017/10/daf41176-f5cc-49aa-95a9-08a25a66f1f6-3.jpg 800w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/daf41176-f5cc-49aa-95a9-08a25a66f1f6-3-300x179.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/daf41176-f5cc-49aa-95a9-08a25a66f1f6-3-768x458.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=811" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）参赛队员及教练信息核对</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=811" rel="bookmark"><time class="entry-date published" datetime="2018-11-01T11:33:34+00:00">2018年11月1日</time><time class="updated" datetime="2018-11-01T16:39:57+00:00">2018年11月1日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>请所有参赛队抓紧核对参赛队员及教练信息，如有错误，及时acmcup@gmail.com告知。</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-806" class="clearfix post-806 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=806" title="第43届ACM-ICPC亚洲区域赛（青岛）快速报到信息查询" >
+				<img width="820" height="391" src="http://acm.upc.edu.cn/wp-content/uploads/2017/11/5-820x391.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2017/11/5-820x391.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2017/11/5-300x143.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2017/11/5-768x366.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2017/11/5.jpg 1003w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=806" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）快速报到信息查询</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=806" rel="bookmark"><time class="entry-date published" datetime="2018-10-31T16:20:47+00:00">2018年10月31日</time><time class="updated" datetime="2018-10-31T16:28:25+00:00">2018年10月31日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>为了方便各参赛学校快速报到，领取参赛资料和发票，请查询自己学校的序号，报到时可以凭学校编号快速领取参赛资料和发 [&hellip;]</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-803" class="clearfix post-803 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=803" title="第43届ACM-ICPC亚洲区域赛（青岛）志愿者信息" >
+				<img width="820" height="461" src="http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-820x461.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-820x461.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-300x169.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-768x432.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/王雨欣摄影-1024x576.jpg 1024w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=803" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）志愿者信息</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=803" rel="bookmark"><time class="entry-date published" datetime="2018-10-31T14:54:17+00:00">2018年10月31日</time><time class="updated" datetime="2018-10-31T14:54:32+00:00">2018年10月31日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>各参赛高校，比赛期间，如有问题，可以联系以下志愿者： 姓名 电话 QQ 微信 邮箱 张志远 170762661 [&hellip;]</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-796" class="clearfix post-796 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=796" title="第43届ACM-ICPC亚洲区域赛（青岛）参赛手册" >
+				<img width="820" height="288" src="http://acm.upc.edu.cn/wp-content/uploads/2018/10/1-820x288.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/10/1-820x288.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/1-300x105.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/1-768x269.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/1-1024x359.jpg 1024w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=796" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）参赛手册</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=796" rel="bookmark"><time class="entry-date published" datetime="2018-10-31T14:15:54+00:00">2018年10月31日</time><time class="updated" datetime="2018-10-31T14:45:19+00:00">2018年10月31日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>2018年11月3-4日第43届ACM国际大学生程序设计竞赛亚洲区域赛（青岛）将在中国石油大学举行，届时共有来 [&hellip;]</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-794" class="clearfix post-794 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=794" title="第43届ACM-ICPC亚洲区域赛（青岛）开通WIFI信息收集" >
+				<img width="820" height="460" src="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1-820x460.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1-820x460.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1-300x168.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1-768x431.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1-1024x575.jpg 1024w, http://acm.upc.edu.cn/wp-content/uploads/2017/10/cropped-daf41176-f5cc-49aa-95a9-08a25a66f1f6-1.jpg 1366w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=794" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）开通WIFI信息收集</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=794" rel="bookmark"><time class="entry-date published updated" datetime="2018-10-28T09:39:48+00:00">2018年10月28日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>为了方便各位带队老师在青岛现场赛期间使用中国石油大学（华东）无线网络，现收集带队老师信息，请需要的抓紧填写。开 [&hellip;]</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-789" class="clearfix post-789 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=789" title="第43届ACM-ICPC亚洲区域赛（青岛）参赛队伍" >
+				<img width="375" height="298" src="http://acm.upc.edu.cn/wp-content/uploads/2018/10/222.png" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/10/222.png 375w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/222-300x238.png 300w" sizes="(max-width: 375px) 100vw, 375px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=789" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）参赛队伍</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=789" rel="bookmark"><time class="entry-date published" datetime="2018-10-25T09:55:14+00:00">2018年10月25日</time><time class="updated" datetime="2018-10-25T09:56:14+00:00">2018年10月25日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+								</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-782" class="clearfix post-782 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="entry-thumb col-md-4">
+			<a href="http://acm.upc.edu.cn/?p=782" title="第43届ACM-ICPC亚洲区域赛（青岛）送站信息采集" >
+				<img width="820" height="461" src="http://acm.upc.edu.cn/wp-content/uploads/2018/10/aaa-820x461.jpg" class="attachment-entry-thumb size-entry-thumb wp-post-image" alt="" srcset="http://acm.upc.edu.cn/wp-content/uploads/2018/10/aaa-820x461.jpg 820w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/aaa-300x169.jpg 300w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/aaa-768x432.jpg 768w, http://acm.upc.edu.cn/wp-content/uploads/2018/10/aaa-1024x576.jpg 1024w" sizes="(max-width: 820px) 100vw, 820px" />			</a>			
+		</div>
+			
+	<div class="post-wrapper col-md-8">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="http://acm.upc.edu.cn/?p=782" rel="bookmark">第43届ACM-ICPC亚洲区域赛（青岛）送站信息采集</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://acm.upc.edu.cn/?p=782" rel="bookmark"><time class="entry-date published" datetime="2018-10-24T14:10:44+00:00">2018年10月24日</time><time class="updated" datetime="2018-10-25T08:25:50+00:00">2018年10月25日</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://acm.upc.edu.cn/?author=1">upctanker</a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>        为了能在比赛结束之后，方便快速帮助参赛学校到达火车站（含青岛北站）及机场，组委会现采集各校20 [&hellip;]</p>
+					</div><!-- .entry-content -->
+
+				<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+			</div>
+</article><!-- #post-## -->
+
+						</div>
+
+					<nav class="navigation paging-navigation clearfix" role="navigation">
+			<h1 class="screen-reader-text">Posts navigation</h1>
+			<div class="nav-links">
+
+									<div class="nav-previous button"><a href="http://acm.upc.edu.cn/?paged=2" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+				
+				
+			</div><!-- .nav-links -->
+		</nav><!-- .navigation -->
+		
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="text-2" class="widget widget_text"><h3 class="widget-title"><span>联系我们</span></h3>			<div class="textwidget"><p><b>地址：山东省青岛经济技术开发区长江西路66号</b></p>
+<p><strong>Email：acmcup@gmail.com</strong></p>
+</div>
+		</aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title"><span>关于青岛Regional</span></h3>			<div class="textwidget"><p><strong>网络赛时间：2018年9月16日</strong><br />
+<strong>现场赛时间：2018年11月3-4日</strong></p>
+</div>
+		</aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h3 class="widget-title"><span>友情链接</span></h3><div class="textwidget custom-html-widget"><a href="https://icpc.baylor.edu/" target="_blank">ACM-ICPC官网
+</a>
+<br>
+<a href="http://blog.sina.com.cn/cjhwang/" target="_blank">Asia blog：黄金雄教授的博客</a>
+<br><a href="http://www.jetbrains.com/" target="_blank">赞助商JetBrains</a>
+<br><br>
+<br><a href="http://www.jisuanke.com/" target="_blank">钻石赞助商计蒜客</a>
+<br><br>
+<img src="http://acm.upc.edu.cn/wp-content/uploads/2017/11/cropped-sponsor-1.jpg"/>
+<a href="https://www.jisuanke.com/"> <img src="http://acm.upc.edu.cn/wp-content/uploads/jsk.jpg"/></a></div></aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="site-info col-md-6 col-sm-6">
+
+				<a href="http://wordpress.org/" rel="nofollow">
+					Proudly powered by WordPress				</a>
+				<span class="sep"> | </span>
+				Theme: <a href="http://themeisle.com/themes/flymag/" rel="nofollow">FlyMag</a> by Themeisle.			</div><!-- .site-info -->
+					</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tCountAjax = {"ajaxurl":"http:\/\/acm.upc.edu.cn\/wp-admin\/admin-ajax.php","countdownNonce":"d919860773"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/plugins/jquery-t-countdown-widget/js/jquery.t-countdown.js?ver=1.5.10'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/themes/flymag/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-content/plugins/easy-image-gallery/includes/lib/prettyphoto/jquery.prettyPhoto.js?ver=1.2'></script>
+<script type='text/javascript' src='http://acm.upc.edu.cn/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script>
+
+</body>
+</html>

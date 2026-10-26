@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url("hoverex-all.css") screen;
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+	* {
+		margin: 0;
+		padding: 0px;
+	}
+
+body {
+	background: #ffffff;
+	margin: 0;
+	height: 100%;
+	color: #384452;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #384452;
+	margin-top: 10px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #384452;
+}
+a .jumbotron:hover{
+	color: #6082c0;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#6082c0;
+}
+
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+
+.centered {
+	text-align: center
+}
+.btn-acm{
+	color: #fff;
+	background-color: #6082c0;
+	border-color: #6082c0;
+}
+.btn-acm:hover{
+	color: #6082c0;
+	background-color: #fff;
+	border: 1px solid #6082c0;
+}
+/*	################################################################
+	BOOTSTRAP MODIFICATIONS & TWEAKS
+################################################################# */
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+.navbar-default{
+	background-color: #f8f9fa;
+}
+.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #384452;
+}
+
+.navbar-nav ul li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: small;
+    color: #384452;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #384452;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #6082c0;
+	color: #f8f9fa;
+}
+
+.navbar-brand text:hover{
+	color: #6082c0;
+	/*background-color: transparent;*/
+}
+
+/*Drop Down Menu Background Color*/
+.dropdown-menu {
+	background: #f8f9fa;
+}
+.dropdown-item{
+    color: #384452;
+}
+/* Was #384452*/
+.dropdown-item:hover
+{
+    background: #6082c0;
+    color: white;
+}
+
+.dropdown-menu > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.btn-theme {
+  color: #384452 ;
+  background-color: #f8f9fa;
+  margin: 4px;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff;
+  background-color: #6082c0;
+	  border: 1px solid #ffffff;
+}
+.hline {
+	border-bottom: 2px solid #384452;
+}
+
+.hline-w {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: 25px;
+}
+/*	################################################################
+	SITE WRAPS
+################################################################# */
+/* Image Wrap */
+#twrap {
+	background: url(../images/background/2.jpg) no-repeat center top;
+    background-repeat: no-repeat;
+	text-align:center;
+    background-color: #6082c0;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Footer */
+#footerwrap {
+	padding-top: 20px;
+	background: #f8f9fa;
+}
+
+#footerwrap p {
+	color: #384452;
+}
+
+#footerwrap h4 {
+	color: #384452;
+}
+
+#footerwrap i {
+	font-size: 30px;
+	color: #384452;
+	padding-right: 25px;
+}
+
+#footerwrap i:hover {
+	color: #6082c0
+}
+
+#footerwrap a
+{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #384452;
+}
+#footerwrap a:hover,
+#footerwrap a:focus {
+	text-decoration: none;
+	color:#6082c0;
+}
+.centerImage
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 48.6%;
+}
+.bg-acm{
+	background-color: #6082c0;
+}
+
+/**/
+.kabulBackground:not(child){
+    text-align:center;
+    background: #6082c0 url(../images/background/kabul.jpg) no-repeat center top;
+    background-position: center;
+    min-height: 450px;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.textOn{
+    color: white;
+}
+.textOn:hover{
+    color: #6082c0;
+}
+.acm_nav_logo img:hover{
+    width: 60px !important;
+}
+
+.awardIcons{
+	font-size: 60px !important;
+}

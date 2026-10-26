@@ -1,0 +1,739 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://vjudge.net/contest/530536">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function () {
+    try {
+      const storedTheme = localStorage.getItem('theme') || 'auto';
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const effectiveTheme = storedTheme === 'auto'
+          ? (prefersDark ? 'dark' : 'light')
+          : storedTheme;
+      document.documentElement.setAttribute('data-bs-theme', effectiveTheme);
+      document.documentElement.style.setProperty('color-scheme', effectiveTheme);
+    } catch (e) {
+    }
+  })();
+</script>
+
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-374JLX1715"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-374JLX1715', {
+      
+    });
+  </script>
+
+
+
+    <script async src="assets/b36f0d8597ef3f52.js" crossorigin="anonymous"></script>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="keywords" content="Online Judge, vjudge, OJ, Virtual Judge, ICPC, OnlineJudge"/>
+<meta name="robots" content="index, follow"/>
+<link rel="icon" type="image/x-icon" href="assets/94c40896d175340b.ico"/>
+
+    <title>RCPC 2022 Universities - Virtual Judge</title>
+
+    <meta property="og:url" content="https://vjudge.net/contest/530536"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="RCPC 2022 Universities - Virtual Judge"/>
+    <meta property="og:description"
+          content="Contest [RCPC 2022 Universities] in Virtual Judge"/>
+<script defer src="assets/917bf09897f80eac.js"></script><script defer src="assets/f2ecee8ec17be187.js"></script><script defer src="assets/27cb8bbaba0b3587.js"></script><script defer src="assets/845ec0ddb14c7dab.js"></script><script defer src="assets/1206580f3c07ad6f.js"></script><script defer src="assets/004b80e125f855c3.js"></script><script defer src="assets/e01a249d5e0a0d60.js"></script><script defer src="assets/31393e5b63da46ac.js"></script><script defer src="assets/5ade439fb3685856.js"></script><script defer src="assets/ca9201c44dee615f.js"></script><script defer src="assets/f314e618701b0d4d.js"></script><script defer src="assets/211a90d9802a221e.js"></script><script defer src="assets/97e0e1d580d6ce82.js"></script><script defer src="assets/d84e28f92879ab27.js"></script><script defer src="assets/66e3e9758b57ed6f.js"></script><script defer src="assets/52497cdc700b3f7b.js"></script><link href="assets/977639d05c9a3e2d.css" rel="stylesheet"><link href="assets/13703887368b4d2f.css" rel="stylesheet"><link href="assets/d1cd3a5681665087.css" rel="stylesheet"><link href="assets/724f5ccd0aa1ac05.css" rel="stylesheet"><link href="assets/6ecdecdafb8aab08.css" rel="stylesheet"></head>
+
+<body>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://vjudge.net/contest/530536">https://vjudge.net/contest/530536</a> (live fetch 2026-10-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/romania-2022.html">romania-2022</a>  <a href="https://web.archive.org/web/*/https://vjudge.net/contest/530536">wayback</a>  <a href="https://vjudge.net/contest/530536">live</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark prod" id="top-nav">
+    <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand" href="/">
+            <img src="assets/9b127d9a58727a46.ico" height="30"/>
+            <span data-i18n="top.nav.home"></span>
+        </a>
+        <ul class="navbar-nav top-nav-primary">
+            <li class="nav-item" id="nav-problem">
+                <a class="nav-link" href="/problem" data-i18n="top.nav.problem"></a>
+            </li>
+            <li class="nav-item" id="nav-status">
+                <a class="nav-link" href="/status" data-i18n="top.nav.status"></a>
+            </li>
+            <li class="nav-item" id="nav-contest">
+                <a class="nav-link" href="/contest" data-i18n="top.nav.contest"></a>
+            </li>
+            <li class="nav-item" id="nav-workbook">
+                <a class="nav-link" href="/workbook" data-i18n="top.nav.workbook"></a>
+            </li>
+            <li class="nav-item" id="nav-user">
+                <a class="nav-link" href="/user" data-i18n="top.nav.user"></a>
+            </li>
+            <li class="nav-item" id="nav-group">
+                <a class="nav-link" href="/group" data-i18n="top.nav.group"></a>
+            </li>
+            <li class="nav-item" id="nav-article">
+                <a class="nav-link" href="/article" data-i18n="top.nav.article"></a>
+            </li>
+            <li class="nav-item" id="nav-comment">
+                <a class="nav-link" href="/comment" data-i18n="top.nav.forum"></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="helpDropdown" data-bs-toggle="dropdown" data-i18n="top.nav.help"></a>
+                <div class="dropdown-menu dropdown-menu-start">
+                    <a class="dropdown-item" href="/article/2771">
+                        <i class="fa fa-question-circle-o"></i>
+                        <span data-i18n="top.nav.faq"></span>
+                    </a>
+                    <a class="dropdown-item" href="/article/97">
+                        <i class="fa fa-bug"></i>
+                        <span data-i18n="top.nav.bf"></span>
+                    </a>
+                    <a class="dropdown-item" href="/article/96">
+                        <i class="fa fa-lightbulb-o"></i>
+                        <span data-i18n="top.nav.suggestions"></span>
+                    </a>
+                    <a class="dropdown-item" href="javascript:void(0)" id="contact-us">
+                        <i class="fa fa-headphones"></i>
+                        <span data-i18n="top.nav.contact"></span>
+                    </a>
+                </div>
+            </li>
+            
+        </ul>
+        <ul class="navbar-nav top-nav-secondary ms-sm-auto">
+            <li class="nav-item top-nav-theme-item">
+                <a class="nav-link" href="javascript:void(0)" id="switchTheme"></a>
+            </li>
+            <li class="nav-item dropdown top-nav-locale-item">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="switchLocale" data-bs-toggle="dropdown" data-i18n="top.nav.locale"></a>
+                <div class="dropdown-menu dropdown-menu-end switch-locale-dropdown"></div>
+            </li>
+            
+                
+                
+                    <li class="nav-item top-nav-login-item">
+                        <a class="nav-link login" href="javascript:void(0)" data-i18n="top.nav.login"></a>
+                    </li>
+                    <li class="nav-item top-nav-register-item">
+                        <a class="nav-link register" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#registerModal" data-i18n="top.nav.register"></a>
+                    </li>
+                
+            
+        </ul>
+    </div>
+</nav>
+<div id="page-panel-toggle-slot"></div>
+
+
+<div class="container-md" style="margin-top: 30px;">
+    
+        <div class="row alert alert-info" id="contest-announcement" style="display: none;"></div>
+    
+
+    <div class="row card" id="time-info">
+        <div class="row">
+            <div class="col-3 text-start">
+                <b>
+                    <i18n>contest.view.begin</i18n>
+                    :
+                </b>
+                <span class="timestamp">1668931200000</span>
+            </div>
+            <div class="col-6 text-center">
+                <h3>
+                    <i id="btn-favorite"></i>
+                    
+                    
+                    RCPC 2022 Universities
+                </h3>
+            </div>
+            <div class="col-3 text-end">
+                <b>
+                    <i18n>contest.view.end</i18n>
+                    :
+                </b>
+                <span class="timestamp">1668949200000</span>
+            </div>
+        </div>
+        <div class="row" id="contest-time-slider-container">
+            <div id="contest-time"></div>
+        </div>
+        <div class="row">
+            <div class="col-3 text-start" id="info-elapsed">
+                <b>
+                    <i18n>contest.view.elapsed</i18n>
+                    :</b>
+                <span class="elapsed" id="span-elapsed"></span>
+            </div>
+            <div class="col-6 text-center">
+                <span id="info-running"></span>
+                <span id="info-freeze" style="color: grey">
+                    (<i18n>contest.frozen</i18n>)
+                </span>
+            </div>
+            <div class="col-3 text-end" id="info-remaining">
+                <b>
+                    <i18n>contest.view.remaining</i18n>
+                    :</b>
+                <span class="remaining" id="span-remaining"></span>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist" id="contest-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#overview" section="overview" role="tab"
+                       data-i18n="contest.view.overview"></a>
+                </li>
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#problem" section="problem" role="tab" data-i18n="contest.view.problem"></a>
+                    </li>
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#status" section="status" role="tab" data-i18n="contest.view.status"></a>
+                    </li>
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#rank" section="rank" role="tab" data-i18n="contest.view.rank">
+                            <i class='fa fa-refresh fa-spin'></i>
+                        </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#discuss" section="discuss" role="tab"
+                       data-i18n="contest.view.discuss" rel="#discuss" data-disqus-identifier="contest/530536"></a>
+                </li>
+
+                <li class="ms-auto text-end">
+                    <div class="btn-group" role="group">
+                        
+                            <button type="button" class="btn btn-secondary" id="btn-preference" data-i18n="contest.view.preference"></button>
+                        
+                        
+                            <button type="button" class="btn btn-secondary" id="btn-clone" data-i18n="contest.view.clone"></button>
+                        
+                        
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane in active" id="overview" role="tabpanel">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_overview" class="container-fluid px-0">
+    <div class="row contest-overview-layout">
+        <aside class="col-lg-4">
+            <section id="contest-overview-meta-panel" class="contest-overview-panel">
+                <h4 data-i18n="contest.view.metadata"></h4>
+                <div id="contest-meta"></div>
+            </section>
+        </aside>
+        <main class="col-lg-8">
+            <section class="contest-overview-panel contest-overview-description-panel">
+                <div class="contest-overview-panel-actions">
+                    <a href="javascript:void(0)"
+                       id="contest-overview-text-edit-link"
+                       class="contest-overview-text-edit-link">
+                        <i class="fa fa-edit" aria-hidden="true"></i>
+                        <span data-i18n="contest.view.edit_overview_text"></span>
+                    </a>
+                </div>
+                <div id="contest-description" style="display: none"></div>
+                <div id="contest-description-ad" class="contest-description-ad" style="display: none">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-9098591903020457"
+                         data-ad-slot="1011472145"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+
+                </div>
+                
+                    <div class="tab-pane" id="problem" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_problem" class="container-fluid px-0">
+    <div id="contest-problem-list-view">
+        <div class="table-responsive px-0">
+            <table id="contest-problems" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="contest-problem-detail-view">
+    <div class="page-panel-toggle-host d-none">
+        <button type="button"
+                class="btn btn-outline-light page-panel-toggle contest-problem-panels-toggle d-none"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#prob-left-panel"
+                aria-controls="prob-left-panel">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div class="row fixed-left-panel-layout">
+        <div class="offcanvas-md offcanvas-start problem-side-panel-column fixed-left-panel"
+             id="prob-left-panel"
+             tabindex="-1"
+             aria-labelledby="contest-problem-panels-title">
+            <div class="offcanvas-header d-md-none">
+                <h5 class="offcanvas-title" id="contest-problem-panels-title" data-i18n="button.panels"></h5>
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        data-bs-target="#prob-left-panel"
+                        aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body problem-side-panel-body">
+            <ul class="nav nav-pills problem-side-panel-section" id="problem-nav"></ul>
+
+            <div class="alert alert-danger problem-side-panel-alert" role="alert" id="prob-alert" style="display: none"></div>
+
+            <div id="prob-operation" class="problem-side-panel-section">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-outline-primary" id="problem-submit"></button>
+                    </div>
+                </div>
+                
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-secondary" id="btn-contest-status" data-i18n="contest.view.status">Status</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-secondary" id="btn-contest-my-status" data-i18n="contest.view.my_status">My Status</a>
+                        </div>
+                    </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="btn btn-secondary" id="btn-contest-problem-pdf" target="_blank">
+                            <i class="fa fa-file-pdf-o"></i> PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="prob-properties" class="problem-side-panel-section">
+                <dl class="card row"></dl>
+            </div>
+
+            <div id="update-statements-tips"
+                 class="alert alert-info problem-side-panel-section"
+                 style="display: none; font-size: 15px; margin-bottom: 0">
+                <i18n>contest.view.statement_selection_label</i18n>:
+            </div>
+
+            <div id="prob-descriptions" class="problem-side-panel-section">
+                <div class="list-group" id="prob-descs"></div>
+            </div>
+
+            <div class="row" style="margin-top: 20px">
+                <!-- Contest sidebar -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9098591903020457"
+                     data-ad-slot="9577100134"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                  var ad_setter = setInterval(function () {
+                    if (document.getElementById('contest_problem').offsetParent !== null) {
+                      (adsbygoogle = window.adsbygoogle || []).push({});
+                      clearInterval(ad_setter);
+                    }
+                  }, 1000);
+                </script>
+            </div>
+            </div>
+        </div>
+        <div class="fixed-main-panel" id="prob-right-panel">
+            <div class="row">
+                <div id="prob-title-contest">
+                    <h2 id="problem-title"></h2>
+                    <span class="origin">
+                        <a id="problem-origin" href="#" target="_blank"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row" id="frame-description-container"></div>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+                    </div>
+                
+                
+                    <div class="tab-pane" id="status" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_status" class="container-fluid px-0">
+    <div id="right-panel">
+        <input type="button" class="btn btn-secondary btn-md" id="refresh-all" value="Refresh" data-i18n="button.refresh" />
+        <input type="button" class="btn btn-secondary btn-md" id="reset" data-i18n="button.reset" />
+        <input type="button" class="btn btn-secondary btn-md" id="filter" data-i18n="button.filter" />
+        <div class="table-responsive px-0">
+            <table id="listStatus" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th class="run-id d-none d-xl-table-cell">ID</th>
+                    <th class="username">
+                        <i18n>status.list.username</i18n><br/>
+                        <input type="text" id="un" name="un" class="search_text"/>
+                    </th>
+                    <th class="num">
+                        <i18n>status.list.prob</i18n><br/>
+                        <select id="contest-status-num" name="num" class="form-select">
+                            <option value="" data-i18n="all"></option>
+                        </select>
+                    </th>
+                    <th class="status">
+                        <i18n>status.list.result</i18n><br/>
+                        <select id="res" name="res" class="form-select">
+                            <option value="all" data-i18n="all"></option>
+                            <option value="AC" data-i18n="status.result.accepted"></option>
+                            <option value="PE" data-i18n="status.result.presentation_error"></option>
+                            <option value="WA" data-i18n="status.result.wrong_answer"></option>
+                            <option value="TLE" data-i18n="status.result.time_limit_exceeded"></option>
+                            <option value="MLE" data-i18n="status.result.memory_limit_exceeded"></option>
+                            <option value="OLE" data-i18n="status.result.output_limit_exceeded"></option>
+                            <option value="RE" data-i18n="status.result.runtime_error"></option>
+                            <option value="CE" data-i18n="status.result.compile_error"></option>
+                            <option value="JUDGE_FAILED" data-i18n="status.result.judge_failed"></option>
+                            <option value="SUBMIT_FAILED_PERM" data-i18n="status.result.unknown_error"></option>
+                            <option value="SUBMIT_FAILED_TEMP" data-i18n="status.result.submit_failed"></option>
+                            <option value="PENDING" data-i18n="status.result.queuing_and_judging"></option>
+                        </select>
+                    </th>
+                    <th class="runtime">
+                        <i18n>status.list.time</i18n><br>(ms)
+                    </th>
+                    <th class="memory">
+                        <i18n>status.list.mem</i18n><br>(MB)
+                    </th>
+                    <th class="length d-none d-xl-table-cell">
+                        <i18n>status.list.length</i18n>
+                    </th>
+                    <th class="language">
+                        <i18n>status.list.lang</i18n><br/>
+                        <select name="language" id="language" class="form-select">
+                            <option value="" data-i18n="all"></option>
+                            
+                                <option value="C">C</option>
+                            
+                                <option value="CPP">C++</option>
+                            
+                                <option value="CSHARP">C#</option>
+                            
+                                <option value="D">D</option>
+                            
+                                <option value="GO">Go</option>
+                            
+                                <option value="HASKELL">Haskell</option>
+                            
+                                <option value="JAVA">Java</option>
+                            
+                                <option value="JAVASCRIPT">JavaScript</option>
+                            
+                                <option value="KOTLIN">Kotlin</option>
+                            
+                                <option value="LUA">Lua</option>
+                            
+                                <option value="OBJECTIVE_C">Objective-C</option>
+                            
+                                <option value="PASCAL">Pascal</option>
+                            
+                                <option value="PERL">Perl</option>
+                            
+                                <option value="PHP">PHP</option>
+                            
+                                <option value="PYTHON">Python</option>
+                            
+                                <option value="RUBY">Ruby</option>
+                            
+                                <option value="RUST">Rust</option>
+                            
+                                <option value="SCALA">Scala</option>
+                            
+                                <option value="SWIFT">Swift</option>
+                            
+                                <option value="OTHER">Other</option>
+                            
+                        </select>
+                    </th>
+                    <th class="date">
+                        <i18n>status.list.submit_time</i18n>
+                    </th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                    </div>
+                
+                
+                    <div class="tab-pane" id="rank" role="tabpanel">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_rank">
+    <div class="table-responsive contest-rank-table-scroll" id="contest-rank-table-scroll">
+        <table id="contest-rank-table" cellspacing="1"></table>
+    </div>
+    <div class="contest-rank-sticky-head" id="contest-rank-sticky-head"></div>
+    <table id="contest-rank-table-export"></table>
+
+    <div class="rank_tool">
+        <i class="fa fa-line-chart fa-3x" id="img_time_chart" title="Time chart"></i>
+    </div>
+
+    <!-- Team info modal -->
+    <div class="modal fade" id="teamInfoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="rank-time-chart-layout">
+                        <div class="rank-time-chart-sidebar">
+                            <table class="table table-striped contest-info"></table>
+                            <div id="rank-time-chart-tooltip" class="rank-time-chart-tooltip-panel"></div>
+                        </div>
+                        <div id="rank-time-chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+                    </div>
+                
+                <div class="tab-pane" id="discuss" role="tabpanel">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contest_discuss"></div>
+
+                </div>
+            </div>
+
+        </div>
+    
+
+    
+
+</div>
+
+<textarea style="display: none" name="dataJson">{"id":530536,"title":"RCPC 2022 Universities","type":0,"openness":1,"authStatus":1,"begin":1668931200000,"end":1668949200000,"freezeTime":1668949200000,"unfreezeTime":1668949200000,"enableFreeze":false,"createTime":1668765370000,"version":"8dc","started":true,"ended":true,"managerId":578663,"managerName":"rcpcadmin","groupOwned":false,"fav":false,"description":{"format":"MD","content":""},"announcement":"Please follow the online SEERC 2022 rules : http://acm.ro/rules.html.\nEach team member can use its own computer and members can code simultaneously.\n\nPlease put the nickname of vjudge account as: Institution initials. (e.g. UB, UTI, UCV, UAIC, UPB, UBB, UVT, UPT), so we can easily import the ranking on icpc.global.\n\nMore info on how to configure your vjudge account here:\nhttps://drive.google.com/file/d/1oC4FEwkugdwZJ1Z_PKiF_PvPo3EvcN6A/view?usp\u003dsharing","problems":[{"pid":1081919,"title":"A","oj":"Kattis","probNum":"birds","num":"A","enabledDescKeys":[384351367787082],"descBriefs":[{"key":384351367787082,"updateDate":"2022-11-19","version":1668872943000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Rocks"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/KTH%20Challenge%202012\"\u003eKTH Challenge 2012\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Emma%20Enstr%C3%B6m\"\u003eEmma Enström\u003c/a\u003e\n\u003ca href\u003d\"https://open.kattis.com/problem-authors/Luk%C3%A1%C5%A1%20Pol%C3%A1%C4%8Dek\"\u003eLukáš Poláček\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"Python 3":"Python 3","Python 2":"Python 2","Go":"Go","Common Lisp":"Common Lisp","Erlang":"Erlang","Fortran":"Fortran","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Pascal":"Pascal","F#":"F#","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","Octave":"Octave","Perl":"Perl","Simula 67":"Simula 67","Algol 68":"Algol 68","Swift":"Swift","Icon":"Icon","Gerbil":"Gerbil","Elixir":"Elixir","Algol 60":"Algol 60","Crystal":"Crystal","Dart":"Dart","C#":"C#","C":"C","D":"D","Fortran 77":"Fortran 77","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","TypeScript":"TypeScript","Forth":"Forth","PL/I":"PL/I","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Ruby":"Ruby","BQN":"BQN","Java":"Java","BCPL":"BCPL","C++":"C++","COBOL":"COBOL","Prolog":"Prolog","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Zig":"Zig","Modula-2":"Modula-2","APL":"APL","Ada":"Ada","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":4075527,"title":"B","oj":"Kattis","probNum":"binaryvoting","num":"B","enabledDescKeys":[384320472084782],"descBriefs":[{"key":384320472084782,"updateDate":"2022-11-20","version":1668905879000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-20)"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Calgary%20Collegiate%20Programming%20Contest%202020\"\u003eCalgary Collegiate Programming Contest 2020\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca class\u003d\"whitespace-nowrap\" href\u003d\"https://open.kattis.com/problem-authors/Dante%20Bencivenga\"\u003eDante Bencivenga\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\n                            \u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab?28\"\u003e\n                        \u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"Classic BASIC":"Classic BASIC","Python 3":"Python 3","Python 2":"Python 2","Go":"Go","Common Lisp":"Common Lisp","Erlang":"Erlang","Fortran":"Fortran","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Pascal":"Pascal","F#":"F#","Clojure":"Clojure","JavaScript (Node.js)":"JavaScript (Node.js)","Lean":"Lean","Rust":"Rust","Octave":"Octave","Perl":"Perl","Simula 67":"Simula 67","Algol 68":"Algol 68","Swift":"Swift","Icon":"Icon","Gerbil":"Gerbil","Elixir":"Elixir","Algol 60":"Algol 60","Crystal":"Crystal","Dart":"Dart","C#":"C#","C":"C","D":"D","Standard ML":"Standard ML","Fortran 77":"Fortran 77","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","TypeScript":"TypeScript","Forth":"Forth","PL/I":"PL/I","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Ruby":"Ruby","BQN":"BQN","Raku":"Raku","Java":"Java","BCPL":"BCPL","C++":"C++","COBOL":"COBOL","Uiua":"Uiua","Prolog":"Prolog","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Zig":"Zig","Modula-2":"Modula-2","APL":"APL","Ada":"Ada","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":3566987,"title":"C","oj":"Kattis","probNum":"growingupishardtodo","num":"C","enabledDescKeys":[384376992323773],"descBriefs":[{"key":384376992323773,"updateDate":"2022-11-20","version":1668890327000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-17)"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/NUS%20Competitive%20Programming\"\u003eNUS Competitive Programming\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Nguyen%20Dinh%20Quang%20Minh\"\u003eNguyen Dinh Quang Minh\u003c/a\u003e\n\u003ca href\u003d\"https://open.kattis.com/problem-authors/Robin%20Christopher%20Yu\"\u003eRobin Christopher Yu\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":1125952,"title":"D","oj":"Kattis","probNum":"fractaltree","num":"D","enabledDescKeys":[384375795722914],"descBriefs":[{"key":384375795722914,"updateDate":"2022-11-20","version":1668944331000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-18)"}],"properties":[{"title":"time_limit","content":"5000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/Nordic%20Collegiate%20Programming%20Contest%20%28NCPC%29%202017\"\u003eNordic Collegiate Programming Contest (NCPC) 2017\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca class\u003d\"whitespace-nowrap\" href\u003d\"https://open.kattis.com/problem-authors/Johan%20Sannemo\"\u003eJohan Sannemo\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\n                            \u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab?45\"\u003e\n                    \u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"Classic BASIC":"Classic BASIC","Python 3":"Python 3","Python 2":"Python 2","Go":"Go","Common Lisp":"Common Lisp","Erlang":"Erlang","Fortran":"Fortran","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Pascal":"Pascal","F#":"F#","Clojure":"Clojure","JavaScript (Node.js)":"JavaScript (Node.js)","Lean":"Lean","Rust":"Rust","Octave":"Octave","Perl":"Perl","Simula 67":"Simula 67","Algol 68":"Algol 68","Swift":"Swift","Icon":"Icon","Gerbil":"Gerbil","Elixir":"Elixir","Algol 60":"Algol 60","Crystal":"Crystal","Dart":"Dart","C#":"C#","C":"C","D":"D","Standard ML":"Standard ML","Fortran 77":"Fortran 77","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","TypeScript":"TypeScript","Forth":"Forth","PL/I":"PL/I","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Ruby":"Ruby","BQN":"BQN","Raku":"Raku","Java":"Java","BCPL":"BCPL","C++":"C++","COBOL":"COBOL","Scala":"Scala","Uiua":"Uiua","Prolog":"Prolog","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Zig":"Zig","Modula-2":"Modula-2","APL":"APL","Ada":"Ada","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":254404,"title":"E","oj":"CodeForces","probNum":"584C","num":"E","enabledDescKeys":[384351933104811],"descBriefs":[{"key":384351933104811,"updateDate":"2022-11-19","version":1668796659000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"StringDistance"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"262144 kB","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://codeforces.com/contest/584\"\u003eCodeforces Round 324 (Div. 2)\u003c/a\u003e","spoiler":true},{"title":"tags","content":"\n    constructive algorithms\n\n\n    greedy\n\n\n    strings\n\n\n    \n","spoiler":true},{"title":"difficulty","content":"1700","spoiler":true},{"title":"editorial","content":"\u003ca href\u003d\"https://codeforces.com/blog/entry/20766\" title\u003d\"Tutorial\" target\u003d\"_blank\"\u003eTutorial \u003cspan class\u003d\"resource-locale\"\u003e(en)\u003c/span\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":269804,"title":"F","oj":"Gym","probNum":"100800J","num":"F","enabledDescKeys":[384376141252700],"descBriefs":[{"key":384376141252700,"updateDate":"2022-11-20","version":1668892254000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-20)"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"524288 kB","spoiler":false},{"title":"os","content":"Windows","spoiler":false},{"title":"statement","content":" \u003ca href\u003d\u0027CDN_BASE_URL/0018eab15d3b35a273bfc492c89e3703?49\u0027 target\u003d\u0027_blank\u0027\u003ePDF\u003c/a\u003e","spoiler":false},{"title":"source","content":"\u003ca href\u003d\u0027https://codeforces.com/gym/100800\u0027 target\u003d\u0027_blank\u0027\u003e2015 United Kingdom and Ireland Programming Contest (UKIEPC 2015)\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":510014,"title":"G","oj":"Gym","probNum":"101081H","num":"G","enabledDescKeys":[384377127522008],"descBriefs":[{"key":384377127522008,"updateDate":"2022-11-20","version":1668890189000,"author":"Juve45","authorKey":"user:119881","authorUserId":119881,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/dd6800ad1c690b2fce31e3befb23daf9?d\u003didenticon","remarks":"Forked from System Crawler\u0027s version (2022-11-20)"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"262144 kB","spoiler":false},{"title":"os","content":"Windows","spoiler":false},{"title":"source","content":"\u003ca href\u003d\u0027https://codeforces.com/gym/101081\u0027 target\u003d\u0027_blank\u0027\u003e2011 USP Try-outs\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":509261,"title":"H","oj":"Gym","probNum":"101081A","num":"H","enabledDescKeys":[384376515391262],"descBriefs":[{"key":384376515391262,"updateDate":"2022-11-20","version":1668891678000,"author":"Juve45","authorKey":"user:119881","authorUserId":119881,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/dd6800ad1c690b2fce31e3befb23daf9?d\u003didenticon","remarks":"Forked from System Crawler\u0027s version (2022-11-20)"}],"properties":[{"title":"time_limit","content":"2500 ms","spoiler":false},{"title":"mem_limit","content":"262144 kB","spoiler":false},{"title":"os","content":"Windows","spoiler":false},{"title":"source","content":"\u003ca href\u003d\u0027https://codeforces.com/gym/101081\u0027 target\u003d\u0027_blank\u0027\u003e2011 USP Try-outs\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":1948901,"title":"I","oj":"Gym","probNum":"101933D","num":"I","enabledDescKeys":[384374927858241],"descBriefs":[{"key":384374927858241,"updateDate":"2022-11-20","version":1668937057000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-15)"}],"properties":[{"title":"time_limit","content":"4000 ms","spoiler":false},{"title":"mem_limit","content":"786432 kB","spoiler":false},{"title":"os","content":"Windows","spoiler":false},{"title":"statement","content":"\u003ca href\u003d\"CDN_BASE_URL/0a67f48128c3701481dc32a9e3d0b443?41\" title\u003d\"statements.pdf\" target\u003d\"_blank\"\u003eStatements \u003cspan class\u003d\"resource-locale\"\u003e(en)\u003c/span\u003e\u003c/a\u003e","spoiler":false},{"title":"source","content":"\u003ca href\u003d\u0027https://codeforces.com/gym/101933\u0027 target\u003d\u0027_blank\u0027\u003e2018-2019 ACM-ICPC Nordic Collegiate Programming Contest (NCPC 2018)\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":51543,"title":"J","oj":"CodeForces","probNum":"436F","num":"J","enabledDescKeys":[384321682335561],"descBriefs":[{"key":384321682335561,"updateDate":"2022-11-20","version":1668905138000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-20)"}],"properties":[{"title":"time_limit","content":"5000 ms","spoiler":false},{"title":"mem_limit","content":"524288 kB","spoiler":false},{"title":"input_file","content":"\u003cspan style\u003d\u0027color:var(--color-danger)\u0027\u003e stdin\u003c/span\u003e","spoiler":false},{"title":"output_file","content":"\u003cspan style\u003d\u0027color:var(--color-danger)\u0027\u003e stdout\u003c/span\u003e","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://codeforces.com/contest/436\"\u003eZepto Code Rush 2014\u003c/a\u003e","spoiler":true},{"title":"tags","content":"\n    brute force\n\n\n    data structures\n\n\n    dp\n\n\n    \n","spoiler":true},{"title":"difficulty","content":"3000","spoiler":true},{"title":"editorial","content":"\u003ca href\u003d\"https://codeforces.com/blog/entry/12680\" title\u003d\"Zepto Code Rush 2014 — solutions A-D\" target\u003d\"_blank\"\u003eTutorial\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":4074041,"title":"K","oj":"Gym","probNum":"103993E","num":"K","enabledDescKeys":[384319621014221],"descBriefs":[{"key":384319621014221,"updateDate":"2022-11-20","version":1668906419000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-15)"}],"properties":[{"title":"time_limit","content":"2000 ms","spoiler":false},{"title":"mem_limit","content":"262144 kB","spoiler":false},{"title":"os","content":"Windows","spoiler":false},{"title":"source","content":"\u003ca href\u003d\u0027https://codeforces.com/gym/103993\u0027 target\u003d\u0027_blank\u0027\u003eICPC 2022-2023 NERC (NEERC), Southern and Volga Russia Qualifier\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","96":"C# 13, .NET SDK 9","97":"F# 9, .NET SDK 9","31":"Python 3.13.2","75":"Rust 1.89.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","98":"Rust 1.89.0 (2024)","99":"Kotlin 2.2.0","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]},{"pid":1111317,"title":"L","oj":"Kattis","probNum":"fenceortho","num":"L","enabledDescKeys":[384377349684863],"descBriefs":[{"key":384377349684863,"updateDate":"2022-11-20","version":1668888648000,"author":"llalexandru","authorKey":"user:163816","authorUserId":163816,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/52a7c5824eb064ecb42f4f7be61e048d?d\u003drobohash","remarks":"Ink Dots"}],"properties":[{"title":"time_limit","content":"6000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/CTU%20Open%202013\"\u003eCTU Open 2013\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"Classic BASIC":"Classic BASIC","Python 3":"Python 3","Python 2":"Python 2","Go":"Go","Common Lisp":"Common Lisp","Erlang":"Erlang","Fortran":"Fortran","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Pascal":"Pascal","F#":"F#","Clojure":"Clojure","JavaScript (Node.js)":"JavaScript (Node.js)","Lean":"Lean","Rust":"Rust","Octave":"Octave","Perl":"Perl","Simula 67":"Simula 67","Algol 68":"Algol 68","Swift":"Swift","Icon":"Icon","Gerbil":"Gerbil","Elixir":"Elixir","Algol 60":"Algol 60","Crystal":"Crystal","Dart":"Dart","C#":"C#","C":"C","D":"D","Standard ML":"Standard ML","Fortran 77":"Fortran 77","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","TypeScript":"TypeScript","Forth":"Forth","PL/I":"PL/I","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Ruby":"Ruby","BQN":"BQN","Raku":"Raku","Java":"Java","BCPL":"BCPL","C++":"C++","COBOL":"COBOL","Uiua":"Uiua","Prolog":"Prolog","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Zig":"Zig","Modula-2":"Modula-2","APL":"APL","Ada":"Ada","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":650671,"title":"M","oj":"Kattis","probNum":"inversefactorial","num":"M","enabledDescKeys":[384376378882307],"descBriefs":[{"key":384376378882307,"updateDate":"2022-11-20","version":1668890969000,"author":"llalexandru","authorKey":"user:163816","authorUserId":163816,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/52a7c5824eb064ecb42f4f7be61e048d?d\u003drobohash","remarks":"Number Decoder"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"1048576 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/2016%20ICPC%20North%20American%20Qualifier%20Contest\"\u003e2016 ICPC North American Qualifier Contest\u003c/a\u003e","spoiler":true},{"title":"author","content":"\u003ca href\u003d\"https://open.kattis.com/problem-authors/Marko%20Berezovsky\"\u003eMarko Berezovsky\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"C#":"C#","Python 3":"Python 3","Python 2":"Python 2","C":"C","D":"D","Go":"Go","Common Lisp":"Common Lisp","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","Erlang":"Erlang","Fortran":"Fortran","TypeScript":"TypeScript","Forth":"Forth","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Pascal":"Pascal","F#":"F#","Ruby":"Ruby","Java":"Java","C++":"C++","JavaScript (Node.js)":"JavaScript (Node.js)","Rust":"Rust","COBOL":"COBOL","Octave":"Octave","Prolog":"Prolog","Perl":"Perl","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Simula 67":"Simula 67","Algol 68":"Algol 68","Zig":"Zig","Swift":"Swift","Modula-2":"Modula-2","APL":"APL","Elixir":"Elixir","Ada":"Ada","Crystal":"Crystal","Dart":"Dart","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":1253904,"title":"N","oj":"Kattis","probNum":"arrangingwine","num":"N","enabledDescKeys":[384321191753642],"descBriefs":[{"key":384321191753642,"updateDate":"2022-11-20","version":1668903772000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-14)"}],"properties":[{"title":"time_limit","content":"1000 ms","spoiler":false},{"title":"mem_limit","content":"524288 kB","spoiler":false},{"title":"os","content":"Linux","spoiler":false},{"title":"source","content":"\u003ca href\u003d\"https://open.kattis.com/problem-sources/The%202017%20ACM%20-%20ICPC%20Asia%20Ho%20Chi%20Minh%20City%20Regional%20Contest\"\u003eThe 2017 ACM - ICPC Asia Ho Chi Minh City Regional Contest\u003c/a\u003e","spoiler":true},{"title":"license","content":"\u003ca rel\u003d\"license\" href\u003d\"https://creativecommons.org/licenses/by-sa/3.0/\" style\u003d\"vertical-align: middle;\"\u003e\u003cimg class\u003d\"problem-license\" alt\u003d\"Creative Commons License (cc by-sa)\" src\u003d\"CDN_BASE_URL/9f210cdd030c90615fab37b8125d28ab?31\"\u003e\u003c/a\u003e","spoiler":true}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"Classic BASIC":"Classic BASIC","Python 3":"Python 3","Python 2":"Python 2","Go":"Go","Common Lisp":"Common Lisp","Erlang":"Erlang","Fortran":"Fortran","Racket":"Racket","OCaml":"OCaml","Haskell":"Haskell","Pascal":"Pascal","F#":"F#","Clojure":"Clojure","JavaScript (Node.js)":"JavaScript (Node.js)","Lean":"Lean","Rust":"Rust","Octave":"Octave","Perl":"Perl","Simula 67":"Simula 67","Algol 68":"Algol 68","Swift":"Swift","Icon":"Icon","Gerbil":"Gerbil","Elixir":"Elixir","Algol 60":"Algol 60","Crystal":"Crystal","Dart":"Dart","C#":"C#","C":"C","D":"D","Standard ML":"Standard ML","Fortran 77":"Fortran 77","JavaScript (SpiderMonkey)":"JavaScript (SpiderMonkey)","TypeScript":"TypeScript","Forth":"Forth","PL/I":"PL/I","Smalltalk":"Smalltalk","Visual Basic":"Visual Basic","Lua":"Lua","Objective-C":"Objective-C","PHP":"PHP","SNOBOL":"SNOBOL","Ruby":"Ruby","BQN":"BQN","Raku":"Raku","Java":"Java","BCPL":"BCPL","C++":"C++","COBOL":"COBOL","Uiua":"Uiua","Prolog":"Prolog","Bash":"Bash","Kotlin":"Kotlin","Julia":"Julia","Nim":"Nim","Zig":"Zig","Modula-2":"Modula-2","APL":"APL","Ada":"Ada","Odin":"Odin"},"submitMethods":[false,true,false]},{"pid":13909,"title":"O","oj":"SGU","probNum":"495","num":"O","enabledDescKeys":[384321817515364],"descBriefs":[{"key":384321817515364,"updateDate":"2022-11-20","version":1668937418000,"author":"rcpcadmin","authorKey":"user:578663","authorUserId":578663,"type":"user","lang":"en","langDisplay":"English","official":false,"mainOfficial":false,"publicVisible":true,"avatarUrl":"https://cn.cravatar.com/avatar/7a5c60026d3de55220fcbb78bad10737?d\u003dwavatar","remarks":"Forked from System Crawler\u0027s version (2022-11-14)"}],"properties":[{"title":"time_limit","content":"250 ms","spoiler":false},{"title":"mem_limit","content":"262144 kB","spoiler":false}],"weight":1,"submitTips":"contest.view.problem_submit_tip.out_of_contest_ancient","languages":{"88":"Kotlin 1.9.21","89":"GNU G++20 13.2 (64 bit, winlibs)","67":"Ruby 3.2.2","28":"D DMD32 v2.105.0","91":"GNU G++23 14.2 (64 bit, msys2)","70":"PyPy 3.10 (7.3.15, 64bit)","51":"PascalABC.NET 3.8.3","31":"Python 3.13.2","75":"Rust 1.75.0 (2021)","54":"GNU G++17 7.3.0","32":"Go 1.22.2","55":"Node.js 15.8.0 (64bit)","12":"Haskell GHC 8.10.1","34":"JavaScript V8 4.8.0","79":"C# 10, .NET SDK 6.0","13":"Perl 5.20.1","36":"Java 8 32bit","19":"OCaml 4.02.1","3":"Delphi 7","4":"Free Pascal 3.2.2","6":"PHP 8.1.7","7":"Python 2.7.18","9":"C# Mono 6.8","83":"Kotlin 1.7.20","40":"PyPy 2.7.13 (7.3.0)","41":"PyPy 3.6.9 (7.3.0)","20":"Scala 2.12.8","43":"GNU GCC C11 5.1.0","65":"C# 8, .NET Core 3.1","87":"Java 21 64bit"},"submitMethods":[false,true,true]}],"problemsHash":"8dc0f1bba506ffd6b7d555dfa8971bd4","privatePeerContestIds":[],"enableTimeMachine":false,"sumTime":true,"penalty":1200,"partialScore":false,"oneShot":false,"customizedWeight":false,"showPeers":false,"originVisible":true,"participantMode":0,"excludedFromRank":false,"participation":{"enabled":false,"canChange":false,"options":[]},"clonedFromId":0}</textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="body-footer">
+    <div style="margin-bottom: 8px">
+        <a href="/cdn-cgi/l/email-protection#7a1309540f143a0b0b54191517" target="_blank">
+            <img src="assets/e359bd6dc1d14bf7.svg"/>
+        </a>
+        <img src="/static/bundle/fdbb90aaddd32a5ab4ad.png" class="qq" data-bs-toggle="popover" data-bs-placement="top"/>
+        <a href="https://weibo.com/u/5340553087" target="_blank">
+            <img src="/static/bundle/aae271671b3d18e15b40.svg"/>
+        </a>
+        <a href="https://space.bilibili.com/3056509/lists/3909505" target="_blank">
+            <img src="/static/bundle/ad1d62977bf56d0e0010.png"/>
+        </a>
+        <a href="https://t.me/joinchat/Erw7nRGwXN3iSCoKguVW3w" target="_blank">
+            <img src="/static/bundle/7182da66feaf3e99632a.svg"/>
+        </a>
+        <a href="https://www.facebook.com/virtualjudge/" target="_blank">
+            <img src="/static/bundle/c2687d1cf1f3e06984eb.svg"/>
+        </a>
+    </div>
+    <div id="footer-info">
+        All Copyright Reserved © 2010-2026<br/>
+        <span data-i18n="bottom.server_time"></span>: <span class="currentTimeTZ"></span>
+    </div>
+</div>
+
+
+<input name="systemVersion" type="hidden" value="1792777914106"/>
+<input name="gaId" type="hidden" value="G-374JLX1715"/>
+
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">basePath = "";</script>
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"cbda702c6a634090aafa4717574879a5","r":1,"spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4f2fc838ad2f06a',t:'MTc5Mjc4MjA0NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

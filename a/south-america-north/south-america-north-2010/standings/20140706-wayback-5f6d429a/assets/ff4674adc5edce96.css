@@ -1,0 +1,43 @@
+/* NEWS - general */
+DIV.tx-mininews-pi1 P {
+  font-family : Verdana, Arial;
+  font-size: 11px;
+  margin: 0 0 0 0;
+}
+
+/* NEWS - Front-page news */
+DIV.tx-mininews-pi1-fp_listrow P.tx-mininews-pi1-fp_listrowField-datetime {
+  font-size: 10px;
+  background-color: #AFB85B;
+}
+DIV.tx-mininews-pi1-fp_listrow P.tx-mininews-pi1-fp_listrowField-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* NEWS - Archive news */
+DIV.tx-mininews-pi1-listrow P.tx-mininews-pi1-listrowField-datetime {
+  font-size: 10px;
+  background-color: #AFB85B;
+}
+DIV.tx-mininews-pi1-listrow P.tx-mininews-pi1-listrowField-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+DIV.tx-mininews-pi1-listrow P.tx-mininews-pi1-listrowField-title A {
+  color: navy;
+}
+
+/* NEWS - details */
+DIV.tx-mininews-pi1 {
+  font-family : Verdana, Arial;
+  font-size: 11px;
+}
+DIV.tx-mininews-pi1 H2 {
+  font-family : Verdana, Arial;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: navy;
+}
+.tx-mininews-pi1 .tx-mininews-pi1-singleView P.tx-mininews-pi1-singleViewField-datetime {  }
