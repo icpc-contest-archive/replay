@@ -1,0 +1,540 @@
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/shang/shanprob98.htm">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Problem   A</TITLE>
+</HEAD>
+<BODY>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/shang/shanprob98.htm">http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/shang/shanprob98.ht (2009-07-14 00:46)</a> (Wayback snapshot 2009-07-14 00:46; fetched 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/shanghai-1998.html">shanghai-1998</a>  <a href="https://web.archive.org/web/20090714004633/http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/shang/shanprob98.htm">wayback</a>  <a href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/shang/shanprob98.htm">live</a></div>
+
+
+<B><FONT SIZE=5><P ALIGN="CENTER"></P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest</P>
+</FONT><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Arial" SIZE=5><P ALIGN="CENTER">Sponsored by IBM</P>
+<P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">Asia Regional Contest/Shanghai</P>
+</FONT><FONT SIZE=5><P ALIGN="CENTER"></P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">Shanghai University, Shanghai</P>
+<P ALIGN="CENTER"></P>
+<P ALIGN="CENTER">November 28, 1998</P>
+</FONT><FONT SIZE=5><P ALIGN="CENTER"></P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=5><P ALIGN="CENTER">This problem set should contain eight (8) problems on seventeen (17) numbered pages.  Please inform a runner immediately if something is missing from your problem set.</P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+</B></FONT><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM A</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Card Shuffling</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: shuffle.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Suppose we have 2<I>n</I> cards numbered 1, 2, , <I>n</I>, <I>n</I>+1, , 2<I>n</I>, and this is also its original sequence. One card shuffle is the process of making the original sequence become <I>n</I>+1, 1, <I>n</I>+2, 2, , 2<I>n</I>, <I>n</I>. That is to put the first <I>n</I> cards to positions 2, 4, , 2<I>n</I>. And the rest <I>n</I> cards will be put to, in accordance with their original sequence, odd numbered positions 1, 3, &#65533;, 2<I>n</I>-1. It has been proved that for any natural number <I>n</I>, the original sequence can be regained after a certain number of card shuffles. Nevertheless we dont know exactly how many times we need to shuffle the cards to return to the beginning sequence for a specific number <I>n</I>, and we ask for your help.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">A sequence of natural numbers each representing the number <I>n</I> mentioned above (that is 2<I>n</I> cards). This sequence is terminated by the number 0. Notice each <I>n</I> will be small enough to guarantee not too long total shuffling time. (<I>n</I> &lt; 10000)</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">For each number in the input file, report the total number of shuffling required to regain the original sequence. </P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>10</P>
+<P>20</P>
+<P>0</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>The number of shuffling for n<I> </I>= 10 is: 6</P>
+<P>The number of shuffling for n = 20 is: 20</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+</B></FONT><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM B</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Puzzle</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: puzzle.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Do you remember a child game -- puzzle -- a 4*4 square with numbers from 1 to 15 and an empty place? This problem is ask you to write a program to solve this problem.</P>
+<P ALIGN="JUSTIFY">We have a baby. It likes to play this game. He couldnt find any way to solve the puzzle if someone made the puzzle square muss, then cry loudly. This is so bad for a programmer who wants to work quietly.</P>
+<P ALIGN="JUSTIFY">A puzzle is a square with 15 blocks marked numbers from 1 to 15 and an empty place for player to move it from one position to the other. If blocks in their very positions are as the graph shown below, we call the puzzle is sequenced (also called puzzle problem solved).</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image1.gif" WIDTH=288 HEIGHT=192></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">At the beginning time, a player is given a non-sequenced square. He (or she) tries to find a way to move blocks then make the puzzle sequenced. Players can move one numbered block below, upper, right, or left to the empty place in each step. If a player moves a numbered block left to the empty place to the empty position, we also say he (or she) moved the empty place left one step.</P>
+<P ALIGN="JUSTIFY">For example, we have a square at beginning time as below:</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image2.gif" WIDTH=288 HEIGHT=192></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Now, if we moved the empty place in below ways, we would have the square sequenced.</P>
+<P ALIGN="JUSTIFY">Right, Up, Right, Down</P>
+<P ALIGN="JUSTIFY">You are asked write a program to solve this problem</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The input file has two parts. The first part contains an integer <I>n</I> in a single line representing the number of puzzle cases in this file. The second part contains 4*<I>n</I> lines representing all data of puzzle cases. Data of one puzzle case include four lines. The first line represents the first row in original square, and so on. There are four integers in lines of the second part. Each integer represents the block number in its such position, 0 for the empty place. You should assume that it always has a way to solve the puzzle problem case proposed in our input file.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">You should output the way to make a square sequenced. Integers 0, 1, 2, and 3 are representing acts to move the numbered block below, left, upper, and right to the empty place. Integer -1 represents the end of your answer for one puzzle problem case. Any more output will result in a message Wrong Answer from the judge.</P>
+<P ALIGN="JUSTIFY"></P>
+<I><P ALIGN="JUSTIFY">Assumption</P>
+</I><P ALIGN="JUSTIFY">An answer would get Correct Answer from the judge if it could make the scrambled square sequenced, even it contains a cycle moving sequence such like 0, 1, 2, 3.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>1</P>
+<P>1 2 3 4</P>
+<P>5 6 7 8</P>
+<P>9 10 15 11</P>
+<P>13 0 14 12</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>3 2 3 0 -1</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM C</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Container</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: containe.in</P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Recently, Innovcompu Company has produced a new kind of computer named ACM-Control. One ACM-Control actually consists of one host and two terminals. The weight of the host is A (in kg), and the weight of each terminal is B (in kg). One container can accommodate some hosts and some terminals, but the total weight of these hosts and terminals should not be more than the loading capacity of this container. In this case, we suppose the volume of the container is large enough. The manager of Transportation Company wants to use N available containers to accommodate as many ACM-Controls as possible, which will minimize the transportation cost for each ACM-Control.</P>
+<P ALIGN="JUSTIFY">You are required to write a program to get an optimal plan to accommodate ACM-Controls with the given containers. A plane is optimal if it can accommodate the maximum number of ACM-Controls.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Contains 3*k+1 lines, with k test cases. The end of file is a star symbol (*).</P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=568>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 1</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">A  B </FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Two integers, represented the weight of each host and each terminal in kg, case 1</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 2</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">N</FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The number of containers(0&lt;N&lt;200), case 1</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">P<SUB>1</SUB>  P<SUB>2</SUB>  &#65533;  P<SUB>N</SUB></FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">N integers, represented the loading capacity of N containers in kg, case 1 (0 &lt; Pi &lt; 1000, 1 &lt; Pi/A &lt; 50, 1 &lt; Pi/B &lt; 50)</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">&#65533;</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">&nbsp;</TD>
+<TD WIDTH="63%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3*k-2</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">A  B</FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Two integers, represented the weight of each host and each terminal in kg, case k</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3*k-1</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">N</FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The number of containers(0&lt;N&lt;200), case k</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3*k</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">P<SUB>1</SUB>  P<SUB>2</SUB>  &#65533;  P<SUB>N</SUB></FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">N integers, represented the loading capacity of N containers in kg, case k (0 &lt; Pi &lt; 1000, 1 &lt; Pi/A &lt; 50, 1 &lt; Pi/B &lt; 50)</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3*k+1</FONT></TD>
+<TD WIDTH="21%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">*</FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The sign of file end</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY"> </P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Contains k lines.</P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=568>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 1</FONT></TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The maximum number of ACM-Controls accommodated by the containers of case 1</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 2</FONT></TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The maximum number of ACM-Controls accommodated by the containers of case 2</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">&#65533;  </FONT></TD>
+<TD WIDTH="88%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line k</FONT></TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The maximum number of ACM-Controls accommodated by the containers of case k</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>5 3</P>
+<P>2</P>
+<P>10 10</P>
+<P>4 4</P>
+<P>3</P>
+<P>12 13 11</P>
+<P>*</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">1</P>
+<P ALIGN="JUSTIFY">2</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM D</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">The Dream Team</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: team.in<B> </P>
+</B></FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">1998 years after Mesiah's birth, a joke happens on the earth. That is, the Crazil football team lost in a queer world final match. Being a programmer, you decide to write a program to find out why such thing happens, you are going to calculate the weariness of Crazilians or find out the probability of some other reasons.</P>
+<P ALIGN="JUSTIFY">Oh, that's too complex, fortunately you don't need to write that program now. Here is the leading reason, Mario Argalo, the coach of Crazil team, not selected a perfect team. It is a hard work to select 22 men out of so many great players, it is even harder since old Argalo hasn't the ability-data of players onhand. Though somebody can say the team is not a real team, it seems more like 22 individual person, but this is not the leading reason. Argalo can achieve his fifth world champion if he select 22 top Crazilian guys and giving them two months for training, but he even chose someone with much honor but low ability. Anyway, we can select Juninho, Muller, and Savio in our sequad.</P>
+<P ALIGN="JUSTIFY">OK, now Muxemburg is the new coach. In last 5 years, he marked every player with an ability value (b,m,f), b represents the ability that the person play as a backward, while m for middlefield, f for forward. Thus, Muxemburg's first task is to select a perfect team base on the ability values. The squad contain 22 players, one team member act as a backward, middlefield or forward, but can't have two positions. Muxemburg calculate the value of whole team like this way, for every person, his contribution to the whole team value is his ability value in his position, that is, in (b,m,f), a backward contributes b, middlefield m, and forwards f. The goal is to make a maximum-value team.</P>
+<P ALIGN="JUSTIFY">There are so many good player in Crazil, so Muxemburg asked you to write a program helping him. The program must read the numbers of players in each position, and the ability value for every candidate, then make the great team in Brazilian history.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Input file is a single data set of this problem. three non-negative numbers (B,M,F) in first line, the number of players Muxemburg want on each position, B for backward, M for middlefield, F for forward, with B+M+F=20.(remember that two position reserved for goalkeeper) The second line is a single positive integer N&gt;20, the number of candidates. Then next N lines each give (name, b,m,f), the name and ability value of a certain person. b, m or f is an integer within 0 and 100. The name is a string no longer than 20 charactors, the valid charactors in that string are English letters and digits. Although there are many players with the same name in Crazil, like Carlos or Silva, in the input file there will never be such two persons. There may be at most 5000 persons in the input file.</P>
+<P ALIGN="JUSTIFY">Data items in the same line is seperated by one or more blanks. </P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Output should be 27 lines. First line reads "Backward:", followed by B lines each give a backward's name, a blank line, next line reads "Middlefield", followed by M lines for M middlefields, also a balnk line, then "Forward" and corresponding F lines, another blank line, last line reads "Team Value = v", where v is replaced by the maximum team value. See example.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>6 7 7</P>
+<P>24</P>
+<P>Carlos 94 80 90</P>
+<P>Ardair 85 55 73</P>
+<P>ZeCarlos 83 45 75 </P>
+<P>Silva1 75 80 80</P>
+<P>Cafu 85 85 87</P>
+<P>Lois 73 75 62</P>
+<P>Concalv 80 75 40</P>
+<P>Juninho 70 90 85</P>
+<P>Flavio 73 90 80</P>
+<P>DeJaminha 60 95 80</P>
+<P>Pangza 0 100 0</P>
+<P>Rivaldo 70 85 70</P>
+<P>Denelson 60 100 85</P>
+<P>Dunga 75 87 74</P>
+<P>Edmundo 50 70 95</P>
+<P>Muller 73 83 93</P>
+<P>Savio 70 84 95</P>
+<P>Leonardo 65 89 79</P>
+<P>Rai 50 85 85</P>
+<P>Etin 70 80 100</P>
+<P>Ronaldo 40 80 100</P>
+<P>Dodo 50 70 87</P>
+<P>Romario 45 85 98</P>
+<P>Carioca 70 70 94</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>Backward:</P>
+<P>Carlos</P>
+<P>Cafu</P>
+<P>Ardair</P>
+<P>Concalv</P>
+<P>ZeCarlos</P>
+<P>Silva1</P>
+
+<P>Middlefield:</P>
+<P>Juninho</P>
+<P>Flavio</P>
+<P>DeJaminha</P>
+<P>Pangza</P>
+<P>Denelson</P>
+<P>Dunga</P>
+<P>Leonardo</P>
+
+<P>Forward:</P>
+<P>Ronaldo</P>
+<P>Edmundo</P>
+<P>Etin</P>
+<P>Muller</P>
+<P>Savio</P>
+<P>Romario</P>
+<P>Carioca</P>
+
+<P>Team Value = 1828</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT SIZE=6><P ALIGN="CENTER">&nbsp;</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM E </P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Data Mining</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: mining.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Data mining is a process of discovering hidden information from databases. One goal is to mine functional dependencies. Let R(A<SUB>1</SUB>, , A<I><SUB>n</I></SUB>) be a relation scheme, and let X be a subset of { A<SUB>1</SUB>, , A<I><SUB>n</I></SUB> }. We say X-&gt;A<I><SUB>i</I></SUB>, read &quot;X functionally determines Ai&quot; or &quot;Ai functionally depends on X&quot; if whatever relation <I>r</I> is the current value for R, it is not possible that <I>r</I> has two tuples that agree in the components for all attributes in the set X yet disagree in values for A<I><SUB>i</I></SUB>. Notice functional dependency is a semantic term. Yet in this problem you are to report all the functional dependencies based on the current value of a relation. To complicate the problem, there are certain kinds of functional dependencies you should not report. The first one is trivial dependencies. A functional dependency X-&gt;A<I><SUB>i</I></SUB> is trivial if A<I><SUB>i</I></SUB> is an attribute in X, say A<SUB>1</SUB>A<SUB>2</SUB>-&gt;A<SUB>1</SUB>. The second kind of functional dependencies you should avoid is the redundant ones. A functional dependency X-&gt;A<I><SUB>i</I></SUB> is redundant if a subset of X has already functionally determined Ai. For example, if A<SUB>1</SUB>-&gt;A<SUB>2</SUB>, then certainly A<SUB>1</SUB>A<SUB>3</SUB>-&gt;A<SUB>2</SUB>. Now, to make the description clearer, let see an example. Suppose we have a simple relation with attributes A and B which has two tuples:</P>
+<P ALIGN="JUSTIFY"></P><DIR>
+
+</FONT><FONT FACE="Courier New" SIZE=3><P>A B</P>
+<P>0 0</P>
+<P>0 1</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P></DIR>
+
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">We dont have A-&gt;B because the two tuples agree on value A yet disagree on B. However we do have B-&gt;A because we cant find any two tuples which have the same value on B but are different on A.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The first line contains two integers <I>r</I> and <I>c</I> which are the number of rows and columns of the following relation. The second line has <I>c</I> letters separated by blanks. What follows is a matrix of integers having <I>r</I> rows and <I>c</I> columns, and each column is named by the corresponding letter in the second line. This pattern may occur several times until two zeroes are in the place of number of rows and columns. </P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">You should report on each input relation all the functional dependencies beginning with a line indicating its sequence in the input relations. The sequence of the functional dependencies in each relation is not important.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>3 3</P>
+<P>A B C</P>
+<P>0 0 0</P>
+<P>0 1 0</P>
+<P>1 1 1</P>
+<P>0 0</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>Functional dependencies for relation 1:</P>
+<P>A-&gt;C</P>
+<P>C-&gt;A</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM F</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Simple Expression</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: simple.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Mathematicians often need to determine if two algebraic expressions are equal, so they want a software which can do it. ACM has devoted to this hard project. They first begin the research of Simple Expression Equation.</P>
+<P ALIGN="JUSTIFY">Simple Expression is a predigestion of the normal algebraic expression, which its declaration is such as below:</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image3.gif" WIDTH=267 HEIGHT=99><IMG SRC="Image4.gif" WIDTH=267 HEIGHT=99></P>
+<P ALIGN="CENTER"></P>
+<P ALIGN="CENTER"><IMG SRC="Image5.gif" WIDTH=347 HEIGHT=105></P>
+<P ALIGN="CENTER"></P>
+<P ALIGN="CENTER"><IMG SRC="Image6.gif" WIDTH=328 HEIGHT=86></P>
+<P ALIGN="CENTER"></P>
+<P ALIGN="CENTER"><IMG SRC="Image7.gif" WIDTH=346 HEIGHT=114></P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">If one Simple Expression can be transformed to another through equation transformation, then we say the two Simple Expressions are equal. For example, </FONT><FONT FACE="Courier New" SIZE=3>(3*a+6*c)*a-c*a*4</FONT><FONT FACE="Times New Roman" SIZE=3> and </FONT><FONT FACE="Courier New" SIZE=3>a*(2*c+3*a)</FONT><FONT FACE="Times New Roman" SIZE=3> are equal, but </FONT><FONT FACE="Courier New" SIZE=3>a*a*(1+c)</FONT><FONT FACE="Times New Roman" SIZE=3> is not equal to </FONT><FONT FACE="Courier New" SIZE=3>a*a+c</FONT><FONT FACE="Times New Roman" SIZE=3>.</P>
+<P ALIGN="JUSTIFY">You are required to write a program to determine if two Simple Expressions are equal.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Contains 2*<I>k</I>+1 lines, with <I>k</I> test cases. Each Simple Expression contains no more than 255 characters.</P>
+<P ALIGN="JUSTIFY"></P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=568>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 1</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Integer <I>k</I> , represented the number of test cases in the input files</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 2</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The first Simple Expression of case 1</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 3</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The second Simple Expression of case 1</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">&#65533;</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 2*<I>k</I></FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The first Simple Expression of case <I>k</I></FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 2*<I>k</I>+1</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The second Simple Expression of case <I>k</I></FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Contains <I>k</I> lines. Each line is the judgement of the <I>k</I><SUP>th</SUP> pair of Simple Expressions. If the two Simple Expressions are equal, the judgement is &quot;equal&quot;, otherwise &quot;not equal&quot;</P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=568>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line 1</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Judgement</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">&#65533;</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Line k</FONT></TD>
+<TD WIDTH="84%" VALIGN="TOP">
+<FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Judgement</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>3</P>
+<P>(3*a+6*c)*a-c*a*4</P>
+<P>a*(2*c+3*a)</P>
+<P>a*a*(1+c)</P>
+<P>a*a+c</P>
+<P>1</P>
+<P>((1))</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>equal</P>
+<P>not equal</P>
+<P>equal</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM G</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">TETRIS</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: tetris.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">We are in an age of electronic games. There are many electronic games the youth can play on PC, Saturn <SUP>TM</SUP>, PC Engine <SUP>TM</SUP>, Family Computer <SUP>TM</SUP>, Super Family Computer <SUP>TM</SUP>, Play Station <SUP>TM</SUP>, Nintendo 64 <SUP>TM</SUP>, Mega Drive <SUP>TM</SUP>, and even Arcades on street.</P>
+<P ALIGN="JUSTIFY">At the very beginning of the e-game age, TETRIS is a very famous game. Today you could also find it on modern game sets. Almost all players have played TETRIS because its very simple for people in any ages.</P>
+<P ALIGN="JUSTIFY">A TETRIS game is based on an vertical playing region containing <I>m</I>*<I>n</I> basic squares. A player has to decide that how to place stone blocks each occupies 4 basic squares. There are seven basic types of 4-squares stone blocks, and every basic type of 4-squares stone block can rotate 90, 180, 270, and 360 degree, so there are total 19 configurations of stone blocks. The graph below shows all 19 configurations:</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image8.gif" WIDTH=517 HEIGHT=303></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">In this graph, we number configurations from zero to eighteen.</P>
+<P ALIGN="JUSTIFY">In the TETRIS game, stone blocks fall down from the top of playing region (outside of the region) one by one. Every stone block must be regarded as a rigid whole. A stone block will fall down vertically until it touchs the ground of the region or it piles up other stone blocks which fell down before. For example, a stone block in configuration 18 falls down in playing region (like left graph shows) will result in the status that the right graph shows.</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image9.gif" WIDTH=553 HEIGHT=188></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Another important rule of this game is that if all squares in a horizontal line were occupied by stone blocks, the horizontal line would be wiped. This means that all stone blocks in this line will be deleted and all stone blocks above to this line will fall down a basic square height. Graphs below show the playing region before and after a wipe.</P>
+</FONT><FONT SIZE=3><P ALIGN="CENTER"><IMG SRC="Image10.gif" WIDTH=553 HEIGHT=188></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">One stone blocks falling down and all wipes after that is called one turn. If any part of a stone block is out of the playing region after a turn, then Game Over. The player has no way but suspire for his carelessness.</P>
+<P ALIGN="JUSTIFY">The game has a scoring system to indicate the level of players. If a player was success in falling down a stone block without causing Game Over, he would get 50 score points. He also could get bonus points if there are any wipes happened in this turn. There are 200 bonus points for one wipe, 400 bonus points for two wipes, 800 bonus points for three wipes, and 1600 bonus points for four wipes.</P>
+<P ALIGN="JUSTIFY">Your task is to write a program to determine if a player is Game Over. If not, you must output the playing region in the end. In any case, you must compute the players score and his turn before Game Over or end. Any turns after Game Over or causing Game Over would not get any score. There is no stone square in the playing region at beginning.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The input file consists of several test cases. Each case will begin with two integers <I>m</I> (4 &lt; <I>m</I> &lt; 26) and <I>n</I> (3 &lt; <I>n</I> &lt; 41) which indicates height and width of the playing region. And <I>m</I> and <I>n</I> equals zero means the end of the input file. Following <I>m</I> and <I>n</I>, there are several turns of the case. Each turn include two integers <I>c</I> and <I>p</I>. The first integer <I>c</I> represents the number of stone blocks falling down in this turn and the second integer <I>p</I> represents the column in which the left most of the stone block. While <I>c</I> equals zero and <I>p</I> equals zero indicates the end of this case. You can assume that there will always be valid data in any test cases.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">For every test case, you should first output the test case no as </FONT><FONT FACE="Courier New" SIZE=3>Game No: #X</FONT><FONT SIZE=3></FONT><FONT FACE="Times New Roman" SIZE=3> in one line, then the score the player had got as </FONT><FONT FACE="Courier New" SIZE=3>Score: </FONT><I><FONT FACE="Times New Roman" SIZE=3>score</I></FONT><FONT SIZE=3></FONT><FONT FACE="Times New Roman" SIZE=3> in one line. If the player lost in this game, you should output Game Over in the next line, otherwise output the playing region from top to bottom by lines with no spaces between them. A blank line should be printed between two test cases.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>12 8</P>
+<P>12 1 12 2</P>
+<P>12 4 12 5 12 7 12 8</P>
+<P>12 3 12 6</P>
+<P>7 5</P>
+<P>0 3</P>
+<P>0 0</P>
+<P>8 8</P>
+<P>11 3 13 3</P>
+<P>11 3</P>
+<P>18 2 12 1</P>
+<P>0 0</P>
+<P>0 0</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>Game No: #1</P>
+<P>Score: 2100</P>
+<P>Turns: 10</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00000000</P>
+<P>00111000</P>
+<P>00011100</P>
+<P>00001100</P>
+
+<P>Game No: #2</P>
+<P>Score: 100</P>
+<P>Turns: 3</P>
+<P>Game Over</P>
+</FONT><B><FONT SIZE=5><P ALIGN="CENTER"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">1998-99 ACM International Collegiate Programming Contest<BR>
+Asia Regional Contest/Shanghai</P>
+<P ALIGN="CENTER"></P>
+</B></FONT><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">PROBLEM H</P>
+</FONT><B><FONT FACE="Times New Roman" SIZE=5><P ALIGN="CENTER">Scoring of the Contest</P>
+</B></FONT><FONT FACE="Arial" SIZE=4><P ALIGN="CENTER">Input file: scoring.in</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">In the ACM/ICPC regional contest, solutions to problems submitted for judging are called runs. Each run is judged as accepted or rejected, and the team is notified of the results. Teams that solve the median number of problems or higher will be ranked according to the most problems solved; teams solving less than the median number of problems will be acknowledged but not ranked. For the purposes of awards, or in determining qualifier(s) for the World Finals, teams who solve the same number of problems are ranked by least total time used and penalized. The total time used and penalized is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the accepted run plus 20 minutes of penalty for each rejected run. There is no time consumed for a problem that is not solved.</P>
+<P ALIGN="JUSTIFY">Your program will read a list of judgement for runs, and print out the scores for the 1st , 2nd and 3rd teams.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Input</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">Input file may contain several test data sets.</P>
+<P ALIGN="JUSTIFY">Every test data consists of two parts. The first part contains a positive integer, which tells number of teams. The following lines are judgement for runs. One line for one run that includes time of submission, team number, problem number and judgement. And one zero in a single line for end of the case.</P>
+<P ALIGN="JUSTIFY">The end line of input file contains only one zero for number of teams.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output</P>
+</B></FONT><FONT FACE="Times New Roman" SIZE=3><P ALIGN="JUSTIFY">The score for the top three teams which contains team number, number of problem solved, time used and rank.</P>
+<P ALIGN="JUSTIFY"></P>
+<I><P ALIGN="JUSTIFY">Assumption</P>
+</I><P ALIGN="JUSTIFY">There may be several teams in the same place. For example, if several teams are 3<SUP>rd</SUP>, output them all; if two teams are in 2<SUP>nd</SUP> place, then there will be no 3<SUP>rd</SUP> team, etc.</P>
+<P ALIGN="JUSTIFY"></P>
+</FONT><B><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>3</P>
+<P>12 1 2 yes</P>
+<P>14 3 2 no</P>
+<P>25 3 1 yes</P>
+<P>29 1 1 no</P>
+<P>38 3 2 yes</P>
+<P>39 2 1 no</P>
+<P>45 1 1 no</P>
+<P>0</P>
+<P>0</P>
+</FONT><FONT SIZE=3><P ALIGN="JUSTIFY"></P>
+</FONT><B><FONT FACE="Arial"><P>Output for the Sample Input</P>
+</B></FONT><FONT FACE="Courier New" SIZE=3><P>Case 1:</P>
+<P>Team No.&#9;Problem solved&#9;Time used&#9;&#9;Rank</P>
+<P>3&#9;&#9;&#9;2&#9;&#9;&#9;&#9;&#9;83&#9;&#9;&#9;&#9;1</P>
+<P>1&#9;&#9;&#9;1&#9;&#9;&#9;&#9;&#9;12&#9;&#9;&#9;&#9;2</P>
+<P>2&#9;&#9;&#9;0&#9;&#9;&#9;&#9;&#9;0&#9;&#9;&#9;&#9;3</P>
+</FONT><FONT SIZE=3>
+<P>&nbsp;</P>
+</FONT><FONT SIZE=6><P ALIGN="CENTER">&nbsp;</P></FONT></BODY>
+</HTML>

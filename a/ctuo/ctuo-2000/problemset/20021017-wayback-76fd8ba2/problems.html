@@ -1,0 +1,1078 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 3.2//EN">
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://contest.felk.cvut.cz/00prg/solved/problems.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+   <TITLE>CTU Open 2000 Contest - Zadání úloh</TITLE>
+   <META NAME="Description" CONTENT="ACM International Collegiate
+         Programming Contest, zadání úloh čekého kola (CTU Open) 2000.">
+   <META NAME="Keywords" CONTENT="ACM, Programming Contest, CTU Open">
+   <META NAME="Author" CONTENT="Michal Sevcenko">
+   <META NAME="Generator" CONTENT="hand made">
+</HEAD>
+
+
+<BODY BGCOLOR="White">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://contest.felk.cvut.cz/00prg/solved/problems.html">https://contest.felk.cvut.cz/00prg/solved/problems.html (2002-10-17 00:59)</a> (Wayback snapshot 2002-10-17 00:59; fetched 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/ctuo-2000.html">ctuo-2000</a>  <a href="https://web.archive.org/web/20021017005911/https://contest.felk.cvut.cz/00prg/solved/problems.html">wayback</a>  <a href="https://contest.felk.cvut.cz/00prg/solved/problems.html">live</a></div>
+
+
+<!-- ***** klikaci mapy ***** -->
+
+<!-- linka s vyberem kodovani -->
+<MAP NAME="map-czset">
+   <AREA SHAPE="Circle" COORDS="386,15,16" ALT="ISO-8859-2"
+   HREF="/iso2/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="419,15,16" ALT="Windows 1250"
+   HREF="/1250/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="452,15,16" ALT="IBM CP 852"
+   HREF="/852/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="484,15,16" ALT="Macintosh EE"
+   HREF="/mac/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="518,15,16" ALT="Ascii 7-bit"
+   HREF="/ascii/00prg/solved/problems.html">
+   <AREA SHAPE="Rect" COORDS="518,19,580,31" ALT="vybrat kódování"
+   HREF="czech.html">
+   <!--
+   <AREA SHAPE="Circle" COORDS="78,15,16" ALT="English Version"
+   HREF="problemsE.html">
+   <AREA SHAPE="Rect" COORDS="14,19,72,31" ALT="English Version"
+   HREF="problemsE.html">-->
+</MAP>
+
+
+
+<!-- ***** zahlavi s logem souteze ***** -->
+
+<CENTER>
+<P><TABLE BORDER=0><TR><TD>
+<IMG SRC="../../img/counter.gif" ALT="ACM" WIDTH=128 HEIGHT=96>
+<TD><IMG SRC="../../img/contest.gif" ALT="Programming Contest"
+width=424 height=96></TABLE>
+
+<IMG SRC="../../img/line-czech-2.gif" WIDTH=592 HEIGHT=32 BORDER=0
+ALT="kódování češtiny" USEMAP="#map-czset">
+
+
+
+<!-- ***** ulohy ***** -->
+
+
+<P><TABLE WIDTH=600 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR><TD>
+
+<P ALIGN="Center">Katedra počítačů ČVUT FEL &amp; Czech ACM Chapter
+
+<P ALIGN="Center">Soutěž v programování 2000
+
+
+
+<P>
+Vážení soutěžící,
+
+<P>
+Jak jistě víte, minulý měsíc se v&nbsp;Praze konalo zasedání Mezinárodního
+měnového fondu a Světové banky. Do Prahy se chystalo mnoho takových, kterým
+šlo pouze o vlastní zviditelnění a touhu projevit svou agresivitu (a tím teď
+opravdu nemáme na mysli ctihodné pány finančníky). Naštěstí naše Policie
+svou úlohu tentokráte zvládla, alespoň se to všeobecně soudí. Možná vás
+nepřekvapí, že za organizací této obrovské akce, která nemá v našich zemích
+obdoby, je mimo jiné skryt také rozsáhlý softwarový systém, který umožňuje
+policistům efektivně pracovat a rychle se rozhodovat a reagovat na aktivity
+demonstrantů.
+
+<P>
+
+<P>
+Máte nyní jedinečnou příležitost vyzkoušet si, co obnáší vytváření programů
+pro takové příležitosti. Aby reakce Policie byla opravdu dostatečně rychlá,
+je důležitá především časová efektivita použitých programů. Paměťová
+spotřeba je až na druhém místě vzhledem k&nbsp;množství peněz vyčleněných na
+tuto akci. Všechny programy, které máte vytvořit, budou číst vstupní data
+ze standardního vstupu a výsledky vypisovat na standardní výstup. V&nbsp;obou
+případech je nutné přesně dodržet předepsaný formát, aby byla možná bezchybná
+komunikace mezi různými policejními jednotkami. Je-li vstupem více hodnot
+na jednom řádku a není-li uvedeno jinak, jsou čísla oddělena právě jednou
+mezerou. Vstup ani výstup neobsahuje žádné přebytečné mezery, není-li
+v&nbsp;zadání příslušné úlohy uvedeno jinak.
+
+<P>
+
+<P>
+Protože některé případy vyžadují hromadné zpracování více vypjatých situací,
+musí být vámi vytvořené programy schopny řešit více instancí úlohy najednou.
+Obvykle je na prvním řádku uveden počet úloh, pak následují postupně všechna
+zadání. Přesný formát je uveden u každého příkladu. Pokud se v&nbsp;zadání
+vyskytují celá čísla a pokud není u konkrétní úlohy uvedeno něco jiného, pak
+je velikost čísel volena vždy tak, aby se všechna tato čísla i případné
+výsledky vešly do standardního typu <EM>integer</EM>.
+
+<P>
+
+<P>
+Nyní nám již zbývá pouze vám popřát mnoho úspěchů při řešení těchto úloh.
+Doufáme, že Vaše dojmy z&nbsp;této soutěže budou alespoň tak dobré, jako dojem,
+který udělala Policie minulý měsíc na většinu obyvatel.
+
+<P>
+<P>
+Vaši organizátoři
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+Tato stránka, včetně vzorových řešení a testovacích vstupů, je k dispozici
+ke stažení jako <A HREF="ctu2000.tar.gz">archiv <TT>ctu2000.tar.gz</TT></A> (9.3MB).
+
+<P>
+<TABLE ALIGN=CENTER>
+<TR><TD>d</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#debug">Zpětné inženýrství</A></TD>
+<TR><TD>g</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#gnome">Gnome</A></TD>
+<TR><TD>h</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#herci">Herci</A></TD>
+<TR><TD>l</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#linie">Linie</A></TD>
+<TR><TD>p</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#ponork">Počítáme ponorky</A></TD>
+<TR><TD>r</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#rozchod">Rozejděte se!</A></TD>
+<TR><TD>s</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#spojka">Pražská spojka</A></TD>
+<TR><TD>t</TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD><A HREF="#tokeny">Tokeny</A></TD>
+</TABLE>
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="debug"></A><H2 ALIGN="Center">Zpětné inženýrství</H2>
+<P ALIGN="Center">
+<TT><A HREF="debug.c">debug.c</A></TT>,
+<TT><A HREF="debug.p">debug.p</A></TT>,
+<TT>debug.C</TT><BR>
+<TT><A HREF="debug.in">debug.in</A></TT>,
+<TT><A HREF="debug.out">debug.out</A></TT>
+
+<P>
+Policistům se nedávno podařilo zachytit fragment zdrojového kódu, který si
+mezi sebou předávaly anarchistické skupiny <EM>MCA</EM> a <EM>MBI</EM>. Tento
+fragment můžete vidět níže, pro přehlednost je kromě původního jazyka
+(anarchisté používají zásadně <EM>C</EM>) uveden také přepis do jazyka
+<EM>Pascal</EM>.
+
+<P>
+
+<P>
+
+<PRE>
+int main()
+{ int u,v,k,t ;
+  scanf("%d %d",&amp;u,&amp;v) ;
+  for (k=0;!(u%2)&amp;&amp;!(v%2);k++)
+    { u/=2 ; v/=2 ; }
+  if (u%2) t=-v ; 
+  else t=u/2 ;
+  while(t) {
+    while(!(t%2)) t/=2 ;
+    if (t&gt;0) u=t ; else v=-t ;
+    t=u-v ; 
+  }
+  while(k--&gt;0) u*=2 ; 
+  printf("%d\n",u) ;
+  return 0 ;
+}
+</PRE>
+<PRE>
+program zahada;
+var u,v,k,t:integer;
+begin
+  readln(u,v); k:=0;
+  while(u mod 2=0)and(v mod 2=0) do
+    begin u:=u div 2; v:=v div 2; k:=k+1; end;
+  if(u mod 2&lt;&gt;0) then t:=-v
+  else t:=u div 2;
+  while(t&lt;&gt;0) do begin
+    while(t mod 2=0) do t:=t div 2;
+    if(t&gt;0) then u:=t else v:=-t;
+    t:=u-v;
+  end;
+  while(k&gt;0) do begin u:=u*2; k:=k-1; end;
+  writeln(u:1);
+end.
+</PRE>
+
+<P>
+
+<P>
+Na první pohled je zřejmé, že program čte ze vstupu dvě čísla, pro která
+spočítá nějaký výsledek. Bohužel se však dosud nepodařilo proniknout do tajů
+výpočetního procesu, a tak nevíme přesně, jaká je souvislost mezi vstupem a
+výstupem. Pro přehlednost si však realizovanou funkci označíme jako <VAR>f</VAR>.
+Definičním oborem této funkce bude množina celých kladných čísel. Nechť
+<VAR>f</VAR>(<VAR>a</VAR>,<VAR>b</VAR>) je hodnota, kterou program vypíše, pokud na jeho vstup zadáme celá
+čísla <VAR>a</VAR> a <VAR>b</VAR>. Jestliže program neskončí nebo skončí s&nbsp;chybou, není hodnota
+<VAR>f</VAR>(<VAR>a</VAR>,<VAR>b</VAR>) pro příslušný vstup definována. Abychom mohli chování funkce lépe
+sledovat, je třeba vytvořit funkci inverzní, tedy nalézt taková čísla <VAR>a</VAR> a
+<VAR>b</VAR>, pro která je <VAR>f</VAR>(<VAR>a</VAR>,<VAR>b</VAR>) rovno předem dané hodnotě.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání je tvořeno jediným řádkem
+obsahujícím dvě celá čísla <VAR>N</VAR> a <VAR>M</VAR>, 
+0 &lt; <VAR>N</VAR>,<VAR>M</VAR> &lt;= 1000000.
+Čísla jsou oddělena mezerou.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Pro každé zadání vypíše program na výstup jediný řádek se dvěma čísly <VAR>U</VAR> a
+<VAR>V</VAR> oddělenými mezerou. Tato čísla musí splňovat podmínku
+
+
+1  &lt;= <VAR>V</VAR> &lt; <VAR>U</VAR> &lt; <VAR>N</VAR>. Jestliže existuje více dvojic vyhovujících zadání,
+vypište ten případ, kdy je <VAR>U</VAR> maximální. Pokud existuje více řešení se
+stejným maximálním <VAR>U</VAR>, vypište to, kdy je maximální <VAR>V</VAR>. Jestliže neexistuje
+žádná dvojice čísel, která by zadání vyhověla, vypište na řádek větu
+"<TT>Reseni neexistuje.</TT>".
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+2
+11 2
+2 10
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+10 8
+Reseni neexistuje.
+</PRE>
+
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="gnome"></A><H2 ALIGN="Center">Gnome</H2>
+<P ALIGN="Center">
+<TT><A HREF="gnome.c">gnome.c</A></TT>,
+<TT><A HREF="gnome.p">gnome.p</A></TT>,
+<TT>gnome.C</TT><BR>
+<TT><A HREF="gnome.in">gnome.in</A></TT>,
+<TT><A HREF="gnome.out">gnome.out</A></TT>
+
+<P>
+Jednou z&nbsp;nejméně příjemných věcí v&nbsp;životě policisty během občanských nepokojů
+je čekání. Představte si několik hodin strávených v&nbsp;dešti čekáním na to,
+kterým směrem se pohne rozlícený dav. Svým způsobem je to horší než v&nbsp;čekárně
+u zubaře, kde obvykle alespoň neprší. Proto vedení Policie rozhodlo, že všechny
+policisty vybaví vodovzdorným herním automatem, který bude simulovat jednu
+z&nbsp;variant legendární hry Gnome, tzv. <EM>Same-Gnome</EM>.
+
+<P>
+
+<P>
+Vaším úkolem je napsat simulátor stejnojmenné hry, který by byl dostatečně
+jednoduchý, aby mohl být implementován v&nbsp;přenosné verzi počítače PMD-85
+(takzvaný <EM>PMD-Pilot</EM>). Pravidla jsou poměrně jednoduchá. Hrací pole se
+skládá z <VAR>N  x M</VAR> políček, na každém políčku je umístěn právě jeden kámen
+určité barvy. Cílem hry je odstranit co nejvíce kamenů a především získat
+přitom co nejvíce bodů. Pravidla pro odstraňování kamenů jsou následující:
+
+<P>
+<UL>
+<LI>Lze odstranit pouze takový kámen, který sousedí s&nbsp;alespoň jedním
+  kamenem stejné barvy (sousední kameny jsou nahoře, dole, vlevo a vpravo,
+  ale ne šikmo).
+<LI>Při odstranění kamene je současně odstraněna celá souvislá oblast
+  sousedních kamenů stejné barvy.
+<LI>Hrací pole se nachází v gravitačním poli, tzn. po odstranění kamenů
+  propadnou výše umístěné kameny dolů, takže zaplní vzniklý prázdný prostor.
+<LI>Pokud po odstranění kamenů a případném propadnutí výše položených
+  kamenů vzniknou prázdné sloupce, jsou sloupce napravo posunuty doleva
+  tak, aby prazdné sloupce zanikly.
+<LI>Jestliže je v&nbsp;rámci jednoho tahu odstraněno <VAR>K</VAR>&nbsp;kamenů, získá hráč
+  (<VAR>K</VAR>-2)<SUP>2</SUP> bodů.
+<LI>Pokud jsou během hry odstraněny popsaným způsobem všechny kameny, získá
+  hráč dodatečnou prémii ve výši 1000 bodů.
+</UL>
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání začíná řádkem obsahujícím dvě
+celá čísla <VAR>C</VAR> a <VAR>R</VAR>
+(1 &lt;= <VAR>R</VAR>&lt;150, 
+1 &lt;= <VAR>C</VAR>&lt;300) oddělená mezerou, která
+udávají počet sloupců a řádků hracího pole. Poté následuje <VAR>R</VAR> řádků
+popisujících postupně řádky hracího pole shora dolů. Na každém z&nbsp;těchto řádků
+je právě <VAR>C</VAR> písmen velké abecedy, tedy znaků od <TT>A</TT> do <TT>Z</TT>, které
+udávají různé barvy kamenů na daném řádku postupně zleva doprava.
+
+<P>
+
+<P>
+
+<P>
+Za popisem hracího pole následuje seznam tahů, které hráč provedl, tedy
+souřadnice kamenů, které mají být odstraněny. Nejprve je na samostatném řádku
+uveden počet tahů <VAR>M</VAR>. Poté následuje <VAR>M</VAR> řádků, z&nbsp;nichž
+každý obsahuje dvě celá čísla <VAR>I</VAR> a <VAR>J</VAR> oddělená mezerou. <VAR>I</VAR>
+(1 &lt;= <VAR>I</VAR> &lt;= <VAR>C</VAR>)
+určuje číslo sloupce vybraného kamene zleva počínaje od jedné, <VAR>J</VAR> 
+(1 &lt;= <VAR>J</VAR> &lt;= <VAR>R</VAR>) číslo řádku zespoda počínaje také od jedné.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Vaším úkolem je simulovat celou hru a odstraňovat souvislé oblasti kamenů
+stejné barvy podle sekvence
+zadané na vstupu. Pokud na dané pozici není žádný kámen nebo pokud nelze
+vybraný kámen odstranit, tah ignorujte a pokračujte dalším v&nbsp;řadě.
+Pro každé zadání musí program vypsat tento text:
+<BR>
+"<TT>Game over!
+<BR>
+Score dosazene v teto hre je </TT><VAR>S</VAR><TT> bodu.
+<BR>
+Byli bychom radi, kdybyste si zahrali jeste jednou.
+<BR>
+Prejete si hrat znovu?
+<BR>
+Prijemnou zabavu Vam preje firma ACMTENDO.</TT>",
+<BR>
+kde <VAR>S</VAR> je počet bodů získaný podle uvedených pravidel. Každá věta je na
+samostatném řádku.
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+2
+3 2
+GZZ
+ZZG
+2
+2 1
+2 1
+6 3
+ABABAB
+BABABA
+ABABAA
+11
+6 1
+5 1
+4 1
+3 1
+2 1
+1 1
+2 1
+3 1
+4 1
+5 1
+6 1
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Game over!
+Score dosazene v teto hre je 1004 bodu.
+Byli bychom radi, kdybyste si zahrali jeste jednou.
+Prejete si hrat znovu?
+Prijemnou zabavu Vam preje firma ACMTENDO.
+Game over!
+Score dosazene v teto hre je 5 bodu.
+Byli bychom radi, kdybyste si zahrali jeste jednou.
+Prejete si hrat znovu?
+Prijemnou zabavu Vam preje firma ACMTENDO.
+</PRE>
+
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="herci"></A><H2 ALIGN="Center">Herci</H2>
+<P ALIGN="Center">
+<TT><A HREF="herci.c">herci.c</A></TT>,
+<TT><A HREF="herci.p">herci.p</A></TT>,
+<TT>herci.C</TT><BR>
+<TT><A HREF="herci.in">herci.in</A></TT>,
+<TT><A HREF="herci.out">herci.out</A></TT>
+
+<P>
+Policisté, stejně jako každý normální člověk, nemohou pouze pracovat, ale
+musí mít také nějaké zábavné koníčky. Proto založila skupina psovodů
+amaterský divadelní soubor nazvaný
+<EM>Kynologický soubor italského národního divadla a literatury</EM>
+(<EM>KSINDL</EM>). Tito ochotníci hrají veškerá představení s&nbsp;ohromnou vervou a
+osobním nasazením. Bohužel však došlo k&nbsp;nepříjemné situaci, kdy byla značná
+část divadelního souboru povolána na zásah proti neukázněným demonstrantům,
+a to právě v&nbsp;den, kdy měla být veřejná premiéra jejich nové hry. Co se dá
+dělat, práce je práce, proto muselo jít divadlo stranou a někteří členové se
+tak premiéry nemohou zúčastnit. Naštěstí, jako v&nbsp;každém správném ochotnickém
+divadle, mnoho herců umí nejen svou roli, ale také několik dalších rolí,
+které mají zažité natolik, že by byli schopni je sehrát. Bohužel však není
+vždy jednoduché najít přijatelné řešení, proto by policisté uvítali program,
+který by zhodnotil nastalou situaci a rozhodl, zda je možné představení
+v&nbsp;dané sestavě sehrát.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání začíná řádkem obsahujícím tři
+čísla oddělená mezerou, jsou to po řadě počet herců v&nbsp;souboru (<VAR>H</VAR>, 
+1  &lt;= 
+<VAR>H</VAR>  &lt;= 100), počet
+rolí ve hře, která se má večer sehrát (<VAR>R</VAR>, 
+1  &lt;= <VAR>R</VAR>  &lt;= 60), a počet herců, kteří se nemohou
+premiéry účastnit ze služebních důvodů (<VAR>A</VAR>, 
+0  &lt;= <VAR>A</VAR>  &lt;= <VAR>H</VAR>). Poté následuje právě <VAR>H</VAR> řádků,
+každý z&nbsp;nich obsahuje jedno jméno herce. Jméno herce je tvořeno pouze malými a
+velkými písmeny, kterých je vždy minimálně&nbsp;1 a maximálně&nbsp;30. Velká a malá
+písmena se rozlišují. Dále následuje <VAR>R</VAR> řádků
+reprezentujících role, každý z&nbsp;nich obsahuje jméno jedné role. Pro toto jméno
+platí stejná pravidla jako pro jména herců.
+
+<P>
+
+<P>
+Po výpisu rolí následuje seznam, kterou roli je který herec schopen zahrát.
+Pro každého herce je uvedeno jeho jméno, dále na stejném řádku jedna mezera,
+číslo <VAR>U</VAR><SUB><VAR>i</VAR></SUB>, které představuje počet rolí, mezera a dále následuje <VAR>U</VAR><SUB><VAR>i</VAR></SUB>názvů rolí oddělených mezerami. Celý seznam pro jednoho herce je na jediném
+řádku, další herec následuje na dalším řádku. Seznam má právě <VAR>H</VAR> prvků, tedy
+každý herec je zde uveden právě jednou, ale nemusí to nutně být ve stejném
+pořadí, v&nbsp;jakém byla zapsána jména herců.
+
+<P>
+
+<P>
+Za všemi seznamy následuje ve vstupním souboru seznam herců, kteří nemohou
+hrát. Ten je tvořen právě <VAR>A</VAR> řádky, na každém je jedno jméno herce.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Program vypíše právě jeden řádek pro každé zadání. Jestliže je za daných
+okolností možno hru sehrát, bude na řádku věta "<TT>Premiera bude!</TT>",
+jinak vypište větu "<TT>Zatraceni demonstranti!</TT>".
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+1
+5 3 2
+Pepan
+Venda
+Cvalda
+Bozka
+Vendula
+Kecal
+Jenik
+Marysa
+Bozka 1 Marysa
+Vendula 1 Marysa
+Pepan 2 Kecal Jenik
+Venda 3 Jenik Marysa Kecal
+Cvalda 1 Kecal
+Bozka
+Venda
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Premiera bude!
+</PRE>
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="linie"></A><H2 ALIGN="Center">Linie</H2>
+<P ALIGN="Center">
+<TT><A HREF="linie.c">linie.c</A></TT>,
+<TT>linie.p</TT>,
+<TT>linie.C</TT><BR>
+<TT><A HREF="linie.in">linie.in</A></TT>,
+<TT><A HREF="linie.out">linie.out</A></TT>,
+
+<P>
+<FONT COLOR=red>Tato úloha (včetně řešení a testovacích dat) byla převzata z
+archivu. My jsme pouze dopsali českou legendu.</FONT>
+
+<P>
+Policisté se při své práci často mohou dostat i&nbsp;do velmi nebezpečných
+situací, zvláště při podobných akcích, jako bylo zasedání MMF a&nbsp;SB. A&nbsp;proto,
+aby se při jejich práci pokud možno předešlo jakýmkoli zraněním, jsou
+Policisté vybaveni bezpečnostími <EM>Směrnicemi pro Mimořádně
+Rychlé Tlačenice</EM>, ve zkratce <EM>SMRT</EM>.
+
+<P>
+Často se stávalo, že když na policisty letěl nějaký předmět vržený
+demonstranty, první policista mu uhnul, ale druhý, který přes prvního neviděl,
+byl zasažen. A&nbsp;proto jedna ze směrnic určených pro policisty, kteří mají za
+úkol blokovat demonstrantům cestu, říká, že policisté nesmí stát v&nbsp;řadách,
+aby se nemohli stát snadným cílem pro létající předměty velkých ráží typu
+dlažební kostky. Jak známo, všechny směrnice se musí dodržovat. Je tedy třeba
+také toto dodržování kontrolovat a&nbsp;případné porušení kázně okamžitě
+hlásit. A&nbsp;protože velící důstojníci nemohou být všude, potřebuje Policie
+nástroj, který by tato porušení odhalil sám. A&nbsp;to bude váš úkol.
+
+<P>
+U&nbsp;každého zásahu bude přítomna kamera, která bude snímat policejní kordon
+shora tak, že bude možno každému policistovi přiřadit souřadnici v&nbsp;myšlené
+souřadné soustavě. Každý policista bude tak jednoznačně identifikován právě
+jedním párem celých čísel <VAR>X</VAR> a&nbsp;<VAR>Y</VAR>, kde 
+0  &lt;= <VAR>X</VAR>, <VAR>Y</VAR>  &lt;= 9999. Protože
+rohové pozice jsou ze strategického hlediska nevýhodné, žádný policista nikdy
+nestojí na souřadnici&nbsp;0, 0.
+
+<P>
+Vaším úkolem je napsat program, který pro každé zadání načte skupinu
+souřadnic pro kordon policistů a&nbsp;zjistí, zda někde nestojí na jedné přímce
+více než dva policisté. Vzhledem k&nbsp;tomu, že tento předpis je poměrně nový
+a&nbsp;ještě ne úplně zažitý, může se stát, že bude existovat více přímek se třemi
+a&nbsp;více policisty, ale vzhledem k&nbsp;jejich vysoké morálce a&nbsp;dobrému výcviku se
+dá předpokládat, že jich v&nbsp;jedné řadě nebude nikdy více než deset.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+Vstup obsahuje několik zadání. Každé zadání začíná na nové řádce, je tvořeno
+souřadnicemi 3&nbsp;až 300&nbsp;bodů (včetně) a&nbsp;ukončeno párem nul (<TT>0&nbsp;0</TT>). Každý
+bod je zadán párem celých čísel v&nbsp;rozsahu 0 až 9999 (včetně). Jedno
+zadání může být rozděleno i&nbsp;na více řádků, v&nbsp;tomto případě však nebude nikdy
+rozdělen pár souřadnic, dělení bude vždy provedeno mezi celými páry
+souřadnic. Celý vstup bude opět ukončen jednou další dvojicí nul.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Na výstupu bude věta "<TT>Smernice byla dodrzena.</TT>", pokud neexistuje žádná
+trojice policistů stojících na jedné přímce. Jinak program vypíše na výstup větu
+"<TT>Tito policiste porusuji smernici:</TT>" a na každém z dalších řádků bude
+vždy výpis všech policistů stojících na jedné přímce. Takto musí být postupně
+uvedeny všechny přímky, na kterých jsou tři a více policistů. Souřadnice musí
+být v rámci jednoho řádku seřazeny nejprve podle <VAR>x</VAR>-ové souřadnice, a v
+případě shody pak podle souřadnice <VAR>y</VAR>. Všechny body jsou uzavřeny v
+závorkách a jejich složky jsou oddělené čárkou, bez jakýchkoli mezer. Samotné
+body nejsou kromě závorek navzájem nijak odděleny. Řádky jsou řazeny podobně
+jako souřadnice na řádcích, tedy podle prvního bodu, a pokud ten je stejný,
+pak postupně podle dalších bodů. Všiměte si, že jeden policista se může
+vyskytovat i na více řádcích. Za každým zadáním (včetně posledního)
+vytiskněte jeden prázdný řádek.
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+5 5 8 7 14 11 4 8 20 15
+12 6 18 21 0 0
+5 5 8 8 14 13 0 0
+5 5 25 17 20 23 10 11 20 14 15 11 0 0
+0 0
+</PRE>
+<P>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Tito policiste porusuji smernici:
+(4,8)(8,7)(12,6)
+(5,5)(8,7)(14,11)(20,15)
+(12,6)(14,11)(18,21)
+
+Smernice byla dodrzena.
+
+Tito policiste porusuji smernici:
+(5,5)(10,11)(20,23)
+(5,5)(15,11)(20,14)(25,17)
+</PRE>
+<P>
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="ponork"></A><H2 ALIGN="Center">Počítáme ponorky</H2>
+<P ALIGN="Center">
+<TT><A HREF="ponork.c">ponork.c</A></TT>,
+<TT><A HREF="ponork.p">ponork.p</A></TT>,
+<TT>ponork.C</TT><BR>
+<TT><A HREF="ponork.in">ponork.in</A></TT>,
+<TT><A HREF="ponork.out">ponork.out</A></TT>,
+
+<P>
+Protože hlavní část zasedání se konala v Kongresovém Finančním Centru (KFC),
+bylo samozřejmě nutné zajistit tomuto místu kvalitní ochranu. Jak jste jistě
+sami viděli, přes den byla tato stavba hlídána více než dostatečně. Nás ale
+bude zajímat poněkud všednější noc, kdy i většina demonstrantů již ulehla ke
+spánku.
+
+<P>
+Je jasné, že i v noci je třeba budovu ohlídat. Bývá k tomu určeno několik
+speciálně školených strážných, kteří obchází KFC celou noc po různých
+trasách. Nejdůležitější z nich vede po úzké zídce kolem celé budovy. Tato
+trasa byla vytyčena ze strategických důvodů, neboť z ní je velmi dobrý
+výhled do celého okolí. A aby bylo celé okolí pokryto, musí být na tuto
+trasu nasazeno strážných několik. Ale protože lidí na práci je vždy méně, než
+by bylo třeba, vedení Policie potřebuje určit minimální počet strážných tak,
+aby stále měli celé okolí budovy v dohledu. K řešení tohoto problému je však
+třeba znát, jak je trasa dlouhá a za jak dlouho ji strážný projde. A to právě
+bude vaším úkolem.
+
+<P>
+<DIV ALIGN=CENTER>
+<IMG
+ WIDTH="360" HEIGHT="271"
+ SRC="ponorky.gif"
+ ALT="ponorky">
+</DIV>
+
+<P>
+Pro určení délky trasy se u Policie používá měření tzv. <EM>policejních
+normokroků</EM> (zkratka <EM>ponork</EM>). Zídka má podobu rovných úseků, které na
+sebe navazují v&nbsp;pravém úhlu. Každý úsek má délku nejméně jeden ponork. Pro
+účely měření je v policejních předpisech stanoveno, že strážný jdoucí po
+zídce nezkracuje při změně směru krok, ale překračuje rohy tak, že délka
+jeho kroku je stále přesně jeden ponork. Šířku zídky považujeme za nulovou.
+Pokud  se celá trasa nedá projít tak, že posledním krokem strážný skončí přesně 
+v&nbsp;koncovém bodě zídky, počítá se zbytek jako celý krok pouze v případě, že je
+dlouhý nejméně půl ponorku. Vaším úkolem je určit délku trasy, která vede po
+zídce, v&nbsp;ponorcích. (Ilustrační obrázek odpovídá prvnímu z příkladů vstupu.)
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání začíná řádkem obsahujícím dvě
+hodnoty: <VAR>K</VAR> a <VAR>U</VAR>,
+(1 &lt;= <VAR>K</VAR>&lt;1000, 
+1 &lt;= <VAR>U</VAR>&lt;5000) kde <VAR>K</VAR> je délka kroku
+strážného (velikost ponorku) a <VAR>U</VAR> je počet úseků zídky. Po nich následuje
+<VAR>U</VAR> čísel určujících délky jednotlivých úseků, každé číslo je na samostatném
+řádku.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Pro každé zadání vypíše program právě jeden řádek s textem "<TT>Strazny ujde
+X ponorku.</TT>" kde <VAR>X</VAR> je počet ponorků potřebných k projití celé zídky.
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+3
+4 5
+9
+10
+7
+11
+15
+1 3
+5
+3
+7
+4 2
+6
+7
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Strazny ujde 12 ponorku.
+Strazny ujde 15 ponorku.
+Strazny ujde 3 ponorku.
+</PRE>
+<P>
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="rozchod"></A><H2 ALIGN="Center">Rozejděte se!</H2>
+<P ALIGN="Center">
+<TT><A HREF="rozchod.c">rozchod.c</A></TT>,
+<TT><A HREF="rozchod.p">rozchod.p</A></TT>,
+<TT>rozchod.C</TT><BR>
+<TT><A HREF="rozchod.in">rozchod.in</A></TT>,
+<TT><A HREF="rozchod.out">rozchod.out</A></TT>,
+
+<P>
+Nejoblíbenější větou každého správného policisty je
+,,Občané, rozejděte se! Není tady nic k&nbsp;vidění!''. Ovšem samotná věta
+vždy nepomůže. Existují obsáhlé příručky, které popisují, jak se má
+policista zachovat, pokud občané neuposlechnou dobře míněné výzvy a
+nerozejdou se. Nejdůležitější rada pro takovou chvíli říká, že je dobré
+hlouček lidí rozdělit tak, aby jich bylo pohromadě co nejméně. A o takové
+dělení nám půjde i v&nbsp;této úloze. Úkolem bude hledat různá dělení hloučku, aby
+si z&nbsp;nich policista mohl vybrat to nejsnáze realizovatelné.
+
+<P>
+
+<P>
+Pro zjednodušení uvažujeme pouze takzvané ,,ortogonální normohloučky
+stejnoměrně rozlehlých občanů'', což je termín zavedený v&nbsp;dnes již klasické
+příručce na toto téma <EM>Rozcházení se snadno a rychle</EM>. Takový normohlouček
+je možné modelovat jako čtvercový útvar složený z&nbsp;<VAR>N  x N</VAR> čtvercových
+občanů stejné půdorysové velikosti. Úkolem policisty je tento hlouček
+rozdělit na dvě poloviny. A ideální poloviny jsou samozřejmě takové, které
+jsou obě stejné, a to nejen co do velikosti, ale i do tvaru.
+
+<P>
+
+<P>
+Kromě toho je však také nutné uvažovat způsob oddělení obou polovin od sebe.
+Existuje speciální oddělovací policejní páska určená speciálně k&nbsp;tomuto
+účelu, v&nbsp;policejním žargonu se jí říká ,,oddělovačka''. Tuto páskou je
+možné rychle ovinout kolem skupiny občanů, a tak je oddělit od zbytku davu.
+Vzhledem k&nbsp;tomu, že oddělovačka je velmi drahá, nesmí se nikdy stříhat ani
+krátit. Je proto nutné najít takové rozdělení normohloučku, kdy každá ze
+vzniklých polovin má přesně daný obvod.
+
+<P>
+
+<P>
+Vaším úkolem je určit počet různých způsobů, kterými je možné rozdělit
+čtvercový normohlouček o velikosti strany <VAR>N</VAR> takovým způsobem, aby vznikly
+dvě části o přesně daném obvodu <VAR>M</VAR>. Tyto části musí být stejné, to znamená,
+že jedna musí být převeditelná na druhou pouze pomocí operací posunu, otáčení
+a zrcadlení. Dělící linie může samozřejmě vést pouze po hranách
+,,jednotkových čtverečků'', aby žádný občan neutrpěl zranění.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání sestává ze dvou čísel <VAR>N</VAR> a <VAR>M</VAR>,
+
+2  &lt;= <VAR>N</VAR>  &lt;= 20, 
+2  &lt;= <VAR>M</VAR>  &lt;= 60,
+uvedených na stejném řádku a oddělených mezerou. První číslo (<VAR>N</VAR>) udává
+velikost strany čtverce, druhé (<VAR>M</VAR>) je délka pásky, tedy obvod každé z polovin,
+které mají rozdělením vzniknout.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Pro každé zadání musí program vypsat právě jeden řádek. Pokud není možné
+rozdělit normohlouček na dvě stejné části se zadaným obvodem, bude na řádku
+věta "<TT>Rozdeleni neni mozne.</TT>". V&nbsp;ostatních případech vytisknětě větu
+"<TT>Existuje </TT><VAR>R</VAR><TT> ruznych moznosti.</TT>", kde <VAR>R</VAR> je počet různých způsobů,
+jak hlouček rozdělit předepsaným způsobem. Dva způsoby jsou považovány za
+různé, pokud vzniklé poloviny jsou rozdílné, tedy pokud nelze polovinu
+z&nbsp;jednoho dělení převést na polovinu podle druhého dělení pomocí operací
+posunutí, otáčení a zrcadlení.
+
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+3
+2 5
+4 12
+6 24
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Rozdeleni neni mozne.
+Existuje 1 ruznych moznosti.
+Existuje 10 ruznych moznosti.
+</PRE>
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="spojka"></A><H2 ALIGN="Center">Pražská spojka</H2>
+<P ALIGN="Center">
+<TT><A HREF="spojka.c">spojka.c</A></TT>,
+<TT><A HREF="spojka.p">spojka.p</A></TT>,
+<TT>spojka.C</TT><BR>
+<TT><A HREF="spojka.in">spojka.in</A></TT>,
+<TT><A HREF="spojka.out">spojka.out</A></TT>,
+
+<P>
+Dobrá informovanost o aktuální situaci je pro Policii velmi důležitá.
+V&nbsp;případě poruchy telekomunikačního vedení nemají mezi
+sebou jednotlivá stanoviště spojení, které tak musí být nahrazeno pomocí
+poslů. Každý posel může vyřídit vzkaz na daném místě a v&nbsp;daný okamžik.
+Přestože poslové používají moderních dopravních prostředků (bicyklů), je
+přeci jen při jejich práci velice důležité znát vzdálenost, na kterou je třeba
+zprávu dopravit. Proto musí posel vždy volit nejkratší cestu, aby dorazil do
+cíle své cesty co nejdříve. Kromě toho se někdy může stát, že některé veřejné
+komunikace není možné kvůli občanským nepokojům použít. V&nbsp;krajním případě se
+dokonce všechna stanoviště rozpadnou na dvě nebo i více skupin, mezi kterými
+není žádné spojení.
+
+<P>
+
+<P>
+Policejní složky mají velmi propracovaný projekt infrastruktury, je vždy
+přesně dáno rozmístění stanovišť v&nbsp;terénu a vzdálenosti mezi nimi. Proto
+je možné zmapovat vzdálenosti mezi jednotlivými stanovišti a rozhodnout,
+která cesta je pro případného posla nejhorší. Podle ní se potom zjišťuje,
+jaká aktuálnost krizového zpravodajství může být zaručena.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+První řádek vstupního souboru obsahuje celé kladné číslo <VAR>Z</VAR>, za kterým
+následuje postupně <VAR>Z</VAR> zadání. Každé zadání začíná řádkem obsahujícím dvě
+čísla oddělená mezerou. Jsou to po řadě počet jednotek (stanovišť)
+<VAR>J</VAR>, 
+2 &lt;= <VAR>J</VAR> &lt;= 300 a počet existujících spojnic mezi nimi
+<VAR>S</VAR>, 
+0 &lt;= <VAR>S</VAR> &lt;= <VAR>J</VAR>.(<VAR>J</VAR>-1) / 2.
+Dále následuje <VAR>S</VAR> řádků, každý z&nbsp;nich obsahuje právě tři čísla oddělená
+mezerou. První dvě čísla udávají čísla spojených stanovišť (jednotky jsou
+číslovány od jedné do <VAR>J</VAR>) a třetí číslo je délka spojnice mezi
+nimi. Je přitom možné, aby mezi nimi existovala také kratší cesta, která vede
+přes některé jiné stanoviště. I takovou samozřejmě může posel využít. Žádná
+dvojice stanovišť se v&nbsp;rámci jednoho zadání nevyskytne dvakrát.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Úkolem je najít takovou dvojici stanovišť, mezi kterými je maximální
+vzdálenost v&nbsp;případě použití nejkratší možné cesty. Cesta může vést pouze po
+zadaných spojnicích. Pro každé zadání vypíše program větu
+"<TT>Nejvetsi vzdalenost je </TT><VAR>V</VAR><TT>.</TT>", kde <VAR>V</VAR> je délka nejdelší cesty mezi
+dvěma stanovišti, mezi kterými nelze nalézt cestu kratší. Pokud by zadaná
+situace znamenala, že existuje alespoň jedna dvojice stanovišť taková, že mezi
+nimi neexistuje žádné spojení, vypíše program místo toho větu
+"<TT>Bez spojeni neni veleni!</TT>".
+
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+2
+5 5
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 1 5
+5 2
+1 2 1
+2 3 1
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Nejvetsi vzdalenost je 7.
+Bez spojeni neni veleni!
+</PRE>
+<P>
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+<A NAME="tokeny"></A><H2 ALIGN="Center">Tokeny</H2>
+<P ALIGN="Center">
+<TT><A HREF="tokeny.c">tokeny.c</A></TT>,
+<TT><A HREF="tokeny.p">tokeny.p</A></TT>,
+<TT>tokeny.C</TT><BR>
+<TT><A HREF="tokeny.in">tokeny.in</A></TT>,
+<TT><A HREF="tokeny.out">tokeny.out</A></TT>,
+
+
+<P>
+Důležitou složkou přípravy na očekáváné demonstrace je pozorné sledování
+toho, co aktivisté chystají. V&nbsp;dnešní době již i odpůrci globalizace běžně
+používají globální Internet k&nbsp;tomu, aby proti globalizaci protestovali.
+Nepřekvapí, že i ostatní skupiny obyvatel, kteří svolávají veřejné
+shromáždění, často vytvářejí webovské stránky informující o chystaných
+aktivitách. Tento způsob je velmi výhodný k&nbsp;oslovení velkého počtu lidí, ale
+naštěstí zároveň také pomáhá Policii, aby si udělala předběžný obrázek o&nbsp;tom,
+co se chystá.
+
+<P>
+Bohužel je však na současném Internetu stránek velmi mnoho, a tak není snadné
+nalézt takové, na kterých jsou podobné akce svolávány. Proto bylo rozhodnuto,
+že se pro Policii vytvoří speciální program využívající nejnovější poznatky
+z&nbsp;oblasti umělé inteligence. Úkolem tohoto programu bude procházet
+internetové stránky a automaticky detekovat ,,podezřelé'' texty. Ty jsou
+potom nahlášeny policistům k&nbsp;přezkoumání. Základní činností programu je
+rozbor anglického textu a pokus o určení jeho přibližného obsahu. K&nbsp;tomu je
+nutná podrobná analýza textu, nejprve lexikální (na úrovni slov a symbolů),
+poté syntaktická (na úrovni vět). V&nbsp;tomto příkladě budeme uvažovat pouze
+první, lexikální část.
+
+<P>
+Jak jistě víte, lexikální analyzátor čte posloupnost znaků textu a vytváří
+posloupnost lexikálních elementů (tokenů). Když lexikální analyzátor
+přečte např. text <TT>abc+123</TT>, vytvoří (za předpokladu, že text je
+analyzován podle jazyka pro aritmetický výraz) tokeny
+ [<TT>abc</TT>] [<TT>+</TT>] [<TT>123</TT>] .
+
+<P>
+
+<P>
+Podívejme se nyní podrobněji na proces čtení znaků. Poté, co jsou přečteny
+znaky <TT>a</TT>,&nbsp;<TT>b</TT> a <TT>c</TT>, je rozhodnuto o tom, že se vytvoří token
+ [<TT>abc</TT>] , na základě toho, že za nimi následuje znak&nbsp;<TT>+</TT>, protože
+znak&nbsp;<TT>+</TT> nemůže být součástí identifikátoru. O&nbsp;vytvoření tokenu tedy
+v tomto případě rozhoduje první znak dosud nepřečtené části textu. Naproti tomu
+po přečtení znaku&nbsp;<TT>+</TT> víme s&nbsp;jistotou, že token může být ihned vytvořen,
+protože znaky za ním už na jeho vytvoření nemají vliv. Tokeny se tedy liší
+podle toho, kolik znaků dosud nepřečtené části textu rozhoduje o&nbsp;tom, jak budou
+vytvořeny.
+
+<P>
+
+<P>
+Problém je v&nbsp;tom, že internetové stránky se často mění a bylo by
+neefektivní po každé změně provádět analýzu celého textu znovu. Proto se vždy
+analyzuje pouze změněné místo a jeho okolí. Bohužel, kvůli výše uvedeným
+závislostem, pokud u nějakého tokenu dojde ke změně textu, může tato změna
+ovlivnit i tvorbu několika tokenů před ním. U každého tokenu <VAR>t</VAR> proto
+definujeme číslo 
+<VAR>lookback</VAR>(<VAR>t</VAR>), které udává vzdálenost nejzazšího tokenu (ve
+směru od tokenu <VAR>t</VAR> k&nbsp;začátku textu), který je při svém vytváření ovlivněn
+textem tokenu&nbsp;<VAR>t</VAR>. Pokud takový
+token není, bude 
+<VAR>lookback</VAR>(<VAR>t</VAR>)=0. Vzdálenost dvou tokenů chápeme intuitivně jako
+počet mezilehlých tokenů plus jedna.
+
+<P>
+
+<P>
+V&nbsp;našem příkladu jsou hodnoty <VAR>lookback</VAR>jednotlivých tokenů rovny po řadě 0, 1 a&nbsp;0. Vaším úkolem je napsat program,
+který pro zadanou posloupnost tokenů vypočte <VAR>lookback</VAR> každého tokenu.
+
+<P>
+
+<P>
+<H3>Specificace vstupu:</H3>
+<P>
+
+<P>
+Vstup se skládá z <VAR>N</VAR> zadání. Na prvním řádku vstupu je
+přirozené číslo <VAR>N</VAR>, <VAR>N</VAR>&gt;0. Dále následují jednotlivá zadání. Každé zadání je
+tvořeno posloupností tokenů. Každý token je popsán na samostatném řádku
+dvojicí čísel <VAR>L</VAR>, <VAR>A</VAR>, <VAR>L</VAR> &gt;= 1, <VAR>A</VAR> &gt;= 0, kde <VAR>L</VAR> je počet znaků
+tokenu, <VAR>A</VAR> je počet znaků dosud nepřečtené části vstupního textu, které
+rozhodují o okamžiku vytvoření tokenu. Posloupnost tokenů je
+zakončena dvojicí 0&nbsp;0,
+která není popisem tokenu. Délka posloupnosti
+a celkový počet znaků vstupního textu se vejdou do pascalského typu <TT>integer</TT> nebo céčkového typu <TT>int</TT>, jinak však nejsou omezeny.
+Velikost hodnoty <VAR>lookback</VAR> nepřesahuje u žádného tokenu 250000.
+
+<H3>Specifikace výstupu:</H3>
+
+<P>
+Pro každé zadání vypište nejprve na samostatný řádek text
+"<TT>Zadani&nbsp;</TT><VAR>X</VAR><TT>:</TT>", kde <VAR>X</VAR> je pořadové číslo zadání počítáno od
+jedničky. Dále vypište pro každý token (v&nbsp;pořadí podle vstupu) na samostatný
+řádek jediné číslo udávající <VAR>lookback</VAR> příslušného tokenu. Na konci každého
+zadání (včetně posledního) vytiskněte jeden prázdný řádek.
+
+
+<H3>Příklad vstupu:</H3>
+
+<PRE>
+2
+3 1
+1 0
+3 1
+0 0
+4 2
+1 5
+2 1
+2 1
+0 0
+</PRE>
+
+<H3>Příklad výstupu:</H3>
+
+<PRE>
+Zadani 1:
+0
+1
+0
+
+Zadani 2:
+0
+1
+2
+2
+</PRE>
+
+</TABLE>
+
+<!-- ***** konec stranky (s pocitadlem pristupu) ***** -->
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+<P><TABLE BORDER=0>
+<TR><TD>Na těchto stránkách jste návštěvníkem číslo
+<TD><IMG SRC="http://hpk.felk.cvut.cz/cgi-bin/contest/counter.cgi?00prg"
+WIDTH=128 HEIGHT=48>
+<TD>od 25.&nbsp;září 2000.
+</TABLE>
+</CENTER>
+
+</BODY>
+</HTML>

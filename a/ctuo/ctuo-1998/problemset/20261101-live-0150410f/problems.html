@@ -1,0 +1,823 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 3.2//EN">
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://contest.felk.cvut.cz/98prg/problems.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<meta charset="utf-8">
+   <TITLE>CTU Open Contest 1998 - Zadání úloh</TITLE>
+   <META NAME="Description" CONTENT="ACM International Collegiate
+         Programming Contest, zadání úloh pražského kola (CTU Open) 1998.">
+   <META NAME="Keywords" CONTENT="ACM, Programming Contest, CTU Open">
+   <META NAME="Author" CONTENT="Martin Kačer, Boba Mannová">
+   <META NAME="Generator" CONTENT="hand made (using NEdit)">
+</HEAD>
+
+
+<BODY BGCOLOR="White">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://contest.felk.cvut.cz/98prg/problems.html">https://contest.felk.cvut.cz/98prg/problems.html</a> (live fetch 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/ctuo-1998.html">ctuo-1998</a>  <a href="https://web.archive.org/web/*/https://contest.felk.cvut.cz/98prg/problems.html">wayback</a>  <a href="https://contest.felk.cvut.cz/98prg/problems.html">live</a></div>
+
+
+<!-- ***** klikaci mapy ***** -->
+
+<!-- linka s vyberem kodovani -->
+<MAP NAME="map-czset">
+<!--
+   <AREA SHAPE="Circle" COORDS="386,15,16" ALT="ISO-8859-2"
+   HREF="/iso2/98prg/problems.html">
+   <AREA SHAPE="Circle" COORDS="419,15,16" ALT="Windows 1250"
+   HREF="/1250/98prg/problems.html">
+   <AREA SHAPE="Circle" COORDS="452,15,16" ALT="IBM CP 852"
+   HREF="/852/98prg/problems.html">
+   <AREA SHAPE="Circle" COORDS="484,15,16" ALT="Macintosh EE"
+   HREF="/mac/98prg/problems.html">
+   <AREA SHAPE="Circle" COORDS="518,15,16" ALT="Ascii 7-bit"
+   HREF="/ascii/98prg/problems.html">
+   <AREA SHAPE="Rect" COORDS="518,19,580,31" ALT="vybrat kódování"
+   HREF="czech.html">
+   -->
+   <AREA SHAPE="Circle" COORDS="78,15,16" ALT="English Version"
+   HREF="problemsE.html">
+   <AREA SHAPE="Rect" COORDS="14,19,72,31" ALT="English Version"
+   HREF="problemsE.html">
+</MAP>
+
+
+
+<!-- ***** zahlavi s logem souteze ***** -->
+
+<CENTER>
+<P><TABLE BORDER=0><TR><TD>
+<IMG SRC="../img/counter.gif" ALT="ACM" WIDTH=128 HEIGHT=96>
+<TD><IMG SRC="../img/contest.gif" ALT="Programming Contest"
+width=424 height=96></TABLE>
+
+<IMG SRC="../img/line-czech-2.gif" WIDTH=592 HEIGHT=32 BORDER=0
+ALT="kódování češtiny" USEMAP="#map-czset">
+
+
+
+<!-- ***** ulohy ***** -->
+
+
+<P><TABLE WIDTH=600 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR><TD>
+
+<P ALIGN="Center">Katedra počítačů ČVUT FEL &amp; Czech ACM Chapter
+
+<P ALIGN="Center">Soutěž v programování 1998
+
+
+<H2 ALIGN="Center">Rodina Okurkových</H2>
+
+<P>Vážení soutěžící,
+
+<P>pro toto kolo soutěže <I>ACM programming contest</I> jsme pro vás
+připravili několik praktických úloh, s&nbsp;nimiž se musí potýkat rodina
+Okurkových. Kromě hlavy rodiny, Toníka Okurky, poznáte také jeho krásnou
+ženu Julii, nezbedného syna Toníčka a hravou dceru Amálku.
+
+<P>Všechny programy, které máte vytvořit, mají číst vstupní data ze
+standardního vstupu a výsledky zapisovat v&nbsp;předepsané formě 
+na standardní výstup. Pokud není stanoveno jinak, jsou všechna
+čísla na vstupu volena tak, aby se vešla do standardního typu
+<I>integer</I> v&nbsp;Pascalu nebo <I>int</I> v&nbsp;Céčku.
+
+<P>Doufáme, že řešení těchto úloh bude pro vás znamenat přínos i jinde
+než v&nbsp;oblasti matematické informatiky a přejeme vám mnoho úspěchu
+při soutěži.
+
+<P ALIGN="Right">Organizátoři
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="mince"></A><H2 ALIGN="Center">Mince</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>mince.c, mince.p, mince.C</TT>)
+
+<P>Toníkova prababička byla šetrná paní a své nemalé úspory uložila
+do zlatých mincí. Před svou smrtí pak tyto mince spravedlivě rozdělila
+mezi své vnuky a vnučky. Tak dostal Toník jednu zlatou minci.
+Protože samotné minci by mohlo být smutno, nechal si Toník vyrobit
+několik přesných napodobenin. Napodobeniny byly vyrobeny tak precizně,
+že je od pravé mince nelze pohledem rozeznat. Bylo tedy třeba uchovávat
+pravou minci odděleně od napodobenin.
+
+<P>Jednoho dne půjčil Toník všechny mince Amálce na hraní a ta je
+promíchala. Toníka teď čeká nelehký úkol: najít pravou minci. Naštěstí ví,
+že všechny napodobeniny mají stejnou hmotnost a že hmotnosti napodobeniny a
+pravé mince se liší. Dále má k dispozici přesné váhy a závaží o hmotnostech
+1, 2, 2, 5, 10, 20, 20, 50, 100, 200, 200, 500 a 1000 gramů. Hmotnosti
+napodobeniny i pravé mince jsou celočíselným násobkem hmotnosti nejmenšího
+závaží. Vaším úkolem je napsat program, který pro zadaný počet mincí určí,
+jaký nejmenší počet vážení Toníkovi vždy stačí k tomu, aby nalezl pravou
+minci a určil, zda je pravá mince těžší či lehčí než její napodobenina. 
+Jedním vážením se rozumí jedno porovnání hmotností obsahů obou
+misek vah. Na obě misky je možné dát libovolné množství mincí i závaží.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje
+pouze celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání je tvořeno jedním řádkem. Na tomto řádku je uvedeno
+pouze jedno celé číslo <VAR>K</VAR>, <VAR>K > 2</VAR>, které znamená počet 
+zkoumaných mincí (včetně té pravé).
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vytiskne jeden řádek
+"<TT>Minimalni pocet vazeni je <VAR>X</VAR>.</TT>", kde za <VAR>X</VAR> se
+dosadí minimální počet vážení, který je nutný k rozpoznání pravé mince.
+
+<H3>Příklad vstupu</H3>
+<PRE>
+2
+12
+3
+</PRE>
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Minimalni pocet vazeni je 3.
+Minimalni pocet vazeni je 2.
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="reversi"></A><H2 ALIGN="Center">Reversi</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>reversi.c, reversi.p, reversi.C</TT>)
+
+<P>Toníkova dcera Amálka je hravé děvče a protože hraní s&nbsp;panenkami
+ji už dávno nebaví, hraje s&nbsp;kamarádkami důmyslnou hru <I>Reversi</I>.
+Reversi je hra určená pro dva hráče. Hrací plocha obsahuje 
+8&nbsp;x&nbsp;8 políček, do každého políčka lze podle určitých pravidel
+umístit nejvýše jeden žeton. Žeton je z jedné strany bílý, z&nbsp;druhé
+černý. Jeden hráč umísťuje žetony do hrací plochy bílou stranou nahoru,
+druhý bílou stranou dolu.
+
+<P ALIGN="Center"><IMG SRC="reversi.gif" ALT="Reversi" WIDTH=340 HEIGHT=170>
+
+<P>Hráč může položit žeton pouze do prázdného
+políčka a navíc pouze tehdy, "přebarví-li" alespoň jeden žeton protihráče.
+K&nbsp;přebarvení dojde, jestliže souvislá linie žetonů hráče, který nehrál,
+se umístěním žetonu stala obklopena žetony protihráče (jeden
+z&nbsp;obklopujících žetonů musí být ten, který byl právě položen na hrací
+plochu) a v&nbsp;takové situaci se všechny žetony této linie otočí 
+(tzn. změní barvu). Za souvislou linii se považují sousední žetony umístěné vodorovně, 
+svisle nebo diagonálně.
+
+<P>Při položení žetonu se vždy přebarvuje maximální možný počet žetonů.
+Obrázek ukazuje příklad, kdy v&nbsp;pozici nalevo byl položen žeton
+<TT>O</TT> na pozici <VAR>[7,3]</VAR>. Po přebarvení soupeřových žetonů
+vznikne situace zobrazená na obrázku vpravo.
+Hráči se v&nbsp;pokládání žetonů střídají. Nastane-li situace, kdy některý
+z&nbsp;nich nemůže táhnout tak, aby přebarvil alespoň jeden žeton
+protihráče, je na tahu znovu druhý hráč.
+Amálka by ráda měla program, který by mohla využít ve školním
+turnaji v&nbsp;této hře. Vaším úkolem je napsat tento program.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje pouze
+celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání se skládá z&nbsp;popisu hrací plochy, označení hráče, který
+je na tahu, a seznamu příkazů, které má program provést.
+
+<P>Hrací plocha je popsána osmi řádky, z&nbsp;nichž každý obsahuje osm
+znaků. Znak v&nbsp;<VAR>i</VAR>-tém řádku a v&nbsp;<VAR>j</VAR>-tém sloupci
+popisuje stav políčka se souřadnicemi <VAR>[i,j]</VAR> (řádky i sloupce
+číslujeme od jedné). K&nbsp;popisu stavu políčka jsou použity tyto znaky:
+<UL>
+   <LI>'<TT>-</TT>' znamená prázdné políčko,
+   <LI>'<TT>X</TT>' znamená políčko obsazené hráčem <TT>X</TT>,
+   <LI>'<TT>O</TT>' znamená políčko obsazené hráčem <TT>O</TT>.
+</UL>
+
+<P>Jako označení hráče, který je na tahu, je použito písmeno '<TT>X</TT>',
+nebo písmeno '<TT>O</TT>'.
+
+<P>Seznam příkazů jsou příkazy uváděné vždy na samostatném řádku a
+zakončené příkazem '<TT>Q</TT>'.
+Povolené příkazy:
+<UL>
+   <LI>'<TT>L</TT>' znamená požadavek na výpis všech legálních tahů hráče,
+   který je právě na tahu.
+   
+   <LI>'<TT>M</TT>' znamená požadavek na provedení tahu hráčem, který je na
+   tahu. Příkaz '<TT>M</TT>' je vždy bezprostředně následován dvojicí číslic
+   <VAR>x</VAR> a <VAR>y</VAR>, <VAR>1 &lt;= x,y &lt;= 8</VAR>. <VAR>x</VAR>
+   je číslo řádku a <VAR>y</VAR> je číslo sloupce políčka, na které chce
+   hráč položit svůj žeton. Jestliže hráč, který je na tahu, nemůže táhnout,
+   tak aby přebarvil alespoň jeden žeton soupeře, vztahuje se zadaný tah na
+   druhého hráče.
+
+   <LI>'<TT>C</TT>' znamená požadavek na výpis počtu žetonů patřících
+   každému z&nbsp;hráčů.
+   
+   <LI>'<TT>D</TT>' znamená požadavek na zobrazení aktuálního obsazení hrací
+   plochy.
+   
+   <LI>'<TT>Q</TT>' ukončuje seznam příkazů.
+</UL>
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání vypíše program řádek "<TT>Hra c. <VAR>C</VAR>:</TT>",
+kde za <VAR>C</VAR> se dosadí pořadové číslo zadání. Zadání se číslují
+vzestupně od jedné. Dále program pro každý zadaný příkaz vypíše odpovídající
+výstup. Výstupy pro jednotlivé příkazy jsou:
+
+<UL>
+   <LI>'<TT>L</TT>' - seznam legálních tahů. Každý tah se vypíše jako
+   dvojice po sobě jdoucích číslic <VAR>x</VAR> a <VAR>y</VAR>. Dvojice jsou
+   navzájem odděleny čárkou. Všechny tahy se vypíší na jeden řádek. Tahy se
+   vypisují uspořádané vzestupně podle čísla řádku a potom podle čísla
+   sloupce. Pokud neexistuje žádný legální tah, program vypíše řádek
+   "<TT>Zadny legalni tah.</TT>".
+   
+   <LI>'<TT>M</TT>' -- provede požadovaný tah. Pokud hráč, který je právě na
+   tahu, nemůže legálně táhnout na požadované souřadnice, vypíše program
+   "<TT>Neplatny tah.</TT>", jinak tah provede a nevypíše nic.
+   Po provedení tahu se hráči střídají.
+
+   <LI>'<TT>C</TT>' vypíše počet žetonů hráče <TT>X</TT> a hráče <TT>O</TT>
+   ve tvaru "<TT>Hrac O: <VAR>XX</VAR>, hrac X: <VAR>YY</VAR></TT>", kde
+   <VAR>XX</VAR> je počet žetonů hráče <TT>O</TT> a <VAR>YY</VAR> je počet
+   žetonů hráče <TT>X</TT>.
+   
+   <LI>'<TT>D</TT>' zobrazí aktuální stav hrací plochy ve stejném formátu,
+   jako byl použit při zadání počáteční pozice.
+
+   <LI>'<TT>Q</TT>' vypíše prázdný řádek
+</UL>
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+2
+--------
+--------
+--------
+---XO---
+---OX---
+--------
+--------
+--------
+X
+L
+M35
+C
+L
+D
+Q
+XXXXO---
+XXXO----
+XXO-----
+XO------
+--------
+--------
+--------
+--------
+O
+L
+M25
+C
+L
+M67
+D
+Q
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Hra c. 1:
+35,46,53,64
+Hrac O: 1, hrac X: 4
+34,36,56
+--------
+--------
+----X---
+---XX---
+---OX---
+--------
+--------
+--------
+
+Hra c. 2:
+Zadny legalni tah.
+Hrac O: 3, hrac X: 12
+35
+Neplatny tah.
+XXXXO---
+XXXXX---
+XXO-----
+XO------
+--------
+--------
+--------
+--------
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="lode"></A><H2 ALIGN="Center">Lodě</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>lode.c, lode.p, lode.C</TT>)
+
+<P>Julie čte zajímavou vědecko-fantastickou knihu, v&nbsp;níž hlavní hrdinka
+potřebuje vyřešit problém, jak co nejvýhodněji využívat vesmírné
+nákladní lodě.
+Lodě mají přepravovat předměty ve tvaru <TT>D</TT>-dimenzionální mřížky,
+jejichž rozměr v&nbsp;každé dimenzi je 3. V&nbsp;uzlech mřížky jsou koule
+jednotkové váhy. Mezi uzly vedou spojnice, jejichž hmotnost je vzhledem
+k&nbsp;hmotnosti koulí zanedbatelná.
+Váha každého předmětu je tedy rovna počtu jeho uzlů. Cena každého 
+předmětu je rovna součtu počtu uzlů a počtu spojnic.
+Každá loď má určitou nosnost a my chceme přepravu organizovat tak, 
+aby při každé jízdě měl náklad maximální cenu.
+
+<CENTER>
+<TABLE WIDTH="100%"><TR>
+<TD ALIGN="Center">
+<IMG SRC="lode0.gif" ALT="0D" WIDTH=64 HEIGHT=64>
+<BR>nultá dimenze
+</TD><TD>
+<IMG SRC="lode1.gif" ALT="1D" WIDTH=64 HEIGHT=64>
+<BR>první dimenze
+</TD><TD>
+<IMG SRC="lode2.gif" ALT="2D" WIDTH=64 HEIGHT=64>
+<BR>druhá dimenze
+</TD></TABLE>
+</CENTER>
+
+<P>Vaším úkolem je napsat program, který pro zadanou nosnost určí, 
+kolik předmětů a jaké dimenze je třeba naložit, aby cena těchto předmětů
+byla maximální. Předpokládejte, že máte k&nbsp;dispozici neomezený počet
+kusů od každého předmětu.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje pouze
+celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání je tvořeno jedním řádkem, na němž je jedno
+celé nezáporné číslo <VAR>K</VAR>, <VAR>K &lt;= 10000000</VAR>, které
+určuje nosnost lodě.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vytiskne jeden řádek
+"<TT><VAR>X<SUB>m</SUB></VAR> <VAR>X<SUB>m-1</SUB></VAR> ...
+<VAR>X<SUB>1</SUB></VAR> <VAR>X<SUB>0</SUB></VAR></TT>", kde
+<VAR>X<SUB>m</SUB> &gt; 0</VAR> a  
+<VAR>X<SUB>i</SUB></VAR>, <VAR>0 &lt;= i &lt;= m</VAR> je počet předmětů
+<VAR>i</VAR>-té dimenze, které je třeba naložit, aby cena naložených
+předmětů byla maximální.
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+4
+1
+100
+175
+9841
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+1
+1 0 2 0 1
+2 0 1 1 1
+1 1 1 1 1 1 1 1 1
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="vylet"></A><H2 ALIGN="Center">Výlet</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>vylet.c, vylet.p, vylet.C</TT>)
+
+<P>Julie miluje pěší výlety do hor. Také Toník dříve rád vyrážel za sněhem
+a sluncem, často vybaven jen ešusem, lžící a spacákem. Jak léta ubíhala,
+uvykali oba postupně pohodlnému životu ve dvou místnostech svého
+panelákového bytu. Teď už se jen neradi vzdávájí pohodlí, jež nabízí
+luxusní otoman po babičce či dřevěná lavice z&nbsp;doby husitské.
+Asi vás proto nepřekvapí, že si chtějí vzít na výlet co možná nejvíce
+věcí. Zbývá vyřešit otázku, kdo tyto věci ponese. 
+Této otázce věnovali spoustu zimních večerů a po dlouhých
+diskuzích se dohodli na kompromisu:
+shromáždí věci, které si chtějí vzít s sebou, u každé věci zjistí její 
+hmotnost, a pak si věci rozdělí v určitém poměru.
+Vaším úkolem je napsat program, který jim zodpoví otázku, zda
+lze vybrané věci rozdělit na dvě množiny tak, aby součty hmotností
+věcí v&nbsp;každé z&nbsp;množin byly přesně v&nbsp;zadaném poměru.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje pouze
+celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání je tvořeno dvěma řádky. Na prvním řádku jsou tři celá
+kladná čísla <VAR>X</VAR>, <VAR>Y</VAR>, <VAR>Z</VAR>, <VAR>1 &lt;= X
+&lt;= 200</VAR>, <VAR>1 &lt;= Y,Z &lt;= 100</VAR>.
+Na druhém řádku je <VAR>X</VAR> celých kladných čísel, která udávají
+hmotnosti jednotlivých vybraných věcí. Čísla jsou navzájem oddělena mezerou.
+Žádné z&nbsp;těchto čísel není větší než <VAR>500</VAR>.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vytiskne jeden řádek. Pokud lze vybrané věci
+rozdělit na dvě množiny tak, aby poměr součtů hmotností v&nbsp;každé
+z&nbsp;množin byl <VAR>Y:Z</VAR>, bude výstup "<TT>Ano.</TT>",
+v&nbsp;opačném případě bude výstup "<TT>Ne.</TT>".
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+3
+10 1 1
+1 1 1 1 1 1 2 2 2 2
+5 2 2
+3 3 3 3 3
+6 2 5
+1 2 3 4 5 6 
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Ano.
+Ne.
+Ano.
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="tchyne"></A><H2 ALIGN="Center">Tchyně</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>tchyne.c, tchyne.p, tchyne.C</TT>)
+
+<P>Toník je vášnivý cyklista a často podniká výlety do míst blízkých
+i vzdálenějších. V&nbsp;poslední době však již neusedá na kolo
+s&nbsp;takovou chutí a nadšením jako dříve. Příčinou této změny je jeho
+tchyně, která se rozhodla, že jej bude na každé jeho cyklistické vyjížďce
+doprovázet. Umíte si asi představit tu radost a nadšení, jež se
+zrcadlily v&nbsp;Tondových očích poté, co mu tchyně sdělila svoje
+rozhodnutí. Naštěstí mu můžete pomoci. Po několika výletech totiž Tonda
+zjistil, že tchyně je po nastoupání určitého počtu metrů tak vyčerpaná, že
+není schopna pokračovat v&nbsp;jízdě. Proto zvolil tuto organizaci společné
+vyjíždky: on i tchyně vyjedou ze stejného bodu a každý sám se dopraví na
+předem určené místo srazu. Vaším úkolem je napsat program, který Tondovi
+pomůže určit, zda tchyně může dojet na místo srazu či nikoliv.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje
+pouze celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Na prvním řádku každého zadání jsou rozměry obdélníkové mapy
+<VAR>R</VAR> a <VAR>C</VAR>, <VAR>1 &lt;= R,C &lt;= 100</VAR>. Následuje
+<VAR>R</VAR> řádků, z&nbsp;nichž každý obsahuje <VAR>C</VAR> čísel. Číslo na
+<VAR>i</VAR>-té pozici v&nbsp;<VAR>j</VAR>-tém řádku udává  nadmořskou výšku
+bodu o souřadnicích <VAR>[i,j]</VAR>. Souřadnice levého horního rohu mapy
+jsou <VAR>[1,1]</VAR>. Body jsou spojeny cestami, které tvoří pravoúhlou
+mřížku. Cesta mezi dvěma sousedními body vede vždy pouze do kopce, nebo
+pouze z&nbsp;kopce, nebo po rovině.
+
+<P>První řádek, který následuje po definici mapy, obsahuje pouze
+číslo <VAR>T</VAR>, které udává počet metrů, jež je tchyně schopna
+maximálně nastoupat. Další řádek obsahuje pouze
+čtyři čísla <VAR>R<SUB>1</SUB></VAR>, <VAR>C<SUB>1</SUB></VAR>,
+<VAR>R<SUB>2</SUB></VAR>, <VAR>C<SUB>2</SUB></VAR>. Čísla jsou navzájem 
+oddělená mezerou. <VAR>R<SUB>1</SUB></VAR>, <VAR>C<SUB>1</SUB></VAR> jsou
+souřadnice výchozího bodu a <VAR>R<SUB>2</SUB></VAR>,
+<VAR>C<SUB>2</SUB></VAR> jsou souřadnice místa srazu.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každý dotaz program vytiskne jeden řádek textu. Pokud tchyně může
+dojet na místo srazu, vytiskne "<TT>Tchyne muze dojet.</TT>", v&nbsp;opačném
+případě vytiskne "<TT>Tchyne nedojede.</TT>". Předpokládejte, že tchyně
+jezdí pouze po cestách.
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+2
+3 3
+1 2 3
+2 3 2
+3 2 1
+1
+1 1 3 3
+6 5
+1 2 3 4 5
+9 8 7 6 5
+1 2 3 4 5 
+1 9 9 9 9
+7 5 5 5 5 
+1 1 1 1 1 
+8
+1 1 6 2 
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Tchyne nedojede.
+Tchyne muze dojet.
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="zlomky"></A><H2 ALIGN="Center">Zlomky</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>zlomky.c, zlomky.p, zlomky.C</TT>)
+
+<P>Malý Toník Okurka je ve věku, kdy děti ještě pravidelně navštěvují
+základní školu. Většina z&nbsp;nich sice už dávno není přesvědčena
+o prospěšnosti takového počínání, nicméně z&nbsp;různých důvodů do
+školy alespoň občas docházejí. Vždyť uznejte, že např. kouřit 
+někde sám daleko za městem je nesrovnatelné s tím, když si
+zapálíte cigaretu za přítomnosti spolužáků na školním záchodku.
+
+<P>S&nbsp;malým Toníčkem má však paní učitelka jiné trápení. 
+Docházení do školy mu sice nečiní velké potíže, horší je to ale s tím, 
+jak jej ve škole udržet v&nbsp;klidu. Protože je to neposeda, vymyslela
+si na něj paní učitelka tuto lest: každé ráno dostane Toník několik
+příkladů na počítání se zlomky a musí zůstat ve škole, dokud je
+všechny nevyřeší. To se Toníkovi moc nelíbí, protože spíše než 
+zlomky jej zajímá poslední verze <I>Kernel Hacker's Guide</I> a nejnovější
+číslo Playboye. Proto by rád měl program, který za něj příklady vyřeší.
+Vaším úkolem je tento program napsat.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje pouze
+celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání, každé na
+jednom řádku. Každé zadání se skládá z&nbsp;výrazu, kde výraz je
+<UL>
+   <LI><I>výraz</I>,
+   <LI><I>výraz</I> operátor <I>výraz</I> (operátor je z&nbsp;množiny
+   {'<TT>+</TT>', '<TT>-</TT>', '<TT>*</TT>', '<TT>/</TT>'}),
+   <LI><I>číslo</I> (v&nbsp;desítkové soustavě, číslo může být uvedeno se
+   znaménkem).
+</UL>
+
+<P>Výrazy se vyhodnocují zleva doprava a uplatňují se standardní 
+priority operátorů. Po provedení každé dílčí operace je možné mezivýsledek
+reprezentovat jako podíl dvou celých čísel, z&nbsp;nichž se obě vejdou
+do standardního typu <I>integer</I> v&nbsp;Pascalu a <I>int</I>
+v&nbsp;Céčku.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vytiskne jeden řádek "<TT>Vysledek je
+<VAR>X</VAR>.</TT>", kde za <VAR>X</VAR> se dosadí hodnota zadaného výrazu.
+Pokud je výsledek ve formě zlomku, musí být maximálně zkrácen (tj. čitatel i
+jmenovatel musí být nesoudělná čísla).
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+7
+9/19-4/19+2/19
+2/3+1/3
++21/+20*-2/+3
++4/+5++5/+6
+(3/4)/(5/7)
+45/4/6/5/7
+(10000/10000)*(10000/10000)*(10000/10000)
+</PRE>
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Vysledek je 7/19.
+Vysledek je 1.
+Vysledek je -7/10.
+Vysledek je 49/30.
+Vysledek je 21/20.
+Vysledek je 3/56.
+Vysledek je 1.
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="noty"></A><H2 ALIGN="Center">Noty</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>noty.c, noty.p, noty.C</TT>)
+
+<P>Toník není žádný velký muzikant. Má však hudbu rád, a proto se rozhodl,
+že se v ní zdokonalí. Za tímto účelem opouští pravidelně každý čtvrtek
+svoji krásnou ženu Julii a odchází do jedné z pražských garáží,
+aby zde vyluzoval zvuky ne zcela nepodobné hudbě. 
+Jeho oblíbeným nástrojem je klavír. Protože ještě nezvládá akordy,
+doprovází zbytek orchestru alespoň samostatnými tóny.
+To, jaké tóny má Tonda hrát, se dozví vždy při zkoušce od kapelníka.
+Tondova paměť však trpí častými návštěvami restaurací 
+5. cenové skupiny, a tak si Tonda musí jednotlivé tóny zapisovat, aby
+je do přístí zkoušky nezapomněl. Tóny zapisuje jako řetězce složené
+ze znaků <TT>a</TT>, <TT>b</TT>, <TT>c</TT>, <TT>d</TT>, <TT>e</TT>,
+<TT>f</TT>, <TT>g</TT>, <TT>h</TT>. I přes Tondovu snahu se často stane,
+že mu v zápise nějaké tóny chybějí, či naopak přebývají.
+Nedávno při prohlídce osobních věcí zjistil, že vlastní dva 
+takovéto tónové zápisy.
+Protože si není jistý tím, který z&nbsp;nich je ten správný, rozhodl se,
+že z obou zápisů vyškrtne minimální počet tónů tak, aby oba zápisy
+byly shodné. Tím dosáhne toho, že v&nbsp;zápise určitě nebudou žádné tóny
+špatně. Vaším úkolem je napsat program, který pro zadané
+dva tónové zápisy určí, jaký celkový nejmenší počet tónů je třeba 
+vyškrtnout, abychom dostali dva shodné zápisy.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje
+pouze celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání se skládá ze dvou řádků. Na každém z&nbsp;nich je jeden
+řetězec, který představuje jeden tónový zápis.
+Délka každého řetězce je nejméně 1 a nejvýše 1000.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vytiskne jeden řádek 
+"<TT>Je treba vyskrtnout <VAR>X</VAR> tonu.</TT>", kde za <VAR>X</VAR> se
+dosadí minimální počet tónů, které je třeba vyškrtnout, aby zbylé řetězce
+byly shodné.
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+2
+abab
+bbabc
+cdacbed
+cdhacb
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Je treba vyskrtnout 3 tonu.
+Je treba vyskrtnout 3 tonu.
+</PRE>
+
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+
+<A NAME="podnikatel"></A><H2 ALIGN="Center">Podnikatel</H2>
+
+<P ALIGN="Center">(<B>název programu:</B>
+<TT>podnikatel.c, podnikatel.p, podnikatel.C</TT>)
+
+<P>Malý Toník plánuje stát se podnikatelem a vydělat spoustu peněz. 
+Protože nerad něco odkládá, začal již svůj sen uskutečňovat. 
+Zatím zkoušel štěstí na střelnici u kolotočů, na hracích automatech
+a dokonce i při karetní hře Boží požehnání, lidově též Gotes.
+Bohužel, štěstí mu moc nepřálo, a tak jeho podnikání vykazuje
+ztrátu. Není ovšem všemu konec, neboť Toník objevil novou hazardní 
+hru Master-Mind, která by mu mohla veškeré ztráty vynahradit.
+
+<P>Dříve než však přistoupí na hru o peníze, chce se Master-Mind důkladně
+naučit. Za tímto účelem potřebuje program, který dokáže ohodnotit
+jeden pokus v&nbsp;této hře. Vaším úkolem je napsat tento program.
+Program dostane na vstupu dvě posloupnosti <VAR>A<SUB>1</SUB>,
+A<SUB>2</SUB>, ... A<SUB>M</SUB></VAR>
+a <VAR>B<SUB>1</SUB>, B<SUB>2</SUB>, ... B<SUB>M</SUB></VAR>. Jeho úkolem je
+určit počet míst, na kterých jsou v&nbsp;obou posloupnostech stejná
+čísla, a dále počet čísel, která se vyskytují v&nbsp;obou posloupnostech
+na různých místech.
+
+<P>Nechť <VAR>Z</VAR> je množina takových dvojic <VAR>(I,J)</VAR>,
+<VAR>1 &lt;= I,J &lt;= M</VAR>, že <VAR>A<SUB>I</SUB> = B<SUB>J</SUB></VAR>
+a nechť pro každé dva různé prvky této množiny
+<VAR>(I<SUB>1</SUB>,J<SUB>1</SUB>)</VAR> a
+<VAR>(I<SUB>2</SUB>,J<SUB>2</SUB>)</VAR> platí, že
+<VAR>I<SUB>1</SUB> &lt;&gt; I<SUB>2</SUB></VAR> a
+<VAR>J<SUB>1</SUB> &lt;&gt; J<SUB>2</SUB></VAR>.
+Potom označíme <VAR>X(Z)</VAR> počet takových prvků množiny <VAR>Z</VAR>,
+pro které <VAR>I = J</VAR>, a <VAR>Y(Z)</VAR> počet prvků, pro které
+<VAR>I &lt;&gt; J</VAR>.
+
+<P>Nyní definujeme relaci uspořádání nad všemi možnými množinami
+<VAR>Z</VAR> takto: <VAR>Z<SUB>1</SUB> &lt;= Z<SUB>2</SUB></VAR> právě
+tehdy, když platí jedna z&nbsp;následujících dvou možností:
+<UL>
+   <LI><VAR>X(Z<SUB>1</SUB>) &lt; X(Z<SUB>2</SUB>)</VAR>
+   <LI><VAR>X(Z<SUB>1</SUB>) = X(Z<SUB>2</SUB>)</VAR> a zároveň
+   <VAR>Y(Z<SUB>1</SUB>) &lt;= Y(Z<SUB>2</SUB>)</VAR>
+</UL>
+
+<P>Úkolem programu je zjistit hodnoty <VAR>X(Z<SUB>max</SUB>)</VAR> a
+<VAR>Y(Z<SUB>max</SUB>)</VAR>, kde <VAR>Z<SUB>max</SUB></VAR> je největší ve
+smyslu uvedené relace. Nazvěme <VAR>X(Z<SUB>max</SUB>)</VAR> počet černých
+kolíčků a <VAR>Y(Z<SUB>max</SUB>)</VAR> počet bílých kolíčků.
+
+
+<H3>Specifikace vstupu</H3>
+
+<P>Vstup se skládá z <VAR>N</VAR> zadání. První řádek vstupu obsahuje
+pouze celé kladné číslo <VAR>N</VAR>. Dále následují jednotlivá zadání.
+Každé zadání je tvořeno třemi řádky. Na prvním řádku každého
+zadání jsou dvě čísla <VAR>M</VAR> a <VAR>K</VAR>,
+<VAR>1 &lt;= M,K &lt;= 1000000</VAR>.
+Hodnota <VAR>M</VAR> udává počet členů posloupnosti, <VAR>K</VAR> je
+maximální číslo, které se může v&nbsp;posloupnostech vyskytnout. Na druhém
+řádku každého zadání jsou čísla
+<VAR>A<SUB>1</SUB>, A<SUB>2</SUB> ... A<SUB>M</SUB></VAR>, navzájem oddělena
+mezerami. Na třetím řádku každého zadání jsou čísla
+<VAR>B<SUB>1</SUB>, B<SUB>2</SUB> ... B<SUB>M</SUB></VAR>,
+také navzájem oddělena mezerami.
+
+
+<H3>Specifikace výstupu</H3>
+
+<P>Pro každé zadání program vypíše řádek "<TT>Cernych: <VAR>X</VAR>,
+bilych: <VAR>Y</VAR></TT>", kde za <VAR>X</VAR> se dosadí
+počet černých kolíčků a za <VAR>Y</VAR> se dosadí počet bílých kolíčků.
+
+
+<H3>Příklad vstupu</H3>
+<PRE>
+3
+5 3
+1 2 3 1 2
+2 3 1 2 3
+1 2
+1
+2
+9 9
+1 2 3 4 5 6 7 8 9
+2 3 1 4 5 6 8 9 7
+</PRE>
+
+
+<H3>Příklad výstupu</H3>
+<PRE>
+Cernych: 0, bilych: 4
+Cernych: 0, bilych: 0
+Cernych: 3, bilych: 6
+</PRE>
+
+
+</TABLE>
+
+
+<!-- ***** konec stranky (s pocitadlem pristupu) ***** -->
+
+<P><IMG SRC="../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!--
+<P><TABLE BORDER=0>
+<TR><TD>Na těchto stránkách jste návštěvníkem číslo
+<TD><IMG SRC="http://hpk.felk.cvut.cz/cgi-bin/contest/counter.cgi?98prg"
+WIDTH=128 HEIGHT=48>
+<TD>od 9.&nbsp;května 1998.
+</TABLE>
+-->
+</CENTER>
+
+
+</BODY>
+</HTML>

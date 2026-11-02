@@ -1,0 +1,1345 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://contest.felk.cvut.cz/04prg/solved/index.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+   <TITLE>Problems Statement: CTU Open 2004 Contest</TITLE>
+   <META NAME="Description" CONTENT="ACM International Collegiate
+         CTU Open 2004 Contest, problem set statement.">
+   <META NAME="Keywords" CONTENT="ACM, Programming Contest, CTU Open 2004 Contest">
+   <META NAME="Author" CONTENT="Michal Sevcenko">
+   <META NAME="Generator" CONTENT="hand made">
+</HEAD>
+<BODY BGCOLOR="White">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://contest.felk.cvut.cz/04prg/solved/index.html">https://contest.felk.cvut.cz/04prg/solved/index.html</a> (live fetch 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/ctuo-2004.html">ctuo-2004</a>  <a href="https://web.archive.org/web/*/https://contest.felk.cvut.cz/04prg/solved/index.html">wayback</a>  <a href="https://contest.felk.cvut.cz/04prg/solved/index.html">live</a></div>
+
+
+<!-- linka s mailem -->
+<MAP NAME="map-mail">
+   <AREA SHAPE="Circle" COORDS="471,15,16" ALT="e-mail"
+   HREF="mailto:cinfo@contest.felk.cvut.cz">
+   <AREA SHAPE="Rect" COORDS="471,20, 510,31" ALT="e-mail"
+   HREF="mailto:cinfo@contest.felk.cvut.cz">
+   
+   <AREA SHAPE="Circle" COORDS="535,15,16" ALT="how to use these pages?"
+   HREF="../../help.html">
+   <AREA SHAPE="Rect" COORDS="535,20, 578,31" ALT="how to use these pages?"
+   HREF="../../help.html">
+</MAP>
+
+
+<!-- ***** zahlavi s logem souteze ***** -->
+
+<CENTER>
+<P><TABLE BORDER=0><TR><TD>
+<IMG SRC="../../img/counter.gif" ALT="ACM" WIDTH=128 HEIGHT=96>
+<TD><IMG SRC="../../img/contest.gif" ALT="Programming Contest"
+width=424 height=96></TABLE>
+
+<IMG SRC="../../img/line-mail.gif" WIDTH=592 HEIGHT=32 ALT="e-mail"
+BORDER=0 USEMAP="#map-mail">
+
+
+<P><TABLE WIDTH=600 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR><TD>
+
+
+<DIV ALIGN=CENTER>
+Czech ACM Student Chapter<br>
+CTU in Prague, Dept. of Computer Science and Engineering<br>
+Charles University in Prague, MFF<br>
+V©B TU Ostrava, FEI, Dept. of Computer Science<br>
+SUT Bratislava, FEI, Dept. of Computer Science and Engineering 
+</DIV>
+
+<P>
+<H2 ALIGN="Center">CTU Open 2004</H2>
+
+<P>
+Congratulations!
+
+<P>
+Your application for the position of A Chief Ment in our company was accepted
+and you have passed through the first round of evaluation.
+
+<P>
+Of course you are not alone who is interested in getting this position, and
+unfortunately we may accept only one team for it.  Therefore we have prepared
+a set of tasks of the similar nature as those you will meet on everyday basis
+in case you are the ones to be chosen, in order to test your skills.
+
+<P>
+In few following hours, you are required to propose solutions for these
+problems.  The team whose solutions will be the best ones, and who will
+be able to come up with them in the shortest time, will win this lucrative
+position.
+
+<P>
+All of the programs will run in UNIX environment. Every program should read
+data from the standard input and send results to the standard output. The
+data format is given and must be exactly followed. There will be no extra
+spaces in the input and there should be no extra spaces and newlines in the
+output, if not stated otherwise. The end-of-line character is not considered
+a&nbsp;part of the line.
+
+<P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<style>
+td.small{font-size: 9pt}
+</style>
+
+<TABLE style="font-size: 9pt" ALIGN=CENTER>
+
+<tr><td class=small></td>
+<td class=small>&nbsp;&nbsp;&nbsp;</td>
+<td class=small></td>
+<td class=small>&nbsp;&nbsp;&nbsp;</td>
+<td class=small width=60>in</td>
+<td class=small width=60>out</td>
+<td class=small width=60>PostScript</td>
+<td class=small width=60>solution</td></tr>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="a" SRC="../img/a.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#a">Agents</A></td>
+<td></td>
+<td class=small><a href="a.in">a.in</a></td>
+<td class=small><a href="a.out">a.out</a></td>
+<td class=small><a href="a.ps">a.ps</a></td>
+<td class=small><a href="a.c">a.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="b" SRC="../img/b.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#b">Boatherds</A></td>
+<td></td>
+<td class=small><a href="b.in">b.in</a></td>
+<td class=small><a href="b.out">b.out</a></td>
+<td class=small><a href="b.ps">b.ps</a></td>
+<td class=small><a href="b.c">b.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="c" SRC="../img/c.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#c">C Looooops</A></td>
+<td></td>
+<td class=small><a href="c.in">c.in</a></td>
+<td class=small><a href="c.out">c.out</a></td>
+<td class=small><a href="c.ps">c.ps</a></td>
+<td class=small><a href="c.c">c.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="d" SRC="../img/d.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#d">Death to Binary?</A></td>
+<td></td>
+<td class=small><a href="d.in">d.in</a></td>
+<td class=small><a href="d.out">d.out</a></td>
+<td class=small><a href="d.ps">d.ps</a></td>
+<td class=small><a href="d.c">d.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="e" SRC="../img/e.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#e">Electricity</A></td>
+<td></td>
+<td class=small><a href="e.in">e.in</a></td>
+<td class=small><a href="e.out">e.out</a></td>
+<td class=small><a href="e.ps">e.ps</a></td>
+<td class=small><a href="e.c">e.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="f" SRC="../img/f.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#f">Firepersons</A></td>
+<td></td>
+<td class=small><a href="f.in">f.in</a></td>
+<td class=small><a href="f.out">f.out</a></td>
+<td class=small><a href="f.ps">f.ps</a></td>
+<td class=small><a href="f.c">f.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="g" SRC="../img/g.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#g">God of the Vile Baskers</A></td>
+<td></td>
+<td class=small><a href="g.in">g.in</a></td>
+<td class=small><a href="g.out">g.out</a></td>
+<td class=small><a href="g.ps">g.ps</a></td>
+<td class=small><a href="g.c">g.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="h" SRC="../img/h.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#h">Herbalists</A></td>
+<td></td>
+<td class=small><a href="h.in">h.in</a></td>
+<td class=small><a href="h.out">h.out</a></td>
+<td class=small><a href="h.ps">h.ps</a></td>
+<td class=small><a href="h.c">h.c</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="i" SRC="../img/i.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#i">Inglish-Number Translator</A></td>
+<td></td>
+<td class=small><a href="i.in">i.in</a></td>
+<td class=small><a href="i.out">i.out</a></td>
+<td class=small><a href="i.ps">i.ps</a></td>
+<td class=small><a href="i.C">i.C</a></td>
+</tr>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<tr><td><img
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="j" SRC="../img/j.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#j">Japan Plotter Driver</A></td>
+<td></td>
+<td class=small><a href="j.in">j.in</a></td>
+<td class=small><a href="j.out">j.out</a></td>
+<td class=small><a href="j.ps">j.ps</a></td>
+<td class=small><a href="j.C">j.C</a></td>
+</tr>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<tr>
+<td class=small align=center colspan=9><a href="all.tgz">all.tgz</a>
+(10MB)
+</td>
+</tr>
+
+</TABLE>
+
+<p>
+Contributions to the problem set:
+<p>
+<table>
+<tr><td><IMG ALT="a" SRC="../img/a.gif"> - <IMG ALT="h" SRC="../img/h.gif"></td>
+	<td width="10">&nbsp;</td>
+	<td>Charles University Prague</td></tr>
+<tr><td><IMG ALT="i" SRC="../img/i.gif"></td>
+	<td width="10">&nbsp;</td>
+	<td>University of Valladolid's "English-Number Translator"</td></tr>
+<tr><td><IMG ALT="j" SRC="../img/j.gif"></td>
+	<td width="10">&nbsp;</td>
+	<td>CTU Prague</td></tr>
+</table>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+<P></P>
+<P>
+<a name="a"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/a.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Agents</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="a.in">a.in</A>,
+<A HREF="a.out">a.out</A>,
+<A HREF="a.ps">a.ps</A>,
+<A HREF="a.c">a.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+The top-secret organization Agency of C.M. (<I>The agency is so
+secretive that nobody is allowed to know what C.M. was supposed to mean.  The most
+common interpretation - ``Crazy Madmen'' - is vehemently, but of course futilely,
+denied by leadership of the ACM.</I>)  was given a difficult mission.  In order to
+complete the mission, all agents of ACM must be used.  To make the situation
+worse, it is known that certain pairs of agents hate each other or simply do
+not work well together for some other reasons.  Therefore to increase the
+efficiency, the leader of ACM has decided to split his subordinates to several teams, so
+that no such pair of agents belongs to the same team.  The nature of the mission
+however makes it impossible to have more than three teams.
+
+<P>
+At first this seemed to be an easy task, but he quickly noticed that there are
+some quite unpleasant persons in his organization.  Such ``bad guys'' are of
+course necessary in this type of organizations, since there are tasks that simply
+cannot be solved in the ``gentle'' way.  There used to be a lot more of them,
+but after recent reforms, the regulations only permit at most three (but at
+least one) such characters in the organization.  Still, he found out that each
+normal (i.e. not bad guy) member of the organization hates at least one of
+these bad guys, which made him doubt that such a split is possible.
+
+<P>
+Your task is to decide whether he is right with his doubts, or whether
+splitting the agents to at most three teams according to the criterion described
+above is possible.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances.
+
+<P>
+The first line of each instance contains two integers
+1 <img alt="<=" src="le.gif"> <I>A</I> <img alt="<=" src="le.gif"> 500 and <I>R</I> <img alt=">=" src="ge.gif"> 0 separated by a single space.  <I>A</I> is the number of agents in the
+organization.  Agents are assigned integers between 0 and <I>A</I> - 1.
+<I>R</I> is the number of pairs of agents that hate each other.  The following
+<I>R</I> lines of the instance describe these pairs.  Each of the lines contains two integers
+0 <img alt="<=" src="le.gif"> <I>a</I><SUB>1</SUB>, <I>a</I><SUB>2</SUB> &lt; <I>A</I> separated by a single space, meaning that agents with numbers <I>a</I><SUB>1</SUB> and <I>a</I><SUB>2</SUB>
+hate each other.  Every pair of agents that hate each other is described exactly once.
+
+<P>
+An empty line follows each instance.  The input is terminated by a line containing two zeros.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines.  The <I>i</I>-th line of the output corresponds to the <I>i</I>-th input instance.
+
+<P>
+If it is possible to split the agents in the instance to at most three teams, the corresponding output line
+describes such a split.  If there are several possible splits, then only one (arbitrary) of them is
+described.  The line contains <I>A</I> integers <img alt="in" src="in.gif"> {0, 1, 2} separated by single spaces, where the <I>i</I>-th number
+is the number of the team to that the agent with number (<I>i</I> - 1) is assigned.
+
+<P>
+If it is not possible to split the agents in the instance so that no two persons in the same team
+hate each other, the corresponding output line consists of the string ``The agents cannot be split''.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+3 3
+0 1
+0 2
+2 1
+
+4 6
+0 1
+0 2
+0 3
+1 2
+1 3
+2 3
+
+0 0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+0 1 2
+The agents cannot be split
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="b"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/b.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Boatherds</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="b.in">b.in</A>,
+<A HREF="b.out">b.out</A>,
+<A HREF="b.ps">b.ps</A>,
+<A HREF="b.c">b.c</A>
+
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+Boatherds Inc. is a sailing company operating in the country of Trabantustan
+and offering boat trips on Trabantian rivers. All the rivers originate somewhere in
+the mountains and on their way down to the lowlands they gradually join and finally
+the single resulting river flows to the sea. Moreover, the Trabantian villages are
+exactly at the rivers' springs, junctions and at the mouth of the largest river.
+Please note that more than 2 rivers can join at a junction. However, the rivers
+always form a tree (with villages as vertices).
+
+<P>
+The pricing policy of the Boatherds is very simple: each segment of each river
+between two villages is assigned a price (the price is same in both
+directions), so if a tourist requests a journey between any two villages, the
+ticket office clerks just add the prices of the segments along the only path
+between the villages.
+
+<P>
+One day, a&nbsp;very strange tourist appeared. She told the clerks that she returns
+to her country on the next day and she wants to spend all the remaining money
+on a boat trip, so they should find a route with exactly this cost. Being just
+poor (ahem) businessmen, they have asked the Abacus Calculator Makers for help.
+
+<P>
+You are given a description of the river network with costs of river segments
+and a sequence of integers <I>x</I><SUB>1</SUB>,..., <I>x</I><SUB>k</SUB>. For each <I>x</I><SUB>i</SUB>, you should determine
+if there is a pair of cities (<I>a</I>, <I>b</I>) in the river network such that the cost of the trip
+between <I>a</I> and <I>b</I> is exactly <I>x</I><SUB>i</SUB>.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances. Each instance is described by (in the following
+order):
+
+<P>
+
+<UL>
+<LI>A single line containing a single integer: the number of villages <I>N</I> (1 <img alt="<=" src="le.gif"> <I>N</I> <img alt="<=" src="le.gif"> 10&nbsp;000).
+</LI>
+<LI><I>N</I> lines describing the villages. The <I>i</I>-th of these lines (1 <img alt="<=" src="le.gif"> <I>i</I> <img alt="<=" src="le.gif"> <I>N</I>) describes
+the village with number&nbsp;<I>i</I>. It contains space separated integers <I>d</I><SUB>1</SUB>, <I>c</I><SUB>1</SUB>, <I>d</I><SUB>2</SUB>, <I>c</I><SUB>2</SUB>,
+, <I>d</I><SUB>k<SUB>i</SUB></SUB>, <I>c</I><SUB>k<SUB>i</SUB></SUB>, 0. The <I>d</I><SUB>j</SUB>'s are numbers of villages from which the
+rivers flow directly to the village&nbsp;<I>i</I> (with no&nbsp;other villages in between), each <I>c</I><SUB>j</SUB>
+is the price of the journey between villages&nbsp;<I>i</I> and <I>d</I><SUB>j</SUB>. Moreover, 
+2 <img alt="<=" src="le.gif"> <I>d</I><SUB>j</SUB> <img alt="<=" src="le.gif"> <I>N</I>
+and 
+0 <img alt="<=" src="le.gif"> <I>c</I><SUB>j</SUB> <img alt="<=" src="le.gif"> 1&nbsp;000. Village&nbsp;1 always corresponds to the mouth of the largest river,
+therefore no <I>d</I><SUB>i</SUB> can ever be equal to&nbsp;1.
+</LI>
+<LI>
+<I>M</I> <img alt="<=" src="le.gif"> 100 lines describing the queries. The <I>i</I>-th of these lines
+corresponds to the <I>i</I>-th query and contains a single integer <I>x</I><SUB>i</SUB> (1 <img alt="<=" src="le.gif"> <I>x</I><SUB>i</SUB> <img alt="<=" src="le.gif"> 10&nbsp;000&nbsp;000).
+</LI>
+<LI>The instance is finished by a single line containing the number&nbsp;0.
+</LI>
+</UL>
+
+<P>
+The whole input is ended by a single line containing the number&nbsp;0.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each instance you should produce a sequence of <I>M</I> lines (where <I>M</I> is the number
+of queries in the particular instance). The <I>i</I>-th of these lines contains the word ``AYE''
+if there exists a pair of cities in the river network which is connected by a path
+of cost <I>x</I><SUB>i</SUB>, or the word ``NAY'' otherwise.
+
+<P>
+Output for each instance must be followed by a single line containing just the dot character.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+6
+2 5 3 7 4 1 0
+0
+5 2 6 3 0
+0
+0
+0
+1
+8
+13
+14
+0
+0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+AYE
+AYE
+NAY
+AYE
+.
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="c"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/c.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">C Looooops</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="c.in">c.in</A>,
+<A HREF="c.out">c.out</A>,
+<A HREF="c.ps">c.ps</A>,
+<A HREF="c.c">c.c</A>
+
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+A Compiler Mystery: We are given a C-language style <tt>for</tt> loop of type
+
+<P>
+<PRE>
+for (variable = A; variable != B; variable += C)
+  statement;
+</PRE>
+
+<P>
+I.e., a loop which starts by setting <I>variable</I> to value&nbsp;<I>A</I> and while <I>variable</I>
+is not equal to&nbsp;<I>B</I>, repeats <I>statement</I> followed by increasing the <I>variable</I> by&nbsp;<I>C</I>.
+We&nbsp;want to know how many times does the <I>statement</I> get executed for particular
+values of <I>A</I>, <I>B</I> and <I>C</I>, assuming that all arithmetics is calculated in a <I>k</I>-bit
+unsigned integer type (with values 
+0 <img alt="<=" src="le.gif"> <I>x</I> &lt; 2<SUP>k</SUP>) modulo 2<SUP>k</SUP>.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances. Each instance is described by a single
+line with four integers <I>A</I>, <I>B</I>, <I>C</I>, <I>k</I> separated by a single space.
+The integer <I>k</I> (1 <img alt="<=" src="le.gif"> <I>k</I> <img alt="<=" src="le.gif"> 32) is the number of bits of the control
+variable of the loop and <I>A</I>, <I>B</I>, <I>C</I> (0 <img alt="<=" src="le.gif"> <I>A</I>, <I>B</I>, <I>C</I> &lt; 2<SUP>k</SUP>) are the
+parameters of the loop.
+
+<P>
+The input is finished by a line containing four zeros.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines corresponding to the instances on the input.
+The <I>i</I>-th line contains either the number of executions of the <I>statement</I>
+in the <I>i</I>-th instance (a single integer number) or the word <tt>FOREVER</tt>
+if the loop does not terminate.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+3 3 2 16
+3 7 2 16
+7 3 2 16
+3 4 2 16
+0 0 0 0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+0
+2
+32766
+FOREVER
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="d"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/d.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Death to Binary?</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="d.in">d.in</A>,
+<A HREF="d.out">d.out</A>,
+<A HREF="d.ps">d.ps</A>,
+<A HREF="d.c">d.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+The group of Absurd Calculation Maniacs has discovered a great new way how to
+count.  Instead of using the ordinary decadic numbers, they use Fibonacci base
+numbers.  Numbers in this base are expressed as sequences of zeros and ones
+similarly to the binary numbers, but the weights of bits (fits?) in the representation
+are not powers of two, but the elements of the Fibonacci progression
+(1, 2, 3, 5, 8,... - the progression is defined by <I>F</I><SUB>0</SUB> = 1, <I>F</I><SUB>1</SUB> = 2 and the
+recursive relation 
+<I>F</I><SUB>n</SUB> = <I>F</I><SUB>n-1</SUB> + <I>F</I><SUB>n-2</SUB> for 
+<I>n</I> <img alt=">=" src="ge.gif"> 2).
+
+<P>
+For example 
+1101001<SUB>Fib</SUB> = <I>F</I><SUB>0</SUB> + <I>F</I><SUB>3</SUB> + <I>F</I><SUB>5</SUB> + <I>F</I><SUB>6</SUB> = 1 + 5 + 13 + 21 = 40.
+
+<P>
+You may observe that every integer can be expressed in this base, but not necessarily in a unique way -
+for example 40 can be also expressed as 
+10001001<SUB>Fib</SUB>.  However, for any integer there is a unique
+representation that does not contain two adjacent digits 1 - we call this representation
+<EM>canonical</EM>.  For example 
+10001001<SUB>Fib</SUB> is a canonical Fibonacci representation of 40.
+
+<P>
+To prove that this representation of numbers is superior to the others, ACM have decided to create a computer
+that will compute in Fibonacci base.  Your task is to create a program that takes two numbers in Fibonacci
+base (not necessarily in the canonical representation) and adds them together.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances, each of them consisting of a single line.
+Each line of the input contains two numbers <I>X</I> and <I>Y</I> in Fibonacci base separated by a single space.
+Each of the numbers has at most 40 digits.  The end of input is not marked in any special way.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output for each instance should be formated as follows:
+
+<P>
+The first line contains the number <I>X</I> in the canonical representation, possibly padded from left by spaces.
+The second line starts with a plus sign followed by the number <I>Y</I> in the canonical representation,
+possibly padded from left by spaces.  The third line starts by two spaces followed
+by a string of minus signs of the same length as the result of the addition.  The fourth line starts by two
+spaces immediately followed by the canonical representation of <I>X</I> + <I>Y</I>.  Both <I>X</I> and <I>Y</I> are padded from left
+by spaces so that the least significant digits of <I>X</I>, <I>Y</I> and <I>X</I> + <I>Y</I> are in the same column of the output.
+The output for each instance is followed by an empty line.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+11101 1101
+1 1
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+   100101
++   10001
+  -------
+  1001000
+
+   1
++  1
+  --
+  10
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="e"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/e.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Electricity</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="e.in">e.in</A>,
+<A HREF="e.out">e.out</A>,
+<A HREF="e.ps">e.ps</A>,
+<A HREF="e.c">e.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+Blackouts and Dark Nights (also known as ACM++) is a company that provides electricity.  The
+company owns several power plants, each of them supplying a small area that
+surrounds it.  This organization brings a lot of problems - it often happens
+that there is not enough power in one area, while there is a large surplus in
+the rest of the country.
+
+<P>
+ACM++ has therefore decided to connect the networks of some of the plants together.  At least in the
+first stage, there is no need to connect all plants to a single network, but on the other hand
+it may pay up to create redundant connections on critical places - i.e. the network may contain
+cycles.  Various plans for the connections
+were proposed, and the complicated phase of evaluation of them has begun.
+
+<P>
+One of the criteria that has to be taken into account is the reliability of the created network.
+To evaluate it, we assume that the worst event that can happen is a malfunction in one of the joining
+points at the power plants, which might cause the network to split into several parts.  While each of these
+parts could still work, each of them would have to cope with the problems, so it is essential to minimize
+the number of parts into which the network will split due to removal of one of the joining points.
+
+<P>
+Your task is to write a software that would help evaluating this risk.  Your program is given a description
+of the network, and it should determine the maximum number of non-connected parts from that the network
+may consist after removal of one of the joining points (not counting the removed joining point itself).
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances.
+
+<P>
+The first line of each instance contains two integers
+
+1 <img alt="<=" src="le.gif"> <I>P</I> <img alt="<=" src="le.gif"> 10&nbsp;000 and 
+<I>C</I> <img alt=">=" src="ge.gif"> 0 separated by a single space.  <I>P</I> is the number of power plants.
+The power plants have assigned integers between 0 and <I>P</I> - 1.
+<I>C</I> is the number of connections.  The following <I>C</I> lines of the instance describe the connections.
+Each of the lines contains two integers 
+0 <img alt="<=" src="le.gif"> <I>p</I><SUB>1</SUB>, <I>p</I><SUB>2</SUB> &lt; <I>P</I> separated by a single space, meaning that
+plants with numbers <I>p</I><SUB>1</SUB> and <I>p</I><SUB>2</SUB> are connected.  Each connection is described exactly once and
+there is at most one connection between every two plants.
+
+<P>
+The instances follow each other immediately, without any separator.  The input is terminated by a
+line containing two zeros.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines.  The <I>i</I>-th line of the output corresponds to the <I>i</I>-th input instance.
+Each line of the output consists of a single integer <I>C</I>.  <I>C</I> is the maximum number of the connected parts
+of the network that can be obtained by removing one of the joining points at power plants in the instance.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+3 3
+0 1
+0 2
+2 1
+4 2
+0 1
+2 3
+3 1
+1 0
+0 0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+1
+2
+2
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="f"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/f.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Firepersons</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="f.in">f.in</A>,
+<A HREF="f.out">f.out</A>,
+<A HREF="f.ps">f.ps</A>,
+<A HREF="f.c">f.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+The Association for Courtly Manners, an international organization for standardization
+of social interactions (<I>Better known under the name Absurdly Clumsy Moralists, but let's
+not take prejudice.</I>)  has decided to create a new international standard defining
+ranks of firepersons (<I>Formerly firemen, but the international standards
+of course must be politically correct.</I>)  - each fireperson receives an integer number
+describing his rank and when they arrive to a fire, they must enter the fire ground
+in order of increasing ranks and the low ranked firepersons must keep the fire burning
+long enough for the high ranked firepersons to enjoy extinguishing sufficiently.
+
+<P>
+The ranks are assigned according to an Arbitrary Constant Multiplier Sequence. An ACM-sequence
+of order <I>k</I> is an integer sequence defined by its first <I>k</I> terms 
+<I>a</I><SUB>0</SUB>, <I>a</I><SUB>1</SUB>,...<I>a</I><SUB>k-1</SUB> and
+a recurrence relation <IMG
+ WIDTH="113" HEIGHT="25" ALIGN="BOTTOM" BORDER="0"
+ SRC="img1.gif"
+ >
+mod 10&nbsp;000 for 
+<I>n</I> <img alt=">=" src="ge.gif"> <I>k</I>,
+where the <I>b</I><SUB>i</SUB>'s are integer constants. The <I>i</I>-th oldest fireperson then gets
+rank <I>a</I><SUB>i</SUB>.
+
+<P>
+Your task is to calculate the rank of the <I>i</I>-th fireperson, given parameters of the
+ACM-sequence and the number&nbsp;<I>i</I>.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances. Each instance is described on a single
+line containing the following integers separated by a single space: <I>k</I>, <I>a</I><SUB>0</SUB>,
+, <I>a</I><SUB>k-1</SUB>, <I>b</I><SUB>1</SUB>, , <I>b</I><SUB>k</SUB>, <I>i</I>. Here 
+1 <img alt="<=" src="le.gif"> <I>k</I> <img alt="<=" src="le.gif"> 100 is the order of the sequence,
+0 <img alt="<=" src="le.gif"> <I>a</I><SUB>i</SUB> &lt; 10&nbsp;000 are the first <I>k</I> elements of the sequence, 
+0 <img alt="<=" src="le.gif"> <I>b</I><SUB>i</SUB> &lt; 10&nbsp;000 are the
+multipliers and 
+0 <img alt="<=" src="le.gif"> <I>i</I> &lt; 1&nbsp;000&nbsp;000&nbsp;000 is the number of the element we ask for.
+
+<P>
+The input ends with a line containing a number&nbsp;0.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines corresponding to the instances on the input.
+The <I>l</I>-th line contains a single integer <I>a</I><SUB>i</SUB> which is the <I>i</I>-th element of the
+sequence described by the <I>l</I>-th input instance.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+2 0 1 1 1 6
+0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+8
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="g"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/g.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">God of the Vile Baskers</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="g.in">g.in</A>,
+<A HREF="g.out">g.out</A>,
+<A HREF="g.ps">g.ps</A>,
+<A HREF="g.c">g.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+A not very famous writer Arthur Conan Moyle has finally found out why his books
+are not as popular as he believes they would deserve.  He noticed that his works are
+getting a bit boring due to frequent repetitions of same or similar pieces of
+text.  He decided that the best way how to improve the quality of his books is
+to simply throw away everything after the first repetition - the books then
+get an interesting open-ended feeling.
+
+<P>
+First he attempted to look for exactly same pieces of text, but this failed,
+since the repeated texts often do not match precisely - some of letters that are
+lowercase in the first place may be uppercase in the second and vice versa,
+punctuation may be a bit different, and even the words in sentences may be in
+slightly different order.  To overcome these problems, he devised the following
+more involved criterion for recognizing duplicates (a positive integer <I>k</I> is a parameter
+of his criterion; by changing it he affects how long repeated pieces are still acceptable):
+
+<P>
+Alphabetic characters are the letters 'a'-'z' and 'A'-'Z'. We do not distinguish
+case of the letters, i.e. 'a' is supposed to be the same letter as 'A'.
+
+<P>
+Two strings <I>S</I><SUB>1</SUB> and <I>S</I><SUB>2</SUB> are <EM><I>k</I>-identical up to permutation of letters</EM> if:
+
+<P>
+
+<UL>
+<LI>Both <I>S</I><SUB>1</SUB> and <I>S</I><SUB>2</SUB> start and end with an alphabetic character
+</LI>
+<LI>Both <I>S</I><SUB>1</SUB> and <I>S</I><SUB>2</SUB> contain exactly <I>k</I> alphabetic characters
+</LI>
+<LI>For each alphabetic character <I>c</I>, the string <I>S</I><SUB>1</SUB> contains the same
+number of occurrences of <I>c</I> as the string <I>S</I><SUB>2</SUB>.
+</LI>
+</UL>
+
+<P>
+In other words, if the strings <I>S</I><SUB>1</SUB> and <I>S</I><SUB>2</SUB> are <I>k</I>-identical up to permutation of letters,
+then the alphabetic characters in them are the same, but their ordering may be different.
+
+<P>
+Your task is to write a program that separates a longest initial part that does not
+contain two substrings <I>k</I>-identical up to permutation of letters from several of
+the ACM's books.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances.  Each instance is described by two lines.
+
+<P>
+The first line of the instance consists of an integer number 
+1 <img alt="<=" src="le.gif"> <I>k</I> <img alt="<=" src="le.gif"> 50.
+The second line of the instance consists of the string <I>T</I>.  Length of <I>T</I>
+is at most 
+100&nbsp;000 characters.  The string <I>T</I> may contain non-alphabetic characters including
+spaces, but it does not contain any characters with special meaning (i.e. with ASCII code smaller
+than 32).
+
+<P>
+The input is terminated by a line containing a zero.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines.  The <I>i</I>-th line of the output
+corresponds to the <I>i</I>-th input instance.  The line a single integer number -
+length of the longest prefix <I>P</I> (including all non-alphabetic characters) of
+the string <I>T</I> of the corresponding instance such that <I>P</I> does not contain two
+distinct, but not necessarily non-overlapping, substrings <I>S</I><SUB>1</SUB> and <I>S</I><SUB>2</SUB> that
+are <I>k</I>-identical up to permutation of letters.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+4
+a'B'C'd'x'a'b'c'd
+4
+abcdabcd
+0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+16
+4
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="h"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/h.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Herbalists</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="h.in">h.in</A>,
+<A HREF="h.out">h.out</A>,
+<A HREF="h.ps">h.ps</A>,
+<A HREF="h.c">h.c</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+A group of herbalists has decided to move to a new village on the
+boundary of a huge forest.
+
+<P>
+The arrangement of houses and paths in the village turned out to be a major
+problem: Many of the herbalists are friends and want to visit each other often,
+so they want to have a path between their houses.  However the herbalists are
+also known for quarreling with everyone else.  To avoid the chance of meeting
+with someone they do not like, it is required that no two paths intersect -
+there should be no crossroads in the village (<I>And of course also
+no other means of crossing; overpasses spoil the scenery and underpasses
+destroy the root systems of precious herbs.</I>) .
+Each herbalist also wants to be able to visit the forest, of course without having
+to cross any path - i.e., it is also necessary to make it possible
+to get from each house to ``infinity'' without crossing a path.
+
+<P>
+You are given a description of the relationships between herbalists.  Your task
+is to decide whether such an ideal village can be built.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several instances.
+
+<P>
+The first line of each instance contains two integers
+1 <img alt="<=" src="le.gif"> <I>H</I> <img alt="<=" src="le.gif"> 10&nbsp;000 and 
+<I>F</I> <img alt=">=" src="ge.gif"> 0 separated by a single space.  <I>H</I> is the number of herbalists.
+The herbalists have assigned integers between 0 and <I>H</I> - 1.
+<I>F</I> is the number pairs of friends.  The following <I>F</I> lines of the instance describe the pairs of friends.
+Each of the lines contains two integers 
+0 <img alt="<=" src="le.gif"> <I>h</I><SUB>1</SUB>, <I>h</I><SUB>2</SUB> &lt; <I>H</I> separated by a single space, meaning that
+herbalists with numbers <I>h</I><SUB>1</SUB> and <I>h</I><SUB>2</SUB> are friends.  Each pair of friends is described exactly once.
+
+<P>
+The instances follow each other immediately, without any separator.  The input is terminated by a
+line containing two zeros.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The output consists of several lines.  The <I>i</I>-th line of the output corresponds to the <I>i</I>-th
+instance.  If it is possible to build a village for the corresponding input instance, the
+output line consists of ``Yes, village can be built'' string.  If it is not possible to build such
+a village, the output line consists of ``No, village cannot be built'' string.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+3 3
+0 1
+0 2
+1 2
+4 6
+0 1
+0 2
+0 3
+1 2
+1 3
+2 3
+0 0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+Yes, village can be built
+No, village cannot be built
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="i"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/i.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Inglish-Number Translator</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="i.in">i.in</A>,
+<A HREF="i.out">i.out</A>,
+<A HREF="i.ps">i.ps</A>,,
+<A HREF="i.C">i.C</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+In this problem, you will be given one or more integers in English. Your task is to translate these numbers into their integer representation. The numbers can range from negative 999,999,999 to positive 999,999,999. The following is an exhaustive list of English words that your program must account for:
+
+<P>
+<TT>
+negative, zero, one, two, three, four, five, six, seven, eight, nine, ten,
+eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen,
+twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, hundred,
+thousand, million
+</TT>
+
+<P>
+<h3>Input Specification</h3>The input consists of several instances.
+Notes on input:
+
+<P>
+
+<OL>
+<LI>Negative numbers will be preceded by the word negative.
+</LI>
+<LI>The word ``hundred'' is not used when ``thousand'' could be. For example, 1500 is written ``one thousand five hundred'', not ``fifteen hundred''. 
+</LI>
+</OL>
+
+<P>
+The input is terminated by an&nbsp;empty line.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+The answers are expected to be on separate lines with a newline after each.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+six
+negative seven hundred twenty nine
+one million one hundred one
+eight hundred fourteen thousand twenty two
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
+6
+-729
+1000101
+814022
+</PRE>
+
+<P>
+
+<P>
+
+<P></P>
+<P>
+<a name="j"></a>
+<IMG HEIGHT="32" SRC="../../img/line.gif" WIDTH="592" BORDER="0">
+<DIV ALIGN="CENTER">
+  <IMG SRC="../img/left.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/j.gif"><IMG SRC="../img/empty.gif"><IMG SRC="../img/right.gif">
+</DIV>
+
+<H2 ALIGN="CENTER">Japan Plotter Driver</H2>
+<P ALIGN="CENTER"><CODE>
+<A HREF="j.in">j.in</A>,
+<A HREF="j.out">j.out</A>,
+<A HREF="j.ps">j.ps</A>,
+<A HREF="j.C">j.C</A>
+</CODE></P></P>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+The Japan company you are working for produce plotter devices that
+can draw nice pictures. To support customers who do not posses the
+special hardware, you were asked to write an&nbsp;emulation driver
+that simulates the work of the plotter and prints the picture on
+a&nbsp;computer screen.
+
+<P>
+The plotter is driven with a&nbsp;simple language consisting of several
+drawing commands:
+
+<P>
+
+<UL>
+<LI><tt>POINT x y</tt> -- makes a little circle at the given coordinates.
+</LI>
+<LI><tt>TEXT x y txt</tt> -- displays a line of text at the given coordinates.
+</LI>
+<LI><tt>LINE x1 y1 x2 y2</tt> -- draws a line between the specified points.
+</LI>
+<LI><tt>CLEAR x1 y1 x2 y2</tt> -- erases the given rectangle.
+</LI>
+<LI><tt>PRINT</tt> -- prints an output page and terminates the current job.
+</LI>
+</UL>
+
+<P>
+The emulation driver uses few ASCII characters to represent the picture,
+one character being a&nbsp;basic unit of the coordinate system. The top-left
+character has coordinates (1,1).
+The X-axis aims to the right, the Y-axis goes down.
+
+<P>
+The particular commands are emulated as follows:
+
+<P>
+
+<UL>
+<LI><b>POINT:</b>
+	The driver puts a&nbsp;lowercase letter "<tt>o</tt>" at the given
+	coordinates.
+</LI>
+<LI><b>TEXT:</b>
+	Shows a&nbsp;single line of text, the first character is positioned
+	at the given coordinates and the text always goes right.
+</LI>
+<LI><b>LINE:</b>
+	Simulates a straight line between two points. The line is
+	formed by one of the following characters: dash ("<tt>-</tt>"),
+	pipe ("<tt>|</tt>"), slash ("<tt>/</tt>"), or
+	backslash ("<tt>&#92;</tt>"), according to its direction.
+</LI>
+<LI><b>CLEAR:</b>
+	The driver fills the appropriate rectangular area with spaces,
+	including the bounding rows and columns.
+</LI>
+<LI><b>PRINT:</b>
+	This command causes the driver to print the picture surrounded
+	with a nice frame made of plus ("<tt>+</tt>"), minus ("<tt>-</tt>"),
+	and pipe ("<tt>|</tt>") characters.
+</LI>
+</UL>
+
+<P>
+If more objects should be drawn across a&nbsp;single character, the following
+rules apply:
+
+<UL>
+<LI>If the same character is drawn several times, it is used without
+	a&nbsp;change.
+</LI>
+<LI>If only pipe and minus characters are involved, they result
+	in the plus sign ("<tt>+</tt>").
+</LI>
+<LI>If only slashes and backslashes are involved, the result
+	is the lowercase letter "<tt>x</tt>".
+</LI>
+<LI>Otherwise, the asterisk ("<tt>*</tt>") is displayed.
+</LI>
+</UL>
+
+<P>
+Before a&nbsp;script is given to the driver, it is checked by a&nbsp;special
+preprocessor, which rejects all invalid commands. Therefore, you may
+assume that all coordinates are within the range of the page. Also,
+with the LINE command, the two points are always different and the
+line is strictly either vertical, horizontal, or at the angle of
+45<SUP>o</SUP> to the axes. There is no assumption on the relative position
+of the points used with the LINE and CLEAR commands. The text in the
+TEXT command is always composed only of uppercase letter and digits.
+
+<P>
+<h3>Input Specification</h3>
+<P>
+The input consists of several scripts. Each script begins with a&nbsp;line
+containing two integers <I>X</I> and <I>Y</I>, separated with space, 
+1 <img alt="<=" src="le.gif"> <I>X</I>, <I>Y</I> <img alt="<=" src="le.gif"> 75.
+These numbers specify the dimensions of the page.
+Every other line contains exactly one of the above commands. The commands
+are always uppercase, command arguments are separated with one space.
+
+<P>
+The PRINT command is always the last command of the script.
+After the PRINT command, a&nbsp;new script begins. The input is terminated
+with two zeros, which are not considered to be a&nbsp;script.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each script, output the emulated picture, created as specified above.
+After the picture, print one blank line.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+20 10
+LINE 3 2 11 10
+LINE 3 10 11 2
+LINE 20 3 8 3
+TEXT 6 8 TEST
+LINE 19 1 19 10
+LINE 17 10 17 1
+LINE 16 1 16 10
+LINE 13 6 20 6
+CLEAR 20 5 15 7
+LINE 18 1 18 10
+TEXT 12 10 NICEPICTURE
+POINT 1 1
+POINT 3 2
+PRINT
+1 1
+POINT 1 1
+CLEAR 1 1 1 1
+PRINT
+3 3
+LINE 2 1 2 3
+LINE 1 2 3 2
+LINE 2 3 2 1
+LINE 3 2 1 2
+LINE 2 1 2 3
+LINE 1 2 3 2
+PRINT
+0 0
+</PRE>
+
+<P>
+<h3>Sample Output</h3>
+<PRE>
++--------------------+
+|o              |||| |
+|  *       /    |||| |
+|   \   --*-----++++-|
+|    \   /      |||| |
+|     \ /         |  |
+|      x     --   |  |
+|     / \         |  |
+|    /TES*      |||| |
+|   /     \     |||| |
+|  /       \NICE****U|
++--------------------+
+
++-+
+| |
++-+
+
++---+
+| | |
+|-+-|
+| | |
++---+
+</PRE>
+
+<P>
+
+</TABLE>
+
+</BODY>
+</HTML>
