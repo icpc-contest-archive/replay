@@ -1,0 +1,1163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://contest.felk.cvut.cz/03prg/solved/index.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+   <TITLE>Problems Statement: CTU OPEN 2003 Contest</TITLE>
+   <META NAME="Description" CONTENT="ACM International Collegiate
+         Central Europe 2003 Contest, problem set statement.">
+   <META NAME="Keywords" CONTENT="ACM, Programming Contest, CTU OPEN 2003 Contest">
+   <META NAME="Author" CONTENT="Michal Sevcenko">
+   <META NAME="Generator" CONTENT="hand made">
+</HEAD>
+<BODY BGCOLOR="White">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://contest.felk.cvut.cz/03prg/solved/index.html">https://contest.felk.cvut.cz/03prg/solved/index.html</a> (live fetch 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/ctuo-2003.html">ctuo-2003</a>  <a href="https://web.archive.org/web/*/https://contest.felk.cvut.cz/03prg/solved/index.html">wayback</a>  <a href="https://contest.felk.cvut.cz/03prg/solved/index.html">live</a></div>
+
+
+<!-- linka s mailem -->
+<MAP NAME="map-mail">
+   <AREA SHAPE="Circle" COORDS="471,15,16" ALT="e-mail"
+   HREF="mailto:cinfo@contest.felk.cvut.cz">
+   <AREA SHAPE="Rect" COORDS="471,20, 510,31" ALT="e-mail"
+   HREF="mailto:cinfo@contest.felk.cvut.cz">
+   
+   <AREA SHAPE="Circle" COORDS="535,15,16" ALT="how to use these pages?"
+   HREF="../../help.html">
+   <AREA SHAPE="Rect" COORDS="535,20, 578,31" ALT="how to use these pages?"
+   HREF="../../help.html">
+</MAP>
+
+
+<!-- ***** zahlavi s logem souteze ***** -->
+
+<CENTER>
+<P><TABLE BORDER=0><TR><TD>
+<IMG SRC="../../img/counter.gif" ALT="ACM" WIDTH=128 HEIGHT=96>
+<TD><IMG SRC="../../img/contest.gif" ALT="Programming Contest"
+width=424 height=96></TABLE>
+
+<IMG SRC="../../img/line-mail.gif" WIDTH=592 HEIGHT=32 ALT="e-mail"
+BORDER=0 USEMAP="#map-mail">
+
+
+<P><TABLE WIDTH=600 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR><TD>
+
+
+<DIV ALIGN=CENTER>
+Czech ACM Student Chapter<br>
+CTU in Prague, Dept. of Computer Science and Engineering<br>
+Charles University in Prague, MFF<br>
+V©B TU Ostrava, FEI, Dept. of Computer Science<br>
+SUT Bratislava, FEI, Dept. of Computer Science and Engineering 
+</DIV>
+
+<P>
+<H2 ALIGN="Center">CTU Open 2003</H2>
+
+Dear contestants:
+
+<P>
+We have prepared a&nbsp;set of real-life problems for you. This time, we are
+working for a&nbsp;goods transportation company called
+<EM>Advanced Cargo Movement, Ltd.</EM> (ACM).
+When delivering cargo, the company drivers and other employees have to
+cope with many problems. Some of them can be solved with the help of
+computers.
+You are to write several programs to help ACM with their work.
+
+<P>
+All of the programs will run in UNIX environment. Every program should read
+data from the standard input and send results to the standard output. The
+data format is given and must be exactly followed. There will be no extra
+spaces in the input and there should be no extra spaces and newlines in the
+output, if not stated otherwise. The end-of-line character is not considered
+a&nbsp;part of the line.
+
+<P>
+We wish you a&nbsp;lot of fun and good luck with solving these problems.
+
+<P>
+Your organizing team
+<a href="intro.ps.gz">intro.ps.gz</a>
+
+<p>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<p>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<style>
+td.small{font-size: 9pt}
+</style>
+
+<p>All problems have been prepared by students from CTU in Prague, in cooperation with students
+from Charles University in Prague. All problems are original, except the problem traffic, which
+has been taken from
+<a href="http://acm.shu.edu.cn/ProblemSet/ICPCRegionals/northamerica/southeastusa/1999/">SouthEast USA Regional Contest 1999</a>.
+
+<p>
+<TABLE style="font-size: 9pt" ALIGN=CENTER>
+
+<tr><td class=small></td>
+<td class=small>&nbsp;&nbsp;&nbsp;</td>
+<td class=small></td>
+<td class=small>&nbsp;&nbsp;&nbsp;</td>
+<td class=small width=60>C</td>
+<td class=small width=60>Pascal</td>
+<td class=small width=60>in</td>
+<td class=small width=60>out</td>
+<td class=small width=60>PostScript</td></tr>
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="b" SRC="../img/b.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#b">Bridge Hands</A></td>
+<td></td>
+<td class=small><a href="bridge.c">bridge.c</a></td>
+<td class=small><a href="bridge.p">bridge.p</a></td>
+<td class=small><a href="bridge.in.gz">bridge.in.gz</a></td>
+<td class=small><a href="bridge.out.gz">bridge.out.gz</a></td>
+<td class=small><a href="bridge.ps.gz">bridge.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="c" SRC="../img/c.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#c">Charlie's Change</A></td>
+<td></td>
+<td class=small><a href="change.c">change.c</a></td>
+<td class=small><a href="change.p">change.p</a></td>
+<td class=small><a href="change.in.gz">change.in.gz</a></td>
+<td class=small><a href="change.out.gz">change.out.gz</a></td>
+<td class=small><a href="change.ps.gz">change.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="d" SRC="../img/d.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#d">Building a New Depot</A></td>
+<td></td>
+<td class=small><a href="depot.c">depot.c</a></td>
+<td class=small><a href="depot.p">depot.p</a></td>
+<td class=small><a href="depot.in.gz">depot.in.gz</a></td>
+<td class=small><a href="depot.out.gz">depot.out.gz</a></td>
+<td class=small><a href="depot.ps.gz">depot.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="h" SRC="../img/h.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#h">Truck History</A></td>
+<td></td>
+<td class=small><a href="history.c">history.c</a></td>
+<td class=small><a href="history.p">history.p</a></td>
+<td class=small><a href="history.in.gz">history.in.gz</a></td>
+<td class=small><a href="history.out.gz">history.out.gz</a></td>
+<td class=small><a href="history.ps.gz">history.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="n" SRC="../img/n.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#n">Base Numbers</A></td>
+<td></td>
+<td class=small><a href="numbers.c">numbers.c</a></td>
+<td class=small><a href="numbers.p">numbers.p</a></td>
+<td class=small><a href="numbers.in.gz">numbers.in.gz</a></td>
+<td class=small><a href="numbers.out.gz">numbers.out.gz</a></td>
+<td class=small><a href="numbers.ps.gz">numbers.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="p" SRC="../img/p.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#p">Paper Cutting</A></td>
+<td></td>
+<td class=small><a href="paper.c">paper.c</a></td>
+<td class=small><a href="paper.p">paper.p</a></td>
+<td class=small><a href="paper.in.gz">paper.in.gz</a></td>
+<td class=small><a href="paper.out.gz">paper.out.gz</a></td>
+<td class=small><a href="paper.ps.gz">paper.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="r" SRC="../img/r.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#r">Hexagonal Routes</A></td>
+<td></td>
+<td class=small><a href="routing.c">routing.c</a></td>
+<td class=small><a href="routing.p">routing.p</a></td>
+<td class=small><a href="routing.in.gz">routing.in.gz</a></td>
+<td class=small><a href="routing.out.gz">routing.out.gz</a></td>
+<td class=small><a href="routing.ps.gz">routing.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="s" SRC="../img/s.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#s">Storehouse</A></td>
+<td></td>
+<td class=small><a href="store.c">store.c</a></td>
+<td class=small><a href="store.p">store.p</a></td>
+<td class=small><a href="store.in.gz">store.in.gz</a></td>
+<td class=small><a href="store.out.gz">store.out.gz</a></td>
+<td class=small><a href="store.ps.gz">store.ps.gz</a></td>
+</TR>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<TR><td><IMG
+ALT="[" SRC="../img/left.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="t" SRC="../img/t.gif"><IMG ALT="-" SRC="../img/empty.gif"><IMG ALT="]" SRC="../img/right.gif"></td>
+<td></td>
+<td class=small><A HREF="#t">Traffic Jam</A></td>
+<td></td>
+<td class=small><a href="traffic.c">traffic.c</a></td>
+<td class=small><a href="traffic.p">traffic.p</a></td>
+<td class=small><a href="traffic.in.gz">traffic.in.gz</a></td>
+<td class=small><a href="traffic.out.gz">traffic.out.gz</a></td>
+<td class=small><a href="traffic.ps.gz">traffic.ps.gz</a></td>
+</TR>
+
+<tr><td colspan=9 align=center><a href="all.tar">all.tar</a></td></tr>
+
+</table>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/b.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="b"></A><H2 ALIGN="Center">Bridge Hands</H2>
+<P ALIGN="Center">
+<CODE><A HREF="bridge.c">bridge.c</A>, <A HREF="bridge.p">bridge.p</A></CODE>
+<BR><CODE><A HREF="bridge.in.gz">bridge.in.gz</A>, <A HREF="bridge.out.gz">bridge.out.gz</A></CODE>
+<BR><CODE><A HREF="bridge.ps.gz">bridge.ps.gz</A></CODE>
+
+<P>
+Drivers of Advanced Cargo Movement, Ltd. usually have to wait quite
+a&nbsp;long time when waiting at border crossings for duty clearance.
+They are used to play various (card) games to have some fun. One of the
+games is Bridge.
+Playing Bridge involves dealing a standard deck of 52 cards
+to 4 players, so that each player receives 13 cards. Good players can
+then play with the hand as it is dealt, but most ordinary players will
+need to sort it, firstly by suit and then by rank within suit. There
+is no fixed ranking of the suits for this purpose, but it is useful to
+alternate the colors, so we will presume the following ordering:
+<IMG
+ WIDTH="18" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.gif"
+ >
+(club) &lt; <IMG
+ WIDTH="18" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ >
+(diamond) &lt; <IMG
+ WIDTH="18" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.gif"
+ >
+(spade) 
+&lt; <IMG
+ WIDTH="18" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.gif"
+ >
+(heart). (Note that because most character sets do not
+recognize these symbols, from now on we will use the more conventional
+C, D, S, and H). Within a suit, Ace is high, so the ordering is
+<BR><P></P>
+<DIV ALIGN="CENTER">2 &lt; 3 &lt; 4 &lt; 5 &lt; 6 &lt; 7 &lt; 8 &lt; 9 &lt; <VAR>T</VAR> &lt; <VAR>J</VAR> &lt; <VAR>Q</VAR> &lt; <VAR>K</VAR> &lt; <VAR>A</VAR> .
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+<P>
+The players are usually called North, South, East, and West as
+they sit at the points of the compass. One player is
+designated the dealer and she deals one card to each player starting
+with the player on her left and proceeding clockwise until she deals
+the last card to herself.
+
+<P>
+Write a program that will read in a representation of a deck of cards,
+deal them, sort them, and then display four sorted hands in the
+format shown below.
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input consists of a&nbsp;series of deals.
+Each deal begins with a&nbsp;line containing a&nbsp;single letter representing the
+dealer ("<tt>N</tt>", "<tt>E</tt>", "<tt>S</tt>", "<tt>W</tt>") followed
+by two lines representing the deck, card by card, as
+shown below.
+The first card given in the input is the first one to be dealt.
+The file is be terminated by a line consisting of a
+single hash character ("<tt>#</tt>").
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+Output should consist of a series of sets of 24 lines, one set for
+each deal, separated by blank lines.
+Each set will consist of four groups of six lines displaying the sorted
+hands, in the order of their suit and rank.
+Use the format shown below.
+South player always goes first.
+
+<P>
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+N
+CQDTC4D8S7HTDAH7D2S3D6C6S6D9S4SAD7H2CKH5D3CTS8C9H3C3
+DQS9SQDJH8HAS2SKD4H4S5C7SJC8DKC5C2CAHQCJSTH6HKH9D5HJ
+#
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+South player:
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+|3 3|5 5|7 7|T T|J J|9 9|T T|J J|3 3|K K|2 2|9 9|T T|
+| C | C | C | C | C | D | D | D | S | S | H | H | H |
+|3 3|5 5|7 7|T T|J J|9 9|T T|J J|3 3|K K|2 2|9 9|T T|
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+West player:
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+|2 2|4 4|K K|4 4|5 5|6 6|Q Q|A A|4 4|8 8|T T|J J|8 8|
+| C | C | C | D | D | D | D | D | S | S | S | S | H |
+|2 2|4 4|K K|4 4|5 5|6 6|Q Q|A A|4 4|8 8|T T|J J|8 8|
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+North player:
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+|6 6|8 8|9 9|A A|8 8|9 9|A A|4 4|5 5|6 6|7 7|J J|A A|
+| C | C | C | C | D | S | S | H | H | H | H | H | H |
+|6 6|8 8|9 9|A A|8 8|9 9|A A|4 4|5 5|6 6|7 7|J J|A A|
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+East player:
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+|Q Q|2 2|3 3|7 7|K K|2 2|5 5|6 6|7 7|Q Q|3 3|Q Q|K K|
+| C | D | D | D | D | S | S | S | S | S | H | H | H |
+|Q Q|2 2|3 3|7 7|K K|2 2|5 5|6 6|7 7|Q Q|3 3|Q Q|K K|
++---+---+---+---+---+---+---+---+---+---+---+---+---+
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/c.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="c"></A><H2 ALIGN="Center">Charlie's Change</H2>
+<P ALIGN="Center">
+<CODE><A HREF="change.c">change.c</A>, <A HREF="change.p">change.p</A></CODE>
+<BR><CODE><A HREF="change.in.gz">change.in.gz</A>, <A HREF="change.out.gz">change.out.gz</A></CODE>
+<BR><CODE><A HREF="change.ps.gz">change.ps.gz</A></CODE>
+
+<P>
+Charlie is a driver of Advanced Cargo Movement, Ltd. Charlie drives a lot and
+so he often buys coffee at coffee vending machines at motorests. Charlie
+hates change. That is basically the setup of your next task.
+
+<P>
+Your program will be given numbers and types of coins Charlie has and
+the coffee price. The coffee vending machines
+accept coins of values 1, 5, 10, and 25 cents.
+The program should output which coins Charlie has to use paying
+the coffee so that he uses as many coins as possible.
+Because Charlie really does not want any change
+back he wants to pay the price exactly.
+
+<P>
+<h3>Input Specification</h3>
+Each line of the input contains five integer numbers separated by a&nbsp;single
+space describing one situation to solve.
+The first integer on the line <VAR>P</VAR>,
+1 <img alt="<=" src="le.gif">  <VAR>P</VAR> <img alt="<=" src="le.gif">  10&nbsp;000, is the coffee price in cents. Next four integers,
+<VAR>C</VAR><SUB>1</SUB>, <VAR>C</VAR><SUB>2</SUB>, <VAR>C</VAR><SUB>3</SUB>, <VAR>C</VAR><SUB>4</SUB>, 0 <img alt="<=" src="le.gif">  <VAR>C</VAR><SUB><VAR>i</VAR></SUB> <img alt="<=" src="le.gif">  10&nbsp;000, are the numbers of cents,
+nickels (5 cents), dimes (10 cents), and quarters (25 cents) in
+Charlie's valet.
+The last line of the input contains five zeros and no output should be
+generated for it.
+
+<P>
+<h3>Output Specification</h3>
+For each situation, your program should output one line containing
+the string "<tt>Throw in T1 cents, T2 nickels,
+T3 dimes, and T4 quarters.</tt>", where <VAR>T</VAR><SUB>1</SUB>, <VAR>T</VAR><SUB>2</SUB>, <VAR>T</VAR><SUB>3</SUB>, <VAR>T</VAR><SUB>4</SUB> are the numbers
+of coins of appropriate values Charlie should use to pay the coffee
+while using as many coins as possible.
+In the case Charlie does not possess enough change to pay the price
+of the coffee exactly,
+your program should output "<tt>Charlie cannot buy coffee.</tt>".
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+12 5 3 1 2
+16 0 0 0 1
+0 0 0 0 0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+Throw in 2 cents, 2 nickels, 0 dimes, and 0 quarters.
+Charlie cannot buy coffee.
+</PRE>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/d.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="d"></A><H2 ALIGN="Center">Building a&nbsp;New Depot</H2>
+<P ALIGN="Center">
+<CODE><A HREF="depot.c">depot.c</A>, <A HREF="depot.p">depot.p</A></CODE>
+<BR><CODE><A HREF="depot.in.gz">depot.in.gz</A>, <A HREF="depot.out.gz">depot.out.gz</A></CODE>
+<BR><CODE><A HREF="depot.ps.gz">depot.ps.gz</A></CODE>
+
+<P>
+Advanced Cargo Movement, Ltd. is successfully expanding. In order
+to meet new demands on truck maintenance, the management of the company
+decided to build a new truck depot. A suitable lot for building a depot
+was purchased and a&nbsp;construction company
+``Masonry and Fences for Future, Ltd.'' was hired to build a&nbsp;depot. 
+
+<P>
+The area of the depot will be enclosed by a&nbsp;fence. The fence is supposed
+to enclose a&nbsp;connected area of a lot and each part of the fence follows
+North-South or East-West direction. At each place where the fence changes
+its direction, there is a&nbsp;single post. The posts are only 
+at points where the fence changes the direction, i.e., there are no
+unnecessary posts. When MFF workers have built all of the posts, 
+they lost the plan of a&nbsp;depot being built. 
+At this moment, they asked you for a&nbsp;help.
+
+<P>
+Given the coordinates of all the posts, your task is to compute
+the length of the fence.
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input consists of several blocks. The first line of each block contains
+a&nbsp;single number <VAR>P</VAR>, 1 <img alt="<=" src="le.gif">  <VAR>P</VAR> <img alt="<=" src="le.gif">  100&nbsp;000. <VAR>P</VAR> is the number of posts
+which have been built. Each of the following <VAR>P</VAR> lines contains
+two integers <VAR>X</VAR> and <VAR>Y</VAR>, 0 <img alt="<=" src="le.gif">  <VAR>X</VAR>, <VAR>Y</VAR> <img alt="<=" src="le.gif">  10&nbsp;000, which represent
+coordinates of the posts in MFF internal units (which no one else is able
+to understand). No two posts have the same coordinates.
+
+<P>
+Each block is followed by a&nbsp;single empty line and the input is terminated
+by a&nbsp;line containing a&nbsp;single number 0.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+Output contains a&nbsp;single line for each block. The line should contain the
+text "<tt>The length of the fence will be L units.</tt>",
+where <VAR>L</VAR> is replaced by an&nbsp;actual length of the fence.
+You can assume that the fence can always be built.
+
+<P>
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+6
+1 1
+1 3
+3 3
+2 1
+3 2
+2 2
+
+0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+The length of the fence will be 8 units.
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/h.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="h"></A><H2 ALIGN="Center">Truck History</H2>
+<P ALIGN="Center">
+<CODE><A HREF="history.c">history.c</A>, <A HREF="history.p">history.p</A></CODE>
+<BR><CODE><A HREF="history.in.gz">history.in.gz</A>, <A HREF="history.out.gz">history.out.gz</A></CODE>
+<BR><CODE><A HREF="history.ps.gz">history.ps.gz</A></CODE>
+
+<P>
+Advanced Cargo Movement, Ltd. uses trucks of different types. Some trucks are
+used for vegetable delivery, other for furniture, or for bricks. The company has
+its own code describing each type of a&nbsp;truck. The code is simply a string of
+exactly seven lowercase letters (each letter on each position has a very
+special meaning but that is unimportant for this task). At the beginning of
+company's history, just a&nbsp;single truck type was used but later other types were
+derived from it, then from the new types another types were derived, and so on.
+
+<P>
+Today, ACM is rich enough to pay historians to study its history. One thing
+historians tried to find out is so called <EM>derivation plan</EM> -- i.e. how
+the truck types were derived. They defined the distance of truck types as the
+number of positions with different letters in truck type codes. They also
+assumed that each
+truck type was derived from exactly one other truck type (except for the first
+truck type which was not derived from any other type). The quality of a
+derivation plan was then defined as <BR><P></P>
+<DIV ALIGN="CENTER"><IMG
+ WIDTH="103" HEIGHT="50"
+ SRC="img5.gif"
+ >
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+where the
+sum goes over all pairs of types in the derivation plan
+such that <VAR>t</VAR><SUB><VAR>o</VAR></SUB> is the original type and
+<VAR>t</VAR><SUB><VAR>d</VAR></SUB> the type derived from it and <VAR>d</VAR>(<VAR>t</VAR><SUB><VAR>o</VAR></SUB>,<VAR>t</VAR><SUB><VAR>d</VAR></SUB>) is the distance of the types.
+
+<P>
+Since historians failed, you are to write a program to help them. Given the
+codes of truck types, your program should find the highest possible quality
+of a&nbsp;derivation plan.
+
+<P>
+<h3>Input Specification</h3>
+The input consists of several test cases. Each test case begins with a&nbsp;line
+containing the number of truck types, <VAR>N</VAR>, 2  <img alt="<=" src="le.gif">  <VAR>N</VAR>  <img alt="<=" src="le.gif">  2&nbsp;000.
+Each of the following <VAR>N</VAR> lines
+of input contains one truck type code (a&nbsp;string of seven lowercase letters).
+You may assume that the codes uniquely describe the trucks, i.e., no two
+of these <VAR>N</VAR> lines are the same.
+The input is terminated with zero at the place of number of truck types.
+
+<P>
+<h3>Output Specification</h3>
+For each test case, your program should output the text
+"<tt>The highest possible quality is 1/Q.</tt>",
+where 1/<VAR>Q</VAR> is the quality of the best derivation plan.
+
+<P>
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+4
+aaaaaaa
+baaaaaa
+abaaaaa
+aabaaaa
+0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+The highest possible quality is 1/3.
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/n.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="n"></A><H2 ALIGN="Center">Base Numbers</H2>
+<P ALIGN="Center">
+<CODE><A HREF="numbers.c">numbers.c</A>, <A HREF="numbers.p">numbers.p</A></CODE>
+<BR><CODE><A HREF="numbers.in.gz">numbers.in.gz</A>, <A HREF="numbers.out.gz">numbers.out.gz</A></CODE>
+<BR><CODE><A HREF="numbers.ps.gz">numbers.ps.gz</A></CODE>
+
+<P>
+Any integer number can be written as a&nbsp;sequence of digits. The most popular
+system is decimal, which uses ten digits (its <EM>base</EM> is 10).
+Besides, other systems with different bases can be used.
+For instance, the binary system (with the base of 2) is often used in
+relation to computers.
+
+<P>
+Generally, if we have a&nbsp;non-negative integer number <VAR>n</VAR> expressed as
+a&nbsp;sequence of digits
+<BR><P></P>
+<DIV ALIGN="CENTER"><VAR>d</VAR><SUB><VAR>k</VAR></SUB> <VAR>d</VAR><SUB><VAR>k</VAR>-1</SUB> ...<VAR>d</VAR><SUB>2</SUB> <VAR>d</VAR><SUB>1</SUB> <VAR>d</VAR><SUB>0</SUB>
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+in the system with the base <VAR>r</VAR> (<VAR>r</VAR> &gt; 1), then the value of the number is
+<BR><P></P>
+<DIV ALIGN="CENTER"><VAR>n</VAR> = <VAR>d</VAR><SUB><VAR>k</VAR></SUB> <img alt="." src="cdot.gif"><VAR>r</VAR><SUP><VAR>k</VAR></SUP> + <VAR>d</VAR><SUB><VAR>k</VAR>-1</SUB> <img alt="." src="cdot.gif"><VAR>r</VAR><SUP><VAR>k</VAR>-1</SUP> + ... + <VAR>d</VAR><SUB>2</SUB> <img alt="." src="cdot.gif"><VAR>r</VAR><SUP>2</SUP> + <VAR>d</VAR><SUB>1</SUB> <img alt="." src="cdot.gif"><VAR>r</VAR> + <VAR>d</VAR><SUB>0</SUB>.
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+Under any circumstances, each digit must be smaller than the base,
+0   <img alt="<=" src="le.gif">  <VAR>d</VAR><SUB><VAR>i</VAR></SUB> &lt; <VAR>r</VAR> for every <VAR>i</VAR>, 0   <img alt="<=" src="le.gif">  <VAR>i</VAR>   <img alt="<=" src="le.gif">  <VAR>k</VAR>.
+
+<P>
+Some problems arise when we use bases greater than 10, because then
+we need more than 10 popular digits. A&nbsp;common solution is to use letters
+for ``digits'' greater than 9. Although this solution pushes limits a&nbsp;little
+further, it does not avoid the problem itself -- the set of letters is still
+very limited. Thus, higher bases could not be used.
+
+<P>
+Another solution is to write every digit separately as a&nbsp;number in the
+decimal system. For example, the hexadecimal number 1A8D (in usual notation)
+can be written as ``(1-10-8-13)<SUB>16</SUB>''. Please note that the number is
+always followed by the base value (even in the decimal system) to avoid
+misinterpretations. This number format is called
+a&nbsp;<EM>decimal-encoded notation</EM> in this text.
+
+<P>
+A&nbsp;number in the decimal-encoded notation is considered valid only if it
+contains no unnecessary zeros, i.e., additional leading zeros cannot appear
+in the base value or in any of the digits.
+Moreover, all digits must always be smaller than the base value.
+Thus, ``(1-0-0-0)<SUB>7</SUB>'', ``(4-7689)<SUB>7690</SUB>'', and ``(0)<SUB>16</SUB>''
+are valid decimal-encoded numbers,
+on the other hand, ``(0-3-6)<SUB>8</SUB>'', ``(1-02-3)<SUB>6</SUB>'', ``(3-2-1)<SUB>07</SUB>'',
+and ``(9)<SUB>6</SUB>'' are invalid.
+
+<P>
+Due to some implementation reasons, ACM stores some data in valid
+decimal-encoded formats with various bases. Due to a&nbsp;software
+bug, a&nbsp;file containing a&nbsp;set of such numbers was damaged.
+All decimal digits has been preserved in the right order, but all of the
+dashes and parentheses were lost. Thus, each representation of a&nbsp;number was
+transformed to a&nbsp;<EM>code</EM> consisting of decimal digits only.
+Unfortunately, these codes are very ambiguous, most of them could represent
+many different numbers. For instance, ``1234'' could stand for
+``(1-2-3)<SUB>4</SUB>'',
+``(12)<SUB>34</SUB>'',
+``(1-2)<SUB>34</SUB>'', or
+``(1)<SUB>234</SUB>''.
+Your task is to determine the number of different representations that a&nbsp;code
+could stand for.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input file consists of several lines. Each line contains one code,
+i.e., the string consisting of decimal digits. The maximum length of any
+code is 35,
+the minimum length is 1. The last line of the input file contains
+a&nbsp;single hash character ("<tt>#</tt>").
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each code, output a&nbsp;single line of text.
+If there is no valid representation of a&nbsp;number resulting in the given code,
+print a&nbsp;single line containing the text "<tt>The code CCC is invalid.</tt>".
+Otherwise, print the text "<tt>The code CCC can represent X numbers.</tt>".
+Replace <VAR>CCC</VAR> with the given code. Replace <VAR>X</VAR> with the total number of
+different representations in the decimal-encoded notation that would result
+in the given code when dashes and parentheses are removed.
+Note that the representations of numbers are considered
+different even if they result in the same value.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+1234
+102
+201
+123456
+#
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+The code 1234 can represent 4 numbers.
+The code 102 can represent 1 numbers.
+The code 201 is invalid.
+The code 123456 can represent 13 numbers.
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/p.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="p"></A><H2 ALIGN="Center">Paper Cutting</H2>
+<P ALIGN="Center">
+<CODE><A HREF="paper.c">paper.c</A>, <A HREF="paper.p">paper.p</A></CODE>
+<BR><CODE><A HREF="paper.in.gz">paper.in.gz</A>, <A HREF="paper.out.gz">paper.out.gz</A></CODE>
+<BR><CODE><A HREF="paper.ps.gz">paper.ps.gz</A></CODE>
+
+<P>
+ACM managers need business cards to present themselves to their customers
+and partners. After the cards are printed on a&nbsp;large sheet of paper, they
+are cut with a&nbsp;special cutting machine. Since the machine operation
+is very expensive, it is necessary to minimize the number of cuts made.
+Your task is to find the optimal solution to produce the business cards.
+
+<P>
+There are several limitations you have to comply with. The cards are
+always printed in a&nbsp;grid structure of exactly <VAR>a</VAR> <img alt="x" src="times.gif">  <VAR>b</VAR> cards. The
+structure size (number of business cards in a&nbsp;single row and column) is fixed
+and cannot be changed due to a&nbsp;printing software restrictions.
+The sheet is always rectangular and its size is fixed.
+The grid must be perpendicular to the sheet edges, i.e.,
+it can be rotated by 90 degrees only.
+However, you can exchange the meaning of rows and columns and place the cards
+into any position on the sheet, they can even touch the paper edges.
+
+<P>
+For instance, assume the card size is 3 <img alt="x" src="times.gif">  4 cm, and the grid size
+1 <img alt="x" src="times.gif">  2 cards. The four possible orientations of the grid are depicted
+in the following figure. The minimum paper size needed for each of them is
+stated.
+
+<P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="591" HEIGHT="176" ALIGN="BOTTOM" BORDER="0"
+ SRC="img6.gif"
+ >
+<BR>
+</DIV>
+<P>
+The cutting machine used to cut the cards is able to make an&nbsp;arbitrary
+long continuous cut. The cut must run through the whole piece of the paper,
+it cannot stop in the middle. Only one free piece of paper can be cut at
+once -- you cannot stack pieces of paper onto each other, nor place them
+beside each other to save cuts.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input consists of several test cases. Each of them is specified by
+six positive integer numbers, <VAR>A</VAR>,<VAR>B</VAR>,<VAR>C</VAR>,<VAR>D</VAR>,<VAR>E</VAR>,<VAR>F</VAR>, on one line separated
+by a&nbsp;space. The numbers are:
+<UL>
+<LI><VAR>A</VAR> and <VAR>B</VAR> are the size of a&nbsp;rectangular grid,
+1   <img alt="<=" src="le.gif">  <VAR>A</VAR>,<VAR>B</VAR>   <img alt="<=" src="le.gif">  1&nbsp;000,
+<LI><VAR>C</VAR> and <VAR>D</VAR> are the dimensions of a&nbsp;card in cms,
+1   <img alt="<=" src="le.gif">  <VAR>C</VAR>,<VAR>D</VAR>   <img alt="<=" src="le.gif">  1&nbsp;000, and
+<LI><VAR>E</VAR> and <VAR>F</VAR> are the dimensions of a&nbsp;paper sheet in cms,
+1   <img alt="<=" src="le.gif">  <VAR>E</VAR>,<VAR>F</VAR>   <img alt="<=" src="le.gif">  1&nbsp;000&nbsp;000.
+</UL>The input is terminated by a&nbsp;line containing six zeros.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each of the test cases, output a&nbsp;single line. The line should
+contain the text: "<tt>The minimum number of cuts is X.</tt>",
+where <VAR>X</VAR> is the minimal number of cuts required.
+If it is not possible to fit the card grid onto the sheet,
+output the sentence "<tt>The paper is too small.</tt>" instead.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+1 2 3 4 9 4
+1 2 3 4 8 3
+1 2 3 4 5 5
+3 3 3 3 10 10
+0 0 0 0 0 0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+The minimum number of cuts is 2.
+The minimum number of cuts is 1.
+The paper is too small.
+The minimum number of cuts is 10.
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/r.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="r"></A><H2 ALIGN="Center">Hexagonal Routes</H2>
+<P ALIGN="Center">
+<CODE><A HREF="routing.c">routing.c</A>, <A HREF="routing.p">routing.p</A></CODE>
+<BR><CODE><A HREF="routing.in.gz">routing.in.gz</A>, <A HREF="routing.out.gz">routing.out.gz</A></CODE>
+<BR><CODE><A HREF="routing.ps.gz">routing.ps.gz</A></CODE>
+
+<P>
+Finding the shortest route is the typical task of a&nbsp;truck driver. If the
+truck moves via the shortest route, it saves money.
+It is also important to know alternative routes of the same length,
+for the case a&nbsp;route is unavailable, e.g., due to some road work.
+
+<P>
+To describe a&nbsp;region, we need to model a&nbsp;map of it. ACM recently found that
+triangular and rectangular based models are insufficient and decided to use
+hexagons for describing maps.
+Given a&nbsp;regular hexagonal grid (like honeycombs), we can number the cells
+starting with 1 (in any particular cell) and going in a&nbsp;spiral-like manner to
+other cells. This way, each cell is uniquely identified by its number
+and vice versa, each positive integer identifies a&nbsp;single cell.
+
+<P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="261" HEIGHT="260" ALIGN="BOTTOM" BORDER="0"
+ SRC="img8.gif"
+ >
+<BR>
+</DIV>
+<P>
+Two cells are called neighboring iff they have one side in
+common. In an&nbsp;infinite structure, each cell has exactly six neighbors.
+For instance, cell number 2 neighbors to cells 1, 3, 7, 8, 9 and 10.
+A&nbsp;<EM>hexagonal route</EM> is a&nbsp;non-empty sequence of cells where each cell in
+the sequence (except the last one) neighbors with its successor. A&nbsp;hexagonal
+route between two cells <VAR>X</VAR> and <VAR>Y</VAR> is a&nbsp;hexagonal route with <VAR>X</VAR> being the
+first member of the sequence, and <VAR>Y</VAR> being the last. The <EM>length</EM> of the
+route is the number of cells minus one. It represents the number of
+steps we need to make to travel via the route.
+
+<P>
+Your task is to determine the length of the shortest possible route between
+two cells and the total number of mutually different routes of that length.
+Different routes must differ in at least one sequence member, i.e., they do
+not need to form completely disjoint sequences.
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input consists of a&nbsp;series of tasks, each of them given on one separate
+line. The line contains two integer numbers <VAR>X</VAR> and <VAR>Y</VAR>,
+separated by a&nbsp;space, 1   <img alt="<=" src="le.gif">  <VAR>X</VAR>, <VAR>Y</VAR>   <img alt="<=" src="le.gif">  1&nbsp;000&nbsp;000, <VAR>X</VAR> <img alt="<>" src="ne.gif"> <VAR>Y</VAR>.
+These numbers identify two different cells. 
+The last task is followed by a&nbsp;line containing two zeros. This line terminates
+the input.
+
+<P>
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each task, output the sentence
+"<tt>There are N routes of the shortest length L.</tt>".
+Replace <VAR>L</VAR> with the smallest possible route length between cells
+<VAR>X</VAR> and <VAR>Y</VAR>.
+Replace <VAR>N</VAR> with the number of different routes of that length.
+If there is a&nbsp;single route only, use the words "<tt>is</tt>" and "<tt>route</tt>"
+instead of "<tt>are</tt>" and "<tt>routes</tt>".
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+1 2
+1 7
+1 8
+1 19
+7 12
+1000 9000
+0 0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+There is 1 route of the shortest length 1.
+There is 1 route of the shortest length 1.
+There are 2 routes of the shortest length 2.
+There is 1 route of the shortest length 2.
+There are 3 routes of the shortest length 3.
+There are 278940769844931007968 routes of the shortest length 73.
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/s.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="s"></A><H2 ALIGN="Center">Storehouse</H2>
+<P ALIGN="Center">
+<CODE><A HREF="store.c">store.c</A>, <A HREF="store.p">store.p</A></CODE>
+<BR><CODE><A HREF="store.in.gz">store.in.gz</A>, <A HREF="store.out.gz">store.out.gz</A></CODE>
+<BR><CODE><A HREF="store.ps.gz">store.ps.gz</A></CODE>
+
+<P>
+Advanced Cargo Movement, Ltd. owns a&nbsp;big storehouse in which a lot of various
+goods is stored. The storehouse has limited number of bays where a cargo can
+be loaded. Each day, trucks come to the bays, load their cargo (each truck
+loads just one type of goods) and leave for the shops.
+In order to speedup the loading,
+storekeepers move the goods to the bay in advance.
+Since the exact quantity of cargo to be loaded is not known beforehand,
+the storekeepers must prepare more goods than needed and the left-over
+goods is then returned to the store. Thus, it is useful when the next
+truck coming to the bay loads the same goods as the previous one, because
+it saves unnecessary movement of cargo.
+The capacity of trucks is much smaller than the capacity of the bay,
+therefore, any number of trucks can be served from one bay without
+reloading, as long as they want to load the same type of goods.
+
+<P>
+Your task is to organize which type of goods will be prepared in which bay,
+so that storekeepers must move the
+unloaded goods back to the storehouse as few times as possible. At the
+beginning of each day, no goods is prepared in any bay.
+The goods left in bays at the end of the day is not counted
+to the number of moves needed.
+
+<P>
+<h3>Input Specification</h3>
+The first line of the input contains the number of test cases to solve.
+Each test case starts with the line containing three integer numbers,
+<VAR>B</VAR>, <VAR>G</VAR>, <VAR>N</VAR>, 1  <img alt="<=" src="le.gif">  <VAR>B</VAR>  <img alt="<=" src="le.gif">  1&nbsp;000, 1  <img alt="<=" src="le.gif">  <VAR>G</VAR>  <img alt="<=" src="le.gif">  1&nbsp;000&nbsp;000,
+1  <img alt="<=" src="le.gif">  <VAR>N</VAR>  <img alt="<=" src="le.gif">  1&nbsp;000&nbsp;000, separated by a single space.
+<VAR>B</VAR> is the number of bays in the storehouse, <VAR>G</VAR> the number of types of goods
+stored in the storehouse and <VAR>N</VAR> the number of trucks coming to the storehouse.
+The test case continues by <VAR>N</VAR> lines. On the <VAR>i</VAR>-th line,
+there is a&nbsp;number <VAR>t</VAR><SUB><VAR>i</VAR></SUB>, 1  <img alt="<=" src="le.gif">  <VAR>t</VAR><SUB><VAR>i</VAR></SUB>  <img alt="<=" src="le.gif">  <VAR>G</VAR>,
+specifying the type of goods the <VAR>i</VAR>-th truck wants to load.
+
+<P>
+<h3>Output Specification</h3>
+For each test case, your program should output "<tt>Case X:</tt>"
+on the first line, where <VAR>X</VAR> is the case number starting with one.
+Then <VAR>N</VAR> lines follow. For each <VAR>i</VAR>, 1  <img alt="<=" src="le.gif">  <VAR>i</VAR>  <img alt="<=" src="le.gif">  <VAR>N</VAR>,
+the <VAR>i</VAR>-th line must contain one of the following strings:
+<UL>
+<LI>"<tt>NO ACTION</tt>" -- when no action needs to be performed before
+the arrival of the truck <VAR>i</VAR>(i.e., the goods <VAR>i</VAR>-th truck wants to load is already at some bay), or
+<LI>"<tt>LOAD b g</tt>" -- when the goods with number <VAR>g</VAR> should
+be moved to the bay <VAR>b</VAR> before the <VAR>i</VAR>-th truck arrives.
+The goods currently present at the bay <VAR>b</VAR> is automatically moved back
+to the storehouse.
+</UL>
+<P>
+Each time some truck arrives, the goods it wants to load must be prepared
+at some bay. Assume that any truck leaves the bay before the next one
+arrives, i.e., only a&nbsp;single truck is served at a&nbsp;time.
+
+<P>
+The number of "<tt>LOAD</tt>" actions should be as small as possible.
+If there are more solutions with the same number of "<tt>LOAD</tt>" actions,
+choose any one you want.
+Outputs for different test cases should be separated by a blank line.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+2
+2 4 5
+1
+2
+1
+4
+1
+3 3 3
+1
+3
+2
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+Case 1:
+LOAD 1 1
+LOAD 2 2
+NO ACTION
+LOAD 2 4
+NO ACTION
+
+Case 2:
+LOAD 1 1
+LOAD 2 3
+LOAD 3 2
+</PRE>
+<P>
+
+<P>
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div align=center>
+<img  SRC="../img/left.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/t.gif"><IMG  SRC="../img/empty.gif"><IMG  SRC="../img/right.gif">
+</div>
+<A NAME="t"></A><H2 ALIGN="Center">Traffic Jam</H2>
+<P ALIGN="Center">
+<CODE><A HREF="traffic.c">traffic.c</A>, <A HREF="traffic.p">traffic.p</A></CODE>
+<BR><CODE><A HREF="traffic.in.gz">traffic.in.gz</A>, <A HREF="traffic.out.gz">traffic.out.gz</A></CODE>
+<BR><CODE><A HREF="traffic.ps.gz">traffic.ps.gz</A></CODE>
+
+<P>
+Traffic jam is a&nbsp;real nightmare of all drivers. Nobody likes to be stuck
+in the overfilled streets, when the cars move very slowly, if they even
+move at all. Professional drivers face traffic jams quite often.
+Truck drivers of ACM are not an&nbsp;exception. Can you help drivers to
+find the way out of the traffic jam?
+
+<P>
+We can model a&nbsp;small (but complicated) traffic jam on a&nbsp;6 <img alt="x" src="times.gif">  6grid of squares. Vehicles (cars and trucks) are scattered over the grid at
+integer locations, as shown below. Both types of vehicles&nbsp;are 1 square wide.
+Cars are 2 squares long, and trucks are 3 squares long. Vehicles may be
+oriented either horizontally (East-West) or vertically (North-South)
+relative to the grid.
+
+<P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="291" HEIGHT="218" ALIGN="BOTTOM" BORDER="0"
+ SRC="img9.gif"
+ >
+<BR>
+</DIV>
+<P>
+Vehicles cannot move through each other, cannot turn, and cannot move over
+the edge of the grid. They can move in their direction
+(horizontally-oriented vehicles cannot move vertically and vice versa),
+as long as they are not blocked by another vehicle or by the edge of the
+grid. Only one vehicle may move in a&nbsp;single step, but it may move by as
+many squares at a&nbsp;time as possible, providing there is enough empty space.
+
+<P>
+Our goal is to move vehicles back and forth until a&nbsp;particular
+horizontally-oriented vehicle (your own car -- the black one on the
+picture above) leaves the rightmost (eastern-most) edge of the grid,
+where it is considered to have escaped the traffic jam.
+You are to write a&nbsp;program that will find a&nbsp;solution requiring the
+minimum possible number of moves.
+
+<P>
+
+<P>
+<h3>Input Specification</h3>
+
+<P>
+The input file will consist of one or more input scenarios. Each scenario
+begins with a&nbsp;single integer <VAR>n</VAR>, 1   <img alt="<=" src="le.gif">  <VAR>n</VAR>   <img alt="<=" src="le.gif">  10, giving the number of
+vehicles in the scenario. Then there will be 6 lines of input, each
+containing 6 characters. Each character is either a&nbsp;dot ("<tt>.</tt>")
+representing an&nbsp;empty square, or a&nbsp;lowercase letter representing a&nbsp;vehicle.
+Your own vehicle is always oriented horizontally and represented by
+"<tt>x</tt>" characters. The other vehicles use the letters sequentially,
+beginning with "<tt>a</tt>".
+
+<P>
+The last scenario will be followed by a&nbsp;line containing a&nbsp;single zero.
+
+<P>
+<h3>Output Specification</h3>
+
+<P>
+For each scenario, output a&nbsp;single line with the statement
+"<tt>Scenario #K requires X moves.</tt>", where <VAR>K</VAR> is
+the number of the scenario (starting with 1) and <VAR>X</VAR> is the
+minimum number of moves required to escape the the traffic jam with
+the particular car.
+
+<P>
+If it is not possible to escape, output the sentence
+"<tt>You are trapped in scenario #K.</tt>" instead.
+
+<P>
+<h3>Sample Input</h3>
+<PRE>
+8
+aa...b
+c..d.b
+cxxd.b
+c..d..
+e...ff
+e.ggg.
+8
+abbc..
+a..c..
+axxc..
+..gddd
+..g..e
+..fffe
+0
+</PRE>
+<P>
+<h3>Sample Output</h3>
+<PRE>
+Scenario #1 requires 8 moves.
+Scenario #2 requires 25 moves.
+</PRE>
+<P>
+
+
+
+<!-- ***** konec stranky (s pocitadlem pristupu) ***** -->
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+</TABLE>
+
+</BODY>
+</HTML>

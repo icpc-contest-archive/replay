@@ -1,0 +1,815 @@
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/dhaka/dhakaprob98.htm">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+   <META NAME="Generator" CONTENT="Microsoft Word 97">
+   <META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [en] (Win95; I) [Netscape]">
+   <TITLE>ACM International Collegiate Programming Contest, 1998</TITLE>
+</HEAD>
+<BODY LINK="#0000FF" VLINK="#800080">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/dhaka/dhakaprob98.htm">http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/dhaka/dhakaprob98.h (2001-04-25 21:26)</a> (Wayback snapshot 2001-04-25 21:26; fetched 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/dhaka-1998.html">dhaka-1998</a>  <a href="https://web.archive.org/web/20010425212658/http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/dhaka/dhakaprob98.htm">wayback</a>  <a href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/dhaka/dhakaprob98.htm">live</a></div>
+
+
+<CENTER><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Asia Regional Contest  <SUP>sponsored by</SUP> IBM,
+Dhaka Site</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>North South University</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem A: Mysterious Island</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: island.in</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>There used to live a wise and highly respectable philosopher
+with few hundred disciples in a tiny island in the middle of the Atlantic
+Ocean. They were completely isolated from the rest of the world and hence,
+they did not know any other language but their own. One day the philosopher
+found a floating plastic bag containing few pages of an English grammar
+book. As soon as he realized that he had come upon a new language, he immediately
+started to teach that to his disciples. Since most of his disciples were
+enthusiastic about the new language, they started to learn the language.
+Everyday they submitted hundreds of sentences, formed according to the
+grammar and using the words available. As the words and the grammar were
+new to them, they made errors while forming sentences. Shortly the philosopher
+found difficulties with checking so many sentences a day. The grammar and
+the words were as follows:</FONT>
+
+<P><FONT SIZE=-1><B>sentence</B> <FONT FACE="Symbol">&reg;</FONT> <B>noun
+phrase</B> + <B>transitive verb phrase</B> + <B>noun phrase</B></FONT>
+
+<P><FONT SIZE=-1><B>sentence</B> <FONT FACE="Symbol">&reg;</FONT> <B>noun
+phrase</B> + <B>intransitive verb phrase</B></FONT>
+
+<P><FONT SIZE=-1><B>noun phrase</B> <FONT FACE="Symbol">&reg;</FONT> <B>article</B>
++ <B>adjective</B> + <B>noun</B></FONT>
+
+<P><FONT SIZE=-1><B>noun phrase</B> <FONT FACE="Symbol">&reg;</FONT> <B>article</B>
++ <B>noun</B></FONT>
+
+<P><FONT SIZE=-1><B>transitive verb phrase</B> <FONT FACE="Symbol">&reg;</FONT>
+<B>transitive verb</B></FONT>
+
+<P><FONT SIZE=-1><B>intransitive verb phrase</B> <FONT FACE="Symbol">&reg;</FONT>
+<B>intransitive verb</B> + <B>adverb</B></FONT>
+
+<P><FONT SIZE=-1><B>intransitive verb phrase</B> <FONT FACE="Symbol">&reg;</FONT>
+<B>intransitive verb</B></FONT>
+
+<P><FONT SIZE=-1><B>article</B> <FONT FACE="Symbol">&reg;</FONT> <I>a</I>
+<B>| </B><I>an</I> <B>|</B> <I>the</I></FONT>
+
+<P><FONT SIZE=-1><B>adjective</B> <FONT FACE="Symbol">&reg;</FONT> <I>sleepy</I>
+<B>|</B> <I>lazy</I> <B>|</B> <I>happy</I> <B>|</B> <I>large</I> <B>|</B>
+<I>hungry </I><B>|</B><I> young </I><B>|</B><I> bright </I><B>|</B><I>
+angry </I><B>|</B><I> pretty </I><B>|</B><I> orange </I><B>|</B><I> gray</I></FONT>
+
+<P><FONT SIZE=-1><B>noun</B> <FONT FACE="Symbol">&reg;</FONT> <I>tortoise
+</I><B>|</B><I> hare</I> <B>|</B> <I>rabbit</I><B> |</B> <I>mathematician
+</I><B>|</B><I> musician </I><B>|</B><I> ballerina </I><B>|</B><I> sonata
+</I><B>|</B><I> atom </I><B>|</B><I> electron</I></FONT>
+
+<P><FONT SIZE=-1><B>transitive verb</B> <FONT FACE="Symbol">&reg;</FONT>
+<I>composes </I><B>|</B><I> walks </I><B>|</B><I> dates</I></FONT>
+
+<P><FONT SIZE=-1><B>intransitive verb</B> <FONT FACE="Symbol">&reg;</FONT>
+<I>sees </I><B>|</B><I> thinks </I><B>|</B><I> dances </I><B>|</B><I> goes
+</I><B>|</B><I> looks</I></FONT>
+
+<P><FONT SIZE=-1><B>adverb</B> <FONT FACE="Symbol">&reg;</FONT> <I>quickly</I>
+<B>|</B> <I>slowly </I><B>|</B><I> faster </I><B>|</B><I> further </I><B>|</B><I>
+magnificently </I><B>|</B><I> better</I></FONT>
+
+<P><FONT SIZE=-1>In this problem it is required to write a program which
+could help the philosopher. The program needs to read a file containing
+several lines of text based on the grammar above. Each line represents
+a sentence. The program prints "Valid" for a correct sentence and "Invalid"
+otherwise.</FONT>
+
+<P><FONT SIZE=+2>Input</FONT>
+
+<P><FONT SIZE=-1>The input file will consist of up to 100 lines of text
+where each line represents a sentence to be checked. A line consisting
+of just the letter E (no leading blanks) will mark the end of file.</FONT>
+
+<P><FONT SIZE=+2>Output</FONT>
+
+<P><FONT SIZE=-1>For each sentence print a single line containing the word
+"Valid" if the sentence is correct or "Invalid" otherwise.</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=+2>Sample Input</FONT>
+
+<P><FONT SIZE=-1>happy hare dances better</FONT>
+
+<P><FONT SIZE=-1>the young ballerina dances magnificently</FONT>
+
+<P><FONT SIZE=-1>a sleepy sonata sees slowly</FONT>
+
+<P><FONT SIZE=-1>E</FONT>
+
+<P><FONT SIZE=+2>Output for the Sample Input</FONT>
+
+<P><FONT SIZE=-1>Invalid</FONT>
+
+<P><FONT SIZE=-1>Valid</FONT>
+
+<P><FONT SIZE=-1>Valid</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Asia Regional Contest  <SUP>sponsored by</SUP> IBM,
+Dhaka Site</FONT></CENTER>
+
+
+<P><FONT SIZE=+2>North South University</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem B: Vertex Ranking</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: vertex.in</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>A tree <I>T</I> = (<I>V</I>, <I>E</I>) is a connected,
+acyclic, unordered graph where <I>V</I> is a finite set of objects known
+as <I>vertices</I> and <I>E</I> is a binary relation on <I>V</I>, i.e.
+<I>E</I> is a subset of unordered pairs (<I>m</I>, <I>n</I>) such that
+both <I>m</I> and <I>n</I> are elements of <I>V</I>. Each pair (<I>m</I>,
+<I>n</I>) is called an edge, whereas a path from vertex <I>m</I><SUB>1</SUB>
+to vertex <I>m<SUB>k</SUB></I> is a sequence of vertices &lt;<I>m</I><SUB>1</SUB>,
+<I>m</I><SUB>2</SUB>, <I>m</I><SUB>3</SUB>,  , <I>m<SUB>k</SUB></I>> such
+that (<I>m<SUB>i</SUB></I>, <I>m<SUB>i</SUB>+1</I>) is an edge for any
+<I>i</I> from 1 through <I>k</I><FONT FACE="Symbol">-</FONT> 1. The Figure
+C.T.1 below is a pictorial representation of a tree with six (6) vertices,
+denoted by 1, 2, , 6 and with five (5) edges (4, 2), (2, 1), (1,5), (3,
+1), and (1, 6). An example of a path from vertex 5 to vertex 6 is the sequence
+&lt;5, 1, 6> where (1, 5) and (1, 6) are two edges.</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<BR><IMG SRC="tree.gif" HEIGHT=281 WIDTH=355>
+<BR><FONT SIZE=-1>Figure C.T.1</FONT>
+
+<P><FONT SIZE=-1>A <B><I>vertex-ranking</I></B> of a tree is the labelling
+of <B>all</B> the vertices with consecutive positive integers beginning
+with 1 (one) such that any path between two vertices with the same label
+<I>i </I>contains at least one vertex with label <I>j</I> such that <I>j</I>
+> <I>i</I>. Given a tree with less than 51 vertices, you are required to
+write a program that will find the minimum number of labelling integers
+required to rank the vertices of the tree.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>The input file comprises of several information units.
+Each unit describes a tree. The first line in each information unit indicates
+the number of vertices of the tree. The second line is an array of edges
+where each edge is a pair of positive integers. Any two consecutive information
+units are separated by at least one blank line.</FONT>
+
+<P><FONT SIZE=-1>The input file is terminated with the digit 0 on a line
+by itself.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>For each tree, first print its number (Tree 1, Tree 2,
+etc.) and then the minimum number of consecutive integers required to rank
+all the vertices.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>15</FONT>
+
+<P><FONT SIZE=-1>(1,2),(1,3),(1,4),(2,5),(2,6),(3,7),(3,8),(4,9),(5,10),(5,11),(5,12),(8,13),(9,14),(9,15)</FONT>
+
+<P><FONT SIZE=-1>10</FONT>
+
+<P><FONT SIZE=-1>(1,2),(2,3),(2,4),(3,5),(3,6),(3,7),(4,8),(4,9),(9,10)</FONT>
+
+<P><FONT SIZE=-1>0</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output for the Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>Tree 1</FONT>
+
+<P><FONT SIZE=-1>Ranking integers = 4</FONT>
+
+<P><FONT SIZE=-1>Tree 2</FONT>
+
+<P><FONT SIZE=-1>Ranking integers = 4</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<DIR>
+<CENTER><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></CENTER>
+</DIR>
+
+<CENTER><FONT SIZE=+2>Asia Regional Contest  <SUP>sponsored by</SUP> IBM,
+Dhaka Site</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>North South University</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem C: TV Schedule</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: tvschdle.in</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=-1>Mr. I Like TV Program (hereafter called Mr. ILTVP)
+was one morning very happy simply because he found a web-site which had
+detailed program schedule for a couple of years of his favorite TV station
+and he spent only sixty five minutes just to download a 50kb TV schedule
+file. After initial flurry of happiness Mr. ILTVP became little disappointed
+when he found that the schedule was given in GMT. Since there is a lag
+of six (6) hours between GMT and BST (Bangladesh Standard Time), he realized
+that addition of six hours to each program time would be required to solve
+this time related problem. Shortly it dawned on him that even mere addition
+of six hours was not good enough since other considerations have to be
+taken into account.</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>In this problem you are required to write a program which
+converts the given TV schedule from GMT to BST so that Mr. ILTVP can use
+it satisfactorily.</FONT>
+
+<P><FONT SIZE=+2>Input</FONT>
+
+<P><FONT SIZE=-1>The input file is a multi-line document. There are only
+two types of lines: <I>comment lines</I> and <I>schedule lines</I>. Comment
+lines are for general information and are identified by a % symbol at the
+first column of each line. Each schedule line is divided into four fields:
+<B>date</B>, <B>start time</B>, <B>finish time</B>, and <B>program name</B>.
+The date field comes first, next start time, thereafter finish time and
+finally program name. These fields are separated exactly by one blank space.
+The date field is of eleven characters and is formatted as follows: the
+first two are date of the month, third one is a blank space, fourth through
+sixth are the name of the month abbreviated with the first three characters,
+seventh is a blank space, and eighth through eleventh are year written
+in four digits. The start and finish times are of seven characters each.
+Times are written as hh:mm followed by either AM or PM. Program names are
+left flushed in a field of forty characters.</FONT>
+
+<P><FONT SIZE=-1>Any two lines may have a blank line in between.</FONT>
+
+<P><FONT SIZE=-1>The file is terminated by a single % symbol in the first
+column of a line.</FONT>
+
+<P><FONT SIZE=+2>Output</FONT>
+
+<P><FONT SIZE=-1>Output is an exact replica of input, <U>only</U> the times
+are in BST. Even the comment lines, the blank lines, and the file termination
+character remain unchanged.</FONT>
+
+<P><FONT SIZE=+2>Sample Input</FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>% Main programs in the coming
+days</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>% Schedule is subject to change
+without notice</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>15 Jan 1999 11:10AM 12:00AM Keep
+Fit</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>31 Aug 1999 11:30PM 01:30AM Musicals</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>31 Dec 1999 08:00PM 11:50PM Year
+End Concert</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>%</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>&nbsp;</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>&nbsp;</FONT></FONT>
+
+<P><FONT SIZE=+2>Output for the Sample Input</FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>% Main programs in the coming
+days</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>% Schedule is subject to change
+without notice</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>15 Jan 1999 05:10PM 06:00AM Keep
+Fit</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>01 Sep 1999 05:30AM 07:30AM Musicals</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>01 Jan 2000 02:00AM 05:50AM Year
+End Concert</FONT></FONT>
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>%</FONT></FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT FACE="Courier New"><FONT SIZE=-1>&nbsp;</FONT></FONT></CENTER>
+
+
+<P><FONT FACE="Courier New"><FONT SIZE=-1>&nbsp;</FONT></FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Asia Regional Contest  <SUP>sponsored by</SUP> IBM,
+Dhaka Site</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>North South University</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem D: Warships at Bay</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: warship.in</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>In the Bay of Bengal, there are a number of different
+sizes of warships of an enemy nation cruising here and there. Each ship
+at a particular moment of time is located inside an <I>m</I>x<I>n</I> cellular
+grid, satisfying 0<FONT FACE="Symbol">&lt;</FONT> <I>m</I>,<I>n</I><FONT FACE="Symbol">&pound;</FONT>
+25. A ship occupies a number of consecutive cells either horizontally or
+vertically. Thus the position of a ship is indicated by either a horizontal
+or a vertical block located in our grid. Exactly <I>n</I> number of long
+distance big guns (<I>G<SUB>i</SUB></I>s) have been installed along the
+shore facing each column of the grid. These guns are capable of hitting
+any target in the grid only along a straight line parallel to the vertical
+border of the grid. Each gun can take only a limited number of shots and
+this limit, which from henceforth will be called firing capacity and
+denoted by lower case <I>c</I>, is equal for all the guns. A ship will
+sink if and only if it is hit by one or more guns and the number of shots
+equals the number of consecutive cells the ship occupies in the grid. No
+shot from a gun can pierce through a ship blocking the target line of the
+gun and can hit a ship at the rear. The target line above can be used to
+hit the ship behind only when the ship in the front is hit and sunk completely.
+Be it noticed, that sinking is instantaneous.</FONT>
+
+<P><I>&nbsp;</I><IMG SRC="matrix.gif" HEIGHT=283 WIDTH=333>
+
+<P><FONT SIZE=-1>You are being asked by the Defense Ministry of GOB to
+write a program that will yield the minimum number of guns that need to
+be fired to sink all the ships.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>The input file comprises of a set of information units
+regarding the firing capacities, dimensions of grids and locations of warships
+in the grids. The first line in each information unit contains three integers
+where the first represents firing capacity <I>c</I> and the following two
+represent values for <I>m</I> rows and <I>n</I> columns of the particular
+grid in the information unit. Each of the following lines in the unit indicates
+the location of a ship in that grid. The location is described by a set
+of ordered pairs of integers.</FONT>
+
+<P><FONT SIZE=-1>To give an example, the following line</FONT>
+
+<P><FONT SIZE=-1>(<I>m</I>,<I>k</I>),(<I>m</I>,<I>k</I>+1)</FONT>
+
+<P><FONT SIZE=-1>indicates a location comprising of two (2) horizontal
+consecutive cells (<I>m</I>,<I>k</I>) and (<I>m</I>,<I>k</I>+1) where (<I>m</I>,<I>k</I>)
+is the intersection cell of the <I>m<SUP>th</SUP> </I>row and <I>k<SUP>th</SUP></I>
+column of the grid and (<I>m</I>,<I>k</I>+1) is the intersection cell of
+the <I>m<SUP>th</SUP></I> row and (<I>k</I>+1)<I><SUP>th</SUP></I> column.
+On the other hand the line below</FONT>
+
+<P><FONT SIZE=-1>(<I>m</I>,<I>k</I>),(<I>m</I>+1,<I>k</I>)</FONT>
+
+<P><FONT SIZE=-1>points a location comprising of two (2) vertical consecutive
+cells (<I>m</I>,<I>k</I>) and (<I>m</I>+1,<I>k</I>) where (<I>m</I>,<I>k</I>)
+is the intersection cell of <I>m<SUP>th</SUP></I> row and <I>k<SUP>th</SUP></I>
+column and (<I>m</I>+1,<I>k</I>) is the intersection cell of (<I>m</I>+1)<I><SUP>th</SUP></I>
+row and <I>k<SUP>th</SUP></I> column of the grid.</FONT>
+
+<P><FONT SIZE=-1>The end of the input file is denoted by the upper case
+E.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>The program will print the <I>minimum</I> number of guns
+required to eliminate all the enemy ships. Given the shooting capacity
+and the number of guns, if complete elimination turns out impossible then
+the program has to print "No Solution".</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>3,11,13</FONT>
+
+<P><FONT SIZE=-1>(2,4),(2,5),(2,6),(2,7)</FONT>
+
+<P><FONT SIZE=-1>(4,5),(5,5),(6,5)</FONT>
+
+<P><FONT SIZE=-1>(5,7),(5,8),(5,9)</FONT>
+
+<P><FONT SIZE=-1>(2,11),(2,12)</FONT>
+
+<P><FONT SIZE=-1>5,11,13</FONT>
+
+<P><FONT SIZE=-1>(2,4),(2,5),(2,6),(2,7)</FONT>
+
+<P><FONT SIZE=-1>(4,5),(5,5),(6,5)</FONT>
+
+<P><FONT SIZE=-1>(5,7),(5,8),(5,9)</FONT>
+
+<P><FONT SIZE=-1>(2,11),(2,12)</FONT>
+
+<P><FONT SIZE=-1>E</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output for the Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>Information unit 1</FONT>
+
+<P><FONT SIZE=-1>Minimum number of guns = 5</FONT>
+
+<P><FONT SIZE=-1>Information unit 2</FONT>
+
+<P><FONT SIZE=-1>Minimum number of guns = 3</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Asia Regional Contest  <SUP>sponsored by</SUP> IBM,
+Dhaka Site</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>North South University</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem E: Filling Station</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: station.in</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>In an old filling station, there is a tank containing
+fuel and an attendant with only two jugs of capacity <I>V</I><SUB>1</SUB>
+and <I>V</I><SUB>2</SUB> liters, with no markings on them. She uses them
+to satisfy a customers demand for fuel, and the quantity demanded is always
+a positive integer. The only maneuvers she performs to serve her customers
+are:</FONT>
+<UL>
+<UL>
+<LI>
+<FONT SIZE=-1>filling up a jug from the tank</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>emptying a jug into the tank</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>transferring the content of one jug to another until either
+the pouring jug is emptied completely, or the other jug is filled to the
+capacity, and</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>pouring from any of the measuring jugs with capacities <I>V</I><SUB>1</SUB>
+and <I>V</I><SUB>2</SUB> into the customers jug.</FONT></LI>
+</UL>
+</UL>
+<FONT SIZE=-1>Being old and not-so-well-versed in techniques of algorithm,
+she goes by trial and error method and uses different sequences of maneuvers
+on different occasions to meet the same quantity of demand. Thus she spends
+different amount of time and effort for the same quantity demanded.</FONT>
+
+<P><FONT SIZE=-1>You are required to come up with a program that will provide
+the old lady an algorithm which will involve minimum number of maneuvers
+on her behalf in meeting a customers demand and thus minimize her time
+and effort.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>The input file contains several lines of data. Each line
+consists of three integers where the first and second represent the capacities
+of <I>V</I><SUB>1</SUB> and <I>V</I><SUB>2</SUB> respectively, and the
+third indicates the quantity demanded by a customer.</FONT>
+
+<P><FONT SIZE=-1>The input file is terminated by the upper case E on a
+line by itself.</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>For each customer, first print his/her number (Customer
+1, Customer 2, etc.) and then indicate the minimum number of maneuvers
+required to meet the quantity demanded followed by a sequence of maneuvers
+corresponding to that minimum number. It is assumed that the measuring
+jugs are empty prior to the beginning of the service and the tank contains
+enough liquid to satisfy the demand.</FONT>
+
+<P><FONT SIZE=-1>For a given triple of <I>V</I><SUB>1</SUB>, <I>V</I><SUB>2</SUB>
+and quantity demanded, if there is no solution, then print "No Solution".</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>5 3 4</FONT>
+
+<P><FONT SIZE=-1>E</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Output for the Sample Input</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>Customer 1</FONT>
+
+<P><FONT SIZE=-1>Minimum number of maneuvers = 7</FONT>
+
+<P><FONT SIZE=-1>0 3 0</FONT>
+
+<P><FONT SIZE=-1>0 0 3</FONT>
+
+<P><FONT SIZE=-1>0 3 3</FONT>
+
+<P><FONT SIZE=-1>3 0 3</FONT>
+
+<P><FONT SIZE=-1>3 3 3</FONT>
+
+<P><FONT SIZE=-1>5 1 3</FONT>
+
+<P><FONT SIZE=-1>5 0 4</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=-1>&nbsp;</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<CENTER></CENTER>
+
+<CENTER><B><FONT SIZE=+2>ACM International Collegiate Programming Contest,
+1998</FONT></B></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><B>Asia Regional Contest  <SUP>sponsored by</SUP> IBM, Dhaka Site</B></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><B>North South University</B></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+3>Problem F: Walk an Equation</FONT></CENTER>
+
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=+2>Input: equation.in</FONT></CENTER>
+
+
+<P><FONT SIZE=-1>An <I>m</I> x <I>n</I> table is filled with symbols from
+the set <I>S</I> = {0, 1, 2, , 9, +, <FONT FACE="Symbol">-</FONT> , *,
+(, )}, satisfying 3<FONT FACE="Symbol">&pound;</FONT> <I>m</I>, <I>n</I><FONT FACE="Symbol">&pound;</FONT>
+8. The symbols 0, 1, 2,  , 9 represent digits, and +, <FONT FACE="Symbol">-</FONT>
+, and * represent addition, subtraction, and multiplica-tion respectively.
+The notation ( stands for opening parenthesis and ) for closing one.</FONT>
+
+<P><FONT SIZE=-1>You have to trace all possible paths starting from any
+cell in the first row to any cell in the last row. Any path should yield
+a valid numeric equation. You are allowed to move only in four primary
+directions: <B>up</B>, <B>down</B>, <B>left</B>, and <B>right</B>. No diagonal
+moves are allowed. The numerical contents of adjacent cells along the path
+may form a number, but that number should not exceed more than four (4)
+digits. You cannot use any cellular content more than once in an equation.</FONT>
+
+<P><FONT SIZE=-1>The figure below is a tabular representation of the sample
+input.</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+<BR>&nbsp;
+<TABLE BORDER CELLPADDING=9 WIDTH="240" >
+<TR>
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>5</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>2</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>3</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>+</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>=</FONT></CENTER>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>5</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>6</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>+</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>=</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1><FONT FACE="Symbol">-</FONT>&nbsp;</FONT></CENTER>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1><FONT FACE="Symbol">-</FONT>&nbsp;</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>1</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>=</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>8</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>6</FONT></CENTER>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>2</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>9</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>5</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>6</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1><FONT FACE="Symbol">-</FONT>&nbsp;</FONT></CENTER>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>1</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>5</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>6</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>3</FONT></CENTER>
+</TD>
+
+<TD VALIGN=TOP WIDTH="20%">
+<CENTER><FONT SIZE=-1>2</FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT SIZE=-1>Figure F.1 Walk an Equation.</FONT>
+
+<P><FONT SIZE=-1>You are required to print all possible valid equations.
+If no such equation exists then print "No Solution".</FONT>
+
+<P><FONT SIZE=+2>Input</FONT>
+
+<P><FONT SIZE=-1>The input file comprises of several blocks. Each block
+begins with a line containing two integers for <I>m</I> and <I>n</I>, separated
+by one or more spaces. The rest of the block is an <I>m </I>x <I>n</I>
+table filled with elements from the set <I>S</I> separated by one or more
+spaces.</FONT>
+
+<P><FONT SIZE=-1>The input file is terminated by two zeros on a line by
+itself following the last block.</FONT>
+
+<P><FONT SIZE=+2>Output</FONT>
+
+<P><FONT SIZE=-1>For each block, first print its number (Table 1, Table
+2, etc.) and then all possible equations. Each line should represent a
+single equation. If no equation could be obtained from a block simply print
+"No Solution".</FONT>
+
+<P><FONT SIZE=-1>&nbsp;</FONT>
+
+<P><FONT SIZE=+2>Sample Input</FONT>
+
+<P><FONT SIZE=-1>5 5</FONT>
+<BR><FONT SIZE=-1>5 2 3 + =</FONT>
+<BR><FONT SIZE=-1>5 6 + = <FONT FACE="Symbol">-</FONT></FONT>
+<BR><FONT SIZE=-1><FONT FACE="Symbol">-</FONT> 1 = 8 6</FONT>
+<BR><FONT SIZE=-1>2 9 5 6 <FONT FACE="Symbol">-</FONT></FONT>
+<BR><FONT SIZE=-1>1 5 6 3 2</FONT>
+
+<P><FONT SIZE=-1>0 0</FONT>
+
+<P><FONT SIZE=+2>Output for the Sample Input</FONT>
+
+<P><FONT SIZE=-1>Table 1</FONT>
+
+<P><FONT SIZE=-1>23 + 61 = 86 <FONT FACE="Symbol">-</FONT> 2</FONT>
+<CENTER></CENTER>
+
+<CENTER><FONT SIZE=-1>&nbsp;</FONT></CENTER>
+
+</BODY>
+</HTML>

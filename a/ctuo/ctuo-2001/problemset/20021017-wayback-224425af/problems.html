@@ -1,0 +1,1024 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://contest.felk.cvut.cz/01prg/solved/problems.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+   <TITLE>Problems Statement: CTU Open 2001</TITLE>
+   <META NAME="Description" CONTENT="ACM International Collegiate
+         Central Europe 2000 Contest, problem set statement.">
+   <META NAME="Keywords" CONTENT="ACM, Programming Contest, CTU Open 2001">
+   <META NAME="Author" CONTENT="Michal Sevcenko">
+   <META NAME="Generator" CONTENT="hand made">
+</HEAD>
+<BODY BGCOLOR="White">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://contest.felk.cvut.cz/01prg/solved/problems.html">https://contest.felk.cvut.cz/01prg/solved/problems.html (2002-10-17 01:54)</a> (Wayback snapshot 2002-10-17 01:54; fetched 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/ctuo-2001.html">ctuo-2001</a>  <a href="https://web.archive.org/web/20021017015457/https://contest.felk.cvut.cz/01prg/solved/problems.html">wayback</a>  <a href="https://contest.felk.cvut.cz/01prg/solved/problems.html">live</a></div>
+
+
+<!-- linka s vyberem kodovani -->
+<MAP NAME="map-czset">
+   <AREA SHAPE="Circle" COORDS="386,15,16" ALT="ISO-8859-2"
+   HREF="/iso2/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="419,15,16" ALT="Windows 1250"
+   HREF="/1250/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="452,15,16" ALT="IBM CP 852"
+   HREF="/852/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="484,15,16" ALT="Macintosh EE"
+   HREF="/mac/00prg/solved/problems.html">
+   <AREA SHAPE="Circle" COORDS="518,15,16" ALT="Ascii 7-bit"
+   HREF="/ascii/00prg/solved/problems.html">
+   <AREA SHAPE="Rect" COORDS="518,19,580,31" ALT="vybrat kódování"
+   HREF="czech.html">
+   <!--
+   <AREA SHAPE="Circle" COORDS="78,15,16" ALT="English Version"
+   HREF="problemsE.html">
+   <AREA SHAPE="Rect" COORDS="14,19,72,31" ALT="English Version"
+   HREF="problemsE.html">-->
+</MAP>
+
+
+<!-- ***** zahlavi s logem souteze ***** -->
+
+<CENTER>
+<P><TABLE BORDER=0><TR><TD>
+<IMG SRC="../../img/counter.gif" ALT="ACM" WIDTH=128 HEIGHT=96>
+<TD><IMG SRC="../../img/contest.gif" ALT="Programming Contest"
+width=424 height=96></TABLE>
+
+<IMG SRC="../../img/line-mail.gif" WIDTH=592 HEIGHT=32 ALT="e-mail"
+BORDER=0 USEMAP="#map-mail">
+
+
+<P><TABLE WIDTH=600 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR><TD>
+
+
+<DIV ALIGN=CENTER>
+České vysoké učení technické a Univerzita Karlova<br>
+Katedra počítačů FEL ČVUT, Czech ACM Chapter,<br>
+Kabinet software a výuky informatiky MFF UK,<br>
+ve spolupraci s Katedrou informatiky FEI VŠB-TU Ostrava<br>
+</DIV>
+
+<p>
+<br>
+<A NAME=""></A><H2 ALIGN="Center">CTU Open Contest 2001</H2>
+<br>
+
+<P>
+V&nbsp;dnešním světě plném techniky je třeba vzdělaných lidí. Potvrzuje
+to i studie Dr.Ozda Singa z&nbsp;Číny, která odhaluje i překvapivou
+skutečnost, že nadání k&nbsp;přírodním vědám a matematice obvzlášť se projevuje
+již ve velmi raném věku. Matematicky nadané malé dítě se brzy dovtípí,
+že když jste koupili dvě lízátka a ono snědlo jen jedno, tak to druhé
+přeci někde musí být. Skutečnost, že druhé lízátko již dávno zkonzumoval
+sourozenec, pak je už jen zanedbatelnou odchylkou reality od teorie.
+Matematicko-fyzikální fakulta se rozhodla podporovat takto nadané
+děti již od raného věku (zajistí si tím mimo jiné i stálý přísun studentů)
+a založila matfyzáckou školku. Pro školku byla vybrána
+budova MFF na Malé Straně, která právě nyní prochází rekonstrukcí.
+Vás si MFF vybrala, abyste jí pomohli s&nbsp;řešením některých
+náročnějších problémů, které se při přestavbě budovy na školku
+či při vybavování školky objevily.
+
+<P>
+Při psaní vašich programů je především důležitá rychlost (profesoři i projektanti
+jsou přeci jen dost netrpěliví) a paměť je až na druhém místě. Všechny programy,
+které máte vytvořit, mají číst vstupní data ze standardního vstupu a výsledky vypisovat
+na standardní výstup. V&nbsp;obou případech je třeba přesně dodržet předepsaný formát.
+Je-li vstupem více hodnot na jednom řádku a není-li uvedeno jinak, jsou hodnoty
+odděleny právě jednou mezerou. Vstup ani výstup neobsahuje žádné přebytečné
+mezery, není-li v&nbsp;zadání úlohy uvedeno jinak. Pokud se v&nbsp;zadání vyskytují
+celá čísla a není u příslušné úlohy řečeno jinak, tak je velikost čísel vždy volena tak,
+aby se všechna tato čísla i případné výsledky vešly do standardního typu <EM>int</EM>
+v&nbsp;C či <EM>integer</EM> v&nbsp;Pascalu.
+<P>
+Hodně štěstí při řešení úloh!
+<p>
+Vaši organizátoři
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+<!---------------------------------------------------------------------------------->
+
+<TABLE ALIGN=CENTER>
+
+<tr><td></td>
+<TD>&nbsp;&nbsp;&nbsp;</TD>
+<td></td>
+<TD>&nbsp;&nbsp;&nbsp;</TD>
+<td width=55>C</td>
+<td width=55>Pascal</td>
+<td width=55>in</td>
+<td width=55>out</td></tr>
+
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="a" SRC="a.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#a">Komunikace</A></TD>
+<td></td>
+<td><a href="a.c">a.c</a></td>
+<td><a href="a.p">a.p</a></td>
+<td><a href="a.in">a.in</a></td>
+<td><a href="a.out">a.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="b" SRC="b.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#b">Směrnice</A></TD>
+<td></td>
+<td><a href="b.c">b.c</a></td>
+<td><a href="b.p">b.p</a></td>
+<td><a href="b.in">b.in</a></td>
+<td><a href="b.out">b.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="c" SRC="c.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#c">Matematické cvičení</A></TD>
+<td></td>
+<td><a href="c.c">c.c</a></td>
+<td><a href="c.p">c.p</a></td>
+<td><a href="c.in">c.in</a></td>
+<td><a href="c.out">c.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="d" SRC="d.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#d">Červotoči</A></TD>
+<td></td>
+<td><a href="d.c">d.c</a></td>
+<td><a href="d.p">d.p</a></td>
+<td><a href="d.in">d.in</a></td>
+<td><a href="d.out">d.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="e" SRC="e.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#e">Algebra</A></TD>
+<td></td>
+<td><a href="e.c">e.c</a></td>
+<td><a href="e.p">e.p</a></td>
+<td><a href="e.in">e.in</a></td>
+<td><a href="e.out">e.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="f" SRC="f.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#f">Přeprava materiálu</A></TD>
+<td></td>
+<td><a href="f.c">f.c</a></td>
+<td><a href="f.p">f.p</a></td>
+<td><a href="f.in">f.in</a></td>
+<td><a href="f.out">f.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="g" SRC="g.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#g">Dámy</A></TD>
+<td></td>
+<td><a href="g.c">g.c</a></td>
+<td><a href="g.p">g.p</a></td>
+<td><a href="g.in">g.in</a></td>
+<td><a href="g.out">g.out</a></td>
+</TR>
+
+<TR><TD><IMG
+ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="h" SRC="h.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif"></TD>
+<TD></TD>
+<TD><A HREF="#h">Nástěnky</A></TD>
+<td></td>
+<td><a href="h.c">h.c</a></td>
+<td>N/A</td>
+<td><a href="h.in">h.in</a></td>
+<td><a href="h.out">h.out</a></td>
+</TR>
+
+</TABLE>
+
+
+
+
+
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="a" SRC="a.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="a"></A><H2 ALIGN="Center">Komunikace</H2>
+<P ALIGN="Center">
+<CODE><A HREF="a.c">a.c</A>, <A HREF="a.p">a.p</A>, a.C</CODE>
+<BR><CODE><A HREF="a.in">a.in</A>, <A HREF="a.out">a.out</A></CODE>
+
+<P>
+Při výchově malých matfyzáčků je třeba dbát i na vzájemnou komunikaci. Proto
+je nezbytné, aby každé dvě místnosti v&nbsp;matfyzácké školce byly propojeny
+počítačovou sítí. Pro účely této úlohy si budovu školky budeme představovat jako
+kvádr mající <VAR>V</VAR> pater, kde v&nbsp;každém patře je <VAR>R</VAR><img alt="x" src="times.gif"><VAR>S</VAR> místností. Jednotlivé
+místnosti je samozřejmě nutné propojit s&nbsp;co nejmenšími náklady. Propojení dvou
+sousedních místností (tzn. majících společnou stěnu) na stejném patře stojí
+1000&nbsp;Kč, propojení dvou místností nad sebou (tzn. strop jedné místnosti je
+podlahou druhé) stojí 2000&nbsp;Kč. Situaci navíc komplikuje to, že některé
+místnosti již jsou propojené. Vaším úkolem je vytvořit program, který spočte
+minimální náklady nutné na dopropojování místností.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+
+<P>
+Vstup se skládá z&nbsp;několika bloků. Každý blok popisuje budovu, pro
+kterou je úlohu třeba vyřešit. Blok začíná trojicí čísel <VAR>V</VAR>, <VAR>R</VAR>, <VAR>S</VAR> 
+na prvním řádku, 1 <img alt="<=" src="le.gif"> <VAR>V</VAR>,<VAR>R</VAR>,<VAR>S</VAR> <img alt="<=" src="le.gif"> 63, poslední blok vstupu začíná trojicí nul
+a nemá být zpracováván. Pak následuje popis přízemí, popis
+propojení mezi přízemím a prvním patrem, popis prvního patra, popis
+propojení mezi prvním a druhým patrem atd. Za každým popisem patra (mezipatra)
+následuje prázdný
+řádek. Popis jednoho patra se skládá z&nbsp;2<img alt="." src="cdot.gif"><VAR>R</VAR>-1 řádek, na každé řádce je
+2<img alt="." src="cdot.gif"><VAR>C</VAR>-1 znaků. Na lichých řádcích v&nbsp;lichých sloupcích (číslujeme
+od jedné) jsou znaky <TT>*</TT>, které reprezentují místnosti. Mezi dvěma znaky
+reprezentujícími místnosti na řádce je buď znak <TT>-</TT> značící, že místnosti
+jsou propojeny, nebo znak <TT>.</TT> (místnosti nejsou propojeny). Na sudých
+řádcích v&nbsp;sudých sloupcích je vždy znak <TT>.</TT>, v&nbsp;lichých sloupcích je buď
+<TT>.</TT>, nebo znak <TT>|</TT> značící,
+že místnosti odpovídající hvězdičkám nad a pod znakem <TT>|</TT> jsou
+propojeny. Popis propojení mezi patry se skládá z&nbsp;2<img alt="." src="cdot.gif"><VAR>R</VAR>-1 řádek.
+Na každém řádku je 2<img alt="." src="cdot.gif"><VAR>C</VAR>-1 znaků. Na sudých řádcích jsou pouze znaky <TT>.</TT>.
+Na lichých řádcích v&nbsp;sudých sloupcích jsou znaky <TT>.</TT>, v&nbsp;lichých sloupcích je
+buď <TT>.</TT>, nebo znak <TT>o</TT> značící, že místnosti na odpovídající pozici
+jsou propojeny linkou mezi patry.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+
+<P>
+Výstup má obsahovat pro každou budovu jeden řádek s textem:
+
+<P>
+"<TT>Budova je jiz dostatecne propojena.</TT>",
+
+<P>
+pokud jsou všechny místnosti v&nbsp;budově již propojeny sítí, nebo text
+
+<P>
+"<TT>Ocekavana cena: XXXX Kc</TT>",
+
+<P>
+kde "<TT>XXXX</TT>" značí minimální cenu, která je potřeba k&nbsp;propojení všech
+místností sítí. Při výpisu ceny je třeba oddělit trojice číslic uskupené
+dle jejich řádu čárkou způsobem obvyklým v anglosaských zemích (viz vzorový výstup).
+
+<P><P>
+<BR>
+<h3>Vzorový vstup</h3>
+<PRE>
+3 2 2
+*-*
+|..
+*-*
+
+o.o
+...
+o.o
+
+*.*
+..|
+*.*
+
+...
+...
+...
+
+*-*
+|..
+*.*
+
+2 2 2
+*-*
+|..
+*.*
+
+..o
+...
+o.o
+
+*-*
+...
+*-*
+
+0 0 0
+</PRE>
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+Ocekavana cena: 3,000 Kc
+Budova je jiz dostatecne propojena.
+</PRE>
+<P>
+
+<P>
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="b" SRC="b.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="b"></A><H2 ALIGN="Center">Směrnice</H2>
+<P ALIGN="Center">
+<CODE><A HREF="b.c">b.c</A>, <A HREF="b.p">b.p</A>, b.C</CODE>
+<BR><CODE><A HREF="b.in">b.in</A>, <A HREF="b.out">b.out</A></CODE>
+
+<P>
+Rekonstrukce malostranské budovy Matematicko-fyzikální fakulty si
+vyžádá značné množství finančních prostředků. Jen financování
+programátorů, kteří pracují na zefektivnění práce dělníků, si vyžádá
+nemalé peníze na bagety, Coca-colu a personál, který dohlíží na udržování
+základních životních funkcí těchto pracovníků. Raději zde ani nebudeme
+zmiňovat náklady na platy skupiny kontrolující efektivitu práce
+programátorů. Proto byla vydána směrnice děkana SM2001/364 o kontrole
+pohybu finančních prostředků. Tato směrnice například určuje,
+který pracovník má oprávnění uvolnit peníze na maltu, který na cihly
+a který na okna. Směrnice dále přísně nařizuje archivaci a
+střežení veškerých údajů o výdajích fakulty, specifikuje způsob zápisu
+jednotlivých nabídek od dodavatelů a postup, jak pro potřeby fakulty
+vybírat dodavatele a případně i jejich subdodavatele.
+
+<P>
+
+<P>
+Pro ilustraci si představme, že fakulta dostala nabídky od padesáti
+firem. Každá firma potřebuje pro výrobu svého produktu (případně
+svých produktů) nějaké suroviny, které jí mohou dodat některé
+jiné firmy. Přirozeně cena výsledných produktů závisí na cenách
+surovin, ze kterých je produkt vyráběn. Nyní je fakulta postavena před problém,
+jak získat některé suroviny co nejlevněji.
+
+<P>
+
+<P>
+Kromě problémů spojených s&nbsp;rekonstrukcí budovy je také potřeba řešit
+financování běžného chodu fakulty. Každá katedra získává kromě prostředků
+z celofakultního rozpočtu také prostředky z grantů, od sponzorů apod.
+Tyto peníze pak katedry utrácejí mimo jiné
+za nákup nového hardwaru a softwaru.
+Celý systém financování je tedy potřeba zpřehlednit, a proto bylo
+rozhodnuto vytvořit jednotný fakultní finanční software pod vedením
+komise, která byla pro tento účel jmenována děkanem.
+
+<P>
+
+<P>
+Když byl tento problém předložen analytikům placeným fakultou, tito
+se zděsili a odmítli úlohu jako neřešitelnou. Proto se nadřízená
+komise rozhodla, že od implementace této části nařízení zatím upustí
+a nechá naimplementovat alespoň část směrnice upravující správu
+fakultních kont.
+
+<P>
+
+<P>
+Směrnice říká, že veškeré operace s&nbsp;konty musí projít přes speciální
+fakultní program, který všechny informace zaznamená a odhalí případné
+nesrovnalosti. Naimplementovat tento program je právě úkol pro vás.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+
+<P>
+Program na vstupu dostane několik řádků. Na každém řádku je zapsána jedna operace
+v&nbsp;bance. Operace mohou být následující:
+<UL>
+<LI><TT>ZALOZ</TT> <I>účet</I>
+<LI><TT>ULOZ</TT> <I>účet částka</I>
+<LI><TT>VYBER</TT> <I>účet částka</I>
+<LI><TT>PREVED</TT> <I>účet1 účet2 částka</I>
+<LI><TT>STATISTIKA</TT>
+<LI><TT>LIST</TT>
+<LI><TT>RESET</TT>
+</UL>
+<P>
+<I>účet</I> je desetimístné číslo účtu. <I>částka</I> je číslo s&nbsp;právě dvěma
+místy za desetinnou tečkou. V&nbsp;jednom okamžiku má fakulta v&nbsp;bance nejvýše
+10&nbsp;000 účtů.
+
+<P>
+Operace <TT>ZALOZ</TT> vytvoří nový účet s&nbsp;číslem <I>účet</I>. 
+
+<P>
+Operace <TT>ULOZ</TT> uloží na účet <I>účet</I> částku <I>částka</I>. 
+
+<P>
+Operace <TT>VYBER</TT>
+vybere z&nbsp;účtu <I>účet</I> částku <I>částka</I>. 
+
+<P>
+Operace <TT>PREVED</TT> převede
+částku <I>částka</I> z&nbsp;účtu <I>účet1</I> na účet <I>účet2</I>. 
+
+<P>
+Operace <TT>STATISTIKA</TT> a <TT>LIST</TT> pouze vypíší informace o účtech v&nbsp;bance. 
+
+<P>
+Operace
+<TT>RESET</TT> zruší všechny existující účty a uvede systém do počátečního stavu.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+
+<P>
+Na výstup má operace <TT>ZALOZ</TT> vypsat řádek "<TT>Ucet účet vytvoren.</TT>".
+Pokud účet <I>účet</I> již existuje, má se na výstup vypsat text
+"<TT>Ucet účet uz existuje.</TT>".
+
+<P>
+Operace <TT>ULOZ</TT> má vypsat řádek
+"<TT>Ulozeno částka na ucet účet.</TT>". Pokud účet <I>účet</I> neexistuje,
+má se vypsat "<TT>Ucet účet neexistuje.</TT>". 
+
+<P>
+Operace <TT>VYBER</TT> má vypsat
+řádek "<TT>Vybrano částka z uctu účet.</TT>". Pokud účet neexistuje,
+má se vypsat "<TT>Ucet účet neexistuje.</TT>". Pokud na účtu není dostatek
+peněz, má se vypsat text "<TT>Nedostatek penez.</TT>". 
+
+<P>
+Operace <TT>PREVED</TT>
+má vypsat "<TT>Prevedeno částka z uctu účet1 na ucet účet2.</TT>",
+pokud je vše vpořádku. Pokud neexistuje účet <I>účet1</I>, je třeba vypsat
+řádek s&nbsp;textem "<TT>Ucet účet1 neexistuje.</TT>". Pokud existuje <I>účet1</I>,
+ale není na něm dost peněz, je třeba vypsat zprávu "<TT>Nedostatek penez.</TT>".
+Pokud neexistuje účet <I>účet2</I>, je třeba ke všem předchozím zprávám vypsat
+text "<TT>Ucet účet2 neexistuje.</TT>". 
+
+<P>
+Operace <TT>STATISTIKA</TT>
+má vypsat text "<TT>Pocet uctu:&nbsp;XXXX</TT>", kde <TT>XXXX</TT> je počet účtů existujících v&nbsp;bance.
+Na dalším řádku pak text "<TT>Celkem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YYYY</TT>", kde <TT>YYYY</TT> je
+součet peněz na všech účtech dohromady. Součet peněz je třeba vypsat tak, že celá část
+součtu bude vypsána na sedm míst a zarovnaná doprava. Pak bude následovat
+desetinná tečka a desetinná část součtu vypsaná na právě dvě místa. 
+
+<P>
+Operace
+<TT>LIST</TT> má vypsat text "<TT>Pocet uctu:&nbsp;XXXX</TT>", kde <TT>XXXX</TT> je počet účtů v&nbsp;bance. Na
+dalších řádcích pak následují řádky obsahující informace o jednotlivých účtech.
+Na každém řádku je informace o jednom účtu, pořadí účtů ve výpisu je takové,
+v&nbsp;jakém byly účty zakládány. Pro každý účet je vypsán text ve tvaru "<I>účet
+částka</I>", kde celá část čísla <I>částka</I> je vypsána na sedm míst a zarovnaná
+doprava, desetinná část čísla je vypsána na právě dvě místa. Po výpisech všech
+účtů je třeba vypsat řádek s textem "<TT>Celkem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YYYY</TT>", kde
+<TT>YYYY</TT> je součet peněz na
+všech účtech. Celou část součtu je třeba vypsat na sedm míst zarovnanou
+doprava, desetinnou část na právě dvě místa. 
+
+<P>
+Operace <TT>RESET</TT> má vypsat
+zprávu "<TT>Reset systemu.</TT>". Po provedení všech operací má program vypsat na
+samostatný řádek text "<TT>Konec.</TT>". Mezi zprávy od dvou operacích je třeba vždy
+vložit prázdný řádek.
+
+<P>
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+ZALOZ 0000000001
+ULOZ 0000000001 2.00
+VYBER 0000000001 1.00
+STATISTIKA
+RESET
+ZALOZ 1000000001
+ULOZ 1000000001 20.50
+ZALOZ 1000000002
+PREVED 1000000001 1000000002 15.25
+ZALOZ 1000000002
+VYBER 1000000002 14.00
+VYBER 1000000002 10.00
+LIST
+</PRE>
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+Ucet 0000000001 vytvoren.
+
+Ulozeno 2.00 na ucet 0000000001.
+
+Vybrano 1.00 z uctu 0000000001.
+
+Pocet uctu: 1
+Celkem:           1.00
+
+Reset systemu.
+
+Ucet 1000000001 vytvoren.
+
+Ulozeno 20.50 na ucet 1000000001.
+
+Ucet 1000000002 vytvoren.
+
+Prevedeno 15.25 z uctu 1000000001 na ucet 1000000002.
+
+Ucet 1000000002 uz existuje.
+
+Vybrano 14.00 z uctu 1000000002.
+
+Nedostatek penez.
+
+Pocet uctu: 2
+1000000001       5.25
+1000000002       1.25
+Celkem:           6.50
+
+Konec.
+</PRE>
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="c" SRC="c.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="c"></A><H2 ALIGN="Center">Matematické cvičení</H2>
+<P ALIGN="Center">
+<CODE><A HREF="c.c">c.c</A>, <A HREF="c.p">c.p</A>, c.C</CODE>
+<BR><CODE><A HREF="c.in">c.in</A>, <A HREF="c.out">c.out</A></CODE>
+
+<P>
+Malí matfyzáčci se musí odmala cvičit v matematice. Protože ale látka
+jako řešení soustav diferenciálních rovnic či integrace ve vícerozměrných
+prostorech je pro ně ještě příliš obtížná, je potřeba vyučovat něco
+jednoduššího. Po dlouhých debatách se rozhodlo, že se bude vyučovat
+prosté sčítání; ovšem v&nbsp;různých soustavách. Vaším úkolem bude napsat
+program, který bude žáčky kontrolovat.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+Na vstupu je několik bloků. Každý blok mimo posledního začíná řádkem
+s&nbsp;kladným celým číslem <VAR>z</VAR>, <VAR>z</VAR> <img alt="<=" src="le.gif"> 35, poslední blok začíná nulou a
+nemá být zpracováván. Na druhém řádku každého bloku se nachází 
+dvě nezáporná čísla <VAR>x</VAR> a <VAR>y</VAR> oddělená mezerou, která jsou
+zapsána standardním způsobem
+v&nbsp;soustavě o základu <VAR>z</VAR>. U&nbsp;soustav o základu větším než 10 se pro
+cifry s&nbsp;hodnotou větší než 9 používá písmen <TT>A</TT>, <TT>B</TT>....
+Pokud má soustava základ jedna, používá se pouze cifra jedna a 
+a počet cifer je roven velikosti čísla (viz vzorový výstup);
+nula se v jedničkové soustavě zapisuje jako jednociferné číslo,
+jehož jediná cifra 0. Čísla, která váš program obdrží na vstupu,
+nebudou na svém začátku obsahovat přebytečné nuly.
+Čísla mají nejvýše 1&nbsp;000 cifer.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+Výstup má obsahovat pro každý blok na vstupu jeden řádek. Na řádku mají být
+vypsána čísla <VAR>x</VAR> a <VAR>y</VAR> oddělená mezerou, znakem <TT>+</TT> a mezerou. Za nimi má
+následovat mezera, znak <TT>=</TT>, mezera a číslo <VAR>x</VAR>+<VAR>y</VAR>. Všechna čísla mají
+být zapsána standardním způsobem v&nbsp;soustavě o základu <VAR>z</VAR>.
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+16
+A0 FE
+1
+1111 11
+0
+</PRE>
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+A0 + FE = 19E
+1111 + 11 = 111111
+</PRE>
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="d" SRC="d.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="d"></A><H2 ALIGN="Center">Červotoči</H2>
+<P ALIGN="Center">
+<CODE><A HREF="d.c">d.c</A>, <A HREF="d.p">d.p</A>, d.C</CODE>
+<BR><CODE><A HREF="d.in">d.in</A>, <A HREF="d.out">d.out</A></CODE>
+
+<P>
+Do stolů ve školce se pustili červotoči a začali v&nbsp;nich vyhlodávat
+chodbičky. Aby bylo možno správně nadávkovat ochranný prostředek,
+je třeba zjistit, kolik dřeva již sežral nejžravější červotoč (když
+by totiž červotoč sežral příliš velkou dávku ochranného prostředku,
+mohl by zmutovat a stát se ještě nebezpečnějším). Protože každý červotoč
+má charakteristický způsob tunelování, můžeme snadno zjistit, kterou chodbičku
+vyhlodal který červotoč.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+
+<P>
+Vstup se skládá z několika bloků. Každý blok vyjma posledního začíná třemi čísly <VAR>R</VAR>, <VAR>S</VAR> a <VAR>C</VAR>,
+kde 1 <img alt="<=" src="le.gif"> <VAR>R</VAR>,<VAR>S</VAR> <img alt="<=" src="le.gif"> 250, 1 <img alt="<=" src="le.gif"> <VAR>C</VAR> <img alt="<=" src="le.gif"> 26. Poslední blok začíná třemi nulami
+a nemá být dále zpracováván. V&nbsp;bloku pak následuje <VAR>C</VAR> řádek se jmény červotočů. Jméno
+každého červotoče začíná velkým písmenem, za kterým následuje nejvýše šedesát malých písmen.
+Předpokládejte, že počáteční písmena jmen různých červotočů jsou různá. Za jmény v&nbsp;bloku
+následuje <VAR>R</VAR> řádek popisujících prožraný stůl. Na každém řádku je <VAR>S</VAR> znaků. Každý ze
+znaků je buď <TT>*</TT> (značí, že tato část stolu dosud nebyla zkonzumována), nebo
+počáteční písmeno jména některého z&nbsp;červotočů (značí, že červotoč, jehož jméno začíná na
+příslušné písmeno, sežral tuto část stolu). Ne každý červotoč musí sežrat
+nějakou část stolu. Oblast vyhlodaná jedním červotočem je souvislá (červotoč
+umí hlodat v&nbsp;osmi směrech).
+
+<P>
+<h3>Specifikace Výstupu</h3>
+
+<P>
+Na výstup má váš program pro každý blok na vstupu vypsat text
+"<TT>Nejzravejsi cervotoc je XXXX.</TT>", kde <TT>XXXX</TT> bude
+nahrazeno jménem červotoče, který sežral nejvíce částí stolu. Můžete předpokládat, že
+takovýto červotoč bude určen jednoznačně.
+
+<P>
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+4 10 2
+Adam
+Bohus
+**A***BBB*
+*A**AAA*B*
+**AA***BBB
+****AA****
+0 0 0
+</PRE>
+<P>
+
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+Nejzravejsi cervotoc je Adam.
+</PRE>
+
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="e" SRC="e.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="e"></A><H2 ALIGN="Center">Algebra</H2>
+<P ALIGN="Center">
+<CODE><A HREF="e.c">e.c</A>, <A HREF="e.p">e.p</A>, e.C</CODE>
+<BR><CODE><A HREF="e.in">e.in</A>, <A HREF="e.out">e.out</A></CODE>
+
+<P>
+Malí matfyzáčci mají obvykle problém s&nbsp;algebraickými strukturami.
+Proto si budou ve školce procvičovat operace s&nbsp;permutacemi. Aby
+ale cvičení mělo smysl a matfyzáčci se něco naučili, byla zadefinována
+netradiční operace, tzv. <I>trojúhelníková operace</I>. Trojúhelníková operace
+má tři parametry <VAR>i</VAR>, <VAR>j</VAR> a <VAR>k</VAR>. <VAR>i</VAR> <img alt="<>" src="ne.gif"> <VAR>j</VAR>, <VAR>j</VAR> <img alt="<>" src="ne.gif"> <VAR>k</VAR>, <VAR>k</VAR> <img alt="<>" src="ne.gif"> <VAR>i</VAR>. Při její aplikaci
+na permutaci se v&nbsp;permutaci číslo na pozici <VAR>i</VAR> přesune na pozici <VAR>j</VAR>,
+číslo na pozici <VAR>j</VAR> se přesune na pozici <VAR>k</VAR> a číslo na pozici <VAR>k</VAR> 
+se přesune na pozici <VAR>i</VAR>. Úkolem malých matfyzáčků je zjistit, zda
+lze identickou permutaci pomocí trojúhelníkové operace převést
+na zadanou permutaci. Identická permutace je taková, která má na <VAR>i</VAR>-té
+pozici číslo <VAR>i</VAR>.
+Vy máte napsat program, který bude matfyzáčky kontrolovat.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+Vstup se skládá z&nbsp;několika bloků. Každý blok začíná řádkem s&nbsp;počtem prvků
+v&nbsp;permutaci <VAR>N</VAR>, 3 <img alt="<=" src="le.gif"> <VAR>N</VAR> <img alt="<=" src="le.gif"> 100&nbsp;000. Vstup je ukončen řádkem obsahujícím
+nulu. Tento řádek nemáte dále zpracovávat.
+Na druhém řádku každého bloku je <VAR>N</VAR> vesměs různých celých čísel z intervalu
+1 až <VAR>N</VAR>, která popisují cílovou permutaci.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+Na výstup má váš program pro každý blok vypsat jeden řádek obsahující
+text "<TT>Permutaci lze prevest.</TT>", pokud zadanou permutaci lze získat z&nbsp;identické permutace
+pomocí posloupnosti trojúhelníkových operací.
+Pokud permutaci získat nelze, má řádek obsahovat text "<TT>Matfyzacci maji smulu.</TT>".
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+3
+1 2 3
+3
+1 3 2
+3
+2 3 1
+0
+</PRE>
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+Permutaci lze prevest.
+Matfyzacci maji smulu.
+Permutaci lze prevest.
+</PRE>
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="f" SRC="f.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="f"></A><H2 ALIGN="Center">Přeprava materiálu</H2>
+<P ALIGN="Center">
+<CODE><A HREF="f.c">f.c</A>, <A HREF="f.p">f.p</A>, f.C</CODE>
+<BR><CODE><A HREF="f.in">f.in</A>, <A HREF="f.out">f.out</A></CODE>
+
+<P>
+Při přestavbě malostranské budovy na školku je třeba převézt
+mnoho materiálu z&nbsp;jednoho místa na druhé. Převáží se například
+cement, písek nebo ocelové pruty, ale i poněkud křehčí zboží,
+jako například lavice, okna nebo počítače. Podle typu nákladu
+je samozřejmě třeba zvolit správný typ automobilu. A protože nafta
+je v&nbsp;dnešní době velmi drahá, je třeba také projet s automobilem
+co nejkratší možnou cestou. Ačkoliv systém silnic není přehnaně
+hustý, je dosti komplikované se v&nbsp;něm vyznat, a tak se fakulta rozhodla, že si
+nechá napsat program, který jí pomůže při rozvrhování tras pro jednotlivé
+náklady.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+Na vstupu je několik bloků pro jednotlivé náklady. Každý blok
+začíná řádkem se čtyřmi čísly <VAR>N</VAR>, <VAR>M</VAR>, <VAR>S</VAR> a <VAR>C</VAR>, kde
+<VAR>N</VAR> je počet významných míst v&nbsp;síti silnic (1 <img alt="<=" src="le.gif"> <VAR>N</VAR> <img alt="<=" src="le.gif"> 10&nbsp;000),
+<VAR>M</VAR> je počet silnic (<VAR>M</VAR> <img alt="<=" src="le.gif"> 50&nbsp;000),
+které mezi významnými místy vedou, <VAR>S</VAR> je číslo významného
+místa (místa číslujeme od jedné do <VAR>N</VAR>), odkud je náklad vezen,
+a <VAR>C</VAR> je číslo místa, kam se má náklad dopravit. Vstup je ukončen
+řádkem obsahujícím čtyři nuly. Tento řádek nemáte dále zpracovávat.
+Pak v&nbsp;bloku následuje <VAR>M</VAR> řádků popisující jednotlivé cesty mezi
+místy. Každý z&nbsp;řádků obsahuje tři celá čísla <VAR>A</VAR>, <VAR>B</VAR> a <VAR>V</VAR> oddělená
+mezerou. <VAR>A</VAR> je číslo místa, odkud vede silnice, <VAR>B</VAR> je číslo místa,
+kam vede silnice (silnice jsou jednosměrné), a <VAR>V</VAR> jsou náklady
+na přepravu materiálu po této silnici (1 <img alt="<=" src="le.gif"> <VAR>V</VAR> <img alt="<=" src="le.gif"> 1&nbsp;000).
+Můžete předpokládat, že cesta mezi počátečním a cílovým místem vždy
+existuje.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+Pro každý blok na vstupu na výstup vypište jeden řádek obsahující
+minimální cenu, za kterou lze přepravit náklad z místa <VAR>S</VAR> do místa
+<VAR>C</VAR>.
+
+<P>
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+4 6 1 2
+1 2 10
+1 3 2
+3 2 5
+1 4 4
+4 2 1
+3 4 1
+0 0 0 0
+</PRE>
+<P>
+
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+4
+</PRE>
+<P>
+
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="g" SRC="g.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="g"></A><H2 ALIGN="Center">Dámy</H2>
+<P ALIGN="Center">
+<CODE><A HREF="g.c">g.c</A>, <A HREF="g.p">g.p</A>, g.C</CODE>
+<BR><CODE><A HREF="g.in">g.in</A>, <A HREF="g.out">g.out</A></CODE>
+
+<P>
+Malí matfyzáčci si samozřejmě musí i hrát. Proto je potřeba pro ně vytvořit
+i nějaké inteligentní hry. Jednou z&nbsp;her, kterou budou malí matfyzáčci
+hrát, je i hra na královny. Hra se hraje na toroidu <VAR>N</VAR><img alt="x" src="times.gif"><VAR>N</VAR> 
+(1 <img alt="<=" src="le.gif"> <VAR>N</VAR> <img alt="<=" src="le.gif"> 1&nbsp;500&nbsp;000&nbsp;000) -- tedy
+na čtvercové síti <VAR>N</VAR><img alt="x" src="times.gif"><VAR>N</VAR>, která má spojený levý a pravý okraj
+a horní a dolní okraj. Cílem hry je zjistit, zda na herní plán lze umístit
+<VAR>N</VAR> královen (dam) tak, aby se vzájemně neohrožovaly. Dáma ohrožuje ta
+políčka, která leží ve stejném řádku, sloupci nebo na stejné diagonále
+jako ona.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+Na vstupu je několik řádků. Každý řádek obsahuje kladné číslo <VAR>N</VAR>, velikost
+hracího plánu. Poslední řádek obsahuje nulu. Tento řádek nemáte dále
+zpracovávat.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+Na výstup máte pro každý řádek vypsat buď "<TT>Kralovny lze umistit.</TT>", pokud
+dámy lze umístit, nebo "<TT>Kralovny se nevejdou.</TT>", pokud dámy umístit nelze.
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+3
+5
+0
+</PRE>
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+Kralovny se nevejdou.
+Kralovny lze umistit.
+</PRE>
+<P>
+
+<P>
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+<!---------------------------------------------------------------------------------->
+
+<div align=center>
+<img ALT="[" SRC="poc-left.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="h" SRC="h.gif"><IMG ALT="-" SRC="poc-empty.gif"><IMG ALT="]" SRC="poc-right.gif">
+</div>
+<A NAME="h"></A><H2 ALIGN="Center">Nástěnky</H2>
+<P ALIGN="Center">
+<CODE><A HREF="h.c">h.c</A>, <A HREF="h.p">h.p</A>, h.C</CODE>
+<BR><CODE><A HREF="h.in">h.in</A>, <A HREF="h.out">h.out</A></CODE>
+
+<P>
+Ve školce je samozřejmě třeba dbát i na jistou estetickou úroveň.
+Proto bylo rozhodnuto, že jedna ze zdí školky bude ozdobena obrázky. V&nbsp;soutěži,
+která byla na výzdobu vypsána, se sešlo velmi mnoho návrhů (dokonce
+několik miniatur a jedno panorama). Nakonec byl jako vítězné dílo
+vybrán cyklus obrazů ,,Dějiny matematiky''. Nyní je potřeba
+rozhodnout o umístění tohoto výtvarného díla. K&nbsp;tomu je nutné vědět,
+jak velkou plochu musí cyklus obrazů zabírat -- tedy do jakého
+nejmenšího (co do obsahu) obdélníku lze obrazy umístit.
+Před svým vystavením budou všechny obrazy orámovány (pro jednoduchost
+si představujme, že šířka a výška rámu bude jeden bod).
+Při umísťování obrazů na stěnu je třeba zachovat jejich pořadí
+vzhledem k běžnému způsobu čtení textu (po řádcích zleva doprava).
+Celou situaci však ještě navíc komplikuje Anička Zrzavá, učitelka
+výtvarné výchovy pro informatiky: Obrazy je potřeba na stěnu umístit
+tak, aby splňovaly její náročné estetické požadavky. Stěna bude
+(pomyslně) rozdělena do několika vodorovných pásů, do kterých budou
+obrazy umístěny -- obrazy umístěné do jednoho z pásů nezasahují
+do žádného jiného pásu a to ani svým rámem. V rámci jednoho pásu
+jsou obrazy umístěny těsně vedle sebe (jejich rámy se právě
+překrývají). Jednotlivé obrazy mají být vycentrovány v rámci pásu
+svisle (pokud jsou dvě možné pozice, zvolte tu vyšší z nich) a celý
+úsek obrazů umístěný do pásu má být vycentrován na střed obdélníku
+(jsou-li dvě možnosti jejich umístění, zvolte to levější). Pokud je
+v rámci obdélníku stejných rozměrů více možností, jak lze obrazy rozdělit
+do pásů, je třeba zvolit takové jejich rozdělení, aby první pás
+obsahoval co nejvíce obrazů; pokud je stále více možných způsobů
+rozdělení obrazů, je třeba maximalizovat počet obrazů v druhém pásu
+atd. Pokud je více obdélníků se stejným obsahem ale různými rozměry,
+které jsou optimální, zvolte nejširší z nich.
+
+<P>
+<h3>Specifikace Vstupu</h3>
+
+<P>
+Vstup programu se skládá z několika bloků. Každý blok vyjma posledního
+začíná řádkem s&nbsp;jedním číslem <VAR>N</VAR> (počtem obrazů v&nbsp;cyklu), 1 <img alt="<=" src="le.gif"> <VAR>N</VAR> <img alt="<=" src="le.gif">
+250. Poslední blok začíná řádkem s&nbsp;číslem nula. Tento blok nemá
+být dále zpracováván. Pak v&nbsp;bloku následuje <VAR>N</VAR> popisů jednotlivých
+obrazů. Popis každého obrazu začíná řádkem s&nbsp;čísly <VAR>R</VAR> a <VAR>S</VAR> (výška a
+šířka obrazu bez rámu), 1 <img alt="<=" src="le.gif"> <VAR>R</VAR>,<VAR>S</VAR> <img alt="<=" src="le.gif"> 30. Pak následuje <VAR>R</VAR> řádek
+popisujících obsah obrazu (tedy bez rámu). Na každém řádku je <EM>nejvýše</EM> <VAR>S</VAR> znaků. Tyto znaky mohou být velká a malá písmena, číslice nebo
+mezery. Zbylé (chybějící)
+znaky na řádce se pak považují za mezery.
+
+<P>
+<h3>Specifikace Výstupu</h3>
+
+<P>
+Na výstup má váš program pro každý blok na vstupu vypsat výšku, šířku
+a obsah nejmenšího nejestetičtějšího umístění obrazů.
+Dále je třeba na výstup toto umístění vykreslit.
+Obrazy je třeba vykreslovat s&nbsp;rámy ze znaků <TT>+</TT>, <TT>-</TT> a <TT>|</TT>
+s&nbsp;obsahem zadaným na vstupu (doplněným o chybějící mezery). Při vykreslování
+hran dvou horizontálně se překrývajících rámů je třeba vykreslit <TT>+</TT> v&nbsp;obou rozích obou rámů.
+Výstupy pro jednotlivá zadání jsou na výstupu odděleny jedním prázdným řádkem.
+Pro přehlednost vypište na začátek a na konec každého řádku
+obsahujícího umístění obrázků znak <TT>:</TT>;
+tento znak se nezapočítává do velikosti stěny.
+Pokud bude umístění špatně vykresleno, výsledkem vyhodnocení bude <EM>Presentation error</EM>, nikoliv <EM>Wrong answer</EM>.
+
+<P>
+
+<P>
+<h3>Vzorový vstup</h3>
+<PRE>
+2
+2 3
+AbC
+aBc
+1 5
+12345
+4
+1 10
+1234567890
+5 5
+ABCDE
+BCDEA
+CDEAB
+DEABC
+EABCD
+1 4
+
+1 5
+abcd
+0
+</PRE>
+<P>
+
+<P>
+<h3>Vzorový výstup</h3>
+<PRE>
+4 11 44
+:+---+-----+:
+:|AbC|12345|:
+:|aBc+-----+:
+:+---+      :
+
+13 12 156
+:+----------+:
+:|1234567890|:
+:+----------+:
+:+-----+     :
+:|ABCDE|     :
+:|BCDEA+----+:
+:|CDEAB|    |:
+:|DEABC+----+:
+:|EABCD|     :
+:+-----+     :
+:  +-----+   :
+:  |abcd |   :
+:  +-----+   :
+</PRE>
+
+<P>
+
+<P>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***** konec stranky (s pocitadlem pristupu) ***** -->
+
+<P><IMG SRC="../../img/line.gif" WIDTH=592 HEIGHT=32 BORDER=0>
+
+<P><TABLE BORDER=0>
+<TR><TD>You are visitor number
+<TD><IMG SRC="http://hpk.felk.cvut.cz/cgi-bin/contest/counter.cgi?01prg"
+WIDTH=128 HEIGHT=48>
+<TD>since September 11th, 2001.
+</TABLE>
+</TABLE>
+
+</BODY>
+</HTML>

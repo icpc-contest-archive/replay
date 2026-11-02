@@ -1,0 +1,718 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.cse.iitk.ac.in/users/acm/contest_problems.html -->
+<HTML><HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://acm.win.tue.nl/icpc/archive/ProblemSetArchive/B_VV_Asian/1999/Kanpur.html">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+<TITLE>ACM ICPC-1999: Contest Problems</TITLE>
+<META content=en-us http-equiv=Content-Language>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="none, default">
+</HEAD>
+<BODY>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://acm.win.tue.nl/icpc/archive/ProblemSetArchive/B_VV_Asian/1999/Kanpur.html">http://acm.win.tue.nl/icpc/archive/ProblemSetArchive/B_VV_Asian/1999/Kanpur.html (2000-12-14 07:36)</a> (Wayback snapshot 2000-12-14 07:36; fetched 2026-11-02)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/kanpur-1999.html">kanpur-1999</a>  <a href="https://web.archive.org/web/20001214073600/http://acm.win.tue.nl/icpc/archive/ProblemSetArchive/B_VV_Asian/1999/Kanpur.html">wayback</a>  <a href="http://acm.win.tue.nl/icpc/archive/ProblemSetArchive/B_VV_Asian/1999/Kanpur.html">live</a></div>
+
+
+      <P align=center>1999 ACM Asia Programming Contest, Kanpur Site</P>
+      <P align=center><BIG><BIG><U><FONT color=#000000>Contest 
+      Problems</FONT></U></BIG></BIG></P>
+      <P align=center>&nbsp;</P>
+      <P align=center class=MsoNormal style="TEXT-ALIGN: center"><B 
+      style="mso-bidi-font-weight: normal"><a name="Loan">Bank Loan<O:P>  </a> </O:P></B></P>
+      <P class=MsoNormal>When a person takes a loan from a bank, he/she has to 
+      often pay some fixed monthly installment for a certain number of months. 
+      This problem is to determine the interest rate that the loan taker is 
+      paying to the bank for the loan.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>Assume that the interest accrues monthly.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>There is a single line of input containing three 
+      positive integers (separated by blanks).</P>
+      <P class=MsoNormal>The first integer represents the initial loan amount, 
+      the second one represents the monthly installment to be paid, and the 
+      third one is the number of months for which the installment is to be 
+      paid.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output should be a single real number representing 
+      the <I style="mso-bidi-font-style: normal">monthly</I> interest rate (in 
+      percent) for this loan.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>An 
+      accuracy of 0.1% is satisfactory.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>1000 100 12</P>
+      <P class=MsoNormal>&nbsp;<O:P> <B 
+      style="mso-bidi-font-weight: normal">Output for the Sample Input<O:P> 
+      </O:P></B></P>
+      <P class=MsoNormal>&nbsp;<O:P>2.9 </P>
+      <hr>
+      <P align=center class=MsoNormal style="TEXT-ALIGN: center"><B 
+      style="mso-bidi-font-weight: normal"><A name=Counting>Counting</A> 
+      Triangles<O:P> </O:P></B></P>
+      <P class=MsoNormal>You may have seen puzzles for children in which one is 
+      required to count the number of distinct triangles in a given figure.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>In this problem, you have to write 
+      a program to do precisely that: write a program that accepts a set of <I 
+      style="mso-bidi-font-style: normal">n </I>line segments in a plane as 
+      input and gives the number of distinct triangles formed by these line 
+      segments as output.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The first line of input gives the number of line 
+      segments (<I style="mso-bidi-font-style: normal">n</I>).<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The next <I 
+      style="mso-bidi-font-style: normal">n</I> lines specify a line segment 
+      each by specifying the coordinates of its end points, i.e., <I 
+      style="mso-bidi-font-style: normal">x</I><SUB>1</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>1</SUB>, <I 
+      style="mso-bidi-font-style: normal">x</I><SUB>2</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>2<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SUB>(all integers) where (<I 
+      style="mso-bidi-font-style: normal">x</I><SUB>1</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>1</SUB>) and (<I 
+      style="mso-bidi-font-style: normal">x</I><SUB>2</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>2</SUB>) are the coordinates 
+      of the end points of the line segment.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The four numbers appear on the 
+      same line, separated by blanks.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>You can assume that -20 <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN> <I 
+      style="mso-bidi-font-style: normal">x</I><SUB>1</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>1</SUB>, <I 
+      style="mso-bidi-font-style: normal">x</I><SUB>2</SUB>, <I 
+      style="mso-bidi-font-style: normal">y</I><SUB>2</SUB> <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN><SPAN style="FONT-FAMILY: Symbol"> 
+      20. </SPAN><SPAN style="FONT-FAMILY: TIMES">Further assume that <I 
+      style="mso-bidi-font-style: normal">n</I> </SPAN><SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN><SPAN style="FONT-FAMILY: Symbol"> 
+      </SPAN><SPAN style="FONT-FAMILY: TIMES">20.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Also</SPAN> assume that no two 
+      line segments can be fully or partially overlapping.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Two lines segments may share an 
+      end point but not if they are parallel.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output of the program should just be a single 
+      integer that is the number of distinct triangles formed by the given line 
+      segments.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">6</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 1 5 1</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 1 3 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 2 4 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">4 2 5 1</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 2 5 1</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 1 4 2</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output for the 
+      sample input<O:P> </O:P></B></P>
+      <P class=MsoNormal>&nbsp;8 </P>
+      <hr>
+      <P align=center class=MsoNormal style="TEXT-ALIGN: center"><B 
+      style="mso-bidi-font-weight: normal"><A name=Area>Area</A> of a 
+      Polygon<O:P> </O:P></B></P>
+      <P class=MsoNormal>You are given a simple polygon (one without holes) 
+      whose edges are all either vertical or horizontal.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>You have to find the area of the 
+      polygon.</P>
+      <P class=MsoNormal>The polygon is placed in the X-Y cartesian plane, with 
+      all the edges parallel to one of the two axes.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>It is then specified by giving the 
+      coordinates of its<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>vertices 
+      in <I style="mso-bidi-font-style: normal">counter-clockwise</I> 
+      order.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>The coordinates are 
+      all integral (and hence the area of the polygon will also be an 
+      integer).</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The first line of the input specifies the number of 
+      vertices (<I style="mso-bidi-font-style: normal">n</I>) of the 
+      polygon.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>The next <I 
+      style="mso-bidi-font-style: normal">n</I> lines of input specify the <I 
+      style="mso-bidi-font-style: normal">x</I> and <I 
+      style="mso-bidi-font-style: normal">y</I> coordinates of one vertex each 
+      of the polygon (both integers and separated by blank).<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The vertices are specified in 
+      counter-clockwise order.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>You 
+      may assume that <I style="mso-bidi-font-style: normal">n</I> <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN><SPAN style="FONT-FAMILY: Symbol"> 
+      100</SPAN>.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Further assume 
+      that for any vertex (<I style="mso-bidi-font-style: normal">x</I>,<I 
+      style="mso-bidi-font-style: normal">y</I>) of the polygon, -200 <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN> <I 
+      style="mso-bidi-font-style: normal">x</I>,<I 
+      style="mso-bidi-font-style: normal">y</I> <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN><SPAN style="FONT-FAMILY: Symbol"> 
+      </SPAN>200.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>It is implicit 
+      that the polygon is closed by drawing an edge from the last vertex to the 
+      first vertex.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output should be a single integer that is the area 
+      of the given polygon.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">10</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">0 0</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">4 0</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">4 1</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 1</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">3 3</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 3</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1 3</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">0 3</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output for the 
+      Sample Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>9</P>
+      <hr>
+      <P align=center class=MsoNormal style="TEXT-ALIGN: center"><B 
+      style="mso-bidi-font-weight: normal"><A name=Convoy>Convoy</A><O:P> 
+      </O:P></B></P>
+      <P class=MsoNormal>&nbsp;<O:P>A convoy of vehicles has lined up on a 
+      single lane and one-way<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>street in front of a single lane and one-way bridge over a river. 
+      Note that since the street is single lane, no vehicle can overtake any 
+      other.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>The bridge can sustain 
+      a given maximum load. To control the traffic on the bridge, operators are 
+      stationed on either end of the bridge.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The convoy of vehicles is to be 
+      divided into groups, such that all the vehicles in any group can cross the 
+      bridge together. When a group reaches the other side, the operator on that 
+      side of the bridge uses a telephone to inform the operator on this side 
+      that the next group can start its journey over the bridge. The weight of 
+      each vehicle is known. The sum of the weights of the vehicles in any group 
+      cannot exceed the maximum<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>load sustainable by the bridge.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Associated with each vehicle is 
+      the maximum speed with which it can travel over the bridge.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The time taken by a group of 
+      vehicles is calculated as the time taken by the slowest vehicle in the 
+      group to cross the bridge. The problem is to find the minimum amount of 
+      time in which the entire convoy can cross the bridge. </P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The first line of input contains three positive 
+      integers (separated by blanks): the first one represents the maximum load 
+      that the bridge can sustain (in tonnes); the second one represents the 
+      length of the bridge (in kms); and the third one is the number of vehicles 
+      (<I style="mso-bidi-font-style: normal">n</I>) in the convoy.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Each of the next <I 
+      style="mso-bidi-font-style: normal">n</I> lines of input contains a pair 
+      of positive integers, <I style="mso-bidi-font-style: normal">w s</I> 
+      (separated by blanks), where <I style="mso-bidi-font-style: normal">w</I> 
+      is the weight of the vehicle (in tonnes) and <I 
+      style="mso-bidi-font-style: normal">s</I> is the maximum speed (in kmph) 
+      with which this vehicle can travel over the bridge.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The weights and speeds of the 
+      vehicles are specified in the same order as the order in which the 
+      vehicles are queued up.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>You 
+      can assume that <I style="mso-bidi-font-style: normal">n</I> &lt; 
+1000.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output of the program should be a single real 
+      number specifying the minimum time <I 
+      style="mso-bidi-font-style: normal">in minutes</I> in which the convoy can 
+      cross the bridge.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">100 5 
+10</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">40 25</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">50 20</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">50 20</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">70 10</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">12 50</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">9 70</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">49 30</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">38 25</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">27 50</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">19 70</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output for the 
+      Sample Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>75.0</P>
+      <hr>
+      <P align=center><SPAN 
+      style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><BR 
+      clear=all style="PAGE-BREAK-BEFORE: always"></SPAN><B 
+      style="mso-bidi-font-weight: normal"><A name=xw>Crossword</A> Puzzle<O:P> 
+      </O:P></B>
+      <P class=MsoNormal>In this problem, you have to write a program to solve a 
+      crossword puzzle.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>However 
+      this crossword is simpler than the usual crosswords that one sees in 
+      newspapers.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Here the clues 
+      only specify the starting position of the words in the puzzle, their 
+      orientations (across or down), and the word lengths.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Any word from the dictionary can 
+      be used anywhere in the puzzle provided that it has the right length, and 
+      that the words that intersect in the puzzle do have the same letter at the 
+      appropriate places.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>And of 
+      course, no word should be used more than once.</P>
+      <P class=MsoNormal>Consider the following puzzle, for example. Assume that 
+      the rows are numbered 0 to 4 from top to bottom and the columns are 
+      numbered 0 to 4 from left to right.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>We use (<I style="mso-bidi-font-style: normal">x</I>,<I 
+      style="mso-bidi-font-style: normal">y</I>) to denote the position of the 
+      letter in the <I style="mso-bidi-font-style: normal">x</I>th column and 
+      the <I style="mso-bidi-font-style: normal">y</I>th row of the 
+      crossword.</P>
+      <P align=center class=MsoNormal>&nbsp;<O:P> <IMG border=0 height=193 
+      src="Problems_files/contes2.gif" width=194></O:P> </P>
+      <P class=MsoNormal>In this puzzle, we need to fill in five words:<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>A word of 4 letters across at 
+      position (0,0), a word of 4 letters down at position (0,0), a word of 4 
+      letters down at position (2,0); a word of 3 letters across at position 
+      (0,2) and finally a word of 3 letters across at position (2,3).<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Any word from the dictionary can 
+      be used but no word can be used more than once.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>For example, here is one possible 
+      solution: </P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">&nbsp;<O:P> 
+      </O:P></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">(0,0) 
+      Across: LATE</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">(0,0) Down: 
+      LIED</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">(2,0) Down: 
+      TELL</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">(0,2) 
+      Across: EEL</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">(2,3) 
+      Across: LOW</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The first line of input specifies the name of the file 
+      that is to be used as the dictionary.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>For your testing, you can use the 
+      standard Unix dictionary file <SPAN 
+      style="FONT-FAMILY: Courier">/usr/dict/words</SPAN>.</P>
+      <P class=MsoNormal>You can assume that this file exists, is readable and 
+      contains at most 100000 words, sorted lexicographically, one word per 
+      line. The words in the dictionary may have both upper and lower case 
+      letters.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>For this problem 
+      however, case is immaterial.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>Assume that no word in the dictionary is more than 20 characters 
+      long.</P>
+      <P class=MsoNormal>The next line of input contains the number of clues (<I 
+      style="mso-bidi-font-style: normal">n</I>).<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>You can assume that <I 
+      style="mso-bidi-font-style: normal">n</I> <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN><SPAN style="FONT-FAMILY: Symbol"> 
+      </SPAN>15.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>The next <I 
+      style="mso-bidi-font-style: normal">n</I> lines give one clue each.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>For each clue, the corresponding 
+      input line contains respectively, the column and row positions in the 
+      puzzle of the first letter of the word; followed by either the character 
+      `A' or the character `D', depending on whether the orientation of the word 
+      is across or down; followed by the length of the word.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>All the entries on a line are 
+      separated by blanks.</P>
+      <P class=MsoNormal>&nbsp;<O:P>You can make the following further 
+      assumptions. </P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1.<SPAN 
+      style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp; </SPAN>The size of 
+      the crossword puzzle is no more than 10 X 10. </P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 14.15pt; MARGIN-TOP: 0px; TEXT-INDENT: -14.15pt">2.<SPAN 
+      style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp; </SPAN>All words 
+      lie completely within the crossword.</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 14.15pt; MARGIN-TOP: 0px; TEXT-INDENT: -14.15pt">3.<SPAN 
+      style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp; </SPAN>The 
+      crossword is solvable using the given dictionary.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">&nbsp;<O:P> 
+      </B>The output should contain <I style="mso-bidi-font-style: normal">n</I> 
+      lines giving all the words for the crossword puzzle.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The words should appear one per 
+      line and in the same order as their clues appear in the input.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>All the letters in every word 
+      should be in upper case.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>All 
+      the words should be from the dictionary file (ignoring case). No word 
+      should occur more than once. A large number of solutions may be correct 
+      for any given input.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Any of 
+      these solutions is acceptable.</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>&nbsp;<O:P> For the example crossword shown above, the 
+      input would be: </P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">/usr/dict/words<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">5<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">0 0 A 4<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">0 0 D 4<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">2 0 D 4<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">0 2 A 3<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"><SPAN 
+      style="FONT-FAMILY: TIMES">2 3 A 3<O:P> </O:P></SPAN></P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">A Possible 
+      Output for the Sample Input<O:P> </O:P></B></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">LATE</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">LIED</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">TELL</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">EEL</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">LOW</P>&nbsp; 
+
+      <hr>
+      <P align=center class=MsoNormal style="TEXT-ALIGN: center"><B 
+      style="mso-bidi-font-weight: normal"><A name=Numeric>Numerical</A> 
+      Scrabble<O:P> </O:P></B></P>
+      <P class=MsoNormal>There is an unknown 4 X 4 matrix <I 
+      style="mso-bidi-font-style: normal">M</I>, whose elements are all positive 
+      integers. You are given the sums of the elements of the four rows, the 
+      sums of the elements of the four columns, and the sums of the elements of 
+      the two diagonals. In addition, you are given the values at four positions 
+      in the matrix, the locations of which are specified in the input.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>You have to write a program to 
+      find an assignment of positive integral values to the remaining 12 
+      positions of the matrix such that the sum of the rows, columns and the two 
+      diagonals of the solution match the corresponding given values.</P>
+      <P class=MsoNormal>&nbsp;</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The input contains 22 positive integers separated by 
+      blanks. The first four numbers represent the sum of the entries in the 
+      four rows respectively. The next four numbers represent the sum of the 
+      entries in the four columns respectively.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The next number represents the sum 
+      of the main diagonal, that is,<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; 
+      </SPAN><I style="mso-bidi-font-style: normal">M</I>[0,0] + <I 
+      style="mso-bidi-font-style: normal">M</I>[1,1] + <I 
+      style="mso-bidi-font-style: normal">M</I>[2,2] + <I 
+      style="mso-bidi-font-style: normal">M</I>[3,3].</P>
+      <P class=MsoNormal>The next number (this is the tenth one) represents the 
+      sum of the elements in the cross diagonal, that is, <I 
+      style="mso-bidi-font-style: normal">M</I>[0,3] + <I 
+      style="mso-bidi-font-style: normal">M</I>[1,2] + <I 
+      style="mso-bidi-font-style: normal">M</I>[2,1] + <I 
+      style="mso-bidi-font-style: normal">M</I>[3,0]. The remainder of the input 
+      consists of 12 numbers, divided into four triplets of the form <I 
+      style="mso-bidi-font-style: normal">i j k</I>. This means that <I 
+      style="mso-bidi-font-style: normal">M</I>[<I 
+      style="mso-bidi-font-style: normal">i</I>,<I 
+      style="mso-bidi-font-style: normal">j</I>] = <I 
+      style="mso-bidi-font-style: normal">k</I>.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>You may assume that the sum of any 
+      row, diagonal or column is no more than 300.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>You can also assume that a 
+      solution always exists for the given input.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output should consist of the 16 numbers of the 
+      matrix written out in a 4 X 4 format.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Note that for a given input, there 
+      may be more than one possible solution.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Any of these solutions is 
+      acceptable.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>130 120 172 140 157 93 144 168 66 195 0 1 15 1 3 49 2 2 
+      16 3 0 33</P>
+      <P class=MsoNormal><SPAN style="mso-spacerun: yes">&nbsp;</SPAN><B 
+      style="mso-bidi-font-weight: normal">A Possible Output for the Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">22<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>15<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>28<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>65 </P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">49<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>1<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>21<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>49</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">53<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>76 16<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>27</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">33<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>1<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>79<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>27</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">&nbsp;</P>
+      <hr>
+      <P align=center class=MsoNormal><B style="mso-bidi-font-weight: normal"><A 
+      name=Train>Train</A> Shunting<O:P> </O:P></B></P>
+      <P class=MsoNormal>In this problem, you are given the layout of the tracks 
+      in a certain railway junction (station). Each segment of the track is 
+      numbered.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>In addition, it is 
+      specified whether it is possible to move from a track numbered <I 
+      style="mso-bidi-font-style: normal">i</I> to a track numbered <I 
+      style="mso-bidi-font-style: normal">j</I>. A train has to be moved from a 
+      given track <I style="mso-bidi-font-style: normal">s</I> to another 
+      specified track <I style="mso-bidi-font-style: normal">t</I>. In doing so, 
+      it is possible that one might have to reverse the direction of the motion 
+      of the train once or more than once.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>The problem is to find the minimum number of reversals with which a 
+      train can be taken from a source track <I 
+      style="mso-bidi-font-style: normal">s</I> to the destination track <I 
+      style="mso-bidi-font-style: normal">t</I>.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Example<O:P> 
+      </O:P></B></P>
+      <P class=MsoNormal>Consider the simple railroad network shown below.</P>
+      <P align=center class=MsoNormal>&nbsp;<IMG border=0 height=226 
+      src="Problems_files/tracks.gif" width=131> </P>
+      <P class=MsoNormal>Here there are four tracks numbered 0 to 3.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The train can move from track 0 to 
+      track 1, track 0 to track 2, etc.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>Note however that the train cannot move from track 1 to track 2 
+      directly.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Also note that if 
+      the train traverses the segment 1-0-2 or 2-0-1, its direction needs to be 
+      reversed once.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Suppose that 
+      the source track is track 1 and the destination track is track 2.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Clearly the minimum number of 
+      reversals required to take a train from track 1 to 2 is 1. </P>
+      <P class=MsoNormal>&nbsp;</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The input is specified in three parts. In the first 
+      part,<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>the tracks and their 
+      connectivity are specified. In the second part, track segments of the form 
+      <I style="mso-bidi-font-style: normal">i j k</I> such that the motion i to 
+      j to k necessitates a reversal of the train, are specified. In the third 
+      part the source and destination tracks are specified.</P>
+      <P class=MsoNormal>The first line of the input specifies the number of 
+      tracks <I style="mso-bidi-font-style: normal">n<SPAN 
+      style="FONT-FAMILY: Symbol"> </SPAN></I><SPAN 
+      style="FONT-FAMILY: TIMES">which may be assumed to be no more than 
+      </SPAN>50. These tracks are numbered consecutively from 0 to <I 
+      style="mso-bidi-font-style: normal">n</I>-1. The following <I 
+      style="mso-bidi-font-style: normal">n</I> lines of input each has the 
+      following format. The first number in line <I 
+      style="mso-bidi-font-style: normal">i</I>+1 (counted from the beginning of 
+      input) (for 0 <SPAN style="FONT-FAMILY: Symbol">&lt;=</SPAN> i <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN> <I 
+      style="mso-bidi-font-style: normal">n</I>-1) specifies the number of 
+      tracks (<I style="mso-bidi-font-style: normal">k</I>) that are <I 
+      style="mso-bidi-font-style: normal">directly connected</I> to track <I 
+      style="mso-bidi-font-style: normal">i</I>. Followed by this on the same 
+      line are <I style="mso-bidi-font-style: normal">k</I> numbers, which are 
+      the track numbers <SPAN style="mso-spacerun: yes">&nbsp;</SPAN>that are 
+      directly connected to track <I style="mso-bidi-font-style: normal">i</I>, 
+      i.e., the tracks to which the train can directly move from track <I 
+      style="mso-bidi-font-style: normal">i</I>.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>All the numbers on a line are 
+      separated by blanks.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Assume 
+      that if a train can move directly from track <I 
+      style="mso-bidi-font-style: normal">i</I> to track <I 
+      style="mso-bidi-font-style: normal">j</I>, then it can also move directly 
+      from track <I style="mso-bidi-font-style: normal">j</I> to track <I 
+      style="mso-bidi-font-style: normal">i</I>.</P>
+      <P class=MsoNormal>The next line of the input specifies the number of 
+      reversal segments (<I style="mso-bidi-font-style: normal">r</I>).<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The following <I 
+      style="mso-bidi-font-style: normal">r</I> lines each consists of three 
+      numbers <I style="mso-bidi-font-style: normal">i j k</I> (separated by 
+      blanks). The triple<SPAN style="mso-spacerun: yes">&nbsp; </SPAN><I 
+      style="mso-bidi-font-style: normal">i j k</I> means that if the segment <I 
+      style="mso-bidi-font-style: normal">i</I>-<I 
+      style="mso-bidi-font-style: normal">j</I>-<I 
+      style="mso-bidi-font-style: normal">k</I> or the segment <I 
+      style="mso-bidi-font-style: normal">k</I>-<I 
+      style="mso-bidi-font-style: normal">j</I>-<I 
+      style="mso-bidi-font-style: normal">i</I> is traversed by the train, its 
+      direction of motion needs to be reversed once.</P>
+      <P class=MsoNormal>The last line of the input contains two numbers <I 
+      style="mso-bidi-font-style: normal">s</I> and <I 
+      style="mso-bidi-font-style: normal">t</I> (separated by blanks). The first 
+      number <I style="mso-bidi-font-style: normal">s</I> is the source track 
+      and the second number <I style="mso-bidi-font-style: normal">t</I> is the 
+      destination track.</P>
+      <P class=MsoNormal>&nbsp;</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output of the 
+      Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The output should be a single number that specifies the 
+      minimum number of reversals necessary for a train to move from track <I 
+      style="mso-bidi-font-style: normal">s</I> to track <I 
+      style="mso-bidi-font-style: normal">t</I>.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Sample 
+      Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>For the example described above, the input would 
+be:</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">4</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 1 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 0 3</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 0 3</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2 1 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1 0 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1 3 2</P>
+      <P class=MsoNormal 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">1 2</P>
+      <P class=MsoNormal>&nbsp;<O:P> </O:P></P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Output for the 
+      Sample Input<O:P> </O:P></B></P>
+      <P class=MsoNormal>1</P>
+      <hr>
+      <P align=center class=MsoNormal><B style="mso-bidi-font-weight: normal"><A 
+      name=Strategy>A</A> Game of Strategy<O:P> </O:P></B></P>
+      <P class=MsoNormal>Two players compete in the following game.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>There is a pile containing <I 
+      style="mso-bidi-font-style: normal">n</I> chips; the first player removes 
+      any number of chips except that (s)he cannot take the whole pile.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>From then on the players alternate 
+      moves, each person removing one or more chips but not more than twice the 
+      square of the chips that the preceding player has taken.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>The player who removes the last 
+      chip wins.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>For example, 
+      suppose that <I style="mso-bidi-font-style: normal">n</I>=50; player A 
+      removes 3 chips; player B may remove up to 18 chips and he takes 4.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>There remain 43 chips, player A 
+      may take up to 32 chips and he picks 5.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>There remain 38 chips; player B 
+      may now pick all the chips, he does so and thus wins.</P>
+      <P class=MsoNormal>You have to write a program which plays the game 
+      described above and plays it <I 
+      style="mso-bidi-font-style: normal">optimally</I>.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Input to and 
+      Output of the Program<O:P> </O:P></B></P>
+      <P class=MsoNormal>The program is obviously going to be interactive.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Assume that your program always 
+      makes the first move.<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>Initially it gets a line of input which specifies the number of 
+      chips (<I style="mso-bidi-font-style: normal">n</I>) that are in the pile 
+      to begin with.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>You may assume 
+      that <I style="mso-bidi-font-style: normal">n</I> <SPAN 
+      style="FONT-FAMILY: Symbol">&lt;=</SPAN> 5000.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>It should then output an integer 
+      on a line specifying the number of chips that it chooses to pick.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>It will then again get a line of 
+      input specifying how many chips the opponent has picked up.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Again it must give out the number 
+      of chips picked by it in this turn on a line of output, and so on.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Once<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>the program determines that either 
+      it or its opponent has won, it should terminate without giving any further 
+      output.</P>
+      <P class=MsoNormal>Note that if your program removes the last chip from 
+      the pile, the number of chips removed by it in this move must also be 
+      printed just like in the previous moves.</P>
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal">Special 
+      Note<O:P> </O:P></B></P>
+      <P class=MsoNormal>Your program will be judged by playing it against 
+      another program written by the judges.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Thus its actual opponent in the 
+      final run will be another program and not a human.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>All this does not affect your 
+      program at all except for the following.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>When your program will be run by 
+      the judges, its standard output and input (which normally are the terminal 
+      and the keyboard respectively) will actually be Unix pipes.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>Due to this reason, you must 
+      carefully note the following directions and strictly adhere to them while 
+      writing your program.</P>
+      <P 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 14.15pt; MARGIN-TOP: 0px; TEXT-INDENT: -14.15pt"><SPAN 
+      style="FONT-FAMILY: Times New Roman; FONT-SIZE: 7pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal">&nbsp;&nbsp;</SPAN><SPAN 
+      style="FONT-SIZE: 7pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal"> 
+      </SPAN>If you are using C or C++ as the programming language and using 
+      printf, putchar etc., for output, add the following statement after every 
+      output statement:<SPAN style="mso-spacerun: yes">&nbsp; 
+      </SPAN>fflush(stdout);<O:P> </O:P></P>
+      <P 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 14.15pt; MARGIN-TOP: 0px; TEXT-INDENT: -14.15pt"><SPAN 
+      style="FONT-SIZE: 7pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal">&nbsp;&nbsp; 
+      </SPAN>If you are using C++ and using cout &lt;&lt; ... etc., for output, 
+      add the following statement after every output statement: 
+      cout.flush();<O:P> </O:P></P>
+      <P 
+      style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 14.15pt; MARGIN-TOP: 0px; TEXT-INDENT: -14.15pt"><SPAN 
+      style="FONT-SIZE: 7pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal">&nbsp;&nbsp; 
+      </SPAN>If you are using Java, add the following statement after every 
+      output statement: System.out.flush();<O:P> </O:P></P>
+      <P style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">If you 
+      are using Pascal, this note does not apply to you.</P>
+      <P style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">&nbsp;</P msnavigation></BODY></HTML>
