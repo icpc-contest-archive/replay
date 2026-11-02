@@ -146,7 +146,7 @@ def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", default=str(ROOT.parent / "archive"))
-    ap.add_argument("--exclude-artifacts", default="problemset",
+    ap.add_argument("--exclude-artifacts", default="problemset,judge-baekjoon,judge-livearchive,judge-kattis,judge-codeforces",
                     help="comma list of capture artifacts NOT published on this Pages shard "
                          "(2026-11-02 decision: problem-set captures stay private in the archive — "
                          "1.7 GB of PDFs do not fit a Pages repo; served locally via serve.py)")
