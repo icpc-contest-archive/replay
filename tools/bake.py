@@ -146,7 +146,12 @@ def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", default=str(ROOT.parent / "archive"))
+    ap.add_argument("--exclude-artifacts", default="problemset",
+                    help="comma list of capture artifacts NOT published on this Pages shard "
+                         "(2026-11-02 decision: problem-set captures stay private in the archive — "
+                         "1.7 GB of PDFs do not fit a Pages repo; served locally via serve.py)")
     args = ap.parse_args()
+    excluded = {x.strip() for x in args.exclude_artifacts.split(",") if x.strip()}
     arch = Path(args.archive)
     index = json.loads((arch / "index.json").read_text())
 
@@ -155,6 +160,9 @@ def main() -> int:
     for cap in index["captures"]:
         if cap.get("content_caveat"):
             continue  # junk-flagged captures stay in the archive but are not published
+        if cap.get("artifact") in excluded:
+            stats["excluded artifact: " + cap["artifact"]] = stats.get("excluded artifact: " + cap["artifact"], 0) + 1
+            continue
         src = arch / cap["path"]
         if not src.exists():
             print(f"missing in archive: {cap['path']}", file=sys.stderr)
