@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:44:45+00:00",
+ "generated": "2026-11-03T05:56:57+00:00",
  "shard": 1,
  "pages": [
   {
@@ -6907,6 +6907,14 @@
    "sha256_source": "9713b2fd2b849bb699f6231f3865c1eeef5da69bbb0cf50a2a31c58e9b0fbaef"
   },
   {
+   "contest": "cerc-2000",
+   "artifact": "web-mirror",
+   "path": "a/cerc/cerc-2000/web-mirror/20261102-live-7c41560c/page.html",
+   "url": "http://contest.felk.cvut.cz/",
+   "fetched": "2026-11-03T05:24:24+00:00",
+   "sha256_source": "b21cb798e75f0a40333363ce896cbdc39e48262d452c46e5c049ec955fd0cdb9"
+  },
+  {
    "contest": "cerc-2001",
    "artifact": "scoreboard",
    "path": "a/cerc/cerc-2001/scoreboard/2026-04-16-archive/2001-central-europe-programming-contest-2001.html",
@@ -6937,6 +6945,14 @@
    "url": "https://web.archive.org/web/20020207005607/http://cepc.mimuw.edu.pl:8002/results.htm",
    "fetched": "2026-09-01T07:55:37+00:00",
    "sha256_source": "0a19c6087ba10fd542361786b59c36209f05658c27c0c01a0259943f163a6062"
+  },
+  {
+   "contest": "cerc-2001",
+   "artifact": "web-mirror",
+   "path": "a/cerc/cerc-2001/web-mirror/20261102-live-b4e8894f/page.html",
+   "url": "http://cepc.mimuw.edu.pl/",
+   "fetched": "2026-11-03T05:24:38+00:00",
+   "sha256_source": "6b39cc9d6284cd45428828f4eb6a3bf129adc234007c74e18cb34436e79153bd"
   },
   {
    "contest": "cerc-2002",
@@ -9393,6 +9409,14 @@
    "url": "https://web.archive.org/web/20050220221932/http://swt.edu/~ch01/Rankings2001/standingsDhaka.htm",
    "fetched": "2026-09-01T08:52:45+00:00",
    "sha256_source": "8b0dd552d585741cb9e0540f1d78bc60674b07883c09da157333fcb58c7f6fbf"
+  },
+  {
+   "contest": "dhaka-2001",
+   "artifact": "web-mirror",
+   "path": "a/dhaka/dhaka-2001/web-mirror/20261102-live-1d81b8b7/page.html",
+   "url": "http://www.buet.ac.bd/",
+   "fetched": "2026-11-03T05:24:33+00:00",
+   "sha256_source": "dbf8c0b6b77fc70e1a7255d318560f5659764fa9c4e0acfa8f960a6d879386ad"
   },
   {
    "contest": "dhaka-2002",
@@ -13731,6 +13755,14 @@
    "sha256_source": "2e8533064b48cfa45d07d561a71aeeee34367166d1619fad951c8f6076e5f0d8"
   },
   {
+   "contest": "gny-2000",
+   "artifact": "web-mirror",
+   "path": "a/gny/gny-2000/web-mirror/20261102-live-bb2fe6ba/page.html",
+   "url": "http://www.acmgnyr.org/",
+   "fetched": "2026-11-03T05:24:25+00:00",
+   "sha256_source": "276cc8ea3922fd6a86ff8dfcc6059c7f9eb9d9b61f45030c7ddf2227675a2d6a"
+  },
+  {
    "contest": "gny-2001",
    "artifact": "scoreboard",
    "path": "a/gny/gny-2001/scoreboard/2026-04-16-archive/2001-greater-new-york-programming-contest-2001.html",
@@ -13779,6 +13811,14 @@
    "sha256_source": "970323b044a8695ec0d0b76a93a63467f1716e816ef20c5d1bc96b762c840d69"
   },
   {
+   "contest": "gny-2001",
+   "artifact": "web-mirror",
+   "path": "a/gny/gny-2001/web-mirror/20261102-live-bb2fe6ba/page.html",
+   "url": "http://www.acmgnyr.org/",
+   "fetched": "2026-11-03T05:24:23+00:00",
+   "sha256_source": "276cc8ea3922fd6a86ff8dfcc6059c7f9eb9d9b61f45030c7ddf2227675a2d6a"
+  },
+  {
    "contest": "gny-2002",
    "artifact": "scoreboard",
    "path": "a/gny/gny-2002/scoreboard/2026-09-01-live-fba38106/standings.shtml",
@@ -13809,6 +13849,14 @@
    "url": "http://icpc.baylor.edu/past/icpc2003/regionals/Reports/icpc.baylor.edu/icpc/regionals/ViewRegionalStandingsfc44.html?ContestID=567",
    "fetched": "2026-09-05T18:17:01+00:00",
    "sha256_source": "b6fce9df71bbba8069db07dd9f6d0e7344198b2c3e43142b711998ec6041bfa4"
+  },
+  {
+   "contest": "gny-2002",
+   "artifact": "web-mirror",
+   "path": "a/gny/gny-2002/web-mirror/20261102-live-bb2fe6ba/page.html",
+   "url": "http://www.acmgnyr.org/",
+   "fetched": "2026-11-03T05:24:24+00:00",
+   "sha256_source": "276cc8ea3922fd6a86ff8dfcc6059c7f9eb9d9b61f45030c7ddf2227675a2d6a"
   },
   {
    "contest": "gny-2003",
@@ -13849,6 +13897,14 @@
    "url": "http://icpc.baylor.edu:80/past/icpc2004/RegReport/icpc.baylor.edu/regionals/ViewRegionalStandingsd756.html?ContestID=641",
    "fetched": "2026-09-05T18:17:01+00:00",
    "sha256_source": "8c6a3e6781f6f042af68da80cda97796afa9bb6d128e6a88e8fc1e619aeb6f69"
+  },
+  {
+   "contest": "gny-2003",
+   "artifact": "web-mirror",
+   "path": "a/gny/gny-2003/web-mirror/20261102-live-bb2fe6ba/page.html",
+   "url": "http://www.acmgnyr.org/",
+   "fetched": "2026-11-03T05:24:26+00:00",
+   "sha256_source": "276cc8ea3922fd6a86ff8dfcc6059c7f9eb9d9b61f45030c7ddf2227675a2d6a"
   },
   {
    "contest": "gny-2004",
@@ -15739,6 +15795,22 @@
    "sha256_source": "33d4e3e57ff3d303fa1bd0d3f1ad6da9e6535d142a12145ffd400e4e972f486d"
   },
   {
+   "contest": "japan-2002",
+   "artifact": "standings",
+   "path": "a/japan/japan-2002/standings/20261102-live-041c16c3/index.html",
+   "url": "http://www.kitnet.jp/icpc/ajiakekka/index.html",
+   "fetched": "2026-11-03T05:24:48+00:00",
+   "sha256_source": "c178858fe33bc54f4eb4d01bc66c662517bbe1545c57d68bca9d95253745d29a"
+  },
+  {
+   "contest": "japan-2002",
+   "artifact": "web-mirror",
+   "path": "a/japan/japan-2002/web-mirror/20261102-live-91cb19fa/page.html",
+   "url": "http://www.kitnet.jp/icpc/",
+   "fetched": "2026-11-03T05:24:46+00:00",
+   "sha256_source": "0cb25d30048bc666149f855e52a4c269c4510abf2d5fc2be3534128e36c1f1b0"
+  },
+  {
    "contest": "japan-2003",
    "artifact": "standings",
    "path": "a/japan/japan-2003/standings/20060901-wayback-e90245c0/ViewRegionalStandings2ede.html",
@@ -15753,6 +15825,14 @@
    "url": "https://web.archive.org/web/20071012205948/http://icpc.baylor.edu/icpc/regionals/ViewRegionalStandings.asp?ContestID=653",
    "fetched": "2026-09-01T08:55:53+00:00",
    "sha256_source": "845ccf01fddb174b8d2ac586c40717274527a574700259a20c8f9e35d9af638a"
+  },
+  {
+   "contest": "japan-2003",
+   "artifact": "standings",
+   "path": "a/japan/japan-2003/standings/20261102-live-57b6aa82/AizuStandings.html",
+   "url": "http://www.u-aizu.ac.jp/conference/ACM/AizuStandings.html",
+   "fetched": "2026-11-03T05:24:53+00:00",
+   "sha256_source": "e8479412899aec185d5a7aa171a6526a829d80751f24d988aa0ae5e0486a647a"
   },
   {
    "contest": "japan-2004",
@@ -19643,6 +19723,14 @@
    "sha256_source": "17b04be0588cd6423f4c5f6405d7338dfa6121c3550ca8a1bf889ea62e11cc21"
   },
   {
+   "contest": "manila-2002",
+   "artifact": "standings",
+   "path": "a/manila/manila-2002/standings/20261102-live-760bbfd6/page.html",
+   "url": "http://www.dledge.com/acm/",
+   "fetched": "2026-11-03T05:24:47+00:00",
+   "sha256_source": "0b30c7ea122986509f4fbae8eb17be8ef7337fad2e3dcc663621073ad41e530a"
+  },
+  {
    "contest": "manila-2003",
    "artifact": "standings",
    "path": "a/manila/manila-2003/standings/20060901-wayback-4c77ed4c/ViewRegionalStandingscb85.html",
@@ -22787,6 +22875,14 @@
    "sha256_source": "3586c890c16c94ce93685121f02af1ec6f1696b1968491ea5241733261adab7e"
   },
   {
+   "contest": "ncna-2000",
+   "artifact": "web-mirror",
+   "path": "a/ncna/ncna-2000/web-mirror/20261102-live-19338dcd/page.html",
+   "url": "http://cs.unomaha.edu/acmregn/",
+   "fetched": "2026-11-03T05:24:50+00:00",
+   "sha256_source": "df0a98420555dfd00171b654bbb44cffc5c9e3f83c8da220eb6a9d9ff38b5ebb"
+  },
+  {
    "contest": "ncna-2001",
    "artifact": "rankings",
    "path": "a/ncna/ncna-2001/rankings/2026-09-01-wayback-6405fd3e/page.html",
@@ -23585,6 +23681,14 @@
    "url": "http://icpc.baylor.edu:80/past/icpc2002/Regionals/ViewRegionalStandings.asp?ContestID=518",
    "fetched": "2026-09-05T18:17:41+00:00",
    "sha256_source": "8716985d50c662870c99940bb3cfabab08e859a59c7299f74c9240da20f410f7"
+  },
+  {
+   "contest": "neerc-2001",
+   "artifact": "web-mirror",
+   "path": "a/neerc/neerc-2001/web-mirror/20261102-live-97dc58d9/page.html",
+   "url": "http://neerc.ifmo.ru/",
+   "fetched": "2026-11-03T05:24:24+00:00",
+   "sha256_source": "4c516d5e0626e7386feb1acb01ed4d06c2fae9654afe6b01fc2d3ee5fa1bb750"
   },
   {
    "contest": "neerc-2002",
@@ -36611,6 +36715,14 @@
    "sha256_source": "ce5c8446a68daf954e8bbe05822295524f80203f9b66a03275ba96ba9d216ab0"
   },
   {
+   "contest": "south-america-2001",
+   "artifact": "standings",
+   "path": "a/south-america/south-america-2001/standings/20261102-live-ef0c19ec/page.html",
+   "url": "http://www.ic.unicamp.br/~acmcntst",
+   "fetched": "2026-11-03T05:24:48+00:00",
+   "sha256_source": "976f5e6d6c61d47ad887d741479f943d97adc6287a8143fbb9d6a27c37c9ffb3"
+  },
+  {
    "contest": "south-america-2002",
    "artifact": "rankings",
    "path": "a/south-america/south-america-2002/rankings/2026-09-01-wayback-e682fd23/ViewRegionalStandingsf455.html",
@@ -36633,6 +36745,14 @@
    "url": "https://web.archive.org/web/20030517144856if_/http://www.dcc.unicamp.br/acmcntst/results.html",
    "fetched": "2026-09-01T09:43:09+00:00",
    "sha256_source": "ce5c8446a68daf954e8bbe05822295524f80203f9b66a03275ba96ba9d216ab0"
+  },
+  {
+   "contest": "south-america-2002",
+   "artifact": "standings",
+   "path": "a/south-america/south-america-2002/standings/20261102-live-ef0c19ec/page.html",
+   "url": "http://www.ic.unicamp.br/~acmcntst",
+   "fetched": "2026-11-03T05:24:48+00:00",
+   "sha256_source": "976f5e6d6c61d47ad887d741479f943d97adc6287a8143fbb9d6a27c37c9ffb3"
   },
   {
    "contest": "south-america-2003",
