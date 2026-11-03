@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+        
+
+
+    
+
+    
+    
+
+<html>
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://ac.nowcoder.com/acm/contest/10272">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+                            <meta charset="utf-8">
+    <meta http-equiv="content-language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-site-verification" content="lFSmn0rlLR-OPkas5c2GxdhTKP4J4PyaahhQ2TNanjs"/>
+    <meta itemprop="image" content="https://static.nowcoder.com/acm/images-acm/res/logo/acm-logo.png"/>
+    <meta name="description"  content="牛客竞赛是专业的编程算法训练平台，包括ACM校赛、ICPC、CCPC、CSP、信息学省选、NOI等编程比赛提高训练营。适合初级小白编程入门训练，包含CSP入门级提高级赛前集训、ACM区域赛前多校训练营。" >
+    <meta name="keywords"  content="ACM,CSP,NOI,CCPC,NOI,OI,ICPC,OJ,Virtual Judge,C语言,C++,提高组,普及组,信息学,算法,题解,编程比赛,程序设计,coding,在线编程,编程学习,训练,牛客网,牛客竞赛" >
+        <title>牛客竞赛_ACM/NOI/CSP/CCPC/ICPC算法编程高难度练习赛_牛客竞赛OJ</title>
+            
+
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/stylesheets-acm/v2lib/fontcustom/global/global.css" />
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/stylesheets-acm/v2lib/global/global.ui.css" />
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/stylesheets-acm/v2lib/base.css">
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/common.css">
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/env.css">
+<link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/stylesheets-acm/element-ui.css">
+    <link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/stylesheets-acm/v2/match/detail.css">
+    <link rel="stylesheet" href="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/page/contest/main.entry.css">
+</head>
+<body >
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://ac.nowcoder.com/acm/contest/10272">https://ac.nowcoder.com/acm/contest/10272</a> (live fetch 2026-11-03)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/nanjing-2020.html">nanjing-2020</a>  <a href="https://web.archive.org/web/*/https://ac.nowcoder.com/acm/contest/10272">wayback</a>  <a href="https://ac.nowcoder.com/acm/contest/10272">live</a></div>
+
+                
+            <div class="nk-container acm-container">
+    
+    <div class="acm-header js-site-global-nav">
+        <div class="acm-header-main clearfix">
+            <a class="acm-logo" href="/" title="牛客竞赛">
+                <img src="//static.nowcoder.com/acm/images-acm/logo.png" style="width:139px;height:42px;" alt=""/>
+            </a>
+                    <ul class="acm-nav">
+                <li><a class="    " href="/">首页</a></li>
+                <li><a class="    selected active" href="/acm/contest/vip-index">比赛</a></li>
+                <li class="new"><a class="    " href="https://www.nowcoder.com/problem/tracker" target="_blank">tracker</a></li>
+                <li><a class="    " href="/acm/problem/list">题库</a></li>
+                <li><a class="    " href="/acm/course">课程</a></li>
+                <li><a class="    " href="/acm/discuss">竞赛讨论区</a></li>
+                </li>
+            </ul>
+                                                    <div class="nav-account">
+                    <a href="https://ac.nowcoder.com/login?callBack=/" class="nav-account-login" id="nav-login">登录</a>/
+                    <a href="https://ac.nowcoder.com/register?callBack=/" class="nav-account-reg" id="jsNavRegister">注册</a>
+                </div>
+                        <ul class="acm-nav-info">
+                            <li>
+                    <a href="https://www.nowcoder.com/" target="_blank"><i class="icon-home"></i>去牛客</a>
+                </li>
+
+                                        </ul>
+        </div>
+    </div>
+
+
+    
+    <div class="nk-main clearfix js-container">
+      <div style="padding:20px;font-size:14px;text-align:center;">加载中...</div>
+    </div>
+                
+    
+        <div class="fixed-menu">
+        <ul>
+            <li>
+                <a href="javascript:void(0);" class="gotop js-nav-go-top" title="回到顶部"></a>
+            </li>
+                            <li>
+                    <a href="javascript:void(0);" class="wecom" title="企业微信"></a>
+                    <div class="wx-qrcode acm-contact-qrcode">
+                        <img src="https://uploadfiles.nowcoder.com/files/20260529/999991351_1780026381665/筱筱企微二维码.png" alt="企业微信二维码" />
+                        <p>扫码添加企业微信</p>
+                    </div>
+                </li>
+                        <li>
+                <a href="javascript:void(0);" class="qq" title="QQ"></a>
+                <div class="wx-qrcode acm-contact-qrcode">
+                    <img src="https://uploadfiles.nowcoder.com/files/20260602/999991351_1780383737553/QQ_1780383706170.png" alt="QQ 群二维码" />
+                    <p>扫码加入竞赛交流群</p>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="wx"></a>
+                <div class="wx-qrcode">
+                    <img src="https://uploadfiles.nowcoder.com/files/20220314/969678311_1647247238051/f4ae23c726dcf93aa19eb8f77e4d084a.png" alt="二维码" />
+                    <p>扫描二维码，关注牛客</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://www.nowcoder.com/subject/index/b211632d69fd42f7b55aae38d4242fda" class="feedback" title="意见反馈"></a>
+                <a href="https://www.nowcoder.com/subject/index/b211632d69fd42f7b55aae38d4242fda" class="feedback-letter">意见反馈</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="qrcode"></a>
+                <div class="wx-qrcode">
+                    <img src="//uploadfiles.nowcoder.com/app/web_app_download.png" alt="二维码" />
+                    <p>下载牛客APP，随时随地刷题</p>
+                </div>
+            </li>
+        </ul>
+                        </div>
+    
+<div class="acm-ft-wrap js-nowcoder-footer">
+            <div class="fixed-foot clearfix js-fixed-foot" style="display:none;">
+            <div class="fixed-foot-main">
+                <div class="fixed-foot-tip">刷真题、补算法、看面经、得内推</div>
+                <div class="fixed-foot-login">
+                    <span>使用第三方账号直接登录使用吧：</span>
+                    <a href="javascript:void(0);" data-href="https://api.weibo.com/oauth2/authorize?client_id=3023520088&redirect_uri=http%3A%2F%2Fwww.nowcoder.com%2Foauth2%2Fsinaconfig&response_type=code&state=web&scope=follow_app_official_microblog" class="ft-login-item ft-login-wb nc-js-action-oauth" title="登录微博"></a>
+                    <a href="javascript:void(0);" data-href="https://graph.qq.com/oauth2.0/authorize?client_id=101003590&redirect_uri=http%3A%2F%2Fwww.nowcoder.com%2Foauth2%2Fqqconfig&response_type=code&state=web" class="ft-login-item ft-login-qz nc-js-action-oauth" title="登录Qzone"></a>
+                                    <a href="javascript:void(0);" data-href="/oauth2/login/wechat_mp_index" class="ft-login-item ft-login-wx nc-js-action-oauth" title="登录微信"></a>
+                    <a href="javascript:void(0);" data-href="https://github.com/login/oauth/authorize?client_id=1c539827b9400016d0c9&scope=user:email&redirect_uri=http%3A%2F%2Fwww.nowcoder.com%2Foauth2%2Fgitconfig&response_type=code&state=web" class="ft-login-item ft-login-git nc-js-action-oauth" title="登录git"></a>
+                    <a href="javascript:void(0);" class="more-login nc-req-auth">更多</a>
+                </div>
+            </div>
+        </div>
+    
+    <div class="acm-ft-cont clearfix">
+        <dl class="acm-ft-web-info">
+            <dt class="acm-ft-web-name">牛客竞赛，专业的竞技算法训练平台</dt>
+            <dd>
+                <a href="javascript:void(0);" class="ft-qq-ico">
+                    <div class="tooltip top">
+                        <div class="tooltip-arrow"></div>
+                        <div class="tooltip-inner">
+                            <img width="110" src="https://uploadfiles.nowcoder.com/files/20260602/999991351_1780383737553/QQ_1780383706170.png" alt="QQ 群二维码">
+                            <p>扫描二维码，进入QQ群</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="ft-wx-ico">
+                    <div class="tooltip top">
+                        <div class="tooltip-arrow"></div>
+                        <div class="tooltip-inner">
+                            <img width="110" src="//uploadfiles.nowcoder.com/images/20171109/68_1510217575727_4FA2AAE7EB5CCAF0C9D0DEA16D00A11C">
+                            <p>扫码关注“比赛自动姬”</p>
+                        </div>
+                    </div>
+                </a>
+                                    <a href="javascript:void(0);" class="ft-wecom-ico">
+                        <div class="tooltip top">
+                            <div class="tooltip-arrow"></div>
+                            <div class="tooltip-inner">
+                                <img width="110" src="https://uploadfiles.nowcoder.com/files/20260529/999991351_1780026381665/筱筱企微二维码.png" alt="企业微信二维码">
+                                <p>扫码添加企业微信</p>
+                            </div>
+                        </div>
+                    </a>
+                                <a href="https://www.zhihu.com/org/niu-ke-wang-53/activities" class="ft-zh-ico" target="_blank"></a>
+            </dd>
+        </dl>
+        <div class="txt-center">
+            <ul class="acm-ft-links">
+                <li><a href="//www.nowcoder.com/nowcoder/about">关于我们</a></li>
+                <li><a href="/nowcoder/recruitment">加入我们</a></li>
+                <li><a href="//www.nowcoder.com/subject/index/b211632d69fd42f7b55aae38d4242fda">意见反馈</a></li>
+                <li><a href="//hr.nowcoder.com">企业服务</a></li>
+                <li><a href="/nowcoder/school-cooperation">校企合作</a></li>
+                <li><a href="/html/cooperation">联系我们</a></li>
+                <li><a href="/html/disclaimer">免责声明</a></li>
+                <li><a href="/html/links">友情链接</a></li>
+            </ul>
+            <ul class="webrights">
+                <li>公司地址：北京市朝阳区北苑路北美国际商务中心K1座一层-北京牛客科技有限公司</li>
+                <li>
+                    <span>联系方式：<a href="tel:010-60728802">010-60728802</a></span>
+                    <span class="ml-2">投诉举报电话：<a href="tel:010-57596212">010-57596212</a>（朝阳人力社保局）</span>
+                </li>
+                <li>
+                    <span>牛客科技©<span id="jsNCPageFooterYear"></span> All rights reserved</span>
+                    <a href="mailto:admin@nowcoder.com" class="ml-4">admin@nowcoder.com</a>
+                </li>
+                <li>
+                    <a class="ft-info-item" target="_blank" href="//beian.miit.gov.cn">京ICP备14055008号-4</a>
+                    <a class="ft-info-item ml-1" target="_blank" href="//uploadfiles.nowcoder.com/acts/icp.png">增值电信业务经营许可证</a>
+                    <a class="ft-info-item ml-1" target="_blank" href="//static.nowcoder.com/protocol/license-center.html#business">营业执照</a>
+                    <a class="ft-info-item ml-1" target="_blank" href="//static.nowcoder.com/protocol/license-center.html#human-resources">人力资源服务许可证</a>
+                </li>
+                <li>
+                    <img src="//static.nowcoder.com/company/images/res/ghs.png" height="18">
+                    <a class="ft-info-item" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502036488">京公网安备 11010502036488号</a>
+                </li>
+            </ul>
+            <script>try{document.getElementById('jsNCPageFooterYear').innerHTML=new Date().getFullYear();}catch(e){}</script>
+        </div>
+
+    </div>
+</div>
+
+
+            <div class="living-layer js-global-tips" style="display:none;">
+        <a href="javascript:void(0);" class="icon-nc-cancel"></a>
+        <a class="cont js-global-tips-href" href="" target="_blank">
+            <i class="icon-nc-play"></i>
+            <div class="living-layer-cont">
+                <p class="living-layer-title"></p>
+                <p></p>
+            </div>
+        </a>
+    </div>
+    
+
+</div>
+        
+<script>
+        window.isLogin = false;
+        window.globalInfo = {
+        canLoadInIframe: 'true'
+    };
+            window.useNeteaseCaptcha = true;
+        window.globalInfo.isAcmCompleteInfo = false;
+        window.globalInfo.isAcmSuperAdmin = false;
+    window.globalInfo.acmUserPlanType = 2;
+    window.globalInfo.hasAcmUserPlanType = false;
+    window.showCodeCompleteV2 = true;
+</script>
+
+<script type="text/javascript">
+window.ncDeployImageRoot = "//static.nowcoder.com/acm";
+window.ncJsInDev =  false ;
+window.ncJsInPre = false;
+window.ncJsVersion = "1.03.12";
+window.ncJsPluginVersion = "1.0.17";
+window.ncIsInNowcoderMainSite = true;
+</script>
+
+<script type="text/javascript">
+(function () {
+var oBody = document.body;
+var sOverflow = oBody.style.overflow;
+var sUa = (window.navigator || {}).userAgent || '';
+var m = sUa.match(/MSIE ([^;]*)|Trident.*; rv(?:\s|:)?([0-9.]+)/) || [];
+var nVersion = +m[1] || +m[2] || 0;
+nVersion && nVersion <= 8 && _fShowMask();
+
+function _fShowMask() {
+    oBody.style.overflow = 'hidden';
+    var nWidth = window.document.documentElement.clientWidth;
+    var nHeight = window.document.documentElement.clientHeight;
+    var nTop = ('pageYOffset' in window ? window.pageYOffset : document.documentElement.scrollTop) || 0;
+    var sHtml = [
+    '<div style="position:absolute;left:0;top:' + nTop + 'px;z-index:99999;width:' + nWidth + 'px;height:' + nHeight + 'px;">',
+        '<div style="position:absolute;left:0;top:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);"></div>',
+        '<div class="pop-box" style="width:800px;z-index:100000;left:' + (nWidth - 800) / 2 + 'px;top:' + Math.max(0, (nHeight - 624) / 2) + nTop + 'px;">',
+            '<div class="pop-title"><h1>浏览器版本过低提示</h1><a href="javascript:void(0);" onclick="closeIE8GlobalMask()" class="pop-close" title="关闭"></a></div>',
+            '<div class="pop-content clearfix">',
+                '<div class="pop-subject-tips-wrapper">',
+                    '<a href="javascript:void(0);"><img src="//static.nowcoder.com/fe/style/images/common/res/tips/13.png"></a>',
+                    '<div class="pop-exit-main">你使用的浏览器版本过低，无法正常访问牛客<br />请使用牛客APP或更换浏览器。</div>',
+                    '<div class="pop-download-browser">',
+                        '<ul class="pop-browser-list">',
+                            '<li><p>下载牛客APP</p><div class="pic"><img src="https://uploadfiles.nowcoder.com/app/app_download.png"></div></li>',
+                            '<li><a href="https://static.nowcoder.com/b/i/googlechrome74_32.exe" target="_blank"><p>下载Chrome浏览器</p><div class="pic"><img src="//static.nowcoder.com/images/res/browser/chrome.png"></div></a></li>',
+                            '<li><a href="https://www.firefox.com.cn/download/#more" target="_blank"><p>下载Firefox浏览器</p><div class="pic"><img src="//static.nowcoder.com/images/res/browser/firefox.png"></div></a></li>',
+                        '</ul>',
+                        '<a href="javascript:void(0);" onclick="closeIE8GlobalMask()" class="link-green">我知道访问会出错，但是我还要继续用这个浏览器浏览 &gt;&gt;</a>',
+                    '</div>',
+                '</div>',
+            '</div>',
+        '</div>',
+    '</div>'].join('');
+    var oDv = document.createElement('div');
+    oDv.innerHTML = sHtml;
+    oBody.appendChild(oDv);
+    window.closeIE8GlobalMask = function () {
+        oBody.removeChild(oDv);
+        oBody.style.overflow = sOverflow;
+        _fShowBar();
+    };
+}
+
+function _fShowBar() {
+    var oDv = document.createElement('div');
+    oDv.innerHTML = '<div class="tip-block-box" onclick="closeIE8GlobalBar()" style="position:fixed;left:0;top:54px;width:100%;z-index:99999;"><div class="tip-block">你使用的浏览器版本过低，无法正常访问牛客，请使用牛客APP或更换浏览器，<a href="javascript:void(0);">点击查看详情</a>。</div></div>';
+    oBody.appendChild(oDv);
+    window.closeIE8GlobalBar  = function () {
+        oBody.removeChild(oDv);
+        _fShowMask();
+    };
+}
+})();
+</script>
+
+<script crossorigin="anonymous" src="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/vendor.dll.js" type="text/javascript"></script>
+                <script crossorigin="anonymous" src="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/runtime.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/common.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/lib/env.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?a808a1326b6c06c437de769d1b85b870";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+(function () {
+!function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/2.1/gio.js","gio");
+  gio('init', 'c196c3667d214851b11233f5c17f99d5', {});
+  gio('config',  {host : 'grow.nowcoder.com'});
+
+      gio('clearUserId');
+  
+
+  gio('send');
+})();
+
+</script>
+
+    <script type="text/javascript">
+        window.pageInfo = {"sourceId":10272,"signUpEndTime":1608172200000,"rankType":0,"tagId":140040,"isAcmSuperAdmin":false,"rating":1000.0,"competitionSystem_var":"","description":"<h1 align=\"center\" style=\"color:#333333;text-align:center;\">\n\t参赛须知\n</h1>\n<p style=\"color:#333333;\">\n\t<b>一、比赛时长</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t比赛时长为5小时，但竞赛开始后，竞赛组委会可依据赛场出现的不可预见的事件而调整比赛时间长度，一旦比赛时间长度发生改变，将会以及时并且统一的方式通知所有参赛队伍。\n</p>\n<p style=\"color:#333333;\">\n\t<b>二、奖项设置</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t金奖：有效参赛队伍数的10%，至多不超过35项（含冠亚季军各1项）；\n</p>\n<p style=\"color:#333333;\">\n\t银奖：有效参赛队伍数的20%，至多不超过70项；\n</p>\n<p style=\"color:#333333;\">\n\t铜奖：有效参赛队伍数的30%，至多不超过105项；\n</p>\n<p style=\"color:#333333;\">\n\t荣誉奖：未获得金、银、铜奖的有效参赛队伍获得荣誉奖。\n</p>\n<p style=\"color:#333333;\">\n\t有效参赛队伍指在比赛中至少正确解答1道题目的正式队伍。\n</p>\n<p style=\"color:#333333;\">\n\t<b>三、比赛平台</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t比赛平台为牛客竞赛（<a href=\"https://ac.nowcoder.com/\" target=\"_blank\">https://ac.nowcoder.com</a>），同时使用牛客在线笔试平台和牛客OJ，牛客在线笔试平台用于监控比赛期间选手使用的计算机设备上的操作是否合规，牛客&nbsp;OJ&nbsp;用于提交代码和展示榜单）\n</p>\n<p style=\"color:#333333;\">\n\t<b>四、竞赛日程安排</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t日期：2020年12月19日\n</p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"text-align:center;color:#333333;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td width=\"185\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t时间\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t内容\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t地点\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td width=\"185\">\n\t\t\t\t<p>\n\t\t\t\t\t18:00-19:00\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t选手身份核实\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t各学校赛场、腾讯会议室\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td width=\"185\">\n\t\t\t\t<p>\n\t\t\t\t\t19:00-20:30\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t热身赛\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t各学校赛场、腾讯会议室\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<p style=\"color:#333333;\">\n\t<br />\n</p>\n<p style=\"color:#333333;\">\n\t日期：2020年12月20日\n</p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"text-align:center;color:#333333;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td width=\"185\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t时间\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t内容\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\" valign=\"top\">\n\t\t\t\t<p align=\"center\">\n\t\t\t\t\t地点\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td width=\"185\">\n\t\t\t\t<p>\n\t\t\t\t\t09:30-10:30\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t选手身份核实\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t各学校赛场、腾讯会议室\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td width=\"185\">\n\t\t\t\t<p>\n\t\t\t\t\t11:00-16:00\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t正式比赛\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t\t<td width=\"184\">\n\t\t\t\t<p>\n\t\t\t\t\t各学校赛场、腾讯会议室\n\t\t\t\t</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<p style=\"color:#333333;\">\n\t<br />\n</p>\n<p style=\"color:#333333;\">\n\t<b>五、参赛队伍构成</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t正式参赛队伍必须由且仅由 3 人组成，所有队员必须来自同一学校，三人均不得超过 ICPC 年龄限制。\n</p>\n<p style=\"color:#333333;\">\n\t<br />\n</p>\n<p style=\"color:#333333;\">\n\t<b>六、赛场及硬件环境</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t1. 赛场环境：一个参赛学校的所有队伍原则上应在同一个室内空间（赛场）参加比赛。任意 2 支队伍之间前后左右的间距均不小于 3 米。每个赛场需要至少安排一名志愿者进行监考，监考志愿者负责赛场监督、协助处理比赛事宜；每个赛场的监考志愿者准备好手机，确保手机摄像头工作正常，并能使用腾讯会议软件。\n</p>\n<p style=\"color:#333333;\">\n\t2. 计算机设备：在比赛过程中每个参赛队伍仅允许使用唯一主参赛计算机进行题目查看、程序编写调试、代码提交等操作。主参赛计算机如果是笔记本电脑，可以外接显示器，但是使用外接显示器后不得使用笔记本电脑的屏幕。主参赛计算机禁止使用虚拟机，禁止在比赛期间使用任何形式的即时通讯工具。主计算机务必清理本地IDE历史文件。任何时候打开赛前就有文字的文件超过5秒，将被判为作弊。\n</p>\n<p style=\"color:#333333;\">\n\t3. 打印设备：每支队伍可自行选择是否配置打印设备，如选择配置打印设备， 则一支队伍能且仅能独立使用唯一打印设备，禁止多支队伍共享使用同一打印设备。配备的打印设备应通过打印机数据线与主参赛计算机相连，不得通过网络连接。\n</p>\n<p style=\"color:#333333;\">\n\t4. 视频监控设备\n</p>\n<p style=\"color:#333333;\">\n\t（1）一个赛场安装总监控摄像头 （可固定在特定支架上），参加腾讯会议主赛场 1，确保摄像头可清晰拍摄到所有参赛队伍。\n</p>\n<p style=\"color:#333333;\">\n\t（2）每支参赛队伍的主参赛计算机应具有视频拍摄功能（可内置摄像头，也可外接摄像头），用于拍摄参赛队伍的正面画面。另外准备具有视频拍摄功能的辅助监控设备，放置于参赛队伍所在位置的左侧或右侧。监控设备必须能使用腾讯会议软件，并使用oCam 或其他软件录制监控视频。辅助监控设备推荐使用具有摄像功能的计算机或计算机+外接摄像头，在满足拍摄、录制和使用腾讯会议的要求的前提下也可使用其它设备替代计算机使用。摄像头范围内应能够清晰看到参赛队伍的全部成员、选手桌面以及参赛队伍使用的打印设备（如有），监控设备接入腾讯会议室 2。\n</p>\n<p style=\"color:#333333;\">\n\t5. 参赛队伍应确保网络通畅，确保主参赛计算机、视频监控设备工作正常。\n</p>\n<p style=\"color:#333333;\">\n\t<b>七、牛客</b><b>&nbsp;OJ&nbsp;</b><b>的编译环境说明</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t1.&nbsp; C++（clang++11）\n</p>\n<p style=\"color:#333333;\">\n\tclang++11 -std=c++17 -O2 -Wsign-compare\n</p>\n<p style=\"color:#333333;\">\n\t版本：clang++11，采用 c++17 标准，编译的时候采用-O2 级优化，支持万能头文件。\n</p>\n<p style=\"color:#333333;\">\n\t2.&nbsp; java（javac 1.8）\n</p>\n<p style=\"color:#333333;\">\n\tjavac 1.8 -encoding utf8\n</p>\n<p style=\"color:#333333;\">\n\t版本：OpenJDK 1.8。支持 Java8 的最新特性，比如 stream 操作和 lambda 表达式。\n</p>\n<p style=\"color:#333333;\">\n\t3.&nbsp; C(clang11)\n</p>\n<p style=\"color:#333333;\">\n\tclang11 -DONLINE_JUDGE -O2 -Wall -std=gnu99\n</p>\n<p style=\"color:#333333;\">\n\t版本：Clang11，采用 gnu99 标准，编译的时候采用-O2 级优化。\n</p>\n<p style=\"color:#333333;\">\n\t4.&nbsp; python(2.7.3)\n</p>\n<p style=\"color:#333333;\">\n\t版本：Python2.7，支持大部分的常用库。Numpy 库与 SciPy库默认不支持，请根据题目要求查看是否支持。\n</p>\n<p style=\"color:#333333;\">\n\t5.&nbsp; python3(3.9)\n</p>\n<p style=\"color:#333333;\">\n\t版本：Python3.9，支持大部分的常用库。Numpy 库与 SciPy 库默认不支持， 请根据题目要求查看是否支持。\n</p>\n<p style=\"color:#333333;\">\n\t<b>八、监考安排及防作弊措施</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t1. 组委会将依据正式参赛队伍数量，按不低于15：1 的比例配置线上监考人员实时查看各参赛队伍的视频监控画面。\n</p>\n<p style=\"color:#333333;\">\n\t2. 正式比赛前，本地监考志愿者和线上监考人员逐一对所负责的参赛队伍的每名同学进行身份核验；参赛同学需在比赛现场，拍摄本人手持学生证的照片，照片中应能够清晰看到本人头像、以及学生证上的学校、姓名、入学时间、照片等信息，由线上监考人员核实学生身份。\n</p>\n<p style=\"color:#333333;\">\n\t3. 比赛过程中，参赛队伍仅可操作使用本队的主参赛计算机设备和打印机设备，禁止操作其它电子设备，禁止队员佩戴耳机；禁止参赛队伍与本队成员外的任何人进行交流，禁止赛事无关人员出现在视频监控画面范围内。如有赛事无关人员滞留在赛场，则该赛场参赛队伍作违规处理。\n</p>\n<p style=\"color:#333333;\">\n\t4. 参赛队伍在比赛期间仅能使用浏览器和程序开发软件，浏览器仅能访问牛客笔试平台和牛客 OJ 页面，且在比赛期间不得关闭浏览器或关闭牛客笔试平台页面。牛客平台将对所有正式参赛队伍的电脑屏幕进行监控，如有违规行为将会自动记录并截图。\n</p>\n<p style=\"color:#333333;\">\n\t5. 比赛过程中参赛队员不得随意离开该队伍比赛区域，参赛队伍务必提前准备好笔、草稿纸、打印纸、书籍、纸质模板、水、食物等。比赛期间参赛选手如果需要去洗手间，必须先联系本地监考志愿者，由本地监考志愿者通过腾讯会议室1 联系线上监考人员，获准后才可以离开。参赛选手从离开座位到洗手间门口，以及从洗手间门口返回座位的过程应由本地监考志愿者使用手机连接进入腾讯会议室1进行拍摄。\n</p>\n<p style=\"color:#333333;\">\n\t6. 比赛期间各参赛高校的监考志愿者，务必保持通讯畅通，并关注监考群和腾讯会议室中的消息。监考志愿者负责通报、反馈比赛信息，及监督参赛队员离场上厕所的过程，确保参赛队员在此期间没有接触其他人、设备或资料。\n</p>\n<p style=\"color:#333333;\">\n\t7. 主参赛计算机全程录屏，并同时录制音频信息，录制区域选择全屏录制，录制音频选择麦克风和系统声音。监控设备在腾讯会议中选择主画面为本地拍摄的画面，并开启录屏软件全程录屏。录屏软件统一设置分辨率为720p，帧率为5FPS。\n</p>\n<p style=\"color:#333333;\">\n\t8. 比赛结束后参赛队伍需使用组委会统一提供的 FileMD5 软件提取主参赛计算机、监控设备录制的视频文件的 MD5 信息（计算过程大约需要 1-2 分钟）， 并在比赛结束后的 10 分钟内，将全部视频文件的 MD5 信息按要求提交给线上监考人员。主参赛计算机录制的视频文件需在赛后上传至百度网盘，并在比赛当天的 24 点前将链接和提取码提交给线上监考人员。监控计算机录制的视频文件由各参赛学校妥善保管，在后续审核过程中如发现疑似违规行为，将通知参赛队伍提供监控计算机录制的视频作为辅助判定的依据。\n</p>\n<p style=\"color:#333333;\">\n\t9. 赛后将对所有代码进行重复度检测，并对重复度异常的代码进行人工复核。\n</p>\n<p style=\"color:#333333;\">\n\t10. 如发现参赛队伍存在违规行为，将取消相应队伍的比赛成绩。\n</p>\n<p style=\"color:#333333;\">\n\t<b>九、参赛流程</b><b></b>\n</p>\n<p style=\"color:#333333;\">\n\t1.&nbsp;&nbsp;&nbsp; 各参赛学校提前准备好参赛场地、硬件设备和软件环境。\n</p>\n<p style=\"color:#333333;\">\n\t2.&nbsp;&nbsp;&nbsp; 根据线上监考人员的要求，由本地监考志愿者协助，在赛场内拍摄本人手持学生证的照片，发送给线上监考人员。同时向监考人员展示现场环境，确认摄像头摆放及打印机连接均符合竞赛要求。\n</p>\n<p style=\"color:#333333;\">\n\t3. 参赛队伍开启主参赛计算机，登陆牛客笔试平台和牛客 OJ；监控计算机进入指定的腾讯会议室 2录屏软件。\n</p>\n<p style=\"color:#333333;\">\n\t4. 比赛开始前半个小时，主办方会在南京站官方qq群（1070161797）中发布有解压密码的试题，选手和教练可以自行下载至本地。正式比赛开始时，将通过牛客比赛公告的方式告知每一支参赛队伍试题的解压密码，同时也会在qq群中公布试题解压密码，选手可以自行打印试题，也可由参赛学校在赛场外统一打印后送至赛场内。如试题由场外打印后送入场内，则送试题的时间不得晚于比赛开始后的15分钟。\n</p>\n<p style=\"color:#333333;\">\n\t5.&nbsp;&nbsp;&nbsp; 比赛结束前 60 分钟封榜。\n</p>\n<p style=\"color:#333333;\">\n\t6.&nbsp;&nbsp;&nbsp; 比赛结束后，使用FileMD5软件计算主参赛计算机和监控计算机录制视频的MD5 信息，并发送给监考人员。主参赛计算机视频上传至百度网盘，并将分享链接及提取码发送给监考人员；监控计算机的视频自行妥善保管。\n</p>","isAcmNormalAdmin":false,"participationEnabled":false,"type":0,"countDownTime":-185279485216,"allowShare":true,"uid":999991351,"isOpen_var":" ","sponsor_var":" ","isManager":false,"startTime":1608433200000,"signUpStartTime":1608170400000,"isTeamSignUp":false,"fissionActivityInfo":{"isFissionActivity":false},"isSignUp":false,"canSwitchParticipation":false,"rankingVisible":true,"topCategoryId":13,"rankTypeInfo":"排名规则：经典ACM规则\nAC（通过题目）越多，排名越靠前。\nAC相同，总用时越少，排名越靠前。\n总用时=∑(每一个题目的用时)\n每一个题目的用时=比赛开始到提交被通过的时间+罚时\n罚时=（通过前）错误代码提交次数*每次罚时（默认为20分钟）\n不算罚时的情况：没有通过的题目、(系统)内部错误、编译错误","competitionName_var":"第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（南京）","personal":2,"isFinished":true,"settingInfo":{"allowTeamSignUp":false,"isProblemAutoOpen":true,"needSignUpField":false,"rankFrozenMillisecond":3600000,"excitationStatus":"Finished","problemOriginal":true,"needRankFrozen":true,"rankFrozenMinute":60,"logoUrl":"https://uploadfiles.nowcoder.com/images/20201217/999991351_1608172108038/461C1592E7EFB8300A385340F02A3BC6","needSignUpRedirect":false,"forceOnlyMyStatusFilter":true,"needUserNameFormat":false,"sameEndTimeAsSignUpEnd":false,"managerList":[1556807,559338542,78447497,1556807,732014975,1403666,5490596,109749978,2929337,7309061],"needPassword":false,"organizerName":"ICPC","needCharge":false,"allowMessage":true,"ratingStatus":"No","needRatingUpperLimit":false,"rankSaveStatus":"Finished"},"signUpCount":570,"contestId":10272,"competitionType_var":"牛客系列赛","chargedWaitSignUp":false,"name":"第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（南京）","contestType":0,"needCharge":false,"endTime":1608451200000,"signUpId":0,"category":22};
+
+        window.gioInfo = {
+            competitionSystem_var: "ACM赛制",
+            competitionType_var: "比赛真题",
+            competitionName_var: "第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（南京）",
+            sponsor_var: "ICPC",
+            isOpen_var: '是',
+        };
+    </script>
+<script type="text/javascript" crossorigin="anonymous" src="//static.nowcoder.com/acm/nowcoder/2.0.119/javascripts-acm/page/contest/main.entry.js"></script>
+</body>
+</html>
