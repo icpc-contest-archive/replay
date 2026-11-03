@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T05:56:57+00:00",
+ "generated": "2026-11-03T14:36:01+00:00",
  "shard": 1,
  "pages": [
   {
@@ -452,6 +452,14 @@
   },
   {
    "contest": "aec-2018",
+   "artifact": "judge-nowcoder",
+   "path": "a/aec/aec-2018/judge-nowcoder/20261103-live-3ca95939/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/366",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "d73e2a11362ff1fd0d225bdcf1c62dce68b24835f3e7e7c4ccfa968bad7e08ee"
+  },
+  {
+   "contest": "aec-2018",
    "artifact": "scoreboard",
    "path": "a/aec/aec-2018/scoreboard/20221020-wayback-f2611bb0/page.html",
    "url": "https://codeforces.com/gym/102056/standings",
@@ -492,6 +500,22 @@
   },
   {
    "contest": "aec-2019",
+   "artifact": "judge-luogu",
+   "path": "a/aec/aec-2019/judge-luogu/20261103-live-1323f9d9/page.html",
+   "url": "https://www.luogu.com.cn/contest/273827",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "32809ec92d776f4a29d29c1834cae9c3eaae7b3a64fd95175560de1ec39bf962"
+  },
+  {
+   "contest": "aec-2019",
+   "artifact": "judge-nowcoder",
+   "path": "a/aec/aec-2019/judge-nowcoder/20261103-live-0dd090f1/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/3732",
+   "fetched": "2026-11-03T13:31:20+00:00",
+   "sha256_source": "0081a2ce893390e7f6ad01249e048bccee8d5daba5f35b76bf5ebba5f9f33d81"
+  },
+  {
+   "contest": "aec-2019",
    "artifact": "scoreboard",
    "path": "a/aec/aec-2019/scoreboard/2026-09-01-wayback-6a4188e2/page.html",
    "url": "https://web.archive.org/web/20200206051643/http://icpc.nwpu.edu.cn/home/scoreboard/",
@@ -508,11 +532,27 @@
   },
   {
    "contest": "aec-2020",
+   "artifact": "judge-luogu",
+   "path": "a/aec/aec-2020/judge-luogu/20261103-live-5e4a637e/page.html",
+   "url": "https://www.luogu.com.cn/contest/186299",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "20d0849774fc945f8fa4585650b0816a2ead37bd9389ac3aa98b3b2e97b166d4"
+  },
+  {
+   "contest": "aec-2020",
    "artifact": "standings",
    "path": "a/aec/aec-2020/standings/20200204-wayback-d5674cf0/page.html",
    "url": "http://icpc.nwpu.edu.cn/",
    "fetched": "2026-10-23T15:46:45+00:00",
    "sha256_source": "05e5bac58309ce04e58201b49a4ace23186d32f9aa1b68d53739af65a0d694fc"
+  },
+  {
+   "contest": "aec-2021",
+   "artifact": "judge-luogu",
+   "path": "a/aec/aec-2021/judge-luogu/20261103-live-57c8befa/page.html",
+   "url": "https://www.luogu.com.cn/contest/145260",
+   "fetched": "2026-11-03T13:31:19+00:00",
+   "sha256_source": "d5029a3f4bab4092288771b2bbd2c78c48ec8c58eeb0f493fcfb0920e32e5959"
   },
   {
    "contest": "aec-2021",
@@ -529,6 +569,14 @@
    "url": "https://codeforces.com/gym/103861/standings",
    "fetched": "2026-09-01T07:50:37+00:00",
    "sha256_source": "9470e5b18d8606ad5fcdb999eec320bd21b105a527147c535511ddedd0d27ed0"
+  },
+  {
+   "contest": "aec-2022",
+   "artifact": "judge-luogu",
+   "path": "a/aec/aec-2022/judge-luogu/20261103-live-919cdd24/page.html",
+   "url": "https://www.luogu.com.cn/contest/137295",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "82d81493e5d0c378416e6eb5b50dfa8b105b0405595cbca0bf73a08f5ead19f3"
   },
   {
    "contest": "aec-2023",
@@ -1068,6 +1116,14 @@
   },
   {
    "contest": "amritapuri-2012",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2012/judge-codechef/20261103-live-a86845c7/page.html",
+   "url": "https://www.codechef.com/ACMAMR12",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "23b687b236515274d07a28c6a990e45efbac70f4554efe5bd188735b067223cf"
+  },
+  {
+   "contest": "amritapuri-2012",
    "artifact": "standings",
    "path": "a/amritapuri/amritapuri-2012/standings/2026-09-01-wayback-d1a44c72/Ranklist-ForWeb.pdf",
    "url": "https://web.archive.org/web/20161109053949/http://icpc.amrita.ac.in/downloads/Ranklist-ForWeb.pdf",
@@ -1105,6 +1161,14 @@
    "url": "http://icpc.amrita.ac.in/2014/downloads/Scoreboard_2014AsiaAmritapuriSite.pdf",
    "fetched": "2026-04-15T08:36:16Z",
    "sha256_source": "70c4946b9ddb6ae2a8ad70092c7e726d87a8996d0f1945d02ac6661e632601c0"
+  },
+  {
+   "contest": "amritapuri-2014",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2014/judge-codechef/20261103-live-d8ce24e0/page.html",
+   "url": "https://www.codechef.com/AMR14ROS",
+   "fetched": "2026-11-03T13:31:20+00:00",
+   "sha256_source": "1d7f1b38f4f4227cb12ff1cb443de796dedccbbcfa3aabe3ce34a3fd230b7c80"
   },
   {
    "contest": "amritapuri-2014",
@@ -1164,6 +1228,14 @@
   },
   {
    "contest": "amritapuri-2015",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2015/judge-codechef/20261103-live-312ca947/page.html",
+   "url": "https://www.codechef.com/AMR15MOS",
+   "fetched": "2026-11-03T13:31:19+00:00",
+   "sha256_source": "88dd2952941c44bce5df9484ce7ea5aa361a10d463fb7adb9e1141b85bea5fc0"
+  },
+  {
+   "contest": "amritapuri-2015",
    "artifact": "scoreboard",
    "path": "a/amritapuri/amritapuri-2015/scoreboard/20151223-wayback-8ba79e5e/page.html",
    "url": "http://icpc.amrita.ac.in:80/2015/score/contest.amrita.edu/domjudge/public/index.php?",
@@ -1193,6 +1265,14 @@
    "url": "http://icpc.amrita.ac.in/2015/wp-content/uploads/2016/10/ranklist.pdf",
    "fetched": "2026-04-15T15:54:14Z",
    "sha256_source": "0a58693090bd4f31dc4ace6637847ac998adc5b647c1a5964dbb4866a13daf04"
+  },
+  {
+   "contest": "amritapuri-2016",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2016/judge-codechef/20261103-live-ef75288a/page.html",
+   "url": "https://www.codechef.com/AMR16MOS",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "992e83882cfb10ecc5830311c73b72c881e3642ddca46d6b7d9a3c95724c1353"
   },
   {
    "contest": "amritapuri-2016",
@@ -1260,6 +1340,14 @@
   },
   {
    "contest": "amritapuri-2019",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2019/judge-codechef/20261103-live-4fc7c0f5/page.html",
+   "url": "https://www.codechef.com/AM19MOS",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "a953e4e755ba1d2b36c6e5791a0678d1f31b73cfd57de5eebc1db57f37577f5a"
+  },
+  {
+   "contest": "amritapuri-2019",
    "artifact": "standings",
    "path": "a/amritapuri/amritapuri-2019/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/AMP-2020/standings",
@@ -1321,6 +1409,14 @@
    "url": "https://web.archive.org/web/20241229183903/https://amritaicpc.in/final-rank-list",
    "fetched": "2026-09-01T07:51:24+00:00",
    "sha256_source": "e1df4e277869a5ca15404a8831f09933ec9675213c4077bf4c1e25cdad1e099b"
+  },
+  {
+   "contest": "amritapuri-2025",
+   "artifact": "judge-codechef",
+   "path": "a/amritapuri/amritapuri-2025/judge-codechef/20261103-live-5f847efd/page.html",
+   "url": "https://www.codechef.com/ICPCAMRRP25",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "3a1c08b4f6e789c6ca0400d820a250db4fb795fab09b615a9990231ca880f22e"
   },
   {
    "contest": "amritapuri-2025",
@@ -4772,6 +4868,14 @@
   },
   {
    "contest": "brazil-2012",
+   "artifact": "judge-eolymp",
+   "path": "a/brazil/brazil-2012/judge-eolymp/20261103-live-a4d5dc03/page.html",
+   "url": "https://eolymp.com/contests/3388",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "1ee70f5b9157d13493871c49c5692935bf1b1f4ff2b20405dc4ad005a782384c"
+  },
+  {
+   "contest": "brazil-2012",
    "artifact": "scoreboard",
    "path": "a/brazil/brazil-2012/scoreboard/20211014-wayback-2c70fc7a/score.html",
    "url": "https://maratona.sbc.org.br/hist/2012/resultados12/score.html",
@@ -4785,6 +4889,14 @@
    "url": "https://maratona.sbc.org.br/hist/2012/resultados12/score.html",
    "fetched": "2026-09-01T07:54:16+00:00",
    "sha256_source": "22d57812f39bbd0be8b325bb9e4905e39d99a32040c0598c6fb5a8986623b5bf"
+  },
+  {
+   "contest": "brazil-2013",
+   "artifact": "judge-eolymp",
+   "path": "a/brazil/brazil-2013/judge-eolymp/20261103-live-1120fb4f/page.html",
+   "url": "https://eolymp.com/contests/3423",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "a77d4f97a052963e5962b944b31cdfe8e668c9c2c9142240a1622e7e9adea962"
   },
   {
    "contest": "brazil-2013",
@@ -4969,6 +5081,14 @@
    "url": "http://maratona.sbc.org.br/hist/2021/resultados21/reports/brbr/score.html",
    "fetched": "2026-04-15T07:38:09Z",
    "sha256_source": "65a51b5fa90873969c9c4170c40dee60bb29163ce5a91289c425479164eea89c"
+  },
+  {
+   "contest": "brazil-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/brazil/brazil-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
   },
   {
    "contest": "brazil-2021",
@@ -5564,11 +5684,27 @@
   },
   {
    "contest": "caribbean-2012",
+   "artifact": "judge-eolymp",
+   "path": "a/caribbean/caribbean-2012/judge-eolymp/20261103-live-a4d5dc03/page.html",
+   "url": "https://eolymp.com/contests/3388",
+   "fetched": "2026-11-03T13:31:20+00:00",
+   "sha256_source": "0a085082c3eb561458480d85c60f9c405dbc3b55ff35e4555d3a655d23009aac"
+  },
+  {
+   "contest": "caribbean-2012",
    "artifact": "standings",
    "path": "a/caribbean/caribbean-2012/standings/20121128-wayback-7116f131/page.html",
    "url": "http://carib-finals.uci.cu/",
    "fetched": "2026-09-01T12:11:11+00:00",
    "sha256_source": "cf76fca49cfd2e38873cde1c81ebbd45d4813a16bb163532d3666b38030a8b87"
+  },
+  {
+   "contest": "caribbean-2013",
+   "artifact": "judge-eolymp",
+   "path": "a/caribbean/caribbean-2013/judge-eolymp/20261103-live-1120fb4f/page.html",
+   "url": "https://eolymp.com/contests/3423",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "179a3a26cb272fecce4d1d82d4044104e0ca88a8cc0f6077a943b3e0a1efe71f"
   },
   {
    "contest": "caribbean-2013",
@@ -5673,6 +5809,14 @@
    "url": "http://scorelatam.naquadah.com.br/latam-2021/",
    "fetched": "2026-04-15T07:38:14Z",
    "sha256_source": "11f384f6542ef15704f512700f92e2212105a9a654ca2ce4e51d5e58727b53b5"
+  },
+  {
+   "contest": "caribbean-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/caribbean/caribbean-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:19+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
   },
   {
    "contest": "caribbean-2021",
@@ -6036,11 +6180,27 @@
   },
   {
    "contest": "central-america-2012",
+   "artifact": "judge-eolymp",
+   "path": "a/central-america/central-america-2012/judge-eolymp/20261103-live-a4d5dc03/page.html",
+   "url": "https://eolymp.com/contests/3388",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "44a36ae513bcd6f79ee85eb532668d028fddfbed0fd16df057d178c39d8d22a7"
+  },
+  {
+   "contest": "central-america-2012",
    "artifact": "standings",
    "path": "a/central-america/central-america-2012/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Mexico-Central-America-2013/standings",
    "fetched": "2026-04-26",
    "sha256_source": "087dae91c0ebfe663b10ab07187be1d3dad1f3900c2d30fb9a0ffecad77622c6"
+  },
+  {
+   "contest": "central-america-2013",
+   "artifact": "judge-eolymp",
+   "path": "a/central-america/central-america-2013/judge-eolymp/20261103-live-1120fb4f/page.html",
+   "url": "https://eolymp.com/contests/3423",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "ef225b3d8bf026d599aa2857248de16bd2129fd917e4ceb6bc4c0463bff3e31f"
   },
   {
    "contest": "central-america-2013",
@@ -6137,6 +6297,14 @@
    "url": "https://scorelatam.naquadah.com.br/latam-2020/",
    "fetched": "2026-09-01T07:55:11+00:00",
    "sha256_source": "4428f7ce30ca1962ee8e106bfaccd7e033a2587607abc590acd4acf47af659ec"
+  },
+  {
+   "contest": "central-america-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/central-america/central-america-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:20+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
   },
   {
    "contest": "central-america-2021",
@@ -6249,6 +6417,30 @@
    "url": "https://acm.timus.ru/problemset.aspx?space=1&tag=qf",
    "fetched": "2026-10-23T16:00:38+00:00",
    "sha256_source": "f8a2717455c04b78d3ca5cd0233f78cb0caa254b8ae7c98c7f0b7b5bf7da3637"
+  },
+  {
+   "contest": "central-russia-2000",
+   "artifact": "judge-timus",
+   "path": "a/central-russia/central-russia-2000/judge-timus/20261103-live-ecdb1b99/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&page=all",
+   "fetched": "2026-11-03T13:31:28+00:00",
+   "sha256_source": "41bad3acd1bce91b83033b06d5291f5cd93d32c7020fa5fd24f2281dd957e7b1"
+  },
+  {
+   "contest": "central-russia-2001",
+   "artifact": "judge-timus",
+   "path": "a/central-russia/central-russia-2001/judge-timus/20261103-live-a60f29f0/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=30",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "3e759f37d593567956eb4193f7c0cabf6a83b672f7fc138457d157d28b8a8d50"
+  },
+  {
+   "contest": "central-russia-2003",
+   "artifact": "judge-timus",
+   "path": "a/central-russia/central-russia-2003/judge-timus/20261103-live-3d1a684f/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=9",
+   "fetched": "2026-11-03T13:31:24+00:00",
+   "sha256_source": "cf1a81680fd794b29d2e959a639d2f74ca23850af9551454cadb7cf6bc10b7fe"
   },
   {
    "contest": "central-russia-2003",
@@ -7908,6 +8100,14 @@
   },
   {
    "contest": "chengdu-2024",
+   "artifact": "judge-luogu",
+   "path": "a/chengdu/chengdu-2024/judge-luogu/20261103-live-58ffc7c2/page.html",
+   "url": "https://www.luogu.com.cn/contest/305336",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "25bc24eff9d3d4dd1843e9809e793afebc45088b03af221aebdcf4a218f96d65"
+  },
+  {
+   "contest": "chengdu-2024",
    "artifact": "scoreboard",
    "path": "a/chengdu/chengdu-2024/scoreboard/2026-09-01-live-60c33c9b/page.html",
    "url": "https://codeforces.com/gym/105486/standings",
@@ -7924,11 +8124,35 @@
   },
   {
    "contest": "chennai-2015",
+   "artifact": "judge-codechef",
+   "path": "a/chennai/chennai-2015/judge-codechef/20261103-live-39b95f36/page.html",
+   "url": "https://www.codechef.com/CHN15MOS",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "daf53ea3fc0866bcc63ae9f043cec5cc4956a650f37134714cbbdb7241ac4653"
+  },
+  {
+   "contest": "chennai-2015",
+   "artifact": "judge-codechef",
+   "path": "a/chennai/chennai-2015/judge-codechef/20261103-live-9373b6c0/page.html",
+   "url": "https://www.codechef.com/CHN15MRP",
+   "fetched": "2026-11-03T13:31:24+00:00",
+   "sha256_source": "3ab87ca7f4647bd92956ab8407363c06c90c0cf6a6fc5aa7be956b6e0862782d"
+  },
+  {
+   "contest": "chennai-2015",
    "artifact": "standings",
    "path": "a/chennai/chennai-2015/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Chennai-2016/standings",
    "fetched": "2026-04-26",
    "sha256_source": "77f29e3e596493e4d65f2d6afc68c1e80d5b5b8b060f3ff699d1abaaa4f38817"
+  },
+  {
+   "contest": "chennai-2016",
+   "artifact": "judge-codechef",
+   "path": "a/chennai/chennai-2016/judge-codechef/20261103-live-24791aee/page.html",
+   "url": "https://www.codechef.com/CHN16MOS",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "063045762a6765f8a03513050a4d0115b74a2cba99f465fac59ad131084c02e1"
   },
   {
    "contest": "chennai-2016",
@@ -8009,6 +8233,14 @@
    "url": "https://icpc-iiitdm.vercel.app/Icpc%202025/ICPC%20Chennai%20Onsite%202025-%20Final%20Ranklist.pdf",
    "fetched": "2026-04-15T07:38:28Z",
    "sha256_source": "5d2c3ac58455d6d9782681632de70a303e790ffec225ee7cebbf5c2c11d466f8"
+  },
+  {
+   "contest": "chennai-2025",
+   "artifact": "judge-codechef",
+   "path": "a/chennai/chennai-2025/judge-codechef/20261103-live-3fadb138/page.html",
+   "url": "https://www.codechef.com/ICPCCHNRP25",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "8dbdb371db1fef41acf53714825865c2096a3048be75ded83246e09fc28ba2c6"
   },
   {
    "contest": "chennai-2025",
@@ -14492,6 +14724,14 @@
   },
   {
    "contest": "guangzhou-2014",
+   "artifact": "judge-hdu",
+   "path": "a/guangzhou/guangzhou-2014/judge-hdu/20261103-live-84302cef/page.html",
+   "url": "https://acm.hdu.edu.cn/contests/contest_show.php?cid=558",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "13d2fa6230839342f036e2dfb6e9441668628217e171e59011ad28416de776ef"
+  },
+  {
+   "contest": "guangzhou-2014",
    "artifact": "scoreboard",
    "path": "a/guangzhou/guangzhou-2014/scoreboard/20141125-wayback-c83451b5/page.html",
    "url": "http://board.acmicpc.info:80/icpc2014/scut_onsite.php",
@@ -14545,6 +14785,14 @@
    "url": "https://icpc.global/regionals/finder/ICPC-Gwalior-Pune-2019/standings",
    "fetched": "2026-04-26",
    "sha256_source": "17282f78637e474e25bd479569633f5988c6daf0be213b38fe31c8a7815c2ea1"
+  },
+  {
+   "contest": "gwalior-pune-2019",
+   "artifact": "judge-codechef",
+   "path": "a/gwalior-pune/gwalior-pune-2019/judge-codechef/20261103-live-eabb5deb/page.html",
+   "url": "https://www.codechef.com/GW19MOS",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "903c5f30a4137384f2007c492df4d1acd5a3639500f7d8571a2d4014ca3ce369"
   },
   {
    "contest": "gwalior-pune-2019",
@@ -14721,6 +14969,14 @@
    "url": "https://codeforces.com/gym/104976/standings",
    "fetched": "2026-09-01T08:00:51+00:00",
    "sha256_source": "9728dd80a6a17657eaf5e39811fdea2b2cd07e7655225548577f294f04eb8904"
+  },
+  {
+   "contest": "hangzhou-2024",
+   "artifact": "judge-luogu",
+   "path": "a/hangzhou/hangzhou-2024/judge-luogu/20261103-live-f8d95950/page.html",
+   "url": "https://www.luogu.com.cn/contest/281894",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "42a298c68fffc2d88620c5929180cc32278642f6072ddd349bbe7c98df4820dd"
   },
   {
    "contest": "hangzhou-2024",
@@ -15004,6 +15260,14 @@
   },
   {
    "contest": "hong-kong-2017",
+   "artifact": "judge-luogu",
+   "path": "a/hong-kong/hong-kong-2017/judge-luogu/20261103-live-ce212878/page.html",
+   "url": "https://www.luogu.com.cn/contest/340426",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "64b3ae541c38ef6619ba5a3a29145e7a93790158860c4a433b027141098816af"
+  },
+  {
+   "contest": "hong-kong-2017",
    "artifact": "scoreboard",
    "path": "a/hong-kong/hong-kong-2017/scoreboard/20171123-wayback-2da50890/scoreboard.html",
    "url": "https://pclub.comp.polyu.edu.hk/acm/scoreboard.html",
@@ -15249,6 +15513,14 @@
    "url": "https://icpc-hungary.github.io/2025/",
    "fetched": "2026-09-01T08:01:08+00:00",
    "sha256_source": "f4f00f88752c9272585e297c8f26932c00abebd2c5b420955a63039986d29d21"
+  },
+  {
+   "contest": "india-2016",
+   "artifact": "judge-codechef",
+   "path": "a/india/india-2016/judge-codechef/20261103-live-605ad29b/page.html",
+   "url": "https://www.codechef.com/INF16MOS",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "fad1e054aa37236826448b0726d6fae2156fb17e5026bb8a40b0a00a12d0d311"
   },
   {
    "contest": "ivory-coast-2017",
@@ -15652,6 +15924,14 @@
   },
   {
    "contest": "japan-1998",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-1998/judge-aoj/20261103-live-b74d7174/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/49",
+   "fetched": "2026-11-03T13:31:18+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-1998",
    "artifact": "scoreboard",
    "path": "a/japan/japan-1998/scoreboard/2026-04-16-archive/1998-asia-programming-contest-japan-1998.html",
    "url": "https://web.archive.org/web/20090714005436/http://www.acm.inf.ethz.ch/ProblemSetArchive/B_VV_Asian/1998/tokyo/tokyoprob98.htm",
@@ -15684,6 +15964,14 @@
   },
   {
    "contest": "japan-1999",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-1999/judge-aoj/20261103-live-44da4004/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/50",
+   "fetched": "2026-11-03T13:31:19+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-1999",
    "artifact": "standings",
    "path": "a/japan/japan-1999/standings/20020111-wayback-3c15bd40/Standings.html",
    "url": "http://icpc.baylor.edu:80/past/icpc2000/regionals/Kyoto99/Standings.html",
@@ -15708,6 +15996,14 @@
   },
   {
    "contest": "japan-2000",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2000/judge-aoj/20261103-live-cc003bb2/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/51",
+   "fetched": "2026-11-03T13:31:20+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2000",
    "artifact": "rankings",
    "path": "a/japan/japan-2000/rankings/2026-09-01-wayback-064d380d/2000_japan.htm",
    "url": "https://web.archive.org/web/20050222023435/http://swt.edu/~ch01/rankins2000/2000_japan.htm",
@@ -15729,6 +16025,14 @@
    "url": "http://icpc.baylor.edu:80/past/icpc2001/Regionals/ViewRegionalStandings.asp?ContestID=447",
    "fetched": "2026-09-05T18:17:34+00:00",
    "sha256_source": "2fc6388d67238f80a872833ab8b7009930e4e3e507253a9712df5a86896ea4f5"
+  },
+  {
+   "contest": "japan-2001",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2001/judge-aoj/20261103-live-ea98033f/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/52",
+   "fetched": "2026-11-03T13:31:17+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2001",
@@ -15772,6 +16076,14 @@
   },
   {
    "contest": "japan-2002",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2002/judge-aoj/20261103-live-7441f4d8/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/53",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2002",
    "artifact": "rankings",
    "path": "a/japan/japan-2002/rankings/2026-09-01-wayback-d9eafc74/ViewRegionalStandingsb445.html",
    "url": "https://web.archive.org/web/20090307020337/http://icpc.baylor.edu/past/icpc2003/Regionals/Reports/icpc.baylor.edu/icpc/regionals/ViewRegionalStandingsb445.html?ContestID=580",
@@ -15812,6 +16124,14 @@
   },
   {
    "contest": "japan-2003",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2003/judge-aoj/20261103-live-3b3e3ca9/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/54",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2003",
    "artifact": "standings",
    "path": "a/japan/japan-2003/standings/20060901-wayback-e90245c0/ViewRegionalStandings2ede.html",
    "url": "http://icpc.baylor.edu/past/icpc2004/RegReport/icpc.baylor.edu/regionals/ViewRegionalStandings2ede.html?ContestID=653",
@@ -15836,11 +16156,27 @@
   },
   {
    "contest": "japan-2004",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2004/judge-aoj/20261103-live-0c1934dd/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/55",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2004",
    "artifact": "standings",
    "path": "a/japan/japan-2004/standings/2026-09-01-wayback-570baedd/page.html",
    "url": "https://web.archive.org/web/20071012162935/http://icpc.baylor.edu/icpc/regionals/ViewRegionalStandings.asp?ContestID=695",
    "fetched": "2026-09-01T08:55:56+00:00",
    "sha256_source": "b66e3c096370a2a58487984421dfb6ba792e38ff12eb090db939fec74e0c0ac3"
+  },
+  {
+   "contest": "japan-2005",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2005/judge-aoj/20261103-live-08dd3809/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/56",
+   "fetched": "2026-11-03T13:31:24+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2005",
@@ -15868,6 +16204,14 @@
   },
   {
    "contest": "japan-2006",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2006/judge-aoj/20261103-live-e93f4479/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/57",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2006",
    "artifact": "standings",
    "path": "a/japan/japan-2006/standings/2026-09-01-wayback-87246421/result.html",
    "url": "https://web.archive.org/web/20080907145041/http://www.acm-japan.org/icpc2006/regional/result.html",
@@ -15881,6 +16225,14 @@
    "url": "https://web.archive.org/web/20080502051025/http://icpc.baylor.edu/icpc/regionals/ViewRegionalStandings.asp?ContestID=792",
    "fetched": "2026-09-01T08:56:10+00:00",
    "sha256_source": "eb1509183ebc105fd202a8a3ffc31fe602742d126742c0cb0a2be46af91adba3"
+  },
+  {
+   "contest": "japan-2007",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2007/judge-aoj/20261103-live-7674d347/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/58",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2007",
@@ -15900,6 +16252,14 @@
   },
   {
    "contest": "japan-2008",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2008/judge-aoj/20261103-live-ee35f0df/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/59",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2008",
    "artifact": "standings",
    "path": "a/japan/japan-2008/standings/2026-09-01-wayback-342b9ada/page.html",
    "url": "https://web.archive.org/web/20090101040233/http://sparth.u-aizu.ac.jp/icpc2008/r_result.php",
@@ -15913,6 +16273,14 @@
    "url": "http://www.waseda.jp/assoc-icpc2009/contest/ranking.html",
    "fetched": "2026-04-15T14:17:13Z",
    "sha256_source": "4f97bc1f6949673583a7b38edc372f901d27e4a89f6136bc3abf50b37952e23a"
+  },
+  {
+   "contest": "japan-2009",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2009/judge-aoj/20261103-live-18330a18/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/60",
+   "fetched": "2026-11-03T13:31:28+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2009",
@@ -15932,6 +16300,14 @@
   },
   {
    "contest": "japan-2010",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2010/judge-aoj/20261103-live-ccfa059e/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/61",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2010",
    "artifact": "standings",
    "path": "a/japan/japan-2010/standings/2026-09-01-wayback-7933952e/page.html",
    "url": "https://web.archive.org/web/20101218084842/http://icpc2010.honiden.nii.ac.jp/en/regional-contest/standing",
@@ -15945,6 +16321,14 @@
    "url": "http://icpc2011.ait.kyushu-u.ac.jp/regional-contest/standing",
    "fetched": "2026-04-15T14:44:10Z",
    "sha256_source": "fa57214183dfe740ea1dfb8828ba60e376c42e276af8586776c3f2175994bc6b"
+  },
+  {
+   "contest": "japan-2011",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2011/judge-aoj/20261103-live-1da64ec3/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/102",
+   "fetched": "2026-11-03T13:31:30+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2011",
@@ -15964,6 +16348,14 @@
   },
   {
    "contest": "japan-2012",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2012/judge-aoj/20261103-live-8beeaaaf/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/129",
+   "fetched": "2026-11-03T13:31:31+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2012",
    "artifact": "standings",
    "path": "a/japan/japan-2012/standings/20130108-wayback-a56d7695/standing-e.html",
    "url": "http://www.cs.titech.ac.jp/icpc2012/regional-contest/standing-e.html",
@@ -15980,11 +16372,27 @@
   },
   {
    "contest": "japan-2013",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2013/judge-aoj/20261103-live-df07f10c/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/144",
+   "fetched": "2026-11-03T13:31:32+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2013",
    "artifact": "standings",
    "path": "a/japan/japan-2013/standings/2026-09-01-wayback-36e48f8d/page.html",
    "url": "https://web.archive.org/web/20161201140219/http://sparth.u-aizu.ac.jp/icpc2013/r_result.php/",
    "fetched": "2026-09-01T08:01:51+00:00",
    "sha256_source": "b10804469ac71a178688f3e546b1ae86dfa1d6cd96103a267f977a021006d13a"
+  },
+  {
+   "contest": "japan-2014",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2014/judge-aoj/20261103-live-b57a0bf6/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/154",
+   "fetched": "2026-11-03T13:31:33+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2014",
@@ -16012,6 +16420,14 @@
   },
   {
    "contest": "japan-2015",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2015/judge-aoj/20261103-live-36c3bad4/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/172",
+   "fetched": "2026-11-03T13:31:34+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2015",
    "artifact": "standings",
    "path": "a/japan/japan-2015/standings/20250719-wayback-2fc90938/page.html",
    "url": "https://icpc.jp/2015/regional/results/",
@@ -16028,6 +16444,14 @@
   },
   {
    "contest": "japan-2016",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2016/judge-aoj/20261103-live-b68ed644/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/188",
+   "fetched": "2026-11-03T13:31:35+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2016",
    "artifact": "standings",
    "path": "a/japan/japan-2016/standings/20250803-wayback-d5de185a/page.html",
    "url": "https://icpc.jp/2016/regional/results/",
@@ -16041,6 +16465,14 @@
    "url": "https://icpc.jp/2016/regional/results/",
    "fetched": "2026-09-01T08:01:53+00:00",
    "sha256_source": "eea9933e74c5763beb22c4c75387df2e132eb5933c3b37cd2a7152d2291de6b0"
+  },
+  {
+   "contest": "japan-2017",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2017/judge-aoj/20261103-live-efe10d19/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/210",
+   "fetched": "2026-11-03T13:31:36+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2017",
@@ -16076,6 +16508,14 @@
   },
   {
    "contest": "japan-2018",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2018/judge-aoj/20261103-live-bfd64531/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/229",
+   "fetched": "2026-11-03T13:31:37+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2018",
    "artifact": "scoreboard",
    "path": "a/japan/japan-2018/scoreboard/2026-09-01-live-8ae75390/page.html",
    "url": "https://codeforces.com/gym/102082/standings",
@@ -16097,6 +16537,14 @@
    "url": "https://icpc.jp/2018/regional/results/",
    "fetched": "2026-09-01T08:01:55+00:00",
    "sha256_source": "068c56ba16f170b041e3b8508bca2ecc3fdb1e5d75140701263b02f7d487c84c"
+  },
+  {
+   "contest": "japan-2019",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2019/judge-aoj/20261103-live-c4873220/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/248",
+   "fetched": "2026-11-03T13:31:38+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2019",
@@ -16124,6 +16572,14 @@
   },
   {
    "contest": "japan-2020",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2020/judge-aoj/20261103-live-ff511abe/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/284",
+   "fetched": "2026-11-03T13:31:39+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2020",
    "artifact": "standings",
    "path": "a/japan/japan-2020/standings/20250803-wayback-4fb2c61b/page.html",
    "url": "https://icpc.jp/2020/regional/results/",
@@ -16137,6 +16593,14 @@
    "url": "https://icpc.jp/2020/regional/results/",
    "fetched": "2026-09-01T08:01:57+00:00",
    "sha256_source": "6030380c58462c634a3acdb65814cd729919af93fdcb4ef9f5e8d67b01943f02"
+  },
+  {
+   "contest": "japan-2021",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2021/judge-aoj/20261103-live-c544a270/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/286",
+   "fetched": "2026-11-03T13:31:40+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2021",
@@ -16156,6 +16620,14 @@
   },
   {
    "contest": "japan-2022",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2022/judge-aoj/20261103-live-9522d850/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/297",
+   "fetched": "2026-11-03T13:31:41+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2022",
    "artifact": "standings",
    "path": "a/japan/japan-2022/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Yokohama-2023/standings",
@@ -16164,11 +16636,27 @@
   },
   {
    "contest": "japan-2023",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2023/judge-aoj/20261103-live-782365a0/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/313",
+   "fetched": "2026-11-03T13:31:42+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
+  },
+  {
+   "contest": "japan-2023",
    "artifact": "standings",
    "path": "a/japan/japan-2023/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Yokohama-2024/standings",
    "fetched": "2026-04-26",
    "sha256_source": "b05846c9b32d0186df6b7c008fddfb49dbfa7e057657daf0237e8e6933ee6e03"
+  },
+  {
+   "contest": "japan-2024",
+   "artifact": "judge-aoj",
+   "path": "a/japan/japan-2024/judge-aoj/20261103-live-e3d406a9/page.html",
+   "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Regional/325",
+   "fetched": "2026-11-03T13:31:43+00:00",
+   "sha256_source": "4874b3f8e1beee68c61405c4c06e68838effbf367c78dcef6c6ba340a0bdb4a1"
   },
   {
    "contest": "japan-2024",
@@ -16219,6 +16707,22 @@
    "sha256_source": "8f32d00c218383d20b489f90e2657f86f2931dc6382f057c6327b1f0fe97709d"
   },
   {
+   "contest": "jiaozuo-2018",
+   "artifact": "judge-luogu",
+   "path": "a/jiaozuo/jiaozuo-2018/judge-luogu/20261103-live-1fb73b81/page.html",
+   "url": "https://www.luogu.com.cn/contest/353129",
+   "fetched": "2026-11-03T13:31:24+00:00",
+   "sha256_source": "bae72ef04b869b6d844a4a2789c6c48beb347521adac1afd0d3eb90f631f60b7"
+  },
+  {
+   "contest": "jinan-2020",
+   "artifact": "judge-nowcoder",
+   "path": "a/jinan/jinan-2020/judge-nowcoder/20261103-live-9e0b7ca8/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/10662",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "4b30ed4e885d755f69e1e80df522b420b62dae1b3050a618040f1b6795be389e"
+  },
+  {
    "contest": "jinan-2021",
    "artifact": "scoreboard",
    "path": "a/jinan/jinan-2021/scoreboard/20211121-wayback-7a5e780a/page.html",
@@ -16228,11 +16732,27 @@
   },
   {
    "contest": "jinan-2022",
+   "artifact": "judge-luogu",
+   "path": "a/jinan/jinan-2022/judge-luogu/20261103-live-f9218f25/page.html",
+   "url": "https://www.luogu.com.cn/contest/135030",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "3982f1723de8e48d7f9a35c147d39acfe60034efec747e82eb493aa8a2d0052a"
+  },
+  {
+   "contest": "jinan-2022",
    "artifact": "scoreboard",
    "path": "a/jinan/jinan-2022/scoreboard/2026-09-01-live-26451f24/page.html",
    "url": "https://codeforces.com/gym/104076/standings",
    "fetched": "2026-09-01T08:02:00+00:00",
    "sha256_source": "2323e5619beb12fbc06ae134212ed2967d7b6617113d6bf34b54761cb417bd4f"
+  },
+  {
+   "contest": "jinan-2023",
+   "artifact": "judge-luogu",
+   "path": "a/jinan/jinan-2023/judge-luogu/20261103-live-3de15baf/page.html",
+   "url": "https://www.luogu.com.cn/contest/320257",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "e48777875ed97a6c1337c4d4fbcfa31f9feb445d07d4a48ee02c2ea62adaed85"
   },
   {
    "contest": "jinan-2023",
@@ -16844,6 +17364,14 @@
   },
   {
    "contest": "kanpur-2013",
+   "artifact": "judge-codechef",
+   "path": "a/kanpur/kanpur-2013/judge-codechef/20261103-live-d31ade02/page.html",
+   "url": "https://www.codechef.com/KAN13ACM",
+   "fetched": "2026-11-03T13:31:30+00:00",
+   "sha256_source": "19b759f8f327e58483f77d9440f698d0e7ead07b4c8f37b940a1b1e53eacb215"
+  },
+  {
+   "contest": "kanpur-2013",
    "artifact": "rankings",
    "path": "a/kanpur/kanpur-2013/rankings/20131228-wayback-65282f49/Result.pdf",
    "url": "https://www.cse.iitk.ac.in/users/acm/Result.pdf",
@@ -16857,6 +17385,14 @@
    "url": "https://www.cse.iitk.ac.in/users/acm/Result.pdf",
    "fetched": "2026-09-01T08:02:30+00:00",
    "sha256_source": "bbd0a2cd1c91566db605ec4b3f34448310990e4f07ddafb6570227e8458451a9"
+  },
+  {
+   "contest": "kanpur-2019",
+   "artifact": "judge-codechef",
+   "path": "a/kanpur/kanpur-2019/judge-codechef/20261103-live-c6dab45e/page.html",
+   "url": "https://www.codechef.com/KA19MOS",
+   "fetched": "2026-11-03T13:31:31+00:00",
+   "sha256_source": "ab5b09f35b58df3624b9b2d231f69eea80663c920f0eb75ccc6c8dee6f68ddb0"
   },
   {
    "contest": "kanpur-2019",
@@ -16937,6 +17473,14 @@
    "url": "https://kanpur.indiaicpc.in/ranklist25.pdf",
    "fetched": "2026-04-15T07:38:28Z",
    "sha256_source": "38083a04e7fbf1564882e4e41d44df7df2a6920b32e2406c6ea8516172b47f22"
+  },
+  {
+   "contest": "kanpur-2025",
+   "artifact": "judge-codechef",
+   "path": "a/kanpur/kanpur-2025/judge-codechef/20261103-live-a6ee3c02/page.html",
+   "url": "https://www.codechef.com/ICPCKANRP25",
+   "fetched": "2026-11-03T13:31:32+00:00",
+   "sha256_source": "47e64cf724cb59469596441ef9bd38347cd3a8732688ea7a399d2d32c03bb4f0"
   },
   {
    "contest": "kazakhstan-2003",
@@ -17700,6 +18244,14 @@
   },
   {
    "contest": "kharagpur-2013",
+   "artifact": "judge-codechef",
+   "path": "a/kharagpur/kharagpur-2013/judge-codechef/20261103-live-b479be68/page.html",
+   "url": "https://www.codechef.com/KGP13ACM",
+   "fetched": "2026-11-03T13:31:33+00:00",
+   "sha256_source": "b718f334ccc63d9c02ac7066a39c08b27cdebd305bbd1aa0cfc1a7e191422f69"
+  },
+  {
+   "contest": "kharagpur-2013",
    "artifact": "scoreboard",
    "path": "a/kharagpur/kharagpur-2013/scoreboard/2026-09-01-wayback-1bd9935e/result_regional.html",
    "url": "https://web.archive.org/web/20170505222757/http://acm.iitkgp.ac.in/result_regional.html",
@@ -17713,6 +18265,14 @@
    "url": "http://acm.iitkgp.ac.in/results/KharagpurSite_results.pdf",
    "fetched": "2026-04-15T08:28:37Z",
    "sha256_source": "37d00b9fe3686828f5a39c22b855899d1301a7bf56c88327ad66e7da2cea8084"
+  },
+  {
+   "contest": "kharagpur-2014",
+   "artifact": "judge-codechef",
+   "path": "a/kharagpur/kharagpur-2014/judge-codechef/20261103-live-bc99e332/page.html",
+   "url": "https://www.codechef.com/KGP14ROS",
+   "fetched": "2026-11-03T13:31:34+00:00",
+   "sha256_source": "4053a0d06afd5070f49dc4708cd4307fa960406ae55383f32af85e546fc65b41"
   },
   {
    "contest": "kharagpur-2014",
@@ -17737,6 +18297,14 @@
    "url": "http://acm.iitkgp.ac.in/onsite_rank_list_2k16.pdf",
    "fetched": "2026-04-15T08:57:05Z",
    "sha256_source": "45e7ef48930b2e1aab4e6408f69e922d4eb6213007b361442ce67c468f734758"
+  },
+  {
+   "contest": "kharagpur-2016",
+   "artifact": "judge-codechef",
+   "path": "a/kharagpur/kharagpur-2016/judge-codechef/20261103-live-d422e2d8/page.html",
+   "url": "https://www.codechef.com/KGP16MOS",
+   "fetched": "2026-11-03T13:31:34+00:00",
+   "sha256_source": "5fbfdb84c1c706861cfa4a2065e21a3f78fd5193867f2395c4d1801c94c38da9"
   },
   {
    "contest": "kharagpur-2016",
@@ -17772,6 +18340,14 @@
   },
   {
    "contest": "kharagpur-2018",
+   "artifact": "judge-codechef",
+   "path": "a/kharagpur/kharagpur-2018/judge-codechef/20261103-live-9c43aa25/page.html",
+   "url": "https://www.codechef.com/KGP18ROL",
+   "fetched": "2026-11-03T13:31:35+00:00",
+   "sha256_source": "31434546d9ce1325295b94b7a406bb7b09f048012cf207511ab5a607bf50c75f"
+  },
+  {
+   "contest": "kharagpur-2018",
    "artifact": "standings",
    "path": "a/kharagpur/kharagpur-2018/standings/2026-09-01-wayback-3d06e235/FinalStandingLocal.pdf",
    "url": "https://web.archive.org/web/20181222213223/http://acm.iitkgp.ac.in/FinalStandingLocal.pdf",
@@ -17785,6 +18361,14 @@
    "url": "http://acm.iitkgp.ac.in",
    "fetched": "2026-04-15T09:31:25Z",
    "sha256_source": "52dbdf37b5071b7499674dd53587738cb979a5f81a41ea2f483cda7205cb1a3a"
+  },
+  {
+   "contest": "kharagpur-2019",
+   "artifact": "judge-codechef",
+   "path": "a/kharagpur/kharagpur-2019/judge-codechef/20261103-live-624dee12/page.html",
+   "url": "https://www.codechef.com/KH19MOS",
+   "fetched": "2026-11-03T13:31:36+00:00",
+   "sha256_source": "78bb01ba8eca7303b5de3632c589cce44625920ab731479b7840663014cea6b1"
   },
   {
    "contest": "kharagpur-2019",
@@ -17892,6 +18476,14 @@
   },
   {
    "contest": "kolkata-2015",
+   "artifact": "judge-codechef",
+   "path": "a/kolkata/kolkata-2015/judge-codechef/20261103-live-16915d26/page.html",
+   "url": "https://www.codechef.com/KOL15MOS",
+   "fetched": "2026-11-03T13:31:37+00:00",
+   "sha256_source": "6dbb0e8fa6aed55b25506bbdbd3e4e7752db59345414e9025dde890761c581aa"
+  },
+  {
+   "contest": "kolkata-2015",
    "artifact": "standings",
    "path": "a/kolkata/kolkata-2015/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Kolkata-2016/standings",
@@ -17905,6 +18497,14 @@
    "url": "http://icpckolkata.in/2017/01/05/result-of-onsite-contest/",
    "fetched": "2026-04-15T08:56:13Z",
    "sha256_source": "9ff52dfdfc023224bb1c310036c627fd3e140984fb8fb2cd329bae5c806f18aa"
+  },
+  {
+   "contest": "kolkata-2016",
+   "artifact": "judge-codechef",
+   "path": "a/kolkata/kolkata-2016/judge-codechef/20261103-live-59edccc9/page.html",
+   "url": "https://www.codechef.com/KOL16MOS",
+   "fetched": "2026-11-03T13:31:38+00:00",
+   "sha256_source": "40b5874a1541cfecd73eb0c034c063aaf0a3389e29adfdaab586436be9ea6221"
   },
   {
    "contest": "kolkata-2016",
@@ -18481,6 +19081,22 @@
    "url": "https://www.iium.edu.my/acmicpc/2019/regional/scoreboard.html",
    "fetched": "2026-09-01T08:06:23+00:00",
    "sha256_source": "f4650c61bbfc484a3b5d0e38085a5840961507058ab4c0e991b6d2818716768d"
+  },
+  {
+   "contest": "kunming-2020",
+   "artifact": "judge-nowcoder",
+   "path": "a/kunming/kunming-2020/judge-nowcoder/20261103-live-9a47a8cf/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/12548",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "874cff6cc48516b7c03a1b4535d8ca56f6523009ab875fc957ab9aaae4d95e12"
+  },
+  {
+   "contest": "kunming-2021",
+   "artifact": "judge-nowcoder",
+   "path": "a/kunming/kunming-2021/judge-nowcoder/20261103-live-6e62b753/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/32708",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "a27f5a04518160237872f2b54c24c5b49503b759becaaff3d65194de0f585336"
   },
   {
    "contest": "kunming-2024",
@@ -19673,6 +20289,14 @@
    "url": "https://codeforces.com/gym/103119/standings",
    "fetched": "2026-09-01T08:06:59+00:00",
    "sha256_source": "a480c23d474dd445b3c8d3fc638191c2adbd4a7a1cb979b505a49438aca806fd"
+  },
+  {
+   "contest": "macau-2021",
+   "artifact": "judge-luogu",
+   "path": "a/macau/macau-2021/judge-luogu/20261103-live-4bc13bbf/page.html",
+   "url": "https://www.luogu.com.cn/contest/134300",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "fbc6317f5ece015cc9345655585820a65d222e7cedb3e99320fc39670a914660"
   },
   {
    "contest": "macau-2021",
@@ -21380,6 +22004,14 @@
   },
   {
    "contest": "mexico-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/mexico/mexico-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:21+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
+  },
+  {
+   "contest": "mexico-2021",
    "artifact": "scoreboard",
    "path": "a/mexico/mexico-2021/scoreboard/20220520-wayback-3964f6f9/page.html",
    "url": "https://scorelatam.naquadah.com.br/latam-2021/",
@@ -22355,6 +22987,14 @@
    "sha256_source": "273729678394e5145c701dc97e2d67f57c6dfea9b578e84512548d79768f5abe"
   },
   {
+   "contest": "nanchang-2019",
+   "artifact": "judge-luogu",
+   "path": "a/nanchang/nanchang-2019/judge-luogu/20261103-live-95c8af99/page.html",
+   "url": "https://www.luogu.com.cn/contest/366008",
+   "fetched": "2026-11-03T13:31:28+00:00",
+   "sha256_source": "3e6691c13f89ddf40d7a75d18a411e7fc18b6aabbd1d867f127313cd682f38c0"
+  },
+  {
    "contest": "nanjing-2007",
    "artifact": "external-standings",
    "path": "a/nanjing/nanjing-2007/external-standings/2026-04-15-external/content.html",
@@ -22396,11 +23036,27 @@
   },
   {
    "contest": "nanjing-2018",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2018/judge-luogu/20261103-live-2592d0ae/page.html",
+   "url": "https://www.luogu.com.cn/contest/353126",
+   "fetched": "2026-11-03T13:31:30+00:00",
+   "sha256_source": "cd4d3a208b4a7156002a4fd3beeac569207052234171019c681d58e15efa7139"
+  },
+  {
+   "contest": "nanjing-2018",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2018/scoreboard/2026-09-01-live-a496874f/page.html",
    "url": "https://codeforces.com/gym/101981/standings",
    "fetched": "2026-09-01T08:10:52+00:00",
    "sha256_source": "4fadff71e6c211bbd4d2b974a8c5c6f489738f26f65371298eb2637036733012"
+  },
+  {
+   "contest": "nanjing-2019",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2019/judge-luogu/20261103-live-567d4aed/page.html",
+   "url": "https://www.luogu.com.cn/contest/358584",
+   "fetched": "2026-11-03T13:31:30+00:00",
+   "sha256_source": "7ec7feee2d2603dbf02ddeca0d0da66767a8d7118cdac99f1bb206c10c24e702"
   },
   {
    "contest": "nanjing-2019",
@@ -22420,11 +23076,35 @@
   },
   {
    "contest": "nanjing-2020",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2020/judge-luogu/20261103-live-bf1d6d5e/page.html",
+   "url": "https://www.luogu.com.cn/contest/130129",
+   "fetched": "2026-11-03T13:31:31+00:00",
+   "sha256_source": "f1c92bc4a68bed771706e1e9698e6806499072f911080ee8adfd2167ef770703"
+  },
+  {
+   "contest": "nanjing-2020",
+   "artifact": "judge-nowcoder",
+   "path": "a/nanjing/nanjing-2020/judge-nowcoder/20261103-live-cceb16b9/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/10272",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "8f2dea62f906390e5c79699e9a542629706bf426dc517f2b501ffba029e105bd"
+  },
+  {
+   "contest": "nanjing-2020",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2020/scoreboard/20230127-wayback-325e774c/page.html",
    "url": "https://board.xcpcio.com/icpc/2020/nanjing",
    "fetched": "2026-09-01T18:09:48+00:00",
    "sha256_source": "30b2326fd01c0738f742a13f83dbe6cfe7a5ef5d5d134f53b21c76fc47532030"
+  },
+  {
+   "contest": "nanjing-2021",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2021/judge-luogu/20261103-live-dfc7d33d/page.html",
+   "url": "https://www.luogu.com.cn/contest/143839",
+   "fetched": "2026-11-03T13:31:32+00:00",
+   "sha256_source": "2b1837cbe781c8ce6bfa94fdb1a712753e30d10ed55f3c8b7849a4b7e77fb75b"
   },
   {
    "contest": "nanjing-2021",
@@ -22444,6 +23124,14 @@
   },
   {
    "contest": "nanjing-2022",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2022/judge-luogu/20261103-live-76fce0e0/page.html",
+   "url": "https://www.luogu.com.cn/contest/278653",
+   "fetched": "2026-11-03T13:31:33+00:00",
+   "sha256_source": "97b56ec966b40bdf54e491160d208eba483d3dd230c43b7bf8afd27a60d7b505"
+  },
+  {
+   "contest": "nanjing-2022",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2022/scoreboard/20230203-wayback-d13fb0fd/page.html",
    "url": "https://codeforces.com/gym/104128/standings",
@@ -22457,6 +23145,14 @@
    "url": "https://codeforces.com/gym/104128/standings",
    "fetched": "2026-09-01T08:10:56+00:00",
    "sha256_source": "d5e4bcd10d077eb9ea80de87bf3eb87a0141b781e7e7a90604bbcd2ff5410439"
+  },
+  {
+   "contest": "nanjing-2023",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2023/judge-luogu/20261103-live-7b22be5e/page.html",
+   "url": "https://www.luogu.com.cn/contest/273805",
+   "fetched": "2026-11-03T13:31:34+00:00",
+   "sha256_source": "4032ac896816398058f15a13b81f27133bcd180522fce4c1365293a9933e8c28"
   },
   {
    "contest": "nanjing-2023",
@@ -22484,6 +23180,14 @@
   },
   {
    "contest": "nanjing-2024",
+   "artifact": "judge-luogu",
+   "path": "a/nanjing/nanjing-2024/judge-luogu/20261103-live-363a9322/page.html",
+   "url": "https://www.luogu.com.cn/contest/275088",
+   "fetched": "2026-11-03T13:31:35+00:00",
+   "sha256_source": "f467e43a9770b30793abda9123e4c95ff3ab46e04b0c8c419a03ced02accce1e"
+  },
+  {
+   "contest": "nanjing-2024",
    "artifact": "scoreboard",
    "path": "a/nanjing/nanjing-2024/scoreboard/20250914-wayback-c7b9a0ab/page.html",
    "url": "https://codeforces.com/gym/105484/standings",
@@ -22505,6 +23209,14 @@
    "url": "https://codeforces.com/gym/106084/standings",
    "fetched": "2026-09-01T08:10:58+00:00",
    "sha256_source": "c73966b1d232e933c37e580194175dba07770f0481539577ead55264bd861fac"
+  },
+  {
+   "contest": "nanning-2017",
+   "artifact": "judge-luogu",
+   "path": "a/nanning/nanning-2017/judge-luogu/20261103-live-4049d62a/page.html",
+   "url": "https://www.luogu.com.cn/contest/344657",
+   "fetched": "2026-11-03T13:31:36+00:00",
+   "sha256_source": "e54059e47b51b79a2bc7fad48c4fe146084b442ee02b6a588f02a8312750c84b"
   },
   {
    "contest": "nanning-2017",
@@ -23620,6 +24332,14 @@
   },
   {
    "contest": "neerc-2000",
+   "artifact": "judge-timus",
+   "path": "a/neerc/neerc-2000/judge-timus/20261103-live-ecdb1b99/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&page=all",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "41bad3acd1bce91b83033b06d5291f5cd93d32c7020fa5fd24f2281dd957e7b1"
+  },
+  {
+   "contest": "neerc-2000",
    "artifact": "standings",
    "path": "a/neerc/neerc-2000/standings/20011222-wayback-303345b4/page.html",
    "url": "http://icpc.baylor.edu:80/past/icpc2001/regionals/ViewRegionalStandings.asp?ContestID=453",
@@ -23649,6 +24369,14 @@
    "url": "https://nerc.itmo.ru/archive/2000/standings.html",
    "fetched": "2026-09-04T10:38:21+00:00",
    "sha256_source": "2bb53d5da704f05c84e02d4f99177d1efb215947e596c7e7b43865b529e606d3"
+  },
+  {
+   "contest": "neerc-2001",
+   "artifact": "judge-timus",
+   "path": "a/neerc/neerc-2001/judge-timus/20261103-live-ecdb1b99/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&page=all",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "41bad3acd1bce91b83033b06d5291f5cd93d32c7020fa5fd24f2281dd957e7b1"
   },
   {
    "contest": "neerc-2001",
@@ -23689,6 +24417,14 @@
    "url": "http://neerc.ifmo.ru/",
    "fetched": "2026-11-03T05:24:24+00:00",
    "sha256_source": "4c516d5e0626e7386feb1acb01ed4d06c2fae9654afe6b01fc2d3ee5fa1bb750"
+  },
+  {
+   "contest": "neerc-2002",
+   "artifact": "judge-timus",
+   "path": "a/neerc/neerc-2002/judge-timus/20261103-live-ecdb1b99/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&page=all",
+   "fetched": "2026-11-03T13:31:26+00:00",
+   "sha256_source": "41bad3acd1bce91b83033b06d5291f5cd93d32c7020fa5fd24f2281dd957e7b1"
   },
   {
    "contest": "neerc-2002",
@@ -25665,6 +26401,14 @@
    "url": "https://ncpc25.kattis.com/contests/ncpc25/standings",
    "fetched": "2026-09-01T08:14:54+00:00",
    "sha256_source": "12e93f097f1c91dc801e3d1fd97919884ed0ce6d5036ce498743d619af34be40"
+  },
+  {
+   "contest": "north-russia-2001",
+   "artifact": "judge-timus",
+   "path": "a/north-russia/north-russia-2001/judge-timus/20261103-live-ecdb1b99/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=1&page=all",
+   "fetched": "2026-11-03T13:31:28+00:00",
+   "sha256_source": "41bad3acd1bce91b83033b06d5291f5cd93d32c7020fa5fd24f2281dd957e7b1"
   },
   {
    "contest": "north-russia-2003",
@@ -29828,6 +30572,14 @@
   },
   {
    "contest": "qingdao-2017",
+   "artifact": "judge-luogu",
+   "path": "a/qingdao/qingdao-2017/judge-luogu/20261103-live-d57b3c80/page.html",
+   "url": "https://www.luogu.com.cn/contest/334256",
+   "fetched": "2026-11-03T13:31:37+00:00",
+   "sha256_source": "0ac337dd5eff6def0a63e845ad90b3901a8490c0cec5c3324aaa531087d197fe"
+  },
+  {
+   "contest": "qingdao-2017",
    "artifact": "scoreboard",
    "path": "a/qingdao/qingdao-2017/scoreboard/2026-09-01-wayback-a7bffa9e/page.html",
    "url": "https://web.archive.org/web/20180110224101/http://exam.upc.edu.cn/rank/",
@@ -29857,6 +30609,14 @@
    "url": "http://acm.upc.edu.cn",
    "fetched": "2026-04-15T07:37:53Z",
    "sha256_source": "fa4fbc91bee50f83b25cb7779d70a6634606ccd86b5cf19d70bca0e4b5309e51"
+  },
+  {
+   "contest": "qingdao-2018",
+   "artifact": "judge-luogu",
+   "path": "a/qingdao/qingdao-2018/judge-luogu/20261103-live-9bfa41ca/page.html",
+   "url": "https://www.luogu.com.cn/contest/146584",
+   "fetched": "2026-11-03T13:31:38+00:00",
+   "sha256_source": "981c6a2ba3cf768e4ed71c3d63359b6832f3311d21febf4c713a2ad3513104e1"
   },
   {
    "contest": "qingdao-2018",
@@ -33716,11 +34476,35 @@
   },
   {
    "contest": "shanghai-2019",
+   "artifact": "judge-nowcoder",
+   "path": "a/shanghai/shanghai-2019/judge-nowcoder/20261103-live-81e9fd2d/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/4370",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "97b1a4ac78b566111d6f532862e6fc61de3f4c28867409c95d73388466e30ab5"
+  },
+  {
+   "contest": "shanghai-2019",
    "artifact": "standings",
    "path": "a/shanghai/shanghai-2019/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/Shanghai-2020/standings",
    "fetched": "2026-04-26",
    "sha256_source": "bdc701302da4e024373e58102a5637411783a18572d9fce010ea4a2863773240"
+  },
+  {
+   "contest": "shanghai-2020",
+   "artifact": "judge-luogu",
+   "path": "a/shanghai/shanghai-2020/judge-luogu/20261103-live-12bc9c56/page.html",
+   "url": "https://www.luogu.com.cn/contest/142625",
+   "fetched": "2026-11-03T13:31:39+00:00",
+   "sha256_source": "68a1d9e3aefd72d902cdb3463d8fbbfea51c211a327a72cd61a810b0a8a7bf2e"
+  },
+  {
+   "contest": "shanghai-2020",
+   "artifact": "judge-nowcoder",
+   "path": "a/shanghai/shanghai-2020/judge-nowcoder/20261103-live-1418db7b/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/9925",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "24285e29f0a9c97da79af443dcd2be0f1b4b9718ff532e62c9531e6f3e8de372"
   },
   {
    "contest": "shanghai-2020",
@@ -33737,6 +34521,14 @@
    "url": "https://codeforces.com/gym/102900/standings",
    "fetched": "2026-09-01T08:23:44+00:00",
    "sha256_source": "5306aae65b67999570d347717b474672c560990937c3f435ff16c566c5d2f81a"
+  },
+  {
+   "contest": "shanghai-2021",
+   "artifact": "judge-nowcoder",
+   "path": "a/shanghai/shanghai-2021/judge-nowcoder/20261103-live-3f520d30/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/24872",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "79e07e3dd8fe80fb48ddac8b9cc18ef91fbc4362de584f3d6e120d728836b02e"
   },
   {
    "contest": "shanghai-2021",
@@ -33788,6 +34580,14 @@
   },
   {
    "contest": "shanghai-2025",
+   "artifact": "judge-luogu",
+   "path": "a/shanghai/shanghai-2025/judge-luogu/20261103-live-52a90169/page.html",
+   "url": "https://www.luogu.com.cn/contest/335418",
+   "fetched": "2026-11-03T13:31:40+00:00",
+   "sha256_source": "83410f3b723b5f36a35fca66287ad264fdedf539e5fdd23a0f78df4e0a49d186"
+  },
+  {
+   "contest": "shanghai-2025",
    "artifact": "scoreboard",
    "path": "a/shanghai/shanghai-2025/scoreboard/20251126-wayback-68f2d4b4/page.html",
    "url": "https://board.xcpcio.com/icpc/50th/shanghai",
@@ -33820,6 +34620,22 @@
   },
   {
    "contest": "shenyang-2017",
+   "artifact": "judge-hdu",
+   "path": "a/shenyang/shenyang-2017/judge-hdu/20261103-live-3e3f2d8f/page.html",
+   "url": "https://acm.hdu.edu.cn/contests/contest_show.php?cid=783",
+   "fetched": "2026-11-03T13:31:39+00:00",
+   "sha256_source": "6bbf4d2958fd6f025f292b56fbff34aad9ad037df4f853493bcaae2ed4123bcd"
+  },
+  {
+   "contest": "shenyang-2017",
+   "artifact": "judge-luogu",
+   "path": "a/shenyang/shenyang-2017/judge-luogu/20261103-live-33e0df5b/page.html",
+   "url": "https://www.luogu.com.cn/contest/334255",
+   "fetched": "2026-11-03T13:31:41+00:00",
+   "sha256_source": "30f49e82302bb7ae0dc8d65eba85cb31f392a6d1f82dca98cc5f2550894877f5"
+  },
+  {
+   "contest": "shenyang-2017",
    "artifact": "scoreboard",
    "path": "a/shenyang/shenyang-2017/scoreboard/20171208-wayback-682cc632/page.html",
    "url": "http://board.acmicpc.info:80/icpc2017/neu_onsite.php",
@@ -33833,6 +34649,14 @@
    "url": "https://web.archive.org/web/20171208222644/http://board.acmicpc.info/icpc2017/neu_onsite.php",
    "fetched": "2026-09-01T08:23:54+00:00",
    "sha256_source": "28d317e9c286c0b634e9928897c73f061b0331d9bc4e2e2f856d31348b110e76"
+  },
+  {
+   "contest": "shenyang-2018",
+   "artifact": "judge-luogu",
+   "path": "a/shenyang/shenyang-2018/judge-luogu/20261103-live-6d13acbe/page.html",
+   "url": "https://www.luogu.com.cn/contest/353127",
+   "fetched": "2026-11-03T13:31:42+00:00",
+   "sha256_source": "8205ac111063640bcce44f5f43345c7cac6aae257520ee25b783de7af4d44696"
   },
   {
    "contest": "shenyang-2018",
@@ -33852,6 +34676,14 @@
   },
   {
    "contest": "shenyang-2020",
+   "artifact": "judge-nowcoder",
+   "path": "a/shenyang/shenyang-2020/judge-nowcoder/20261103-live-af1b4b78/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/18713",
+   "fetched": "2026-11-03T13:31:33+00:00",
+   "sha256_source": "d432bf9cfc36d95e824ff99214af7384076cca5b1b01dfdc211b17a615601a7a"
+  },
+  {
+   "contest": "shenyang-2020",
    "artifact": "scoreboard",
    "path": "a/shenyang/shenyang-2020/scoreboard/20221016-wayback-14aff920/page.html",
    "url": "https://codeforces.com/gym/103202/standings",
@@ -33865,6 +34697,14 @@
    "url": "https://codeforces.com/gym/103202/standings",
    "fetched": "2026-09-01T08:23:50+00:00",
    "sha256_source": "c1573e6de20efcd653be4ad49c0f7cf5115863a0538be82d07785d179edfa761"
+  },
+  {
+   "contest": "shenyang-2021",
+   "artifact": "judge-nowcoder",
+   "path": "a/shenyang/shenyang-2021/judge-nowcoder/20261103-live-92dbf11e/page.html",
+   "url": "https://ac.nowcoder.com/acm/contest/24346",
+   "fetched": "2026-11-03T13:31:33+00:00",
+   "sha256_source": "834419cbc8b72c1ab821a0958300d84f83bcce19e0a29d53c4e5ffa49b2a509f"
   },
   {
    "contest": "shenyang-2021",
@@ -36204,11 +37044,27 @@
   },
   {
    "contest": "south-america-north-2012",
+   "artifact": "judge-eolymp",
+   "path": "a/south-america-north/south-america-north-2012/judge-eolymp/20261103-live-a4d5dc03/page.html",
+   "url": "https://eolymp.com/contests/3388",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "87e9755ee36230d24c3918ff063f04529d1e10ad63395c84567e7eaa20e86d4c"
+  },
+  {
+   "contest": "south-america-north-2012",
    "artifact": "standings",
    "path": "a/south-america-north/south-america-north-2012/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/South-America-North-2013/standings",
    "fetched": "2026-04-26",
    "sha256_source": "1b6453a52a5904f29d04645ea41453cef86f5a257337c1298b11ec7773ce06b1"
+  },
+  {
+   "contest": "south-america-north-2013",
+   "artifact": "judge-eolymp",
+   "path": "a/south-america-north/south-america-north-2013/judge-eolymp/20261103-live-1120fb4f/page.html",
+   "url": "https://eolymp.com/contests/3423",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "789b6803d46be0dfd9ac04d1eb5f74b9d76474ef302895c17431dcbe9024d771"
   },
   {
    "contest": "south-america-north-2013",
@@ -36305,6 +37161,14 @@
    "url": "https://scorelatam.naquadah.com.br/latam-2020/",
    "fetched": "2026-09-01T08:24:44+00:00",
    "sha256_source": "4428f7ce30ca1962ee8e106bfaccd7e033a2587607abc590acd4acf47af659ec"
+  },
+  {
+   "contest": "south-america-north-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/south-america-north/south-america-north-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:22+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
   },
   {
    "contest": "south-america-north-2021",
@@ -36444,11 +37308,27 @@
   },
   {
    "contest": "south-america-south-2012",
+   "artifact": "judge-eolymp",
+   "path": "a/south-america-south/south-america-south-2012/judge-eolymp/20261103-live-a4d5dc03/page.html",
+   "url": "https://eolymp.com/contests/3388",
+   "fetched": "2026-11-03T13:31:25+00:00",
+   "sha256_source": "00b943ef23a7d5187bea9c63a81c023953cababed031582dd5be14339b64671b"
+  },
+  {
+   "contest": "south-america-south-2012",
    "artifact": "standings",
    "path": "a/south-america-south/south-america-south-2012/standings/api-20260904/standings.html",
    "url": "https://icpc.global/regionals/finder/South-America-South-2013/standings",
    "fetched": "2026-04-26",
    "sha256_source": "984ead700395daf7dd20de7667dbbe4f5c0c5fd0f22f76415ab837a9c4dfdde2"
+  },
+  {
+   "contest": "south-america-south-2013",
+   "artifact": "judge-eolymp",
+   "path": "a/south-america-south/south-america-south-2013/judge-eolymp/20261103-live-1120fb4f/page.html",
+   "url": "https://eolymp.com/contests/3423",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "eb77bc2fe133bcc6d35e203c24faedaeb8a70cac3f99d26fd55a0442e8f631bd"
   },
   {
    "contest": "south-america-south-2013",
@@ -36529,6 +37409,14 @@
    "url": "https://scorelatam.naquadah.com.br/latam-2020/",
    "fetched": "2026-09-01T08:24:51+00:00",
    "sha256_source": "4428f7ce30ca1962ee8e106bfaccd7e033a2587607abc590acd4acf47af659ec"
+  },
+  {
+   "contest": "south-america-south-2021",
+   "artifact": "judge-omegaup",
+   "path": "a/south-america-south/south-america-south-2021/judge-omegaup/20261103-live-54932345/page.html",
+   "url": "https://omegaup.com/arena/ICPCMX2021/",
+   "fetched": "2026-11-03T13:31:23+00:00",
+   "sha256_source": "986061c3b9a9bc38cb040390824d23db3d061e561feb9f98997418a8063a7bca"
   },
   {
    "contest": "south-america-south-2021",
@@ -43180,6 +44068,14 @@
   },
   {
    "contest": "ukraine-2020",
+   "artifact": "judge-eolymp",
+   "path": "a/ukraine/ukraine-2020/judge-eolymp/20261103-live-5574acdd/page.html",
+   "url": "https://eolymp.com/contests/ofcrcqt70t6v9aulu55ng51lts",
+   "fetched": "2026-11-03T13:31:27+00:00",
+   "sha256_source": "07cf405515b32ab099f9009a9a0a5e6f26166451d6af3ce77c4cfc181d26f270"
+  },
+  {
+   "contest": "ukraine-2020",
    "artifact": "scoreboard",
    "path": "a/ukraine/ukraine-2020/scoreboard/20211105-wayback-c2240617/problems_2020.pdf",
    "url": "https://vntu.edu.ua/uploads/2020/aucpc/problems_2020.pdf",
@@ -43257,6 +44153,14 @@
    "url": "https://vntu.edu.ua/docs/icpc2021/ReportAll2021-2.pdf",
    "fetched": "2026-10-23T20:18:22+00:00",
    "sha256_source": "f48bf658e98d5a2fb28d6d2d74a94dfabc7c6679dce03b199bb93844eb2d87c0"
+  },
+  {
+   "contest": "ukraine-2022",
+   "artifact": "judge-eolymp",
+   "path": "a/ukraine/ukraine-2022/judge-eolymp/20261103-live-bc990972/page.html",
+   "url": "https://eolymp.com/contests/tp7qkhk9a95mvdkneti6o1obg4",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "bc811e235722c41991a7a513d4da3d53feab176412392cbda00d24530ac0efb0"
   },
   {
    "contest": "ukraine-2022",
@@ -43652,6 +44556,14 @@
   },
   {
    "contest": "urals-2009",
+   "artifact": "judge-timus",
+   "path": "a/urals/urals-2009/judge-timus/20261103-live-19260838/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=74",
+   "fetched": "2026-11-03T13:31:28+00:00",
+   "sha256_source": "03ba44d20cab6c374db0e9074f42d7d7d46769a971c623661934f4d2b7bb5392"
+  },
+  {
+   "contest": "urals-2009",
    "artifact": "standings",
    "path": "a/urals/urals-2009/standings/20191114-wayback-1f9ccf72/standings.html",
    "url": "https://neerc.ifmo.ru/archive/2009/ural/standings.html",
@@ -43684,6 +44596,14 @@
   },
   {
    "contest": "urals-2010",
+   "artifact": "judge-timus",
+   "path": "a/urals/urals-2010/judge-timus/20261103-live-2b7665d5/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=82",
+   "fetched": "2026-11-03T13:31:29+00:00",
+   "sha256_source": "a109a385d923f6d0415a3df97b09cac6676910d3805b3dca50ea7673c7bf2c5f"
+  },
+  {
+   "contest": "urals-2010",
    "artifact": "standings",
    "path": "a/urals/urals-2010/standings/20230321-wayback-fe0ce5c4/standings.html",
    "url": "https://neerc.ifmo.ru/archive/2010/ural/standings.html",
@@ -43713,6 +44633,14 @@
    "url": "https://neerc.ifmo.ru/archive/2010/ural/standings.html",
    "fetched": "2026-09-04T10:48:42+00:00",
    "sha256_source": "bc48c7b8bea8cb998334341b777a2e1b3914a9d2d44f5d3b3b1195caeb5193b5"
+  },
+  {
+   "contest": "urals-2011",
+   "artifact": "judge-timus",
+   "path": "a/urals/urals-2011/judge-timus/20261103-live-6b42e860/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=101",
+   "fetched": "2026-11-03T13:31:30+00:00",
+   "sha256_source": "cce2ca93c881f1303a4b886f065e9709b6435b0201c257a284d6a286656c3f3f"
   },
   {
    "contest": "urals-2011",
@@ -43753,6 +44681,14 @@
    "url": "http://acm.urfu.ru/qf/2012/standings.html",
    "fetched": "2026-04-15T07:37:17Z",
    "sha256_source": "0970367e1fcd1e6aa5649c6ca3a0dd74fa77d7388cdaf4c5d492631741d63df0"
+  },
+  {
+   "contest": "urals-2012",
+   "artifact": "judge-timus",
+   "path": "a/urals/urals-2012/judge-timus/20261103-live-ed7516dc/page.html",
+   "url": "https://acm.timus.ru/problemset.aspx?space=123",
+   "fetched": "2026-11-03T13:31:31+00:00",
+   "sha256_source": "f91f33b753e87c076a77e93873ee23c1346e02808cef13bbfcba4a7242946537"
   },
   {
    "contest": "urals-2012",
@@ -44217,6 +45153,14 @@
    "url": "https://neerc.ifmo.ru/archive/2025/ural/standings.html",
    "fetched": "2026-09-04T10:49:17+00:00",
    "sha256_source": "8b38a714c338ed7837cc7060592845308598dcea82dede4efa070fc8b2bc5e1a"
+  },
+  {
+   "contest": "urumqi-2017",
+   "artifact": "judge-luogu",
+   "path": "a/urumqi/urumqi-2017/judge-luogu/20261103-live-3a02defb/page.html",
+   "url": "https://www.luogu.com.cn/contest/349025",
+   "fetched": "2026-11-03T13:31:43+00:00",
+   "sha256_source": "0218dc80dee3093ecfff9213eb591e05e35801df4f7ab3ffe8ea9c38c266922f"
   },
   {
    "contest": "urumqi-2017",
@@ -48476,6 +49420,14 @@
   },
   {
    "contest": "xian-2017",
+   "artifact": "judge-luogu",
+   "path": "a/xian/xian-2017/judge-luogu/20261103-live-252b5d2b/page.html",
+   "url": "https://www.luogu.com.cn/contest/339238",
+   "fetched": "2026-11-03T13:31:44+00:00",
+   "sha256_source": "e4f5b9bcea665529e0b509b7bfedbd595a75ae3b705051efeda2106b22bd2040"
+  },
+  {
+   "contest": "xian-2017",
    "artifact": "scoreboard",
    "path": "a/xian/xian-2017/scoreboard/20171228-wayback-061fb73a/page.html",
    "url": "http://board.acmicpc.info:80/icpc2017/nwpu_onsite.php",
@@ -48524,6 +49476,14 @@
   },
   {
    "contest": "xian-2025",
+   "artifact": "judge-luogu",
+   "path": "a/xian/xian-2025/judge-luogu/20261103-live-44ef314d/page.html",
+   "url": "https://www.luogu.com.cn/contest/289673",
+   "fetched": "2026-11-03T13:31:45+00:00",
+   "sha256_source": "7577d4c377b9be0cedb77cdeca6ada6fe3fb924f61a409290c548891a6596f6a"
+  },
+  {
+   "contest": "xian-2025",
    "artifact": "scoreboard",
    "path": "a/xian/xian-2025/scoreboard/20251111-wayback-87ffef04/page.html",
    "url": "https://board.xcpcio.com/icpc/50th/xian",
@@ -48537,6 +49497,14 @@
    "url": "http://ctec.cumt.edu.cn/acm201810/board.html",
    "fetched": "2026-04-15T07:37:50Z",
    "sha256_source": "548c5e05e34e7551c791394da15e59a82d18bb365094c2bfe1692ac5a83f68c5"
+  },
+  {
+   "contest": "xuzhou-2018",
+   "artifact": "judge-luogu",
+   "path": "a/xuzhou/xuzhou-2018/judge-luogu/20261103-live-e4a800cc/page.html",
+   "url": "https://www.luogu.com.cn/contest/353128",
+   "fetched": "2026-11-03T13:31:46+00:00",
+   "sha256_source": "eab591b8551a2db7b0fe1ebec658eeaaf0bfd44dc864ab31c11ff64fe96f8bff"
   },
   {
    "contest": "xuzhou-2018",
@@ -48569,6 +49537,14 @@
    "url": "http://ctec.cumt.edu.cn/acm201810/board.html",
    "fetched": "2026-09-01T17:32:44+00:00",
    "sha256_source": "548c5e05e34e7551c791394da15e59a82d18bb365094c2bfe1692ac5a83f68c5"
+  },
+  {
+   "contest": "xuzhou-2019",
+   "artifact": "judge-luogu",
+   "path": "a/xuzhou/xuzhou-2019/judge-luogu/20261103-live-62761f93/page.html",
+   "url": "https://www.luogu.com.cn/contest/366007",
+   "fetched": "2026-11-03T13:31:47+00:00",
+   "sha256_source": "d4c809b223024601fc9e60d051147e6a52d9b4246f6a874d10c32deedde15325"
   },
   {
    "contest": "yangon-2016",
@@ -48641,6 +49617,14 @@
    "url": "https://www.ucsy.edu.mm/ucsy/pages/sb-aryangon2018.html",
    "fetched": "2026-09-01T17:33:31+00:00",
    "sha256_source": "9bc389ae34e927d289389802db5978089cb8dbd84493fdbcee13afe02e19fef9"
+  },
+  {
+   "contest": "yinchuan-2019",
+   "artifact": "judge-luogu",
+   "path": "a/yinchuan/yinchuan-2019/judge-luogu/20261103-live-5b9d9963/page.html",
+   "url": "https://www.luogu.com.cn/contest/358583",
+   "fetched": "2026-11-03T13:31:48+00:00",
+   "sha256_source": "1ac399ef07350cec4182e9749a5a4b2fe82993176ed5520abc941514f150985c"
   },
   {
    "contest": "yinchuan-2019",
