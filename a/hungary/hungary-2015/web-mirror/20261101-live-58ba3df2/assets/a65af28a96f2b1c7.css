@@ -1,0 +1,32 @@
+/*
+Theme Name: Versenyek Smartline
+Template: smartline-lite
+Version: 1.0.0
+*/
+body { font-family: Arial, Tahoma; }
+a, a:link, a:visited { color: #97293f; }
+input, textarea { font-family: Arial, Tahoma; }
+#header-wrap { border-top: 4px solid #97293f; }
+#navi-wrap { border-top: 1px solid #97293f; border-bottom: 1px solid #97293f; }
+.widgettitle { font-family: Arial, Tahoma; background: #97293f; border: 1px solid #97293f; }
+.widget a:link, .widget a:visited { color: #97293f; }
+.page-title, .post-title { color: #97293f; }
+.post-title a:link, .post-title a:visited { color: #97293f; }
+.archive-title span { color: #97293f; }
+.post-pagination a { color: #97293f; }
+.post-pagination a:link, .post-pagination a:visited { color: #97293f; }
+.post-pagination .current { background: #97293f; }
+#image-nav .nav-previous a, #image-nav .nav-next a { color: #97293f; }
+#frontpage-magazine-widgets .widget .widgettitle { font-family: Arial, Tahoma; background: #97293f; border: 1px solid #97293f; }
+#footer { background: #97293f; }
+#mainnav-toggle { background: #97293f; }
+div.breadcrumbs { margin: 0; padding: 5px; border-bottom: 1px dotted gray; }
+
+/* Desktop customizations also occur under repeated selectors in the old responsive CSS. */
+#wrapper, #content { background-color: #f5eed7; }
+#logo { float: left; max-width: 100%; background-image: url('images/elteiklogo.png'); background-repeat: no-repeat; padding: 10px 0 10px 60px; }
+#logo .site-title, #logo .site-title a:link, #logo .site-title a:visited { color: #97293f; }
+#mainnav, #mainnav-menu { background: #97293f; }
+
+#footer { clear: both; }
+body.post-type-archive-chronosly_calendar #content, body.single-chronosly_calendar #content { float: none; width: 100%; }

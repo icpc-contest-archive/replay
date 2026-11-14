@@ -1,0 +1,71 @@
+select::-ms-expand {
+    display: none;
+}
+
+.owl-nav {
+    flex-flow: row-reverse;
+    direction: ltr;
+}
+
+::-ms-clear {
+    display: none;
+}
+
+input[type=text]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=text]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.video-img-container{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*sliders in home*/
+
+
+
+.owl-item a.card-item.courses-list-item.custom-body-card {
+    display: block!important;
+}
+  
+ label.option {
+   margin-right: 25px;
+}
+
+.section-user form label.option{
+  margin-right : 25px !important;
+    padding-right : 25px !important
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  .page-sub-tracks-info.section-sub-tracks-info #main-content{
+    max-height: 75rem
+  }
+  
+}
+
+/* label.option {
+   margin-right: 25px;
+  
+}
+input[type=checkbox], input[type=radio]{
+  margin: -12px 0 0 10px;
+} */
+
+/* .form-wrapper.user-login.form-container{
+  position: absolute;
+  top: 8rem;
+  right: 15%;
+} */
+
