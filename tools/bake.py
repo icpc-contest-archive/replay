@@ -21,6 +21,33 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# Shards (2026-11-17). One Pages repository holds about 1 GB, and the tree is past that, so it is
+# split by the year in the contest's id: (shard, repository, last year it holds). Each shard is a
+# checkout beside this one (../replay-2, ...), is self-contained (its own a/_assets, 404.html,
+# index.html, replay-index.json) and is served at https://icpc-contest-archive.github.io/<repository>/.
+# A contest never moves: when the last shard fills, give it an end year and add a new last one.
+# This repository (shard 1) also carries the tool and the index of every shard.
+SHARDS = ((1, "replay", 2018), (2, "replay-2", 2022), (3, "replay-3", 9999))
+
+
+def shard_of(contest: str) -> tuple[int, str]:
+    m = re.search(r"-(\d{4})$", contest or "")
+    y = int(m.group(1)) if m else 0
+    return next(((n, repo) for n, repo, last in SHARDS if y <= last), SHARDS[-1][:2])
+
+
+# Other people's access tokens in a page's own scripts (a map on a team list) are not ours to
+# republish, and GitHub refuses a push that carries one (2026-11-16: Mapbox, swerc-2017/2018 teams).
+TOKEN_RE = re.compile(rb"\b[ps]k\.eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}")
+
+
+def redact_tokens(raw: bytes) -> bytes:
+    return TOKEN_RE.sub(b"token-removed-by-icpc-contest-archive", raw)
+
+
+def shard_root(repo: str) -> Path:
+    return ROOT.parent / repo
+
 BANNER = """<!-- baked by icpc-contest-archive/replay -->
 {charset}<meta name="robots" content="noindex">
 {canonical}
@@ -80,15 +107,16 @@ def to_utf8(raw: bytes, content_type: str, url: str):
     return raw, None
 
 
-def apply_assets(raw: bytes, manifest: dict, src_dir, dest_dir) -> bytes:
+def apply_assets(raw: bytes, manifest: dict, src_dir, dest_dir, root=None) -> bytes:
     """Point the page's refs at its backfilled assets. An asset is stored once for the whole
     tree, under a/_assets/<xx>/<sha1><ext>, however many pages use it (2026-11-17: the same
     stylesheet, font file and logo came with every page of a site; one copy per page made the
     tree 2.5 GB of assets, 0.7 GB of them distinct). Scripts are not published: a baked page is
     a document, and nothing in it needs to run."""
     import hashlib
-    pool = ROOT / "a" / "_assets"
-    up = "../" * len(dest_dir.relative_to(ROOT / "a").parts)
+    root = root or ROOT
+    pool = root / "a" / "_assets"
+    up = "../" * len(dest_dir.relative_to(root / "a").parts)
     for a in manifest.get("assets") or []:
         f = src_dir / a["file"]
         ext = f.suffix.lower()
@@ -157,13 +185,13 @@ def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", default=str(ROOT.parent / "archive"))
-    ap.add_argument("--exclude-artifacts", default="problemset,problem,editorial,judge-*,teams,report",
+    ap.add_argument("--exclude-artifacts", default="problemset,problem,editorial,judge-*,report",
                     help="comma list of capture artifacts NOT published on this Pages shard; a trailing * matches a "
                          "prefix (2026-11-02 decision: problem-set captures stay private in the archive — "
                          "1.7 GB of PDFs do not fit a Pages repo; served locally via serve.py. Pages on an online "
                          "judge, single problems and editorials likewise, on every judge: the default names the "
                          "kinds, not four judges, so that a newly registered judge is not published by accident. "
-                         "Team lists and reports, new on 2026-11-15, stay out until ruled on.)")
+                         "Team lists are public (ruling of 2026-11-16); reports stay out until ruled on.)")
     args = ap.parse_args()
     import fnmatch
     patterns = [x.strip() for x in args.exclude_artifacts.split(",") if x.strip()]
@@ -187,7 +215,9 @@ def main() -> int:
         if not src.exists():
             print(f"missing in archive: {cap['path']}", file=sys.stderr)
             continue
-        dest = ROOT / "a" / cap["path"]
+        shard, repo = shard_of(cap["contest"])
+        sroot = shard_root(repo)
+        dest = sroot / "a" / cap["path"]
         dest.parent.mkdir(parents=True, exist_ok=True)
         raw = src.read_bytes()
         try:
@@ -199,7 +229,8 @@ def main() -> int:
         if is_html:
             url = cap.get("url") or ""
             raw, _enc = to_utf8(raw, cap.get("content_type") or "", url)
-            raw = apply_assets(raw, manifest, src.parent, dest.parent)
+            raw = apply_assets(raw, manifest, src.parent, dest.parent, sroot)
+            raw = redact_tokens(raw)
             raw, stripped = strip_wayback(raw)
             # resource model: a wrapper URL is (url, time), never the address shown
             raw_url, inner_ts = unwrap(url)
@@ -236,18 +267,24 @@ def main() -> int:
                                             contest_link=contest_link, wayback=wayback, live=live))
         dest.write_bytes(raw)
         total += len(raw)
-        pages.append({"contest": cap["contest"], "artifact": cap["artifact"],
+        pages.append({"contest": cap["contest"], "artifact": cap["artifact"], "shard": shard, "repo": repo,
                       "path": "a/" + cap["path"], "url": cap.get("url"),
-                      "fetched": cap.get("fetched"), "sha256_source": cap["sha256"]})
+                      "fetched": cap.get("fetched"), "sha256_source": cap["sha256"], "_size": len(raw)})
 
     if stats:
         print(stats)
-    out = {"generated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-           "shard": 1, "pages": pages}
-    (ROOT / "replay-index.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
-    (ROOT / ".nojekyll").write_text("")
-
-    (ROOT / "404.html").write_text("""<!doctype html><html><head><meta charset="utf-8">
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    for shard, repo, last in SHARDS:
+        sroot = shard_root(repo)
+        mine = [p for p in pages if p["shard"] == shard]
+        if not mine and not sroot.exists():
+            continue
+        sroot.mkdir(exist_ok=True)
+        # shard 1 carries the index of every shard (the catalogue reads that one file); the others list their own pages
+        out = {"generated": now, "shard": shard, "shards": {str(n): r for n, r, _l in SHARDS}, "pages": [{k: v for k, v in p.items() if k != "_size"} for p in (pages if shard == 1 else mine)]}
+        (sroot / "replay-index.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+        (sroot / ".nojekyll").write_text("")
+        (sroot / "404.html").write_text("""<!doctype html><html><head><meta charset="utf-8">
 <meta name="robots" content="noindex"><title>Not in this archive</title>
 <style>body{font:16px/1.5 system-ui,sans-serif;max-width:38rem;margin:15vh auto;padding:0 1rem}</style>
 </head><body><h1>Not in this archive shard</h1>
@@ -259,14 +296,29 @@ link on an archived page pointing at a resource that was never captured.</p>
 if (document.referrer) { document.getElementById('wb').href =
   'https://web.archive.org/web/*/' + document.referrer; }
 </script></body></html>""")
-
-    (ROOT / "index.html").write_text("""<!doctype html><html><head><meta charset="utf-8">
+        (sroot / "index.html").write_text(f"""<!doctype html><html><head><meta charset="utf-8">
 <title>ICPC contest archive — replay</title>
-<style>body{font:16px/1.5 system-ui,sans-serif;max-width:38rem;margin:15vh auto;padding:0 1rem}</style>
-</head><body><h1>ICPC contest archive — replay shard 1</h1>
+<style>body{{font:16px/1.5 system-ui,sans-serif;max-width:38rem;margin:15vh auto;padding:0 1rem}}</style>
+</head><body><h1>ICPC contest archive — replay shard {shard}</h1>
 <p>Baked copies of archived ICPC result pages. There is no index here by design — browse
 via the <a href="https://icpc-contest-archive.github.io/contests/">contest catalogue</a>,
 where every archived page is linked from its contest.</p></body></html>""")
+        if shard != 1 and not (sroot / "README.md").exists():
+            years = (f"contests of {SHARDS[shard - 2][2] + 1} to {last}" if last < 9999 else f"contests from {SHARDS[shard - 2][2] + 1} on")
+            (sroot / "README.md").write_text(f"""# ICPC contest archive — replay (shard {shard})
+
+**This repo is a build output.** Do not edit by hand: everything in it is generated by
+`tools/bake.py` of the [replay](https://github.com/icpc-contest-archive/replay) repository
+(shard 1) from the private `archive` repo. This shard holds the {years}.
+
+Baked copies of archived ICPC result pages, served via GitHub Pages (from branch, root).
+Browse via the [contest catalogue](https://icpc-contest-archive.github.io/contests/).
+""")
+        print(f"shard {shard} ({repo}): {len(mine)} pages, {sum(p['_size'] for p in mine) / 1e6:.0f} MB of pages")
+    for p in pages:
+        p.pop("_size", None)
+    (ROOT / "replay-index.json").write_text(json.dumps(
+        {"generated": now, "shard": 1, "shards": {str(n): r for n, r, _l in SHARDS}, "pages": pages}, indent=1, ensure_ascii=False))
 
     print(f"baked {len(pages)} pages, {total / 1e6:.0f} MB payload")
     return 0

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?41039541');
+  src: url('../fonts/fontello.eot?41039541#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?41039541') format('woff'),
+       url('../fonts/fontello.ttf?41039541') format('truetype'),
+       url('../fonts/fontello.svg?41039541#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa.fa-vimeo,
+.fa.fa-stumbleupon,
+.fa.fa-lastfm,
+.fa.fa-evernote,
+.fa.fa-picasa,
+.fa.fa-soundcloud,
+.fa.fa-behance,
+.fa.fa-smashing {
+  font-family: 'fontello';
+}
+ 
+.fa-vimeo:before { content: '\e800'; } /* '' */
+.fa-stumbleupon:before { content: '\e801'; } /* '' */
+.fa-lastfm:before { content: '\e802'; } /* '' */
+.fa-evernote:before { content: '\e803'; } /* '' */
+.fa-picasa:before { content: '\e805'; } /* '' */
+.fa-soundcloud:before { content: '\e804'; } /* '' */
+.fa-behance:before { content: '\e806'; } /* '' */
+.fa-smashing:before { content: '\e807'; } /* '' */

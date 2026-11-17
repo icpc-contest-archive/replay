@@ -1,0 +1,34 @@
+#menu {
+	display: none;
+}
+
+#randompic {
+	display: none;
+}
+#randompic0 {
+	display: none;
+}
+
+#menu_links {
+	display: none;
+}
+
+#menu_foot {
+	display: none;
+}
+
+.schedule th {
+	background-color: #cccccc;
+}
+
+.schedule .when {
+	width: 200px;
+}
+
+.noprint {
+	display: none;
+}
+
+.schedule .what {
+	width: 280px;
+}

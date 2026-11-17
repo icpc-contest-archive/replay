@@ -11,4 +11,9 @@ there is deliberately no index here.
 
 Rebuild: `python3 tools/bake.py` with `../archive` checked out, then copy
 `replay-index.json` to `../contests/data/replay-index.json` and rebuild the site.
-Shard budget: keep under ~1GB; shard 2 gets created when we approach it.
+Shards: one Pages repository holds about 1 GB, so the tree is split by the year in the contest's
+id (`SHARDS` in `tools/bake.py`): this repo holds contests up to 2018, `replay-2` 2019 to 2022,
+`replay-3` 2023 on. The bake writes all of them (checkouts beside this one); this repo carries the
+tool and the index of every shard. A contest never moves: when the last shard nears 1 GB, give it
+an end year and add a new one. Each asset is stored once per shard, under `a/_assets/`.
+Not published: problem sets, single problems, editorials, pages on online judges, reports.

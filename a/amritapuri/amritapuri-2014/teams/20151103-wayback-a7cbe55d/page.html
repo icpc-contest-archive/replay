@@ -1,0 +1,1539 @@
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://icpc.amrita.ac.in/2014/allocation.php">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+<html>
+	<title> ACM ICPC Registration Desk</title>
+	<link rel="icon" type="image/ico" href="onsite/img/logo.png"/>
+	
+	<link href="onsite/site/dist/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="onsite/site/dist/font/PT_Sans/pt-sans.css" rel="stylesheet" type="text/css"/>
+	<link href="onsite/site/dist/css/site.min.css" rel="stylesheet" type="text/css" />
+	<style>
+		body{
+			margin-top:0%;
+			position: relative;
+		}
+		.content{
+			padding-top:2px;
+			margin-left:0%;
+			margin-right:0%; 
+			min-height:0px;
+		}
+		a{
+			-webkit-transition:all .4s ease;
+    		-moz-transition:all .4s ease;
+    		-o-transition:all .4s ease;
+			transition:all .4s ease;
+		}
+		a:hover{
+			text-decoration:none;
+		}
+		#result{
+			margin-top:25px;
+		}
+	 	.name{
+			width:24%;
+		}
+		.uname{
+			width:14%;
+		}
+	</style>
+	
+	<body>
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://icpc.amrita.ac.in/2014/allocation.php">http://icpc.amrita.ac.in/2014/allocation.php (2015-11-03 22:56)</a> (Wayback snapshot 2015-11-03 22:56; fetched 2026-11-16)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/amritapuri-2014.html">amritapuri-2014</a>  <a href="https://web.archive.org/web/20151103225657/http://icpc.amrita.ac.in/2014/allocation.php">wayback</a>  <a href="http://icpc.amrita.ac.in/2014/allocation.php">live</a></div>
+
+		<img style="display:none" src="onsite/site/dist/load.gif"/>
+		<!---Modal -->
+<div style="display:none" class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				 <h4 class="modal-title dynamic" id="modal-title"></h4>
+				
+            </div>
+            <div class="modal-body"><div class="">
+				<div class="section">
+				Team ID:<span class="dynamic left" id="modal-subtitle"></span>
+				<br/>
+				College:<span class="dynamic left" style="margin-left: 23px;" id="modal-college"></span>
+				<br/><br/>
+				<div class="modal-tbl-head"><p>Personal Details</p></div>
+				<table class="table table-striped table-bordered">
+					<thead>
+						<tr>
+							<th class="success modal-tbl-lhead">Name</th>
+							<th class="success modal-tbl-lhead">Role</th>
+							<th class="success modal-tbl-lhead">Gender</th>
+							<th class="success modal-tbl-lhead">ID Card Status</th>
+						</tr>
+					</thead>
+					<tbody id="members-result">
+					</tbody>
+				</table>
+				</div>
+				<p style="color:red">
+					All members listed here (other than accompany) should <a href="onsite/document.php" target="_blank" >upload</a> scanned copies of their institution id card.
+					
+				</p>
+			</div>
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div style="text-align:center" class="col-md-12">
+						<h2>ACM ICPC 2014 - Amritapuri Onsite</h2>
+						<h3>Current status of teams</h3>
+					</div>
+					
+				</div>
+				<div style="margin-top:10px;" class="row">
+					<div style="text-align:center" class="col-md-12">
+						
+					</div>
+				</div>
+				<div class="row" style="text-align:center">
+					<div class="col-md-12">
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<a class="btn btn-success" class="btn btn-success" href="allocation.php?site=4">Teams in Amritapuri</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<a class="btn btn-primary" href="allocation.php">All Teams</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<a class="btn btn-success" class="btn btn-success" href="allocation.php?site=5">Teams in Coimbatore</a>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="result">
+				<div class="row">
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4">
+						<input autofocus class="search form-control" placeholder="Search Team Name" />
+					</div>
+					<div class="col-sm-4"></div>
+				</div>
+				<div style="margin-top:11px" class="row">
+				<div  class="col-sm-12" style="">
+					<div style="display:block" class="overlay">
+						<div>
+							<img src="onsite/site/dist/load.gif"/><br/>
+						</div>
+					</div>
+					
+					<table class="table table-striped table-hover">
+        				<thead>
+							<tr>
+                			<th>No</th>
+                			<th>Team name (click for more details) </th>
+                			<th>Username</th>
+							<th>Institution</th>
+							<th>Payment</th>
+            				</tr>
+        				</thead>
+        			<tbody class="list" id="result-table">    
+						<tr>
+			<td>1</td>
+			<td class='name'><a data-username='AMICPC14001' href='javascript:void(0)' class='viewMore'>!++C</a></td>
+			<td class='uname' >AMICPC14001</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>2</td>
+			<td class='name'><a data-username='AMICPC14002' href='javascript:void(0)' class='viewMore'>#define true false</a></td>
+			<td class='uname' >AMICPC14002</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>3</td>
+			<td class='name'><a data-username='AMICPC14004' href='javascript:void(0)' class='viewMore'>11coders</a></td>
+			<td class='uname' >AMICPC14004</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>4</td>
+			<td class='name'><a data-username='AMICPC14005' href='javascript:void(0)' class='viewMore'>15MB</a></td>
+			<td class='uname' >AMICPC14005</td><td>National Institute of Technology, Karnataka</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>5</td>
+			<td class='name'><a data-username='AMICPC14007' href='javascript:void(0)' class='viewMore'>3Spades</a></td>
+			<td class='uname' >AMICPC14007</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>6</td>
+			<td class='name'><a data-username='AMICPC14008' href='javascript:void(0)' class='viewMore'>404 team not found</a></td>
+			<td class='uname' >AMICPC14008</td><td>National Institute of Technology, Durgapur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>7</td>
+			<td class='name'><a data-username='AMICPC14010' href='javascript:void(0)' class='viewMore'>69lovers</a></td>
+			<td class='uname' >AMICPC14010</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>8</td>
+			<td class='name'><a data-username='AMICPC14011' href='javascript:void(0)' class='viewMore'>AC3P0</a></td>
+			<td class='uname' >AMICPC14011</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>9</td>
+			<td class='name'><a data-username='AMICPC14014' href='javascript:void(0)' class='viewMore'>AGNI</a></td>
+			<td class='uname' >AMICPC14014</td><td>Hindustan University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>10</td>
+			<td class='name'><a data-username='AMICPC14016' href='javascript:void(0)' class='viewMore'>Access_Denied</a></td>
+			<td class='uname' >AMICPC14016</td><td>Jaypee University of Engineering and Technology, Guna</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>11</td>
+			<td class='name'><a data-username='AMICPC14020' href='javascript:void(0)' class='viewMore'>Avighna</a></td>
+			<td class='uname' >AMICPC14020</td><td>SR Engineering College</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>12</td>
+			<td class='name'><a data-username='AMICPC14021' href='javascript:void(0)' class='viewMore'>BAD Coders</a></td>
+			<td class='uname' >AMICPC14021</td><td>Indian Institute of Technology - Patna</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>13</td>
+			<td class='name'><a data-username='AMICPC14022' href='javascript:void(0)' class='viewMore'>BadBytes</a></td>
+			<td class='uname' >AMICPC14022</td><td>Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>14</td>
+			<td class='name'><a data-username='AMICPC14024' href='javascript:void(0)' class='viewMore'>Believe</a></td>
+			<td class='uname' >AMICPC14024</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>15</td>
+			<td class='name'><a data-username='AMICPC14025' href='javascript:void(0)' class='viewMore'>BitBees</a></td>
+			<td class='uname' >AMICPC14025</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>16</td>
+			<td class='name'><a data-username='AMICPC14026' href='javascript:void(0)' class='viewMore'>Black_Flag</a></td>
+			<td class='uname' >AMICPC14026</td><td>Amrita School of Engineering, Bangalore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>17</td>
+			<td class='name'><a data-username='AMICPC14027' href='javascript:void(0)' class='viewMore'>BooleanTrap</a></td>
+			<td class='uname' >AMICPC14027</td><td>Dharmsinh Desai Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>18</td>
+			<td class='name'><a data-username='AMICPC14028' href='javascript:void(0)' class='viewMore'>Brightcoders</a></td>
+			<td class='uname' >AMICPC14028</td><td>Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>19</td>
+			<td class='name'><a data-username='AMICPC14029' href='javascript:void(0)' class='viewMore'>Byzantine-tolerant</a></td>
+			<td class='uname' >AMICPC14029</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>20</td>
+			<td class='name'><a data-username='AMICPC14030' href='javascript:void(0)' class='viewMore'>C BLOSSOMS</a></td>
+			<td class='uname' >AMICPC14030</td><td>P.V.P. Siddhartha Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>21</td>
+			<td class='name'><a data-username='AMICPC14031' href='javascript:void(0)' class='viewMore'>CAPETA4""</a></td>
+			<td class='uname' >AMICPC14031</td><td>Maharaj Vijayaram Gajapathi Raj College of Engineering, Vizianagaram</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>22</td>
+			<td class='name'><a data-username='AMICPC14032' href='javascript:void(0)' class='viewMore'>CIT Code Blasters</a></td>
+			<td class='uname' >AMICPC14032</td><td>Chennai Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>23</td>
+			<td class='name'><a data-username='AMICPC14034' href='javascript:void(0)' class='viewMore'>COREDUMP</a></td>
+			<td class='uname' >AMICPC14034</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>24</td>
+			<td class='name'><a data-username='AMICPC14035' href='javascript:void(0)' class='viewMore'>CarpeDiem</a></td>
+			<td class='uname' >AMICPC14035</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>25</td>
+			<td class='name'><a data-username='AMICPC14036' href='javascript:void(0)' class='viewMore'>Carpe_Diem</a></td>
+			<td class='uname' >AMICPC14036</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>26</td>
+			<td class='name'><a data-username='AMICPC14040' href='javascript:void(0)' class='viewMore'>Code Wizards</a></td>
+			<td class='uname' >AMICPC14040</td><td>Charotar Institute of Technology, Changa</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>27</td>
+			<td class='name'><a data-username='AMICPC14041' href='javascript:void(0)' class='viewMore'>Code-Geeks</a></td>
+			<td class='uname' >AMICPC14041</td><td>Sinhgad Academy Of Engineering, Kondhwa</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>28</td>
+			<td class='name'><a data-username='AMICPC14042' href='javascript:void(0)' class='viewMore'>CodeFiends</a></td>
+			<td class='uname' >AMICPC14042</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>29</td>
+			<td class='name'><a data-username='AMICPC14043' href='javascript:void(0)' class='viewMore'>CodeFreaks</a></td>
+			<td class='uname' >AMICPC14043</td><td>The LNM Institute of Information Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>30</td>
+			<td class='name'><a data-username='AMICPC14044' href='javascript:void(0)' class='viewMore'>CodeIT</a></td>
+			<td class='uname' >AMICPC14044</td><td>Sree Vidyanikethan Engineering College</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>31</td>
+			<td class='name'><a data-username='AMICPC14046' href='javascript:void(0)' class='viewMore'>Code_Genx</a></td>
+			<td class='uname' >AMICPC14046</td><td>Sri Sivasubramaniya Nadar College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>32</td>
+			<td class='name'><a data-username='AMICPC14047' href='javascript:void(0)' class='viewMore'>Codeblue</a></td>
+			<td class='uname' >AMICPC14047</td><td>Dr. B R Ambedkar National Institute of Technology , Jalandhar</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>33</td>
+			<td class='name'><a data-username='AMICPC14048' href='javascript:void(0)' class='viewMore'>Codefreaks</a></td>
+			<td class='uname' >AMICPC14048</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>34</td>
+			<td class='name'><a data-username='AMICPC14049' href='javascript:void(0)' class='viewMore'>Codeplexers</a></td>
+			<td class='uname' >AMICPC14049</td><td>Chandubhai S. Patel Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>35</td>
+			<td class='name'><a data-username='AMICPC14050' href='javascript:void(0)' class='viewMore'>Coders101112</a></td>
+			<td class='uname' >AMICPC14050</td><td>PSG College of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>36</td>
+			<td class='name'><a data-username='AMICPC14051' href='javascript:void(0)' class='viewMore'>CodersAgony</a></td>
+			<td class='uname' >AMICPC14051</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>37</td>
+			<td class='name'><a data-username='AMICPC14052' href='javascript:void(0)' class='viewMore'>Cychreides</a></td>
+			<td class='uname' >AMICPC14052</td><td>Jaypee Institute of Information Technology University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>38</td>
+			<td class='name'><a data-username='AMICPC14055' href='javascript:void(0)' class='viewMore'>DEJAVU</a></td>
+			<td class='uname' >AMICPC14055</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>39</td>
+			<td class='name'><a data-username='AMICPC14056' href='javascript:void(0)' class='viewMore'>Deception</a></td>
+			<td class='uname' >AMICPC14056</td><td>Indian Institute of Information Technology , Sricity</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>40</td>
+			<td class='name'><a data-username='AMICPC14057' href='javascript:void(0)' class='viewMore'>Deep Blue</a></td>
+			<td class='uname' >AMICPC14057</td><td>Indian Institute of Technology - Indore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>41</td>
+			<td class='name'><a data-username='AMICPC14061' href='javascript:void(0)' class='viewMore'>Dynamic-trio</a></td>
+			<td class='uname' >AMICPC14061</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>42</td>
+			<td class='name'><a data-username='AMICPC14062' href='javascript:void(0)' class='viewMore'>Dynamites</a></td>
+			<td class='uname' >AMICPC14062</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>43</td>
+			<td class='name'><a data-username='AMICPC14064' href='javascript:void(0)' class='viewMore'>EdgeOfTomorrow</a></td>
+			<td class='uname' >AMICPC14064</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>44</td>
+			<td class='name'><a data-username='AMICPC14065' href='javascript:void(0)' class='viewMore'>Encoderz</a></td>
+			<td class='uname' >AMICPC14065</td><td>K.S. Rangasamy College of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>45</td>
+			<td class='name'><a data-username='AMICPC14066' href='javascript:void(0)' class='viewMore'>Encore</a></td>
+			<td class='uname' >AMICPC14066</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>46</td>
+			<td class='name'><a data-username='AMICPC14067' href='javascript:void(0)' class='viewMore'>Faceless_Men</a></td>
+			<td class='uname' >AMICPC14067</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>47</td>
+			<td class='name'><a data-username='AMICPC14068' href='javascript:void(0)' class='viewMore'>Foo</a></td>
+			<td class='uname' >AMICPC14068</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>48</td>
+			<td class='name'><a data-username='AMICPC14069' href='javascript:void(0)' class='viewMore'>FourierAnalysis</a></td>
+			<td class='uname' >AMICPC14069</td><td>Indian Institute of Technology - Guwahati</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>49</td>
+			<td class='name'><a data-username='AMICPC14071' href='javascript:void(0)' class='viewMore'>GECBians</a></td>
+			<td class='uname' >AMICPC14071</td><td>Govt Engineering College, Barton Hill</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>50</td>
+			<td class='name'><a data-username='AMICPC14072' href='javascript:void(0)' class='viewMore'>Gap</a></td>
+			<td class='uname' >AMICPC14072</td><td>Indian Institute of Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>51</td>
+			<td class='name'><a data-username='AMICPC14073' href='javascript:void(0)' class='viewMore'>Geek Gods</a></td>
+			<td class='uname' >AMICPC14073</td><td>Rajeev Gandhi Memorial College of Engineering and Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>52</td>
+			<td class='name'><a data-username='AMICPC14074' href='javascript:void(0)' class='viewMore'>Googlercy</a></td>
+			<td class='uname' >AMICPC14074</td><td>Rajalakshmi Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>53</td>
+			<td class='name'><a data-username='AMICPC14075' href='javascript:void(0)' class='viewMore'>Greed_for_Speed</a></td>
+			<td class='uname' >AMICPC14075</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>54</td>
+			<td class='name'><a data-username='AMICPC14077' href='javascript:void(0)' class='viewMore'>HashBangs</a></td>
+			<td class='uname' >AMICPC14077</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>55</td>
+			<td class='name'><a data-username='AMICPC14078' href='javascript:void(0)' class='viewMore'>Hellgorhythm</a></td>
+			<td class='uname' >AMICPC14078</td><td>Indian Institute of Technology - Ropar</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>56</td>
+			<td class='name'><a data-username='AMICPC14079' href='javascript:void(0)' class='viewMore'>HelloWorld!</a></td>
+			<td class='uname' >AMICPC14079</td><td>Indian Institute of Technology (Banaras Hindu University), Varanasi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>57</td>
+			<td class='name'><a data-username='AMICPC14080' href='javascript:void(0)' class='viewMore'>Heuristic-2-Mystic</a></td>
+			<td class='uname' >AMICPC14080</td><td>International Institute of Information Technology - Bangalore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>58</td>
+			<td class='name'><a data-username='AMICPC14081' href='javascript:void(0)' class='viewMore'>INFINITUM</a></td>
+			<td class='uname' >AMICPC14081</td><td>National Institute of Technology, Calicut</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>59</td>
+			<td class='name'><a data-username='AMICPC14082' href='javascript:void(0)' class='viewMore'>Inquisitive</a></td>
+			<td class='uname' >AMICPC14082</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>60</td>
+			<td class='name'><a data-username='AMICPC14083' href='javascript:void(0)' class='viewMore'>Insert Team Name Here</a></td>
+			<td class='uname' >AMICPC14083</td><td>Indian Institute of Technology - Guwahati</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>61</td>
+			<td class='name'><a data-username='AMICPC14084' href='javascript:void(0)' class='viewMore'>Invincibles</a></td>
+			<td class='uname' >AMICPC14084</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>62</td>
+			<td class='name'><a data-username='AMICPC14085' href='javascript:void(0)' class='viewMore'>JNTUV</a></td>
+			<td class='uname' >AMICPC14085</td><td>JNTUK University College of Engineering Vizianagaram</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>63</td>
+			<td class='name'><a data-username='AMICPC14087' href='javascript:void(0)' class='viewMore'>Knightrous</a></td>
+			<td class='uname' >AMICPC14087</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>64</td>
+			<td class='name'><a data-username='AMICPC14089' href='javascript:void(0)' class='viewMore'>Kuch Bhi</a></td>
+			<td class='uname' >AMICPC14089</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>65</td>
+			<td class='name'><a data-username='AMICPC14090' href='javascript:void(0)' class='viewMore'>LAN</a></td>
+			<td class='uname' >AMICPC14090</td><td>DJ Sanghvi College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>66</td>
+			<td class='name'><a data-username='AMICPC14091' href='javascript:void(0)' class='viewMore'>LOL</a></td>
+			<td class='uname' >AMICPC14091</td><td>Pimpri-Chinchwad College Of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>67</td>
+			<td class='name'><a data-username='AMICPC14092' href='javascript:void(0)' class='viewMore'>Lannisters</a></td>
+			<td class='uname' >AMICPC14092</td><td>Yeshwantrao Chavan College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>68</td>
+			<td class='name'><a data-username='AMICPC14093' href='javascript:void(0)' class='viewMore'>Leafblade</a></td>
+			<td class='uname' >AMICPC14093</td><td>M S Ramaiah Institute of Technology, Bangalore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>69</td>
+			<td class='name'><a data-username='AMICPC14094' href='javascript:void(0)' class='viewMore'>LoopInfinity</a></td>
+			<td class='uname' >AMICPC14094</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>70</td>
+			<td class='name'><a data-username='AMICPC14095' href='javascript:void(0)' class='viewMore'>MATRIX</a></td>
+			<td class='uname' >AMICPC14095</td><td>Maulana Azad National Institute of Technology Bhopal</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>71</td>
+			<td class='name'><a data-username='AMICPC14096' href='javascript:void(0)' class='viewMore'>Mad-hattans</a></td>
+			<td class='uname' >AMICPC14096</td><td>Indian Institute of Technology - Madras</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>72</td>
+			<td class='name'><a data-username='AMICPC14097' href='javascript:void(0)' class='viewMore'>Maestro</a></td>
+			<td class='uname' >AMICPC14097</td><td>Karpagam College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>73</td>
+			<td class='name'><a data-username='AMICPC14098' href='javascript:void(0)' class='viewMore'>Maverick</a></td>
+			<td class='uname' >AMICPC14098</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>74</td>
+			<td class='name'><a data-username='AMICPC14099' href='javascript:void(0)' class='viewMore'>MemoryOverflow</a></td>
+			<td class='uname' >AMICPC14099</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>75</td>
+			<td class='name'><a data-username='AMICPC14100' href='javascript:void(0)' class='viewMore'>MeraBharatMahaan</a></td>
+			<td class='uname' >AMICPC14100</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>76</td>
+			<td class='name'><a data-username='AMICPC14101' href='javascript:void(0)' class='viewMore'>Morpheus</a></td>
+			<td class='uname' >AMICPC14101</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>77</td>
+			<td class='name'><a data-username='AMICPC14102' href='javascript:void(0)' class='viewMore'>Mozart</a></td>
+			<td class='uname' >AMICPC14102</td><td>ManipalÂ Institute of Technology, Manipal</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>78</td>
+			<td class='name'><a data-username='AMICPC14103' href='javascript:void(0)' class='viewMore'>NITA_ICPC2</a></td>
+			<td class='uname' >AMICPC14103</td><td>National Institute of Technology, Agartala</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>79</td>
+			<td class='name'><a data-username='AMICPC14104' href='javascript:void(0)' class='viewMore'>NiECodeBreakers</a></td>
+			<td class='uname' >AMICPC14104</td><td>National Institute of Engineering, Mysore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>80</td>
+			<td class='name'><a data-username='AMICPC14105' href='javascript:void(0)' class='viewMore'>Night Fury</a></td>
+			<td class='uname' >AMICPC14105</td><td>Indian Institute of Technology - Indore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>81</td>
+			<td class='name'><a data-username='AMICPC14108' href='javascript:void(0)' class='viewMore'>Nullstellensatz</a></td>
+			<td class='uname' >AMICPC14108</td><td>Chennai Mathematical Institute</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>82</td>
+			<td class='name'><a data-username='AMICPC14109' href='javascript:void(0)' class='viewMore'>O(Shit)</a></td>
+			<td class='uname' >AMICPC14109</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>83</td>
+			<td class='name'><a data-username='AMICPC14110' href='javascript:void(0)' class='viewMore'>Off Track</a></td>
+			<td class='uname' >AMICPC14110</td><td>Techno India</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>84</td>
+			<td class='name'><a data-username='AMICPC14111' href='javascript:void(0)' class='viewMore'>Optimal3</a></td>
+			<td class='uname' >AMICPC14111</td><td>Indian Institute of Technology (Banaras Hindu University), Varanasi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>85</td>
+			<td class='name'><a data-username='AMICPC14113' href='javascript:void(0)' class='viewMore'>PHOENIX</a></td>
+			<td class='uname' >AMICPC14113</td><td>School of Engineering Cochin University of Science and Technology, Kochi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>86</td>
+			<td class='name'><a data-username='AMICPC14114' href='javascript:void(0)' class='viewMore'>PNP</a></td>
+			<td class='uname' >AMICPC14114</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>87</td>
+			<td class='name'><a data-username='AMICPC14115' href='javascript:void(0)' class='viewMore'>Phantoms</a></td>
+			<td class='uname' >AMICPC14115</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>88</td>
+			<td class='name'><a data-username='AMICPC14117' href='javascript:void(0)' class='viewMore'>PseudoPolynomials</a></td>
+			<td class='uname' >AMICPC14117</td><td>Sardar Vallabhbhai National Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>89</td>
+			<td class='name'><a data-username='AMICPC14118' href='javascript:void(0)' class='viewMore'>Psykes</a></td>
+			<td class='uname' >AMICPC14118</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>90</td>
+			<td class='name'><a data-username='AMICPC14119' href='javascript:void(0)' class='viewMore'>RGUKT</a></td>
+			<td class='uname' >AMICPC14119</td><td>Rajiv Gandhi University of Knowledge and Technologies</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>91</td>
+			<td class='name'><a data-username='AMICPC14120' href='javascript:void(0)' class='viewMore'>Raghucoders</a></td>
+			<td class='uname' >AMICPC14120</td><td>Raghu Engineering College, Visakhapatnam</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>92</td>
+			<td class='name'><a data-username='AMICPC14121' href='javascript:void(0)' class='viewMore'>RandomBits</a></td>
+			<td class='uname' >AMICPC14121</td><td>Veermata Jijabai Technological Institute</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>93</td>
+			<td class='name'><a data-username='AMICPC14122' href='javascript:void(0)' class='viewMore'>Randomizer</a></td>
+			<td class='uname' >AMICPC14122</td><td>Madras Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>94</td>
+			<td class='name'><a data-username='AMICPC14124' href='javascript:void(0)' class='viewMore'>SHA3</a></td>
+			<td class='uname' >AMICPC14124</td><td>PDPM Indian Institute of Information Technology Design & Manufacturing, Jabalpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>95</td>
+			<td class='name'><a data-username='AMICPC14125' href='javascript:void(0)' class='viewMore'>Scintillators</a></td>
+			<td class='uname' >AMICPC14125</td><td>Sri Venkateswara College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>96</td>
+			<td class='name'><a data-username='AMICPC14127' href='javascript:void(0)' class='viewMore'>Serious Jokers</a></td>
+			<td class='uname' >AMICPC14127</td><td>B.V. Bhoomaraddi College of Engineering & Technology, Hubli</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>97</td>
+			<td class='name'><a data-username='AMICPC14128' href='javascript:void(0)' class='viewMore'>SkyFall</a></td>
+			<td class='uname' >AMICPC14128</td><td>Govind Ballabh Pant Engineering College, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>98</td>
+			<td class='name'><a data-username='AMICPC14129' href='javascript:void(0)' class='viewMore'>Spiders</a></td>
+			<td class='uname' >AMICPC14129</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>99</td>
+			<td class='name'><a data-username='AMICPC14131' href='javascript:void(0)' class='viewMore'>TCE Coders C</a></td>
+			<td class='uname' >AMICPC14131</td><td>Thiagarajar College of Engineering</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>100</td>
+			<td class='name'><a data-username='AMICPC14135' href='javascript:void(0)' class='viewMore'>TechNox1</a></td>
+			<td class='uname' >AMICPC14135</td><td>Rajiv Gandhi College of Engineering and Research, Nagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>101</td>
+			<td class='name'><a data-username='AMICPC14136' href='javascript:void(0)' class='viewMore'>Tesseract</a></td>
+			<td class='uname' >AMICPC14136</td><td>Indian School of Mines, Dhanbad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>102</td>
+			<td class='name'><a data-username='AMICPC14139' href='javascript:void(0)' class='viewMore'>The invincibles</a></td>
+			<td class='uname' >AMICPC14139</td><td>Sri Shakthi Institute of Engineering & Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>103</td>
+			<td class='name'><a data-username='AMICPC14141' href='javascript:void(0)' class='viewMore'>TreeVisitors</a></td>
+			<td class='uname' >AMICPC14141</td><td>Indian Institute of Technology - Madras</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>104</td>
+			<td class='name'><a data-username='AMICPC14144' href='javascript:void(0)' class='viewMore'>VITCCJM2</a></td>
+			<td class='uname' >AMICPC14144</td><td>VIT University Chennai Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>105</td>
+			<td class='name'><a data-username='AMICPC14146' href='javascript:void(0)' class='viewMore'>VictoriaAutMors</a></td>
+			<td class='uname' >AMICPC14146</td><td>PSNA College of Engineering and Technology, Dindigul</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>106</td>
+			<td class='name'><a data-username='AMICPC14148' href='javascript:void(0)' class='viewMore'>Vision</a></td>
+			<td class='uname' >AMICPC14148</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>107</td>
+			<td class='name'><a data-username='AMICPC14149' href='javascript:void(0)' class='viewMore'>Void</a></td>
+			<td class='uname' >AMICPC14149</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>108</td>
+			<td class='name'><a data-username='AMICPC14151' href='javascript:void(0)' class='viewMore'>Voodoo Coders</a></td>
+			<td class='uname' >AMICPC14151</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>109</td>
+			<td class='name'><a data-username='AMICPC14152' href='javascript:void(0)' class='viewMore'>WAmonster</a></td>
+			<td class='uname' >AMICPC14152</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>110</td>
+			<td class='name'><a data-username='AMICPC14153' href='javascript:void(0)' class='viewMore'>Wait_For_It</a></td>
+			<td class='uname' >AMICPC14153</td><td>Indian Institute of Technology - Madras</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>111</td>
+			<td class='name'><a data-username='AMICPC14154' href='javascript:void(0)' class='viewMore'>Whatte wow</a></td>
+			<td class='uname' >AMICPC14154</td><td>Sastra University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>112</td>
+			<td class='name'><a data-username='AMICPC14155' href='javascript:void(0)' class='viewMore'>XPL01T5</a></td>
+			<td class='uname' >AMICPC14155</td><td>Visvesvaraya National Institute of Technology, Nagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>113</td>
+			<td class='name'><a data-username='AMICPC14156' href='javascript:void(0)' class='viewMore'>_i9_</a></td>
+			<td class='uname' >AMICPC14156</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>114</td>
+			<td class='name'><a data-username='AMICPC14158' href='javascript:void(0)' class='viewMore'>aerotech</a></td>
+			<td class='uname' >AMICPC14158</td><td>Thakur College of Engineering and Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>115</td>
+			<td class='name'><a data-username='AMICPC14159' href='javascript:void(0)' class='viewMore'>alpha</a></td>
+			<td class='uname' >AMICPC14159</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>116</td>
+			<td class='name'><a data-username='AMICPC14160' href='javascript:void(0)' class='viewMore'>angle</a></td>
+			<td class='uname' >AMICPC14160</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>117</td>
+			<td class='name'><a data-username='AMICPC14162' href='javascript:void(0)' class='viewMore'>beginner</a></td>
+			<td class='uname' >AMICPC14162</td><td>Gayatri Vidya Parishad College of Engineering, Visakhapatnam</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>118</td>
+			<td class='name'><a data-username='AMICPC14163' href='javascript:void(0)' class='viewMore'>bits-please</a></td>
+			<td class='uname' >AMICPC14163</td><td>BITS-Pilani, Hyderabad Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>119</td>
+			<td class='name'><a data-username='AMICPC14164' href='javascript:void(0)' class='viewMore'>bloodlust</a></td>
+			<td class='uname' >AMICPC14164</td><td>Neotia Institute of Technology Management and Science</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>120</td>
+			<td class='name'><a data-username='AMICPC14165' href='javascript:void(0)' class='viewMore'>brainyButchers</a></td>
+			<td class='uname' >AMICPC14165</td><td>Northern India Engineering College, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>121</td>
+			<td class='name'><a data-username='AMICPC14166' href='javascript:void(0)' class='viewMore'>breakThrough</a></td>
+			<td class='uname' >AMICPC14166</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>122</td>
+			<td class='name'><a data-username='AMICPC14167' href='javascript:void(0)' class='viewMore'>breakfree</a></td>
+			<td class='uname' >AMICPC14167</td><td>Institute of Engineering and Management, Calcutta</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>123</td>
+			<td class='name'><a data-username='AMICPC14171' href='javascript:void(0)' class='viewMore'>codeDaemons</a></td>
+			<td class='uname' >AMICPC14171</td><td>National Institute of Technology, Trichy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>124</td>
+			<td class='name'><a data-username='AMICPC14172' href='javascript:void(0)' class='viewMore'>code_wanderers</a></td>
+			<td class='uname' >AMICPC14172</td><td>Jamia Millia Islamia</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>125</td>
+			<td class='name'><a data-username='AMICPC14174' href='javascript:void(0)' class='viewMore'>codeslayerx</a></td>
+			<td class='uname' >AMICPC14174</td><td>Institute of Engineering & Technology - Devi Ahilya Univ.</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>126</td>
+			<td class='name'><a data-username='AMICPC14175' href='javascript:void(0)' class='viewMore'>codetemplars</a></td>
+			<td class='uname' >AMICPC14175</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>127</td>
+			<td class='name'><a data-username='AMICPC14176' href='javascript:void(0)' class='viewMore'>codingeeks</a></td>
+			<td class='uname' >AMICPC14176</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>128</td>
+			<td class='name'><a data-username='AMICPC14177' href='javascript:void(0)' class='viewMore'>codon</a></td>
+			<td class='uname' >AMICPC14177</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>129</td>
+			<td class='name'><a data-username='AMICPC14178' href='javascript:void(0)' class='viewMore'>cold_hands</a></td>
+			<td class='uname' >AMICPC14178</td><td>ABES Engineering College</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>130</td>
+			<td class='name'><a data-username='AMICPC14179' href='javascript:void(0)' class='viewMore'>countergambit</a></td>
+			<td class='uname' >AMICPC14179</td><td>National Institute of Technology, Trichy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>131</td>
+			<td class='name'><a data-username='AMICPC14180' href='javascript:void(0)' class='viewMore'>cyberworiers</a></td>
+			<td class='uname' >AMICPC14180</td><td>Nirma Institute of Technology, Ahmedabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>132</td>
+			<td class='name'><a data-username='AMICPC14181' href='javascript:void(0)' class='viewMore'>deBUG</a></td>
+			<td class='uname' >AMICPC14181</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>133</td>
+			<td class='name'><a data-username='AMICPC14183' href='javascript:void(0)' class='viewMore'>decodejps</a></td>
+			<td class='uname' >AMICPC14183</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>134</td>
+			<td class='name'><a data-username='AMICPC14184' href='javascript:void(0)' class='viewMore'>dei_coders</a></td>
+			<td class='uname' >AMICPC14184</td><td>Dayalbagh Educational Institute</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>135</td>
+			<td class='name'><a data-username='AMICPC14185' href='javascript:void(0)' class='viewMore'>devilsown</a></td>
+			<td class='uname' >AMICPC14185</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>136</td>
+			<td class='name'><a data-username='AMICPC14187' href='javascript:void(0)' class='viewMore'>dread_lord</a></td>
+			<td class='uname' >AMICPC14187</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>137</td>
+			<td class='name'><a data-username='AMICPC14188' href='javascript:void(0)' class='viewMore'>dtubugs</a></td>
+			<td class='uname' >AMICPC14188</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>138</td>
+			<td class='name'><a data-username='AMICPC14189' href='javascript:void(0)' class='viewMore'>dumbcoders</a></td>
+			<td class='uname' >AMICPC14189</td><td>Army Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>139</td>
+			<td class='name'><a data-username='AMICPC14191' href='javascript:void(0)' class='viewMore'>enigma</a></td>
+			<td class='uname' >AMICPC14191</td><td>National Institute of Technology, Warangal</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>140</td>
+			<td class='name'><a data-username='AMICPC14193' href='javascript:void(0)' class='viewMore'>fullmetal</a></td>
+			<td class='uname' >AMICPC14193</td><td>Amrita School of Engineering, Coimbatore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>141</td>
+			<td class='name'><a data-username='AMICPC14194' href='javascript:void(0)' class='viewMore'>go_green</a></td>
+			<td class='uname' >AMICPC14194</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>142</td>
+			<td class='name'><a data-username='AMICPC14195' href='javascript:void(0)' class='viewMore'>godHatesUsAll</a></td>
+			<td class='uname' >AMICPC14195</td><td>IIIT-Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>143</td>
+			<td class='name'><a data-username='AMICPC14196' href='javascript:void(0)' class='viewMore'>gray_matter</a></td>
+			<td class='uname' >AMICPC14196</td><td>BITS-Pilani, Goa Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>144</td>
+			<td class='name'><a data-username='AMICPC14197' href='javascript:void(0)' class='viewMore'>grayhathacker</a></td>
+			<td class='uname' >AMICPC14197</td><td>National Institute of Technology, Patna</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>145</td>
+			<td class='name'><a data-username='AMICPC14198' href='javascript:void(0)' class='viewMore'>gregarious</a></td>
+			<td class='uname' >AMICPC14198</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>146</td>
+			<td class='name'><a data-username='AMICPC14199' href='javascript:void(0)' class='viewMore'>hakuna_matata</a></td>
+			<td class='uname' >AMICPC14199</td><td>Indian Institute of Technology - Guwahati</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>147</td>
+			<td class='name'><a data-username='AMICPC14201' href='javascript:void(0)' class='viewMore'>iCoders</a></td>
+			<td class='uname' >AMICPC14201</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>148</td>
+			<td class='name'><a data-username='AMICPC14202' href='javascript:void(0)' class='viewMore'>iiestcoders</a></td>
+			<td class='uname' >AMICPC14202</td><td>Bengal Engineering and Science University, Howrah</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>149</td>
+			<td class='name'><a data-username='AMICPC14203' href='javascript:void(0)' class='viewMore'>illustrious</a></td>
+			<td class='uname' >AMICPC14203</td><td>MVSR Engineering College</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>150</td>
+			<td class='name'><a data-username='AMICPC14207' href='javascript:void(0)' class='viewMore'>just_coders</a></td>
+			<td class='uname' >AMICPC14207</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>151</td>
+			<td class='name'><a data-username='AMICPC14208' href='javascript:void(0)' class='viewMore'>killer_beans</a></td>
+			<td class='uname' >AMICPC14208</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>152</td>
+			<td class='name'><a data-username='AMICPC14209' href='javascript:void(0)' class='viewMore'>krabathor1</a></td>
+			<td class='uname' >AMICPC14209</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>153</td>
+			<td class='name'><a data-username='AMICPC14210' href='javascript:void(0)' class='viewMore'>leaf_village</a></td>
+			<td class='uname' >AMICPC14210</td><td>Indian Institute of Information Technology & Management, Gwalior</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>154</td>
+			<td class='name'><a data-username='AMICPC14211' href='javascript:void(0)' class='viewMore'>liquid</a></td>
+			<td class='uname' >AMICPC14211</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>155</td>
+			<td class='name'><a data-username='AMICPC14213' href='javascript:void(0)' class='viewMore'>logismos</a></td>
+			<td class='uname' >AMICPC14213</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>156</td>
+			<td class='name'><a data-username='AMICPC14214' href='javascript:void(0)' class='viewMore'>lol</a></td>
+			<td class='uname' >AMICPC14214</td><td>Amrita School of Engineering, Kollam</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>157</td>
+			<td class='name'><a data-username='AMICPC14215' href='javascript:void(0)' class='viewMore'>meth</a></td>
+			<td class='uname' >AMICPC14215</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>158</td>
+			<td class='name'><a data-username='AMICPC14216' href='javascript:void(0)' class='viewMore'>n2_nsit</a></td>
+			<td class='uname' >AMICPC14216</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>159</td>
+			<td class='name'><a data-username='AMICPC14217' href='javascript:void(0)' class='viewMore'>naiveAlgorists</a></td>
+			<td class='uname' >AMICPC14217</td><td>National Institute of Science & Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>160</td>
+			<td class='name'><a data-username='AMICPC14219' href='javascript:void(0)' class='viewMore'>noobgrammers</a></td>
+			<td class='uname' >AMICPC14219</td><td>Anna University - College of Engg. Guindy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>161</td>
+			<td class='name'><a data-username='AMICPC14220' href='javascript:void(0)' class='viewMore'>noobkillers</a></td>
+			<td class='uname' >AMICPC14220</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>162</td>
+			<td class='name'><a data-username='AMICPC14221' href='javascript:void(0)' class='viewMore'>one_last_time</a></td>
+			<td class='uname' >AMICPC14221</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>163</td>
+			<td class='name'><a data-username='AMICPC14222' href='javascript:void(0)' class='viewMore'>optimizers[3]</a></td>
+			<td class='uname' >AMICPC14222</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>164</td>
+			<td class='name'><a data-username='AMICPC14223' href='javascript:void(0)' class='viewMore'>pale_rider</a></td>
+			<td class='uname' >AMICPC14223</td><td>SRM University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>165</td>
+			<td class='name'><a data-username='AMICPC14224' href='javascript:void(0)' class='viewMore'>placeboEffect</a></td>
+			<td class='uname' >AMICPC14224</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>166</td>
+			<td class='name'><a data-username='AMICPC14225' href='javascript:void(0)' class='viewMore'>queryUs</a></td>
+			<td class='uname' >AMICPC14225</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>167</td>
+			<td class='name'><a data-username='AMICPC14226' href='javascript:void(0)' class='viewMore'>semi_colonists</a></td>
+			<td class='uname' >AMICPC14226</td><td>National Institute of Technology, Raipur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>168</td>
+			<td class='name'><a data-username='AMICPC14227' href='javascript:void(0)' class='viewMore'>shockers</a></td>
+			<td class='uname' >AMICPC14227</td><td>Indian Institute of Technology - Madras</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>169</td>
+			<td class='name'><a data-username='AMICPC14228' href='javascript:void(0)' class='viewMore'>some_vague</a></td>
+			<td class='uname' >AMICPC14228</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>170</td>
+			<td class='name'><a data-username='AMICPC14229' href='javascript:void(0)' class='viewMore'>srs</a></td>
+			<td class='uname' >AMICPC14229</td><td>Indian Institute of Technology - Jodhpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>171</td>
+			<td class='name'><a data-username='AMICPC14231' href='javascript:void(0)' class='viewMore'>startcodon</a></td>
+			<td class='uname' >AMICPC14231</td><td>Indian Institute of Science, Bangalore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>172</td>
+			<td class='name'><a data-username='AMICPC14232' href='javascript:void(0)' class='viewMore'>strongly_Connected</a></td>
+			<td class='uname' >AMICPC14232</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>173</td>
+			<td class='name'><a data-username='AMICPC14233' href='javascript:void(0)' class='viewMore'>tarjanhorse</a></td>
+			<td class='uname' >AMICPC14233</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>174</td>
+			<td class='name'><a data-username='AMICPC14234' href='javascript:void(0)' class='viewMore'>teamseven</a></td>
+			<td class='uname' >AMICPC14234</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>175</td>
+			<td class='name'><a data-username='AMICPC14235' href='javascript:void(0)' class='viewMore'>teen_paryatak</a></td>
+			<td class='uname' >AMICPC14235</td><td>Indian Institute of Technology - Kanpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>176</td>
+			<td class='name'><a data-username='AMICPC14236' href='javascript:void(0)' class='viewMore'>theMatroids</a></td>
+			<td class='uname' >AMICPC14236</td><td>KC College of Engineering, Thane</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>177</td>
+			<td class='name'><a data-username='AMICPC14237' href='javascript:void(0)' class='viewMore'>thenextgen</a></td>
+			<td class='uname' >AMICPC14237</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>178</td>
+			<td class='name'><a data-username='AMICPC14239' href='javascript:void(0)' class='viewMore'>threeBy0</a></td>
+			<td class='uname' >AMICPC14239</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>179</td>
+			<td class='name'><a data-username='AMICPC14240' href='javascript:void(0)' class='viewMore'>three_sat</a></td>
+			<td class='uname' >AMICPC14240</td><td>Indian Institute of Technology - Guwahati</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>180</td>
+			<td class='name'><a data-username='AMICPC14241' href='javascript:void(0)' class='viewMore'>tle4ever</a></td>
+			<td class='uname' >AMICPC14241</td><td>IIIT-Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>181</td>
+			<td class='name'><a data-username='AMICPC14243' href='javascript:void(0)' class='viewMore'>typedef_dtu</a></td>
+			<td class='uname' >AMICPC14243</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>182</td>
+			<td class='name'><a data-username='AMICPC14244' href='javascript:void(0)' class='viewMore'>unpredictable3</a></td>
+			<td class='uname' >AMICPC14244</td><td>National Institute of Technology, Kurukshetra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>183</td>
+			<td class='name'><a data-username='AMICPC14246' href='javascript:void(0)' class='viewMore'>vssut_pride1</a></td>
+			<td class='uname' >AMICPC14246</td><td>Veer Surendra Sai University of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>184</td>
+			<td class='name'><a data-username='AMICPC14247' href='javascript:void(0)' class='viewMore'>xarete</a></td>
+			<td class='uname' >AMICPC14247</td><td>Malviya National Institute of Technology Jaipur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>185</td>
+			<td class='name'><a data-username='AMICPC14248' href='javascript:void(0)' class='viewMore'>xorand22</a></td>
+			<td class='uname' >AMICPC14248</td><td>Indian Institute of Technology - Mandi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>186</td>
+			<td class='name'><a data-username='AMICPC14249' href='javascript:void(0)' class='viewMore'>xorcists</a></td>
+			<td class='uname' >AMICPC14249</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>187</td>
+			<td class='name'><a data-username='AMICPC14250' href='javascript:void(0)' class='viewMore'>yeah_u_wish</a></td>
+			<td class='uname' >AMICPC14250</td><td>Indian Institute of Technology - Kharagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>188</td>
+			<td class='name'><a data-username='AMICPC14251' href='javascript:void(0)' class='viewMore'>zero</a></td>
+			<td class='uname' >AMICPC14251</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>189</td>
+			<td class='name'><a data-username='AMICPC14252' href='javascript:void(0)' class='viewMore'>zootoodoo</a></td>
+			<td class='uname' >AMICPC14252</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>190</td>
+			<td class='name'><a data-username='AMICPC14253' href='javascript:void(0)' class='viewMore'>bitw</a></td>
+			<td class='uname' >AMICPC14253</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>191</td>
+			<td class='name'><a data-username='AMICPC14254' href='javascript:void(0)' class='viewMore'>nsit_nsquare</a></td>
+			<td class='uname' >AMICPC14254</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>192</td>
+			<td class='name'><a data-username='AMICPC14255' href='javascript:void(0)' class='viewMore'>BRAINWARRIORS</a></td>
+			<td class='uname' >AMICPC14255</td><td>Birla Institute of Technology, Jaipur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>193</td>
+			<td class='name'><a data-username='AMICPC14257' href='javascript:void(0)' class='viewMore'>insiders</a></td>
+			<td class='uname' >AMICPC14257</td><td>National Institute of Technology, Kurukshetra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>194</td>
+			<td class='name'><a data-username='AMICPC14258' href='javascript:void(0)' class='viewMore'>dnc</a></td>
+			<td class='uname' >AMICPC14258</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>195</td>
+			<td class='name'><a data-username='AMICPC14259' href='javascript:void(0)' class='viewMore'>r3boot</a></td>
+			<td class='uname' >AMICPC14259</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>196</td>
+			<td class='name'><a data-username='AMICPC14260' href='javascript:void(0)' class='viewMore'>lazy_propagation</a></td>
+			<td class='uname' >AMICPC14260</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>197</td>
+			<td class='name'><a data-username='AMICPC14261' href='javascript:void(0)' class='viewMore'>Better_Call_Sol</a></td>
+			<td class='uname' >AMICPC14261</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>198</td>
+			<td class='name'><a data-username='AMICPC14262' href='javascript:void(0)' class='viewMore'>tukurTukurKyaDekhRaheHo</a></td>
+			<td class='uname' >AMICPC14262</td><td>Indian Institute of Technology - Guwahati</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>199</td>
+			<td class='name'><a data-username='AMICPC14263' href='javascript:void(0)' class='viewMore'>cerberus</a></td>
+			<td class='uname' >AMICPC14263</td><td>Motilal Nehru National Institute of Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>200</td>
+			<td class='name'><a data-username='AMICPC14264' href='javascript:void(0)' class='viewMore'>Rusted Brains</a></td>
+			<td class='uname' >AMICPC14264</td><td>Motilal Nehru National Institute of Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>201</td>
+			<td class='name'><a data-username='AMICPC14266' href='javascript:void(0)' class='viewMore'>RECursion</a></td>
+			<td class='uname' >AMICPC14266</td><td>National Institute of Technology, Durgapur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>202</td>
+			<td class='name'><a data-username='AMICPC14267' href='javascript:void(0)' class='viewMore'>deathbyDP</a></td>
+			<td class='uname' >AMICPC14267</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>203</td>
+			<td class='name'><a data-username='AMICPC14268' href='javascript:void(0)' class='viewMore'>Noobs1</a></td>
+			<td class='uname' >AMICPC14268</td><td>National Institute of Technology, Karnataka</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>204</td>
+			<td class='name'><a data-username='AMICPC14270' href='javascript:void(0)' class='viewMore'>Three_Musketeers</a></td>
+			<td class='uname' >AMICPC14270</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>205</td>
+			<td class='name'><a data-username='AMICPC14271' href='javascript:void(0)' class='viewMore'>Coders-Reloaded</a></td>
+			<td class='uname' >AMICPC14271</td><td>Rajeev Gandhi Institute of Information Technology, Amethi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>206</td>
+			<td class='name'><a data-username='AMICPC14272' href='javascript:void(0)' class='viewMore'>Alpha_Coders</a></td>
+			<td class='uname' >AMICPC14272</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>207</td>
+			<td class='name'><a data-username='AMICPC14273' href='javascript:void(0)' class='viewMore'>Limitless_03</a></td>
+			<td class='uname' >AMICPC14273</td><td>Rajeev Gandhi Institute of Information Technology, Amethi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>208</td>
+			<td class='name'><a data-username='AMICPC14274' href='javascript:void(0)' class='viewMore'>Code_Geass</a></td>
+			<td class='uname' >AMICPC14274</td><td>Rajeev Gandhi Institute of Information Technology, Amethi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>209</td>
+			<td class='name'><a data-username='AMICPC14276' href='javascript:void(0)' class='viewMore'>METALLICA</a></td>
+			<td class='uname' >AMICPC14276</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>210</td>
+			<td class='name'><a data-username='AMICPC14277' href='javascript:void(0)' class='viewMore'>Flipsters</a></td>
+			<td class='uname' >AMICPC14277</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>211</td>
+			<td class='name'><a data-username='AMICPC14278' href='javascript:void(0)' class='viewMore'>WaitForIt</a></td>
+			<td class='uname' >AMICPC14278</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>212</td>
+			<td class='name'><a data-username='AMICPC14279' href='javascript:void(0)' class='viewMore'>wrong_answer</a></td>
+			<td class='uname' >AMICPC14279</td><td>Indian Institute of Information Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>213</td>
+			<td class='name'><a data-username='AMICPC14280' href='javascript:void(0)' class='viewMore'>Shinigami</a></td>
+			<td class='uname' >AMICPC14280</td><td>M. S. Ramaiah Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>214</td>
+			<td class='name'><a data-username='AMICPC14281' href='javascript:void(0)' class='viewMore'>denied_005</a></td>
+			<td class='uname' >AMICPC14281</td><td>Indian Institute of Information Technology & Management, Gwalior</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>215</td>
+			<td class='name'><a data-username='AMICPC14282' href='javascript:void(0)' class='viewMore'>Ancestor</a></td>
+			<td class='uname' >AMICPC14282</td><td>Jaypee University of Engineering and Technology, Guna</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>216</td>
+			<td class='name'><a data-username='AMICPC14284' href='javascript:void(0)' class='viewMore'>DP Nahin Aati</a></td>
+			<td class='uname' >AMICPC14284</td><td>BITS-Pilani, Hyderabad Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>217</td>
+			<td class='name'><a data-username='AMICPC14285' href='javascript:void(0)' class='viewMore'>TrichyCoders</a></td>
+			<td class='uname' >AMICPC14285</td><td>National Institute of Technology, Trichy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>218</td>
+			<td class='name'><a data-username='AMICPC14286' href='javascript:void(0)' class='viewMore'>mangoByte</a></td>
+			<td class='uname' >AMICPC14286</td><td>Indian Institute of Information Technology and Management</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>219</td>
+			<td class='name'><a data-username='AMICPC14287' href='javascript:void(0)' class='viewMore'>Codeception</a></td>
+			<td class='uname' >AMICPC14287</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>220</td>
+			<td class='name'><a data-username='AMICPC14288' href='javascript:void(0)' class='viewMore'>TheAnsweringMachine</a></td>
+			<td class='uname' >AMICPC14288</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>221</td>
+			<td class='name'><a data-username='AMICPC14289' href='javascript:void(0)' class='viewMore'>bit_force</a></td>
+			<td class='uname' >AMICPC14289</td><td>Indian Institute of Information Technology and Management</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>222</td>
+			<td class='name'><a data-username='AMICPC14290' href='javascript:void(0)' class='viewMore'>vincicoders</a></td>
+			<td class='uname' >AMICPC14290</td><td>Indian Institute of Technology - Indore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>223</td>
+			<td class='name'><a data-username='AMICPC14292' href='javascript:void(0)' class='viewMore'>#VIPs</a></td>
+			<td class='uname' >AMICPC14292</td><td>Madras Institute of Technology</td><td style='width:200px;'>DD Not Verified</td>
+			</tr>
+	<tr>
+			<td>224</td>
+			<td class='name'><a data-username='AMICPC14293' href='javascript:void(0)' class='viewMore'>skadoosh012</a></td>
+			<td class='uname' >AMICPC14293</td><td>Madras Institute of Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>225</td>
+			<td class='name'><a data-username='AMICPC14295' href='javascript:void(0)' class='viewMore'>valar_morghulis</a></td>
+			<td class='uname' >AMICPC14295</td><td>Birla Institute of Technology & Science, Pilani Campus</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>226</td>
+			<td class='name'><a data-username='AMICPC14297' href='javascript:void(0)' class='viewMore'>Flopcoderzzz</a></td>
+			<td class='uname' >AMICPC14297</td><td>Anna University - College of Engg. Guindy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>227</td>
+			<td class='name'><a data-username='AMICPC14301' href='javascript:void(0)' class='viewMore'>superblock</a></td>
+			<td class='uname' >AMICPC14301</td><td>National Institute of Technology, Durgapur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>228</td>
+			<td class='name'><a data-username='AMICPC14303' href='javascript:void(0)' class='viewMore'>Divide&Conquer</a></td>
+			<td class='uname' >AMICPC14303</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>229</td>
+			<td class='name'><a data-username='AMICPC14304' href='javascript:void(0)' class='viewMore'>PrimeTimePlayers</a></td>
+			<td class='uname' >AMICPC14304</td><td>Motilal Nehru National Institute of Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>230</td>
+			<td class='name'><a data-username='AMICPC14308' href='javascript:void(0)' class='viewMore'>BUG_ASSASSINS</a></td>
+			<td class='uname' >AMICPC14308</td><td>National Institute of Technology, Karnataka</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>231</td>
+			<td class='name'><a data-username='AMICPC14312' href='javascript:void(0)' class='viewMore'>Insomniacs</a></td>
+			<td class='uname' >AMICPC14312</td><td>Visvesvaraya National Institute of Technology, Nagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>232</td>
+			<td class='name'><a data-username='AMICPC14313' href='javascript:void(0)' class='viewMore'>k@lprits</a></td>
+			<td class='uname' >AMICPC14313</td><td>The LNM Institute of Information Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>233</td>
+			<td class='name'><a data-username='AMICPC14314' href='javascript:void(0)' class='viewMore'>Softacores</a></td>
+			<td class='uname' >AMICPC14314</td><td>Motilal Nehru National Institute of Technology - Allahabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>234</td>
+			<td class='name'><a data-username='AMICPC14315' href='javascript:void(0)' class='viewMore'>cooldudes</a></td>
+			<td class='uname' >AMICPC14315</td><td>Anna University - College of Engg. Guindy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>235</td>
+			<td class='name'><a data-username='AMICPC14316' href='javascript:void(0)' class='viewMore'>A-Team</a></td>
+			<td class='uname' >AMICPC14316</td><td>Visvesvaraya National Institute of Technology, Nagpur</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>236</td>
+			<td class='name'><a data-username='AMICPC14318' href='javascript:void(0)' class='viewMore'>think</a></td>
+			<td class='uname' >AMICPC14318</td><td>Indian Institute of Technology and Management in Atal Bihari V</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>237</td>
+			<td class='name'><a data-username='AMICPC14319' href='javascript:void(0)' class='viewMore'>BLUES</a></td>
+			<td class='uname' >AMICPC14319</td><td>Indian Institute of Information Technology & Management, Gwalior</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>238</td>
+			<td class='name'><a data-username='AMICPC14322' href='javascript:void(0)' class='viewMore'>Naughty Coders</a></td>
+			<td class='uname' >AMICPC14322</td><td>Indian Institute of Technology - Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>239</td>
+			<td class='name'><a data-username='AMICPC14323' href='javascript:void(0)' class='viewMore'>Riddler</a></td>
+			<td class='uname' >AMICPC14323</td><td>National Institute of Technology, Calicut</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>240</td>
+			<td class='name'><a data-username='AMICPC14324' href='javascript:void(0)' class='viewMore'>Expandables</a></td>
+			<td class='uname' >AMICPC14324</td><td>Indian Institute of Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>241</td>
+			<td class='name'><a data-username='AMICPC14329' href='javascript:void(0)' class='viewMore'>Passsionate Isotopes</a></td>
+			<td class='uname' >AMICPC14329</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>242</td>
+			<td class='name'><a data-username='AMICPC14330' href='javascript:void(0)' class='viewMore'>Faux</a></td>
+			<td class='uname' >AMICPC14330</td><td>Indian Institute of Technology - Roorkee</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>243</td>
+			<td class='name'><a data-username='AMICPC14331' href='javascript:void(0)' class='viewMore'>Orb Sceptre Throne</a></td>
+			<td class='uname' >AMICPC14331</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>244</td>
+			<td class='name'><a data-username='AMICPC14334' href='javascript:void(0)' class='viewMore'>Dark_Knights</a></td>
+			<td class='uname' >AMICPC14334</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>245</td>
+			<td class='name'><a data-username='AMICPC14335' href='javascript:void(0)' class='viewMore'>Jhingalala</a></td>
+			<td class='uname' >AMICPC14335</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>246</td>
+			<td class='name'><a data-username='AMICPC14336' href='javascript:void(0)' class='viewMore'>std</a></td>
+			<td class='uname' >AMICPC14336</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>247</td>
+			<td class='name'><a data-username='AMICPC14340' href='javascript:void(0)' class='viewMore'>Cryptoslayers</a></td>
+			<td class='uname' >AMICPC14340</td><td>Netaji Subhas Institute of Technology, Delhi</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>248</td>
+			<td class='name'><a data-username='AMICPC14343' href='javascript:void(0)' class='viewMore'>H0R0V</a></td>
+			<td class='uname' >AMICPC14343</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>249</td>
+			<td class='name'><a data-username='AMICPC14344' href='javascript:void(0)' class='viewMore'>SAM</a></td>
+			<td class='uname' >AMICPC14344</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>250</td>
+			<td class='name'><a data-username='AMICPC14348' href='javascript:void(0)' class='viewMore'>Amateurs1</a></td>
+			<td class='uname' >AMICPC14348</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>251</td>
+			<td class='name'><a data-username='AMICPC14352' href='javascript:void(0)' class='viewMore'>ppt1.0</a></td>
+			<td class='uname' >AMICPC14352</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>252</td>
+			<td class='name'><a data-username='AMICPC14353' href='javascript:void(0)' class='viewMore'>KillTheBug</a></td>
+			<td class='uname' >AMICPC14353</td><td>Delhi Technological University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>253</td>
+			<td class='name'><a data-username='AMICPC14354' href='javascript:void(0)' class='viewMore'>11Musketeers</a></td>
+			<td class='uname' >AMICPC14354</td><td>Indian Institute of Technology - Bombay</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>254</td>
+			<td class='name'><a data-username='AMICPC14358' href='javascript:void(0)' class='viewMore'>Vithakaranunga(AU)</a></td>
+			<td class='uname' >AMICPC14358</td><td>Anna University - College of Engg. Guindy</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>255</td>
+			<td class='name'><a data-username='AMICPC14359' href='javascript:void(0)' class='viewMore'>astralfun</a></td>
+			<td class='uname' >AMICPC14359</td><td>The LNM Institute of Information Technology</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>256</td>
+			<td class='name'><a data-username='AMICPC14360' href='javascript:void(0)' class='viewMore'>youknowwho</a></td>
+			<td class='uname' >AMICPC14360</td><td>Amrita School of Engineering, Coimbatore</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>257</td>
+			<td class='name'><a data-username='AMICPC14361' href='javascript:void(0)' class='viewMore'>Mathturbation</a></td>
+			<td class='uname' >AMICPC14361</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>258</td>
+			<td class='name'><a data-username='AMICPC14363' href='javascript:void(0)' class='viewMore'>Kindergarteners</a></td>
+			<td class='uname' >AMICPC14363</td><td>Birla Institute of Technology, Mesra</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>259</td>
+			<td class='name'><a data-username='AMICPC14364' href='javascript:void(0)' class='viewMore'>Daring Dudes</a></td>
+			<td class='uname' >AMICPC14364</td><td>International Institute of Information Technology - Hyderabad</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+	<tr>
+			<td>260</td>
+			<td class='name'><a data-username='AMICPC14365' href='javascript:void(0)' class='viewMore'>JU_Assassins</a></td>
+			<td class='uname' >AMICPC14365</td><td>Jahangirnagar University</td><td style='width:200px;'>DD Verified</td>
+			</tr>
+						</tbody>
+    </table>		
+				</div>
+			</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="onsite/js/plugins/jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="onsite/site/dist/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="onsite/site/dist/js/list.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				var options = {
+  				valueNames: [ 'name' ],
+				page: 10000
+			};
+			var userList = new List('result', options);	
+			$(document).on('click','.viewMore',function(){
+				$('.dynamic').html("");
+				var username = $(this).data('username');
+				$('.overlay').css('display','block');
+				$.ajax({
+					url:'allocation.php',
+					data:'id=2&username='+username,
+					type:'POST',
+					cache:true,
+					success:function(data){
+						try{
+							ret = JSON.parse(data);
+							if(ret.success==true){
+								$("#modal-title").html(ret.message.teamname);
+								$("#modal-subtitle").html(ret.message.username);
+								$("#modal-college").html(ret.message.college);
+								$("#members-result").empty();
+								ret.message.members.forEach(function(e){
+									if(e.gender=='male'){
+										e.gender='Male';
+									}
+									if(e.gender=='female'){
+										e.gender='Female';
+									}
+									var idc='';
+									if(e.idcard=='accompany'){
+										idc='<td>Not Needed</td>';
+									}
+									else if(e.idcard===false){
+										idc='<td style="color:red">Not Uploaded</td>';
+									}
+									else if(e.idcard===true){
+										idc='<td style="color:green">Uploaded</td>';
+									}
+									else{
+										console.log(e.idcard);
+										idc='<td style="color:red">ERROR! Try Again</td>';
+									}
+									var append='';
+										append= '<tr>\
+                							<td>'+e.name+'</td> \
+                							<td>'+e.category+'</td> \
+                							<td>'+e.gender+'</td>';
+										append+=idc;
+										append+='</tr>';
+										
+									$("#members-result" ).append(append);
+								});
+								
+								$("#myModal").modal('show');
+							}
+							else{
+								alert(ret.message);
+							}
+						}
+						catch(e){
+							alert("Invalid response from server");
+							console.log(e);
+						}
+						$('.overlay').css('display','none');
+					},
+					error:function(err){
+						alert("Error in connection");
+						$('.overlay').css('display','none');
+						window.location = window.location.href;
+					}
+				});	
+    		});
+			$('.overlay').css('display','none');
+		});
+	</script>
+	</body>
+</html>
+
+
