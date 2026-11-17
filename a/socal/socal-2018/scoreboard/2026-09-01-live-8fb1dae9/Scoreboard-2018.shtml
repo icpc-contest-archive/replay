@@ -14,7 +14,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <title>Scoreboard</title>
 <link rel="icon" href="http://localhost/domjudge/images/favicon.png" type="image/png">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="assets/ce7be5aea5c4ccf5.css" type="text/css">
+<link rel="stylesheet" href="../../../../_assets/89/895125a4522a3b10ee7ada06ee6503587cbf95c5.css" type="text/css">
 <style>
 body {
   padding-top: 4.5rem;
@@ -46,9 +46,9 @@ h6 { font-size: .75em; }
   margin-right: 2rem;
 }
 </style>
-<link rel="stylesheet" href="assets/c48bfd3500ff97f1.css" type="text/css">
-<link rel="stylesheet" href="assets/01715eaef373976b.css">
-<img src="assets/f073ba35e4b8e19b.png" align="center" width="920">
+<link rel="stylesheet" href="../../../../_assets/ba/bae99ec50450a8319c93e27eb7a494ad681810c0.css" type="text/css">
+<link rel="stylesheet" href="../../../../_assets/b3/b311b1a89ef94fd1ed4501ea06f784ad5da8fced.css">
+<img src="../../../../_assets/25/25f90efc1c635274375bf8ce949109d4dddc37df.png" align="center" width="920">
 </head>
 <body>
 <div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>

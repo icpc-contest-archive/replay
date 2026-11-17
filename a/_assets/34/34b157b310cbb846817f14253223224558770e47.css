@@ -1,0 +1,241 @@
+body
+{
+    background:#FBFBFB;
+    color:#222222;
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:0%;
+	margin-bottom:0%;
+    padding:0;
+	border-style:none;
+	border-color:#886644;
+	border-width:3px;
+    font-family:sans-serif;
+    font-weight:normal;
+	font-size:100%
+}
+
+table.navbar
+{
+    color:#DDDDDD
+    font-size:60%;
+    text-indent:1em;
+}
+
+table.newsbar
+{
+    color:#000000;
+    font-weight:bold
+}
+
+div.hline
+{
+    color:#000000;
+    background:#000000;
+    height:2;
+    width:100%
+}
+
+div.banner
+{
+    text-align:center;
+}
+
+table.menu
+{
+    font-size:100%;
+}
+
+img
+{
+    text-align:center;
+    border-width:0;
+    border-style:solid
+}
+
+span.acm
+{
+    font-weight:bold;
+    font-size:120%
+}
+
+td.title
+{
+    letter-spacing:110%;
+    font-weight:bold;
+    font-size:140%;
+    color:#FFFFFF;
+    background:#884444;
+    padding-top:2;
+    padding-bottom:2;
+    text-align:center
+}
+
+a
+{
+    color:#222222
+}
+
+div.winnerbox
+{
+	background:#FFF0E0;
+	text-align:left;
+	font-size:110%;
+	margin:10pt;
+	border-style:solid;
+	border-width:1px;
+	border-color:#111111;
+	padding:10pt;
+	color:#442211;
+}
+
+
+div.newsbox
+{
+	background:#F0F0E0;
+	text-align:left;
+	margin:10pt;
+	border-style:solid;
+	border-width:1px;
+	border-color:#111111;
+	padding:10pt;
+	color:#442211;
+}
+
+div.indexpagebox
+{
+	background:#F6F6F0;
+	text-align:left;
+	margin:10pt;
+	border-style:solid;
+	border-width:1px;
+	border-color:#666666;
+	padding:10pt
+}
+
+
+div.peoplebox
+{
+	background:#F2F2F0;
+	border-style:solid;
+	border-width:1px;
+	border-color:#999999
+}
+
+
+div.box
+{
+	width:90%;
+	background:#F6F6F0;
+	text-align:left;
+	margin:3pt;
+	border-style:solid;
+	border-width:1px;
+	border-color:#666666;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:1em;
+	padding-bottom:1em
+}
+
+
+div.rubberbox
+{
+	background:#F6F6F0;
+	text-align:left;
+	margin:3pt;
+	border-style:solid;
+	border-width:1px;
+	border-color:#666666;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:1em;
+	padding-bottom:1em
+}
+
+
+h1.one
+{
+	font-size:140%;
+	color:#886644;
+	text-align:left;
+	padding-left:20pt
+}
+
+h2.two
+{
+	font-size:120%;
+	color:#886644;
+	text-align:left;
+	padding-left:20pt;
+}
+
+
+div.emptyborder
+{
+	padding:1em
+}
+
+
+td.datefooter
+{
+	color:#444444;
+	text-align:right;
+	font-size:70%
+}
+
+span.person
+{
+	font-weight:bold
+}
+	
+
+table.status
+{
+	border-style:solid;
+	border-color:#222222;
+	border-width:1px
+}
+
+
+div.stinst
+{
+	border-style:solid;
+	border-color:#222222;
+	border-width:1px;
+	background:#FFCCAA
+}
+
+div.stdraft
+{
+	border-style:solid;
+	border-color:#222222;
+	border-width:1px;
+	background:#FFEECC
+}
+
+tr.sthead
+{
+	background:#FFEEDD
+}
+
+tr.stcoach
+{
+	background:#FFFFEE
+}
+
+tr.stpart
+{
+	background:#FFFFEE
+}
+
+span.new
+{
+	color:#FF0000;
+	text-decoration:blink;
+}
+
+span.hot
+{
+	color:#000000;
+}

@@ -1,0 +1,256 @@
+span.confirmation-button {
+    font-size: 1.0rem;
+    border-radius: 3px;
+    color: white;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.group-form div.title {
+    text-align: center;
+    font-size: 1.8em;
+    color: #3B5998 !important;
+}
+
+.group-form .table-form .field-name {
+    width: auto !important;
+}
+
+.group-form .table-form tr td .field-input {
+    width: 25em;
+}
+
+.group-form .input-description {
+    font-size: 1.1rem;
+    color: #777;
+    width: 35em;
+    margin-top: 2px;
+    margin-bottom: 1em;
+}
+
+.group-form .table-form tr.group-audit-setting-row td {
+    vertical-align: top;
+}
+
+.group-form .table-form tr.group-audit-setting-row td:not(.field-name) {
+    padding-top: 0.5em;
+}
+
+.groupName {
+    color: black !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.group-audit-period {
+    text-align: right;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.group-audit-period-row,
+.group-audit-custom-period-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.group-audit-custom-period-form {
+    align-items: flex-start;
+}
+
+.group-audit-period-row:first-child {
+    margin-top: 0;
+}
+
+.group-audit-datetime-label {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.35rem;
+}
+
+.group-audit-datetime-caption {
+    display: inline-flex;
+    align-items: center;
+    height: 2.1rem;
+}
+
+.group-audit-datetime-field {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.group-audit-datetime-input {
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    height: 2.1rem;
+    width: 12em;
+    padding-left: 0.25em;
+}
+
+.group-audit-datetime-input::placeholder {
+    font-size: 1rem;
+}
+
+.group-audit-timezone-hint {
+    font-size: 1.078rem;
+    line-height: 1.2em;
+    margin-top: 0.15rem;
+    white-space: nowrap;
+}
+
+.group-audit-apply-button {
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    height: 2.1rem;
+    padding: 0 1.1rem;
+}
+
+.group-audit-note {
+    margin-bottom: 1rem;
+}
+
+.group-audit-padded-box {
+    padding: 0.75rem 1rem;
+}
+
+.group-audit-filter-summary .datatable-caption-label {
+    margin-left: 0;
+}
+
+.group-audit-retention-note {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.45rem 0.75rem;
+    font-size: 1.1rem;
+    line-height: 1.35;
+}
+
+.group-audit-case-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.group-audit-case-meta {
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+.group-audit-time {
+    white-space: nowrap;
+}
+
+.group-audit-user,
+.group-audit-ip,
+.group-audit-token {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+a.group-audit-user,
+a.group-audit-ip,
+a.group-audit-token {
+    color: #0000cc !important;
+    text-decoration: underline !important;
+}
+
+a.group-audit-user span {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+.group-audit-token {
+    max-width: 14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.group-audit-ignore-form {
+    margin: 0.5rem;
+}
+
+.group-audit-incident-count {
+    color: #c00;
+    font-weight: bold;
+}
+
+/* Classes for OverallCustomRatingFrame */
+
+.overall-custom-rating-cell {
+    color: #37474F;
+    font-weight: bold;
+}
+
+/* Verdicts */
+
+.overall-custom-rating-no-attempts {
+
+}
+
+.overall-custom-rating-accepted.overall-custom-rating-contestant {
+    background-color: #00E676 !important;
+}
+
+.overall-custom-rating-accepted.overall-custom-rating-virtual {
+    background-color: #69F0AE !important;
+}
+
+.overall-custom-rating-accepted.overall-custom-rating-practice {
+    background-color: #B9F6CA !important;
+}
+
+.overall-custom-rating-accepted {
+    /*color: #0a0;*/
+    /*font-weight: bold;*/
+}
+
+.overall-custom-rating-rejected {
+    color: red;
+    font-weight: normal;
+}
+
+.overall-custom-rating-partial {
+    color: black !important;
+    background-color: #64FFDA !important;
+    font-weight: bold !important;
+
+    /*font-weight: bold;*/
+}
+
+/* Participation type */
+
+.overall-custom-rating-contestant {
+
+}
+
+.overall-custom-rating-virtual {
+
+}
+
+.overall-custom-rating-practice {
+
+}
+
+/* User or team submission */
+
+.overall-custom-rating-user {
+
+}
+
+.overall-custom-rating-team {
+
+}
+
+/*
+#sidebar .sidebox input[type="button"],
+#sidebar .sidebox input[type="submit"] {
+    font-size: 1.3rem !important;
+    width: 22rem !important;
+}
+*/

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+
+.footer-contaier {
+    position: relative;
+    z-index: 99;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.footer-col {
+    margin-top: 0px;
+    padding-left: 50px;
+    
+}
+
+.columnn {
+    flex-wrap: wrap;
+
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+footer ul a li {
+    padding: 4px;
+    color: #0a1a80;
+}
+
+footer ul a li:hover {
+    color: #660991;
+    cursor: pointer;
+}
+
+footer .hr {
+    border-width: 3px;
+}
+
+footer .card {
+    padding: 2%;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+footer .social > i {
+    padding: 1%;
+    font-size: 15px;
+}
+
+footer .social > i:hover {
+    color: #4d83bf;
+    cursor: pointer;
+}
+
+footer .policy > div {
+    padding: 4px;
+}
+
+footer .heading {
+    font-family: "Titillium Web", sans-serif;
+    color: black;
+    padding-left: 0px;
+}
+
+footer .divider {
+    border-top: 2px solid;
+}
+
+footer .icpcImage {
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+footer .katebImage {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+footer .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.addressOne {
+    height: 50px;
+    width: 50px;
+}
+.addressTow {
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 567px) {
+    .padd{
+        padding-left: 0px;
+    }
+    .marg{
+        margin-top: 20px;
+    }
+    .footer-col {
+        margin-left: 20px;
+    }
+
+    .footer-col h5 {
+        font-size: 14px;
+    }
+
+    footer ul > li {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    footer .divider .pull-left p {
+        font-size: 10px;
+    }
+    .heightt {
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+        background-color: red;
+    }
+}

@@ -16,7 +16,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 #icpc-archive-banner a{color:#8fc1f0}</style>
 
 <title>ACM Southern California Regional Programming Contest</title>
-<link rel="stylesheet" type="text/css" href="assets/16695aa9c4f2e37a.css">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/18/182ac36b62c7abefc810ea05ff4f82e430fd04b7.css">
 <!--script>
 function expired()
 {
@@ -38,7 +38,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 
 <center>
 <h2><b>Southern California Region</b></h2>
-<p><img src="assets/6ac573d556467c88.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
+<p><img src="../../../../_assets/7b/7b5ffec5256e48a4ee246d152b93f038916d8f78.gif" alt="ACM ICPC Banner" width="580" height="77"></p>
 </center>
 <table border="0" width="100%">
 <tr>

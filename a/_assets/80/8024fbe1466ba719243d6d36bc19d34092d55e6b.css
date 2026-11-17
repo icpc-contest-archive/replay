@@ -1,0 +1,25 @@
+ul.nde-menu-system * {
+  font: 1em verdana sans-serif;
+}
+
+ul.nde-menu-system li a {
+  display: inline;
+  text-decoration: none;
+  margin: 0;
+  color: black;
+  font-size: .9em;
+}
+
+ul.nde-menu-system li a:hover {
+  color: #FFF;
+  background-color: blue;
+}
+
+ul.nde-menu-system li.submenu ul a {
+  color: black !important;
+}
+
+ul.nde-menu-system li.submenu ul a:hover {
+  color: white !important;
+  background-color: blue;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>ICPC 2010</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <script type="text/javascript" src="/icpc2010/js/jquery.js"></script>
+    <script type="text/javascript" src="/icpc2010/js/fg.menu.js"></script>
+    
+    <link type="text/css" href="/icpc2010/css/fg.menu.css" media="screen" rel="stylesheet" />
+    <link type="text/css" href="/icpc2010/css/theme/ui.all.css" media="screen" rel="stylesheet" />
+	<link type="text/css" href="/icpc2010/css/style.css" media="screen" rel="stylesheet" />
+	<!--[if IE 6]><link type="text/css" href="css/ie6style.css" media="screen" rel="stylesheet" /><![endif]-->
+    <script type="text/javascript">    
+    $(function(){
+    	$('.fg-button').hover(
+    		function(){ $(this).removeClass('ui-state-default').addClass('ui-state-focus'); },
+    		function(){ $(this).removeClass('ui-state-focus').addClass('ui-state-default'); }
+    	);
+		$('#registration').menu({ 
+			content: $('#registration').next().html(), 
+			showSpeed: 100 
+		});
+		$('#thecontest').menu({ 
+			content: $('#thecontest').next().html(),
+			backLink: false, 
+			showSpeed: 100 
+		});
+		$('#enjoyjakarta').menu({ 
+			content: $('#enjoyjakarta').next().html(), 
+			showSpeed: 100 
+		});		
+		$('#aboutus').menu({
+			content: $('#aboutus').next().html(),
+			showSpeed: 100
+		});
+    });
+    </script>
+</head>
+
+<body>
+<div id="page">
+	<div id="headerlogo">&nbsp;</div>
+	<div id="menubar">
+	<a tabindex="0" href="/icpc2010/index/main" onclick="return doload(this)" class="fg-button ui-widget ui-state-default ui-corner-all">Home</a>
+	<a tabindex="1" href="#aboutus" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="aboutus">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>About Us</a>
+	<div id="aboutus" class="hidden">
+	<ul>
+		<li><a href="/icpc2010/index/aboutinc">Indonesia National Contest</a></li>
+		<li><a href="/icpc2010/index/aboutus">Asia Jakarta Regional Contest</a></li>
+	</ul>
+	</div>
+	<a tabindex="2" href="#registration" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="registration">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>Registration</a>
+	<div id="registration" class="hidden">
+	<ul>
+		<li><a href="/icpc2010/index/howtoregister">How To Register</a></li>
+		<li><a href="/icpc2010/index/importantdate">Important Date</a></li>
+	</ul>
+	</div>
+	<a tabindex="3" href="#thecontest" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="thecontest">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>The Contest</a>
+	<div id="thecontest" class="hidden">
+	<ul>
+		<li><a href="#">Run Down</a>
+			<ul>
+				<li><a href="/icpc2010/index/rundowninc">Indonesia National Contest</a></li>
+				<li><a href="/icpc2010/index/rundown">Asia Jakarta Regional Contest</a></li>
+			</ul>
+		</li>
+		<li><a href="/icpc2010/index/floormap">Floor Map <sup style="text-decoration:blink">new!</sup></a></li>
+		<li><a href="/icpc2010/index/rules">Rules</a></li>
+		<li><a href="/icpc2010/index/top50inc">Top 50 INC</a></li>
+		
+		<li><a href="/icpc2010/index/gotobinus">How to get to BINUS</a></li>
+	</ul>
+	</div>
+	<a tabindex="4" href="#enjoyjakarta" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="enjoyjakarta">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>Enjoy Jakarta</a>
+	<div id="enjoyjakarta" class="hidden">
+	<ul>
+		<li><a href="/icpc2010/index/visa">Visa Information</a></li>
+		<li><a href="/icpc2010/index/hotel">Hotel Recommendation</a></li>
+		<li><a href="/icpc2010/index/housing">Housing <sup style="text-decoration:blink;color:#F00">Full Booked!</sup></a></li>
+		<li><a href="/icpc2010/index/excursion">Excursion</a></li>
+	</ul>
+	</div>
+	<a tabindex="5" href="/icpc2010/index/contactus" onclick="return doload(this)" class="fg-button ui-widget ui-state-default ui-corner-all">Contact Us</a>
+	</div>
+	<div id="content">
+Sorry the page you're looking for is not available.
+</div>
+<div id="headeracm"></div>
+<div style="clear:right"></div>
+<div id="latestnews">
+How to register, click <a onclick="return doload(this)" href="/icpc2010/index/howtoregister">here</a>.<br/>
+To register your team, click <a href="http://icpc.baylor.edu" target="_blank">here</a><br/>
+for ICPC Updates please refer to :<br/>
+<a href="http://icpcasia.blogspot.com/" target="_blank">http://icpcasia.blogspot.com/</a><br/>
+<a href="http://hi.baidu.com/cjhwang" target="_blank">http://hi.baidu.com/cjhwang</a><br/>
+<a href="http://blog.roodo.com/cjblog" target="_blank">http://blog.roodo.com/cjblog</a>
+<br/>
+	<b>Latest News</b><br/>
+	<u>December 13</u><sup>th</sup><u>, 2010</u><br/>
+        ICPC 2010 report can be seen here:
+        <ul>
+                <li><a href="/icpc2010/icpcreport2010.pdf" target="_blank">Report<sup style="text-decoration:blink">new!</sup></a></li>
+        </ul>
+	<u>December 6</u><sup>th</sup><u>, 2010</u><br/>
+	Problemset can be seen here:
+	<ul>
+		<li><a href="/icpc2010/icpc10jak-problemset.pdf" target="_blank">Problemset<sup style="text-decoration:blink">new!</sup></a></li>
+	</ul>
+	<u>December 1</u><sup>st</sup><u>, 2010</u><br/>
+	Final result can be seen here: 
+	<ul>
+		<li><a href="/icpc2010/result/final.html" target="_blank">Final Result<sup style="text-decoration:blink">new!</sup></a></li>
+	</ul>
+	<u>November 16</u><sup>th</sup><u>, 2010</u><br/>
+	Run Down has been updated: 
+	<ul>
+		<li><a href="/icpc2010/index/rundown" onclick="return doload(this)">Run Down</a></li>
+	</ul>
+	Floor Map has been updated: 
+	<ul>
+		<li><a href="/icpc2010/index/floormap" onclick="return doload(this)">Floor Map</a></li>
+	</ul>
+	<u>November 12</u><sup>th</sup><u>, 2010</u><br/>
+	Rules has been updated: 
+	<ul>
+		<li><a href="/icpc2010/index/rules" onclick="return doload(this)">Rules</a></li>
+	</ul>
+	Top 50 INC 2010 has been announced: 
+	<ul>
+		<li><a href="/icpc2010/index/top50inc" onclick="return doload(this)">Top 50 INC 2010</a></li>
+	</ul>
+	<u>November 5</u><sup>th</sup><u>, 2010</u><br/>
+	Rules and Rundown has been updated : 
+	<ul>
+		<li><a href="/icpc2010/index/rules" onclick="return doload(this)">Rules</a></li>
+		<li><a href="/icpc2010/index/rundowninc" onclick="return doload(this)">Indonesia National Contest</a></li>
+		<li><a href="/icpc2010/index/rundown" onclick="return doload(this)">Asia Jakarta Regional Contest</a></li>
+	</ul>
+	<u>July 28</u><sup>th</sup><u>, 2010</u><br/>
+	ICPC 2010 web site is up, with features:<ul>
+		<li><a href="/icpc2010/index/aboutinc" onclick="return doload(this)">About INC</a></li>
+		<li><a href="/icpc2010/index/aboutus" onclick="return doload(this)">About ICPC AJRC</a></li>
+		<li><a href="/icpc2010/index/howtoregister" onclick="return doload(this)">How to Register</a></li>
+		<li><a href="/icpc2010/index/importantdate" onclick="return doload(this)">Important Date</a></li>
+		<li><a href="/icpc2010/index/visa" onclick="return doload(this)">Visa Information</a></li>
+                <li><a href="/icpc2010/index/housing" onclick="return doload(this)">Housing</a></li>
+		<li><a href="/icpc2010/index/hotel" onclick="return doload(this)">Hotel Recommendation</a></li>
+		<li><a href="/icpc2010/index/contactus" onclick="return doload(this)">Contact Us</a></li>
+	</ul>
+</div>
+<div style="clear:right">&nbsp;</div>
+<div id="footer">
+	<div style="float:left">Copyright &copy; 2009 BINUS UNIVERSITY. All rights reserved.</div>
+	<div style="clear:left">&nbsp;</div>
+	<div>Best view with Mozilla Firefox 3.5, Safari 4.0.2 &amp; Google Chrome, normal view with Internet Explorer 8, Maxthon 1.3.1 &amp; Opera 9.64</div>
+</div>
+</div>
+</body>
+</html>
+
+
+

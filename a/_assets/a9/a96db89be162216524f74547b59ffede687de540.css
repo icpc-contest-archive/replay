@@ -1,0 +1,51 @@
+/* set up base to initialize inheritance */
+
+BODY,.body,TD,TH,TABLE
+{ 
+	text-align: left;
+	color: #580DA6;
+	background-color: #FFFFF0;
+        border-color: #580DA6;
+	font-family: 'Times', roman, serif;
+	font-size: medium;
+	text-decoration: none;
+}
+
+.bc
+{ 
+	text-align: left;
+	color: #580DA6;
+	background-color: #FFFFF0;
+        border-color: #580DA6;
+        border-style: solid;
+	font-family: 'Times', roman, serif;
+	font-size: medium;
+	text-decoration: none;
+}
+
+/* define stuff for the header */
+.hd { text-align: center; font-size: large; text-decoration: none; color: #580DA6; background-color: #FFFFF0; }
+
+h1.hd { font-size: xx-large; font-weight: bolder; text-decoration: none; color: #580DA6; background-color: #FFFFF0; }
+
+h2.hd { font-size: x-large; font-weight: bolder; text-decoration: none; color: #580DA6; background-color: #FFFFF0; }
+
+h3.hd { font-size: large; font-weight: bolder; text-decoration: none; color: #580DA6; background-color: #FFFFF0; }
+
+/* define for the left column */
+
+.lc 
+{ color: #580DA6; background-color: #FFFFF0; 
+  text-decoration: none; font-size: medium; 
+  valign: top; align: left; }
+
+/* define footer */
+
+.ft { font-size: small; text-decoration: none; }
+
+A:active,A:hover  { font-size: 125%; color: #580DA6; background-color: #FFFFF0; }
+A:link,A:visited  { color: #580DA6; background-color: #FFFFF0; }
+
+A.lc:active,A.lc:hover  { font-size: 125%; color: #580DA6; background-color: #FFFFF0; }
+A.lc:link,A.lc:visited  { color: #580DA6; background-color: #FFFFF0; }
+

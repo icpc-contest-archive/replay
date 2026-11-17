@@ -1,0 +1,47 @@
+a:link
+{
+	text-decoration: underline;
+	color:#000080;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: x-small;
+}
+
+a:visited
+{
+	text-decoration: underline; 
+	color:#000080; 
+	font-family: Arial, Helvetica, Verdana;
+	font-size: x-small;
+}
+
+a:active
+{
+	text-decoration: underline;
+	color:blue; 
+	font-family: Arial, Helvetica, Verdana;
+	font-size: x-small;
+}
+
+a:hover 	
+{
+	text-decoration: underline; 
+	color:red; 
+	font-family: Arial, Helvetica, Verdana;
+	font-size: x-small;
+}
+
+body
+{
+	font-family: Arial, Helvetica, Verdana;
+	background-image: url('http://socalcontest.acm.org/images/tocbk.gif'); 
+	font-size: x-small;
+}
+
+table
+{
+	background-repeat: repeat; 
+	background-attachment: scroll; 
+	background-image: url('http://socalcontest.acm.org/images/tocbk.gif');
+        background-position: 0%
+}
+

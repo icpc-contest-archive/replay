@@ -30,7 +30,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/53/53387208df793e4f92f72cf9a5ad94f9f5360d0e.css">
 <script>
 function notyet()
 {
@@ -61,7 +61,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 </table>
 </div>
 <div id="banner">
-<img src="assets/374bd1f11167ecf9.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
+<img src="../../../../_assets/e5/e515f229984714701b49c30de3596991f80c3a73.gif" alt="ACM ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="33,5,507,93" href="http://socalcontest.org">
   <area shape="rect" coords="536,7,721,46" href="http://ibm.com/start" target="_blank">

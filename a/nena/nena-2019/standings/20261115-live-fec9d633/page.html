@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://open.kattis.com/contests/nena19open">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "bee0ddacb12789869dd4dbd8a088cac49596ab3f",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/open\.kattis\.com/ 
+                ],
+                ignoreErrors: [
+                    "Non-Error exception captured", 
+                    "Non-Error promise rejection captured",
+                    'ResizeObserver loop limit exceeded',
+                    'Can\'t find variable: zaloJSV2'
+                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'], 
+                autoSessionTracking: false,
+                integrations: [
+                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 0.001,
+                replaysSessionSampleRate: 0, 
+                replaysOnErrorSampleRate: 0, 
+                tracePropagationTargets: ["localhost", /https?:\/\/open\.kattis\.com/], 
+            });
+            Sentry.configureScope((scope) => scope.setTransactionName("contests_view")); 
+        })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        Contest
+ &ndash; Kattis, Kattis</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="../../../../_assets/56/56ae887cd732c0f97f323684ebe177319b53c821.css" rel="stylesheet">
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="/assets/02c0af251acfefea5bbe78ff39b3e835/jquery/dist/jquery.min.js"></script>
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="/assets/02c0af251acfefea5bbe78ff39b3e835/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="../../../../_assets/82/8230c4590eee915e9b587a08f6e593fb77fffeb2.css" rel="stylesheet">
+
+        <link href="../../../../_assets/61/6128d7d58b517a8bbbe707b664f236e4d8bbea74.css" rel="stylesheet">
+        <link href="../../../../_assets/18/18c0c74b59978aaf8f8c8e93b89e6b18c52d5364.css" rel="stylesheet">
+        <link href="../../../../_assets/bd/bd840ec5e30d9002b12fcaee7a2feac1cc81df37.css" rel="stylesheet">
+        <link href="../../../../_assets/f0/f0fc2547d647d89a58698b40086fdeb95543147f.css" rel="stylesheet">
+        <link href="../../../../_assets/b5/b5a812b85262074fb5558a9ecb4640b66ee0f5b5.css" rel="stylesheet">
+        <link href="../../../../_assets/4d/4dddf60abb57d36f6d2007eaa631ca64ba483c50.css" rel="stylesheet">
+        <link href="../../../../_assets/e9/e9a2176740482010b41c5953078d2dbe927b8555.css" rel="stylesheet">
+        <link href="../../../../_assets/00/0037988f8fae17b81b777833c9db31da93023785.css" rel="stylesheet">
+        <link href="../../../../_assets/ba/ba0296c47ad80a2e13f1e4454f1cb6a43671a8ea.css" rel="stylesheet">
+        <link href="../../../../_assets/57/5726d558fc018711267f49c366567a4815e27b5c.css" rel="stylesheet">
+        <link href="../../../../_assets/a9/a92e7d81a90fcf74c78679cc4a7f361b4cf8edbd.css" rel="stylesheet">
+        <link href="../../../../_assets/be/be86e49bb0d387e0cdcb331070755a53286930d8.css" rel="stylesheet">
+        <link href="../../../../_assets/0b/0b6490b5fecd738b0c6f7a3fdaceb31120cdda14.css" rel="stylesheet">
+        <link href="../../../../_assets/2c/2c4b27902f2763921a399dd123ebdfb5e3bae1c4.css" rel="stylesheet">
+
+    <!-- DateRangePicker CSS -->
+    <link href="../../../../_assets/8e/8ea448a2344bcc364a92e8c9282fc1585874512e.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="../../../../_assets/33/33d64f7c2d228901a82c500f0a3c1b92834e23f2.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="../../../../_assets/bb/bb0a2a94af17cf0eaa08d1d8ca576728511eeb3b.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../_assets/91/912f301d2efd00e0bd4ef21bce95b4f6dcb5a153.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="../../../../_assets/2c/2c201173ac314cd70a5e440591daeb7827597bb8.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, Kattis">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="../../../../_assets/a5/a517c8eb28da89e0db9fc5aff5ce7dce49b0b0bc.css">
+    <style type="text/css"> 
+     .logo {
+         background-color: ;
+     }
+     :root {
+             --branding-border: linear-gradient(rgb(240,176,52), rgb(240,176,52));
+     }
+
+     
+    </style>
+
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://open.kattis.com/contests/nena19open">https://open.kattis.com/contests/nena19open</a> (live fetch 2026-11-16)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/nena-2019.html">nena-2019</a>  <a href="https://web.archive.org/web/*/https://open.kattis.com/contests/nena19open">wayback</a>  <a href="https://open.kattis.com/contests/nena19open">live</a></div>
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="Kattis">
+                <img class="logo" src="../../../../_assets/03/03219b8c52f46766d7a7b273ca6e7c20f09567cf.png" alt="Kattis logo" />
+            </a>
+            <h4 class="logo-container-text">Kattis</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav aria-label="Main" class="main_menu">
+                <ul>
+                        <li>
+                            <a  href="/contests/nena19open/problems" class="main_menu-item main_menu-item_link "  title="Problems">
+                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Problems</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/contests" class="main_menu-item main_menu-item_link " aria-current="true" title="Contests">
+                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Contests</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/challenge" class="main_menu-item main_menu-item_link "  title="Challenge">
+                                    <i class="fas fa-star main_menu-item_icon"></i>
+                                <span class="main_menu-item_name beta_label">Challenge</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/ranklist" class="main_menu-item main_menu-item_link "  title="Ranklists">
+                                    <i class="fas fa-trophy main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Ranklists</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/jobs" class="main_menu-item main_menu-item_link "  title="Jobs">
+                                    <i class="fas fa-suitcase main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Jobs</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/languages" class="main_menu-item main_menu-item_link "  title="Languages">
+                                    <i class="fas fa-code main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Languages</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link "  title="Info">
+                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link "  title="Help">
+                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Help</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+                <search class="header_item_margin search-lower">
+                    <label for="search_input" class="search-label search-label-right">Search</label>
+                    <form id="search_form" method="GET" action="/search" class="search">
+                            <img src="../../../../_assets/1f/1fc6815562480c3520219c7f201a11cb1dc7e434.png" alt="Kattis Cat" class="search-mascot" />
+                        <input id="search_input" type="search" name="q" class="search-input" placeholder="Search Kattis" />
+                        <i id="search_submit" class="fas fa-search search-icon"></i>
+                    </form>
+                </search>
+        </div>
+    </div>
+</header>
+
+
+<div class="top_bar ">
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+        <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <nav aria-label="Breadcrumbs" class="breadcrumbs top_bar-item">
+                    <ol>
+                            <li class="breadcrumb"><a href="/contests">Contests</a></li>
+                            <li class="breadcrumb"><a href="/contests/nena19open">ICPC Northeast North America Regional Contest 2019 — Open Division</a></li>
+                        <li class="breadcrumb">        Contest
+</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+
+    <div id="contest_time" data-props="&#123;&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:221493553,&quot;total_seconds&quot;:18000,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                        <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-2563 days 13:59:13</span>
+                        </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">ICPC Northeast North America Regional Contest 2019 — Open Division</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">5:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                            <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-2563 days 13:59:13</span>
+                            </div>
+                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-2563 days 8:59:13</span>
+                            </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                    <h4>Start</h4>
+            2019-11-09 16:15 CET
+                        </div>
+                        <div class="contest-end flex justify-between">
+                                <h4>End</h4>
+            2019-11-09 21:15 CET
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="/contests/nena19open/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" style="display: inline">
+<input type="hidden" name="csrf_token" value="4305569825822327842810262015673074879758" />        <button type="submit" name="login_and_return" class="button button-primary button-small">Log in</button>
+    </form>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+    <main class="flex flex-col grow content_padding">
+        <div class="alerts-container">
+
+
+
+
+                <div class="mb-4">
+                        <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="application/json" id="alert-team-data">
+        {
+            "csrf_token": "4305569825822327842810262015673074879758",
+            "invitation_url": "\/ajax\/session\/invitation-response",
+            "in_session_url": "\/ajax\/session\/is-in-session"
+        }
+    </script>
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/team_invitation_alert.js"></script>
+
+
+
+                </div>
+        </div>
+
+<script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/banner.js"></script>
+
+
+
+
+
+    <div class="flex justify-between items-center mb-8 mt-4">
+        <h1>ICPC Northeast North America Regional Contest 2019 — Open Division</h1>
+        <div>
+        </div>
+    </div>
+
+
+    <div class="l-strip_list-gap strip-plain">
+
+
+
+
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/mobile_tabs.js"></script>
+
+    <nav class="tab-nav" data-mobile-select-classes="is-hidden@md">
+        <a class="tab-nav-item" aria-current="page" href="/contests/nena19open" title="Contest">Contest</a>
+
+            <a class="tab-nav-item"  href="/contests/nena19open/standings" title="Standings">Standings</a>
+
+        <a class="tab-nav-item"  href="/contests/nena19open/problems" title="Problems">Problems</a>
+
+            <a class="tab-nav-item"  href="/contests/nena19open/teams" title="Teams">Teams</a>
+
+
+
+            <a class="tab-nav-item"  href="/contests/nena19open/rules" title="Rules">Rules</a>
+
+        <div class="ml-auto flex">
+        </div>
+    </nav>
+    </div>
+    <section class="l-strip_list">
+        <div class="strip">
+            <div class="strip-item">
+                <h1 class="mb-2">Welcome to ICPC Northeast North America Regional Contest 2019 — Open Division</h1>
+     <div>
+    </div>
+            </div>
+
+                <div class="strip-item strip-item-secondary">
+    <p>
+        This is the contest system for ICPC Northeast North America Regional Contest 2019 — Open Division.
+            The contest has now finished.
+
+                You can view the
+                <a href="/contests/nena19open/standings">final results</a>.
+    </p>
+                </div>
+        </div>
+
+            <section class="flex flex-wrap gap-25px w-full">
+                    <div class="strip-grid-item mb-0 grow basis-1/5">
+                        <div class="flex">
+                            <div class="icon-badge blue"><i class="fas fa-exclamation"></i></div>
+                            <div class="ml-2">
+                                <span class="text-xl font-bold">10</span><br>
+                                <span class="text-sm text-gray-200">Problems</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-grid-item mb-0 grow basis-1/5">
+                        <div class="flex">
+                            <div class="icon-badge green"><i class="fas fa-user-graduate"></i></div>
+                            <div class="ml-2">
+                                <span class="text-xl font-bold">62 / 55</span><br>
+                                <span class="text-sm text-gray-200">Contestants / Teams</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-grid-item mb-0 grow basis-1/5">
+                        <div class="flex">
+                            <div class="icon-badge yellow"><i class="fas fa-code"></i></div>
+                            <div class="ml-2">
+                                <span class="text-xl font-bold">61</span><br>
+                                <span class="text-sm text-gray-200">Languages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-grid-item mb-0 grow basis-1/5">
+                        <div class="flex">
+                            <div class="icon-badge light-blue"><i class="fas fa-spinner"></i></div>
+                            <div class="ml-2">
+                                <span class="text-xl font-bold">258</span><br>
+                                <span class="text-sm text-gray-200">Submissions</span>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+        <article class="strip-grid strip-grid-2-columns">
+
+            <div class="strip-grid-item">
+    <h2 class="mb-4">Start &amp; End Times</h2>
+    <div class="table-container">
+        <div class="table-wrapper">
+            <table class="table2">
+                <tr>
+                        <td style="min-width:180px">Start Time</td>
+                        <td>
+            2019-11-09 16:15 CET
+                        </td>
+                </tr>
+                <tr>
+                    <td>Length</td>
+                    <td>5:00:00</td>
+                </tr>
+
+
+                <tr>
+                    <td>End time</td>
+                    <td>            2019-11-09 21:15 CET
+</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+            </div>
+
+                <div class="strip-grid-item">
+    <h2 class="mb-4">Problems</h2>
+            <div class="table-container">
+                <div class="table-wrapper">
+                    <table class="table2">
+                        <thead>
+                            <tr>
+                                <th>Label</th>
+                                <th>Problem</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/addemup">A</a></td>
+                                    <td><a href="/contests/nena19open/problems/addemup">Add 'Em Up!</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/thecolonizationofelgarizm">B</a></td>
+                                    <td><a href="/contests/nena19open/problems/thecolonizationofelgarizm">The Colonization of El-gă-rizm</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/cuttingthenecklace">C</a></td>
+                                    <td><a href="/contests/nena19open/problems/cuttingthenecklace">Cutting the Necklace</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/fairdivisions">D</a></td>
+                                    <td><a href="/contests/nena19open/problems/fairdivisions">Fair Divisions</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/guessthedigits">E</a></td>
+                                    <td><a href="/contests/nena19open/problems/guessthedigits">Guess the Digits</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/monumentmaker">F</a></td>
+                                    <td><a href="/contests/nena19open/problems/monumentmaker">Monument Maker</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/protectingthecollection">G</a></td>
+                                    <td><a href="/contests/nena19open/problems/protectingthecollection">Protecting the Collection</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/thesockpile">H</a></td>
+                                    <td><a href="/contests/nena19open/problems/thesockpile">The Sock Pile</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/stickers">I</a></td>
+                                    <td><a href="/contests/nena19open/problems/stickers">Stickers</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/contests/nena19open/problems/thewireghost">J</a></td>
+                                    <td><a href="/contests/nena19open/problems/thewireghost">The Wire Ghost</a></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                </div>
+
+            <div class="strip-grid-item">
+    <h2>Scoring</h2>
+    <p><span class="badge light-blue">Pass/Fail — Ranked</span></p>
+    <div class="prose">
+        <p><b>Explanation:</b><br>Each problem is pass/fail. Participants are ranked by the number of solved problems, breaking ties by penalty (sum of time + 20 minutes per wrong submission, for all solved problems). Time is rounded to minutes.</p>
+    </div>
+            </div>
+
+            <div class="strip-grid-item">
+
+    <h2>Standings</h2>
+
+    <ul class="mt-2">
+            <li>
+                    Standings are shown without limitation.
+            </li>
+
+
+    </ul>
+            </div>
+
+            <div class="strip-grid-item">
+    <h2>Languages</h2>
+    <p>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/ada">
+                Ada
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/algol60">
+                Algol 60
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/algol68">
+                Algol 68
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/apl">
+                APL
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/bash">
+                Bash
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/bcpl">
+                BCPL
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/bqn">
+                BQN
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/c">
+                C
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/csharp">
+                C#
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/cpp">
+                C++
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/basic">
+                Classic BASIC
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/clojure">
+                Clojure
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/cobol">
+                COBOL
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/lisp">
+                Common Lisp
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/crystal">
+                Crystal
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/d">
+                D
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/dart">
+                Dart
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/elixir">
+                Elixir
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/erlang">
+                Erlang
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/fsharp">
+                F#
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/forth">
+                Forth
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/fortran">
+                Fortran
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/fortran77">
+                Fortran 77
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/gerbil">
+                Gerbil
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/go">
+                Go
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/haskell">
+                Haskell
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/icon">
+                Icon
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/java">
+                Java
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/javascript">
+                JavaScript (Node.js)
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/javascriptspidermonkey">
+                JavaScript (SpiderMonkey)
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/julia">
+                Julia
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/kotlin">
+                Kotlin
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/lean">
+                Lean
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/lua">
+                Lua
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/modula2">
+                Modula-2
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/nim">
+                Nim
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/objectivec">
+                Objective-C
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/ocaml">
+                OCaml
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/octave">
+                Octave
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/odin">
+                Odin
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/pascal">
+                Pascal
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/perl">
+                Perl
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/php">
+                PHP
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/pli">
+                PL/I
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/prolog">
+                Prolog
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/python2">
+                Python 2
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/python3">
+                Python 3
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/racket">
+                Racket
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/raku">
+                Raku
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/ruby">
+                Ruby
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/rust">
+                Rust
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/scala">
+                Scala
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/simula">
+                Simula 67
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/smalltalk">
+                Smalltalk
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/snobol">
+                SNOBOL
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/sml">
+                Standard ML
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/swift">
+                Swift
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/typescript">
+                TypeScript
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/uiua">
+                Uiua
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/visualbasic">
+                Visual Basic
+            </a>
+            <a class="badge text-dark"
+                href="/contests/nena19open/languages/zig">
+                Zig
+            </a>
+    </p>
+            </div>
+        </article>
+    </section>
+    </main>
+
+
+
+
+    <footer class="l-footer">
+        <nav aria-label="Footer links" class="text-center text-sm">
+            <ul class="divider-separated-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://status.kattis.com">System Status</a></li>
+                <li><a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a></li>
+                <li><a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/contest/header.js"></script>
+<script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="/assets/02c0af251acfefea5bbe78ff39b3e835/moment/min/moment.min.js"></script>
+<script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="/assets/02c0af251acfefea5bbe78ff39b3e835/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="/assets/02c0af251acfefea5bbe78ff39b3e835/select2/dist/js/select2.full.min.js"></script>
+
+
+    <script defer nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" src="https://status.kattis.com/embed/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" nonce="cf6c2f556b92097357b592939d1105a94f02d4828be7c17627023514a779ac7d" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* ************************************************************* *  ACM/ICPC Web Site                                          * *  Default Style Sheet                                        * *                                            SIF 14/08/2000   * ************************************************************* */body {   color: black;   background-color: white;   /* margin: 4px 10px;   font-family: verdana, arial, sans-serif;    font-size: x-small; */}
+
+a:link {color: blue; text-decoration: underline;}a:active {color: blue; text-decoration: underline;}a:visited {color: blue; text-decoration: underline;}a:hover {color: blue; text-decoration: underline;}
+td.acmbody {
+   padding: 8px 30px; }
+table.atab {    color: #000000;
+   border-width: 2px;
+   border-style: outset;
+   border-color: gray;   border-collapse: collapse;}
+td.ath, td.atb, td.atd {    font-family: arial, verdana, serif;   font-size: 10pt;   font-weight: bold;
+   vertical-align: center;   border-collapse: collapse;   color: black ;}td.ath {   color: lightblue;   background-color: black; }
+
+td.atb {    background-color: white;
+}
+td.atd {    background-color: #dddddd; 
+}

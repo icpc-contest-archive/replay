@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://mcgill19.kattis.com/standings">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <!-- Load sentry as early as possible -->
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module">
+        Sentry.onLoad(function() {
+            Sentry.init({
+                dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
+                release: "bee0ddacb12789869dd4dbd8a088cac49596ab3f",
+                environment: "production",
+                whitelistUrls: [
+                    /https?:\/\/mcgill19\.kattis\.com/ 
+                ],
+                ignoreErrors: [
+                    "Non-Error exception captured", 
+                    "Non-Error promise rejection captured",
+                    'ResizeObserver loop limit exceeded',
+                    'Can\'t find variable: zaloJSV2'
+                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'], 
+                autoSessionTracking: false,
+                integrations: [
+                    new Sentry.BrowserTracing(),
+                ],
+                tracesSampleRate: 0,
+                profilesSampleRate: 0.001,
+                replaysSessionSampleRate: 0, 
+                replaysOnErrorSampleRate: 0, 
+                tracePropagationTargets: ["localhost", /https?:\/\/mcgill19\.kattis\.com/], 
+            });
+            Sentry.configureScope((scope) => scope.setTransactionName("contests_standings")); 
+        })
+    </script>
+
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings &ndash; Kattis, 2019 ICPC NENA (Qubec) Regional Qualifier</title>
+
+    <!-- Jquery and Jquery-ui -->
+    <link href="../../../../_assets/56/56ae887cd732c0f97f323684ebe177319b53c821.css" rel="stylesheet">
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="/assets/02c0af251acfefea5bbe78ff39b3e835/jquery/dist/jquery.min.js"></script>
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="/assets/02c0af251acfefea5bbe78ff39b3e835/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <!-- Timezone Cookie -->
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/timezone.js"></script>
+
+    <!-- Fonts/Icons -->
+    <link href="../../../../_assets/82/8230c4590eee915e9b587a08f6e593fb77fffeb2.css" rel="stylesheet">
+
+        <link href="../../../../_assets/61/6128d7d58b517a8bbbe707b664f236e4d8bbea74.css" rel="stylesheet">
+        <link href="../../../../_assets/18/18c0c74b59978aaf8f8c8e93b89e6b18c52d5364.css" rel="stylesheet">
+        <link href="../../../../_assets/bd/bd840ec5e30d9002b12fcaee7a2feac1cc81df37.css" rel="stylesheet">
+        <link href="../../../../_assets/f0/f0fc2547d647d89a58698b40086fdeb95543147f.css" rel="stylesheet">
+        <link href="../../../../_assets/b5/b5a812b85262074fb5558a9ecb4640b66ee0f5b5.css" rel="stylesheet">
+        <link href="../../../../_assets/4d/4dddf60abb57d36f6d2007eaa631ca64ba483c50.css" rel="stylesheet">
+        <link href="../../../../_assets/e9/e9a2176740482010b41c5953078d2dbe927b8555.css" rel="stylesheet">
+        <link href="../../../../_assets/00/0037988f8fae17b81b777833c9db31da93023785.css" rel="stylesheet">
+        <link href="../../../../_assets/ba/ba0296c47ad80a2e13f1e4454f1cb6a43671a8ea.css" rel="stylesheet">
+        <link href="../../../../_assets/57/5726d558fc018711267f49c366567a4815e27b5c.css" rel="stylesheet">
+        <link href="../../../../_assets/a9/a92e7d81a90fcf74c78679cc4a7f361b4cf8edbd.css" rel="stylesheet">
+        <link href="../../../../_assets/be/be86e49bb0d387e0cdcb331070755a53286930d8.css" rel="stylesheet">
+        <link href="../../../../_assets/0b/0b6490b5fecd738b0c6f7a3fdaceb31120cdda14.css" rel="stylesheet">
+        <link href="../../../../_assets/2c/2c4b27902f2763921a399dd123ebdfb5e3bae1c4.css" rel="stylesheet">
+
+    <!-- DateRangePicker CSS -->
+    <link href="../../../../_assets/8e/8ea448a2344bcc364a92e8c9282fc1585874512e.css" rel="stylesheet">
+
+    <!-- Editable and Select2 -->
+    <link href="../../../../_assets/33/33d64f7c2d228901a82c500f0a3c1b92834e23f2.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png"   sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png"   sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png"   sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png"     sizes="128x128">
+        <link rel="shortcut icon"         href="/images/favicon/favicon.ico">
+        <meta name="application-name"                content="Kattis, 2019 ICPC NENA (Qubec) Regional Qualifier">
+        <meta name="msapplication-TileColor"         content="#FFFFFF">
+        <meta name="msapplication-TileImage"         content="/images/favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo"   content="/images/favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo"   content="/images/favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="../../../../_assets/a5/a517c8eb28da89e0db9fc5aff5ce7dce49b0b0bc.css">
+    <style type="text/css"> 
+     :root {
+             --branding-border: linear-gradient(to left, #e7b763 0%, #e47f43 38%);
+     }
+
+    </style>
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="text/javascript">
+        window.page_loaded_at = new Date();
+        jQuery.noConflict();
+    </script>
+
+</head>
+
+<body class="header-collapsed l-body_grid"  >
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="https://mcgill19.kattis.com/standings">https://mcgill19.kattis.com/standings</a> (live fetch 2026-11-16)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/nena-north-2019.html">nena-north-2019</a>  <a href="https://web.archive.org/web/*/https://mcgill19.kattis.com/standings">wayback</a>  <a href="https://mcgill19.kattis.com/standings">live</a></div>
+
+
+<header class="l-page_header">
+    <div class="page_header-arrow_expand_collapse">
+        <i class="page_header-arrow_expand_collapse-arrow"></i>
+    </div>
+    <div class="page_header-wrapper">
+        <div class="logo-container">
+            <a class="logo-link" href="/" title="2019 ICPC NENA (Qubec) Regional Qualifier">
+                <img class="logo" src="../../../../_assets/2a/2a274b88ca1abdddcdb599e82e0a0542f061dc7e.png" alt="2019 ICPC NENA (Qubec) Regional Qualifier logo" />
+            </a>
+            <h4 class="logo-container-text">2019 ICPC NENA (Qubec) Regional Qualifier</h4>
+            <button class="menu_mobile_link" >
+                <i class="fas fa-bars menu_mobile_link_icon"></i>
+            </button>
+            <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/master/nav.js"></script>
+        </div>
+        <div class="branding_border"></div>
+        <div class="page_header-content">
+            <nav aria-label="Main" class="main_menu">
+                <ul>
+                        <li>
+                            <a  href="/contests/mcgill19/standings" class="main_menu-item main_menu-item_link " aria-current="true" title="Standings">
+                                    <i class="fas fa-award main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Standings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/contests/mcgill19/problems" class="main_menu-item main_menu-item_link "  title="Problems">
+                                    <i class="fas fa-puzzle-piece main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Problems</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="/info" class="main_menu-item main_menu-item_link "  title="Info">
+                                    <i class="fas fa-info main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://support.kattis.com" class="main_menu-item main_menu-item_link "  title="Help">
+                                    <i class="fas fa-question main_menu-item_icon"></i>
+                                <span class="main_menu-item_name ">Help</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="top_bar ">
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/master/top_bar.js"></script>
+    <div class="branding_border"></div>
+        <div class="top_bar-content-wrapper">
+            <div class="top_bar-section top_bar-section-large">
+                <nav aria-label="Breadcrumbs" class="breadcrumbs top_bar-item">
+                    <ol>
+                            <li class="breadcrumb"><a href="/contests">Contests</a></li>
+                            <li class="breadcrumb"><a href="/contests/mcgill19">2019 ICPC NENA (Quebec) Regional Qualifier</a></li>
+                        <li class="breadcrumb">Standings</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class="top_bar-section collapsible-menu-group-right top_bar-section-small items-center">
+
+    <div id="contest_time" data-props="&#123;&quot;has_start&quot;:true,&quot;elapsed_seconds&quot;:222750932,&quot;total_seconds&quot;:21600,&quot;refresh_at_start&quot;:true}" class="top_bar-item top_bar-item-right top_bar-item-button flex items-center text-xs">
+        <div class="contest-progress collapsible-menu-container session-finished">
+            <div class="py-2 top_bar-button" data-open-collapsible-menu-id="top_contest_menu">
+                <div class="only_in_contest flex gap-2 items-center">
+                    <i class="fa fa-stopwatch text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        <span class="count_remaining" >0:00:00</span>
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="only_before_contest flex gap-2 items-center">
+                    <i class="fa fa-hourglass-start text-gray-200"></i>
+                        <div class="starts-in whitespace-nowrap">
+                            <span class="countdown">-2578 days 3:15:32</span>
+                        </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+                <div class="finished flex gap-2 items-center">
+                    <i class="fa fa-calendar-times text-gray-200"></i>
+                    <div class="time-remaining whitespace-nowrap">
+                        Contest is over
+                    </div>
+                    <i class="fas fa-chevron-down top_bar-button-chevron_down"></i>
+                    <i class="fas fa-chevron-up top_bar-button-chevron_up"></i>
+                </div>
+            </div>
+
+            <div id="top_contest_menu" class="collapsible-menu">
+                <span class="collapsible-menu-arrow"></span>
+                <div class="collapsible-menu-content">
+                    <h2 class="mb-2">2019 ICPC NENA (Quebec) Regional Qualifier</h2>
+                    <hr>
+                    <div class="only_in_contest">
+                        <div class="time-elapsed flex justify-between mb-2">
+                            <h4>Time elapsed</h4>
+                            <span class="count_elapsed text-right">6:00:00</span>
+                        </div>
+                        <div class="time-remaining flex justify-between">
+                            <h4>Time Remaining</h4>
+                            <span class="count_remaining text-sm">0:00:00</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="only_before_contest">
+                            <div class="starts-in flex justify-between mb-2">
+                                <h4>Starts in</h4>
+                                <span class="countdown">-2578 days 3:15:32</span>
+                            </div>
+                            <div class="time-remaining flex justify-between">
+                                <h4>Ends in</h4>
+                                <span class="count_until_end">-2577 days 21:15:32</span>
+                            </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="contest-start flex justify-between mb-2">
+                                    <h4>Start</h4>
+            2019-10-26 15:00 CEST
+                        </div>
+                        <div class="contest-end flex justify-between">
+                                <h4>End</h4>
+            2019-10-26 21:00 CEST
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="/contests/mcgill19/standings" class="font-bold">Visit Scoreboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" style="display: inline">
+<input type="hidden" name="csrf_token" value="1485790281791128418049655201480257476062" />        <button type="submit" name="login_and_return" class="button button-primary button-small">Log in</button>
+    </form>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+    <main class="flex flex-col grow content_padding">
+        <div class="alerts-container">
+
+
+
+
+                <div class="mb-4">
+                    
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="application/json" id="alert-team-data">
+        {
+            "csrf_token": "1485790281791128418049655201480257476062",
+            "invitation_url": "\/ajax\/session\/invitation-response",
+            "in_session_url": "\/ajax\/session\/is-in-session"
+        }
+    </script>
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/team_invitation_alert.js"></script>
+
+
+
+                </div>
+        </div>
+
+<script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/banner.js"></script>
+
+
+
+
+
+    <div class="flex justify-between items-center mb-8 mt-4">
+        <h1>2019 ICPC NENA (Quebec) Regional Qualifier</h1>
+        <div>
+        </div>
+    </div>
+
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/contest/standings/standings.js"></script>
+    <div class="l-strip_list-gap strip-plain">
+
+
+
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/mobile_tabs.js"></script>
+
+    <nav class="tab-nav" data-mobile-select-classes="is-hidden@md">
+        <a class="tab-nav-item"  href="/contests/mcgill19" title="Contest">Contest</a>
+
+            <a class="tab-nav-item" aria-current="page" href="/contests/mcgill19/standings" title="Standings">Standings</a>
+
+        <a class="tab-nav-item"  href="/contests/mcgill19/problems" title="Problems">Problems</a>
+
+            <a class="tab-nav-item"  href="/contests/mcgill19/teams" title="Teams">Teams</a>
+
+
+
+            <a class="tab-nav-item"  href="/contests/mcgill19/rules" title="Rules">Rules</a>
+
+        <div class="ml-auto flex">
+        </div>
+    </nav>
+    </div>
+
+    <div id="standings_wrapper"
+        
+    >
+
+<div class="l-strip_list">
+    <section class="strip">
+        <div class="strip-item">
+            <h1>Standings</h1>
+
+        </div>
+
+    </section>
+
+    <section class="l-strip_list" data-cy="problems-table">
+        <div class="strip-plain -mb-2">
+    <div class="table-legend mb-0">
+            <div class="table-legend-statuses">
+            </div>
+            <div class="table-legend-statuses">
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-first legend-base"></i>
+                            First to solve
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-check status-icon legend-solved legend-base"></i>
+                            Solved
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-times status-icon legend-attempted legend-base"></i>
+                            Attempted
+                    </span>
+                    <span class="table-legend-status">
+                        <i class="fas fa-question status-icon legend-pending legend-base"></i>
+                            Pending judgement
+                    </span>
+            </div>
+    </div>
+        </div>
+
+    <div class="strip strip-item-plain">
+        <div class="table-wrapper">
+             
+
+
+
+                <table class="table2 sticky-header standings-table">
+                    <thead>
+    <tr>
+                <th class="table-item-autofit font-bold " data-name="rank">
+                            
+                </th>
+                <th class=" standings-cell--expand " data-name="team">
+                            Team
+                </th>
+                <th class="table-item-autofit  " data-name="logos">
+                            
+                </th>
+                <th class="table-item-autofit standings-cell-score " data-name="solved">
+                            Slv.
+                </th>
+                <th class="table-item-autofit standings-cell-time " data-name="penalty">
+                            Time
+                </th>
+                <th class=" standings-cell-problem " data-name="problem1">
+                            <a href="/contests/mcgill19/problems/stats" title="Stats" class="col-url" style="">
+                                    A
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem2">
+                            <a href="/contests/mcgill19/problems/paranoid" title="Paranoid" class="col-url" style="">
+                                    B
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem3">
+                            <a href="/contests/mcgill19/problems/decreasingpaths" title="Decreasing Paths" class="col-url" style="">
+                                    C
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem4">
+                            <a href="/contests/mcgill19/problems/3dfoodmaker" title="3D Food Maker" class="col-url" style="">
+                                    D
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem5">
+                            <a href="/contests/mcgill19/problems/wordmorph" title="Word Morph" class="col-url" style="">
+                                    E
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem6">
+                            <a href="/contests/mcgill19/problems/votingclubselection" title="Voting Club&apos;s Election" class="col-url" style="">
+                                    F
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem7">
+                            <a href="/contests/mcgill19/problems/matchfindingindnasequences" title="Match-Finding in DNA Sequences" class="col-url" style="">
+                                    G
+                            </a>
+                </th>
+                <th class=" standings-cell-problem " data-name="problem8">
+                            <a href="/contests/mcgill19/problems/rollercoastersarefunfunfunbutwaitingisnot" title="Roller Coasters are Fun Fun Fun (But Waiting is Not)" class="col-url" style="">
+                                    H
+                            </a>
+                </th>
+    </tr>
+                    </thead>
+                    <tbody>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">1</td>
+
+                        <td class="  standings-cell--expand">    
+
+        <a href="/contests/mcgill19/teams/155251">McGill Bees</a>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="../../../../_assets/13/13bfe00a16f67c549b6e241b32f15333449c5643.png" height="28" alt="McGill University" title="McGill University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1257</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">28 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">64 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">16 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">8</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">326 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">83 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">294 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">266 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">2</td>
+
+                        <td class="  standings-cell--expand">    
+
+        <a href="/contests/mcgill19/teams/155249">McGill Red</a>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="../../../../_assets/13/13bfe00a16f67c549b6e241b32f15333449c5643.png" height="28" alt="McGill University" title="McGill University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">7</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">1408</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">50 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">3</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">145 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">91 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">317 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">170 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">299 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">216 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">3</td>
+
+                        <td class="  standings-cell--expand">    
+
+        <a href="/contests/mcgill19/teams/155250">ICPConcordia</a>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="../../../../_assets/19/1969bbd7f0b0159d5876eb422b81bbfad9d0c635.png" height="28" alt="Concordia University" title="Concordia University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">4</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">777</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">5</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">280 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">125 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="solved">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-solved"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">34 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="first" title="First team to solve this problem">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-check status-icon cell-first"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">258 min</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">1</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">4</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+        <tr class="" >
+
+                        <td class="table-item-autofit  font-bold">4</td>
+
+                        <td class="  standings-cell--expand">    
+
+        <a href="/contests/mcgill19/teams/155248">CFIUL - Sauce on ur lisp</a>
+</td>
+
+                        <td class="table-item-autofit  ">        <img src="../../../../_assets/5d/5d8262eaeaa0d06ba6b2942ae0349ec6782c10df.png" height="28" alt="Laval University" title="Laval University" class="image_info-image-table" data-toggle="tooltip" data-placement="bottom">
+</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-score">0</td>
+
+                        <td class="table-item-autofit table-align-right standings-cell-time">0</td>
+
+                        <td class="  standings-cell-problem">
+
+
+
+
+
+        <span class="attempted">
+            <span class="standings-table-result-cell">
+                
+                    <i class="fas fa-times status-icon cell-attempted"
+                        >
+                    </i>
+                
+                <span class="standings-table-result-cell-text">
+                    
+                        <span class="standings-table-result-cell-primary">2</span>
+                        <br>
+                        <span class="standings-table-result-cell-time">-</span>
+                    
+                </span>
+            </span>
+        </span>
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+
+                        <td class="  standings-cell-problem">
+
+</td>
+        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/modules/table.js"></script>
+    </section>
+</div>
+    </div>
+    </main>
+
+
+
+
+    <footer class="l-footer">
+        <nav aria-label="Footer links" class="text-center text-sm">
+            <ul class="divider-separated-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://status.kattis.com">System Status</a></li>
+                <li><a rel="terms-of-service" href="/contracts/current/tos">Terms of Service</a></li>
+                <li><a rel="privacy-policy" href="/contracts/current/privacy_policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" type="module" src="/js/ccda7aca33a0d42fa8eeb334fc8f501d/pages/contest/header.js"></script>
+<script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="/assets/02c0af251acfefea5bbe78ff39b3e835/moment/min/moment.min.js"></script>
+<script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="/assets/02c0af251acfefea5bbe78ff39b3e835/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="/assets/02c0af251acfefea5bbe78ff39b3e835/select2/dist/js/select2.full.min.js"></script>
+
+
+    <script defer nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" src="https://status.kattis.com/embed/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" nonce="b9a8791e91ec80adada25a65bbb073c26c3d9d036bd23b4100764afde3f494b2" data-cf-beacon='{"version":"2024.11.0","token":"6651308a007d4d459b12876077322bfb","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

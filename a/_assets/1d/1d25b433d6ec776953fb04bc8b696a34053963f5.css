@@ -1,0 +1,111 @@
+/* Developer's temporary styles */
+
+.b-color-block {position: absolute; left: 10px; top: 10px; width: 25px;  }
+    .b-color-block .color {width: 20px;  height: 20px; float: left; margin-bottom: 5px; outline: 1px solid #000000; }
+	
+
+	
+/* Цвет линка "Конференция" на странице "Економічний факультет" UA lang*/
+
+	ul.special_links a:link[href$="21698"]		 { color:#b30000; }
+	ul.special_links a:visited[href$="21698"]	 { color:#b30000; }
+	ul.special_links a:hover[href$="21698"]		 { color:#b30000; }
+	ul.special_links a:active[href$="21698"]	 { color:#b30000; }
+	
+	
+	/* Цвет линка "Конференция" на странице "Економічний факультет" EN lang*/
+
+	ul.special_links a:link[href$="21699"]		 { color:#b30000; }
+	ul.special_links a:visited[href$="21699"]	 { color:#b30000; }
+	ul.special_links a:hover[href$="21699"]		 { color:#b30000; }
+	ul.special_links a:active[href$="21699"]		 { color:#b30000; }
+
+
+/* Цвет линков "Абитуриенту" на страницах ННИ и факультетов */
+
+	ul.special_links a:link[href$="1071/16"], 
+	ul.special_links a:visited[href$="1071/16"],
+	ul.special_links a:hover[href$="1071/16"],
+	ul.special_links a:active[href$="1071/16"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+	
+	ul.special_links a:link[href$="13325/3"], 
+	ul.special_links a:visited[href$="13325/3"],
+	ul.special_links a:hover[href$="13325/3"],
+	ul.special_links a:active[href$="13325/3"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+
+	ul.special_links a:link[href$="1599/4"], 
+	ul.special_links a:visited[href$="1599/4"],
+	ul.special_links a:hover[href$="1599/4"],
+	ul.special_links a:active[href$="1599/4"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+
+	ul.special_links a:link[href$="4179/4"], 
+	ul.special_links a:visited[href$="4179/4"],
+	ul.special_links a:hover[href$="4179/4"],
+	ul.special_links a:active[href$="4179/4"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+
+
+	ul.special_links a:link[href$="1600/5"], 
+	ul.special_links a:visited[href$="1600/5"],
+	ul.special_links a:hover[href$="1600/5"],
+	ul.special_links a:active[href$="1600/5"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+	
+	ul.special_links a:link[href$="1170/8"], 
+	ul.special_links a:visited[href$="1170/8"],
+	ul.special_links a:hover[href$="1170/8"],
+	ul.special_links a:active[href$="1170/8"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+	
+	ul.special_links a:link[href$="2969/18"], 
+	ul.special_links a:visited[href$="2969/18"],
+	ul.special_links a:hover[href$="2969/18"],
+	ul.special_links a:active[href$="2969/18"]
+			 { color:#b30000; background-image: url(../images/icons/em_dash_2_ac0c14.gif); }
+	
+
+	
+
+
+
+
+/* 
+SHOW-HIDE universal block
+*/
+
+
+.hide-link {
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #132B4B;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.hide-link-on:after {
+    content: "\02192";
+    padding-left: 0.5em;
+}
+
+.hide-link-off:before {
+    content: "\02190";
+    padding-right: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+A:hover { color=#b00b24 }
+
+A {
+   color: #677ebc;
+   font-weight: bold;
+}
+
+P,UL,LI,input {
+   font-size: 13px;
+   font-family: "Arial", "Helvetica", sans-serif;
+   color: black;
+   text-align: justify;
+}
+
+TD,TH {
+   font-size: 13px;
+   font-family: "Arial", "Helvetica", sans-serif;
+   color: black;
+}
+
+
+P.center {
+   text-align: center;
+}
+
+P.right {
+   text-align: right;
+}
+
+P.small {
+   text-align: right;	
+   font-size: 11px;
+}
+
+H1 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Arial", "Helvetica", sans-serif;
+   color: #b00b24;
+}
+
+H2 {
+   font-size: 20px;
+   font-family: "Arial", "Helvetica", sans-serif;
+   font-weight: bold;
+   color: black;
+}
+
+H3 {
+   font-size: 14px;
+   font-family: "Arial", "Helvetica", sans-serif;
+   font-weight: bold;
+   color: black;
+}
+
+

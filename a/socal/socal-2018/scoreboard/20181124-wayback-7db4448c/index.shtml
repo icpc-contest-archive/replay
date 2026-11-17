@@ -23,8 +23,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
-<link rel="shortcut icon" href="assets/14e1d4d0186372c0.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/de/deb7a06b7876cf4b878a1de7a8ccf2926a75fdbc.css">
+<link rel="shortcut icon" href="../../../../_assets/f2/f2f7995b1a8ef30aa1b9e3ac9e389d2ac334c206.ico" type="image/x-icon">
 </head>
 <body>
 <div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
@@ -46,7 +46,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 </table>
 </div>
 <div id="banner">
-<img src="assets/3f0bb65cd1889aa4.png" width="800" alt="ICPC Banner" border="0" usemap="#Map">
+<img src="../../../../_assets/25/25f90efc1c635274375bf8ce949109d4dddc37df.png" width="800" alt="ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="5,0,435,75" href="http://socalcontest.org">
   <area shape="rect" coords="470,20,610,70" href="http://www.twosigma.com/" target="_blank">
@@ -74,7 +74,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   <table border="0" cellpadding="3" cellspacing="0">
 	<tbody>
 		<tr>
-			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="http://icpc.baylor.edu" target="_new">ICPC Registration System at the ICPC Site.<br />
 			This is where a coach registers teams for the competition.</a></td>
 		</tr>
@@ -105,25 +105,25 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 		</tr>
 -->
 		<tr>
-			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="assets/a1cc990315783fa4.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="../../../../_assets/e8/e8c6865292f2c8a4cabcbac9583a977a82e6b18e.jpg" height="35" align="right"/></a></td>
 			<td><a href="payment.shtml" target="_new">Send an electronic payment for the 2018 Registration Fees, $128.00 per team.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2018" target="_new">Regional Contest Information at the ICPC Site.<br />
 			See this page for the current list of registered teams.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="assets/b2b1badfaa03eb46.png" align="right" /></a></td>
+			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="../../../../_assets/14/1432b9b2a881c27ee67603091a8713674b8830da.png" align="right" /></a></td>
 			<td><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new">Find us on Facebook.  Topical discussions and announcements for the SoCal regional contest.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="assets/1cf3f0a551921199.png" align="right"/></a></td>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="../../../../_assets/87/8771af237fefb583c40dde44c9c8c71f2853a153.png" align="right"/></a></td>
 			<td><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new">Wikipedia entry about the International Collegiate Programming Contest.<br />
 			History and interesting links.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="contact.shtml" target="_new"><img src="assets/fbddbb8827a5b6b6.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="../../../../_assets/85/8501bc1dea7620f044f9b196f84d5f5fbfb5a271.jpg" height="35" align="right"/></a></td>
 			<td><a href="contact.shtml" target="_new" />Contact Us.</a></td>
 		</tr>
 	</tbody>
@@ -141,7 +141,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
       <tr>
         <td valign="top"><a href="http://socalcontest.org/current/2017_2018/2017_bulletin1_welcome.php" /><em>Bulletin #1, 09-Oct-2017</em></a></td>
         <td>&nbsp;</td>
-        <td><a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></td>
+        <td><a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></td>
       </tr>
     </tbody>
 </table>
@@ -153,7 +153,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 
 <div id="hintlink">
 <center><br />
-<a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></center>
+<a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></center>
 </div>
 
 <div id="information">
@@ -434,6 +434,6 @@ document.write("<font size='-2' color='silver'>" + token[2] + "</font>")
 </table>
 </div>
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script></html>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='assets/7d88e51f269a839a.js'></script></html>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0029'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>

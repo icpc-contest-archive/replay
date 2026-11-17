@@ -1,0 +1,150 @@
+BODY
+{
+  SCROLLBAR-FACE-COLOR: #2a62a1;
+  SCROLLBAR-TRACK-COLOR: #3871ac;
+  SCROLLBAR-ARROW-COLOR: #f2b939;
+  SCROLLBAR-HIGHLIGHT-COLOR: #5e90be;
+  SCROLLBAR-3DLIGHT-COLOR: #5e90be;
+  SCROLLBAR-SHADOW-COLOR: #5e90be;
+  SCROLLBAR-DARKSHADOW-COLOR: #5e90be;
+  background: #2A62A1;
+}
+.text
+{
+  background: #3871AC;
+  padding-right: 0;
+  color: #FFFFFF;
+  text-align: left;
+  text-decoration: none;
+  font-family: verdana, arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  BORDER-TOP-COLOR: #F2B939;
+  BORDER-LEFT-COLOR: #F2B939;
+  BORDER-BOTTOM-COLOR: #F2B939;
+  BORDER-RIGHT-COLOR: #F2B939;
+  3DLIGHT-COLOR: #FFFFFF;
+  BORDER-TOP-STYLE: solid;
+  BORDER-LEFT-STYLE: solid;
+  BORDER-BOTTOM-STYLE: solid
+  BORDER-RIGHT-STYLE: solid;
+}
+.submit
+{
+  background: #F2B939;
+  padding-right: 0;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: verdana, arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  BORDER-TOP-COLOR: #F2B939;
+  BORDER-LEFT-COLOR: #F2B939;
+  BORDER-BOTTOM-COLOR: #F2B939;
+  BORDER-RIGHT-COLOR: #F2B939;
+  3DLIGHT-COLOR: #F2B939;
+  BORDER-TOP-STYLE: solid;
+  BORDER-LEFT-STYLE: solid;
+  BORDER-BOTTOM-STYLE: solid;
+  BORDER-RIGHT-STYLE: solid;
+}
+
+TD
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: verdana, arial, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+}
+.main
+{
+  padding-right: 10;
+  text-align: justify;
+}
+
+H1
+{
+  color: #F2B939;
+  text-align: center;
+  font-family: arial, verdana, sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+H2
+{
+  color: #F2B939;
+  text-align: left
+  font-family: arial, verdana, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+UL
+{
+  list-style: disc outside;
+  vertical-align: middle;
+}
+
+OL
+{
+  list-style: decimal outside;
+  vertical-align: middle;
+}
+
+DIV
+{
+  text-indent: 10px;
+  text-align: left;
+}
+.right
+{
+  text-indent: 0px;
+}
+.center
+{
+  text-indent: 0px;
+  text-align: center;
+}
+.sign
+{
+  text-indent: 50px;
+  font-style: italic;
+}
+.signright
+{
+  text-indent: 10px;
+  text-align: right;
+  font-style: italic;
+}
+.bold
+{
+  color: #F2B939;
+  text-align: left
+  font-family: arial, verdana, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+A
+{
+  text-decoration: underline;
+}
+A:LINK
+{
+  color: #A0A0A0;
+}
+A:HOVER
+{
+  color: #F2B939;
+}
+A:ACTIVE
+{
+  color: #000000;
+}
+A:VISITED
+{
+  color: #D0D0D0;
+}

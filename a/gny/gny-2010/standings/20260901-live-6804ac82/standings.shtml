@@ -14,7 +14,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <html>
 <head>
 <title>ACM Greater New York Regional Collegiate Programming Contest</title>
-<link rel="icon" type="image/gif" href="assets/3a008e8507f98a3f.gif">
+<link rel="icon" type="image/gif" href="../../../../_assets/49/49d17b62948c80e11c0972395610fb4ebecc94ae.gif">
 </head>
 
 <body text="#000000" bgcolor="#FFFFFF">
@@ -26,7 +26,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 <table>
 <tr>
   <td valign="top">
-      <a href="http://acmicpc.org/"><img src="assets/2d326cd6bbcc1a8b.png"
+      <a href="http://acmicpc.org/"><img src="../../../../_assets/ac/acff23f21293d7ba987e8780eb4d8a2293385a16.png"
           height=100 alt="ACM ICPC" border=0></a>
     </td>
       <td valign="top">
@@ -46,7 +46,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
         </font></b></center>
   </td>
     <td valign="top">
-        <a href="http://acmicpc.org/"><img src="assets/2d326cd6bbcc1a8b.png"
+        <a href="http://acmicpc.org/"><img src="../../../../_assets/ac/acff23f21293d7ba987e8780eb4d8a2293385a16.png"
     height=100 alt="ACM ICPC" border=0></a>
       </td>
       </tr>

@@ -1,1 +1,0 @@
-document.head.appendChild(Object.assign(document.createElement('script'),{type:'text/javascript',src:'https://app.kth.se/kpm/kpm.js',async:true}));

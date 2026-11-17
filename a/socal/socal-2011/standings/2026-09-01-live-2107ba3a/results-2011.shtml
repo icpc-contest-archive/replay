@@ -22,7 +22,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="assets/04ccd113a888d913.css">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/53/53387208df793e4f92f72cf9a5ad94f9f5360d0e.css">
 <script>
 function notyet()
 {
@@ -58,7 +58,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 </table>
 </div>
 <div id="banner">
-<img src="assets/c304d33966839cb9.gif" alt="ACM ICPC Banner">
+<img src="../../../../_assets/98/983ba843fb63854d9f7f04906abe37004a95d9a7.gif" alt="ACM ICPC Banner">
 </div>
 
 

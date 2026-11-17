@@ -1,0 +1,69 @@
+BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+H2 {
+	FONT-SIZE: 14pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+H3 {
+	FONT-SIZE: 14pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+H4 {
+	FONT-SIZE: 14pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+H5 {
+	FONT-SIZE: 14pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+H6 {
+	FONT-SIZE: 14pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+H1 {
+	FONT-SIZE: 14pt; FONT-FAMILY: sans-serif
+}
+TD {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+TR {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+P {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+FORM {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+DD {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+DL {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+UL {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+LI {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+OL {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+INPUT {
+	FONT-SIZE: 10pt; FONT-FAMILY: sans-serif
+}
+TH {
+	FONT-SIZE: 12pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+DT {
+	FONT-SIZE: 12pt; COLOR: #803333; FONT-FAMILY: sans-serif
+}
+A:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:link {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}

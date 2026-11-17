@@ -1,0 +1,105 @@
+p, li{
+	text-align:justify;
+}
+.ub{ 
+	color:blue;
+}
+.hanging{
+	margin-left:10px;
+}
+.title{
+	font-size:13px;
+}
+.s1{
+	float:left;
+	width:200px;
+	text-align:center;
+}
+.s2{
+	clear:left;
+}
+#headerlogo {
+	background-image:url('../images/banner.gif');
+	height:105px;
+	width:759px;
+	float:left;
+	padding-right:1px;
+}
+#headeracm
+{
+	background-image:url('../images/sbanner.gif');
+	height:105px;
+	width:229px;
+	float:right;
+	padding-left:1px;
+}
+#content{
+	float:left;
+	width:515px;
+	height:514px;
+	overflow:auto;
+	padding:5px 5px 5px 5px;
+	font-family:verdana, Arial, sans-serif;
+	font-size:11px;
+}
+#footer{
+	width:100%;
+	height:40px;
+	margin:auto;
+	background-color:#0d5881;
+	font-family:verdana, Arial, sans-serif;
+	font-size:9px;
+	color:white;
+}
+#footer a{
+	color:white;
+	text-decoration:none:
+}
+#footer a:hover{
+	text-decoration:underline:
+}
+#page {
+	width:760px;
+	height:692px; 
+	border:solid #b0d9f5 5px;
+	margin:5px auto 5px auto;
+	background-color:white;
+}
+#latestnews {
+	margin:auto;
+	float:right;
+	width:229px;
+	height:400px;
+	overflow:auto;
+	font-size:11px;
+	font-family:verdana, Arial, sans-serif;
+}
+body{
+	background-color:#135581;
+}
+#menubar {
+	height:23px;
+	width:100%;
+	margin:auto;
+	background-color:#0d5881;
+	float:left;
+	text-decoration:none !important;
+	position:relative;
+}
+.hidden { position:absolute; top:0; left:-9999px; width:1px; height:1px; overflow:hidden; }
+.fg-button { float:left; margin:0px 0px 0px 1px; padding: .1em .1em; text-decoration:none !important; cursor:pointer; position: relative; zoom: 1; }
+.fg-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+a.fg-button { float:left;  }
+button.fg-button { width:auto; overflow:visible; } /* removes extra button width in IE */
+
+.fg-button-icon-left { padding-left: 2.1em; }
+.fg-button-icon-right { padding-right: 2.1em; }
+.fg-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }
+.fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }
+.fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */	
+
+.fg-button.ui-state-loading .ui-icon { background: url(../images/spinner_bar.gif) no-repeat 0 0; }
+
+.tmisc { float:left;margin:5px;text-align:center; }
+.thumb { float:left;margin:5px;height:180px;width:200px; }
+.thumb a { font-size:0.75em; }

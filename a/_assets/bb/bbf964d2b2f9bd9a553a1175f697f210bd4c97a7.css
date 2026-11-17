@@ -1,0 +1,64 @@
+/* developer styles - add new and override exist */
+
+.views-admin-links {
+	visibility: hidden;
+	height: 0px;
+}
+
+html .r-border-shape img {
+		float: left;
+}
+
+.text ul.pager {
+	list-style: none;
+	
+	clear: both;
+}
+
+.text ul.pager li {
+	background: none;
+	list-style: none;
+	display: inline;
+	padding-left: 5px;
+}
+
+.text ul.pager li.pager-current {
+	padding-right: 4px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #00a1e4;
+}
+
+#blocks {
+	width: 100%
+}
+
+div.handle {
+	display: inline;
+}
+ 
+.newslist { float: left; width: 100%; }
+ 
+/* foto/video icons in header */
+.item-labels { color: #416bb2; font-size: 0.75em; }
+ .foto-label { background: url(../../images/icons/foto.png) no-repeat 0.1em 0; padding-left: 15px; margin-left: 5px; }
+ .video-label { background: url(../../images/icons/video.png) no-repeat 0.1em 0; padding-left: 15px; margin-left: 5px; }
+ 
+ #events-block span.video-label {
+	display: none;
+}
+
+
+#illustration {
+	margin-bottom: 14px;
+}
+
+#top-info {
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+
+/* red color for first news */
+
+/* #home-page .text #news-block { background: url(../../images/bg-news-acent.png) no-repeat 0 0; padding-left: 8px; padding-top: 3px; } */

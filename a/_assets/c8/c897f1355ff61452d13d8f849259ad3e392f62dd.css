@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Helvetica, Verdana;
+  font-size: 13px
+}
+
+
+hr.newsline
+{
+  border-top-style 	: solid;
+  border-bottom-style	: solid;
+  border-color		: gray;
+  border-left-style	: none;
+  border-right-style	: none;
+}
+
+hr.thin 
+{
+border-top-style 	: none;
+border-bottom-style	: solid;
+border-left-style	: none;
+border-right-style	: none;
+border-color		: gray;
+}
+
+hr.partline
+{
+border-top-style 	: solid;
+border-bottom-style	: solid;
+border-left-style	: none;
+border-right-style	: none;
+border-color		: #666666;
+}
+
+table
+{
+  font-family: arial;
+  font-size: 10pt
+}
+
+table.ranking
+{
+  width			: 100%;
+  border		: none;
+  margin		: 0pt;
+  padding		: 0pt;
+  cellspacing		: 0pt;
+  border-spacing	: 1pt;
+}
+
+thead.ranking
+{
+  background-color	: #0e0e46;
+  color			: white;
+  font-weight		: bold;
+  border		: none;
+  margin		: 0pt;
+  padding		: 0pt;
+  text-align		: center;
+}
+
+tr.ranking0
+{
+  background-color	: #EEEEEE;
+  color			: black;
+  font-weight		: normal;
+  border		: none;
+  margin		: 0px;
+  padding		: 0px;
+}
+
+tr.ranking1
+{
+  background-color	: #DDDDDD;
+  color			: black;
+  font-weight		: normal;
+  border		: none;
+  margin		: 0px;
+  padding		: 0px;
+}
+
+td.lp
+{
+  font-weight		: bold;
+  font-style		: oblique;
+  text-align		: center;
+  width			: 4%;
+}
+
+td.user
+{
+  font-weight		: normal;
+  text-align		: left;
+  padding-left		: 4px;
+  width			: 24%;
+}
+
+td.solved
+{
+  font-weight		: bold;
+  font-style		: normal;
+  font-size		: larger;
+  text-align		: center;
+  width			: 8%;
+}
+
+td.time
+{
+  font-weight		: normal;
+  font-style		: oblique;
+  text-align		: center;
+  width			: 16%;
+}
+
+td.solstring
+{
+  font-weight		: bold;
+  font-style		: normal;
+  text-align		: left;
+  padding-left		: 4px;
+  width			: 40%;
+}
+
+td.result
+{
+  font-weight		: normal;
+  font-style		: normal;
+  font-size		: normal;
+  text-align		: center;  
+  width			: 8%;
+}
+
+td.resstring
+{
+  font-weight		: normal;
+  font-style		: oblique;
+  text-align		: left;
+  padding-left		: 4px;
+  width			: 40%;
+}
+
+a.rlink
+{
+  color			: black;
+  text-decoration	: none;
+}
+
+a.rlink:hover
+{
+  color			: #0e0e66;
+  text-decoration	: none;
+}

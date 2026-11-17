@@ -81,15 +81,26 @@ def to_utf8(raw: bytes, content_type: str, url: str):
 
 
 def apply_assets(raw: bytes, manifest: dict, src_dir, dest_dir) -> bytes:
-    """Copy backfilled assets next to the baked page and point its refs at them."""
+    """Point the page's refs at its backfilled assets. An asset is stored once for the whole
+    tree, under a/_assets/<xx>/<sha1><ext>, however many pages use it (2026-11-17: the same
+    stylesheet, font file and logo came with every page of a site; one copy per page made the
+    tree 2.5 GB of assets, 0.7 GB of them distinct). Scripts are not published: a baked page is
+    a document, and nothing in it needs to run."""
+    import hashlib
+    pool = ROOT / "a" / "_assets"
+    up = "../" * len(dest_dir.relative_to(ROOT / "a").parts)
     for a in manifest.get("assets") or []:
         f = src_dir / a["file"]
-        if not f.exists():
+        ext = f.suffix.lower()
+        if ext == ".js" or not f.exists():
             continue
-        d = dest_dir / a["file"]
-        d.parent.mkdir(parents=True, exist_ok=True)
-        d.write_bytes(f.read_bytes())
-        ref, rel = a["ref"].encode(), a["file"].encode()
+        body = f.read_bytes()
+        h = hashlib.sha1(body).hexdigest()
+        d = pool / h[:2] / (h + ext)
+        if not d.exists():
+            d.parent.mkdir(parents=True, exist_ok=True)
+            d.write_bytes(body)
+        ref, rel = a["ref"].encode(), f"{up}_assets/{h[:2]}/{h}{ext}".encode()
         for q in (b'"%s"', b"'%s'"):
             raw = raw.replace(q % ref, q % rel)
     return raw
@@ -146,12 +157,21 @@ def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", default=str(ROOT.parent / "archive"))
-    ap.add_argument("--exclude-artifacts", default="problemset,judge-baekjoon,judge-livearchive,judge-kattis,judge-codeforces",
-                    help="comma list of capture artifacts NOT published on this Pages shard "
-                         "(2026-11-02 decision: problem-set captures stay private in the archive — "
-                         "1.7 GB of PDFs do not fit a Pages repo; served locally via serve.py)")
+    ap.add_argument("--exclude-artifacts", default="problemset,problem,editorial,judge-*,teams,report",
+                    help="comma list of capture artifacts NOT published on this Pages shard; a trailing * matches a "
+                         "prefix (2026-11-02 decision: problem-set captures stay private in the archive — "
+                         "1.7 GB of PDFs do not fit a Pages repo; served locally via serve.py. Pages on an online "
+                         "judge, single problems and editorials likewise, on every judge: the default names the "
+                         "kinds, not four judges, so that a newly registered judge is not published by accident. "
+                         "Team lists and reports, new on 2026-11-15, stay out until ruled on.)")
     args = ap.parse_args()
-    excluded = {x.strip() for x in args.exclude_artifacts.split(",") if x.strip()}
+    import fnmatch
+    patterns = [x.strip() for x in args.exclude_artifacts.split(",") if x.strip()]
+
+    class _Excluded:
+        def __contains__(self, artifact):
+            return any(fnmatch.fnmatch(artifact or "", p) for p in patterns)
+    excluded = _Excluded()
     arch = Path(args.archive)
     index = json.loads((arch / "index.json").read_text())
 
@@ -200,7 +220,7 @@ def main() -> int:
                             else "an ICPC result page")
                 fetched = f" (Wayback snapshot {when}; fetched {str(cap.get('fetched', ''))[:10]})"
             elif cap.get("source") == "icpc-api-archive":
-                fetched = f" (rendered from the ICPC standings API dump of {str(cap.get('fetched', ''))[:10]})"
+                fetched = f" (copy of {str(cap.get('fetched', ''))[:10]})"
             else:
                 fetched = f" (live fetch {cap['fetched'][:10]})" if cap.get("fetched") else ""
             wayback = ""

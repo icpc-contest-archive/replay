@@ -1,0 +1,56 @@
+@import url("plugin/ace.css");
+@import url("print/print.css");
+@import url("problem.css");
+@import url("jquery-ui/tooltip.css");
+
+@import url("contest/header.css");
+@import url("contest/standings.css");
+@import url("contest/score_distribution.css"); /* Per-problem score distribution pill */
+
+@import url("general/base.css"); /* Base */
+@import url("general/layout.css"); /* Layout */
+
+@import url("general/util.css"); /* Util */
+
+@import url("ui/menus.css"); /* Menus */
+@import url("ui/button.css"); /* Buttons */
+@import url("ui/table.css"); /* Tables */
+@import url("ui/pill.css"); /* Pills */
+@import url("ui/badge.css"); /* Badges */
+@import url("ui/modal.css"); /* Modals */
+@import url("ui/collapsible_menu.css"); /* Collapsible Menu (User and Contest menues in the top_bar) */
+@import url("ui/datetime.css"); /* Datetime Input */
+@import url("ui/banner.css"); /* Page Banners */
+@import url("ui/alert.css"); /* Alerts */
+@import url("ui/submission_comments.css"); /* Comments on Submissions */
+@import url("ui/tree.css"); /* Tree ul (for testcases) */
+@import url("ui/select.css"); /* Select */
+@import url("ui/slider.css"); /* jQuery powered bi-handle range sliders */
+
+@import url("view/onboarding.css"); /* Onboarding layout */
+
+@import url("modules.css"); /* Modules */
+@import url("form.css"); /* Forms*/
+@import url("general/states.css"); /* Global states */
+@import url("general/language_icons.css"); /* Language language-icon-* classes */
+
+@import url("assets/image_info.css"); /* Image with info design element */
+
+@import url("tutorial.css"); /* Programming Test Tutorial */
+
+@import url("plugin/select2.css"); /* Plugin-styles */
+
+@import url("print/printable.css"); /* Printable report */
+
+@import url("pages/diff.css"); /* Diff support (from old CSS) */
+@import url("pages/profile.css"); /* Profile settings */
+@import url("pages/billing.css"); /* Billing Plans */
+@import url("pages/challenge.css"); /* Challenge */
+@import url("pages/clar.css"); /* Challenge */
+@import url("pages/editor.css"); /* Code Editor */
+@import url("pages/submission.css"); /* Testgroup Judgements List */
+@import url("pages/statistics.css"); /* Problem Statistics view */
+@import url("pages/problem.css"); /* Problem view */
+@import url("pages/rejudge.css"); /* Rejudge inspection table */
+@import url("pages/results.css"); /* Course assignment results view */
+@import url("pages/report.css"); /* Programming test report view */

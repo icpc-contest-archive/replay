@@ -23,8 +23,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
-<link rel="shortcut icon" href="assets/14e1d4d0186372c0.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/4e/4e74bc7dd15c8802dbb297a3afee798b3fe669be.css">
+<link rel="shortcut icon" href="../../../../_assets/f2/f2f7995b1a8ef30aa1b9e3ac9e389d2ac334c206.ico" type="image/x-icon">
 </head>
 <body>
 <div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
@@ -47,7 +47,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
 </div>
 <div id="banner">
   <!--<div id="main_masthead">-->
-    <img src="assets/d446639d3bec640c.png" width="800" alt="ICPC Banner" border="0" usemap="#Map" style="background-color: #fafafa;"/>
+    <img src="../../../../_assets/8e/8e86d4a2455c71a692999a29de472b27a1ab2d7b.png" width="800" alt="ICPC Banner" border="0" usemap="#Map" style="background-color: #fafafa;"/>
     <map name="Map">
 <!-- ICPC links -->
       <area shape="rect" coords="117,0,225,63" href="https://icpc.global/" target="_blank">
@@ -76,7 +76,7 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   <!--</div>-->
 <!--
   <div id="masthead_overlay">
-    <img src="assets/3cd26ca6370d9bd0.gif" width="80" alt="Chalkboard Image" usemap="#UpdateMap" />
+    <img src="../../../../_assets/8b/8b84827ea3811566cf7aa7ff15a558a37346c64b.gif" width="80" alt="Chalkboard Image" usemap="#UpdateMap" />
     <map name="UpdateMap">
       <area shape="rect" coords="5,5,75,75" href="http://socalcontest.org/current/importantupdates.shtml" target="_blank">
     </map>
@@ -102,7 +102,7 @@ Online Warmup/Rehearsal 18-Feb 10:00 a.m. Zoom Link<br>
 <p></p>
 <!--  IMPORTANT UPDATES
 Click Below<br>
-<a href="http://socalcontest.org/current/importantupdates.shtml" target="_new"><img src="assets/3cd26ca6370d9bd0.gif" height="128"></a>
+<a href="http://socalcontest.org/current/importantupdates.shtml" target="_new"><img src="../../../../_assets/8b/8b84827ea3811566cf7aa7ff15a558a37346c64b.gif" height="128"></a>
 <p></p>
 -->
   <table border="0" cellpadding="3" cellspacing="0">
@@ -127,20 +127,20 @@ Click Below<br>
 			<td><b><em>PRIOR TO ARRIVAL</em> Each participant needs to download, print, and <em>sign</em> the Site Waiver and Photography Release Form.</b></td>
 		</tr>
 		<tr>
-			<td><a href="http://socalcontest.org/current/2022_2023/2022-23 Site Waiver.pdf"><img src="assets/391b891111882670.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2022_2023/2022-23 Site Waiver.pdf"><img src="../../../../_assets/b1/b120ac599fe5c3c45820cb32af0622e9f3922d0e.png" align="right" width="30"></a></td>
 			<td><a href="http://socalcontest.org/current/2022_2023/2022-23 Site Waiver.pdf"><em><b>Download 2022-23 Site Waiver.pdf</b>: Print and sign.</em></a></td>
 		</tr>
 		<tr>
-			<td><a href="http://socalcontest.org/current/2022_2023/Photography Release Form.pdf"><img src="assets/391b891111882670.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2022_2023/Photography Release Form.pdf"><img src="../../../../_assets/b1/b120ac599fe5c3c45820cb32af0622e9f3922d0e.png" align="right" width="30"></a></td>
 			<td><a href="http://socalcontest.org/current/2022_2023/Photography Release Form.pdf"><em><b>Download Photograph Release Form.pdf</b>: Print and sign.</em></a></td>
 		</tr>
 		<tr>
-			<td><a href="http://socalcontest.org/current/2022_2023/Parking.pdf"><img src="assets/391b891111882670.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/current/2022_2023/Parking.pdf"><img src="../../../../_assets/b1/b120ac599fe5c3c45820cb32af0622e9f3922d0e.png" align="right" width="30"></a></td>
 			<td><a href="http://socalcontest.org/current/2022_2023/Parking.pdf"><em><b>Download Parking.pdf</b>: Print and place on your vehicle's dashboard.</em></a></td>
 		</tr>
 -->
 		<tr>
-			<td valign="center" ><a href="https://icpc.global/regionals/finder/Southern-California-2022" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center" ><a href="https://icpc.global/regionals/finder/Southern-California-2022" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="https://icpc.global/regionals/finder/Southern-California-2022" target="_new">ICPC Registration System at the ICPC Site.<br />
 			This is where a coach registers teams for the competition.</a></td>
 		</tr>
@@ -154,7 +154,7 @@ Click Below<br>
 		</tr>
 <!--  T-SHIRTS if independent of registration
 		<tr>
-			<td valign="center"><a href="https://stores.wpromo.net/icpcglobal/shop/product-detail/1000664" target="_new"><img src="assets/102908941b529718.png" height="35" align="right"/></a></td>
+			<td valign="center"><a href="https://stores.wpromo.net/icpcglobal/shop/product-detail/1000664" target="_new"><img src="../../../../_assets/00/004da86925667630c4946e1cdfb5ddc2d845e521.png" height="35" align="right"/></a></td>
 			<td><a href="https://stores.wpromo.net/icpcglobal/shop/product-detail/1000664" target="_new">Participation is <b>free!</b>  Optional t-shirts are $14.99 each; purchase by 07-Feb to arrive before the contest.</a></td>
 		</tr>
 -->
@@ -187,7 +187,7 @@ Click Below<br>
 <!--  APPLIANCE
 -->
 		<tr>
-			<td valign="top"><a href="http://socalcontest.org/f37-icpcsocal.ova"><img src="assets/5bf84500030cf358.png" align="right" width="25"></a></td>
+			<td valign="top"><a href="http://socalcontest.org/f37-icpcsocal.ova"><img src="../../../../_assets/e1/e1819e91ab5a3b95cd520a1b8423f3571c044ebb.png" align="right" width="25"></a></td>
 			<td><a href="http://socalcontest.org/f37-icpcsocal.ova"><em><b>Download f37-icpcsocal.ova</b>: VirtualBox Fedora 37 Rehearsal Appliance (6.5 GB), as of 08Feb2022</em></a><br>
 			To use, install <a href="https://www.virtualbox.org">VirtualBox</a>, run VirtualBox Manager, File/Import Appliance...<br>
 			Password to user icpcuser='icpcpw' (without quotes).<br>
@@ -197,22 +197,22 @@ Click Below<br>
 <!--  WARMUP PACKET
 -->
 		<tr>
-			<td><a href="http://socalcontest.org/Warmup-2022-2023.pdf"><img src="assets/391b891111882670.png" align="right" width="30"></a></td>
+			<td><a href="http://socalcontest.org/Warmup-2022-2023.pdf"><img src="../../../../_assets/b1/b120ac599fe5c3c45820cb32af0622e9f3922d0e.png" align="right" width="30"></a></td>
 			<td><a href="http://socalcontest.org/Warmup-2022-2023.pdf"><em><b>Download Warmup-2022-2023.pdf</b>: Warmup Packet, as of 16-Feb-2023</em></a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="rules.shtml" target="_new"><img src="assets/b9e0a8459d0bb60a.png" height="29"  align="right"/></a></td>
+			<td valign="center"><a href="rules.shtml" target="_new"><img src="../../../../_assets/3d/3d65db87e1d2d26732ca5e3c8a2dda40c2b79005.png" height="29"  align="right"/></a></td>
 			<td><a href="rules.shtml" target="_new">Rules</a></td>
 		</tr>
 <!--  ONLINE rules
 		<tr>
-			<td valign="center"><a href="onlinerules.shtml#OnlineRules" target="_new"><img src="assets/b9e0a8459d0bb60a.png" height="29"  align="right"/></a></td>
+			<td valign="center"><a href="onlinerules.shtml#OnlineRules" target="_new"><img src="../../../../_assets/3d/3d65db87e1d2d26732ca5e3c8a2dda40c2b79005.png" height="29"  align="right"/></a></td>
 			<td><a href="onlinerules.shtml#OnlineRules" target="_new"><em>ONLINE Rules</em></a></td>
 		</tr>
 -->
 <!--
 		<tr>
-			<td valign="center"><a href="https://www.icpc.org/icpc-north-america-practice-contest" target="_new"><img src="assets/b9e0a8459d0bb60a.png" height="29" align="right"/></a></td>
+			<td valign="center"><a href="https://www.icpc.org/icpc-north-america-practice-contest" target="_new"><img src="../../../../_assets/3d/3d65db87e1d2d26732ca5e3c8a2dda40c2b79005.png" height="29" align="right"/></a></td>
 			<td><a href="https://www.icpc.org/icpc-north-america-practice-contest" target="_new">North America Practice Contests, 12-Dec-2020 through 21-Feb-2021.</a></td>
 		</tr>
 -->
@@ -224,33 +224,33 @@ Click Below<br>
 		</tr>
 <!--  PAYMENT
 		<tr>
-			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="assets/a1cc990315783fa4.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a target=_new href="payment.shtml"></a><a href="payment.shtml" target="_new"><img src="../../../../_assets/e8/e8c6865292f2c8a4cabcbac9583a977a82e6b18e.jpg" height="35" align="right"/></a></td>
 			<td><a href="payment.shtml" target="_new">Send an electronic payment for the <!- -#echo var='year' - -> Registration Fees, $128.00 per team.</a></td>
 		</tr>
 -->
 <!--
 		<tr>
-			<td valign="center"><a href="https://icpc.global/regionals/finder/Southern-California-2021/teams" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center"><a href="https://icpc.global/regionals/finder/Southern-California-2021/teams" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="https://icpc.global/regionals/finder/Southern-California-2021/teams" target="_new">Regional Contest Information at the ICPC Site.<br />
 			See this page for the current list of registered teams.</a></td>
 		</tr>
 -->
 		<tr>
-			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="assets/b2b1badfaa03eb46.png" align="right" /></a></td>
+			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="../../../../_assets/14/1432b9b2a881c27ee67603091a8713674b8830da.png" align="right" /></a></td>
 			<td><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new">Find us on Facebook.  Topical discussions and announcements for the SoCal regional contest.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="assets/1cf3f0a551921199.png" align="right"/></a></td>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="../../../../_assets/87/8771af237fefb583c40dde44c9c8c71f2853a153.png" align="right"/></a></td>
 			<td><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new">Wikipedia entry about the International Collegiate Programming Contest.<br />
 			History and interesting links.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="contact.shtml" target="_new"><img src="images/email-icon-vector.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="../../../../_assets/85/8501bc1dea7620f044f9b196f84d5f5fbfb5a271.jpg" height="35" align="right"/></a></td>
 			<td><a href="contact.shtml" target="_new" />Contact Us.</a></td>
 		</tr>
 <!--
 		<tr>
-			<td valign="center"><a href="2020_2021/ICPC-North-America-Announcement_11Jan2021.pdf" target="_new"><img src="assets/b9e0a8459d0bb60a.png" height="29"  align="right"/></a></td>
+			<td valign="center"><a href="2020_2021/ICPC-North-America-Announcement_11Jan2021.pdf" target="_new"><img src="../../../../_assets/3d/3d65db87e1d2d26732ca5e3c8a2dda40c2b79005.png" height="29"  align="right"/></a></td>
 			<td><a href="2020_2021/ICPC-North-America-Announcement_11Jan2021.pdf" target="_new">ICPC North America Announcement<em> updated 11-Jan-2021.</em></a></td>
 		</tr>
 		<tr>
@@ -273,7 +273,7 @@ Click Below<br>
       <tr>
         <td valign="top"><a href="http://socalcontest.org/current/2017_2018/2017_bulletin1_welcome.php" /><em>Bulletin #1, 09-Oct-2017</em></a></td>
         <td>&nbsp;</td>
-        <td><a href="http://icpc.baylor.edu" target="_new"><img src="images/small.bmp" /></a></td>
+        <td><a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></td>
       </tr>
     </tbody>
 </table>
@@ -285,7 +285,7 @@ Click Below<br>
 
 <div id="hintlink">
 <center><br />
-<a href="https://icpc.global/regionals/Regionals" target="_new"><img src="images/small.bmp" /></a></center>
+<a href="https://icpc.global/regionals/Regionals" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></center>
 </div>
 
 <div id="information">

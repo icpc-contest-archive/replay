@@ -29,8 +29,8 @@ color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:
   Remember to change it back after testing!
 
   -->
-<link rel="stylesheet" type="text/css" href="assets/6bdba980ddb00480.css">
-<link rel="shortcut icon" href="assets/a6e85cceddc87f58.png">
+<link rel="stylesheet" type="text/css" href="../../../../_assets/de/deb7a06b7876cf4b878a1de7a8ccf2926a75fdbc.css">
+<link rel="shortcut icon" href="../../../../_assets/09/09e400f6c8c62e4fe97d1cab63f2e6a139a1ed24.png">
 <script>
 function notyet()
 {
@@ -61,7 +61,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 </table>
 </div>
 <div id="banner">
-<img src="assets/2b186adc9f4e0195.png" width="800" alt="ACM ICPC Banner" border="0" usemap="#Map">
+<img src="../../../../_assets/82/822a27a1e077beadd95836a1efcb3b1432f4899b.png" width="800" alt="ACM ICPC Banner" border="0" usemap="#Map">
 <map name="Map">
   <area shape="rect" coords="10,5,425,95" href="http://socalcontest.org">
   <area shape="rect" coords="490,35,630,87" href="http://www.twosigma.com/" target="_blank">
@@ -93,7 +93,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
   <table border="0" cellpadding="3" cellspacing="0">
 	<tbody>
 		<tr>
-			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center" ><a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="http://icpc.baylor.edu" target="_new">ICPC Registration System at the ACM ICPC Site.<br />
 			This is where a coach registers teams for the competition.</a></td>
 		</tr>
@@ -122,25 +122,25 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 			<td><a href="http://socalcontest.org/current/2017_2018/2017_bulletin6_lastminute.php" target="_new"><em>Bulletin 6, 09-Oct-2017: Last Minute Announcements and Reminders</em></a></td>
 		</tr>
 		<tr>
-			<td valign="center"><!--<a href="javascript:expired()">--><!--<a href="javascript:notyet()">--><!--<a target=_new href="payment.shtml">--><!--<a href="javascript:notyet()"><img src="assets/249200042712d6e3.png"></a>--><a href="payment.shtml" target="_new"><img src="assets/a1cc990315783fa4.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><!--<a href="javascript:expired()">--><!--<a href="javascript:notyet()">--><!--<a target=_new href="payment.shtml">--><!--<a href="javascript:notyet()"><img src="../../../../_assets/be/bec8f7f6fa93e95d76120e451fcb77c8c9f191a1.png"></a>--><a href="payment.shtml" target="_new"><img src="../../../../_assets/e8/e8c6865292f2c8a4cabcbac9583a977a82e6b18e.jpg" height="35" align="right"/></a></td>
 			<td><a href="payment.shtml" target="_new">Send an electronic payment for the 2017 Registration Fees, $120.00 per team.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2017" target="_new"><img src="assets/2506374afbd5520e.png" height="35" align="right"/></a></td>
+			<td valign="center"><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2017" target="_new"><img src="../../../../_assets/e2/e2e185b13fe459fabaa211f991813b6d858cae45.png" height="35" align="right"/></a></td>
 			<td><a href="https://icpc.baylor.edu/regionals/finder/southern-california-2017" target="_new">Regional Contest Information at the ACM ICPC Site.<br />
 			See this page for the current list of registered teams.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="assets/b2b1badfaa03eb46.png" align="right" /></a></td>
+			<td valign="center"><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new"><img src="../../../../_assets/14/1432b9b2a881c27ee67603091a8713674b8830da.png" align="right" /></a></td>
 			<td><a href="https://www.facebook.com/Southern-California-ACM-International-Collegiate-Programming-Contest-112453688794162/" target="_new">Find us on Facebook.  Topical discussions and announcements for the SoCal regional contest.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="assets/1cf3f0a551921199.png" align="right"/></a></td>
+			<td valign="center"><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new"><img src="../../../../_assets/87/8771af237fefb583c40dde44c9c8c71f2853a153.png" align="right"/></a></td>
 			<td><a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest" target="_new">Wikipedia entry about the ACM International Collegiate Programming Contest.<br />
 			History and interesting links.</a></td>
 		</tr>
 		<tr>
-			<td valign="center"><a href="contact.shtml" target="_new"><img src="assets/fbddbb8827a5b6b6.jpg" height="35" align="right"/></a></td>
+			<td valign="center"><a href="contact.shtml" target="_new"><img src="../../../../_assets/85/8501bc1dea7620f044f9b196f84d5f5fbfb5a271.jpg" height="35" align="right"/></a></td>
 			<td><a href="contact.shtml" target="_new" />Contact Us.</a></td>
 		</tr>
 	</tbody>
@@ -158,7 +158,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
       <tr>
         <td valign="top"><a href="http://socalcontest.org/current/2017_2018/2017_bulletin1_welcome.php" /><em>Bulletin #1, 09-Oct-2017</em></a></td>
         <td>&nbsp;</td>
-        <td><a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></td>
+        <td><a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></td>
       </tr>
     </tbody>
 </table>
@@ -170,7 +170,7 @@ alert('Electronic Payment Service ended at 10/31 11:59 PM ET.\n\nWe can only acc
 
 <div id="hintlink">
 <center><br />
-<a href="http://icpc.baylor.edu" target="_new"><img src="assets/8136b17658391682.bmp" /></a></center>
+<a href="http://icpc.baylor.edu" target="_new"><img src="../../../../_assets/ef/ef9b4bc143b90e26bbe7a56657076293402a5919.bmp" /></a></center>
 </div>
 
 <div id="information">

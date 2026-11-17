@@ -1,0 +1,10 @@
+
+/* subsub */
+
+ul#main_menu ul.sub ul.subsub li {
+	margin-top: 0.4em;
+	font-size: 1em;
+	padding: 0;
+	background-image: none;
+}
+

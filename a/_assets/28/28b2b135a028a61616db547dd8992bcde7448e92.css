@@ -1,0 +1,100 @@
+body {
+  background:url("images/tlo.jpg");
+  background-color : rgb(255,255,190);
+}
+
+h2,h3,h4 {
+  font-family:"Helvetica","Arial",sans-serif;
+  color:rgb(0,0,100);
+}
+
+a:link {
+  font-family:"Helvetica","Arial",sans-serif;
+  color:navy;
+}
+
+a:visited {
+  font-family:"Helvetica","Arial",sans-serif;
+  color:navy;
+}
+
+a:hover {
+  font-family:"Helvetica","Arial",sans-serif;
+  color:rgb(51,103,153);
+}
+
+a.small:link {
+  font-weight : bold;
+  font-size : 80%;
+}
+
+a.small:visited {
+  font-weight : bold;
+  font-size : 80%;
+}
+
+a.small:hover {
+  font-weight : bold;
+  font-size : 80%;
+}
+
+td.cols {
+  vertical-align:top;
+}
+
+td.menu {
+  width : 160px;
+  margin-left : 0px;
+}
+
+td.comment {
+  width : 160px;
+  margin-left : 1px;
+}
+
+td.vspace {
+  height : 0px;
+}
+
+
+p.center {
+  text-align:center;
+}
+
+p.comment {
+  font-family : "Helvetica","Arial",sans-serif;
+  font-weight : normal;
+  font-size : 80%;
+  color : rgb(0,0,100);
+  margin-left : 1px;
+}
+
+.center {
+  text-align : center;
+}
+
+.text {
+  font-family : "Helvetica","Arial",sans-serif;
+}
+
+.bold {
+  color : darkred;
+}
+
+.bolded {
+  font-weight : bold;
+  color : darkred;
+}
+
+.blackbold {
+  font-weight : bold;
+  color : black;
+}
+
+.sign {
+  font-family : "Helvetica","Arial",sans-serif;
+  font-weight : bold;
+  font-style : normal;
+  font-size : 80%;
+  text-align : right;
+}

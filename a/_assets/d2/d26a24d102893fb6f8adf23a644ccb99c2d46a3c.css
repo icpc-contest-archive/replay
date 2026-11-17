@@ -1,0 +1,1528 @@
+@media (min-width: 1900px) {
+	.anchorListing{
+		width:1536px;
+	}
+    .bauheaderimage{height:800px!important}
+
+    .newsHolder .itemTitle--big{
+ width: 25%;
+}
+    .finderHolder .bannerTitleWithDonation{
+ width: 30%!important;
+ font-size:30px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 35%!important;
+
+}
+
+.newsHolder .majorselect{
+ width: 50%;
+}
+
+.newsHolder .azprograms{
+ width: 25%;
+}
+}
+@media (min-width: 1500px) and (max-width:1900px) {
+	.anchorListing{
+		width:1188px;
+	}
+    .newsSlider .itemTitle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+    	.itemTitle {
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+        .newseventtitle .smallTitle{
+            font-size: 18px;
+        }
+
+.bauheaderimage{height:600px!important}
+
+.newsHolder .itemTitle--big{
+ width: 25%;
+}
+    .finderHolder .bannerTitleWithDonation{
+ width: 30%!important;
+ font-size:28px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 35%!important;
+
+}
+.newsHolder .majorselect{
+ width: 50%;
+}
+
+.newsHolder .azprograms{
+ width: 25%;
+}
+}
+@media (min-width: 1280px) and (max-width:1500px) {
+      .newsSlider .itemTitle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+          .finderHolder .bannerTitleWithDonation{
+ width: 30%!important;
+ font-size:24px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 35%!important;
+
+}
+    .newsHolder .itemTitle--big{
+ width: 25%;
+}
+
+.newsHolder .majorselect{
+ width: 50%;
+}
+
+.newsHolder .azprograms{
+ width: 25%;
+}
+}
+
+@media (max-width: 1440px) {
+      .newsSlider .itemTitle {
+		font-size:18px;
+		line-height: 26px;
+	}
+    .itemTitle {
+        font-size: 24px;
+        line-height: 26px;
+    }
+  .wrapperwithdonation {
+    margin-top: -120px!important;
+}
+
+   .baucrisissectionbanner{height:520px!important}
+}
+@media (max-width: 1366px) {
+      .newsSlider .itemTitle {
+		font-size: 18px;
+		line-height: 26px;
+	}
+    	.itemTitle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+
+     .sectionBanner {
+        height: 800px;
+        background-position: center;
+    }
+
+    
+	.sectionStudents .imageHolder img {
+		max-width: 100%;
+	}
+
+
+	.menuItem a {
+		margin-left: 17px;
+        font-size:15px;
+	}
+
+	/*.anchorItem {
+		padding: 0 20px 15px;
+	}*/
+
+	.anchorHolder {
+		padding: 0 30px;
+	}
+
+	.anchorHolder .navigation {
+		width: 15px;
+		height: 15px;
+	}
+
+	.sectionImgAndText .imageHolder {
+		padding-right: 100px;
+	}
+
+	.paginHolder {
+		padding-top: 70px;
+	}
+
+	.facultySlider .titleHolder {
+		left: 20px;
+	}
+        .bauheaderimage{height:500px!important}
+          .newseventtitle .smallTitle{
+            font-size: 16px;
+        }
+}
+@media (max-width: 1280px) {
+               .wrapperwithdonation {margin-top:-180px!important; }
+        .baucrisisbannertitle {
+          font-size:20px!important;
+    }
+    .bannerTitleWithDonation {
+        font-size: 16px!important;
+        padding-bottom: 20px!important;
+    
+    }
+    .baucrisissectionbannerlink { margin-bottom:0px!important }
+    .baucrisisbannerlink span { font-size:16px!important}
+   
+    .sectionbannerlink, .baucrisisbannerlink { line-height:17px!important}
+}
+
+
+@media (max-width: 1024px) {
+
+        .finderHolder .bannerTitleWithDonation{
+ width: 30%!important;
+ font-size:24px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 35%!important;
+
+}
+      .newsSlider .itemTitle {
+		font-size: 18px;
+		line-height: 26px;
+	}
+            .mobile-anchor-90perc{
+        width:90%!important;
+        display:block!important;
+    }
+
+            	.campusLifeListing  {
+		padding-bottom: 40px;
+	}
+
+                .newsSlider .owl-nav {
+    position: absolute;
+    top: -40px;
+}
+	.campusLifeListing .listingItemLI {
+		padding: 0 5px;
+	}
+
+	.campusLifeListing .owl-dots {
+		left: 50%;
+		transform: translate(-50%, 0);
+		margin-bottom: 10px;
+	}
+
+	.campusLifeListing .owl-stage {
+		left: -30px;
+	}
+
+    	.campusLifeListing .textBlock {
+		padding: 20px;
+	}
+
+
+
+    	.sectionBanner {
+		height: 600px;
+	}
+        .baucrisissectionbanner{	height: 500px!important;}
+            .bannerTitle {
+        font-size: 30px!important;
+    }
+    .baucrisissectionbannerlink {
+        margin-bottom:35px!important
+    }
+    .menuItem a{font-size:13px
+
+    }
+    	.linkListing {
+		padding-bottom: 5px;
+	}
+	.wrapper {
+		padding: 0 20px;
+	}
+
+	.bannerTitle {
+		font-size: 75px;
+	}
+
+	.logoHolder--main img {
+		width: 200px;
+		height: auto;
+	}
+
+	.header {
+		padding: 15px 20px;
+	}
+
+	.menuItem a {
+		margin-left: 12px;
+	}
+
+	.campusLifeListing img {
+		max-width: 100%;
+	}
+
+	.newsAnnouncement img {
+		max-height: 310px;
+	}
+
+	.itemTitle--med {
+		font-size: 28px;
+	}
+
+	.sectionTitle {
+		font-size: 32px;
+	}
+
+	.itemTitle--big {
+		font-size: 34px;
+	}
+
+	.finderHolder .itemTitle--big {
+		width: 17%;
+	}
+
+	.itemTitle {
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.blockTitle {
+		font-size: 40px;
+		line-height: 45px;
+	}
+
+	.bauListing .number {
+		font-size: 50px;
+	}
+
+	.bauListing .smallTitle br {
+		display: none;
+	}
+
+	.sectionAnchors {
+		padding: 20px 30px;
+	}
+
+
+
+	.sectionImgAndText .imageHolder {
+		padding-right: 50px;
+	}
+
+	.searchListing .itemHolder {
+		margin: 0 0 30px;
+	}
+
+	.newsListing .col-xs-12 {
+		width: 33%;
+	}
+
+	.newsListing .itemHolder {
+		margin-bottom: -30px;
+	}
+
+	.facultySlider .listingItemLI {
+		padding: 0 10px;
+	}
+
+	.facultySlider .titleHolder {
+		width: 95%;
+		left: 10px;
+	}
+
+	.anchorItem {
+		min-width: 170px;
+	}
+	.sectionAnchors .ddSecondLevel{
+		width: 200px;
+	}
+	 .sectionAnchors .ddThirdLevel{
+		 width: 400px;
+		 top:0;
+	 }
+	 .sectionAnchors .ddThirdLevel ul {
+    width: 200px;
+    left: 160px;
+    top: 0;
+}
+.sectionAnchors {
+	z-index: 3;
+}
+
+.anchorListing {
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	display: none;
+	background: #f6f6f6;
+	width: 100%;
+	transform: none;
+	max-width: 100%;
+}
+
+.anchorItem:after {
+	display: none;
+}
+
+.submenu-arrow{
+		display: block;
+    position: relative;
+    right: 15px;
+    float: right;
+    top: -31px;
+    left: auto;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.anchorListing .ddSecondLevel #liContainer.hasSubItem .submenu-arrow{
+	z-index: 99;
+}
+
+.anchorItem br {
+	display: none;
+}
+
+.anchorHolder .navigation {
+	display: none;
+}
+
+.anchorItem {
+	padding: 10px 20px;
+	border-bottom: 1px solid #d8d5d5;
+}
+
+.anchorHolder {
+	padding: 0;
+	justify-content: flex-end;
+}
+
+.anchorMenu-activator {
+	display: block;
+}
+
+.anchorMenu-activator .lines,
+.anchorMenu-activator .lines:before,
+.anchorMenu-activator .lines:after {
+	background: #0089c9;
+}
+
+.anchorHolder .more {
+	font-size: 12px;
+	font-weight: 700;
+	color: #0089c9;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.sectionAnchors .listingItemLI.hasSubItem .ddSecondLevel.visible,
+.sectionAnchors .ddSecondLevel.visible .hasSubItem .ddThirdLevel.visible {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.sectionAnchors:after {
+	display: none;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel,
+.anchorListing .listingItemLI.hasSubItem:hover .ddSecondLevel,
+.anchorListing .listingItemLI.hasSubItem:hover .ddThirdLevel {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel.open,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel.open,
+anchorListing .listingItemLI.hasSubItem:hover .ddSecondLevel.open,
+.anchorListing .listingItemLI.hasSubItem:hover .ddThirdLevel.open {
+	opacity: 1;
+	visibility: visible;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel{
+ width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	height: 100%;
+}
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel{
+	top:-13px;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel ul:before,
+.sectionAnchors .ddSecondLevel ul li:not(:last-child):after,
+.anchorListing .listingItemLI.hasSubItem a:before{
+content:none;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel ul,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel ul{
+margin: 0;
+flex-direction: column;
+	align-items: flex-start;
+	margin: 0;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	background: #f6f6f6;
+	width: 100%;
+	 height: 100%;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel ul li,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel ul li{
+padding: 0;
+background-color: #f6f6f6;
+}
+.sectionAnchors li {
+	position: unset;
+}
+
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel ul li a,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel ul li a{
+		font-size: 18px;
+		min-width: 190px;
+		text-align: center;
+		color: #4d4c4c;
+		position: relative;
+		min-height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		white-space: nowrap;
+		padding: 10px 20px;
+	border-bottom: 1px solid #d8d5d5;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel .backArrow-mobile,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel .backArrow-mobile{
+top:0;
+left:25px;
+z-index: 9;
+}
+.anchorListing .listingItemLI.hasSubItem .ddSecondLevel ul li:first-child a,
+.anchorListing .listingItemLI.hasSubItem .ddThirdLevel ul li:first-child a{
+font-weight: 700;
+}
+
+.sectionAnchors .ddSecondLevel ul li, .sectionAnchors .ddThirdLevel ul li{
+position: unset;
+}
+.sectionAnchors {
+	padding: 20px;
+}
+.backArrow-mobile {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	padding: 0;
+}
+.sectionAnchors .leftDropdown .ddThirdLevel ul:after{
+	content:none;
+}
+
+ .bauheaderimage{height:400px!important}
+
+   .newseventtitle .smallTitle{
+            font-size: 15px;
+        }
+   
+           .wrapperwithdonation {margin-top:-80px!important; }
+        .baucrisisbannertitle {
+          font-size:20px!important;
+    }
+    .bannerTitleWithDonation {
+        font-size: 16px!important;
+        padding-bottom: 20px!important;
+    
+    }
+    .baucrisissectionbannerlink { margin-bottom:0px!important }
+    .baucrisisbannerlink span { font-size:16px!important}
+   
+    .sectionbannerlink, .baucrisisbannerlink { line-height:17px!important}
+}
+
+
+@media (max-width: 991px) {
+      .newsSlider .itemTitle {
+		font-size: 18px;
+		line-height: 26px;
+	}
+        .mobile-anchor-90perc{
+        width:90%!important;
+        display:block!important;
+    }
+        
+        	.campusLifeListing  {
+		padding-bottom: 40px;
+	}
+
+	.campusLifeListing .listingItemLI {
+		padding: 0 5px;
+	}
+
+	.campusLifeListing .owl-dots {
+		left: 50%;
+		transform: translate(-50%, 0);
+		margin-bottom: 30px;
+	}
+
+	.campusLifeListing .owl-stage {
+		left: -30px;
+	}
+
+    	.campusLifeListing .textBlock {
+		padding: 20px;
+	}
+
+
+            .finderHolder .bannerTitleWithDonation{
+ width: 100%!important;
+ font-size:30px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 50%!important;
+
+}
+
+
+
+        .sectionAnchors a.active{
+            color:#0089c9!important;
+        }
+
+	.topMenu {
+		display: none;
+	}
+
+	.bannerTitle {
+		font-size: 55px;
+	}
+
+	.sectionBanner {
+		height: 600px;
+	}
+
+           .baucrisissectionbanner{	height: 450px!important;}
+      
+    .baucrisissectionbannerlink {
+        margin-bottom:25px!important;
+    }
+	.finderHolder {
+		flex-wrap: wrap;
+	}
+
+	.customSelect {
+		width: 48%;
+		margin-bottom: 15px;
+	}
+
+	.finderHolder .itemTitle--big {
+		width: 48%;
+	}
+
+	.finderHolder .itemTitle--big br {
+		display: none;
+	}
+
+	.sectionLatestNews,
+	.sectionSocial,
+	.sectionFacultyList {
+		padding: 40px 0;
+	}
+
+	.sectionFaculties {
+		padding: 50px 0 40px;
+	}
+
+	.newsAnnouncement {
+		display: none;
+	}
+
+	.facultyTextSlider .sectionTitle {
+		font-size: 25px;
+		line-height: 28px;
+	}
+
+	.campusLifeListing .itemHolder {
+		margin-bottom: 30px;
+	}
+
+	.sectionStudents:before {
+		height: 55%;
+	}
+
+	.footer {
+		padding: 40px 0;
+	}
+
+	.ddSecondLevel {
+		margin-bottom: 20px;
+	}
+
+	/*MENU*/
+
+	.menu-activator {
+		display: block;
+		position: relative;
+		top: unset;
+		right: unset;
+	}
+
+	.lines-button {
+		height: 20px;
+	}
+
+	.lines,
+	.lines:before,
+	.lines:after {
+		background: #fff;
+		height: 3px;
+		width: 22px;
+	}
+
+	.lines:before {
+		top: 6px;
+	}
+
+	.lines:after {
+		top: -6px;
+	}
+
+	body {
+		transition: left 600ms ease;
+		position: relative;
+		left: 0;
+	}
+
+	body.menu-on {
+		overflow: hidden;
+		left: 90%;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bottomHeader {
+		padding-top: 0;
+	}
+
+	.topHeader .leftSide {
+		display: none;
+	}
+
+	.bottomHeader .menusMain {
+		position: absolute;
+		top: 0;
+		left: -90%;
+		background: #22354b;
+		width: 90%;
+		padding: 20px 0;
+		min-height: 100vh;
+	}
+
+	.bottomHeader .menuItem {
+		width: 100%;
+	}
+
+	.bottomHeader .menuItem a:not(.searchIcon) {
+		padding: 15px 20px;
+		display: block;
+		margin: 0;
+		border-bottom: 1px solid #435366;
+	}
+
+	.bottomHeader .menuItem:last-child a:not(.searchIcon) {
+		border-bottom: none;
+	}
+
+	.bottomHeader .menuItem a:after {
+		display: none;
+	}
+
+	.bottomHeader .mainMenu ul {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.menuItem--mobile {
+		display: block;
+		position: relative;
+		margin-bottom: 10px;
+	}
+
+	.menuItem--mobile .inputParent {
+		margin: 0 20px;
+	}
+
+	.searchMobile {
+		padding: 10px;
+		background: #fff;
+		border: none;
+		width: 100%;
+		font-size: 16px;
+		font-weight: 400;
+		color: #323232;
+	}
+
+	.searchMobile::placeholder {
+		color: #858585;
+	}
+
+	.menuItem--mobile .searchIcon {
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		transform: translate(0, -50%);
+	}
+
+	.bottomHeader .mainMenu .socialListing {
+		flex-direction: row;
+		padding: 0 20px;
+	}
+
+	.bottomHeader .menuItem .socialListing .logoHolder {
+		padding: 5px 10px 5px 0;
+	}
+
+	.hasSubItem a:before {
+		content: '';
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translate(0, -50%) rotate(45deg);
+		width: 7px;
+		height: 7px;
+		border-top: 2px solid #fff;
+		border-right: 2px solid #fff;
+	}
+
+	.header .menuItem .ddSecondLevel {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 3;
+		max-height: 100vh;
+		height: 100%;
+		overflow-y: auto;
+	}
+
+	.bottomHeader .menuItem .ddSecondLevel a {
+		border-bottom: none;
+		padding: 5px;
+	}
+
+	.bottomHeader .menuItem .ddSecondLevel a:before {
+		display: none;
+	}
+
+	.blueTitle {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+
+	.bottomHeader .ddSecondLevel ul {
+		margin-bottom: 15px;
+	}
+
+	.breadCrumbMainContainer {
+		display: none;
+	}
+
+	.simpleBanner {
+		padding: 10px 20px;
+	}
+
+
+	.sectionImgAndText {
+		flex-direction: column;
+	}
+
+	.sectionImgAndText .imageHolder {
+		margin-bottom: 15px;
+	}
+
+	.sectionImgAndText {
+		padding: 30px 20px 70px;
+	}
+
+	.newsListing .col-xs-12 {
+		width: 50%;
+	}
+
+	.imageSlider {
+		padding-bottom: 0;
+	}
+
+	.sectionNewsDetail .textBlock:before {
+		display: none;
+	}
+
+	.videoHolder img {
+		max-width: 100%;
+	}
+
+	.sectionNewsDetail .textBlock {
+		padding: 30px;
+		margin-bottom: 20px;
+	}
+
+
+	.header .ddSecondLevel {
+		background: #22354b;
+	}
+
+	.bottomHeader .menuItem .ddSecondLevel a {
+		color: #fff;
+		padding: 5px 0;
+	}
+
+	.bottomHeader .menuItem .blueTitle {
+		color: #fff;
+	}
+
+
+
+	.header .menuItem .ddSecondLevel,
+	.header .menuItem .ddThirdLevel,
+	.header .menuItem:hover .ddSecondLevel,
+	.header .menuItem:hover .ddThirdLevel{
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.header .menuItem .ddThirdLevel.open,
+	.header .menuItem .ddSecondLevel.open,
+	.header .menuItem:hover .ddSecondLevel.open,
+	.header .menuItem:hover .ddThirdLevel.open {
+		opacity: 1;
+		visibility: visible;
+	}
+
+     .bauheaderimage{height:400px!important}
+
+       .newseventtitle .smallTitle{
+            font-size: 15px;
+        }
+}
+
+@media (max-width: 768px) {
+        .finderHolder .bannerTitleWithDonation{
+ width: 100%!important;
+ font-size:22px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 50%!important;
+
+}
+      .newsSlider .itemTitle {
+		font-size: 16px;
+		line-height: 26px;
+	}
+        .mobile-anchor-90perc{
+        width:90%!important;
+        display:block!important;
+    }
+       .sectionAnchors a.active{
+            color:#0089c9!important;
+        }
+	.logoHolder--main img {
+		width: 170px;
+	}
+
+	.bannerTitle {
+		font-size: 35px;
+	}
+
+	.sectionBanner {
+		height: 35vh;
+		background-position: center;
+	}
+
+        .baucrisissectionbanner{	height: 30vh!important;}
+    .baucrisissectionbannerlink {
+          margin-bottom:35px!important;
+    }
+    .baucrisisbannertitle {
+      font-size: 30px!important;
+    }
+	.finderHolder .itemTitle--big {
+		width: 100%;
+		text-align: center;
+		font-size: 35px;
+	}
+
+	.customSelect {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	.journalSlider, .newsSlider {
+		margin-top: 30px;
+		padding-bottom: 40px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+    .journalSlider .textBlock{
+
+		padding: 15px 25px;
+	}
+    	.newsSlider .textBlock {
+		padding: 15px 5px;
+	}
+
+	.itemTitle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+    .journalSlider .owl-stage,
+	.newsSlider .owl-stage {
+		left: -30px;
+	}
+    .journalSlider .owl-nav,
+	.newsSlider .owl-nav {
+		top: -55px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.sectionTitle {
+		text-align: center;
+		font-size: 35px;
+	}
+
+
+
+	.blockTitle {
+		padding-bottom: 15px;
+	}
+
+	.linkListing {
+		padding-bottom: 10px;
+	}
+
+    .sectionPrograms .imageHolder {
+		margin-bottom: 1px;
+		display: none;
+	}
+
+	.sectionPrograms .itemHolder {
+		padding: 30px 20px;
+	}
+
+	.sectionPrograms .wrapper .col-xs-12:first-child .itemHolder {
+		background: url('/Content/Home/img/img-programs-1.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: 1px;
+	}
+
+	.sectionPrograms .wrapper .col-xs-12:last-child .itemHolder {
+		background: url('/Content/Home/img/img-programs-2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.sectionPrograms .wrapper {
+		position: static;
+		left: unset;
+		transform: none;
+		padding: 0;
+	}
+
+	.sectionPrograms .wrapper .col-xs-12 .itemHolder {
+		padding-left: 20px;
+	}
+
+	.sectionFaculties .sectionTitle {
+		padding: 0 20px 20px;
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.sectionFaculties {
+		padding: 35px 0;
+	}
+
+	.facultySlider .imageHolder {
+		max-height: 210px;
+	}
+
+	/*.facultySlider .owl-stage {
+		left: -30px;
+	}*/
+
+	.facultySlider .listingItemLI {
+		/*padding: 0 0 0 20px;*/
+		padding: 0 10px;
+	}
+
+	.facultySlider .titleHolder {
+		top: 30px;
+		left: 20px;
+		bottom: unset;
+		height: 80%;
+		width: 90%;
+	}
+
+	.facultySlider .itemTitle {
+		font-size: 28px;
+	}
+
+	.facultySlider .titleHolder .arrow {
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+	}
+
+	.sectionStudents .row--flex {
+		flex-direction: column-reverse;
+	}
+
+	.sectionStudents {
+		padding: 25px 0 30px;
+	}
+
+	.sectionStudents:before {
+		width: 100%;
+		height: 60%;
+	}
+
+	.sectionStudents .sectionTitle {
+		font-size: 28px;
+		line-height: 32px;
+		text-align: left;
+		padding: 20px 0 25px;
+	}
+
+	.pBI > .quoteSlider .parHolder p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+
+    	.pBI > .storiesSlider .parHolder p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.facultyTextSlider .sectionTitle {
+		font-size: 28px;
+		line-height: 32px;
+		text-align: left;
+		padding-bottom: 15px;
+	}
+
+	.facultyTextSlider .linkHolder {
+		position: absolute;
+		bottom: 10px;
+	}
+
+	.facultyTextSlider .row {
+		position: relative;
+	}
+
+	.facultyTextSlider .col-xs-12 {
+		position: static;
+	}
+
+	.facultyTextSlider img {
+		margin-bottom: 80px;
+	}
+
+	.sectionSocial .sectionTitle {
+		font-size: 28px;
+		line-height: 32px;
+		padding: 0 20px 25px;
+	}
+
+	.sectionSocial .wrapper {
+		padding: 0 0 0 20px;
+	}
+
+	.campusLifeListing  {
+		padding-bottom: 40px;
+	}
+
+	.campusLifeListing .listingItemLI {
+		padding: 0 5px;
+	}
+
+	.campusLifeListing .owl-dots {
+		left: 50%;
+		transform: translate(-50%, 0);
+		margin-bottom: 30px;
+	}
+
+	.campusLifeListing .owl-stage {
+		left: -30px;
+	}
+
+	.sectionBau {
+		padding: 50px 0 80px;
+	}
+
+	.bauListing {
+		padding-bottom: 25px;
+	}
+
+	.bauListing .number {
+		font-size: 34px;
+	}
+
+	.bauListing img {
+		width: 70%;
+	}
+
+	.bauListing .itemHolder {
+		margin-bottom: 25px;
+	}
+
+	.smallTitle {
+		font-size: 14px;
+	}
+
+	.footerMenu .menusMain {
+		display: none;
+	}
+
+	.footer {
+		padding: 30px 0;
+	}
+
+	.copyRight {
+		flex-direction: column;
+	}
+
+	.copyRight .smallText {
+		padding-bottom: 10px;
+	}
+
+	.menusMain--mobile {
+		display: block;
+		padding: 40px 0 20px;
+	}
+
+	.date {
+		font-size: 13px;
+		padding-top: 15px;
+	}
+
+	.date:before {
+		width: 30px;
+		height: 4px;
+	}
+
+	.sectionBau .sectionTitle {
+		font-size: 26px;
+		line-height: 32px;
+	}
+
+	.simpleBanner .sectionTitle {
+		font-size: 24px;
+	}
+
+	.sectionAnchors {
+		margin-bottom: 0;
+	}
+
+	.sectionImgAndText img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.sectionImgAndText .imageHolder {
+		padding-right: 0;
+	}
+
+	.parResults {
+		padding-bottom: 20px;
+	}
+
+	.searchListing .itemTitle {
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+
+	.searchListing .itemHolder {
+		padding: 25px;
+		margin: 0 0 25px;
+	}
+
+	.paginHolder {
+		padding-top: 30px;
+	}
+
+	.sectionResults {
+		padding: 30px 0 70px;
+	}
+
+	.newsListing .col-xs-12 {
+		width: 100%;
+	}
+
+	.newsListing .smallTitle {
+		font-size: 24px;
+	}
+
+	.simpleBanner .bannerHolder {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.filterHolder {
+		margin-bottom: 20px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.filterHolder .selectHolder {
+		margin-top: 10px;
+	}
+
+	.newsListing .textBlock {
+		transform: none;
+		margin: 0;
+	}
+
+	.newsListing .itemHolder {
+		margin-bottom: 25px;
+	}
+
+	.simpleBanner .linkHolder {
+		padding-bottom: 10px;
+	}
+
+	.link--back {
+		margin-left: 0;
+	}
+
+	.sectionNewsDetail .textBlock {
+		padding: 20px;
+	}
+
+	.slick-prev {
+		left: 5px;
+	}
+
+	.slick-next {
+		right: 5px;
+	}
+
+	.slick-track {
+		padding: 30px 0;
+	}
+
+	.sliderLine {
+		margin-top: 35px;
+		max-width: 100%;
+		width: calc(100% - 40px);
+	}
+
+	.bannerTitle br {
+		display: none;
+	}
+
+	.header .ddSecondLevel {
+		padding: 50px 0 40px;
+	}
+
+	.newsAnnouncement {
+		max-width: calc(100% - 40px);
+		width: calc(100% - 40px);
+		margin: 0 20px;
+		right: auto;
+		left: 0;
+		padding: 10px;
+		align-items: center;
+	}
+
+	.newsAnnouncement .itemTitle--med {
+		font-size: 22px;
+		padding: 15px 0 20px;
+	}
+
+	.campusLifeListing .textBlock {
+		padding: 20px;
+	}
+
+	.quoteSlider .itemHolder {
+		padding-top: 95px;
+	}
+
+
+    	.storiesSlider .itemHolder {
+		padding-top: 95px;
+	}
+
+
+	.facultySlider {
+		padding: 0;
+	}
+
+	.newsAnnouncement .linkHolder {
+		display: none;
+	}
+
+	.newsAnnouncement .imageHolder {
+		display: inline-block;
+		max-width: 30%;
+	}
+
+	.newsAnnouncement .itemTitle--med {
+		display: inline-block;
+		font-size: 16px;
+		line-height: 18px;
+		padding: 0 0 0 10px;
+		max-width: 70%;
+	}
+
+	.newsAnnouncement .itemTitle--med br {
+		display: none;
+	}
+
+	.newsAnnouncement .close {
+		width: 23px;
+		height: 23px;
+		top: -23px;
+	}
+
+	.newsAnnouncement .close:before,
+	.newsAnnouncement .close:after {
+		height: 12px;
+	}
+     .bauheaderimage{height:300px!important}
+
+          .newseventtitle .smallTitle{
+            font-size: 15px;
+        }
+
+
+
+           .donation { bottom:-4px!important;  font-size: 9px!important;padding-bottom:5px!important; padding-top:5px!important}
+     .withdonation {
+        margin-bottom:5px!important;
+    }
+    .donationbutton { margin:auto!important;font-size:11px!important;padding:10px!important;min-width:100px!important}
+     
+       .wrapperwithdonation {margin-top:-95px!important; }
+        .baucrisisbannertitle {
+          font-size:20px!important;
+    }
+    .bannerTitleWithDonation {
+        font-size: 16px!important;
+        padding-bottom: 20px!important;
+    
+    }
+    .baucrisissectionbannerlink { margin-bottom:0px!important }
+    .baucrisisbannerlink span { font-size:16px!important}
+   
+    .sectionbannerlink, .baucrisisbannerlink { line-height:17px!important}
+}
+@media (max-width: 414px) {
+         .finderHolder .bannerTitleWithDonation{
+ width: 100%!important;
+ font-size:22px!important;
+}
+      .finderHolder .baucrisisbannerlink{
+ width: 100%!important;
+
+} 
+    .bannertitlesec {  font-size: 16px!important; }
+    .bluestyletitle {  font-size: 16px!important; }
+      .newsSlider .itemTitle {
+		font-size: 16px;
+		line-height: 26px;
+	}
+    .titleHolder .lineheight { line-height:20px!important;font-size:1em!important }
+
+    .sectionbannerlink { 
+           line-height:20px!important;
+
+    }
+    .bannerTitle {
+        font-size: 16px!important;
+        padding-bottom: 20px!important;
+    
+    }
+
+    .sectionBanner {
+        height: 50vh;
+        background-position: center;
+    }
+
+      .donation { bottom:0px!important;  font-size: 9px!important;padding-bottom:5px!important; padding-top:5px!important}
+        .baucrisissectionbanner{	height: 50vh!important;}
+   .baucrisissectionbannerlink {
+        margin-bottom:0px!important;
+    }
+   
+    .withdonation {
+        margin-bottom:5px!important;
+    }
+    .donationbutton { margin:auto!important;font-size:11px!important;padding:10px!important;min-width:100px!important}
+     
+      .wrapperwithdonation {margin-top:-75px!important; }
+    .baucrisisbannertitle {
+          font-size:19px!important;
+    }
+     .bauheaderimage{height:300px!important}
+     .sectionBanner .button--white{
+         min-width:135px;
+     }
+
+          .newseventtitle .smallTitle{
+            font-size: 15px;
+        }
+}
+
+@media (max-width: 375px) {
+    
+  
+     .donation { bottom:-4px!important;  font-size: 9px!important;padding-bottom:5px!important; padding-top:5px!important}
+     .withdonation {
+        margin-bottom:5px!important;
+    }
+    .donationbutton { margin:auto!important;font-size:11px!important;padding:10px!important;min-width:100px!important}
+     
+       .wrapperwithdonation {margin-top:-90px!important; }
+}
+
+
+@media (max-width: 360px) {
+    
+  
+     .donation { bottom:-4px!important;  font-size: 9px!important;padding-bottom:5px!important; padding-top:5px!important}
+     .withdonation {
+        margin-bottom:5px!important;
+    }
+    .donationbutton { margin:auto!important;font-size:11px!important;padding:10px!important;min-width:100px!important}
+     
+       .wrapperwithdonation {margin-top:-120px!important; }
+}
+@media (max-width: 360px){
+.wrapperwithdonation {
+    margin-top: -78px!important;
+}
+}
+
+@media (max-width: 375px){
+.wrapperwithdonation {
+    margin-top: -130px!important;
+}
+}
+@media (max-width: 414px){
+.wrapperwithdonation {
+    margin-top: -170px!important;
+}
+
+}

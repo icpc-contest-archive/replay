@@ -1,0 +1,115 @@
+body {
+    font-family:"verdana","Helvetica","Arial",sans-serif;
+    background-color:rgb(255,255,210);
+    font-size: 82%;
+    margin: 1ex 2ex;
+}
+
+table {
+    font-size: 100%;
+}
+td {
+    vertical-align: top;
+}
+
+strong {
+  color: #800;
+}
+
+p {
+    margin-top: 1ex;
+}
+
+h1, h2, h3, h4 {
+	color: #036;
+    font-weight: normal;
+}
+
+
+ul {
+    margin-top: 1.5ex;
+    margin-bottom: 1.5ex;
+}
+
+li {
+    margin-top: 0.6ex;
+    margin-bottom: 0.6ex;
+}
+
+.r {
+    text-align: right;
+}
+
+.logo {
+    margin-top: 2ex;
+    margin-bottom: 2ex;
+}
+
+.title {
+    font-weight: normal;
+	text-align: center;
+	color: #047;
+	margin-bottom: 2ex;
+}
+
+.titb {
+	margin-top: 1ex;
+	font-size: 75%;
+}
+
+td.lb {
+    background-color: rgb(220,245,245);
+    vertical-align: top;
+    padding: 0ex 2ex;
+}
+
+dt {
+    margin-top: 2ex;
+    font-weight: bold;
+}
+
+td.lb dd {
+    font-size: 90%;
+    margin-top: 0.5ex;
+    margin-left: 0em;
+}
+
+td.rb {
+    padding: 0ex 2ex;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+.sign {
+    text-align: right;
+    font: italic;
+}
+
+A:link { color: #002ABF;  }
+A:visited { color: #004068 }
+A:hover { background: #feb; }
+
+A.img:hover { background: inherit; }
+
+a img { border-color:#feb; }
+
+.linkbar {
+    text-align:center; 
+    font-weight:bold; 
+    font-size:90%;
+}
+
+.linkbar A:link, .linkbar A:visited { text-decoration: none; }
+
+table.bl {
+    margin-top: 4ex;
+    margin-bottom: 2ex;
+}
+table.bl th, table.bl td {
+    padding: 0.3ex
+    0.8ex;
+    background: #bce; 
+}

@@ -1,0 +1,54 @@
+ 
+              C T U    O P E N    C O N T E S T    2 0 0 6
+            ================================================
+                             final standings
+                                                           
+  1  cteam94  FMFI    Burger, Macko                    14:52:03  7  --cdefghi
+  2  cteam38  MFF     Tesar, Dzetkulic, Satka          20:51:28  7  --cdefghi
+  3  cteam33  MFF     Bella, Cibulka, Straka           08:10:14  6  --cd-fghi
+  4  cteam44  MFF     Vaner, Bilka, Marek              18:01:06  6  --cdef-hi
+  5  cteam93  FMFI    Mravec, Balaz, Labat             20:43:59  6  --cd-fghi
+  6  cteam35  MFF     Bulanek, Cerno, Zbynek           08:49:10  4  ---d-f-hi
+  7  cteam48  MFF     Zahornadsky, Vilusinsky, Domany  11:07:07  4  ---d-f-hi
+  8  cteam42  MFF     Gavenciak, Hrubis, Kadlec        14:08:09  4  ---d-f-hi
+  9  cteam81  FIIT    Janosik, Labaj, Rastocny         05:56:13  3  ---d-f--i
+ 10  cteam92  FMFI    Fedak, Lenhardt, Mikulas         08:11:09  3  ---d---hi
+ 11  cteam19  FEL     Trna, Malat, Mikula              08:47:23  3  ---d-f--i
+ 12  cteam84  FIIT    Tekel, Polacik, Hajas            09:33:55  3  ---d-f-h-
+ 13  cteam88  Zilina  Hanula, Stefus, Krivulcik        10:39:29  3  ---d-f-h-
+ 14  cteam86  FIIT    Petras, Ilavsky, Kuma            12:03:15  3  --cd-f---
+ 15  cteam24  Arabska Holy, Jiracek, Pokorny           12:14:32  3  ---d-f-h-
+ 16  cteam60  MUNI    Hanzl, Hanzelka, Pelanek         03:10:53  2  ---d---h-
+ 17  cteam32  FAV     Janisch, Skala, Kratochvil       03:22:16  2  ---d-f---
+ 18  cteam37  FEL     Marek, Modry, Fiktus             03:27:05  2  ---d----i
+ 19  cteam11  FEL     Masek, Podgorny, Pokorny         04:22:25  2  ---d---h-
+ 20  cteam49  MFF     Kropitz, Krizik, Pijak           04:35:30  2  ---d----i
+ 21  cteam47  MFF     Cizek                            04:39:15  2  ---d-f---
+ 22  cteam62  MUNI    Benes, Estvanc, Stepka           04:48:18  2  ---d----i
+ 23  cteam22  FEL     Kopriva, Bucek, Smid             05:07:01  2  ---d-f---
+ 24  cteam87  FIIT    Barlik, Bartosek, Desatnik       07:42:20  2  ---d-f---
+ 25  cteam39  FEL     Jamriska, Kriz, Dousa            08:05:31  2  ---d-f---
+ 26  cteam91  Zilina  Goga, Hostak, Snahnican          11:55:03  2  ---d-f---
+ 27  cteam26  VSE     Novak, Tesar                     12:10:52  2  ---d-f---
+ 28  cteam89  Zilina  Bris, Mellen, Sajna              00:04:47  1  ---d-----
+ 29  cteam71  VSB     Artusenko, Bohm                  00:16:43  1  ---d-----
+ 30  cteam21  FEL     Bim, Kadlecek, John              00:25:36  1  ---d-----
+ 31  cteam83  FIIT    Chabadova, Jastrzembska, Jelinek 00:25:38  1  ---d-----
+ 32  cteam27  FEL     Janek, Hradsky, Bems             00:26:15  1  ---d-----
+ 33  cteam82  FIIT    Lohnicky, Svonava                00:33:10  1  ---d-----
+ 34  cteam41  FEL     Hotmar                           00:39:13  1  ---d-----
+ 35  cteam72  VSB     Joachim, Pesat, Sturm            00:52:12  1  ---d-----
+ 36  cteam23  FEL     Miklanek, Motyka                 00:54:37  1  ---d-----
+ 37  cteam31  FAV     Kratochvil, Aubrecht, Konkol     01:13:06  1  ---d-----
+ 38  cteam64  MUNI    Hradil, Novotny                  01:23:03  1  ---d-----
+ 39  cteam34  FEL     Kucik, Charvat                   01:25:40  1  ---d-----
+ 40  cteam43  FEL     Dusek, Chochol, Jansta           01:26:37  1  ---d-----
+ 41  cteam46  FEL     Hasaj, Sousedek, Stiller         01:32:13  1  ---d-----
+ 42  cteam28  FEL     Maca, Matuska, Macik             01:46:24  1  ---d-----
+ 43  cteam61  MUNI    Chalupa, Drazan, Fabrikova       01:52:01  1  ---d-----
+ 44  cteam25  FEL     Belkauskas, Prouza, Spacek       02:28:02  1  ---d-----
+ 45  cteam85  FIIT    Porubcan, Rakus, Sojka           03:16:30  1  ---d-----
+ 46  cteam63  MUNI    Krcal, Krivanek, Sedenka         04:07:59  1  ---d-----
+ 47  cteam29  FEL     Pospisil, Pospichal, Prajzler    00:00:00  0  ---------
+ 48  cteam36  FEL     Janda, Brynda, Benatsky          00:00:00  0  ---------
+ 49  cteam73  OU      Holub, Melis, Zacek              00:00:00  0  ---------

@@ -1,0 +1,531 @@
+table.standings td,
+table.standings th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.acc,
+.upsolved {
+  color: #090;
+  font-weight: bold;
+}
+
+.rej,
+.upsolving {
+  color: #d22;
+  font-weight: bold;
+}
+
+.hid {
+  color: #da2;
+  font-weight: bold;
+}
+
+.par {
+  color: #07f;
+  font-weight: bold;
+}
+
+.swi,
+.vir {
+  color: #f0f;
+  font-weight: bold;
+}
+
+tr:hover .edit-active-switcher,
+.edit-active-switcher:hover {
+  display: inline-block;
+}
+
+.edit-active-switcher:hover {
+  color: #f0f;
+}
+
+.edit-active-switcher {
+  display: none;
+  color: #888;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.standings tr.parity-border td,
+.standings tr.parity-border th {
+  border-top: 1px solid #444;
+}
+
+.standings .first-ac,
+.standings .max-score {
+  background: #dff0d8 !important;
+}
+
+.standings .first-ac-of-all {
+  background: #ffe866 !important;
+}
+
+.standings .gold-medal {
+  background: #f9d923 !important;
+}
+
+.standings .silver-medal {
+  background: silver !important;
+}
+
+.standings .bronze-medal {
+  background: #c08e55 !important;
+}
+
+.standings .honorable-medal {
+  background: #d0e3f7 !important;
+}
+
+.standings td.blurred-text,
+.standings td.blurred-text a {
+  color: #888 !important;
+  background: inherit !important;
+}
+
+.standings .gold-medal-percentage {
+  fill: #f9d923 !important;
+  stroke: #f9d923 !important;
+}
+
+.standings .silver-medal-percentage {
+  fill: silver !important;
+  stroke: silver !important;
+}
+
+.standings .bronze-medal-percentage {
+  fill: #c08e55 !important;
+  stroke: #c08e55 !important;
+}
+
+.standings .honorable-medal-percentage {
+  fill: #d0e3f7 !important;
+  stroke: #d0e3f7 !important;
+}
+
+.standings .text-gold-medal {
+  color: #ccab04 !important;
+}
+
+.standings .text-bg-success {
+  color: #4ba823 !important;
+}
+
+.standings .bg-success {
+  background: #dff0d8 !important;
+}
+
+table.standings .handle-cell {
+  text-align: left;
+}
+
+table.standings .handle-cell,
+table.standings .rating-cell,
+table.standings .place-cell,
+table.standings .first-u-cell {
+  white-space: nowrap;
+}
+
+.handle-cell > .handle-cell-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.standings thead th {
+  border: none !important;
+}
+
+.standings thead tr th {
+  box-shadow: inset 0 -1px #d0d0d0;
+}
+
+.standings th.header-score {
+  box-shadow: inset 1px 0 #d0d0d0;
+}
+
+.standings tr.header-problems th.subheader-score {
+  box-shadow:
+    inset 1px 0 #d0d0d0,
+    inset 0 -1px #d0d0d0;
+}
+
+a.coder,
+.standings td a {
+  color: inherit !important;
+}
+
+.standings a.coder:hover span,
+a.solution:hover span {
+  text-decoration: underline;
+}
+
+.standings .handle-cell:hover .external-link {
+  visibility: visible;
+}
+
+.nobold {
+  font-weight: normal;
+}
+
+#view-solution-modal:not(.fullscreen) .modal-body {
+  max-height: calc(100vh - 200px);
+}
+
+#view-solution-modal.fullscreen .modal-body {
+  max-height: calc(100vh - 120px);
+}
+
+#view-solution-modal.modal .modal-body {
+  overflow-y: auto;
+}
+
+#update-statistics-log-output {
+  white-space: pre-wrap;
+}
+
+#update-statistics-log-output .horizontal-line {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#update-statistics-progress-text {
+  position: absolute;
+  color: black;
+  text-align: center;
+  left: 0;
+  right: 0;
+  user-select: none;
+}
+
+.language {
+  white-space: nowrap;
+}
+
+.table tr:nth-of-type(n).info td {
+  background-color: #d9edf7;
+}
+
+.open-submissions {
+  cursor: pointer;
+}
+
+/*
+ * starred
+ */
+
+.starred .advance,
+.advance {
+  font-weight: bold;
+}
+
+.star {
+  cursor: pointer;
+}
+
+#unstar > a {
+  cursor: pointer;
+  color: inherit;
+}
+
+.stat-cell.starred .far.fa-star {
+  display: none;
+}
+
+.stat-cell .fas.fa-star {
+  display: none;
+}
+
+.stat-cell.starred .fas.fa-star {
+  display: inline;
+}
+
+#standings-authors {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+#standings-groupby > div {
+  padding: 0px;
+}
+
+.standings-resource img {
+  vertical-align: top;
+}
+
+.neighbors-standings-url {
+  text-align: left;
+}
+
+#neighbors-controls a {
+  margin: 0px 1px;
+  color: white;
+}
+
+#neighbors-controls a[disabled] {
+  color: #ccc;
+}
+
+.problem-progress {
+  height: 7px;
+  margin: 5px 0px;
+}
+
+#timeline {
+  position: relative;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+#timeline-buttons {
+  display: inline-block;
+}
+
+#timeline-text {
+  position: absolute;
+  color: black;
+  text-align: center;
+  left: 0;
+  right: 0;
+  user-select: none;
+}
+
+#timeline-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 100501;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.standings .problem-cell.result-hidden.result-question::before,
+.standings.unfreezing .problem-cell.result-hidden::before {
+  content: "?";
+  color: #da2;
+}
+
+.standings .problem-cell.result-hidden::before,
+.standings.no-hints .problem-cell.result-hidden:not(.result-question)::before {
+  content: "·";
+  color: #333;
+}
+
+.standings .result-hidden * {
+  background: inherit !important;
+  display: none !important;
+}
+
+.accepted-switcher {
+  cursor: pointer;
+}
+
+.problem-cell.accepted-switcher:hover {
+  background-color: #fef;
+}
+
+.problem-cell .is-virtual {
+  color: #777;
+  font-size: 70%;
+  margin-left: -2px;
+}
+
+/*
+ * versus games modal
+ */
+
+.modal-versus-games .panel,
+.modal-versus-games table.table {
+  margin: 0;
+}
+
+.modal-versus-games .panel table.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px 5px;
+  height: 20px;
+}
+
+.modal-versus-games .panel table.table a {
+  color: #337ab7 !important;
+}
+
+.modal-versus-games .modal-content {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+a.versus-games:hover {
+  cursor: pointer;
+}
+
+.modal-versus-games .table tr.game-hover > td,
+.modal-versus-games .table tr.game-hover > th {
+  background-color: #f5f5f5;
+}
+.modal-versus-games .table tr.success.game-hover > td,
+.modal-versus-games .table tr.success.game-hover > th {
+  background-color: #d0e9c6;
+}
+.modal-versus-games .table tr.danger.game-hover > td,
+.modal-versus-games .table tr.danger.game-hover > th {
+  background-color: #ebcccc;
+}
+.modal-versus-games .table tr.warning.game-hover > td,
+.modal-versus-games .table tr.warning.game-hover > th {
+  background-color: #faf2cc;
+}
+
+/* END Versus games modal */
+
+#parsed-time .pull-right {
+  margin-top: -20px;
+  height: 20px;
+}
+
+.stat-cell {
+  position: relative;
+  background-color: #fff;
+}
+
+table.standings.table-condensed-detail tr > td {
+  height: 40px;
+}
+
+table.standings.table-condensed-detail tr > * {
+  padding: 1px 5px;
+}
+
+table.standings.table-condensed-non-detail tr > * {
+  padding: 5px;
+}
+
+table.standings.table-merge-problems th {
+  height: 20px;
+  line-height: normal;
+}
+
+.edit-active-switcher-bootbox .modal-body,
+.edit-active-switcher-bootbox .modal-footer {
+  padding: 5px;
+}
+
+.edit-active-switcher-bootbox input:not(:first-child) {
+  margin-top: 5px;
+}
+
+.progress-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 var(--progress), #e0e0e0 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.progress-circle::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+/*
+ * upload solution
+ */
+
+.drop-zone {
+  position: relative;
+}
+
+.drop-zone::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed transparent;
+  pointer-events: none;
+}
+
+.drop-zone.dragover::after {
+  border-color: magenta;
+}
+
+.drop-zone.uploading::after {
+  border-color: magenta;
+  animation: dash_compress 1.5s infinite linear;
+}
+
+@keyframes dash_compress {
+  0%,
+  100% {
+    border-width: 2px;
+  }
+  50% {
+    border-width: 8px;
+  }
+}
+
+/*
+ * first_u_cell
+ */
+
+.standings td a.out-of-quota {
+  color: #ccc !important;
+}
+
+.standings.intermediate .first-u-cell .small {
+  display: none;
+}
+
+/*
+ * Single elimination tournament
+ */
+
+.elimination-tournament-bracket {
+  display: grid;
+  gap: 0.2em;
+  margin: 10px auto;
+  width: auto;
+}
+
+.elimination-tournament-match {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.1em;
+}
+
+.elimination-tournament-table {
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.elimination-tournament-table td {
+  padding: 0 1em;
+}
+
+.match-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-row {
+}
+
+.team-name {
+}
+
+.team-score {
+}

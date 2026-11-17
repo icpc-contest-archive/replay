@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>ICPC 2013</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <script type="text/javascript" src="/icpc2013/js/jquery.js"></script>
+    <script type="text/javascript" src="/icpc2013/js/fg.menu.js"></script>
+    
+    <link type="text/css" href="/icpc2013/css/fg.menu.css" media="screen" rel="stylesheet" />
+    
+    <link type="text/css" href="/icpc2013/css/theme/ui.theme.css" media="screen" rel="stylesheet" />
+	<link type="text/css" href="/icpc2013/css/style.css" media="screen" rel="stylesheet" />
+	<!--[if IE 6]><link type="text/css" href="css/ie6style.css" media="screen" rel="stylesheet" /><![endif]-->
+    <script type="text/javascript">    
+    $(function(){
+    	$('.fg-button').hover(
+    		function(){ $(this).removeClass('ui-state-default').addClass('ui-state-focus'); },
+    		function(){ $(this).removeClass('ui-state-focus').addClass('ui-state-default'); }
+    	);
+		$('#registration').menu({ 
+			content: $('#registration').next().html(), 
+			backLink: false,
+			showSpeed: 100 
+		});
+		$('#thecontest').menu({ 
+			content: $('#thecontest').next().html(),
+			backLink: false, 
+			showSpeed: 100 
+		});
+		$('#enjoyjakarta').menu({ 
+			content: $('#enjoyjakarta').next().html(), 
+			showSpeed: 100 
+		});		
+		$('#aboutus').menu({
+			content: $('#aboutus').next().html(),
+			showSpeed: 100
+		});
+    });
+    </script>
+</head>
+
+<body>
+<div id="page"><div id="headerlogo"><img src="/icpc2013/images/bannerL.jpg" id="banL" alt="bannerL"/></div>
+<div id="menubar">
+	<a tabindex="0" href="/icpc2013/index/main" onclick="return doload(this)" class="fg-button ui-widget ui-state-default ui-corner-all">Home</a>
+	<a tabindex="1" href="#aboutus" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="aboutus">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>About Us</a>
+	<div id="aboutus" class="hidden">
+	<ul>
+		<li><a href="/icpc2013/index/aboutinc">Indonesia National Contest</a></li>
+		<li><a href="/icpc2013/index/aboutus">Asia Jakarta Regional Contest</a></li>
+	</ul>
+	</div>
+	<a tabindex="2" href="#registration" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="registration">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>Registration</a>
+	<div id="registration" class="hidden">
+	<ul>
+		<li><a href="#">How To Register</a>
+			<ul>
+				<li><a href="/icpc2013/index/howtoregister">Indonesian Teams</a></li>
+				<li><a href="/icpc2013/index/howtoreginternational">Foreign Teams</a></li>
+			</ul>
+		</li>
+		<li><a href="/icpc2013/index/importantdate">Important Date</a></li>
+	</ul>
+	</div>
+	<a tabindex="3" href="#thecontest" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="thecontest">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>The Contest</a>
+	<div id="thecontest" class="hidden">
+	<ul>
+		<li><a href="#">Run Down</a>
+			<ul>
+				<li><a href="/icpc2013/index/rundowninc">Indonesia National Contest</a></li>
+				<li><a href="/icpc2013/index/rundown">Asia Jakarta Regional Contest</a></li>
+			</ul>
+		</li>
+				<li><a href="/icpc2013/index/rules">Rules</a></li>
+		
+		<li><a href="/icpc2013/index/top50inc">Top 50 INC</a></li>
+	<li><a href="/icpc2013/index/gotobinus">How to get to BINUS</a></li>
+	</ul>
+	</div>
+	<a tabindex="4" href="#enjoyjakarta" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="enjoyjakarta">
+	<span class="ui-icon ui-icon-triangle-1-s"></span>Enjoy Jakarta</a>
+	<div id="enjoyjakarta" class="hidden">
+	<ul>
+		<li><a href="/icpc2013/index/visa">Visa Information</a></li>
+		<li><a href="/icpc2013/index/hotel">Accommodation Recommendation</a></li>
+		<li><a href="/icpc2013/index/transportation">Transportation</a></li>
+		<li><a href="/icpc2013/index/excursion">Excursion</a></li>
+	</ul>
+	</div>
+	<a tabindex="5" href="/icpc2013/index/contactus" onclick="return doload(this)" class="fg-button ui-widget ui-state-default ui-corner-all">Contact Us</a>
+</div>
+<div id="content">
+Sorry the page you're looking for is not available.
+</div>
+<div id="latestnews">
+<div style="text-align:right"><img src="/icpc2013/images/sbanner.gif"/></div>
+<br />
+How to register, click <a onclick="return doload(this)" href="/icpc2013/index/howtoregister">here</a>.<br />
+To register your team, click <a href="http://icpc.baylor.edu" target="_blank">here</a><br />
+for ICPC Updates please refer to :<br />
+<a href="http://blog.sina.com/cjhwang" target="_blank">http://blog.sina.com/cjhwang</a><br />
+	<h3><u>Latest News</u></h3>
+	<b>[November 11<sup>th</sup>, 2013]</b><br />
+	INC Problemset 2013 can be seen <a href="/icpc2013/index/incproblemset" onclick="return doload(this)">here</a>. <br/><br/>
+	<b>[October 31<sup>st</sup>, 2013]</b><br />
+	ICPC 2013 Report can be seen <a href="/icpc2013/ACM_ICPC_Asia_Jakarta_Report_2013.pdf" target="_blank">here</a>. <br/><br/>
+	<b>[October 25<sup>th</sup>, 2013]</b><br />
+	Problemset can be seen <a href="/icpc2013/index/problemset" onclick="return doload(this)">here</a><br /><br />
+	<b>[October 24<sup>th</sup>, 2013]</b><br />
+	Scoreboard can be seen <a href="/icpc2013/result/" target="_blank" >here</a><br />
+	Final Scoreboard can be seen <a href="/icpc2013/result/final" target="_blank" >here</a>
+	<br /><br />
+	<b>[October 21<sup>th</sup>, 2013]</b><br />
+	<a href="/icpc2013/index/hotel" onclick="return doload(this)">Accomodation</a> has been updated.<br /><br />
+	<b>[October 16<sup>th</sup>, 2013]</b><br />
+	<a href="/icpc2013/index/top50inc" onclick="return doload(this)">Top 50 inc</a> has been added.<br />
+	<br />
+	<b>[October 8<sup>th</sup>, 2013]</b><br />
+	updated content:
+	<ul>
+		<li><a href="/icpc2013/index/howtoregister" onclick="return doload(this)">How to register-Indonesian Teams</a></li>
+		<li><a href="/icpc2013/index/importantdate" onclick="return doload(this)">Important Date</a></li>
+	</ul>
+	added content:
+	<ul>
+		<li><a href="/icpc2013/index/rundown" onclick="return doload(this)">ACM-ICPC 2013 Asia Jakarta Regional Contest rundown</a></li>
+		<li><a href="/icpc2013/index/excursion" onclick="return doload(this)">Excursion</a></li>
+	</ul>
+	<br />
+	<b>[September 18<sup>th</sup>, 2013]</b><br />
+	added content:
+	<ul>
+		<li><a href="/icpc2013/index/rundowninc" onclick="return doload(this)">INC Rundown</a></li>
+		<li><a href="/icpc2013/index/gotobinus" onclick="return doload(this)">How to get to BINUS</a></li>
+	</ul>
+	<br />
+	<b>[September 17<sup>th</sup>, 2013]</b><br />
+	<a href="/icpc2013/index/rules" onclick="return doload(this)">Rules</a> has been added.<br />
+	<br />
+	<b>[September 12<sup>th</sup>, 2013]</b><br />
+	<a href="/icpc2013/index/hotel" onclick="return doload(this)">Accomodation</a> has been added.<br />
+	<br />
+	<b>[August 27<sup>th</sup>, 2013]</b><br />
+	updated content:
+	<ul>
+		<li><a href="/icpc2013/index/howtoregister" onclick="return doload(this)">How to register-Indonesian Teams</a></li>
+		<li><a href="/icpc2013/index/howtoreginternational" onclick="return doload(this)">How to register-Foreign Teams</a></li>
+		<li><a href="/icpc2013/index/importantdate" onclick="return doload(this)">Important Date</a></li>
+		<li><a href="/icpc2013/index/aboutinc" onclick="return doload(this)">About Indonesia National Contest</a></li>
+		<li><a href="/icpc2013/index/aboutus" onclick="return doload(this)">About Asia Jakarta Regional Contest</a></li>
+		<li><a href="/icpc2013/index/gotobinus" onclick="return doload(this)">How to get to BINUS</a></li>
+		<li><a href="/icpc2013/index/contactus" onclick="return doload(this)">Contact Us</a></li>
+		<li><a href="/icpc2013/index/visa" onclick="return doload(this)">Visa Information</a></li>
+		<li><a href="/icpc2013/index/transportation" onclick="return doload(this)">Transportation</a></li>
+	</ul>
+</div>
+<div class="cr"></div>
+<div id="footer">
+	Copyright &copy; 2013 BINUS UNIVERSITY. All rights reserved.
+</div>
+</div>
+</body>
+</html>
+
+
+
