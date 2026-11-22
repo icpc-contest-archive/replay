@@ -1,0 +1,209 @@
+span.emptyTable, div.emptyTable {
+	display: block;
+	clear: left;
+	border: 1px solid #ccc;
+	padding: .25em .5em;
+        margin-top: .5em;
+     font-style: italic;   
+}
+/** max results panel **/
+div.panelMaxResults div{
+ /*padding:.1em; this collides with + Add file.. */
+ margin:0;
+}
+
+
+/*** TABLE ***/
+/*
+table.searchTable {
+  overflow: auto;
+}
+*/
+
+table.searchTable tr.header th { /*
+    background: #d0dbff repeat-x url(../img/panelImg/3DlayoutBlue3Big.png);
+	background: #e7f9ff repeat-x url(../img/panelImg/3DlayoutBlue7Big.png);
+	background: #d0dbff repeat-x url(../img/panelImg/3DlayoutBlue3Big.png);
+	background: #f2ffff repeat-x url(../img/panelImg/3DlayoutBlue8Big.png);
+	background: #c5dbff repeat-x url(../img/panelImg/3DlayoutBlue4Big.png);
+    background: #d6e6f2 repeat-x url(../img/panelImg/3DlayoutBlue6Big.png); 
+	*/
+	background: #dbdeff repeat-x url(../img/panelImg/3DlayoutBlue2Big.png);
+}
+
+table.searchTable.public tr.header th { 
+
+	background: #efeff3 repeat-x url(../img/panelImg/3DlayoutSilver1Big.png);
+}
+/*
+get some space 
+*/
+table.searchTable tr th,
+table.searchTable tr td {
+   padding-left: .2em !important;
+   padding-right: .2em !important;
+}
+
+table.searchTable tr.rowOdd td {
+	
+}
+
+
+table.searchTable tr.rowEven td {
+	background-color: #fdfdff;
+}
+
+table.searchTable tr.rowOdd:hover td,table.searchTable tr.rowEven:hover td,table.searchTable tr:hover td
+	{ /*    background-color:  #fafafa;*/
+	background-color: #ebebeb !important;
+
+}
+
+table.searchTable tr.rowEven:hover td input.buttonAsLink,table.searchTable tr.rowOdd:hover td input.buttonAsLink,table.searchTable tr.rowOdd:hover td a,table.searchTable tr.rowEven:hover td a
+	{ /* text-decoration: blink; */
+	text-decoration: none;
+	color: #ffaa33;
+}
+
+table.searchTable tr.rowEven td input.buttonAsLink:hover,table.searchTable tr.rowOdd td input.buttonAsLink:hover,table.searchTable tr.rowOdd td a:hover,table.searchTable tr.rowEven td a:hover
+	{ /* text-decoration: blink; */
+	color: #8CAFCD;
+	text-decoration: underline;
+}
+
+/** sort & filter */
+
+table.searchTable th div input {
+	display: inline;
+	width: 6em;
+}
+/*
+table.searchTable.reservations th div input {
+   display: block;
+}
+*/
+
+/*** TABLE ***/ /*** upcoming report***/
+table.upcomingRegionals {
+	margin-top: 1em;
+	font-size: .8em !important;
+}
+
+table.upcomingRegionals th {
+	background: #c8dFf7;
+	padding: .3em .5em;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+div#yearSelector {
+	
+}
+
+div#yearSelector select,div#yearSelector input {
+	margin-left: .5em;
+}
+
+table.upcomingRegionals tr.rowEven {
+	background: #fff;
+}
+
+table.upcomingRegionals tr.rowOdd {
+	background: #f9faff;
+}
+
+table.upcomingRegionals tr:hover {
+	background: #eef;
+}
+
+table.upcomingRegionals td {
+	padding: .1em .5em;
+}
+
+table.upcomingRegionals div.number {
+	text-align: right
+}
+
+.upcomingRegionals table .number {
+	text-align: right
+}
+
+table.upcomingRegionals div.contest {
+	/*padding-left: 1.7em;*/
+}
+
+div.publicRegister {
+		.max-width: 250px;
+  position: absolute;
+  background: #FFeC60;
+  padding: .2em .5em;
+border: 1px solid #888;
+
+opacity: .82;
+	filter: alpha(opacity=82);
+	zoom: 1;
+}
+
+table.upcomingRegionals .started {
+	background: left no-repeat url("../img/icons/accept.png");
+	padding-left: 1.3em;
+}
+
+table.quickForm {
+  margin-top: .5em;
+}
+
+table.quickForm td.label {
+  text-align: right;
+   padding-right: .4em;
+   color: #666;
+   font-weight: bold;
+   width: 20em;
+}
+
+div.informationBlock span.name,
+div.informationBlock label.name {
+  width: 20em;
+  text-align:right;
+   color: #666;
+}
+
+
+table.searchDown tr th div {
+  display:block;
+  text-align:center;
+}
+
+/***cart*****/
+div.cart {
+	/*IE*/
+	.max-width: 250px;
+  position: fixed;
+  background: #FFeC60;
+  padding: .5em;
+border: 1px solid #888;
+  top: 30px;
+right: 30px;
+
+opacity: .82;
+	filter: alpha(opacity=82);
+	zoom: 1;
+}
+div.cart table {
+   background: #FFeCe0;
+opacity: .9;
+	filter: alpha(opacity=82);
+	zoom: 1;
+}
+
+
+div.cart div.cartCleanDiv {
+  text-align:right;
+}
+
+div.cart div.bulkOperation {
+  padding:.2em;
+  border:1px solid #ccc;
+  text-align:left;
+  margin-top: .9em
+}

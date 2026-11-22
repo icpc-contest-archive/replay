@@ -1,0 +1,74 @@
+#page-404 {
+  background-color: #f5f6fa;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 64px 64px 80px;
+}
+
+#page-404 ~ #feedback-contribute-section {
+  display: none;
+}
+
+#page-404 .heading {
+  font-family: "Tiempos Headline", serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  color: #333333;
+  margin: 0 0 8px;
+}
+
+#page-404 .main-text {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #333333;
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+#page-404 .main-text {
+  margin: 0 0 8px;
+}
+
+#page-404 .main-text:last-of-type {
+  margin: 0 0 24px;
+}
+
+#page-404 .return-btn {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #page-404 {
+    padding: 64px 56px 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #page-404 {
+    padding: 64px 48px 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page-404 {
+    padding: 64px 32px 80px;
+  }
+
+  #page-404 .heading {
+    font-size: 64px;
+  }
+
+  #page-404 .main-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #page-404 {
+    padding: 64px 24px 64px;
+  }
+}

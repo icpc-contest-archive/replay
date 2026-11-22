@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://files02.duytan.edu.vn/svruploads/news-duytan/639004548004226904-dtu.ico" rel="shortcut icon" />
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+    <title></title>
+    <meta content="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p - Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n, cung c&#x1EA5;p tin t&#x1EE9;c v&#x1EC1; ch&#x1B0;&#x1A1;ng tr&#xEC;nh &#x111;&#xE0;o t&#x1EA1;o Sau &#x110;&#x1EA1;i h&#x1ECD;c, &#x110;&#x1EA1;i h&#x1ECD;c, Cao &#x111;&#x1EB3;ng ngh&#x1EC1;, B&#x1EB1;ng 2, eUniversity; H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p, DTU &amp; Doanh nghi&#x1EC7;p, Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n; Nghi&#xEA;n c&#x1EE9;u, Th&#xE0;nh t&#xED;ch, Ho&#x1EA1;t &#x111;&#x1ED9;ng &#x110;o&#xE0;n th&#x1EC3;, Th&#x1EC3; thao - V&#x103;n h&#xF3;a t&#x1EA1;i Duy T&#xE2;n." name="description" />
+    <meta content="tin t&#x1EE9;c, tin t&#x1EE9;c &#x111;&#x1EA1;i h&#x1ECD;c duy t&#xE2;n, gi&#x1EA5;c m&#x1A1; duy t&#xE2;n, DTU &amp;amp; Doanh nghi&#x1EC7;p, H&#x1EE3;p t&#xE1;c &amp;amp; H&#x1ED9;i nh&#x1EAD;p, th&#xF4;ng tin &#x110;&#x1EA1;i h&#x1ECD;c, th&#xF4;ng tin Sau &#x110;&#x1EA1;i h&#x1ECD;c" name="keywords" />
+    <meta itemprop="image" />
+        <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://duytan.edu.vn/news/error">
+    <!--Facebook-->
+    <meta property="og:site_name" content="Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n - &#x110;&#xE0; N&#x1EB5;ng" />
+    <meta property="og:url" content="https://duytan.edu.vn/news/error" />
+    <meta property="og:title" />
+    <meta property="og:description" content="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p - Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n, cung c&#x1EA5;p tin t&#x1EE9;c v&#x1EC1; ch&#x1B0;&#x1A1;ng tr&#xEC;nh &#x111;&#xE0;o t&#x1EA1;o Sau &#x110;&#x1EA1;i h&#x1ECD;c, &#x110;&#x1EA1;i h&#x1ECD;c, Cao &#x111;&#x1EB3;ng ngh&#x1EC1;, B&#x1EB1;ng 2, eUniversity; H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p, DTU &amp; Doanh nghi&#x1EC7;p, Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n; Nghi&#xEA;n c&#x1EE9;u, Th&#xE0;nh t&#xED;ch, Ho&#x1EA1;t &#x111;&#x1ED9;ng &#x110;o&#xE0;n th&#x1EC3;, Th&#x1EC3; thao - V&#x103;n h&#xF3;a t&#x1EA1;i Duy T&#xE2;n." />
+    <meta property="og:image" />
+    <meta property="og:image:secure_url" />
+    <meta property="og:image:width" content="612" />
+    <meta property="og:image:height" content="384" />
+    <!--Twitter-->
+    <meta content="summary" name="twitter:card" />
+    <meta name="twitter:title" />
+    <meta name="twitter:description" content="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p - Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n, cung c&#x1EA5;p tin t&#x1EE9;c v&#x1EC1; ch&#x1B0;&#x1A1;ng tr&#xEC;nh &#x111;&#xE0;o t&#x1EA1;o Sau &#x110;&#x1EA1;i h&#x1ECD;c, &#x110;&#x1EA1;i h&#x1ECD;c, Cao &#x111;&#x1EB3;ng ngh&#x1EC1;, B&#x1EB1;ng 2, eUniversity; H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p, DTU &amp; Doanh nghi&#x1EC7;p, Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n; Nghi&#xEA;n c&#x1EE9;u, Th&#xE0;nh t&#xED;ch, Ho&#x1EA1;t &#x111;&#x1ED9;ng &#x110;o&#xE0;n th&#x1EC3;, Th&#x1EC3; thao - V&#x103;n h&#xF3;a t&#x1EA1;i Duy T&#xE2;n." />
+    <meta name="twitter:image" />
+    <!--Google +-->
+    <meta itemprop="name">
+    <meta itemprop="description" content="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p - Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n, cung c&#x1EA5;p tin t&#x1EE9;c v&#x1EC1; ch&#x1B0;&#x1A1;ng tr&#xEC;nh &#x111;&#xE0;o t&#x1EA1;o Sau &#x110;&#x1EA1;i h&#x1ECD;c, &#x110;&#x1EA1;i h&#x1ECD;c, Cao &#x111;&#x1EB3;ng ngh&#x1EC1;, B&#x1EB1;ng 2, eUniversity; H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p, DTU &amp; Doanh nghi&#x1EC7;p, Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n; Nghi&#xEA;n c&#x1EE9;u, Th&#xE0;nh t&#xED;ch, Ho&#x1EA1;t &#x111;&#x1ED9;ng &#x110;o&#xE0;n th&#x1EC3;, Th&#x1EC3; thao - V&#x103;n h&#xF3;a t&#x1EA1;i Duy T&#xE2;n.">
+    <meta itemprop="image">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/news/content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/font-awesome.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/news/content/css/font-styles.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/ionicon.min.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/animate.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/news/content/css/glyphicons.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/news/content/css/prettyPhoto.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/news/content/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/news/content/css/responsive.css">
+    <!-- JavaScripts -->
+    <script src="/news/content/js/jquery-3.5.1.min.js"></script>
+    <script src="/news/content/js/lazyload.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M8TPR44');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8TPR44" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="box-header">
+        <div class="container">
+            <div class="header clear-after">
+                <div class="col-logo">
+                        <a href="https://duytan.edu.vn/news/" class="logo" title="Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n - &#x110;&#xE0; N&#x1EB5;ng">
+                            <img class="logo-dtu" src="https://files02.duytan.edu.vn/svruploads/news-duytan/639076934796822694-logodtu.png" alt="Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n - &#x110;&#xE0; N&#x1EB5;ng">
+                        </a>
+                </div>
+                <div class="header-right-container">
+                    <div class="right-container">
+                        <div class="search-container">
+                            
+<form method="get" action="/news/Search">
+    <div class="fr_search">
+        <input maxlength="100" name="keysearch" id="search" class="pull-left" placeholder="Nh&#x1EAD;p T&#x1EEB; kh&#xF3;a..." type="text">
+        <div class="inputbt">
+            <input value="" type="submit" class="search-input">
+        </div>
+    </div>
+</form>
+                        </div>
+                        <div class="language">
+                                <ul class="lang">
+                                        <li class="active">
+                                            <a href="/news/error">
+                                                <img src="https://files02.duytan.edu.vn/svruploads/news-duytan/639018143033519581-vie.png" alt="Ti&#x1EBF;ng Vi&#x1EC7;t">
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="/news/en/error">
+                                                <img src="https://files02.duytan.edu.vn/svruploads/news-duytan/639018143117508857-eng.png" alt="English">
+                                            </a>
+                                        </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-container">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <nav class="menu-main">
+                        
+<ul>
+    <li class="menu-item">
+        <a href="https://duytan.edu.vn/news/" title="Trang ch&#x1EE7;"><i class="fa fa-home home"></i></a>
+    </li>
+    
+                    <li class="menu-item">
+                        <a target="_self" href="/news/giac-mo-duy-tan" title="Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n">
+                            Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/hop-tac-hoi-nhap" title="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p ">
+                            H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/dtu-doanh-nghiep" title="DTU &amp; Doanh nghi&#x1EC7;p ">
+                            DTU &amp; Doanh nghi&#x1EC7;p 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/nghien-cuu" title="Nghi&#xEA;n c&#x1EE9;u ">
+                            Nghi&#xEA;n c&#x1EE9;u 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/sau-dai-hoc" title="Sau &#x110;&#x1EA1;i h&#x1ECD;c ">
+                            Sau &#x110;&#x1EA1;i h&#x1ECD;c 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="/news/dai-hoc-cao-dang" title="&#x110;&#x1EA1;i h&#x1ECD;c">
+                            &#x110;&#x1EA1;i h&#x1ECD;c
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/bang-2-nghe-euniversity" title="B&#x1EB1;ng 2, Ngh&#x1EC1;, eUniversity ">
+                            B&#x1EB1;ng 2, Ngh&#x1EC1;, eUniversity 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/thanh-tich" title="Th&#xE0;nh t&#xED;ch ">
+                            Th&#xE0;nh t&#xED;ch 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/news/doan-the" title="&#x110;o&#xE0;n Th&#x1EC3; ">
+                            &#x110;o&#xE0;n Th&#x1EC3; 
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="/news/the-thao-van-hoa" title="Th&#x1EC3; Thao - V&#x103;n h&#xF3;a ">
+                            Th&#x1EC3; Thao - V&#x103;n h&#xF3;a 
+                        </a>
+                    </li>
+</ul>
+                    </nav>
+                    <div class="">
+                        <div class="nav-header toggle-switch pull-right">
+                            <span>Menu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+<article class="list-of-news-container">
+    <div class="category-title-1">
+        <div class="container">
+            <div class="">
+                <h1>404 - Kh&#xF4;ng t&#xEC;m th&#x1EA5;y b&#xE0;i vi&#x1EBF;t</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main-container news-detail-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 news-detail-content">
+                    <div class="content">
+                        <p><strong>B&#x1EA1;n kh&#xF4;ng th&#x1EC3; xem trang n&#xE0;y v&#xEC;:</strong></p>
+                        <ul class="ul-error">
+                            <li>Kh&#xF4;ng &#x111;&#xFA;ng &#x111;&#x1ECB;a ch&#x1EC9;.</li>
+                            <li>B&#xE0;i vi&#x1EBF;t kh&#xF4;ng t&#x1ED3;n t&#x1EA1;i ho&#x1EB7;c &#x111;ang &#x111;&#x1B0;&#x1EE3;c c&#x1EAD;p nh&#x1EAD;t.</li>
+                            <li>&#x110;&#xE3; x&#x1EA3;y ra l&#x1ED7;i trong l&#xFA;c x&#x1EED; l&#xFD; y&#xEA;u c&#x1EA7;u.</li>
+                        </ul>
+                        <p><strong>Vui l&#xF2;ng quay v&#x1EC1; trang ch&#x1EE7; <a style="color: #e12a22;" href="https://duytan.edu.vn/news">&#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n</a></strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-image">
+                            <a href="https://duytan.edu.vn" title="Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n - &#x110;&#xE0; N&#x1EB5;ng">
+                                <img class="logo-dtu" src="https://files02.duytan.edu.vn/svruploads/news-duytan/638992535920821594-logodtu-vn.png" alt="Tin t&#x1EE9;c &#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n - &#x110;&#xE0; N&#x1EB5;ng">
+                            </a>
+                        <p class="copyright">© 2026 <a href="https://duytan.edu.vn/news/">&#x110;&#x1EA1;i h&#x1ECD;c Duy T&#xE2;n</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="menu_footer">
+                                <ul>
+                                    <li><a href="https://duytan.edu.vn/news/">Trang ch&#x1EE7;</a></li>
+                                            <li>
+                                                <a target="_self" href="/news/giac-mo-duy-tan" title="Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n">
+                                                    Gi&#x1EA5;c m&#x1A1; Duy T&#xE2;n
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/hop-tac-hoi-nhap" title="H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p ">
+                                                    H&#x1EE3;p t&#xE1;c &amp; H&#x1ED9;i nh&#x1EAD;p 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/dtu-doanh-nghiep" title="DTU &amp; Doanh nghi&#x1EC7;p ">
+                                                    DTU &amp; Doanh nghi&#x1EC7;p 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/nghien-cuu" title="Nghi&#xEA;n c&#x1EE9;u ">
+                                                    Nghi&#xEA;n c&#x1EE9;u 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/sau-dai-hoc" title="Sau &#x110;&#x1EA1;i h&#x1ECD;c ">
+                                                    Sau &#x110;&#x1EA1;i h&#x1ECD;c 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_self" href="/news/dai-hoc-cao-dang" title="&#x110;&#x1EA1;i h&#x1ECD;c">
+                                                    &#x110;&#x1EA1;i h&#x1ECD;c
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/bang-2-nghe-euniversity" title="B&#x1EB1;ng 2, Ngh&#x1EC1;, eUniversity ">
+                                                    B&#x1EB1;ng 2, Ngh&#x1EC1;, eUniversity 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/thanh-tich" title="Th&#xE0;nh t&#xED;ch ">
+                                                    Th&#xE0;nh t&#xED;ch 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/news/doan-the" title="&#x110;o&#xE0;n Th&#x1EC3; ">
+                                                    &#x110;o&#xE0;n Th&#x1EC3; 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_self" href="/news/the-thao-van-hoa" title="Th&#x1EC3; Thao - V&#x103;n h&#xF3;a ">
+                                                    Th&#x1EC3; Thao - V&#x103;n h&#xF3;a 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_self" href="/news/du-hoc" title="Du h&#x1ECD;c">
+                                                    Du h&#x1ECD;c
+                                                </a>
+                                            </li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="back-top" style="display: block;">
+        <a href="#top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <script src="/news/content/js/bootstrap.min.js"></script>
+    <script src="/news/content/js/owl.carousel.min.js"></script>
+    <script src="/news/content/js/jquery.prettyPhoto.js"></script>
+    <script src="/news/content/js/jquery.plugin.js"></script>
+    <script src="/news/content/js/custom.js"></script>
+    <!--load DTU menu-->
+    <div id="includedDtuMenuContent"></div>
+    <script id="dtuMenuScript" src="https://duytan.edu.vn/GetDtuMenu/dtumenu-fixing.js?vn&amp;news"></script>
+    <!--end load DTU menu-->
+</body>
+</html>

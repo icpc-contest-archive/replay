@@ -1,0 +1,195 @@
+main#about {
+  max-width: 1008px;
+}
+
+main#about .pic-top {
+  display: none;
+}
+
+main#about .pic-top .info-title {
+  color: #6b6b6b;
+  text-align: center;
+  margin: 8px 0 0;
+}
+
+main#about .about {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+main#about .about .info {
+  margin: 48px 0 96px;
+}
+
+main#about .about .info .top-info {
+  font-family: "Tiempos Text", serif;
+  font-size: 21px;
+  color: #575757;
+  margin: 0 0 16px;
+}
+
+main#about .about .info .main-info {
+  line-height: 200%;
+  font-family: "Tiempos Text", serif;
+  font-size: 18px;
+  margin: 0 0 48px;
+}
+
+main#about .about .board-container {
+  margin-bottom: 96px;
+}
+
+main#about .about .board-container .board-top {
+  font-size: 21px;
+  color: #575757;
+  margin: 0 0 32px;
+  font-family: "Tiempos Text", serif;
+}
+
+main#about .about .board-container .board:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+main#about .about .board-container .board .board-title {
+  color: #8b8b8b;
+  line-height: 21px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+main#about .about .board-container .board .board-info {
+  line-height: 200%;
+  margin-bottom: 30px;
+  font-family: "Tiempos Text";
+  font-size: 18px;
+}
+
+main#about .about .board-container .board .board-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  column-gap: 24px;
+  row-gap: 16px;
+}
+
+main#about .board-wrapper .board-member {
+  width: 100%;
+  flex-direction: row;
+  height: auto;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 24px;
+
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: white;
+
+  transition: 0.2s;
+}
+
+main#about .board-wrapper .board-member.mobile {
+  display: none;
+}
+
+main#about .board-wrapper .board-member:hover {
+  background-color: #eaeaea;
+}
+
+main#about .board-wrapper .board-member .circle {
+  position: relative;
+  height: 104px;
+  width: 104px;
+  clip-path: circle(50%);
+  background-position: center;
+  background-size: cover;
+}
+
+main#about .board-wrapper .board-member .member-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+}
+
+main#about .board-wrapper .board-member .member-details {
+  line-height: 130%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+main#about .board-wrapper .board-member .member-details > * {
+  margin: 0;
+  word-break: break-word;
+  color: #333333;
+}
+
+main#about .board-wrapper .board-member a.name {
+  color: #19a2ee;
+}
+
+main#about .board-wrapper .board-member a.name:hover {
+  color: #2a5ca7;
+}
+
+main#about .board-wrapper .board-member .email {
+  text-decoration-color: #333333;
+}
+
+main#about
+  .about
+  .board-container
+  .board
+  .board-wrapper
+  .board-member
+  .member-info
+  .member-title {
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  main#about .about .board-container .board:not(:last-child) {
+    margin-bottom: 48px;
+  }
+
+  main#about .about .board-container .board .board-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  main#about .about .board-container .board .board-wrapper .board-member.desktop {
+    display: none;
+  }
+
+  main#about .about .board-container .board .board-wrapper .board-member.mobile {
+    display: grid;
+  }
+
+  main#about .about .board-container {
+    width: fit-content;
+    margin: 0 auto 80px;
+  }
+
+  main#about .about .board-container .board .board-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main#about .about .info {
+    margin: 48px 0 0 !important;
+  }
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(http://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaIgp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(http://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(http://fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwf79_ZuUxCigM2DespTnFaw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}

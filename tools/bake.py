@@ -192,6 +192,9 @@ def main() -> int:
                          "judge, single problems and editorials likewise, on every judge: the default names the "
                          "kinds, not four judges, so that a newly registered judge is not published by accident. "
                          "Team lists are public (ruling of 2026-11-16); reports stay out until ruled on.)")
+    ap.add_argument("--only-shard", type=int, default=0,
+                    help="bake the pages of one shard only (the others keep what they have; the index of every "
+                         "shard, in shard 1, is brought up to date). For a machine where a whole bake takes too long.")
     args = ap.parse_args()
     import fnmatch
     patterns = [x.strip() for x in args.exclude_artifacts.split(",") if x.strip()]
@@ -216,6 +219,8 @@ def main() -> int:
             print(f"missing in archive: {cap['path']}", file=sys.stderr)
             continue
         shard, repo = shard_of(cap["contest"])
+        if args.only_shard and shard != args.only_shard:
+            continue
         sroot = shard_root(repo)
         dest = sroot / "a" / cap["path"]
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -274,7 +279,12 @@ def main() -> int:
     if stats:
         print(stats)
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    if args.only_shard:   # the other shards' pages stay as the index has them
+        kept = [dict(p, _size=0) for p in json.loads((ROOT / "replay-index.json").read_text())["pages"] if p.get("shard", 1) != args.only_shard]
+        pages = kept + pages
     for shard, repo, last in SHARDS:
+        if args.only_shard and shard not in (1, args.only_shard):
+            continue
         sroot = shard_root(repo)
         mine = [p for p in pages if p["shard"] == shard]
         if not mine and not sroot.exists():

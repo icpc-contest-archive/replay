@@ -1,0 +1,240 @@
+/* categ desc */
+#categ-container {
+  width: 100%;
+  padding: 32px 256px 40px;
+  margin: 0 0 48px;
+}
+
+#categ-container .categ-name {
+  font-family: "Tiempos Headline", serif;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#categ-container .categ-desc {
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+/* suggested tags */
+#suggested-tags-wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  column-gap: 100px;
+  row-gap: 16px;
+  margin: 56px 0 20px;
+}
+
+#suggested-tags-wrapper .suggested-headline {
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+#suggested-tags-wrapper .suggested-tags {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#suggested-tags-wrapper .suggested-tags > * {
+  font-family: Chivo, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  text-decoration-color: #333333;
+  text-decoration: none;
+  margin: 0 48px 8px 0;
+}
+
+.categ-hr {
+  margin: 36px 0;
+}
+
+/* banners */
+#banner-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+}
+
+.banner.sports-primer {
+  background-position: center;
+  border-radius: 12px;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 32px;
+}
+
+.banner.sports-primer .title {
+  font-size: 32px;
+  text-align: right;
+}
+
+.banner.sports-primer .main-text {
+  text-align: right;
+}
+
+.banner.survey {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.banner.survey .title {
+  margin: 0 0 8px;
+}
+
+.banner.survey .main-text {
+  width: 75%;
+}
+
+/* main */
+#categ-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 48px;
+}
+
+#categ-main .section-heading {
+  font-family: Chivo, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  margin: 0 0 16px;
+}
+
+#categ-main > * > hr:first-of-type {
+  margin: 0 0 32px;
+}
+
+/* latest articles */
+#categ-main #categ-latest-articles .article-wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 48px;
+}
+
+#categ-main #categ-latest-articles .article-wrapper img {
+  width: 232px;
+  height: 192px;
+  margin-bottom: 0;
+}
+
+#categ-main #categ-latest-articles .article-wrapper .excerpt {
+  margin-bottom: 24px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#categ-main #categ-latest-articles .article-divider {
+  margin: 24px 0;
+}
+
+/* all articles */
+#categ-main #all-articles {
+  position: sticky;
+}
+
+#categ-main #all-articles .article-wrapper {
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 16px;
+}
+
+#categ-main #all-articles .article-wrapper .index {
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #d8d8d8;
+}
+
+#categ-main #all-articles .article-wrapper .title {
+  font-size: 18px;
+}
+
+#categ-main #load-more {
+  margin: 0 auto 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  #categ-container {
+    padding: 32px 128px 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #categ-container {
+    padding: 32px 64px 40px;
+  }
+
+  #categ-main {
+    column-gap: 24px;
+  }
+
+  #categ-main #categ-latest-articles .article-wrapper {
+    column-gap: 24px;
+  }
+
+  #categ-main #categ-latest-articles .article-wrapper img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #categ-container {
+    padding: 24px 32px 32px;
+  }
+
+  #suggested-tags-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #categ-main {
+    grid-template-columns: 1fr;
+  }
+
+  /* banners */
+  .banner.survey {
+    flex-flow: column nowrap;
+  }
+
+  .banner.survey .main-text {
+    width: 100%;
+  }
+
+  .banner.survey .ext-btn {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #categ-container {
+    padding: 24px;
+  }
+
+  /* banners */
+  .banner.sports-primer {
+    margin: 36px 0;
+  }
+
+  #categ-main #categ-latest-articles .article-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+
+  #categ-main #categ-latest-articles .article-wrapper img {
+    width: 100%;
+  }
+}

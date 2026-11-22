@@ -1,0 +1,47 @@
+@import url("/css/plugin/ace.css");
+@import url("/css/print/print.css");
+@import url("/css/problem.css");
+@import url("/css/kattis_font.css");
+@import url("/css/jquery-ui/tooltip.css");
+
+@import url("/css/contest/header.css");
+@import url("/css/contest/standings.css");
+@import url("/css/contest/shadow.css");
+
+@import url("/css/general/base.css"); /* Base */
+@import url("/css/general/layout.css"); /* Layout */
+
+@import url("/css/general/util.css"); /* Util */
+
+@import url("/css/ui/menus.css"); /* Menus */
+@import url("/css/ui/button.css"); /* Buttons */
+@import url("/css/ui/table.css"); /* Tables */
+@import url("/css/ui/pill.css"); /* Pills */
+@import url("/css/ui/badge.css"); /* Badges */
+@import url("/css/ui/modal.css"); /* Modals */
+@import url("/css/ui/tooltip.css"); /* Tooltips */
+@import url("/css/ui/datetime.css"); /* Datetime Input */
+@import url("/css/ui/banner.css"); /* Page Banners */
+@import url("/css/ui/alert.css"); /* Alerts */
+@import url("/css/ui/submission_comments.css"); /* Comments on Submissions */
+
+@import url("/css/view/onboarding.css"); /* Onboarding layout */
+
+@import url("/css/modules.css"); /* Modules */
+@import url("/css/general/states.css"); /* Global states */
+
+@import url("/css/assets/image_info.css"); /* Image with info design element */
+
+@import url("/css/tutorial.css"); /* Programming Test Tutorial */
+
+@import url("/css/plugin/select2.css"); /* Plugin-styles */
+
+@import url("/css/print/printable.css"); /* Printable report */
+
+@import url("/css/pages/diff.css"); /* Diff support (from old CSS) */
+@import url("/css/pages/profile.css"); /* Profile settings */
+@import url("/css/pages/billing.css"); /* Billing Plans */
+@import url("/css/pages/challenge.css"); /* Challenge */
+@import url("/css/pages/clar.css"); /* Challenge */
+@import url("/css/pages/editor.css"); /* Code Editor */
+@import url("/css/pages/submission.css"); /* Testgroup Judgements List */

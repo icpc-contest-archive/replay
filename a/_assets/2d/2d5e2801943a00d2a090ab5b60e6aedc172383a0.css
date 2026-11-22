@@ -1,0 +1,123 @@
+#feedback-contribute-section {
+  background-color: #f7f7f7;
+}
+
+#feedback-contribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 64px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#feedback-contribute .heading {
+  font-family: "Tiempos Headline", serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #1c489b;
+  margin: 0 0 24px;
+}
+
+#feedback-contribute .main-text {
+  font-family: "Tiempos Text", serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #2c2c2c;
+  margin: 0 0 24px;
+}
+
+/* feedback form */
+#feedback-contribute form > * {
+  display: block;
+}
+
+#feedback-contribute form label {
+  font-family: "Chivo", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 0 0 8px;
+}
+
+#feedback-contribute form input[type="text"],
+#feedback-contribute form textarea {
+  width: 100%;
+  margin: 0 0 24px;
+  resize: none;
+}
+
+/* contribute link */
+#feedback-contribute #contribute-link {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#feedback-contribute #contribute-link .contribute {
+  text-decoration: none;
+  display: block;
+  margin: 0 0 16px;
+}
+
+#feedback-contribute #contribute-link > img {
+  width: 100%;
+  max-width: 200px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  #feedback-contribute {
+    padding-top: 64px;
+    padding-bottom: 72px;
+    column-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #feedback-contribute {
+    grid-template-columns: 3fr 2fr;
+    padding-top: 56px;
+    padding-bottom: 64px;
+    column-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #feedback-contribute .heading {
+    font-size: 20px;
+    margin: 0 0 8px;
+  }
+
+  #feedback-contribute .main-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #feedback-contribute {
+    grid-template-columns: 1fr;
+    row-gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 56px;
+  }
+
+  #feedback-contribute {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+
+  /* feedback form */
+  #feedback-contribute form input[type="button"] {
+    margin: 0 auto;
+  }
+
+  /* contribute */
+  #feedback-contribute #contribute-link .contribute {
+    align-self: center;
+    margin: 0;
+  }
+
+  #feedback-contribute #contribute-link > img {
+    display: none;
+  }
+}

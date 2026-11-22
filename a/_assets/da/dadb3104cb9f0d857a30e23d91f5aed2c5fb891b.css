@@ -1,0 +1,59 @@
+/* banner */
+#tag-banner {
+  padding: 128px 0 64px;
+  position: relative;
+  margin: 0 0 48px;
+}
+
+#tag-banner > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.8);
+}
+
+#tag-banner .tag-title {
+  font-family: "Tiempos Headline", serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  /* banner */
+  #tag-banner {
+    padding: 100px 0 48px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* banner */
+  #tag-banner {
+    padding: 80px 0 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* banner */
+  #tag-banner {
+    padding: 64px 0 24px;
+  }
+
+  #tag-banner .tag-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* banner */
+  #tag-banner {
+    padding: 56px 0 16px;
+  }
+}

@@ -1,0 +1,525 @@
+/*
+ * World Map
+ */
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 11px !important;
+}
+
+div.content {
+	margin-top: 0em;
+}
+
+.center {
+	text-align: center;
+}
+
+/**
+div.content div.data {
+	float: right;
+	margin-top: 4px;
+	width: auto;
+	_border-top: 1px solid black;
+	_border-bottom: 1px solid black;
+	_border-left: 1px solid black;
+}
+*/
+div.worldMapTopMenu {
+	padding-top: 0.15em;
+}
+
+div.mapPictureWrap img.world {
+	z-index: 4000 !important;
+	padding: .3em;
+	border: 0;
+	border: 1px solid black;
+	background: #fff;
+}
+
+div.mapPictureWrap {
+	vertical-align: top;
+	border: 0;
+	clear: both !important;
+}
+
+div.world { /*float: right;*/
+	border: 0;
+	/*clear: both;*/
+	padding-bottom: 1em;
+	z-index: 4000 !important;
+	/*text-align: right;*/
+}
+
+div.region div.mapPictureSmall {
+	text-align: right;
+	_width: 300px;
+}
+
+div.region div.rightSideInfo {
+	_text-align: left;
+	_width: auto;
+}
+
+div.hostsHTML,div.billingInfo,div.additionalInfo {
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+}
+
+div.info a {
+	color: #5575ff;
+}
+
+div.info a:hover {
+	text-decoration: none;
+}
+
+div.contitnent {
+	text-align: center;
+	_border-top: 1px solid black;
+	padding: .5em 0;
+	font-size: 1.2em;
+	_background: #fdfdfe;
+	font-variant: small-caps;
+}
+
+div.contestName {
+	text-align: left;
+	color: #662;
+	font-size: 1.4em;
+	font-weight: bold; \
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+	width: 600px;
+}
+
+div.date,div.contestManager,div.contestEmail,div.contestHomePage,div.contestLinks
+	{
+	padding-left: 1.5em;
+}
+
+div.contestLinks {
+	padding: 1em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+div.site,div.mainInfo {
+	border: 1px dashed #ddd;
+	margin-top: 1em;
+	padding: 1em;
+}
+
+div.mainInfo {
+	background-color: #fdfdfe;
+}
+
+div.extras {
+	padding-top: 1em;
+}
+
+div#reservations div#contestName {
+	float: left;
+}
+
+div#reservations div#backButton {
+	float: right;
+}
+
+div.site li {
+	list-style-type: none;
+}
+
+div.siteName {
+	color: #662;
+	padding: 0 0 .2em 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div.contestLinks ul li a {
+	text-decoration: underline;
+}
+
+.toEnlarge {
+	position: absolute;
+	/*margin-top: 1em;*/
+	margin-left: 1em;
+	background: #FFF380;
+	border: 1px solid #D4A017;
+	padding: .1em .3em;
+	color: black;
+}
+
+/**
+reservation site info
+*/
+div.siteShortInfo div.icpc_row {
+	font-size: .9em;
+	padding: 0em 0;
+}
+
+div.siteShortInfo div.icpc_row div.icpc_ff_data {
+	min-height: 1em;
+	padding: 0em 0;
+	width: 81%;
+}
+
+div.siteShortInfo div.icpc_row label.icpc_label {
+	padding: 0em 0;
+	width: 10em;
+	color: #999;
+}
+
+div#body .breadCrumbs {
+	display: inline;
+	padding: 0;
+}
+
+div#body .breadCrumbs .ui-datalist-content {
+	border: 0 solid black;
+	margin: 0;
+	display: inline;
+}
+
+div#body .breadCrumbs ul {
+	display: inline;
+	padding-left: 0;
+}
+
+div#body .breadCrumbs li {
+	display: inline;
+	padding: 0 0.1em;
+}
+
+div.breadCrumbsDiv {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding-left: .5em;
+	padding-bottom: .3em;
+	background: #f7f7f7;
+}
+
+.standardList .ui-datalist-data {
+	margin: 0;
+	padding-left: 10px;
+}
+
+.standardList .ui-datalist-content {
+	border: 0 solid black;
+}
+
+form#emailDistributionlList {
+	font-size: 0.8em;
+}
+
+form#emailDistributionlList ul {
+	margin: 0.2em 0 0 0;
+}
+
+div.subcontestMenu div,div.subcontestMenu {
+	margin: 0;
+	padding: 0 0em;
+	display: inline;
+}
+
+div.subcontestMenu div div {
+	display: block;
+}
+
+div.whitePanel,div.whitePanel div.dr-pnl-b,div.whitePanel div.dr-pnl-h {
+	background: white;
+	border-color: #ddd;
+}
+
+div.whitePanel div.dr-pnl-h {
+	background: #efeff3 repeat-x url(../img/panelImg/3DlayoutSilver1Big.png);
+}
+
+img.zoomMap {
+	padding-left: 1.3em;
+	background: url(../img/icons/zoom.png) top left no-repeat;
+}
+
+img.hideMap {
+	padding-left: 1.3em;
+	background: url(../img/icons/zoom_out.png) top left no-repeat;
+}
+
+div.roster span.header {
+	display: block;
+	font-size: 1.4em;
+	margin-top: 0.5em;
+	color: #262;
+}
+
+span.onlyPrint {
+	display: none;
+}
+
+@media print {
+	span.onlyPrint {
+		font-size: .9em;
+		display: inline;
+	}
+	span.onlyPrint.block {
+		display: block;
+	}
+}
+
+/**
+ * upcoming regionals 
+ * report row
+ */
+div.contestHeaderRow div,div.contestRow div {
+	float: left;
+	font-size: .9em;
+}
+
+div.contestHeaderRow,div.contestRow {
+	clear: both;
+}
+
+div.contestHeaderRow {
+	font-weight: bold;
+	background: #ddf;
+	padding-bottom: .1em;
+	float: left;
+	padding-right: 1em;
+	font-size: 1em;
+}
+
+div.contestHeaderRow div {
+	text-align: center;
+}
+
+div.contestHeaderRow div.notUnderline {
+	text-decoration: none !important;
+}
+
+div.contestHeaderRow div.examExecutionCount,div.contestHeaderRow div.teamCount,div.contestHeaderRow div.countryCount,div.contestHeaderRow div.institutionCount
+	{
+	padding: 0 2em 0 0.8em;
+}
+
+div.regionalContestList div.contestHeaderRow,div.contestRow.depth0 div.contest
+	{
+	padding-left: 2em;
+}
+
+div.contestRow.depth1 div.contest {
+	padding-left: 2em;
+}
+
+div.contestRow.depth2 div.contest {
+	padding-left: 3em;
+}
+
+div.contestRow.depth3 div.contest {
+	padding-left: 1.4em;
+}
+
+div.contestRow.depth0 div {
+	
+}
+
+div.contestRow.depth1 {
+	float: left;
+}
+
+div.contestRow.depth0:hover div,div.contestRow.depth1:hover div,div.contestRow.depth2:hover div {
+	background: #fff390;
+}
+
+div.regionalContestBlock div.contest {
+	width: 38em;
+	padding-top: .2em;
+	vertical-align: top;
+}
+
+div.contestBlock div.contestBlock div.contest {
+	width: 36.3em;
+}
+
+div.contestBlock div.contestBlock div.contestBlock div.contest {
+	width: 33.6em;
+}
+
+div.regionalContestBlock div.date,div.regionalContestBlock div.regionalContest,div.regionalContestBlock div.standings,div.regionalContestBlock div.problems
+	{
+	width: 6em;
+}
+
+div.regionalContestBlock div.examExecutionCount,div.regionalContestBlock div.teamCount,div.regionalContestBlock div.countryCount,div.regionalContestBlock div.institutionCount
+	{
+	width: 3em;
+	padding-right: 1em;
+}
+
+div.regionalContestBlock div.date {
+	padding-right: 1em;
+}
+
+div.regionalContestBlock div.number {
+	text-align: right;
+}
+
+div.regionalContestBlock 
+   div.regionalContestList {
+	float: left;
+	clear: both;
+	border: 1px dotted gray;
+	border-bottom: 0;
+	border-right: 0;
+	padding: .3em .3em;
+}
+
+div.regionalContestBlock 
+  div.regionalContest {
+	border: 1px solid #aaa;
+	border-bottom: 0;
+	background: #cdf;
+	font-weight: bold;
+	float: left;
+	clear: both;
+	width: 35em;
+	margin-top: 2em;
+	padding: .3em .5em;
+}
+
+/** draw tree 
+
+*/
+div.contestRow.depth0 div.contest {
+	background: url(../img/tree/treeMiddleNode.gif) left no-repeat;
+}
+
+div.contestRow.depth1 div.contest {
+	background: url(../img/tree/treeMiddleNode.gif) left no-repeat;
+}
+
+div.contestRow.depth1 div.blankSubTree {
+	width: 18px;
+	padding-top: .2em;
+	background: url(../img/tree/treeNoNode.gif) top left no-repeat;
+}
+
+div.contestRow.depth3 div.contest,div.contestRow.depth2 div.contest {
+	background: url(/img/tree/treeMiddleNode.gif) left no-repeat;
+}
+
+div.contestRow.depth3 div.blankSubTree,div.contestRow.depth2 div.blankSubTree
+	{
+	width: 18px;
+	padding-top: .2em;
+	background: url(/img/tree/treeNoNode.gif) top left no-repeat;
+}
+/**
+ * IE
+ */
+div.contestRow {
+	*float: left !important;
+	*clear: both !important;
+	_float: left !important;
+	_clear: both !important;
+}
+
+a.standings {
+	padding: 0 0 .2em 1.3em;
+	background: url(../img/icons/rosette3.png) top left no-repeat;
+	text-decoration: none;
+}
+
+a.results {
+	padding: 0 0 .2em 1.3em;
+	background: url(../img/icons/world_go.png) top left no-repeat;
+	text-decoration: none;
+}
+
+a.problems {
+	padding: 0 0 .2em 1.3em;
+	background: url(../img/icons/table_multiple.png) top left no-repeat;
+	text-decoration: none;
+}
+
+/* play with layout */
+div.pageHeader {
+	position: absolute;
+	right: 40px;
+}
+
+div.subscribe {
+	float: right;
+	margin-top: 2em;
+}
+
+div#message {
+	width: 380px;
+	right: 0;
+	position: absolute;
+	top: 7.5em;
+}
+
+div#left-navigation {
+	font-size: 0.9em;
+	padding-top: .5em;
+}
+
+div#left-navigation div.worldMapTopMenu ul {
+	background: #333;
+	margin: .5em .2em;
+}
+
+#left-navigation div.ul.regionalMenu {
+	background: #444;
+	margin: .5em .2em;
+}
+
+#left-navigation div.ul a.li {
+	display: list-item;
+	color: #fff;
+	list-style: disc;
+	margin-left: 1.2em;
+	padding: 0.2em 0em;
+	margin-right: 0.2em;
+	text-decoration: none;
+	font: .8em Verdana, sans-serif
+}
+
+#left-navigation div.ul a.li:hover {
+	background: #888;
+	list-style: circle;
+}
+
+#left-navigation div.ul a.li.active {
+	color: orange;
+	list-style: square;
+}
+
+div.contestInfo {
+	margin-left: 2em;	
+}
+
+div#left-navigation ul.worldMapTopMenu ul{
+ margin: .5em .2em;
+}
+
+div#left-navigation ul.worldMapTopMenu li {
+	line-height: 1.5em;
+}
+
+ul.l1 {
+border-right: 1px solid #faa;
+}
+ul.l2 {
+border-right: 1px solid #fff;
+}
+ul.l3 {
+border-right: 1px solid #faa;
+}
+ul.l4 {
+border-right: 1px solid #fff;
+}
+ul.l5 {
+border-right: 1px solid #faa;
+}

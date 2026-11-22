@@ -1,0 +1,170 @@
+@import url("./multimedia/videos.css");
+@import url("./multimedia/photos.css");
+@import url("./multimedia/podcasts.css");
+@import url("./multimedia/gd.css");
+
+@import url("./multimedia/interactives.css");
+
+/* nav */
+#multimedia-nav {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 40px 0 0;
+  overflow-x: auto;
+}
+
+#multimedia-nav button {
+  padding: 16px 32px;
+  margin: 0 32px;
+  text-transform: uppercase;
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a6a6a6;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+}
+
+/* tabs */
+.multimedia-tag {
+  display: none;
+  padding: 0 0 80px;
+}
+
+.multimedia-tag.active {
+  display: block;
+}
+
+/* featured */
+.multimedia-tag .featured .title {
+  font-family: "Tiempos Headline", serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #333333;
+}
+
+.multimedia-tag .featured .date {
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #6b6b6b;
+}
+
+.multimedia-tag .featured .credits {
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #a1a1a1;
+  margin: 0 0 16px;
+  width: 50%;
+}
+
+.multimedia-tag .featured .view-full {
+  font-family: Chivo, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #a6a6a6;
+  text-decoration-color: #a6a6a6;
+}
+
+.multimedia-tag .featured .view-full.second {
+  display: none;
+}
+
+.multimedia-tag .featured .view-full:hover {
+  color: black;
+  text-decoration-color: black;
+}
+
+.multimedia-tag .featured .excerpt {
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+}
+
+/* releases */
+.multimedia-tag .label {
+  font-family: Chivo, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0 0 32px;
+}
+
+.multimedia-tag .latest-releases {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 48px;
+  row-gap: 32px;
+}
+
+.multimedia-tag #load-more {
+  margin: 56px auto 0;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .multimedia-tag .latest-releases {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .multimedia-tag .latest-releases {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #multimedia-nav {
+    margin: 12px 0;
+  }
+
+  #multimedia-nav button {
+    margin: 0;
+    padding: 4px 12px;
+    font-weight: normal;
+    color: #333333;
+    border: none;
+  }
+
+  #multimedia-nav button.active {
+    color: white !important;
+    border-radius: 36px;
+  }
+
+  .multimedia-tag {
+    padding: 0 0 56px;
+  }
+
+  .multimedia-tag .label {
+    font-size: 14px;
+    margin: 0 0 24px;
+  }
+
+  .multimedia-tag .featured .title {
+    font-size: 24px;
+  }
+
+  .multimedia-tag .featured .credits {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .multimedia-tag .featured .view-full.second,
+  .multimedia-tag .featured .view-full.second {
+    display: block;
+  }
+
+  .multimedia-tag .latest-releases {
+    column-gap: 24px;
+  }
+}

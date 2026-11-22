@@ -1,0 +1,280 @@
+/* photoessay wrapper */
+#photoessay-article-container {
+  background-color: black;
+  color: white;
+}
+
+#photoessay-article-container #article-container .social-media-wrapper .text,
+#photoessay-article-container #article-container .title,
+#photoessay-article-container #article-container .description,
+#photoessay-article-container #article-container .authors,
+#photoessay-article-container #article-container .date,
+#photoessay-article-container .photo-credits,
+#photoessay-article-container #article-content h1,
+#photoessay-article-container #article-content h2,
+#photoessay-article-container #article-content h3,
+#photoessay-article-container #article-content h4,
+#photoessay-article-container #article-content h5,
+#photoessay-article-container #article-content h6 {
+  color: white;
+}
+
+#photoessay-article-container #article-container #article-content {
+  color: #e2e2e2;
+}
+
+/* wrapper */
+#article-container {
+  max-width: calc(848px + 120px + 120px);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#article-details-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* text: categ, title, description, authors */
+#article-container .categ {
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #173e84;
+  margin: 0 0 16px;
+}
+
+#article-container .title {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: #2c2c2c;
+  margin: 0 0 16px;
+}
+
+#article-container .description {
+  font-family: Chivo, sans-serif;
+  font-size: 21px;
+  margin: 0 0 36px;
+  color: #575757;
+}
+
+#article-container .authors {
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 4px;
+  color: #6b6b6b;
+}
+
+#article-container .authors a {
+  text-decoration: none;
+}
+
+#article-container .authors a:hover {
+  text-decoration: underline;
+}
+
+/* date and social media */
+#article-container .details-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+#article-container .date {
+  font-family: Chivo, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0 16px 0 0;
+  color: #6b6b6b;
+}
+
+#article-container .image-wrapper {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+}
+
+#article-container .photo-credits,
+#article-container figcaption {
+  margin: 30px 0;
+  font-family: Chivo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #6b6b6b;
+  margin: 8px auto 30px auto;
+  text-align: center;
+}
+
+/* social media buttons */
+#article-container .social-media-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content max-content;
+  column-gap: 16px;
+  row-gap: 8px;
+  align-items: center;
+  justify-items: center;
+}
+
+#article-container .social-media-wrapper .text {
+  grid-column: 1 / 3;
+}
+
+#article-container .social-media-wrapper a:hover {
+  cursor: pointer;
+}
+
+/* content */
+#article-content {
+  font-family: "Tiempos Text", sans-serif;
+  font-size: 21px;
+  color: #333333;
+
+  margin-top: 48px;
+  word-break: break-word;
+}
+
+#article-content h1,
+#article-content h2,
+#article-content h3,
+#article-content h4,
+#article-content h5,
+#article-content h6 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  margin: 0 0 32px;
+  color: #333333;
+}
+
+#article-content p {
+  margin: 0 0 36px;
+  line-height: 175%;
+}
+
+#article-content a,
+#article-content p > a {
+  text-decoration: none;
+  color: #73b2f9;
+}
+
+#article-content a:hover,
+#article-content p > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#react-divider {
+  border-color: #b2b2b2;
+  margin: 16px 0 24px 0;
+}
+
+/* wrapper */
+#article-container #article-post-wrapper > hr {
+  margin: 24px 0;
+}
+
+/* press */
+#article-container #article-press-wrapper .title {
+  color: black;
+  font-family: Chivo, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#article-container #article-post-wrapper .banner.broadsheet {
+  background-position: top;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+
+#article-container #article-post-wrapper .banner.broadsheet .title {
+  color: white;
+}
+
+#article-container #article-post-wrapper .banner.broadsheet .subtitle {
+  margin: 0 0 8px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  #article-container {
+    padding: 0;
+  }
+
+  #article-details-wrapper {
+    flex-flow: column-reverse;
+  }
+
+  #article-container #article-details-wrapper #article-image-wrapper hr {
+    display: none;
+  }
+
+  /* text: categ, title, desc, authors */
+  #article-container .title {
+    font-size: 32px;
+  }
+
+  #article-container .description {
+    font-size: 14px;
+    margin: 0 0 24px;
+  }
+
+  /* date and social media */
+  #article-container .details-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  #article-container .date {
+    margin-bottom: 24px;
+  }
+
+  /* content */
+  #article-textual-details-wrapper,
+  #article-content,
+  #article-post-wrapper {
+    padding: 0 24px;
+  }
+
+  #article-content {
+    font-size: 16px;
+    margin-top: 48px;
+  }
+
+  #article-content h1,
+  #article-content h2,
+  #article-content h3,
+  #article-content h4,
+  #article-content h5,
+  #article-content h6 {
+    font-size: 18px;
+    margin: 0 0 36px;
+    color: #333333;
+  }
+
+  #article-content p {
+    margin: 0 0 36px;
+  }
+}

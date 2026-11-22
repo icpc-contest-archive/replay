@@ -1,0 +1,199 @@
+#comments-wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#comments-wrapper #reply-title {
+  margin: 0 0 32px;
+}
+
+#comments-wrapper .comment-notes,
+#comments-wrapper .logged-in-as {
+  font-family: "Tiempos Text", serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #2c2c2c;
+  margin: 0 0 24px;
+}
+
+#comments-wrapper .logged-in-as > a:first-of-type {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+#comments-wrapper label {
+  font-family: Chivo, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+#comments-wrapper input[type="checkbox"] ~ label {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+#comments-wrapper .required {
+  color: red;
+}
+
+#comments-wrapper #comment,
+#comments-wrapper #author,
+#comments-wrapper #email,
+#comments-wrapper #url {
+  display: block;
+  margin: 8px 0 24px;
+  width: 100%;
+}
+
+#comments-wrapper input[type="checkbox"] {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#comments-wrapper #submit {
+  border: 1px solid #1c4480;
+  border-radius: 2px;
+  background-color: #1c4480;
+  color: white;
+  padding: 8px 40px;
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: fit-content;
+  display: block;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  margin: 24px 0 48px;
+}
+
+/* comment */
+#comments-wrapper .comment {
+  list-style-type: none;
+}
+
+#comments-wrapper .comment {
+  margin: 0 0 48px;
+}
+
+#comments-wrapper .comment .comment-body {
+  margin: 0 0 24px;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta > * {
+  margin: 0 0 8px;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-author {
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin: 0 0 8px;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-author .avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 16px 0 0;
+
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-author .fn,
+#comments-wrapper .comment .comment-body .comment-meta .comment-author .fn > a {
+  flex-shrink: 1;
+  flex-grow: 1;
+  /* flex-grow: 0; */
+
+  font-family: Chivo, sans-serif;
+  font-size: 16px;
+  font-weight: bold !important;
+  text-decoration: none;
+  color: black;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-author .says {
+  display: none;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-metadata {
+  margin: 0 0 8px;
+}
+
+#comments-wrapper .comment .comment-body .comment-meta .comment-metadata > a {
+  text-decoration: none;
+  color: #a1a1a1;
+  font-family: "Tiempos Text", serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* comment content */
+#comments-wrapper .comment .comment-body .comment-content {
+  margin: 0 0 24px;
+}
+
+#comments-wrapper
+  .comment
+  .comment-body
+  .comment-meta
+  .comment-metadata
+  .comment-edit-link,
+#comments-wrapper .comment .comment-body .reply .comment-reply-link {
+  text-decoration: none;
+  color: #1c4480;
+  font-family: Chivo, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  display: block;
+}
+
+#comments-wrapper
+  .comment
+  .comment-body
+  .comment-meta
+  .comment-metadata
+  .comment-edit-link {
+  display: none;
+  margin: 8px 0 0;
+}
+
+#comments-wrapper .comment .comment-body .reply .comment-reply-link {
+  text-align: right;
+}
+
+#comments-wrapper
+  .comment
+  .comment-body
+  .comment-meta
+  .comment-metadata
+  .comment-edit-link:hover,
+#comments-wrapper .comment .comment-body .reply .comment-reply-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #1c4480;
+}
+
+#comments-wrapper .comment-form-url {
+  display: none;
+}
+
+#comments-wrapper .comment-awaiting-moderation {
+  color: #a1a1a1;
+  margin: 0 0 8px !important;
+
+  font-family: "Tiempos Text", serif;
+  font-size: 12px;
+}

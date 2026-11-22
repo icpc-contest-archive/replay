@@ -1,0 +1,211 @@
+header {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.1));
+}
+
+header.opened-mobile-menu {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo-banner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 24px;
+  background-color: var(--guidon-main-blue);
+}
+
+.logo-banner .logo-wrapper {
+  margin: 0;
+}
+
+.logo-banner .logo-wrapper .gdn-logo {
+  height: 24px;
+  width: auto;
+}
+
+.logo-banner .hamburger-wrapper {
+  display: none;
+}
+
+.logo-banner .hamburger-wrapper .hamburger {
+  cursor: pointer;
+}
+
+.logo-banner .magnifying-glass {
+  display: none;
+  cursor: pointer;
+}
+
+header .nav-bar {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+header .nav-bar .nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+header .nav-bar .nav-list > li:not(:last-child) {
+  margin: 4px 36px 4px 0;
+}
+
+header .nav-bar .nav-list a {
+  color: var(--black-neutrals);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Chivo", sans-serif;
+  text-align: center;
+}
+
+header .nav-bar .nav-list .magnifying-glass {
+  cursor: pointer;
+}
+
+header .mobile-menu {
+  display: none;
+}
+
+#banner {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 16px;
+	background: #FFF;
+	box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
+}
+
+#banner-left {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+#banner-main h6 {
+	font-family: "Tiempos Headline", serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	margin-bottom: 4px;
+}
+
+#banner-main p {
+	font-family: "Chivo", sans-serif;
+	font-size: 14px;
+	color: #6B6B6B;
+	margin-bottom: 8px;
+}
+
+#banner-bot-row a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #2965C0;
+	font-weight: 600;
+	gap: 4px;
+	cursor: pointer;
+	text-decoration: none;
+	width: fit-content;
+}
+
+.dismiss {
+	border: none;
+	background: none;
+	font-family: "Chivo", sans-serif;
+	color: #8B8B8B;
+	text-align: right;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 150%; /* 21px */
+	cursor: pointer;
+	height: fit-content;
+}
+
+.dismiss-mobile {
+	display: none;
+}
+
+#banner.close-banner, header #banner.toggle-banner {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-banner {
+    justify-content: space-between;
+  }
+
+  header.opened-mobile-menu + .logo-banner.floating {
+    display: none;
+  }
+
+  .logo-banner .hamburger-wrapper,
+  .logo-banner .magnifying-glass {
+    display: block;
+  }
+
+  header .nav-bar {
+    display: none;
+  }
+
+  header .mobile-menu {
+    display: block;
+    flex-grow: 1;
+  }
+
+	#banner-left>svg, header #banner>.dismiss, header #banner-bot-row svg {
+		display: none;
+	}
+
+	#banner p {
+		margin-bottom: 12px;
+	}
+
+	#banner #banner-bot-row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 16px;
+	}
+
+	#banner #banner-bot-row a {
+		border-radius: 8px;
+		border: 1px solid #2965C0;
+		padding: 4px 8px;
+	}
+
+	#banner .dismiss-mobile {
+		display: block;
+	}
+
+	#banner .dismiss-desktop {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px) {
+}
