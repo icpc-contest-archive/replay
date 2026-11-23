@@ -182,6 +182,22 @@ def inject(raw: bytes, head_extra: str, body_extra: str) -> bytes:
     return raw + be
 
 
+# Hosts where pages fetched from a person's own browser (capture_urls_bundle.py, tool "...+browser-bundle"
+# without "+rendered") were fetched signed in: the page shows that account, so it is not published.
+SIGNED_IN_HOSTS = {"codeforces.com", "qoj.ac", "spoj.com", "www.spoj.com", "br.spoj.com", "dmoj.ca"}
+
+
+def signed_in(cap: dict, src: Path) -> bool:
+    from urllib.parse import urlsplit
+    if urlsplit(cap.get("url") or "").netloc.lower() not in SIGNED_IN_HOSTS or cap.get("source") == "wayback":
+        return False
+    try:
+        tool = json.loads((src.parent / "manifest.json").read_text()).get("tool") or ""
+    except (OSError, ValueError):
+        return False
+    return "browser-bundle" in tool and "rendered" not in tool
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", default=str(ROOT.parent / "archive"))
@@ -217,6 +233,9 @@ def main() -> int:
         src = arch / cap["path"]
         if not src.exists():
             print(f"missing in archive: {cap['path']}", file=sys.stderr)
+            continue
+        if signed_in(cap, src):
+            stats["not published: fetched in a signed-in session"] = stats.get("not published: fetched in a signed-in session", 0) + 1
             continue
         shard, repo = shard_of(cap["contest"])
         if args.only_shard and shard != args.only_shard:

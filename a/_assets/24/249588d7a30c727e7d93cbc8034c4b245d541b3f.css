@@ -1,0 +1,452 @@
+@charset "utf-8";
+nav.newmenu .menulist li.menu {
+	width: 81px;
+	text-align: center;
+}
+nav.newmenu .menulist li.menu > a {
+	padding: 0;
+}
+nav.newmenu.idx {
+	min-height: 85px;
+}
+nav.newmenu .search {
+	width: 79px;
+	float: left;
+	position: absolute;
+	top: 46px;
+	right: 0;
+}
+nav.newmenu .menulist {
+	background-color: transparent;
+}
+nav.newmenu .search a span {
+	background: url(../images/ico_cti.png) no-repeat scroll -42px -124px transparent;
+}
+nav.newmenu .menulist li.menu:nth-child(13) {
+	width: 77px;
+}
+nav.newmenu .menulist li.menu:nth-child(14) {
+	border-width: 0 1px 1px 1px;
+	width: 79px;
+}
+nav.newmenu .menulist li.menu.tv a:hover {/*視頻*/
+	background-attachment: scroll;
+	background-color: #5e91f1;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.tv a {
+	border-top: 5px solid #5e91f1;
+}
+nav.newmenu .menulist li.menu.photo-app a:hover { /*圖輯*/
+	background-attachment: scroll;
+	background-color: #89c03d;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.photo-app a {
+	border-top: 5px solid #89c03d;
+}
+nav.newmenu .menulist li.menu.more a:hover { /*精選*/
+	background-attachment: scroll;
+	background-color: #848484;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.more a {
+	border-top: 5px solid #848484;
+}
+nav.newmenu .menulist li.menu.opinion a:hover {/*言論*/
+	background-attachment: scroll;
+	background-color: #63b054;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.opinion a {
+	border-top: 5px solid #63b054;
+}
+nav.newmenu .menulist li.menu.opinion.on a {
+	background-color:#63b054;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.ctweekly a:hover {/*時周*/
+	background-attachment: scroll;
+	background-color: #4c8dc7;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.ctweekly a {
+	border-top: 5px solid #4c8dc7;
+}
+nav.newmenu .menulist li.menu.ctweekly.on a {
+	background-color:#4c8dc7;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.wantweekly a:hover {/*周刊王*/
+	background-attachment: scroll;
+	background-color: #e65189;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.wantweekly a {
+	border-top: 5px solid #e65189;
+}
+nav.newmenu .menulist li.menu.wantweekly.on a {
+	background-color:#e65189;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.ctitvnews a:hover {/*中天*/
+	background-attachment: scroll;
+	background-color: #b5b728;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.ctitvnews a {
+	border-top: 5px solid #b5b728;
+}
+nav.newmenu .menulist li.menu.ctitvnews.on a {
+	background-color:#b5b728;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.ctvnews a:hover {/*中視*/
+	background-attachment: scroll;
+	background-color: #d46bd5;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.ctvnews a {
+	border-top: 5px solid #d46bd5;
+}
+nav.newmenu .menulist li.menu.ctvnews.on a {
+	background-color:#d46bd5;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.broadcast a:hover {/*廣播*/
+	background-attachment: scroll;
+	background-color: #d69d23;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.broadcast a {
+	border-top: 5px solid #d69d23;
+}
+nav.newmenu .menulist li.menu.broadcast.on a {
+	background-color:#d69d23;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.openbook a:hover {/*開卷*/
+	background-attachment: scroll;
+	background-color: #bb7686;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.openbook a {
+	border-top: 5px solid #bb7686;
+}
+nav.newmenu .menulist li.menu.openbook.on a {
+	background-color:#bb7686;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.literature a:hover {/*人間*/
+	background-attachment: scroll;
+	background-color: #33bcad;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.literature a {
+	border-top: 5px solid #33bcad;
+}
+nav.newmenu .menulist li.menu.literature.on a {
+	background-color:#33bcad;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.infographic a:hover {/*秒懂圖*/
+	background-attachment: scroll;
+	background-color: #e3705c;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.infographic a {
+	border-top: 5px solid #e3705c;
+}
+nav.newmenu .menulist li.menu.infographic.on a {
+	background-color:#e3705c;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.allwriting a:hover {/*寫新聞*/
+	background-attachment: scroll;
+	background-color: #50a9e5;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.allwriting a {
+	border-top: 5px solid #50a9e5;
+}
+nav.newmenu .menulist li.menu.allwriting.on a {
+	background-color:#50a9e5;
+	color:#fff;
+}
+nav.newmenu .menulist li.menu.campus a:hover {/*校園*/
+	background-attachment: scroll;
+	background-color: #6880f5;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+nav.newmenu .menulist li.menu.campus a {
+	border-top: 5px solid #6880f5;
+}
+nav.newmenu .menulist li.menu.campus.on a {
+	background-color:#6880f5;
+	color:#fff;
+}
+.page_container .submenu {
+	margin: -9px auto 8px;
+	padding: 12px 2px;
+	background-color: #CCC;
+	width: 980px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display:block;
+}
+.page_container .submenu li:first-child {
+	border-left: 0 solid #fff;
+}
+.page_container .submenu li {
+	border-left: 1px solid #fff;
+	float: left;
+	margin: 0;
+	padding: 0 14px;
+}
+.page_container .submenu li a:link, .page_container .submenu li a:visited {
+	color: #fff;
+}
+/*-------次頻道底色----------*/
+.submenu.focus_submenu {
+	background-color: #696969 !important;
+}
+.submenu.realtimenews_submenu {
+	background-color: #c267d5 !important;
+}
+.submenu.newspapers_submenu {
+	background-color: #e65751 !important;
+}
+.submenu.money_submenu {
+	background-color: #957de0 !important;
+}
+.submenu.world_submenu {
+	background-color: #ed843e !important;
+}
+.submenu.chinese_submenu {
+	background-color: #e66abd !important;
+}
+.submenu.armament_submenu {
+	background-color: #2db87e !important;
+}
+.submenu.star_submenu {
+	background-color: #39bad0 !important;
+}
+.submenu.sports_submenu {
+	background-color: #b87d6f !important;
+}
+.submenu.tv_submenu {
+	background-color: #5e91f1 !important;
+}
+.submenu.photo-app_submenu {
+	background-color: #89c03d !important;
+}
+.submenu.more_submenu {
+	background-color: #848484 !important;
+}
+.submenu.opinion_submenu {
+	background-color: #63b054 !important;
+}
+.submenu.ctweekly_submenu {
+	background-color: #4c8dc7 !important;
+}
+.submenu.wantweekly_submenu {
+	background-color: #e65189 !important;
+}
+.submenu.ctitvnews_submenu {
+	background-color: #b5b728 !important;
+}
+.submenu.ctvnews_submenu {
+	background-color: #d46bd5 !important;
+}
+.submenu.broadcast_submenu {
+	background-color: #d69d23 !important;
+}
+.submenu.openbook_submenu {
+	background-color: #bb7686 !important;
+}
+.submenu.literature_submenu {
+	background-color: #33bcad !important;
+}
+.submenu.infographic_submenu {
+	background-color: #e3705c !important;
+}
+.submenu.allwriting_submenu {
+	background-color: #50a9e5 !important;
+}
+.submenu.campus_submenu {
+	background-color: #6880f5 !important;
+}
+.submenu.quiz_submenu {
+	background-color: #848484 !important;
+}
+.submenu.mag_submenu {
+	background-color: #2db87e !important;
+}
+.submenu.newsblog_submenu {
+	background-color: #ff810b !important;
+}
+.submenu.ivoting_submenu {
+	background-color: #e66abd !important;
+}
+nav.newmenu .search a {
+	padding: 7px 30px;
+}
+nav.newmenu .menulist li.menu > a {
+	font: 19px/2.2 "Microsoft JhengHei", "helvetica neue", "lucida grande", "Arial";
+}
+nav.newmenu .menulist li.menu.eword.campus > a,nav.newmenu .menulist li.menu.campus > a {
+	font: 14px/2.9 "helvetica neue", "lucida grande", "Arial";
+}
+nav.newmenu li.menu.on .submenu {
+	display: none !important;
+}
+@media screen and (max-width:767px) {
+.page_container .submenu {
+	display: none;
+}
+nav.newmenu .menulist li.menu {
+	width: auto;
+	text-align: left;
+}
+nav.newmenu .menulist li.menu:nth-child(13) {
+	width: auto;
+}
+nav.newmenu .menulist li.menu:nth-child(14) {
+	border-width: 0 0 1px 0;
+	width: auto;
+}
+nav.newmenu .menulist li.menu.test13 a {
+	border-top: 0 !important;
+}
+nav.newmenu .menulist li.menu.tv:before, nav.newmenu .menulist li.menu.tv a.icon:after { /*視頻*/
+	background-color: #5e91f1;
+}
+nav.newmenu .menulist li.menu.tv a.icon:before {
+	background-position: 0 -320px;
+}
+nav.newmenu .menulist li.menu.photo-app:before, nav.newmenu .menulist li.menu.photo-app a.icon:after { /*圖輯*/
+	background-color: #89c03d;
+}
+nav.newmenu .menulist li.menu.photo-app a.icon:before {
+	background-position: 0 -440px;
+}
+nav.newmenu .menulist li.menu.more:before, nav.newmenu .menulist li.menu.more a.icon:after { /*精選*/
+	background-color: #848484;
+}
+nav.newmenu .menulist li.menu.more a.icon:before {
+	background-position: 0 -640px;
+}
+nav.newmenu .menulist li.menu.opinion:before, nav.newmenu .menulist li.menu.opinion a.icon:after { /*言論*/
+	background-color: #63b054;
+}
+nav.newmenu .menulist li.menu.opinion a.icon:before {
+	background-position: 0 -880px;
+}
+nav.newmenu .menulist li.menu.ctweekly:before, nav.newmenu .menulist li.menu.ctweekly a.icon:after { /*時周*/
+	background-color: #4c8dc7;
+}
+nav.newmenu .menulist li.menu.ctweekly a.icon:before {
+	background-position: 0 -920px;
+}
+nav.newmenu .menulist li.menu.wantweekly:before, nav.newmenu .menulist li.menu.wantweekly a.icon:after { /*周刊王*/
+	background-color: #e65189;
+}
+nav.newmenu .menulist li.menu.wantweekly a.icon:before {
+	background-position: 0 -960px;
+}
+nav.newmenu .menulist li.menu.ctitvnews:before, nav.newmenu .menulist li.menu.ctitvnews a.icon:after { /*中天*/
+	background-color: #b5b728;
+}
+nav.newmenu .menulist li.menu.ctitvnews a.icon:before {
+	background-position: 0 -1040px;
+}
+nav.newmenu .menulist li.menu.ctvnews:before, nav.newmenu .menulist li.menu.ctvnews a.icon:after { /*中視*/
+	background-color: #d46bd5;
+}
+nav.newmenu .menulist li.menu.ctvnews a.icon:before {
+	background-position: 0 -1080px;
+}
+nav.newmenu .menulist li.menu.broadcast:before, nav.newmenu .menulist li.menu.broadcast a.icon:after { /*廣播*/
+	background-color: #d69d23;
+}
+nav.newmenu .menulist li.menu.broadcast a.icon:before {
+	background-position: 0 -600px;
+}
+nav.newmenu .menulist li.menu.openbook:before, nav.newmenu .menulist li.menu.openbook a.icon:after { /*開卷*/
+	background-color: #bb7686;
+}
+nav.newmenu .menulist li.menu.openbook a.icon:before {
+	background-position: 0 -1116px;
+}
+nav.newmenu .menulist li.menu.literature:before, nav.newmenu .menulist li.menu.literature a.icon:after { /*人間*/
+	background-color: #33bcad;
+}
+nav.newmenu .menulist li.menu.literature a.icon:before {
+	background-position: 0 -1156px;
+}
+nav.newmenu .menulist li.menu.infographic:before, nav.newmenu .menulist li.menu.infographic a.icon:after { /*秒懂圖*/
+	background-color: #e3705c;
+}
+nav.newmenu .menulist li.menu.infographic a.icon:before {
+	background-position: 0 -1240px;
+}
+nav.newmenu .menulist li.menu.allwriting:before, nav.newmenu .menulist li.menu.allwriting a.icon:after { /*寫新聞*/
+	background-color: #50a9e5;
+}
+nav.newmenu .menulist li.menu.allwriting a.icon:before {
+	background-position: 0 -1196px;
+}
+nav.newmenu .menulist li.menu.campus:before, nav.newmenu .menulist li.menu.campus a.icon:after { /*CAMPUS*/
+	background-color: #6880f5;
+}
+nav.newmenu .menulist li.menu.campus a.icon:before {
+	background-position: 0 -1000px;
+}
+nav.newmenu .menulist li.menu.campus > a { /*CAMPUS*/
+	font: bold 21px/2.4 "微软雅黑", "黑体", "helvetica neue", "lucida grande", "Arial", "PMingLiU", "Trebuchet MS", "Helvetica", "Verdana", "sans-serif"!important;
+}
+nav.newmenu .menulist li.menu > a {
+	border-top: none !important;
+	padding: 0 0 0 20px;
+	font: bold 21px/2.2 "微软雅黑", "黑体", "helvetica neue", "lucida grande", "Arial", "PMingLiU", "Trebuchet MS", "Helvetica", "Verdana", "sans-serif";
+	height: 50px;
+}
+nav.newmenu.idx {
+	min-height: inherit;
+}
+nav.newmenu li.menu.on .submenu {
+	display: block !important;
+}
+.page_container > article > header {
+    border-top:none;
+}
+}

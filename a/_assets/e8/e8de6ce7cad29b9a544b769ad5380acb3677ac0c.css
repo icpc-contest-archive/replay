@@ -1,0 +1,218 @@
+@charset "utf-8";
+.main-header .social-media-links {
+    display: none;
+}
+.main-header .affiliates {
+    right: 10px;
+}
+.main-header .promote-banner {
+    right: 305px;
+}
+.main-header .logo-want-want-chinatimes-group {
+    right: 215px;
+}
+.main-header .member {
+    position: absolute;
+    right: 120px;
+    top: calc(50% - 10px);
+    display: flex;
+}
+.main-header .member .login {
+    margin-right: 0;
+}
+.main-header .member .login[data-logged="false"] a::after {
+    content: "登入";
+}
+.main-header .member .login[data-logged="true"] a::after {
+    content: "您好";
+}
+.main-header .member .login[data-logged="true"] a:link,
+.main-header .member .login[data-logged="true"] a:visited {
+    color: #003388;
+}
+.main-header .member .login[data-logged="true"] a:hover,
+.main-header .member .login[data-logged="true"] a:active {
+    color: #bc0614;
+}
+.main-header .member .login .fa {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+.main-header .member .function-panel {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+.main-header .member .function-panel ul {
+    margin: 0;
+    padding: 5px 10px;
+}
+.main-header .member .function-panel li {
+    list-style: none;
+    white-space: nowrap;
+    border-top: 1px dotted #cccccc;
+}
+.main-header .member .function-panel li a {
+    display: block;
+    padding: 5px 10px;
+}
+.main-header .member .function-panel li:first-child {
+    border: none;
+}
+@media screen and (max-width: 991px) {
+    .main-header {
+        overflow: visible;
+    }
+    .main-header .search .search-button,
+    .main-index .main-header .search .search-button {
+        right: 40px;
+    }
+    .main-header .member {
+        right: 88px;
+        top: calc(50% - 11px)
+    }
+    .main-header .member .login a::after {
+        content: none !important;
+    }
+    .main-header .member .login .fa {
+        font-size: 30px;
+    }
+}
+/*無廣告體驗*/
+.main-header.has-subscription .promote-banner {
+    right: 390px;
+}
+.main-header.has-subscription .logo-want-want-chinatimes-group {
+    right: 300px;
+}
+.main-header.has-subscription .subscription {
+    position: absolute;
+    right: 195px;
+    top: 18px;
+}
+.main-header.has-subscription .subscription a {
+    display: block;
+    padding: 1px 6px;
+    color: #bc0614;
+    font-size: 15px;
+    border: 2px solid #bc0614;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main-header.has-subscription .subscription a:hover {
+    background: #fef2f2;
+}
+.main-header.has-subscription .subscription a::before {
+    content: "無廣告體驗";
+}
+.main-header.has-subscription .subscription[data-ad-free="1"] a::before {
+    content: "看訂閱方案";
+}
+@media screen and (max-width: 991px) {
+    .main-header.has-subscription .member {
+        right: 76px;
+    }
+    .main-header.has-subscription .subscription {
+        right: 125px;
+        top: 21px;
+    }
+    .main-header.has-subscription .subscription a {
+        font-size: 14px;
+        padding: 1px 4px;
+    }
+    .main-header.has-subscription .subscription a::before {
+        content: "無廣告";
+    }
+    .main-header.has-subscription .subscription[data-ad-free="1"] a::before {
+        content: "看方案";
+    }
+}
+@media screen and (max-width: 390px) {
+    .main-header.has-subscription .main-header-logo,
+    .main-index.has-subscription .main-header .main-header-logo {
+        width: 140px;
+        top: 12px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .main-header.has-subscription .main-header-logo,
+    .main-index.has-subscription .main-header .main-header-logo {
+        width: 135px;
+        top: 13px;
+    }
+}
+/*內頁收藏文章*/
+.content-article .social-share > ul > li.add-bookmark {
+    overflow: visible;
+    vertical-align: top;
+}
+.content-article .social-share > ul > li.add-bookmark:first-child {
+    padding-right: 12px;
+    border-right: 1px solid #cccccc;
+    margin-right: 7px;
+}
+.content-article .social-share > ul > li.add-bookmark a {
+    padding: 0;
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0088bb;
+    background: #ffffff;
+    text-indent: 0;
+}
+.content-article .social-share > ul > li.add-bookmark[data-status="1"] a {
+    background: #0088bb;
+}
+.content-article .social-share > ul > li.add-bookmark a::before {
+    background: none;
+    display: none;
+}
+.content-article .social-share > ul > li.add-bookmark a::after {
+    font-size: 1rem;
+    color: #000000;
+    content: "收藏";
+}
+.content-article .social-share > ul > li.add-bookmark[data-status="1"] a::after {
+    content: "已收藏";
+    color: #ffffff;
+}
+.content-article .social-share > ul > li.add-bookmark a span {
+    color: #0088bb;
+    font-size: 36px;
+    font-weight: 300;
+    text-indent: 0;
+}
+.content-article .social-share > ul > li.add-bookmark[data-status="1"] a span {
+    color: #ffe99f;
+}
+/*內頁收藏文章-直式*/
+.content-article .social-share.fixed > ul > li.add-bookmark {
+    padding-right: 0;
+    border-right: none;
+    margin-right: 5px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 7px;
+}
+.content-article .social-share.fixed > ul > li.add-bookmark a {
+    width: 40px;
+}
+.content-article .social-share.fixed > ul > li.add-bookmark a::after {
+    display: none;
+}
+.content-article .social-share.fixed > ul > li.add-bookmark::before {
+    display: block;
+    content: "收藏";
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 3px;
+}

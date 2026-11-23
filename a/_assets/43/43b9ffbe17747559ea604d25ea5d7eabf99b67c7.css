@@ -1,0 +1,294 @@
+@charset "utf-8";
+/*以行動支持*/
+#donate-form-container,
+.donation {
+    min-height: 192px;
+    margin: 16px auto;
+    clear: both;
+}
+#donate-form-container[data-donate-rank="1"],
+#donate-form-container[data-donate-rank="1"] .donation,
+#donate-form-container[data-donate-rank="2"],
+#donate-form-container[data-donate-rank="2"] .donation,
+#donate-form-container[data-donate-rank="3"],
+#donate-form-container[data-donate-rank="3"] .donation {
+    min-height: 238px;
+}
+.donation .donation-container {
+    padding: 0;
+}
+.donation.large .donation-container {
+    padding: 24px;
+    border: 1px solid #cccccc;
+}
+.donation .title {
+    font-family: "Microsoft Yahei", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+.donation .description {
+    text-align: center;
+    margin: 8px 0 16px 0;
+}
+.donation .description strong {
+    font-weight: bold;
+    color: #bc0614;
+}
+.donation button {
+    display: block;
+    margin: 4px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    max-width: 320px;
+}
+.donation.large button {
+    max-width: 360px;
+}
+.donation .icon-donation {
+    display: inline-flex;
+    margin-right: 0.5em;
+    width: 36px;
+    height: 24px;
+    font-size: 1.25rem;
+    position: relative;
+    top: -3px;
+    box-sizing: content-box;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.donation .icon-donation::before,
+.donation .icon-donation::after {
+    content: "";
+    display: block;
+    height: 3px;
+    box-sizing: content-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.donation .icon-donation::before {
+    width: calc(100% - 6px);
+    background: #bc0614;
+    border: 3px solid #ffffff;
+}
+.donation .icon-donation::after {
+    width: 100%;
+    background: #ffffff;
+    z-index: 20;
+}
+.donation .icon-donation .fa {
+    font-size: 0.8em;
+    box-sizing: content-box;
+    color: #bc0614;
+    background: #ffffff;
+    width: 1em;
+    height: 1em;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid #bc0614;
+    position: relative;
+    z-index: 10;
+    animation: donation 5s infinite;
+}
+@keyframes donation {
+    0% {
+        top: -100%;
+    }
+    10% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    #donate-form-container,
+    .donation {
+        min-height: 216px;
+    }
+    #donate-form-container[data-donate-rank="1"],
+    #donate-form-container[data-donate-rank="1"] .donation,
+    #donate-form-container[data-donate-rank="2"],
+    #donate-form-container[data-donate-rank="2"] .donation,
+    #donate-form-container[data-donate-rank="3"],
+    #donate-form-container[data-donate-rank="3"] .donation {
+        min-height: 263px;
+    }
+    .donation.large button {
+        font-size: 1.25rem;
+    }
+}
+.donation-prompt {
+    font-size: 16px;
+}
+.donation-prompt .modal.show {
+    top: 0;
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+}
+.donation-prompt .modal-dialog {
+    flex-grow: 1;
+}
+.donation-prompt .payment-method-description {
+    color: #333333;
+    margin-bottom: 16px;
+}
+.donation-prompt .payment-method-description .method {
+    font-weight: bold;
+    color: #000000;
+    margin: 0 3px;
+}
+.donation-prompt .donation-item-group {
+    font-size: 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.donation-prompt .donation-item {
+    position: relative;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    flex: 1;
+    min-width: calc((100% - 8px) / 2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.donation-prompt .donation-item.selected {
+    border-color: transparent;
+}
+.donation-prompt .donation-item.selected::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 4px solid #bc0614;
+    pointer-events: none;
+}
+.donation-prompt .donation-item .title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.donation-prompt .donation-item .price {
+    font-size: 21px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.donation-prompt .donation-item.selected .price {
+    color: #bc0614;
+}
+.donation-prompt .form-group {
+    margin-top: 16px;
+}
+.donation-prompt .donation-item.selected #input-number-custom {
+    font-weight: bold;
+    color: #bc0614;
+}
+.donation-prompt .required-mark {
+    color: #bc0614;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 8px;
+    vertical-align: middle;
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+}
+.donation-prompt .memo {
+    text-align: left;
+    font-size: 16px;
+}
+.donation-prompt .custom-memo {
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+@media screen and (max-width: 991px) {
+    .donation-prompt .modal.show {
+        align-items: center;
+    }
+    .donation-prompt .modal-body {
+        max-height: calc(100vh - 220px);
+        padding-bottom: 50px;
+        overflow-y: scroll;
+    }
+    .donation-prompt .modal-footer {
+        position: relative;
+    }
+    .donation-prompt .modal-footer::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -50px;
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+        z-index: 10;
+        pointer-events: none;
+    }
+}
+.donation-confirm {
+    margin: 16px 8px;
+}
+.donation-confirm table th {
+    white-space: nowrap;
+}
+.donation-confirm .donation-details {
+    max-width: 640px;
+    margin: auto;
+}
+.donation-confirm .action {
+    text-align: right;
+}
+.donation-result {
+    margin: 16px 8px;
+}
+.donation-result .response-message {
+    max-width: 640px;
+    margin: auto;
+}
+.donation-result .response-message p {
+    font-size: 22px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+/*文章關聯資訊列的支持鈕*/
+.content-article .article-box .article-header .meta-info .donation {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    min-height: unset;
+    margin: unset;
+    clear: unset;
+}
+.content-article .article-box .article-header .meta-info .donation a .icon {
+    display: inline-flex;
+    border-radius: 50%;
+    color: #000000;
+    border: 1px solid #000000;
+    background: #ffffff;
+    text-decoration: none;
+    width: 16px;
+    height: 16px;
+    padding: 3px;
+    box-sizing: content-box;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: -2px 0;
+}
+.content-article .article-box .article-header .meta-info .donation a .text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 6px;
+    color: #bc0614;
+}

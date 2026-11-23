@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*內容頁*/
+.content-article .article-body {
+    overflow: hidden;
+}
+.content-article .paywall {
+    position: relative;
+    clear: both;
+}
+.content-article .paywall .mask.partial {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 100%;
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 1) 100%);
+    pointer-events: none;
+}
+.content-article .subscribe-lock-container {
+    text-align: center;
+    margin: 24px auto;
+    padding: 24px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    position: relative;
+    background: #ffffff;
+    clear: both;
+}
+.content-article .subscribe-lock-container .title {
+    margin-bottom: 16px;
+}
+.content-article .subscribe-lock-container .copywriting {
+    font-size: 16px;
+}
+.content-article .subscribe-lock-container .red {
+    color: #bc0614;
+    padding: 0 5px;
+    font-size: 1.2em;
+}
+.content-article .subscribe-lock-container a:link,
+.content-article .subscribe-lock-container a:visited {
+    color: #003388;
+    border-bottom: 1px solid #cccccc;
+    text-decoration: none;
+}
+.content-article .subscribe-lock-container a:hover,
+.content-article .subscribe-lock-container a:active {
+    color: #bc0614;
+}
+.content-article .subscribe-lock-container .action-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.content-article .subscribe-lock-container .action-bar .btn-primary {
+    min-width: 12rem;
+    border: none;
+}
+.content-article .subscribe-lock-container .action-bar .btn-outline-primary {
+    border: 1px solid #bc0614;
+    color: #bc0614 !important;
+}
+.content-article .subscribe-lock-container .action-bar .btn-outline-primary:hover {
+    background: #fef2f2;
+}
+.content-article .subscribe-lock-container .action-bar .fa {
+    color: #666666;
+}
+.content-article .subscribe-lock-container .action-bar p {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.content-article .subscribe-lock-container .action-bar p a {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.content-article .subscribe-lock-container .divider-line {
+    background: linear-gradient(to bottom, transparent 50%, #999999 50%, transparent calc(50% + 1px));
+    margin: 12px 0;
+    min-height: 1em;
+}
+.content-article .subscribe-lock-container .divider-line .text-block {
+    background: #ffffff;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.content-article .subscribe-lock-container a.btn[data-vendor] {
+    border: 1px solid #999999;
+    font-weight: bold;
+    min-width: 12rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.content-article .subscribe-lock-container .btn[data-vendor] .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+.content-article .subscribe-lock-container .btn[data-vendor="google"] .logo {
+    background-image: url("https://static.chinatimes.com/images/2020/social/logo-google-g.svg");
+}
+.content-article .subscribe-lock-container p.memo {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.content-article .subscribe-lock-container .memo span {
+    margin: 0 6px;
+}
+@media screen and (max-width: 991px) {
+    .content-article .subscribe-lock-container {
+        padding: 18px;
+    }
+    .content-article .subscribe-lock-container .action-bar p {
+        font-size: 16px;
+    }
+    .content-article .subscribe-lock-container .action-bar p span {
+        display: block;
+    }
+}

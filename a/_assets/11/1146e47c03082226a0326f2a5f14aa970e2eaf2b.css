@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*M版主要css*/
+@import url("../../libs/bootstrap/4.5.2/css/bootstrap.min.css");
+@import url("../../libs/jqueryui/1.13.1/themes/smoothness/jquery-ui.min.css");
+@import url("../../scripts/vertical-marquee/css/jquery.vertical-marquee.css?20220324");
+@import url("../../scripts/adaptive-gallery/css/jquery.adaptive-gallery.css?20220324");
+@import url("../../scripts/owl-carousel-v2.34/assets/owl.carousel.min.css?20190326");
+@import url("../font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("grid2020.css");
+@import url("color2020.css?20210415");
+@import url("style2020.css?20261118");
+@import url("header-nav-m2020.css?20250115");
+@import url("main2020.css?20260626");
+@import url("channel2020.css?20221027");
+@import url("article2020.css?20261103");
+@import url("ad2020.css?20261030");
+@import url("r18-prompt2020.css?20210409");
+@import url("subscribe-news-letter2020.css?20250915");
+@import url("../../scripts/menu-keywords/css/menu-keywords.css");
+@import url("theme2020.css");
+@import url("rwd-m2020.css?20261118");
+/*@import url("../ctinews-app-promote/ctinews-app-promote.css");*/
+/*@import url("../../scripts/google-news-promote/css/google-news-promote.css?20250916");*/
+@import url("../../scripts/subscription-promote/css/subscription-promote.css?20261020");
+@import url("../../scripts/google-preferred-sources/css/google-preferred-sources.css?20260618");
