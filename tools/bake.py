@@ -224,6 +224,7 @@ def main() -> int:
 
     pages, total = [], 0
     stats: dict = {}
+    once: dict = {}   # (shard, sha256 of a file) -> the baked path that holds it
     for cap in index["captures"]:
         if cap.get("content_caveat"):
             continue  # junk-flagged captures stay in the archive but are not published
@@ -289,11 +290,30 @@ def main() -> int:
                 charset='<meta charset="utf-8">\n' if _enc else "", canonical=canonical),
                          BANNER_BODY.format(url_link=url_link, fetched=fetched,
                                             contest_link=contest_link, wayback=wayback, live=live))
-        dest.write_bytes(raw)
-        total += len(raw)
+        # A file (a PDF, a zip: not a page, which carries its own banner) is published once per shard,
+        # however many captures hold the same bytes: the live and the Wayback copy of one address
+        # are often the same file (2026-11-24: 108 MB of the first shard were such second copies).
+        # The index still lists every capture; `at` names the path where its file is.
+        at = None
+        if not is_html:
+            first = once.setdefault((shard, cap["sha256"]), "a/" + cap["path"])
+            if first != "a/" + cap["path"]:
+                at = first
+        if at:
+            stats["published once: the same file as another copy"] = stats.get("published once: the same file as another copy", 0) + 1
+            if dest.exists():
+                dest.unlink()
+                try:
+                    dest.parent.rmdir()
+                except OSError:
+                    pass
+        else:
+            dest.write_bytes(raw)
+            total += len(raw)
         pages.append({"contest": cap["contest"], "artifact": cap["artifact"], "shard": shard, "repo": repo,
                       "path": "a/" + cap["path"], "url": cap.get("url"),
-                      "fetched": cap.get("fetched"), "sha256_source": cap["sha256"], "_size": len(raw)})
+                      "fetched": cap.get("fetched"), "sha256_source": cap["sha256"], "_size": 0 if at else len(raw),
+                      **({"at": at} if at else {})})
 
     if stats:
         print(stats)
