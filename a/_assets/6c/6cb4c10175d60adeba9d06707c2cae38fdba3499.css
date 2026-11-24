@@ -1,0 +1,290 @@
+@import url("fluid-ietest.css");
+@import url("search-box_fluid.css") screen;
+/*@import url("sub-content.css") screen;*/
+@import url("default_fluid.css") screen;
+/*@import url("widgets.css") screen;
+@import url("columns.css") screen;*/
+@import url("layout_fluid.css") screen;
+@import url("nav_fluid.css") screen;
+@import url("fluidprint.css") print;
+
+@media print{
+
+body {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Arial, Verdana, sans-serif;
+	/*font-size: 80%;*/
+	font-size: 14px;
+}
+
+table {
+	/*width: 100%;*/
+	color:#000000;
+	background:none;
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+	display:table;
+}
+
+caption  {
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+	display:table-caption;
+}
+
+thead {
+/* Keeps Firefox from repeating table headers on print */
+	display: table-row-group;
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+}
+
+tbody {
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+}
+
+th, td {
+	width: auto;
+	color:#000000;
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+	}
+
+tr{
+	background:none;
+	color:#000000;
+	background-color:none;
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:avoid;
+}
+
+tfoot {
+	page-break-before:auto;
+	page-break-inside:auto;
+	page-break-after:auto;
+	display: table-row-group;
+}
+
+.style3 {
+color:#000000;
+}
+
+#vt-header-screen,
+#unit-header-screen {
+	display: none;
+}
+
+#unit-header {
+	left:0px;
+	top:0px;
+	width:758px;
+	height:80px;
+}
+
+#unit-header-print {
+	/*margin-bottom: 0px;*/
+	padding: 0;
+	border: 0;
+	display: block;
+	top:0px;
+	left:0px;
+	width:758px;
+	height:80px;
+	margin:0;
+	/*margin-top:-50px;*/
+	}
+
+#nav,
+#search, #sub-header img, .skip {
+display:none;
+}
+
+#footer, #sub-footer, #sub-footer-inside {
+	display: inline;
+	background:none;
+	text-align:center;
+	}
+
+#page-wrapper1,
+#page-wrapper2,
+#page-wrapper3,
+#page-wrapper4,
+#page-area,
+.horizontal #page-area,
+#main,
+#content,
+#main-content,
+#sub-content,
+#sub-header,
+#sub-header-inside,
+.horizontal #sub-header,
+.horizontal #sub-header-inside {
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: none;
+	width: auto; /* Hacked in global-ie.css for IE */
+	}
+
+#header, #header-inside {
+background:none;
+margin-bottom:-20px;
+}
+
+
+#sub-header-inside {
+	white-space:nowrap;
+	height:20px;
+	}
+
+#sub-header-inside p a{
+	color:#000;
+}
+
+.fluid #sub-header {
+	margin: 0;
+	font-family: Times, 'Times New Roman', serif;
+	font-size: 2.0em;
+	}
+
+#sub-content,
+#sub-footer {
+	margin-top: 20px;
+	border-top: 1px #999 solid;
+	}
+
+#sub-footer-inside ul{
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #000000;
+	}
+
+#sub-footer-inside ul li, #sub-footer-inside ul li a {
+	display:inline;
+
+}
+.table-sub-heading{
+background-color:none;
+color:#000000;
+font-weight: bold;
+}
+
+.lib-specific{
+display:none;
+}
+
+#vt-header{
+display:none;
+}
+
+#unit-header p{
+display:none;
+}
+
+.page {
+page-break-after:always;
+}
+
+.Z3988 { /* to not print LibX icon */
+display:none;
+}
+
+
+.floatleft{
+float:left;
+padding-left:10px;
+}
+
+.floatright{
+float:right;
+padding-right:10px;
+}
+
+.clear{
+clear:both;
+}
+
+.vol_fright{
+float:right;
+font-weight:bold;
+margin-right:1.5em
+}
+.vol_fleft{
+float:left;
+font-weight:bold;
+margin-left:1.5em
+}
+
+.subheading{
+font-weight:bold;
+font-size: 1.1em;;=
+}
+
+.subheading2{
+font-style:italic;
+font-size: 1.1em;;=
+}
+
+.subheading3{
+font-style:italic;
+font-weight:bold;
+font-size: 1em;;=
+}
+
+table.art th:first-child.trow_header{
+	text-align:center;
+	font-weight:normal;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+    vertical-align:middle;
+    background:#C0C0C0;
+}
+table.art th:first-child.trow{
+	text-align:center;
+	font-weight:bold;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+    vertical-align:middle;
+}
+
+.vl_logo{
+background-color:black;
+color:white;
+font-family: Arial;
+font-size:.6em;
+border-width:1px;
+border-style:solid;
+border-color:black
+font-weight:bold;
+padding:2px;
+}
+
+.tb_foot{
+display:table-row;
+font-size:.85em;
+}
+
+.tb_cap{font-size:.85em; font-style:italic;}
+
+.centered{margin-left:auto; margin-right:auto;}
+
+.article--author--center {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.doi {
+	float:right;
+	padding-right:1.5em;
+}

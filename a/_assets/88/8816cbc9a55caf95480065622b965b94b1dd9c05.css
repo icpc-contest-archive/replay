@@ -1,0 +1,193 @@
+/* SKIP CONTENT */
+#wrapper > .skip-link:focus {
+    clip: inherit;
+    outline: none;
+    left: 6px;
+    top: 7px;
+    height: auto;
+    width: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 23px 14px;
+    background: #f1f1f1;
+    color: #0073aa;
+    z-index: 100000;
+    line-height: normal;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+}
+
+/* HEADER MENU
+================================================== */
+#zone-header-menu .mfwMenu .hamburger-header h3 {
+    display: none;
+}
+
+#zone-header-menu .mfwMenu.responsive .hamburger-header h3 {
+    display: block;
+}
+#zone-header-menu .mfwMenu .hamburger-header h3 .fa {
+    padding-right: 0.9375rem;
+}
+
+#zone-header-menu .mfwMenu ul {
+    margin: 0 -5px;
+    padding: 0;
+}
+
+#zone-header-menu .mfwMenu ul li {
+    display: inline;
+    float: left;
+    white-space: nowrap;
+    line-height: 1em;
+    padding: 0 5px;
+}
+
+#zone-header-menu .mfwMenu ul li.menu-item-home a {
+}
+
+#zone-header-menu .mfwMenu ul li.menu-item-home a:before {
+    content: "\f015";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#zone-header-menu .mfwMenu ul li.menu-item-home a span {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+#zone-header-menu .mfwMenu.responsive ul li {
+    display: block;
+    float: none;
+}
+
+/* TOP/BOTTOM MENUS
+================================================== */
+#section-top-menu .mfwMenu > ul {
+    float: right;
+}
+
+#section-top-menu .mfwMenu > ul,
+#section-bottom-menu .mfwMenu > ul {
+    margin: 0 -5px;
+    padding: 0;
+}
+
+#section-top-menu .mfwMenu > ul > li,
+#section-bottom-menu .mfwMenu > ul > li {
+    display: inline;
+    float: left;
+    padding: 0 5px;
+}
+
+
+/* Wordpress Classes
+================================================== */
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.alignnone {
+    display: inline-block;
+    float: none;
+}
+
+/* MFW Accordion Shortcode
+================================================== */
+.mfw-accordion + .mfw-accordion {
+    margin-top: 1rem;
+}
+
+.mfw-accordion > input[type="checkbox"] {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.mfw-accordion > label {
+    position: relative;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    line-height: 1;
+    border: 1px solid #efefef;
+    z-index: 11;
+    background-color: #efefef;
+}
+.mfw-accordion > input[type="checkbox"]:focus ~ label {
+    border-color: #999;
+}
+
+.mfw-accordion > label:hover {
+    background: #999;
+    color: #fff;
+}
+
+.mfw-accordion > .mfw-accordion-content-wrap {
+    position: relative;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 10;
+    visibility: hidden;
+}
+.mfw-accordion > .mfw-accordion-content-wrap.transition {
+    transition: max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.mfw-accordion > .mfw-accordion-content-wrap > .mfw-accordion-content {
+    padding: 1em;
+}
+
+.mfw-accordion > input[type="checkbox"]:checked ~ .mfw-accordion-content-wrap {
+    max-height: 999999px;
+    transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    visibility: visible;
+}
+
+@media print {
+    .mfw-accordion .mfw-accordion-content-wrap {
+        max-height: inherit;
+    }
+}
+
+
+/* MISC
+================================================== */
+/* HIDE WP STATS SMILE IMAGE */
+img#wpstats {
+    display: none;
+}
+
+/* ACCESSIBLE HIDE CLASS */
+.screen-reader-text,
+.hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}

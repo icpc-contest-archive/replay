@@ -1,0 +1,49 @@
+.wp-block-record-custom-moreinfo {
+    position: relative;
+    padding: 10px;
+    margin: 1em 0;
+    background: #f3f4f5;
+    width: 240px;
+    max-width: 100%;
+    border: 1px solid #e2e4e7;
+    font-size: 14px;
+}
+
+.wp-block-record-custom-moreinfo.alignright {
+    margin-left: 1em;
+}
+.wp-block-record-custom-moreinfo.alignleft {
+    margin-right: 1em;
+}
+
+.wp-block-record-custom-moreinfo .moreinfo-title {
+    margin: 0;
+    text-transform: uppercase;
+}
+.wp-block-record-custom-moreinfo .moreinfo-title:before {
+    content: '+ ';
+}
+.wp-block-record-custom-moreinfo * + .moreinfo-title {
+    margin-top: 30px;
+}
+
+.wp-block-record-custom-moreinfo ul,
+.wp-block-record-custom-moreinfo ol,
+.wp-block-record-custom-moreinfo .moreinfo-items {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 1.4;
+}
+.wp-block-record-custom-moreinfo h5 + .moreinfo-items {
+}
+.wp-block-record-custom-moreinfo ul li,
+.wp-block-record-custom-moreinfo ol li,
+.wp-block-record-custom-moreinfo .moreinfo-items li {
+    margin: 0;
+}
+.wp-block-record-custom-moreinfo ul li + li,
+.wp-block-record-custom-moreinfo ol li + li,
+.wp-block-record-custom-moreinfo .moreinfo-items li + li {
+    margin-top: 15px;
+}

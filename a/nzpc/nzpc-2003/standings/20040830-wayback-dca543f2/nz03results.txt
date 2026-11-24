@@ -1,0 +1,75 @@
+2003 New Zealand Programming contest final results
+--------------------------------------------------------------------------
+
+Site	Level	Team No	Score
+
+Category 4: Business
+DUD	4	12	260 (Terminally Nocturnal -- Guest team)
+AKL	4	17	150 (Genhack -- Talgentra NZ)
+AKL	4	18	140 (Coalition of the Willing -- Peace Software NZ Ltd)
+WAN	4	1	60
+
+Category 3: Senior
+DUD	3	2	240 (Bartosz, Birgir, Phil)
+HLZ	3	7	210
+DUD	3	1	190
+HLZ	3	2	170
+
+Category 2: Intermediate
+AKL	2	9	160 (Khoussainova, Vukanovic, Kot)
+DUD	2	8	60
+HLZ	2	6	60
+AKL	2	8	50
+
+Category 3: Junior/Entry
+AKL	1	4	130 (McCall, Pe, Donald)
+HLZ	1	4	60
+HLZ	1	8	60
+HLZ	1	5	50
+
+All non-zero results (by score, by level, by site)
+DUD	4	12	260
+DUD	3	2	240
+HLZ	3	7	210
+DUD	3	1	190
+HLZ	3	2	170
+AKL	2	9	160 
+AKL	4	17	150
+AKL	4	18	140
+AKL	1	4	130 
+AKL	3	14	80
+HLZ	3	1	80
+WAN	4	1	60
+AKL	3	12	60
+AKL	3	13	60
+DUD	2	8	60
+HLZ	2	6	60
+HLZ	1	4	60
+HLZ	1	8	60
+AKL	3	11	50
+DUD	3	3	50
+AKL	2	8	50
+HLZ	1	5	50
+WLG	?	4	30
+AKL	3	16	30
+DUD	2	6	30
+AKL	1	1	30
+WLG	?	1	20
+WLG	?	7	20
+HLZ	3	10	20
+HLZ	2	3	20
+WLG	?	2	10
+WLG	?	8	10
+DUD	3	4	10
+AKL	2	7	10
+AKL	2	10	10
+DUD	2	5	10
+DUD	2	9	10
+DUD	2	10	10
+AKL	1	2	10
+AKL	1	3	10
+AKL	1	6	10
+DUD	1	7	10
+DUD	1	11	10
+HLZ	1	9	10
+

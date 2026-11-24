@@ -1,0 +1,65 @@
+.wp-block-record-custom-callout {
+    position: relative;
+    padding: 1em;
+    background: #f3f4f5;
+    width: 240px;
+    max-width: 100%;
+    border: 1px solid #e2e4e7;
+    font-size: 14px;
+}
+
+.wp-block-record-custom-callout h5 {
+    text-transform: uppercase;
+}
+.wp-block-record-custom-callout h5:before {
+    content: '+ ';
+}
+.wp-block-record-custom-callout .callout-title {
+    margin-bottom: 1em;
+}
+.wp-block-record-custom-callout > ul {
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 1.4;
+}
+.wp-block-record-custom-callout > ul li {
+    margin: 0;
+}
+.wp-block-record-custom-callout > ul li + li {
+    margin-top: 15px;
+}
+
+.wp-block-record-custom-callout > .editor-inner-blocks {
+    padding-top: 30px;
+}
+
+.wp-block-record-custom-callout {
+    margin: 1em 0;
+}
+.wp-block-record-custom-callout.alignright {
+    margin-left: 1em;
+}
+.wp-block-record-custom-callout.alignleft {
+    margin-right: 1em;
+}
+
+.wp-block-record-custom-callout h5 {
+    margin: 0;
+}
+.wp-block-record-custom-callout ul {
+    margin: 0;
+}
+
+
+.wp-block-record-custom-callout .wp-block-record-custom-moreinfo,
+.wp-block-record-custom-callout .wp-block-record-custom-moreinfo.alignright,
+.wp-block-record-custom-callout .wp-block-record-custom-moreinfo.alignleft {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.wp-block-record-custom-callout .wp-block-record-custom-moreinfo + .wp-block-record-custom-moreinfo {
+    margin-top: 2em;
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://bapc.eu/">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>BAPC 2026</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.165.0">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    <link rel="stylesheet" href="./ananke/css/main.02a37ad6c4e155c542d276915a0e3f83f5c7c5fec443350f6e60753f1679b7a7.css" integrity="sha256-AqN61sThVcVC0naRWg4/g/XHxf7EQzUPbmB1PxZ5t6c=" crossorigin="anonymous">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+<link rel="shortcut icon" href="./images/logo-blanco.webp" type="image/x-icon" />
+
+
+    
+
+    
+    
+      <link href="./index.xml" rel="alternate" type="application/rss+xml" title="BAPC 2026" />
+      <link href="./index.xml" rel="feed" type="application/rss+xml" title="BAPC 2026" />
+      
+    
+
+    
+      <link rel="canonical" href="./">
+    
+
+    
+    
+    <meta property="og:url" content="/">
+	<meta property="og:site_name" content="BAPC 2026">
+	<meta property="og:title" content="BAPC 2026">
+	<meta property="og:description" content="image credit to: W.I.S.V. ‘Christiaan Huygens’ Welcome to the website of BAPC 2026!
+The Benelux Algorithm Programming Contest (BAPC) is a contest for students of the Benelux universities. Students are served a series of algorithmic problems to solve. The goal of each team is to solve as many problems as possible within the five hour time limit. Potential solutions are submitted and corrected by an automated judging system. The best teams for each university will participate in the NWERC 2026.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="BAPC 2026">
+	<meta itemprop="description" content="image credit to: W.I.S.V. ‘Christiaan Huygens’ Welcome to the website of BAPC 2026!
+The Benelux Algorithm Programming Contest (BAPC) is a contest for students of the Benelux universities. Students are served a series of algorithmic problems to solve. The goal of each team is to solve as many problems as possible within the five hour time limit. Potential solutions are submitted and corrected by an automated judging system. The best teams for each university will participate in the NWERC 2026.">
+	<meta itemprop="wordCount" content="158">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="BAPC 2026">
+	<meta name="twitter:description" content="image credit to: W.I.S.V. ‘Christiaan Huygens’ Welcome to the website of BAPC 2026!
+The Benelux Algorithm Programming Contest (BAPC) is a contest for students of the Benelux universities. Students are served a series of algorithmic problems to solve. The goal of each team is to solve as many problems as possible within the five hour time limit. Potential solutions are submitted and corrected by an automated judging system. The best teams for each university will participate in the NWERC 2026.">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-home">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://bapc.eu/">http://bapc.eu/</a> (live fetch 2026-11-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/bapc-2014.html">bapc-2014</a>  <a href="https://web.archive.org/web/*/http://bapc.eu/">wayback</a>  <a href="http://bapc.eu/">live</a></div>
+
+
+  
+  
+  
+  <header class="cover bg-top" style="background-image: url('/images/background.webp');">
+    
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="./" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        <img src="./images/logo-blanco.webp" class="w100 mw5-ns" alt="BAPC 2026" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="./nl/">nl</a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="./fr/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./contest/" title="Contest page">
+              Contest
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./schedule/" title="Schedule page">
+              Schedule
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./location/" title="Location page">
+              Location
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./registration/" title="Registration page">
+              Registration
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./rules/" title="Rules page">
+              Rules
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./systems/" title="Systems page">
+              Systems
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="./teams/" title="Teams page">
+              Teams
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="https://jury.bapc.eu/advice/" title="Jury Advice ⬀ page">
+              Jury Advice ⬀
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          BAPC 2026
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+<main class="pb7" role="main"><article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
+    <h6 id="image-credit-to-wisv">image credit to: <a href="https://photos.ch.tudelft.nl/v2wkas-benelux-algorithm-programming-contest">W.I.S.V. &lsquo;Christiaan Huygens&rsquo;</a></h6>
+<p>Welcome to the website of BAPC 2026!</p>
+<p>The Benelux Algorithm Programming Contest (BAPC) is a contest for students of the Benelux universities. Students are served a
+series of algorithmic problems to solve. The goal of each team is to solve as many problems as possible within the five hour time limit.
+Potential solutions are submitted and corrected by an automated judging system. The best teams for each university will
+participate in the <a href="https://2026.nwerc.eu/">NWERC 2026</a>.</p>
+<p>The 2026 edition of the BAPC will be on the <strong>31th of October, 2026</strong>.
+The contest is going to be on the campus of Leiden University.</p>
+<h3 id="team-division">Team division:</h3>
+<ul>
+<li>Teams 1 to 12 will be seated in C09</li>
+<li>Teams 13 to 25 will be seated in C13</li>
+<li>Teams 26 to 40 will be seated in C17</li>
+<li>Teams 41 to 57 will be seated in C21</li>
+</ul>
+<div class="flex-l">
+<div style="flex: 1 0 0%; text-align: left;">
+    <!-- add contest things -->
+</div> 
+<div style="flex: 1 0 0%; text-align: left;">
+    <h2 id="preliminaries-material">Preliminaries material</h2>
+<ul>
+<li><a href="./prelims/scoreboard">Merged Scoreboard</a></li>
+<li><a href="./prelims/prelims-problem-set.pdf" download>Problem Set (pdf)</a></li>
+<li><a href="./prelims/prelims-solutions.pdf" download>Solution Slides (pdf)</a></li>
+<li><a href="./prelims/prelims.zip" download>Packaged Problems (zip, 198.8MB)</a></li>
+</ul>
+</div>
+</div>
+  </article>
+
+  
+  
+  
+  
+  
+
+  
+</main><footer class="bg-white bottom-0 w-100" role="contentinfo">
+    <div class="flex flex-column justify-around pa3 pb5">
+        <div class="flex justify-between w-100 center sponsor flex-wrap">
+            
+                <div class="flex flex-column center">
+                    <a href="https://www.jetbrains.com/" target="_blank">
+                        <img src="./images/sponsors/Jetbrains.svg" alt="Logo of sponsor Jetbrains" height="60px" style="padding-top: 20px; padding-bottom: 25px;">
+                    </a>
+                    <span style="text-align: center;">Jetbrains</span>
+                    <span style="text-align: center;">Platinum sponsor</span>
+            </div>
+            
+                <div class="flex flex-column center">
+                    <a href="https://www.imc.com/" target="_blank">
+                        <img src="./images/sponsors/Imc.webp" alt="Logo of sponsor IMC" height="60px" style="padding-top: 20px; padding-bottom: 25px;">
+                    </a>
+                    <span style="text-align: center;">IMC</span>
+                    <span style="text-align: center;">Gold sponsor</span>
+            </div>
+            
+            </div>
+            </div>
+    <div class="flex justify-between bg-red pa3">
+        <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="./">
+            &copy;  De Leidsche Flesch 2026 
+        </a>
+        <div><div class="ananke-socials"></div>
+</div>
+    </div>
+</footer></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

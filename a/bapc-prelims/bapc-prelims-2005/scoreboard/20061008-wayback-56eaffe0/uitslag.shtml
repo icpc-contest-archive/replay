@@ -1,0 +1,477 @@
+<HTML>
+<style type="text/css">
+table.content td {
+	font-size: 8pt;
+	padding: 3px;
+	height: 25px;
+	white-space: nowrap;
+	border: solid 1px black;
+}
+table.content {
+	border-collapse: collapse;
+}
+/*
+tr.content_body1 td {
+	opacity: 0.8;
+	filter: Alpha(opacity=80);
+}
+*/
+tr.content_header td {
+	font-weight: bold;
+	border-width: 0px;
+}
+tr.content_body1 td {
+	background-color: #dddddd;
+}
+tr.content_body2 td {
+	background-color: #eeeeee;
+}
+td.not_app
+{
+        text-align : center;
+        color : black;
+	background-color: #ab5656!important;
+	background-image: url('incorrect.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+        width :60;
+}
+td.app
+{
+        text-align : center;
+        color : black;
+	background-color: #69b169!important;
+	background-image: url('correct.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+        width : 60;
+}
+td.time {
+	text-align: right;
+}
+</style>
+
+<HEAD>
+<!-- baked by icpc-contest-archive/replay -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="http://ch.tudelft.nl/chipcie/dkp/dkp2005/uitslag.shtml">
+<style>#icpc-archive-banner{position:sticky;top:0;z-index:99999;background:#1a2634;
+color:#dfe7ee;font:13px/1.4 system-ui,sans-serif;padding:6px 12px;border-bottom:2px solid #4a90d9}
+#icpc-archive-banner a{color:#8fc1f0}</style>
+
+
+    <TITLE>CHipCie - Christiaan Huygens Important Programming Committee</TITLE>
+
+    <!--
+    CHipcie Homepage
+
+    URL:      http://ch.twi.tudelft.nl/~chipcie/
+    E-mail:   chipcie@ch.twi.tudelft.nl
+    -->
+
+    <LINK REL="start" HREF="http://ch.tudelft.nl/chipcie/index.shtml">
+    <BASE HREF="http://ch.tudelft.nl/chipcie/">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+    <LINK rel='stylesheet' href='includes/stylesheet.css' type='text/css'>
+
+</HEAD>
+
+
+<BODY BGCOLOR="#FFFFFF" 
+      TEXT="#000000" 
+      LINK="#000000"
+      VLINK="#000000"
+      ALINK="#FF0000">
+<div id="icpc-archive-banner"><b><a href="https://icpc-contest-archive.github.io/contests/">ICPC contest archive</a></b>
+ archived copy of <a href="http://ch.tudelft.nl/chipcie/dkp/dkp2005/uitslag.shtml">http://ch.tudelft.nl/chipcie/dkp/dkp2005/uitslag.shtml (2006-10-08 20:46)</a> (Wayback snapshot 2006-10-08 20:46; fetched 2026-11-23)  catalogue: <a href="https://icpc-contest-archive.github.io/contests/contest/bapc-prelims-2005.html">bapc-prelims-2005</a>  <a href="https://web.archive.org/web/20061008204610/http://ch.tudelft.nl/chipcie/dkp/dkp2005/uitslag.shtml">wayback</a>  <a href="http://ch.tudelft.nl/chipcie/dkp/dkp2005/uitslag.shtml">live</a></div>
+
+
+
+<TABLE BORDER=0 CELLSPACING=10>
+<TR>
+
+<!-- Menu -->
+
+
+<TD VALIGN=TOP>
+<CENTER>
+
+<A HREF="index.shtml"><IMG SRC="graphics/chipcie-klein.jpg" ALT="CHipCie" ALIGN=MIDDLE BORDER=0></A><BR>
+<BR>
+
+<DIV CLASS="menu">
+
+<A HREF="programmeerwedstrijden.shtml">Programmeerwedstrijden</A><BR>
+<BR>
+<BR>
+<A HREF="dkp/dkp2006/dkp2006.shtml">DKP 2006</A><BR>
+<BR>
+<BR>
+<A HREF="archief.shtml">Archief</A><BR>
+<BR>
+<BR>       
+<A HREF="links.shtml">Links</A><BR>
+<BR>
+<BR>
+<A HREF="chipcie.shtml">CHipCie</A><BR>
+
+</DIV>
+
+<P>
+<BR>
+<SMALL>
+<I>Email:</I><BR>
+&nbsp;&nbsp;&nbsp;
+<A HREF="mailto:chipcie@ch.tudelft.nl?SUBJECT=CHipCie Homepage">chipcie@ch.tudelft.nl</A>
+&nbsp;&nbsp;&nbsp;
+</SMALL>
+
+<P>
+<SMALL><I>
+Last updated:<BR>
+
+October  2, 2005<BR>
+</I></SMALL>
+
+</CENTER>
+</TD>
+
+
+<!-- End of Menu -->
+
+
+
+<!-- Contents -->
+<td>
+
+<table class="content">
+<tbody>
+<tr class="content_header">
+<td colspan="14">Delfts Kampioenschap Programmeren, TU Delft, Practicumzalen Zuidplantsoen (2005-10-01)</td></tr>
+<tr class="content_header">
+<td class="nr">No.</td>
+<td>Team</td>
+<td>Organisation</td>
+<td>Class</td>
+<td>Score</td>
+<td>Time</td>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+<td>D</td>
+<td>E</td>
+<td>F</td>
+<td>G</td>
+<td>H</td></tr>
+<tr class="content_body1">
+<td class="nr">1</td>
+<td>Atari</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">7</td>
+<td class="time">1369</td>
+<td class="app">
+<div class="app">2&nbsp;(119)</div></td>
+<td class="app">
+<div class="app">1&nbsp;(139)</div></td>
+<td class="app">
+<div class="app">3&nbsp;(99)</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(172)</div></td>
+<td class="app">
+<div class="app">3&nbsp;(262)</div></td>
+<td class="app">
+<div class="app">3&nbsp;(282)</div></td>
+<td class="app">
+<div class="app">2&nbsp;(136)</div></td></tr>
+<tr class="content_body2">
+<td class="nr">2</td>
+<td>Yet Another Contesting Contestant (YACC)</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">5</td>
+<td class="time">766</td>
+<td class="not_app">
+<div class="not_app">9</div></td>
+<td class="app">
+<div class="app">2&nbsp;(185)</div></td>
+<td class="app">
+<div class="app">2&nbsp;(214)</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(230)</div></td>
+<td class="app">
+<div class="app">1&nbsp;(68)</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(29)</div></td></tr>
+<tr class="content_body1">
+<td class="nr">3</td>
+<td>Persistence is futile</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">4</td>
+<td class="time">827</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(67)</div></td>
+<td class="app">
+<div class="app">2&nbsp;(252)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(290)</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">3&nbsp;(158)</div></td></tr>
+<tr class="content_body2">
+<td class="nr">4</td>
+<td>T.I.N.T.</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">3</td>
+<td class="time">672</td>
+<td class="not_app">
+<div class="not_app">2</div></td>
+<td class="app">
+<div class="app">1&nbsp;(132)</div></td>
+<td class="app">
+<div class="app">2&nbsp;(213)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">3&nbsp;(267)</div></td></tr>
+<tr class="content_body1">
+<td class="nr">5</td>
+<td>ECFh</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">3</td>
+<td class="time">689</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">2&nbsp;(269)</div></td>
+<td class="app">
+<div class="app">7&nbsp;(185)</div></td>
+<td class="not_app">
+<div class="not_app">4</div></td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">1</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(95)</div></td></tr>
+<tr class="content_body2">
+<td class="nr">6</td>
+<td>Strike --</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">2</td>
+<td class="time">556</td>
+<td class="not_app">
+<div class="not_app">10</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">10&nbsp;(176)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">3&nbsp;(160)</div></td></tr>
+<tr class="content_body1">
+<td class="nr">7</td>
+<td>Just In Time</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">1</td>
+<td class="time">98</td>
+<td class="not_app">
+<div class="not_app">3</div></td>
+<td class="app">
+<div class="app">1&nbsp;(98)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr class="content_body2">
+<td class="nr">8</td>
+<td>Result Undefined</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">1</td>
+<td class="time">98</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(98)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">1</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">3</div></td></tr>
+<tr class="content_body1">
+<td class="nr">9</td>
+<td>team rookworst</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">1</td>
+<td class="time">117</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(117)</div></td>
+<td class="not_app">
+<div class="not_app">3</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">3</div></td></tr>
+<tr class="content_body2">
+<td class="nr">10</td>
+<td>Programmeren kun je leren</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">1</td>
+<td class="time">156</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">3</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">3&nbsp;(116)</div></td></tr>
+<tr class="content_body1">
+<td class="nr">11</td>
+<td>klacie--</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">1</td>
+<td class="time">200</td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">3&nbsp;(160)</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">6</div></td></tr>
+<tr class="content_body2">
+<td class="nr">12</td>
+<td>Team ED-ME</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">1</td>
+<td class="time">241</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">5</div></td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">2</div></td>
+<td>&nbsp;</td>
+<td class="app">
+<div class="app">1&nbsp;(241)</div></td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">2</div></td></tr>
+<tr class="content_body1">
+<td class="nr">13</td>
+<td>MSG</td>
+<td>None</td>
+<td>Spectators</td>
+<td class="score">1</td>
+<td class="time">393</td>
+<td class="app">
+<div class="app">6&nbsp;(293)</div></td>
+<td class="not_app">
+<div class="not_app">8</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">1</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr class="content_body2">
+<td class="nr">14</td>
+<td>chown -R us ./BASE</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">0</td>
+<td class="time">0</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr class="content_body1">
+<td class="nr">15</td>
+<td>floorbunnyrollers</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">0</td>
+<td class="time">0</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">7</div></td></tr>
+<tr class="content_body2">
+<td class="nr">16</td>
+<td>geek_attack()</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">0</td>
+<td class="time">0</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">6</div></td></tr>
+<tr class="content_body1">
+<td class="nr">17</td>
+<td>the Golden Monkeys</td>
+<td>TU Delft</td>
+<td>Contestants</td>
+<td class="score">0</td>
+<td class="time">0</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="not_app">
+<div class="not_app">2</div></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></tbody></table>
+</td>
+<!-- End of Contents -->
+</TR></TABLE></BODY></HTML>
